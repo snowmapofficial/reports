@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3882RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-07T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3882RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-07T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-08T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, wind-loaded gullies, bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Size + frequency of danger zones rapidly increase with ascending altitude</avActivityHighlights>
+          <avActivityComment>Avalanche danger above 1800 m is considerable, below that altitude danger is low. The fresh snow and older drifts at high altitudes are the main problem. The fresh snow can be triggered in some steep terrain. On steep ridges, behind discontinuities and in wind-loaded gullies and bowls, older danger zones have been blanketed. Size and frequency of danger zones increase with ascending altitude. Small-to-medium avalanches can be triggered by 1 person. Danger will increase during the course of the day. A cautious route selection is advised. Glide-snow avalanches continue to be possible on steep smooth slopes.</avActivityComment>
+          <snowpackStructureComment>By Sunday evening, as the snowfall level dropped, 30-40 cm of fresh snow was registerred. Bonding of fresh snow to old snow is good at low altitudes, but deteriorates higher up where weak layers are evident. Wind impact has generated easily triggered snowdrift accumulations, as cracks and triggerings today have confirmed. The old snowpack is highly irregular. The warm and wet ground is reinforcing the gliding movement of the entire snowpack, though this has now receded somewhat.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Snow showers will taper off. Monday daytime:  At 1500-2500 m poor visibility, otherwise sunshine. Temperature at 2000 m: -11 degrees. Moderate E/NE winds.</wxSynopsisComment>
+          <tendencyComment>Several sunny days lie ahead. Starting on Wednesday, rising temperatures and southerly foehn winds. Avalanche danger will decrease.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
