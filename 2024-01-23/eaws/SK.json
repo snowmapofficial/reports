@@ -1,0 +1,134 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "By morning, a second avalanche level is declared above the tree line in all our mountains. Wind-blown snow remains the main avalanche problem. Northwest winds will increase to gale force during tomorrow. Therefore, wind-beaten slabs will form on leeward sides under glass walls and in narrow couloirs, the stability of which is still being assessed. Their release is possible on steep slopes with little additional retraction. Small to medium sized slab avalanches are particularly threatening. Wet snow will be the second avalanche problem in the afternoon. At elevations below 1100, the snowpack will become soaked and lose its strength due to warming and rain. Especially avalanches and small avalanches from wet snow are threatened and all exposures will be dangerous.",
+        "highlights": "Watch out for wind-slabs above the tree line."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "N",
+            "NE",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1100"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "1752acf4-1148-41e4-add2-d9b3f2808ec1",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-01-24"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-01-23T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "From Tuesday to Wednesday, between 5 and 15 cm of new, mostly powdery snow fell in our mountains. However, this is very unevenly distributed due to very strong winds, which will increase in strength during Tuesday. The ridges of the mountains are blown into a hard, sometimes even grassy base. There is loose powder snow at higher elevations, but it is packed on top of a hard base. At lower altitudes and in the forest belt, the snow cover will become waterlogged due to warming with rain and will break through to the hard ground. The highest snowfall in the Slovak mountain ranges was in the Western Tatras and the Fatras."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Permalink\n\n<br><br><i>Built by: Pavel Betko</i>",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-01-23T23:00:00+00:00",
+        "endTime": "2024-01-24T23:00:00+00:00"
+      }
+    }
+  ]
+}
