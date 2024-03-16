@@ -1,0 +1,132 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Moderate avalanche danger is valid in all mountain ranges from the middle positions, i.e. 2nd degree from the 5-part international scale. Precipitation will be added to the hard icy old snow cover during Monday. The snowline will gradually decrease during the day. The passage of the front will be accompanied by strong winds, the direction of which will vary throughout the day. The main problems are therefore new snow (above 1300 m) and wind-blown snow (all exposures are highlighted due to the changing wind direction). Particularly dangerous will be the leeward sides of ridges and steep couloirs of the highest altitudes, where the wind will deposit snow slabs and pillows during the day that are not bound to the hard underlying layer of old snow.",
+        "highlights": "A cold front will bring precipitation and wind."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "af27a0aa-6d45-4459-8fbc-5741be5f8c60",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-01-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2023-12-31T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snow cover in all mountain ranges has hardened and hardened due to temperature changes. A thick layer of ice has formed on its surface. New snow is expected to arrive during the day, which will be very unevenly distributed due to the wind. The large difference in hardness between the old snow cover and the new snow will cause instability in the snow profile."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "With snow forecast coupled with strong winds rising.\n\n<BR><BR> <I> Compiled by : Martin Buliak</I>",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2023-12-31T23:00:00+00:00",
+        "endTime": "2024-01-01T23:00:00+00:00"
+      }
+    }
+  ]
+}
