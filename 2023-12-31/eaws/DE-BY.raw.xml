@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3813RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-31T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3813RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-31T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-01T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Low avalanche danger in the Bavarian Alps</avActivityHighlights>
+          <avActivityComment>Avalanche danger in the Bavarian Alps is low. Gliding snow is the main problem. On very steep slopes with smooth ground  in all aspects, isolated naturally triggered glide-snow releases (small-to-medium) are possible. Glide cracks are indicators of potential danger.&#13;
+Apart from that, freshly generated snowdrift accumulations can trigger a small slab even by minimum additional loading. Danger zones occur above the timberline near near ridges on north and east-facing slopes and in wind-loaded gullies and bowls. Frequency of avalanche prone locations increases with ascending altitude. Danger of falling outweighs that of being buried in snow from avalanches.</avActivityComment>
+          <snowpackStructureComment>The old snowpack surface is icy, melt-freeze encrusted and capable of bearing loads. Only small amounts of fresh snow are being transported by westerly winds in exposed terrain, generating small, often trigger-sensitive drifts on leeward slopes. Backcountry tours usually require passages where skis must be carried.</snowpackStructureComment>
+          <tendencyComment>Rainfall up to intermediate altitudes is intensifying the gliding snow problem. At higher altitudes the fresh snow and winds are increasing the danger of dry-snow slab avalanches.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
