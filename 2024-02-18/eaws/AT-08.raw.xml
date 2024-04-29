@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4248RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4248RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, in wind-loaded gullies and bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2600 glide-snow avalanches on steep slopes over smooth ground</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Main problem: fresh snowdrift accumulations</avActivityHighlights>
+          <avActivityComment>As a result of fresh snowfall and strong NW winds, trigger-prone snowdrift accumulations will be generated. Danger zones occur in steep ridgeline terrain, behind discontinuities, in wind-loaded gullies and bowls. Avalanche prone locations increase with ascending altitude. Medium-sized slab avalanches can be triggered by 1 person. Snow sports in outlying terrain demand experience in assessing avalanche dangers on-site. The snowdrift accumulations will increase further as the day progresses. Loose-snow avalanches can trigger natureally in steep rocky terrain. Glide-snow avalanaches can trigger at any time of day or night below 2600 m and grow to medium size. Caution below glide cracks.</avActivityComment>
+          <snowpackStructureComment>By Monday evening up to 25 cm of fresh snow is anticipated in the Allgäu Alps, Lechquellen, Lechtal Alps and Verwall, accompanied by wind impact, in the Bregenzerwald up to 20 cm, elsewhere up to 15 cm. The fresh snow and drifts will be deposited atop soft layers on high altitude shady slopes, elsewhere mostly atop a hard old snowpack. There are trigger-prone layers inside the fresh drifts. In addition, on high-altitude shadyn slopes there are near-surfae weak layers which are prone to triggering in isolated cases. The warm ground and wet snowpack base reinforce gliding snowpack movements, esp on E/S/W facing slopes. Below 1400 m there is very little snow on the ground.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Clouds will move in, light-to-moderate precipitation will set in, snowfall level just below 1500 m. Monday daytime:  Light snowfall, moderate in the northern ranges, above 1400 m, tapering off in the afternoon. At 2000 m: -3 degrees. Brisk NW winds.</wxSynopsisComment>
+          <tendencyComment>As a consequence of fresh snow above 1100 m and moderate-to-brisk N/NW winds, avalanche danger will rise further. Glide-snow avalanches still possible in isolated cases.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
