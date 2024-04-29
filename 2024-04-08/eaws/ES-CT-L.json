@@ -1,0 +1,112 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a moderate northerly wind, clearly visible wind slabs will form during the course of the night. These can in some places be released by people, but they will be small in most cases. The avalanche prone locations are to be found in all aspects above approximately 2000 m. <br/> Gliding avalanches can also occur at any time.",
+        "highlights": "Fresh wind slabs represent the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "S",
+            "NE",
+            "SE",
+            "W",
+            "SW",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "gliding_snow",
+          "aspects": [
+            "N",
+            "S",
+            "NE",
+            "W",
+            "SE",
+            "SW",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "2300"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "37433199-ee37-4416-a1dc-5a17718730a6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-04-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-04-08T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The surface of the snow cover is brown due to the effect of the Sahara dust. 10 cm of snow will fall during the night above approximately 2000 m. 20 cm of snow will fall until Wednesday above approximately 1800 m. The moderate wind will transport the new snow. The danger of moist avalanches will decrease gradually."
+      },
+      "source": {
+        "provider": {
+          "name": "Conselh Generau d'Aran",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Wednesday: The danger of dry slab avalanches will not decrease for the time being.",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-04-08T22:00:00+00:00",
+        "endTime": "2024-04-09T22:00:00+00:00"
+      }
+    }
+  ]
+}
