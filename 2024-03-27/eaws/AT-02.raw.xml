@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4572RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-27T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4572RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-27T07:00:00+00:00</beginPosition>
+          <endPosition>2024-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Unterhalb von rund 2000 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Oberhalb von rund 2200 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Oberhalb von rund 2000 m</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es sind am Nachmittag vermehrt spontane nasse Lawinen zu erwarten. Triebschneeansammlungen vorsichtig beurteilen.</avActivityHighlights>
+          <avActivityComment>Vormittag: &#13;
+Triebschneeansammlungen können vor allem an Nordwest-, Nord- und Nordwesthängen von einzelnen Wintersportlern ausgelöst werden. Dies besonders in Rinnen und Mulden oberhalb von rund 2200 m. Lawinen sind meist klein. Zudem besteht eine Gefahr von Gleitschneelawinen. Dies besonders in extrem steilen, ostseitigen und noch nicht entladenen Einzugsgebieten. Lawinen sind teilweise mittelgroß.&#13;
+Nachmittag:&#13;
+Die spontane Aktivität von Nass- und Gleitschneelawinen nimmt mit dem Einsetzen der intensiven Regenfälle deutlich zu. Es sind am Nachmittag vermehrt spontane nasse Lawinen zu erwarten, vor allem solche mittlerer Größe. Mit Neuschnee und starkem Südwind entstehen störanfällige Triebschneeansammlungen. Dies vor allem an Felswandfüßen und hinter Geländekanten sowie in Rinnen und Mulden oberhalb von rund 2000 m. Die frischen Triebschneeansammlungen können an West-, Nord- und Osthängen  oberhalb von rund 2000 m leicht ausgelöst werden oder vereinzelt spontan abgleiten. Trockene Lawinen können die durchnässte Schneedecke mitreißen und mittlere Größe erreichen. Mit dem intensiven Schneefall sind vermehrt Lockerschneelawinen zu erwarten, auch mittelgroße. Aus noch nicht entladenen Einzugsgebieten sind kleine und mittlere Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Verbreitet intensiver Niederschlag. Der Regen führt am Nachmittag unterhalb von rund 2000 m verbreitet zu einer raschen Durchnässung der Schneedecke. Die Wetterbedingungen bewirken vor allem an Schattenhängen eine schnelle Schwächung in den tieferen Schichten der Schneedecke. Die verschiedenen Triebschneeansammlungen sind schlecht miteinander und mit dem Altschnee verbunden. Dies an West-, Nord- und Osthängen  oberhalb von rund 2000 m.</snowpackStructureComment>
+          <wxSynopsisComment>Es regnet und schneit an häufig. Am Nachmittag wird der Niederschlag allmählich stärker. Es kann bei hoher Intensität vorübergehend bis gegen 1300 m schneien. Die Temperaturen liegen in 1000 m bei 7 Grad, in 2000 m bei 0 bis 2 Grad. Der Südwind weht mäßig bis stark mit Spitzen von 40 bis 70 km/h.</wxSynopsisComment>
+          <tendencyComment>Die Gefahrenspitze wird voraussichtlich am Abend erreicht. Entlang der Grenze zu Italien sind einzelne große spontane Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-10"/>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4572RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-27T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4572RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-27T07:00:00+00:00</beginPosition>
+          <endPosition>2024-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Oberhalb von rund 2400 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Oberhalb von rund 2000 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Unterhalb von rund 2600 m</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Gefahr von trockenen Lawinen. Triebschneeansammlungen vorsichtig beurteilen.</avActivityHighlights>
+          <avActivityComment>Vormittag: &#13;
+Triebschneeansammlungen können vor allem an Nordwest-, Nord- und Nordwesthängen teilweise von einzelnen Wintersportlern ausgelöst werden. Dies besonders in Rinnen und Mulden oberhalb von rund 2400 m. Lawinen sind meist klein. Zudem besteht eine latente Gefahr von Gleitschneelawinen. Dies besonders in extrem steilen, ostseitigen und noch nicht entladenen Einzugsgebieten. Lawinen sind teilweise mittelgroß. &#13;
+Nachmittag:&#13;
+Mit Neuschnee und starkem Südwind entstehen an West-, Nord- und Osthängen störanfällige Triebschneeansammlungen. Dies vor allem an Felswandfüßen und hinter Geländekanten sowie in Rinnen und Mulden oberhalb von rund 2000 m. Die frischen Triebschneeansammlungen können oberhalb von rund 2000 m leicht ausgelöst werden oder vereinzelt spontan abgleiten. Aus noch nicht entladenen Einzugsgebieten sind kleine und mittlere Gleitschneelawinen möglich. Dies vor allem in den Gebieten mit Regen. </avActivityComment>
+          <snowpackStructureComment>Es fallen oberhalb von rund 2000 m 10 bis 15 cm Schnee, lokal auch mehr. Die verschiedenen Triebschneeansammlungen sind schlecht miteinander und mit dem Altschnee verbunden. Dies an West-, Nord- und Osthängen  oberhalb von rund 2000 m. Der Regen führt am Nachmittag unterhalb von rund 2000 m verbreitet zu einer raschen Durchnässung der Schneedecke.  </snowpackStructureComment>
+          <wxSynopsisComment>Es ziehen ab dem Vormittag ein paar Schauer durch. Am Nachmittag wird der Niederschlag allmählich stärker. Die Schneefallgrenze liegt bei 1600 bis 2000 m. Die Temperaturen liegen in 1000 m bei 7 Grad, in 2000m bei 0 bis 2 Grad und in 3000 m um -3 Grad. Der Südwind weht zum Teil kräftig bis stark mit Spitzen von 40 bis 70 km/h.</wxSynopsisComment>
+          <tendencyComment>Anstieg der Lawinengefahr in der Nacht. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-03-02"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-09"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4572RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-27T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4572RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-27T07:00:00+00:00</beginPosition>
+          <endPosition>2024-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es sind gegen Abend spontane nasse Lawinen zu erwarten.</avActivityHighlights>
+          <avActivityComment>Die spontane Aktivität von Nass- und Gleitschneelawinen nimmt mit dem Einsetzen der intensiven Regenfälle deutlich zu. Es sind gegen Abend spontane nasse Lawinen zu erwarten, vor allem solche mittlerer Größe. Aus noch nicht entladenen Einzugsgebieten sind kleine und mittlere Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Verbreitet intensiver Niederschlag. Der Regen führt gegen Abend verbreitet zu einer raschen Durchnässung der Schneedecke. Die Wetterbedingungen bewirken vor allem an Schattenhängen eine schnelle Schwächung in den tieferen Schichten der Schneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Stellenweise gibt es ab dem Vormittag etwas Niederschlag. Am Nachmittag wird der Niederschlag allmählich stärker. Die Schneefallgrenze liegt bei 2000 m. Die Temperaturen liegen in 1000 m bei 7 Grad, in 2000 m bei 0 bis 2 Grad. Der Südwind weht mäßig bis stark mit Spitzen von 40 bis 70 km/h.</wxSynopsisComment>
+          <tendencyComment>Die Gefahrenspitze wird voraussichtlich am Abend erreicht. Entlang der Grenze zu Slowenien sind einzelne große spontane Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4572RGR4">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-27T07:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4572RGR4">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-27T07:00:00+00:00</beginPosition>
+          <endPosition>2024-03-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-03-27T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-03-27T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Es sind gegen Abend spontane nasse Lawinen möglich.</avActivityHighlights>
+          <avActivityComment>Die spontane Aktivität von Nass- und Gleitschneelawinen nimmt mit dem Einsetzen der intensiven Regenfälle deutlich zu. Es sind gegen Abend einzelne spontane nasse Lawinen möglich, auch mittelgroße. Aus noch nicht entladenen Einzugsgebieten sind kleine und mittlere Gleitschneelawinen möglich. </avActivityComment>
+          <snowpackStructureComment>Verbreitet ergiebiger Niederschlag. Der Regen führt gegen Abend verbreitet zu einer raschen Durchnässung der Schneedecke. Die Wetterbedingungen bewirken vor allem an Schattenhängen eine schnelle Schwächung in den tieferen Schichten der Schneedecke. </snowpackStructureComment>
+          <wxSynopsisComment>Am Nachmittag breitet sich der Niederschlag aus. Die Schneefallgrenze liegt von West nach Ost bei 1600 bis 2000 m. Die Temperaturen liegen in 1000 m bei 7 Grad, in 2000 m bei 0 bis 2 Grad. Der Südwind weht zum Teil kräftig bis stark mit Spitzen von 40 bis 70 km/h.</wxSynopsisComment>
+          <tendencyComment>Die Lawinengefahr bleibt gleich. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-05-02"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+      <locRef xlink:href="AT-02-04-02"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-12-02"/>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
