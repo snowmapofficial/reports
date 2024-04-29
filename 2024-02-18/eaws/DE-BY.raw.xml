@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4244RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-18T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4244RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-18T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-19T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Avoid snowdrift accumulations</avActivityHighlights>
+          <avActivityComment>Avalanche danger above the treeline is moderate, below that altitude danger is low. The main problem are fresh snowdrifts which can be triggered as medium-sized slab avalanches by minimum additional loading, e.g., a single skier. Avalanche prone locations are found in steep ridgeline terrain in NE-E-SW aspects as well as in wind-loaded gullies and bowls.&#13;
+Possibility of naturally triggered small to medium-sized loose snow avalanches in steep rocky terrain.&#13;
+In addition, in places small to medium-sized glide snow avalanches can trigger naturally on very steep slopes with smooth ground that have not yet discharged. </avActivityComment>
+          <snowpackStructureComment>On Monday widespread 10 to 30 cm of snowfall which will be continuously transported by stormy northwesterly wind. At lower altitudes the new snow and drifted snow is frequently deposited atop a moist old snowpack surface, at higher altitudes on a hard old snowpack surface. Trigger-prone loose intermediate layers can form within the snowdrifts. At high altitudes the old snowpack is thoroughly moist, at intermediate altitudes thoroughly wet. A wet layer constitutes the transition to the ground which enables gliding movements of the snow. At high altitudes, the uppermost part of the snowpack consists of crusts or faceted (expansively metamorphosed) layers. These are, however, not likely to trigger. The old snowpack is compact and stable by and large. Below 1500 m there is very little snow on the ground.</snowpackStructureComment>
+          <tendencyComment>As a consequence of further precipitations, avalanche danger can rise on Tuesday.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
