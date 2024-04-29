@@ -1,0 +1,75 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-01-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-01-11T23:00:00Z",
+      "endTime" : "2024-01-12T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack are treacherous. Gliding avalanches and moist snow slides during the day are likely to occur.",
+      "comment" : "Avalanche prone weak layers exist deep in the snowpack in particular on steep, little used north and east facing slopes. These can be released easily. Sometimes the avalanches are medium-sized. The avalanche prone locations are to be found especially adjacent to ridgelines and in gullies and bowls and at transitions from a shallow to a deep snowpack. These avalanche prone locations are covered with new snow and are difficult to recognise. Artificially triggered avalanches and field observations confirm this situation. <br/> As a consequence of warming during the day and solar radiation more frequent small and, in isolated cases, medium-sized gliding avalanches and moist snow slides are to be expected. Backcountry touring and other off-piste activities call for careful route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "Large quantities of fresh snow and the wind-drifted snow of last week are lying on a crust in all aspects at intermediate and high altitudes. The avalanche conditions are to some extent treacherous. In particular very steep, little used shady slopes and steep terrain that is interspersed with rocks: Faceted weak layers exist deep in the snowpack. Sunshine and high temperatures will give rise as the day progresses to increasing moistening of the snowpack in particular on steep sunny slopes. These conditions will bring about a detrimental transformation of the near-surface layers."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Saturday: Further increase in danger of gliding avalanches and moist snow slides as a consequence of warming during the day and solar radiation.",
+      "tendencyType" : "increasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-01-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SE", "W", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "W", "SW", "E" ]
+    } ],
+    "bulletinID" : "dc984d06-549a-4f20-8355-76f10c3eac48",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
