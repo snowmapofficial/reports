@@ -1,0 +1,110 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Prognozowany bardzo silny  wiatr, w porywach do 160 km/h. po\u0142udniowy\n mo\u017cliwe opady \u015bniegu z deszczem\nIzoterma 0\u00b0C obni\u017caj\u0105ca si\u0119 od 3200 wieczorem do 2300 rano\n\u015anieg przewiany.Nale\u017cy zwraca\u0107 szczeg\u00f3ln\u0105 uwag\u0119 na od\u0142o\u017cone depozyty pod graniami, w \u017clebach , formacjach wkl\u0119s\u0142ych, kt\u00f3re przy wzro\u015bcie temperatury i dodatkowym obci\u0105\u017ceniu b\u0119d\u0105 powodowa\u0142y  wzrost zagro\u017cenia lawinowego."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "NE",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          }
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "NE",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          }
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "NE",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "0"
+          }
+        }
+      ],
+      "bulletinID": "PL-12_2024-03-28 20:00",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-03-28"
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "0"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "publicationTime": "2024-03-27T17:17:00",
+      "regions": [
+        {
+          "regionID": "PL-12"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Pokrywa \u015bnie\u017cna jest na og\u00f3\u0142 zwi\u0105zana dobrze, ale na niekt\u00f3rych stromych stokach jest zwi\u0105zana umiarkowanie. Wyzwolenie lawiny jest mo\u017cliwe przewa\u017cnie przy du\u017cym obci\u0105\u017ceniu dodatkowym, szczeg\u00f3lnie na stromych stokach wskazanych w komunikacie lawinowym. Samoistne zej\u015bcie bardzo du\u017cych lawin jest ma\u0142o prawdopodobne."
+      },
+      "source": {
+        "provider": {
+          "name": "Tatrza\u0144skie Ochotnicze Pogotowie Ratunkowe",
+          "website": "https://lawiny.topr.pl/"
+        }
+      },
+      "travelAdvisory": {
+        "comment": "Cz\u0119\u015bciowo niekorzystne warunki. Poruszanie si\u0119 wymaga umiej\u0119tno\u015bci oceny lokalnego zagro\u017cenia lawinowego, odpowiedniego wyboru trasy oraz zachowania elementarnych \u015brodk\u00f3w bezpiecze\u0144stwa na wszystkich stromych stokach, a szczeg\u00f3lnie na wskazanych w komunikacie lawinowym, jako niekorzystnych pod wzgl\u0119dem wystawy lub wysoko\u015bci."
+      },
+      "validTime": {
+        "startTime": "2024-03-27T17:17:00",
+        "endTime": "2024-03-28T20:00:00"
+      }
+    }
+  ]
+}
