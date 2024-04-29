@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="../web/bra.xslt"?>
+<BULLETINS_NEIGE_AVALANCHE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TYPEBULLETIN="BRA" ID="1" MASSIF="Chablais" DATEBULLETIN="2024-04-23T16:00:00" DATEECHEANCE="2024-04-24T18:00:00" DATEVALIDITE="2024-04-24T18:00:00" DATEDIFFUSION="2024-04-23T16:00:26" AMENDEMENT="false">
+  <DateValidite>2024-04-24T18:00:00</DateValidite>
+  <CARTOUCHERISQUE>
+    <RISQUE RISQUE1="2" EVOLURISQUE1="" LOC1="&lt;2500" ALTITUDE="2500" RISQUE2="3" EVOLURISQUE2="" LOC2="&gt;2500" RISQUEMAXI="3" COMMENTAIRE="Au-dessus de 2500m risque marqué, plus bas risque limité." RISQUEMAXIJ2="2" DATE_RISQUE_J2="2024-04-25T00:00:00"/>
+    <PENTE NE="false" E="false" SE="true" S="true" SW="true" W="true" NW="false" N="false" COMMENTAIRE="pente expo à la Bise"/>
+    <ACCIDENTEL><![CDATA[Plaques à vent]]></ACCIDENTEL>
+    <NATUREL><![CDATA[Purges en pente raide]]></NATUREL>
+    <RESUME><![CDATA[Départs spontanés : Purges en pente raide
+Déclenchements skieurs : Plaques à vent]]></RESUME>
+    <RisqueJ2><![CDATA[risque limité]]></RisqueJ2>
+    <CommentaireRisqueJ2><![CDATA[Lente stabilisation du manteau neigeux, les plaques à vent sont encore présentes.]]></CommentaireRisqueJ2>
+    <AVIS/>
+    <VIGILANCE/>
+    <ImageRisque>montagne_risques_1.png</ImageRisque>
+    <ImagePente>rose_pentes_1.png</ImagePente>
+  </CARTOUCHERISQUE>
+  <STABILITE>
+    <SitAvalTyp SAT1="2" SAT2=""/>
+    <TEXTE><![CDATA[Situation typique : NEIGE VENTÉE. Situation hivernale.
+
+DEPARTS SPONTANES : Peu d’activité.
+Dans les pentes raides / couloirs, des petites purges peuvent partir spontanément sous une averse de neige ou sous une éclaircie. Ces avalanches peuvent déclencher une petite plaque en contrebas. Taille 1 (petite), rarement 2 (moyenne).
+
+DECLENCHEMENTS PROVOQUES : 
+*Dans les secteurs exposés au vent de NE, quelques plaques à vent se forment mardi soir. Elles sont facilement déclenchables au passage d’un skieur et se situent souvent près des crêtes. Taille 1 à 2. Au-delà de 2500m, les quantités de neige mobilisable sont plus importantes.
+*Sous une éclaircie, la neige fraîche s’alourdit en surface et peut créer une petite plaque, pouvant être déclenchée très facilement. Taille 1 (petite).]]></TEXTE>
+  </STABILITE>
+  <QUALITE>
+    <TEXTE><![CDATA[Enneigement : déficitaire sous 2000 m, bon plus haut. On peut chausser les skis vers 1600/1700 m en versant N, 2000 m versant S. En-deça de ces altitudes, attention aux rochers cachés par la neige récente.
+
+Qualité de la neige ce mercredi : Couche de neige récente et froide assez épaisse (enfoncement piéton de 30/40cm à 2500m). Dans les secteurs exposés au vent de NE, neige fortement travaillée par le vent des derniers jours.]]></TEXTE>
+  </QUALITE>
+  <ENNEIGEMENT DATE="2024-04-23T00:00:00" LimiteSud="1400" LimiteNord="1300">
+    <NIVEAU ALTI="1000" N="0" S="0"/>
+    <NIVEAU ALTI="1500" N="5" S="3"/>
+    <NIVEAU ALTI="2000" N="140" S="60"/>
+    <ImageEnneigement>montagne_enneigement_1.png</ImageEnneigement>
+  </ENNEIGEMENT>
+  <NEIGEFRAICHE ALTITUDESS="1800">
+    <NEIGE24H DATE="2024-04-19T00:00:00" SS24Min="10" SS24Max="15"/>
+    <NEIGE24H DATE="2024-04-20T00:00:00" SS24Min="1" SS24Max="3"/>
+    <NEIGE24H DATE="2024-04-21T00:00:00" SS24Min="5" SS24Max="10"/>
+    <NEIGE24H DATE="2024-04-22T00:00:00" SS24Min="1" SS24Max="3"/>
+    <NEIGE24H DATE="2024-04-23T00:00:00" SS24Min="1" SS24Max="5"/>
+    <NEIGE24H DATE="2024-04-24T00:00:00" SS24Min="1" SS24Max="5"/>
+    <ImageNeigeFraiche>graphe_neige_fraiche_1.png</ImageNeigeFraiche>
+  </NEIGEFRAICHE>
+  <METEO ALTITUDEVENT1="2000" ALTITUDEVENT2="2500">
+    <COMMENTAIRE>Nuages accrochant le relief vers 2000/3000m et éclaircies. Averses de neige en fin de journée.</COMMENTAIRE>
+    <ECHEANCE DATE="2024-04-24T06:00:00" FF1="20" DD1="N" FF2="20" DD2="Vrb" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="2" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2024-04-24T12:00:00" FF1="10" DD1="NO" FF2="15" DD2="NO" ISO0="1200" PLUIENEIGE="-1" TEMPSSENSIBLE="3" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2024-04-24T18:00:00" FF1="20" DD1="O" FF2="30" DD2="NO" ISO0="1600" PLUIENEIGE="1000" TEMPSSENSIBLE="80" MERNUAGES="-1"/>
+    <ECHEANCE DATE="2024-04-25T00:00:00" FF1="30" DD1="NO" FF2="40" DD2="NO" ISO0="1200" PLUIENEIGE="800" TEMPSSENSIBLE="61" MERNUAGES="-1"/>
+    <ImageMeteo>apercu_meteo_1.png</ImageMeteo>
+  </METEO>
+  <BSH>
+    <METEO>
+      <ECHEANCE DATE="2024-04-17T06:00:00" FF1="30" DD1="NO" FF2="40" DD2="NO" ISO0="1400" PLUIENEIGE="900" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-17T12:00:00" FF1="30" DD1="NO" FF2="40" DD2="NO" ISO0="1300" PLUIENEIGE="1000" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-17T18:00:00" FF1="30" DD1="NO" FF2="40" DD2="NO" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-18T00:00:00" FF1="20" DD1="NO" FF2="30" DD2="NO" ISO0="1000" PLUIENEIGE="900" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2024-04-18T06:00:00" FF1="30" DD1="N" FF2="35" DD2="N" ISO0="900" PLUIENEIGE="700" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2024-04-18T12:00:00" FF1="30" DD1="N" FF2="40" DD2="N" ISO0="1100" PLUIENEIGE="600" TEMPSSENSIBLE="63"/>
+      <ECHEANCE DATE="2024-04-18T18:00:00" FF1="40" DD1="NE" FF2="45" DD2="NE" ISO0="1200" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-19T00:00:00" FF1="45" DD1="NE" FF2="50" DD2="NE" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2024-04-19T06:00:00" FF1="10" DD1="Vrb" FF2="20" DD2="Vrb" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="6"/>
+      <ECHEANCE DATE="2024-04-19T12:00:00" FF1="20" DD1="O" FF2="30" DD2="NO" ISO0="1500" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2024-04-19T18:00:00" FF1="40" DD1="O" FF2="60" DD2="NO" ISO0="1700" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2024-04-20T00:00:00" FF1="60" DD1="O" FF2="70" DD2="O" ISO0="1500" PLUIENEIGE="1300" TEMPSSENSIBLE="63"/>
+      <ECHEANCE DATE="2024-04-20T06:00:00" FF1="40" DD1="N" FF2="50" DD2="NO" ISO0="1200" PLUIENEIGE="1000" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-20T12:00:00" FF1="30" DD1="N" FF2="40" DD2="N" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-20T18:00:00" FF1="40" DD1="N" FF2="50" DD2="N" ISO0="1400" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-21T00:00:00" FF1="20" DD1="N" FF2="30" DD2="N" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-21T06:00:00" FF1="20" DD1="N" FF2="30" DD2="NO" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="2"/>
+      <ECHEANCE DATE="2024-04-21T12:00:00" FF1="15" DD1="NO" FF2="30" DD2="NO" ISO0="1300" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2024-04-21T18:00:00" FF1="30" DD1="N" FF2="40" DD2="N" ISO0="1400" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-22T00:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="1200" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-22T06:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="1000" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-22T12:00:00" FF1="30" DD1="NE" FF2="50" DD2="NE" ISO0="1200" PLUIENEIGE="-1" TEMPSSENSIBLE="3"/>
+      <ECHEANCE DATE="2024-04-22T18:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="1300" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-23T00:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="1100" PLUIENEIGE="700" TEMPSSENSIBLE="61"/>
+      <ECHEANCE DATE="2024-04-23T06:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="800" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2024-04-23T12:00:00" FF1="50" DD1="NE" FF2="60" DD2="NE" ISO0="1200" PLUIENEIGE="-1" TEMPSSENSIBLE="4"/>
+      <ECHEANCE DATE="2024-04-23T18:00:00" FF1="40" DD1="NE" FF2="60" DD2="NE" ISO0="1400" PLUIENEIGE="800" TEMPSSENSIBLE="80"/>
+      <ECHEANCE DATE="2024-04-24T00:00:00" FF1="40" DD1="NE" FF2="50" DD2="NE" ISO0="1200" PLUIENEIGE="800" TEMPSSENSIBLE="61"/>
+    </METEO>
+    <ENNEIGEMENTS>
+      <ENNEIGEMENT DATE="2024-04-17T00:00:00" LimiteSud="1000" LimiteNord="1000">
+        <NIVEAU ALTI="1000" N="3" S="3"/>
+        <NIVEAU ALTI="1500" N="15" S="15"/>
+        <NIVEAU ALTI="2000" N="130" S="50"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-18T00:00:00" LimiteSud="1000" LimiteNord="1000">
+        <NIVEAU ALTI="1000" N="3" S="3"/>
+        <NIVEAU ALTI="1500" N="15" S="15"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-19T00:00:00" LimiteSud="1400" LimiteNord="1400">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="5" S="5"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-20T00:00:00" LimiteSud="1700" LimiteNord="1500">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="1" S="0"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-21T06:00:00" LimiteSud="1400" LimiteNord="1400">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="5" S="3"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-22T00:00:00" LimiteSud="1400" LimiteNord="1400">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="5" S="3"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+      <ENNEIGEMENT DATE="2024-04-23T00:00:00" LimiteSud="1400" LimiteNord="1300">
+        <NIVEAU ALTI="1000" N="0" S="0"/>
+        <NIVEAU ALTI="1500" N="5" S="3"/>
+        <NIVEAU ALTI="2000" N="140" S="60"/>
+      </ENNEIGEMENT>
+    </ENNEIGEMENTS>
+    <NEIGEFRAICHE ALTITUDESS="1800">
+      <NEIGE24H DATE="2024-04-18T00:00:00" SS24Min="10" SS24Max="15"/>
+      <NEIGE24H DATE="2024-04-19T00:00:00" SS24Min="5" SS24Max="10"/>
+      <NEIGE24H DATE="2024-04-20T00:00:00" SS24Min="10" SS24Max="15"/>
+      <NEIGE24H DATE="2024-04-21T06:00:00" SS24Min="1" SS24Max="3"/>
+      <NEIGE24H DATE="2024-04-22T00:00:00" SS24Min="5" SS24Max="10"/>
+      <NEIGE24H DATE="2024-04-23T00:00:00" SS24Min="1" SS24Max="3"/>
+    </NEIGEFRAICHE>
+    <RISQUES>
+      <RISQUE DATE="2024-04-17T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2024-04-18T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2024-04-19T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2024-04-20T00:00:00" RISQUEMAXI="3"/>
+      <RISQUE DATE="2024-04-21T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2024-04-22T00:00:00" RISQUEMAXI="2"/>
+      <RISQUE DATE="2024-04-23T00:00:00" RISQUEMAXI="3"/>
+    </RISQUES>
+    <Image7derniersjours>sept_derniers_jours_1.png</Image7derniersjours>
+    <Image7derniersjours_portrait>sept_derniers_jours_portrait_1.png</Image7derniersjours_portrait>
+  </BSH>
+  <TexteMeta>
+    <Vigilance>Pour consulter la vigilance en cours, veuillez vous rendre sur le site <a href="https://vigilance.meteofrance.fr/fr">https://vigilance.meteofrance.fr/fr</a></Vigilance>
+    <EnteteGenerique/>
+    <BasDePageGenerique/>
+    <LienDocumentation/>
+    <Partenaires>Rédigé par Météo-France avec la contribution des observateurs du réseau nivo-météorologique. Partenariat : ANMSM (Maires de Stations de Montagne), DSF (Domaines Skiables de France), ADSP (Directeurs de Pistes et de la Sécurité des Stations de Sports d'Hiver) et autres acteurs de la montagne.</Partenaires>
+  </TexteMeta>
+</BULLETINS_NEIGE_AVALANCHE>
