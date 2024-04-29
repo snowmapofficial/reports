@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4698RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-12T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4698RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-12T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-15T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Erwärmungsimpuls, spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-12T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne, je nach Schneelage</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-15T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne, je nach Schneelage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr - auf Grund der Schneelage/-verteilung vor allem in höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird in der Früh als gering eingestuft, steigt dann aber im Tagesverlauf gebietsweise auf mäßig. In den höheren Lagen, wo auch noch eine durchgehende Schneedecke vorhanden ist, können im Tagesverlauf im besonnten Steilgelände meist kleine, selten große Lawinen spontan abrutschen oder ausgelöst werden. Einzelne Gleitschneelawinen sind je nach vorhandener Schneemenge im Steilgelände bei glattem Untergrund möglich. </avActivityComment>
+          <snowpackStructureComment>Die über Nacht nur oberflächig etwas gefestigte Schneedecke geht mit den steigenden Temperaturen und Sonnenschein rasch auf und wird instabil. Ansonsten ist die Schneedecke schon durchnässt und neigt auf glattem Untergrund zum Gleiten. Meist liegt nur mehr in höheren Lagen eine durchgehende Schneedecke mit mittleren Schneehöhen und der Abbau schreitet auch hier rasch voran.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint meist die Sonne. Schleierwolken können den Sonnenschein etwas dämpfen und für leicht diffuse Sichtverhältnisse sorgen. Der Wind weht schwach bis mäßig stark aus West bis Nordwest. Die Temperatur beträgt in 1500 m 9 bis 14 Grad, in 2000 m um 10 Grad.&#13;
+Am Sonntag gibt es viel Sonne, dazu einige hohe Wolkenfelder. Verbreitet auflebender Westwind und noch eine Spur wärmer mit bis zu 16 Grad in 1500 m Höhe und rund 12 Grad, in 2000 m Höhe.</wxSynopsisComment>
+          <tendencyComment>Letzter Lawinenbericht für die heurige Saison 2023/24</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4698RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-12T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4698RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-12T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-15T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Erwärmungsimpuls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>einzelne, je nach Schneelage</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Tagesgang der Lawinengefahr - auf Grund der Schneelage/-verteilung in höheren Lagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird allgemein als gering eingestuft, steigt aber im Tagesverlauf gebietsweise etwas an. In den höheren Lagen, wo auch noch eine durchgehende Schneedecke vorhanden ist, können im Tagesverlauf im besonnten Steilgelände dann meist kleine bis mittlere Lawinen spontan abrutschen oder ausgelöst werden. Einzelne Gleitschneelawinen sind je nach vorhandener Schneemenge im Steilgelände bei glattem Untergrund möglich. </avActivityComment>
+          <snowpackStructureComment>Die über Nacht nur oberflächig etwas gefestigte Schneedecke geht mit den steigenden Temperaturen und Sonnenschein rasch auf und wird instabil. Ansonsten ist die Schneedecke schon durchnässt und neigt auf glattem Untergrund zum Gleiten. Meist liegt nur mehr in höheren Lagen eine durchgehende Schneedecke mit mittleren Schneehöhen und der Abbau schreitet auch hier rasch voran.</snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag scheint meist die Sonne. Schleierwolken können den Sonnenschein etwas dämpfen und für leicht diffuse Sichtverhältnisse sorgen. Der Wind weht schwach bis mäßig stark aus West bis Nordwest. Die Temperatur beträgt in 1500 m 9 bis 14 Grad, in 2000 m um 10 Grad.&#13;
+Am Sonntag gibt es viel Sonne, dazu einige hohe Wolkenfelder. Verbreitet auflebender Westwind und noch eine Spur wärmer mit bis zu 16 Grad in 1500 m Höhe und rund 12 Grad, in 2000 m Höhe.</wxSynopsisComment>
+          <tendencyComment>Letzter Lawinenbericht für die heurige Saison 2023/24</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
