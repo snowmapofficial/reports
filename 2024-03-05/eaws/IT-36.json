@@ -1,0 +1,124 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Some snow will fall over a wide area. In all aspects large and, in isolated cases, very large avalanches are possible as a consequence of the snowfall. The new snow and wind slabs can be released easily, even by a single winter sport participant, above approximately 1800 m. <br/> Gliding avalanches can also occur, in particular on steep slopes below approximately 1800 m. <br/> Areas with glide cracks are to be avoided.",
+        "highlights": "The new snow and wind slabs represent the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "W",
+            "SW",
+            "E",
+            "NW",
+            "NE",
+            "SE",
+            "S",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          }
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "SW",
+            "E",
+            "NW",
+            "NE",
+            "SE",
+            "S",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          }
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "SW",
+            "E",
+            "NW",
+            "NE",
+            "SE",
+            "S",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          }
+        }
+      ],
+      "bulletinID": "0ef795a5-ab1c-49a3-959e-26925c10a460",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-03-06"
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "publicationTime": "2024-03-05T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-36-PN-02"
+        },
+        {
+          "regionID": "IT-36-UD-05"
+        },
+        {
+          "regionID": "IT-36-PN-01"
+        },
+        {
+          "regionID": "IT-36-UD-04"
+        },
+        {
+          "regionID": "IT-36-UD-03"
+        },
+        {
+          "regionID": "IT-36-UD-02"
+        },
+        {
+          "regionID": "IT-36-UD-01"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "As a consequence of snowfall and the wind, fresh snow drift accumulations will form. <br/> The snowpack remains moist below approximately 1800 m."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "comment": "The weather will be partly cloudy over a wide area."
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-03-05T23:00:00+00:00",
+        "endTime": "2024-03-06T23:00:00+00:00"
+      }
+    }
+  ]
+}
