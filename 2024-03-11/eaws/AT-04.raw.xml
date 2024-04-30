@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4435RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-11T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4435RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-11T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-12T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>dünne und kleinräumige Triebschneepakete</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Vor allem in den Hochlagen frischen Triebschnee beachten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend in den Hochlagen mäßig, ansonsten gering. Durch teils starken Wind aus West bis Nordwest gibt es kammnahe bzw. hinter Geländekanten und in steilen Mulden und Rinnen frischen Triebschnee, der zu beachten ist. Dort, wo frischer Triebschnee vorhanden ist, kann dieser bereits bei geringer Zusatzbelastung als kleine bis mittlere Schneebrettlawine ausgelöst werden. Nur selten könnten sich aus sehr steilen glatten Hängen Gleitschneelawine von selbst lösen. Es sollten aber steile Hänge mit Rissen gemieden werden.</avActivityComment>
+          <snowpackStructureComment>Es gibt Schneefall und Neuschnee, der verfrachtet wird. Dieser Triebschnee liegt auf einer oft hart und verharscht Altschneedecke und ist störanfällig. Die Altschneedecke selbst ist allgemein gut gesetzt und überwiegend stabil. Im Inneren ist sie je nach Höhenlagen feucht bis nass. Es liegt selbst in mittleren Lagen nur mehr wenig Schnee, darauf fällt etwas Neuschnee. In den schattseitigen Hochlagen könnten noch lawinenrelevante Schichten auftreten.</snowpackStructureComment>
+          <wxSynopsisComment>Für Dienstag kündigt sich windiges und trübes Wetter mit Schneeschauern an. In freien Hochlagen erreicht der West- bis Nordwestwind Spitzen um 50 km/h. In 1500 m beträgt die Temperatur um -1 Grad, in 2000 m um -3 Grad.&#13;
+Am Mittwoch stecken die Berge bis über die Mittagsstunden meist in Wolken und es schneit zeitweise ein wenig. Im Lauf des Nachmittags klingt der Niederschlag ab und die Wolken lockern langsam auf. Der Nordwestwind weht meist schwach bis mäßig stark. In 1500 m beträgt die Temperatur -2 bis 0 Grad, in 2000 m um -3 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung. Die Schneebrettgefahr geht wieder langsam zurück.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
