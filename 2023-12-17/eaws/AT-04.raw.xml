@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3694RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-17T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3694RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-17T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-18T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>spontane Lawinen im Tagesverlauf</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Lawinen im Tagesverlauf und Gleitschneehänge beachten - hochgelegenes lokales Triebschneeproblem!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist überwiegend mäßig. Mit den sehr milden Temperaturen und der Sonneneinstrahlung sind vor allem aus besonnten sehr steilen Hängen spontane Lockerschnee- oder Schneebrettlawinen in Tagesverlauf möglich. Aus sehr steilen Hängen mit glatter Oberfläche (vergrast, glatter Fels) sind ganztägig Gleitschneelawinen zu beachten. Hänge mit Rissen in der Schneedecke sind zu meiden. Spontane Lawinen können mittelgroß werden.&#13;
+Die Auslösebereitschaft älterer Triebschneeablagerungen ist zurück gegangen. Vor allem in schattigen Bereichen der höheren Lagen können Schneebrettlawinen im Steilgelände aber noch durch Zusatzbelastung ausgelöst werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich bereits am Sonntag durch sehr milde Temperaturen und Einstrahlung deutlich setzen. Vor allem in den Hochlagen kann es aber noch ältere Triebschneeablagerungen geben, die noch zu stören sind. Schwachschichten könnten noch innerhalb der Triebschneepakete bzw. im Übergang zum Schneedeckenfundament erhalten geblieben sein. Mit der Ausstrahlung kann sich die Schneeoberfläche über Nacht etwas festigen. Die sehr milden Temperaturen und die Einstrahlung führen dann aber zu einem Festigkeitsverlust. Dies begünstigt die spontane Lawinenaktivität.</snowpackStructureComment>
+          <wxSynopsisComment>Auch der Montag bringt unter Hochdruckeinfluss den ganzen Tag nahezu ungetrübten Sonnenschein. Die Sicht ist damit sehr gut. Der Wind weht schwach und es bleibt sehr mild in den Bergen. In 1500 erreichen die Temperaturen bis zu 9 Grad, in 2000 m bis 7 Grad.&#13;
+Der Dienstag bringt nochmals sehr gute Tourenbedingungen. Es gibt viel Sonnenschein, ein paar dünne hohe Wolkenfelder stören kaum. Am Nachmittag können von Norden her ein paar mittelhohe Wolken aufziehen. Der Wind weht in allen Höhenlagen schwach. Es bleibt weiterhin sehr mild mit ähnlich Temperaturen wie am Montag.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-09"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
