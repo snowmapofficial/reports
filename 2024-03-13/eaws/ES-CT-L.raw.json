@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-03-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-03-13T23:00:00Z",
+      "endTime" : "2024-03-14T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs and weakly bonded old snow at high altitude. Gliding avalanches and moist snow slides as the day progresses.",
+      "comment" : "The hard wind slabs can still be released in some cases in particular on very steep, little used north and east facing slopes and at high altitude. They are easy to recognise but can in some cases be released easily especially at their margins. Sometimes they are medium-sized. As a consequence of warming during the day and solar radiation more gliding avalanches and moist snow slides are possible as the day progresses, even medium-sized ones. The avalanche prone locations are to be found on sunny slopes and on shady slopes below approximately 2300 m. Towards the evening as the moisture increases there will be a rapid increase in the danger. <br/> <br/> The current avalanche situation calls for meticulous route selection. The wind slabs are to be avoided as far as possible in particular on very steep shady slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The somewhat older wind slabs are lying on weak layers in particular on wind-protected shady slopes at intermediate and high altitudes. The various wind slabs have bonded poorly with each other and the old snowpack. Released avalanches and field observations indicate this situation. Outgoing longwave radiation during the night will be quite good. Sunshine and high temperatures will give rise as the day progresses to rapid moistening of the snowpack in all aspects. <br/> Above approximately 2000 m there are 90 to 130 cm of snow, and even more in some localities. At high altitude snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Up to intermediate altitudes rain will fall on Friday. The danger of wet and gliding avalanches will already increase in the late morning.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-03-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "a05cc4fc-e3fa-4cfd-950f-406ae84a79d1",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
