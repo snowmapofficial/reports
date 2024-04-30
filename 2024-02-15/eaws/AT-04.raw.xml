@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4220RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4220RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>zu jeder Tageszeit möglich und Nassschneeproblem</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>einzelne Gefahrenstellen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Gleit- und Nassschneelawinen und in schattseitigen Hochlagen einzelne Gefahrenstellen beachten!</avActivityHighlights>
+          <avActivityComment>Es besteht oft mäßige Lawinengefahr. Mit den sehr milderen Temperaturen, zeitweise Sonnenschein sind im besonnten Steilgelände vermehrt spontane Nassschneelawinen möglich und bei einer noch genügend mächtigen Schneedecke weiterhin auch Gleitschneelawinen. Steilhänge mit Rissen in der Schneedecke sind zu meiden und auf vereisten Steilhängen in Hochlagen besteht Absturzgefahr. Zudem sind in den schattigen Hochlagen lokal noch kleinräumige Verfrachtungen vorhanden, die als kleine oder mittlere Schneebrettlawinen meist bei großen Zusatzbelastung auslösbar sind.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich deutlich setzen und kann sich über Nacht etwas festigen. Sie wird aber mit den milden Temperaturen und teils Sonnenschein rasch weich und verliert an Festigkeit. Im Inneren ist sie bis in mittlere Lagen schon durchfeuchtet, teils auch nass. Auch der zuletzt gebildete Triebschnee konnte sich setzen und besser binden. Rücken und Grate sind oft abgeweht. Selbst in den mittleren Lagen liegt meist nur wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Freitag scheint oberhalb der Nebelfelder zunächst oft die Sonne, die Gipfel sind frei. Erst gegen Abend werden die durchziehenden Wolken allmählich dichter, die Sicht kann dann teilweise diffus werden. Es bleibt durchwegs niederschlagsfrei. Der Wind weht in allen Höhen meist nur schwach. Temperaturen in 1500 m zwischen 8 und 11 Grad, in 2000 m um 6 Grad.&#13;
+Am Samstag stecken die Berge häufig in Wolken, die Sicht ist durch Nebel und zeitweilige Niederschläge stark eingeschränkt. Am häufigsten regnet es im Bereich der Nordalpen, die Schneefallgrenze sinkt im Tagesverlauf von 2000 auf 1700 m. Es weht mäßig starker Wind aus West bis Nordwest. Temperaturen in 1500 m zwischen 3 und 6 Grad, in 2000 m um 0 Grad.</wxSynopsisComment>
+          <tendencyComment>Auf die spontane Lawinenaktivität achten, die durch etwas Regen bis in die Hochlagen verstärkt wird.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
