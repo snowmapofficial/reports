@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4429RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4429RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-10T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-13T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment>kammnah</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Frischer Triebschnee.</avActivityHighlights>
+          <avActivityComment>In den Niederösterreichischen Alpen steigt die Lawinengefahr leicht an. Oberhalb von 1700m wird die Lawinengefahr mit mäßig beurteilt. Das Hauptproblem ist der Triebschnee. Der frische Triebschnee kann im kammnahen Gelände in den Sektoren Ost und Nord bei großer Zusatzbelastung als Schneebrett ausgelöst werden. In den mittleren Lagen sind spontane Nassschneerutsche möglich. Nach Ende der Niederschlagsperiode und mit der einsetzenden Erwärmung entspannt sich die Triebschneesituation Mitte der Woche wieder. Aus den Hochlagen werden dann spontane nasse Rutsche erwartet.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist generell stabil. Die Schneedecke ist im Inneren feucht bis nass. In den Hochlagen ist der Schnee oberflächlich auch verharscht. Darauf lagert sich in den Hochlagen frischer Triebschnee ab. 20 bis 30cm Neuschnee werden in den nächsten 48 Stunden erwartet. Der starke Nordwestwind bildet frischen Triebschneeansammlungen. Der kalte Triebschnee hat mir der Warmen Altschneedecke nur eine geringe Verbindung. Die Schneelage ist trotzdem generell recht dürftig. </snowpackStructureComment>
+          <wxSynopsisComment>Am Montag gibt es am ehesten in den Türnitzer und Ybbstaler Alpen am Vormittag ein paar Sonnenstrahlen. Von Osten breitet sich gegen Mittag zudem Niederschlag aus. Die Schneefallgrenze liegt dann um 1500m Seehöhe. Der Wind weht mäßig aus Nordwest. Die Temperaturen in 1500m Höhe liegen am Nachmittag um 1 Grad.</wxSynopsisComment>
+          <tendencyComment>Dienstag: Aus dichten Wolken kann es vor allem am Vormittag noch Schnee- oder Regenschauer geben. Die Schneefallgrenze liegt um 1100 m. Am Nachmittag lässt der Niederschlag vor allem in den Türnitzer und Ybbstaler Alpen nach. Die Sonne zeigt sich dennoch kaum. Der Wind weht stark aus Nordwest. Nachmittagstemperaturen auf 1500m Seehöhe liegen um minus 1 Grad. Keine Änderung der Lawinengefahr wird erwartet.&#13;
+Mittwoch: Zunächst bringt eine nach Osten abziehende Störungszone noch etwas Regen. Die Schneefallgrenze liegt zwischen 900 bis 1200m Seehöhe. Große Neuschneemengen werden allerdings nicht erwartet. Tagsüber stellt sich dann aber ein rascher Wechsel aus Sonne und Wolken ein. &#13;
+Der Lawinenwarndienst Niederösterreich beendet aufgrund der Schneelage die tägliche Publikation des Lawinenwarnberichtes. Sollte sich ein Wintereinbruch ankündigen, nimmt der Lawinenwarndienst die Lawinenwarnung wieder auf. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
