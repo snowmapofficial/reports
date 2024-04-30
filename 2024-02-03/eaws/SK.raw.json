@@ -1,0 +1,90 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "For all mountain ranges in Slovakia from an altitude of 1400 m above sea level a moderate avalanche danger is declared, i.e. 2 degree from the 5-part international scale. The main avalanche problem remains wind-blown snow.\nSnow is very unevenly distributed over the forest belt.\nThere are pillows and slabs of wind-blown snow on east-south to south-west facing slopes. Under mechanical loading, the stress in this snow layer spreads well, so that slab avalanches are possible on very steep slopes, especially with large additional loads (movement on foot, or multiple skiers/snowboarders close together).\nOn very steep slopes at altitudes up to 1400 m above sea level, small avalanches from wet snow are very likely to be released."
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "SE", "SW", "S", "NE", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "frequency" : "some",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "fair",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "SE", "SW", "S", "W", "N", "NE", "NW", "E" ],
+      "avalancheSize" : 1,
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "frequency" : "many",
+      "problemType" : "wet_snow",
+      "snowpackStability" : "fair",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "6e726fc8-75e5-48da-a775-d94c7456e628",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-02-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    }, {
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2024-02-03T16:00:00Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Lúčianska Malá Fatra",
+      "regionID" : "SK-08"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "The snow cover is very unevenly distributed due to the very windy previous week. On the windward, westerly sides the snow is blown onto a hard base of ice, in places even into the grass. Conversely, in leeward moguls and gullies, large amounts of wind-blown snow are deposited in slabs and pillows. These lie on a hard icy surface with which they are poorly bonded.\nThe alternation of temperatures above and below 0°C has a stabilising effect on the layers in the snow cover, yet wind-blown snow formations are still dangerous on very steep slopes.\nDuring Sunday a frontal boundary will wave over our area. There will be strong westerly winds in the foothills and northwesterly winds higher up. Precipitation is forecast for the afternoon, with snow from about 1200 m above sea level, and the 0°C isotherm will be around 1400 m above sea level.\nAt altitudes up to 1400 m above sea level, snow is very wet due to heat, humidity and drizzle/light rain. This makes it incohesive and tends to release slides and small avalanches when skiing."
+    },
+    "tendency" : {
+      "highlights" : "With snow and wind forecast, avalanche danger is increasing.\n<br><br><I> Compiled by Ivan Chlebovec</I>",
+      "tendencyType" : "increasing"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2024-02-04T23:00:00Z",
+      "startTime" : "2024-02-03T23:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
