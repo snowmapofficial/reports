@@ -1,0 +1,125 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "During the night, a strong northwesterly flow will hit all mountain ranges of Slovakia, bringing humid sea air. Winds will reach up to 40 m/s (144 km/h !) at the highest altitudes. The snowfall limit will drop to 700 m above sea level. New precipitation will be blown into the forest zone, but on leeward slopes, even on milder gradients, the wind will intensively deposit snow in snow pillows and slabs that will lie on top of the old hard snow cover. In all mountain ranges above the forest line there is an considerable avalanche danger, i.e. level 3 on the five-point international scale.  The main avalanche problems are new snow (on all exposures, mainly mid-elevations) and wind-blown snow (above the tree line). Windward SE, E, NE and SW orientations will be particularly dangerous. Avalanche release will be possible with a small additional load (even remotely), and spontaneous avalanches of medium size may occur during the day.",
+        "highlights": "High winds with significant precipitation will cause unstable slabs of wind-drifted snow. Possible long-range spreading of detachment."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "05ca6abb-6212-4621-a92e-1514573a4011",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-01-25"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-01-24T16:05:34+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow showers are expected from 700 m above sea level during the day. These will be blown by strong winds into the forest zone. Above the forest belt, however, the wind will gradually deposit them in snow slabs and pillows, which will lie on top of the old hardened snowpack. The bond between these layers is weak and the tension due to wind hammering is high. The brittleness of such slabs and the possible long-distance propagation of debris will thus create an extremely treacherous situation over the forest belt."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Significantly rising due to strong winds and expected precipitation.\n\n<BR><BR><I>Compiled By : Martin Buliak</I>",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-01-24T23:00:00+00:00",
+        "endTime": "2024-01-25T23:00:00+00:00"
+      }
+    }
+  ]
+}
