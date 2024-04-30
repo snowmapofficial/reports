@@ -1,0 +1,103 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In some localities 20 to 30 cm of snow, and even more in some localities, will fall on Sunday above approximately 2000 m. Until Monday the wind will be strong adjacent to ridgelines over a wide area. As a consequence of new snow and wind, mostly small wind slabs will form in particular adjacent to ridgelines. The fresh wind slabs will be deposited on a crust in particular on northwest to north to southeast facing aspects above approximately 2000 m. Wind slabs can be released easily. This applies even in case of a small load.",
+        "highlights": "New snow and wind slabs at intermediate and high altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "E",
+            "NW",
+            "N",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          }
+        },
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "S",
+            "N",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          }
+        }
+      ],
+      "bulletinID": "35994536-a62c-4123-817e-5b2ed87bbf73",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2023-12-31"
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "publicationTime": "2023-12-30T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-34-BL-05"
+        },
+        {
+          "regionID": "IT-34-BL-06"
+        },
+        {
+          "regionID": "IT-34-BL-03"
+        },
+        {
+          "regionID": "IT-34-BL-04"
+        },
+        {
+          "regionID": "IT-34-VR-01"
+        },
+        {
+          "regionID": "IT-34-BL-01"
+        },
+        {
+          "regionID": "IT-34-BL-02"
+        },
+        {
+          "regionID": "IT-34-VI-01"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow depths vary greatly at high altitude, depending on the infuence of the wind. <br/> The snowpack is well consolidated and its surface has a melt-freeze crust that is strong in many cases."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "validTime": {
+        "startTime": "2023-12-30T23:00:00+00:00",
+        "endTime": "2023-12-31T23:00:00+00:00"
+      }
+    }
+  ]
+}
