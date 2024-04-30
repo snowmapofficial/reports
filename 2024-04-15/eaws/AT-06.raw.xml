@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4721RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4721RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-16T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-16T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>as rainfall sets in, naturally triggered avalanche activity, tapering off through the day</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-16T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>in isolated cases</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-15T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in very isolated cases</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-16T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-04-16T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in very isolated cases</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Naturally triggered wet-snow avalanches</avActivityHighlights>
+          <avActivityComment>On Monday night and early morning avalanche danger is moderate, dropping to low over the morning hours. At high altitufdes, some naturally triggered avalanches are expected at night, but not large releases. In very isolated cases during the daytime, naturally triggered glide-snow avalanches can release. At highest altitudes, isolated in east and west-facing terrain, fresh snowdrifts can trigger small slab avalanches.</avActivityComment>
+          <snowpackStructureComment>The snowpack has used up its reserves of cold up to summit levels, is isotherm and moist. Due to rain penetration the snowpack will destabilize further at night, cool during the day and regain some stabilization. Only a highest altitudes above 2000 m, will snowdrifts be generated anew.</snowpackStructureComment>
+          <wxSynopsisComment>On Monday night, intensive rainfall in the northern barrier cloud regions, then moving to the southern and eastern regions of Styria in early morning, temperatures noticeably dropping. Snowfall level on Monday evening above 2000 m, dropping in the latter part of the night (if precipitation slackens off) to below 1000 m. As of Tuesday morning in Gurktal and Seetal Alps, Seckauer Tauern and rimline ranges, heavy snowfall will set in, slackening off only in evening. The northern barrier cloud regions will be without precipitation during the day. Winds will be strong-to-stormy from N/NW, at 2000 m: dropping from +7 on Monday evening to -4 on Tuesday evening.</wxSynopsisComment>
+          <tendencyComment>The weather will remain capricious and cool, repeated snowfall along the northern flank of the Alps is expected. The wet-snow problem will recede, the snowdrift problem will increase at high altitudes. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-11"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4721RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4721RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>behind discontinuities in the terrain</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>in very isolated cases</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Fresh snowdrifts at high altitudes</avActivityHighlights>
+          <avActivityComment>Avalanche danger above the treeline is moderate, below that altitude danger is low. Danger zones occur on E/S facing slopes where snowdrifts will be generated at entries into gullies and bowls and behind discontinuities in the terrain, often triggerable by minimum additional loading, medium slab avalanche releases.</avActivityComment>
+          <snowpackStructureComment>The snowpack has used up its reserves of cold up to summit levels, is isotherm and moist. Due to rain penetration the snowpack will destabilize further at night, cool during the day and regain some stabilization. Only a highest altitudes above 2000 m, will snowdrifts be generated anew, bonding well with the snowpack but possibly containing weak layers.</snowpackStructureComment>
+          <wxSynopsisComment>On Monday night, intensive rainfall in the northern barrier cloud regions, then moving to the southern and eastern regions of Styria in early morning, temperatures noticeably dropping. Snowfall level on Monday evening above 2000 m, dropping in the latter part of the night (if precipitation slackens off) to below 1000 m. As of Tuesday morning in Gurktal and Seetal Alps, Seckauer Tauern and rimline ranges, heavy snowfall will set in, slackening off only in evening. The northern barrier cloud regions will be without precipitation during the day. Winds will be strong-to-stormy from N/NW, at 2000 m: dropping from +7 on Monday evening to -4 on Tuesday evening.</wxSynopsisComment>
+          <tendencyComment>The weather will remain capricious and cool, repeated snowfall along the northern flank of the Alps is expected. The wet-snow problem will recede, the snowdrift problem will increase at high altitudes. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-16"/>
+      <locRef xlink:href="AT-06-15"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4721RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-15T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4721RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-15T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-16T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>small, thin snowdrift patches</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Low avalanche danger but isolated danger zones from fresh snowdrifts</avActivityHighlights>
+          <avActivityComment>Avalanche danger is generally low, but above the timberline on E/S facing slopes at entries into gullies and bowls and behind discontinuities there are isolated danger zones where 1 person can trigger snowdrifts and release a slab avalanche.</avActivityComment>
+          <snowpackStructureComment>The snowpack in all aspects has used up its reserves of cold up to summit levels, is isotherm and moist. Due to rain penetration the snowpack will destabilize further at night, cool during the day and regain some stabilization, but the gliding process will continue. Above 1000 m the 20 cm of fresh snow will often fall on bare ground (at high altitudes atop moist snow), then transported by strong NW winds to E/S facing slopes. The drifts can contain weak layers.</snowpackStructureComment>
+          <wxSynopsisComment>On Monday night, intensive rainfall in the northern barrier cloud regions, then moving to the southern and eastern regions of Styria in early morning, temperatures noticeably dropping. Snowfall level on Monday evening above 2000 m, dropping in the latter part of the night (if precipitation slackens off) to below 1000 m. As of Tuesday morning in Gurktal and Seetal Alps, Seckauer Tauern and rimline ranges, heavy snowfall will set in, slackening off only in evening. The northern barrier cloud regions will be without precipitation during the day. Winds will be strong-to-stormy from N/NW, at 2000 m: dropping from +7 on Monday evening to -4 on Tuesday evening.</wxSynopsisComment>
+          <tendencyComment>The weather will remain capricious and cool, repeated snowfall along the northern flank of the Alps is expected. The wet-snow problem will recede, the snowdrift problem will increase at high altitudes. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-14"/>
+      <locRef xlink:href="AT-06-13"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
