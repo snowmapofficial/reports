@@ -1,0 +1,86 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-03T22:00:00Z",
+      "endTime" : "2024-04-04T22:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow represents the main danger. Old wind slabs in high Alpine regions.",
+      "comment" : "As a consequence of warming during the day and the solar radiation, the likelihood of moist avalanches being released will increase gradually in all aspects. Sometimes the moist avalanches are medium-sized. The hard wind slabs can still be released in some cases in particular on very steep, little used shady slopes and at elevated altitudes, especially at their margins. Sometimes they are medium-sized and can be released also by a single winter sport participant. In particular at the border to Benasque and at the border to Ribagorça and Pallars the avalanche prone locations are more prevalent and the danger is greater. In addition a latent danger of gliding avalanches exists. <br/> <br/> The current avalanche situation calls for meticulous route selection. Backcountry tours and off-piste skiing should be concluded by around midday."
+    },
+    "snowpackStructure" : {
+      "comment" : "The wind slabs have bonded quite well with the old snowpack. Some rain will fall in the next few hours in some localities. Outgoing longwave radiation during the night will be quite good. The avalanche conditions in the morning are generally favourable. Sunshine and high temperatures will give rise as the day progresses to increasing moistening of the snowpack over a wide area in all aspects. <br/> Above approximately 2000 m there are 40 to 120 cm of snow, and even more in some localities. At high altitudes and in high Alpine regions snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gradual decrease in danger of dry avalanches on wind-loaded slopes. Hardly any decrease in danger of moist and wet avalanches until the temperature drops.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "NE", "SE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    } ],
+    "bulletinID" : "a96b7043-af53-4c4d-87cd-f902f0ccb28d",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
