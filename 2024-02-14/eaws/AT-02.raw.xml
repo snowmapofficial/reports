@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4215RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4215RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_2400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-14T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-15T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Gefahr von Gleit- und Nassschneelawinen mit dem tageszeitlichen Temperaturanstieg und der Sonneneinstrahlung</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr unterliegt einem Tagesgang. Am Vormittag sind die Triebschneeablagerungen in den Hochlagen noch das Hauptproblem, am Nachmittag überwiegt mit den milden Temperaturen und der Sonneneinstrahlung dann das Gleit- und Nassschneeproblem. Frische Triebschneeablagerungen sind teilweise störanfällig. Mit zunehmender Durchfeuchtung der Schneedecke in schattseitigen Expositionen muss mit spontanen Gleit- und Nassschneelawinen aus steilen Geländeteilen gerechnet werden.</avActivityComment>
+          <snowpackStructureComment>Frische Triebschneeansammlungen liegen teils auf weichen Schichten und sind vereinzelt störanfälliger. Das Schneedeckenfundament ist kompakt. Sehr milde Temperaturen und die Sonneneinstrahlung sorgen vor allem in sonnseitigen Expositionen für ein Durchfeuchtung der Schneedecke. In tiefen Lagen liegt nur noch wenig Schnee. </snowpackStructureComment>
+          <wxSynopsisComment>Sehr milde Luft wird mit einem Tiefdrucksystem über dem östlichen Nordatlantik nach Europa geschaufelt. Am Donnerstag scheint in den Bergen phasenweise die Sonne. Immer wieder ziehen aber auch harmlose Wolkenfelder in höheren Schichten durch. Anfangs können die höheren Gipfel in den Tauern auch in Nebel geraten. Der Wind aus westlichen Richtungen weht meist nur schwach bis mäßig, im Nordwesten auch lebhafter.  Die Temperaturen steigen an und erreichen in 2000 m +5 Grad und in 3000 m -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr wird erwartet.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-01-01"/>
+      <locRef xlink:href="AT-02-01-02"/>
+      <locRef xlink:href="AT-02-02"/>
+      <locRef xlink:href="AT-02-03-01"/>
+      <locRef xlink:href="AT-02-03-02"/>
+      <locRef xlink:href="AT-02-09"/>
+      <locRef xlink:href="AT-02-10"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4215RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4215RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>In höheren Lagen noch mäßige Lawinengefahr</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird oberhalb rund 2100 m mit MÄSSIG, darunter mit GERING beurteilt. Die Hauptgefahr geht hier von den noch teilweise schlecht verbundenen, kleineren Triebschneeansammlungen und vereinzelter Schwachschichten im oberen Teil der Schneedecke, in überwiegend schattseitigen Expositionen aus. Eine Störung ist teil noch durch eine geringe Zusatzbelastung möglich. Im Tagesverlauf steigt vor allem in sonnseitigen Expositionen die Gefahr von spontanen Gleit- und Nassschneelawinen aus steilen Geländeteilen, welche aber überwiegend klein bleiben.</avActivityComment>
+          <snowpackStructureComment>Vereinzelt haben sich die Triebschneeablagerungen noch nicht ausreichen mit der Altschneedecke verbinden können. Im oberen Teil der Schneedecke sind örtlich, vor allem in schattseitigen Expositionen, noch Schwachschichten vorhanden. Die milden Temperaturen und die Sonneneinstrahlung sorgen für eine Durchfeuchtung der Schneedecke, vor allem in sonnseitigen Expositionen. In tiefen Lagen liegt nur noch wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Sehr milde Luft wird mit einem Tiefdrucksystem über dem östlichen Nordatlantik nach Europa geschaufelt. Am Donnerstag scheint in den Bergen phasenweise die Sonne. Immer wieder ziehen aber auch harmlose Wolkenfelder in höheren Schichten durch. Anfangs können die höheren Gipfel in den Tauern auch in Nebel geraten. Der Wind aus westlichen Richtungen weht meist nur schwach bis mäßig, im Nordwesten auch lebhafter.  Die Temperaturen steigen an und erreichen in 2000 m +5 Grad und in 3000 m -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Die Gefahr von Gleit- und Nassschneelawinen im Tagesverlauf bleibt bestehen.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-14"/>
+      <locRef xlink:href="AT-02-15"/>
+      <locRef xlink:href="AT-02-16"/>
+      <locRef xlink:href="AT-02-17"/>
+      <locRef xlink:href="AT-02-18"/>
+      <locRef xlink:href="AT-02-19"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4215RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-14T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4215RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-14T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-15T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>aus felsdurchsetztem Steilgelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Anstieg der Gefahr von Gleit- und Nassschneelawinen im Tagesverlauf</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird überwiegend mit GERING beurteilt. Milde Temperaturen und Sonneneinstrahlung führen zu einer fortschreitenden Durchfeuchtung der Schneedecke und es muss mit kleinen Gleit- und Nassschneelawinen gerechnet werden.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke hat sich überwiegend gut gesetzt und ist feucht. In höheren Lagen hat sich in den Nachtstunden örtlich nur ein dünner Harschdeckel ausbilden können.</snowpackStructureComment>
+          <wxSynopsisComment>Sehr milde Luft wird mit einem Tiefdrucksystem über dem östlichen Nordatlantik nach Europa geschaufelt. Am Donnerstag scheint in den Bergen phasenweise die Sonne. Immer wieder ziehen aber auch harmlose Wolkenfelder in höheren Schichten durch. Anfangs können die höheren Gipfel in den Tauern auch in Nebel geraten. Der Wind aus westlichen Richtungen weht meist nur schwach bis mäßig, im Nordwesten auch lebhafter.  Die Temperaturen steigen an und erreichen in 2000 m +5 Grad und in 3000 m -1 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinengefahr.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-02-11"/>
+      <locRef xlink:href="AT-02-12-02"/>
+      <locRef xlink:href="AT-02-12-01"/>
+      <locRef xlink:href="AT-02-13"/>
+      <locRef xlink:href="AT-02-04-02"/>
+      <locRef xlink:href="AT-02-04-01"/>
+      <locRef xlink:href="AT-02-05-01"/>
+      <locRef xlink:href="AT-02-05-02"/>
+      <locRef xlink:href="AT-02-06"/>
+      <locRef xlink:href="AT-02-07"/>
+      <locRef xlink:href="AT-02-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
