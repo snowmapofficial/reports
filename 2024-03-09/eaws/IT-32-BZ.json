@@ -1,0 +1,552 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "During the day: Large quantities of fresh snow and the wind-drifted snow can be released easily or naturally in all aspects above the tree line. These will be covered with new snow in some cases and therefore difficult to recognise. Avalanches can reach large size. The prevalence of the avalanche prone locations will increase with altitude. Caution is to be exercised in particular on very steep shady slopes, as well as adjacent to ridgelines and in gullies and bowls. <br/> <br/> Avalanches can also be triggered in the old snowpack. Avalanche prone locations are to be found in particular on steep shady slopes above approximately 2400 m. Places where surface hoar has been covered with snow are especially unfavourable. Avalanches can reach large size in isolated cases. Careful route selection is recommended. <br/> Gradual increase in danger of gliding avalanches and wet snow slides as a consequence of the precipitation, in particular on steep sunny slopes below approximately 2600 m. These can in isolated cases reach medium size. Areas with glide cracks are to be avoided as far as possible.",
+        "highlights": "Fresh wind slabs represent the main danger. The avalanche danger will increase during the day. Weakly bonded old snow requires caution."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "many",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "W",
+            "E",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "N",
+            "W",
+            "NW",
+            "E",
+            "NE",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "many",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "W",
+            "E",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "05d854d0-4861-46d2-91b7-e2fd980bd991",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-03-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6",
+            "DP8"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "high",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-03-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-07-27",
+          "name": "Eastern Deferegger Alps"
+        },
+        {
+          "regionID": "AT-07-28",
+          "name": "Schober Mountains"
+        },
+        {
+          "regionID": "AT-07-29",
+          "name": "Lienzer Dolomites"
+        },
+        {
+          "regionID": "AT-07-21",
+          "name": "Gurgler Range"
+        },
+        {
+          "regionID": "AT-07-22",
+          "name": "Central Stubai Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-18-02",
+          "name": "Gr\u00f6den Dolomites"
+        },
+        {
+          "regionID": "IT-32-BZ-20",
+          "name": "Sexten Dolomites"
+        },
+        {
+          "regionID": "IT-32-BZ-04-02",
+          "name": "Ratschings"
+        },
+        {
+          "regionID": "IT-32-BZ-04-01",
+          "name": "Southern Stubai Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-13",
+          "name": "Western Deferegger Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-14",
+          "name": "Ortler Range"
+        },
+        {
+          "regionID": "IT-32-BZ-03",
+          "name": "Schnals Ridge"
+        },
+        {
+          "regionID": "IT-32-BZ-15",
+          "name": "Ulten Valley"
+        },
+        {
+          "regionID": "IT-32-BZ-06",
+          "name": "Saldurn-Mastaun Ridge"
+        },
+        {
+          "regionID": "IT-32-BZ-19",
+          "name": "Prags Dolomites"
+        },
+        {
+          "regionID": "IT-32-BZ-08-01",
+          "name": "Hirzer Range"
+        },
+        {
+          "regionID": "IT-32-BZ-07-01",
+          "name": "Upper Passeier Valley"
+        },
+        {
+          "regionID": "IT-32-BZ-07-02",
+          "name": "Texel Mountains"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "30 to 40 cm of snow, and even more in some localities, will fall. The wind will be strong to storm force in some cases. Fresh wind slabs are lying on soft layers in particular on shady slopes above the tree line. The new snow of the last few days is lying on surface hoar in particular on wind-protected shady slopes above approximately 2400 m. <br/> <br/> Faceted weak layers exist in the centre of the old snowpack in particular on west, north and east facing slopes. This applies above approximately 2400 m."
+      },
+      "source": {
+        "provider": {
+          "name": "Lawinenwarndienst Alto Adige/S\u00fcdtirol",
+          "website": "https://avalanche.report/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The fresh wind slabs remain prone to triggering in particular on shady slopes at elevated altitudes.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2024-03-10T23:00:00+00:00",
+            "endTime": "2024-03-11T23:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2024-03-09T23:00:00+00:00",
+        "endTime": "2024-03-10T23:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a strong to storm force southerly wind, avalanche prone wind slabs will form. These will be covered with new snow in some cases and therefore difficult to recognise. The fresh wind slabs can be released easily. or in isolated cases naturally, in all aspects above the tree line. The prevalence of the avalanche prone locations will increase with altitude. Mostly avalanches are medium-sized. Caution is to be exercised in particular adjacent to ridgelines and in gullies and bowls. <br/> <br/> Weak layers in the upper part of the snowpack can be released by individual winter sport participants. Avalanche prone locations are to be found in particular on steep shady slopes above approximately 2400 m. Places where surface hoar has been covered with snow are especially unfavourable. Avalanches can reach large size in isolated cases. Careful route selection is recommended. <br/> In addition a latent danger of gliding avalanches exists, in particular on steep sunny slopes below approximately 2600 m. These can in isolated cases reach medium size. Areas with glide cracks are to be avoided as far as possible.",
+        "highlights": "Fresh wind slabs represent the main danger. Weakly bonded old snow requires caution."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "many",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "W",
+            "E",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "dc43dcf7-4b73-43c8-9398-d1abd423fd01",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-03-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6",
+            "DP8"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-03-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-07-26",
+          "name": "Glockner Range"
+        },
+        {
+          "regionID": "AT-07-19",
+          "name": "Glockturm Range"
+        },
+        {
+          "regionID": "AT-07-20",
+          "name": "Wei\u00dfkugel Range"
+        },
+        {
+          "regionID": "AT-07-23",
+          "name": "Northern Zillertal Alps"
+        },
+        {
+          "regionID": "AT-07-24",
+          "name": "Venediger Range"
+        },
+        {
+          "regionID": "AT-07-25",
+          "name": "Las\u00f6rling Range"
+        },
+        {
+          "regionID": "IT-32-BZ-18-01",
+          "name": "L\u00fcsner Mountains"
+        },
+        {
+          "regionID": "IT-32-BZ-10",
+          "name": "Eastern Pfunderer Mountains"
+        },
+        {
+          "regionID": "IT-32-BZ-11",
+          "name": "Durreck Range"
+        },
+        {
+          "regionID": "IT-32-BZ-02-01",
+          "name": "Langtaufers"
+        },
+        {
+          "regionID": "IT-32-BZ-05-03",
+          "name": "Upper Ahr Valley"
+        },
+        {
+          "regionID": "IT-32-BZ-12",
+          "name": "Rieserferner Mountains"
+        },
+        {
+          "regionID": "IT-32-BZ-05-02",
+          "name": "Southern Zillertal Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-05-01",
+          "name": "Pfitsch"
+        },
+        {
+          "regionID": "IT-32-BZ-01-02",
+          "name": "Southern Sesvenna Group"
+        },
+        {
+          "regionID": "IT-32-BZ-01-01",
+          "name": "Northern Sesvenna Group"
+        },
+        {
+          "regionID": "IT-32-BZ-02-02",
+          "name": "Planeil Mountains"
+        },
+        {
+          "regionID": "IT-32-BZ-09",
+          "name": "Western Pfunderer Mountains"
+        },
+        {
+          "regionID": "IT-32-BZ-08-02",
+          "name": "Mount Saint Jakob Range"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The wind will be strong to storm force in some cases. 10 to 20 cm of snow, and even more in some localities, will fall. Fresh wind slabs are lying on soft layers in particular on shady slopes above the tree line. The new snow of the last few days is lying on surface hoar in particular on wind-protected shady slopes above approximately 2400 m. <br/> <br/> Faceted weak layers exist in the centre of the old snowpack in particular on west, north and east facing slopes. This applies above approximately 2400 m."
+      },
+      "source": {
+        "provider": {
+          "name": "Lawinenwarndienst Alto Adige/S\u00fcdtirol",
+          "website": "https://avalanche.report/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The fresh wind slabs remain prone to triggering at elevated altitudes.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2024-03-10T23:00:00+00:00",
+            "endTime": "2024-03-11T23:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2024-03-09T23:00:00+00:00",
+        "endTime": "2024-03-10T23:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a strong to storm force southerly wind, avalanche prone wind slabs will form. These will be covered with new snow in some cases and therefore difficult to recognise. The fresh wind slabs can be released easily. or in isolated cases naturally, in all aspects above the tree line. The prevalence of the avalanche prone locations will increase with altitude. Mostly avalanches are medium-sized. Caution is to be exercised in particular adjacent to ridgelines and in gullies and bowls. <br/> <br/> In addition a certain danger of gliding avalanches exists, in particular on steep sunny slopes at intermediate and high altitudes. These can in isolated cases reach medium size. Areas with glide cracks are to be avoided as far as possible.",
+        "highlights": "Fresh wind slabs represent the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "N",
+            "NW",
+            "W",
+            "E",
+            "NE",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "many",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "33e3be80-90cd-455f-96e8-f05d7d09e1aa",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-03-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6",
+            "DP8"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-03-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-32-BZ-08-03",
+          "name": "Southern Sarntal Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-16",
+          "name": "Eastern Nonsberger Alps"
+        },
+        {
+          "regionID": "IT-32-BZ-17",
+          "name": "Northern Dolomites of Fiemme"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The wind will be strong to storm force in some cases. 20 to 30 cm of snow, and even more in some localities, will fall. Fresh wind slabs are lying on soft layers in particular on shady slopes above the tree line."
+      },
+      "source": {
+        "provider": {
+          "name": "Lawinenwarndienst Alto Adige/S\u00fcdtirol",
+          "website": "https://avalanche.report/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The fresh wind slabs remain prone to triggering at elevated altitudes.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2024-03-10T23:00:00+00:00",
+            "endTime": "2024-03-11T23:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2024-03-09T23:00:00+00:00",
+        "endTime": "2024-03-10T23:00:00+00:00"
+      }
+    }
+  ]
+}
