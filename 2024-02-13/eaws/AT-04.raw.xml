@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4197RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4197RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-13T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>jederzeit und spontane Lawinenaktivität</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Spontane Lawinenaktivität und Triebschnee in höheren Lagen beachten!</avActivityHighlights>
+          <avActivityComment>Es besteht oft mäßige Lawinengefahr. Mit den milderen Temperaturen, etwas Regen sind wieder vermehrt auch spontane Nassschneelawinen im Steilgelände möglich und bei einer genügend mächtigen Schneedecke weiterhin auch Gleitschneelawinen. Steile Bereiche mit Rissen sind zu meiden und auf überdeckten vereisten Steilhängen in Hochlagen besteht Absturzgefahr. Zudem sind kleinräumige Verfrachtungen in kammnahen Steilhängen, steilen Mulden und Rinnen zu beachten. Kleine bis mittlere Schneebrettlawinen sind bei geringer Zusatzbelastung vor allem in den höheren Lagen auslösbar.</avActivityComment>
+          <snowpackStructureComment>Bis in mittlere Lagen ist die Altschneedecke nur oberflächig etwas gefestigt, darauf liegen 10 bis 20 cm Neuschnee, der durch die milden Temperaturen und etwas Regen nun feucht wird bzw. im Inneren ohnehin durchfeuchtet, teils nass ist. Der zuletzt gefallene Neuschnee hat mit mäßigem Wind Triebschneeablagerungen gebildet, die vor allem hochalpin teils ungenügend binden. Rücken und Grate sind oft abgeweht. Selbst in den mittleren Lagen liegt meist nur wenig Schnee.</snowpackStructureComment>
+          <wxSynopsisComment>Am Mittwoch zeigt sich anfangs noch die Sonne, schon am Vormittag ist die Sicht aber öfter durch Wolken und Nebel eingeschränkt. Ab Mittag kann es vor allem im Bereich der Nordalpen örtlich unergiebig regnen oder schneien. Die Schneefallgrenze steigt von 1300 auf 1700 m. Der Wind weht in höheren Lagen lebhaft aus westlichen Richtungen. Temperaturen zu Mittag in 1500 m zwischen -1 und +4 Grad, in 2000 m um -1 Grad.&#13;
+Am Donnerstag lockern die anfänglich dichten Wolken allmählich auf, zeitweise zeigt sich die Sonne. Die durchziehenden Wolkenfelder bleiben über Gipfelniveau, die Sicht kann aber phasenweise diffus sein. Es bleibt meist niederschlagsfrei. Es weht schwacher bis mäßiger Wind aus West bis Nordwest. Temperaturen in 1500 m zwischen 3 und 9 Grad, in 2000 m zwischen -1 und 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Es wird noch milder. Die Schneebrettgefahr geht somit zurück. Die Gefahr von spontanen Lawinen steigt etwas.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
