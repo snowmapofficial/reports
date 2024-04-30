@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4267RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4267RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-20T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2000 steep ridgeline terrain, behind discontinuities, in wind-loaded gullies and bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2600 m glide-snow avalanches on steep smooth slopes</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Pay close heed to snowdrift accumulations with ascending altitude</avActivityHighlights>
+          <avActivityComment>Freshly generated snowdrift accumulations are prone to triggering. Danger zones occur in steep ridgeline terrain, behind discontinutiies and in wind-loaded gullies and bowls and increase with ascending altitude. A small-to-medium slab avalanche can be triggered by 1 person. Activities in backcountry demand experience in outlying terrain and the ability to assess avalanche dangers on-site.. Naturally triggered loose-snow avalanches in rocky steep terrain are possible. Glide-snow avalanches can trigger below 2600 m at any time of day or night and reach medium size. Caution urged below glide cracks.</avActivityComment>
+          <snowpackStructureComment>Fresh snow and drifts were able to settle somewhat. On high-altitude shady slopes they lie deposited atop soft layers, otherwise atop a hard old snowpack surface. Bonding is generally good. Weak trigger-prone layers are evident inside the fresh snowdrift accumulations. In addition,  in high shady terrain there are near-surface weak layers evident which are trigger-prone. Warm ground and the wet snowpack base reinforce the gliding movements of the entire snowpack. Frequent glide-snow avalanches have been reported. At lower altitudes the latest fresh snow lies on bare ground.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: high-altitude clouds, but no precipitation. Wednesday daytime: pleasant weather, good visibility, some cloudbanks but the sun will dominate. In the course of the afternoon the clouds will become heavier. At 2000 m: +2 degrees. Moderate to brisk W/SW winds.</wxSynopsisComment>
+          <tendencyComment>Thursday will have foehn-induced conditions, very mild, strong westerly winds (in foehn lanes, southerly winds). Avalanche danger levels are not expected to change significantly, but fresh snowdrifts can accumulate. Glide-snow/wet-snow avalanche danger will persist.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-07"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
