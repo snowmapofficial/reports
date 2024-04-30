@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3862RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3862RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-05T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Often poorly bonded fresh snow to old snowpack</avActivityHighlights>
+          <avActivityComment>Avalanche danger in the Bavarian Alps is moderate above 1600 m, below that altitude danger is low. Fresh snow is the main problem. It can trigger as a slab or loose-snow avalanche even from 1 person. Small danger zones occur in steep terrain where bonding is poor, esp. on shady slopes at high altitudes and on previously wind-loaded steep slopes and gullies and bowls. Releases can reach medium size, most likely at high altitudes. Danger of falling outweighs that of being buried in snow from avalanches.&#13;
+In addition, the danger of glide-snow avalanches persists. They can release naturally on very steep slopes where the ground is smooth in all aspects. Glide cracks are now blanketed, difficult to recognize. These releases seldom reach medium size.</avActivityComment>
+          <snowpackStructureComment>The fresh snow is being deposited on top of an icy, encrusted old snowpack surface which is capable of bearing loads, in some places on old snowdrifts. Bonding is often poor, the fresh snow is thus prone to triggering. Buried graupel makes the snowpack more instable, though large fractures are not likely. The old snowpack is thoroughly wet up to high altitudes, also the ground is wet, making it possible for the entire snowpack to glide downhill. At low altitudes the snow is falling on bare ground.</snowpackStructureComment>
+          <tendencyComment>Depending on the amount of fresh snow, avalanche danger will increase on Sunday.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
