@@ -1,0 +1,268 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-03-22T23:00:00Z",
+      "endTime" : "2024-03-23T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow represents the main danger. In the course of the day sometimes avalanche prone wind slabs will form at elevated altitudes.",
+      "comment" : "Gliding snow represents the main danger. On steep grassy slopes more gliding avalanches are possible, even large ones in isolated cases. Areas with glide cracks are to be avoided. <br/> <br/> On very steep west facing slopes individual medium-sized slab avalanches are possible below approximately 2400 m. This applies even in case of a single winter sport participant. <br/> <br/> As a consequence of new snow and a strong wind from westerly directions, wind slabs will form from the middle of the day. The fresh wind slabs can be released by a single winter sport participant in isolated cases in particular on very steep shady slopes above approximately 2400 m, in particular adjacent to ridgelines. Mostly avalanches are small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation during the night will be quite good over a wide area. The old snowpack will be moist below approximately 2400 m. <br/> <br/> Over a wide area 5 to 10 cm of snow, and even more in some localities, will fall above approximately 1500 m. The wind will be moderate to strong. <br/> The fresh wind slabs are lying on soft layers in particular on shady slopes above approximately 2400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sunday: The fresh wind slabs remain prone to triggering on shady slopes above approximately 2400 m. More frequent moist loose snow avalanches are to be expected.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-03-23T23:00:00Z",
+        "endTime" : "2024-03-24T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "W", "E", "SE", "S" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "W", "E", "SE", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "0ac99157-0dfe-4df8-837b-5788db4be100",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kauner Ridge",
+      "regionID" : "AT-07-14-01"
+    }, {
+      "name" : "Western Verwall Mountains",
+      "regionID" : "AT-07-10"
+    }, {
+      "name" : "Eastern Verwall Mountains",
+      "regionID" : "AT-07-11"
+    }, {
+      "name" : "Silvretta",
+      "regionID" : "AT-07-12"
+    }, {
+      "name" : "Samnaun Mountains",
+      "regionID" : "AT-07-13"
+    }, {
+      "name" : "Western Tuxer Alps",
+      "regionID" : "AT-07-15"
+    }, {
+      "name" : "Eastern Tuxer Alps",
+      "regionID" : "AT-07-16"
+    }, {
+      "name" : "Glockturm Range",
+      "regionID" : "AT-07-19"
+    }, {
+      "name" : "Eastern Karwendel Mountains",
+      "regionID" : "AT-07-04-02"
+    }, {
+      "name" : "Western Karwendel Mountains",
+      "regionID" : "AT-07-04-01"
+    }, {
+      "name" : "Eastern Lechtal Alps",
+      "regionID" : "AT-07-02-02"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "AT-07-02-01"
+    }, {
+      "name" : "Weißkugel Range",
+      "regionID" : "AT-07-20"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Western Kitzbühel Alps",
+      "regionID" : "AT-07-17-01"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Allgäu Alps",
+      "regionID" : "AT-07-01"
+    }, {
+      "name" : "Northern Zillertal Alps",
+      "regionID" : "AT-07-23"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Mieming Mountains",
+      "regionID" : "AT-07-03"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Western Lechtal Alps",
+      "regionID" : "AT-07-07"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Central Lechtal Alps",
+      "regionID" : "AT-07-08"
+    }, {
+      "name" : "Kalkkögel",
+      "regionID" : "AT-07-14-04"
+    }, {
+      "name" : "Grieskogel Mountains",
+      "regionID" : "AT-07-09"
+    }, {
+      "name" : "Serles Ridge",
+      "regionID" : "AT-07-14-05"
+    }, {
+      "name" : "Kühtai - Geigen Ridge",
+      "regionID" : "AT-07-14-02"
+    }, {
+      "name" : "Sellrain - Alpein Mountains",
+      "regionID" : "AT-07-14-03"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  } ]
+}
