@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4222RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4222RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;ca. 2400 m oft überdeckt in Kammlagen, Rinnen und Mulden - mit der Seehöhe zunehmend</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2600 m: glide-snow avalanches on steep smooth slopes; increasing wet-snow avalanches due to warmth</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Fresh snowdrifts at high altitudes. Glide-snow/wet-snow avalanches due to warmth.</avActivityHighlights>
+          <avActivityComment>For winter sports enthusiasts, predominantly favorable conditions prevail with moderate avalanche danger. In high ridgeline terrain, in gullies and bowls, freshly generated snowdrift accumulations require special attentiveness: they are often blanketed by fresher snowdrifts and are trigger-prone. Danger zones increase with ascending altitude. One winter sports enthusiast can trigger a medium-sized slab avalanche. Apart from the dangers of being buried in snow masses, the risks of being swept along and forced to take a fall also need consideration. Beware cornices on ridges. Glide-snow avalanches are difficult to forecast or estimate. They can trigger in all aspects below 2600 m at any time of day or night and grow to medium size. Caution below glide cracks. Loose-snow slides possible on very steep sunny slopes.</avActivityComment>
+          <snowpackStructureComment>At high altitudes, older snowdrift accumulations lie mostly atop a stable old snowpack, on steep shady slopes, often atop soft layers. Covered drifts at high altitudes often lie atop a snowpack with weak near-surface layers, are thus prone to triggering. The warm ground and wet snowpack base reinforce gliding snowpack movements. Below 1400 m there is very little snow on the ground.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Dry, only partially clear skies. Friday daytime:  Mild, intermittently sunny. Zero-degre level at 3000 m. At 2000 m: +7 degrees. Light-to-moderate W/SW winds.</wxSynopsisComment>
+          <tendencyComment>Slight perturbance on Friday night will bring minor snowfall above 1500-1800 m, accompanied by temporary winds and lower temperatures.The danger of dry-snow avalanches could increase somewhat on Sunday. Danger of glide-snow/wet-snow avalanches not change much with the lower temperatures.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
