@@ -1,0 +1,82 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "Avalanche level 2 is declared in all our mountain ranges. The main avalanche problem is wet snow. As a result of the significant warming during the day, the snow cover in many places will become wet and lose its strength. Especially sunny orientations ( E-S-W) are dangerous. Also places with a grassy base. Loosening is already possible with a small additional load, especially on steep slopes above 35°. Spontaneous small avalanches are expected. Above 1800 m above sea level, the second avalanche problem is wind-blown snow. Watch out for leeward sides of ridges, narrow couloirs and shady spots where wind-beaten slabs may still occur locally. Their release is possible, especially on steep slopes above 40°, with only a small additional load.",
+      "highlights" : "Significant warming has resulted in a decrease in the stability of the snow cover. Watch out for wet avalanches."
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "SE", "SW", "S", "NE", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "frequency" : "some",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "fair",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "SE", "SW", "S", "W", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "frequency" : "some",
+      "problemType" : "wet_snow",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "ce3cdf12-f319-4b14-becf-94d5f83c4b46",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2023-12-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2023-12-18T16:00:00Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Lúčianska Malá Fatra",
+      "regionID" : "SK-08"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "The snow cover is very varied due to strong winds and significant warming. At the highest altitudes and on the mountain ridges, the snow is blown into very hard ground or down to the ground. In shady orientations and above 1800 m above sea level, the snow cover is hard and load-bearing due to the strong winds.  Below 1800 m above sea level and in sunny areas, the snow cover is soaked through to the hard surface or to the ground. Movement and skiing in such snow is very difficult when the snow breaks through to the hard ground."
+    },
+    "tendency" : {
+      "highlights" : "With strong winds and a sharp warming increasing.\n\n<br><br><i> Compiled by: Pavel Krajčí </i>",
+      "tendencyType" : "increasing"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2023-12-19T23:00:00Z",
+      "startTime" : "2023-12-18T23:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
