@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4380RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4380RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2000  older snowdrifts</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2400 m glide-snow avalanches on steep smooth slopes, wet-snow slides</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Older snowdrift accumulations will get covered</avActivityHighlights>
+          <avActivityComment>Older snowdrift accumulations are often still trigger-prone, esp. by large additional loading. Such spots will be covered by fresh snow and made difficult to recognize. In addition, medium-sized avalanches can trigger from near-surface layers on north-facing slopes in isolated cases. Glide-snow avalanches can trigger at any time and reach medium size in zones where there is sufficient snow. Caution urged below glide cracks. In very steep terrain, mostly small loose-snow slides are possible.</avActivityComment>
+          <snowpackStructureComment>The small amount of fresh snow is bonding well with the old snowpack. Older drifted masses lie deposited atop soft layers, esp. on shady high-altitude slopes, they will be covered during the day by fresh snow. On north-facing slopes there are weak near-surface layers on steep slopes which have persisted. Otherwise the old snowpack is mostly compact and stable. At low and intermediate altitudes it is thoroughly moist, wet at ground level. Cloudy nighttime skies hamper longwave outgoing radiation.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Skies will be heavily overcast, but it will remain dry. Tuesday daytime: Heavily overcast and foggy, reduced visibility, increasingly wet. Below 1400-1100 m initially rainfall. All in all, 10 cm of fresh snow anticipated.. At 2000 m: -1 degree. Light westerly winds.</wxSynopsisComment>
+          <tendencyComment>Wednesday will bring snowfall down to low lying areas. Depending on the amounts, avalanche danger levels could increase.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-01"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4380RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4380RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>glide-snow avalanches on steep smooth slopes and loose-snow slides</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Small glide-snow avalanches possible</avActivityHighlights>
+          <avActivityComment>Small-to-medium glide-snow avalanches are still possible. Caution urged below glide cracks. In very steep terrain, small loose wet-snow avalanches can be expected, these can also be triggered by 1 person in steep terrain. Danger of being swept along and being forced to take a fall should be taken into consideration.</avActivityComment>
+          <snowpackStructureComment>At intermediate altitudes the snowpack is thoroughly moist, wet at ground level. Clouds passing through will hamper nocturnal longwave outgoing radiation, a crust capable of bearing loads cannot form easily. About 10 cm of fresh snow is expected, it will bond well with the old snowpack surface. Warm ground and the wet snowpack base reinforce the gliding movements of the entire snowpack. Very little snow on the ground below 1200-1500 m.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Skies will be heavily overcast, but it will remain dry. Tuesday daytime: Heavily overcast and foggy, reduced visibility, increasingly wet. Below 1400-1100 m initially rainfall. All in all, 10 cm of fresh snow anticipated.. At 2000 m: -1 degree. Light westerly winds.</wxSynopsisComment>
+          <tendencyComment>Wednesday will bring snowfall down to low lying areas. Depending on the amounts, avalanche danger levels could increase.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4380RGR3">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-04T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4380RGR3">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-04T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-05T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&gt;2000 m older snowdrifts</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>&lt;2400 m glide-snow avalanches on steep slopes with smooth ground, wet-snow slides</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Snowdrift accumulations will get covered</avActivityHighlights>
+          <avActivityComment>Snowdrift accumulations are often trigger-prone, easily triggerable as small avalanches, esp by large additional loading. Such spots sized avalanches can trigger from near-surface layers on north-facing slopes in isolated cases. Glide-snow avalanches can trigger at any time and reach medium size in zones where there is sufficient snow. Caution urged below glide cracks. In very steep terrain, mostly small loose-snow slides are possible.</avActivityComment>
+          <snowpackStructureComment>The small amount of fresh snow is bonding well with the old snowpack. Older drifted masses lie deposited atop soft layers, esp. on shady high-altitude slopes, they will be covered during the day by fresh snow. On north-facing slopes there are weak near-surface layers on steep slopes which have persisted. Otherwise the old snowpack is mostly compact and stable. At low and intermediate altitudes it is thoroughly moist, wet at ground level. Cloudy nighttime skies hamper longwave outgoing radiation.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Skies will be heavily overcast, but it will remain dry. Tuesday daytime: Heavily overcast and foggy, reduced visibility, increasingly wet. Below 1400-1100 m initially rainfall. All in all, 10 cm of fresh snow anticipated.. At 2000 m: -1 degree. Light westerly winds.</wxSynopsisComment>
+          <tendencyComment>Wednesday will bring snowfall down to low lying areas. Depending on the amounts, avalanche danger levels could increase.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
