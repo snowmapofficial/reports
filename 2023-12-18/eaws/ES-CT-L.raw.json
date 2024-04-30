@@ -1,0 +1,65 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2023-12-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2023-12-18T23:00:00Z",
+      "endTime" : "2023-12-19T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist snow slides during the day require caution. Old wind slabs in particular on wind-protected shady slopes.",
+      "comment" : "The avalanche conditions in the morning, after a clear night, are generally favourable. In particular very steep sunny slopes: As the day progresses as a consequence of warming during the day and solar radiation there will be a gradual increase in the danger of moist snow slides. These can be released by people, but they will be small in most cases. <br/> <br/> The clearly visible wind slabs of last week can still be released in some cases in particular on wind-protected shady slopes and generally at high altitude. In isolated cases the avalanches in these loacations are medium-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "The new snow and wind slabs of last week have bonded quite well with the old snowpack in particular on sunny slopes. Above approximately 2000 m there are 30 to 50 cm of snow. In all regions at high altitudes and in high Alpine regions snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wednesday: Gradual increase in danger of dry avalanches as a consequence of new snow and wind. The danger of moist avalanches will decrease gradually.",
+      "tendencyType" : "increasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2023-12-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "W", "SW", "E" ]
+    } ],
+    "bulletinID" : "3cab72c0-cddf-46a9-86ec-77cf7e8fe7d3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
