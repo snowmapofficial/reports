@@ -1,0 +1,286 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2023-12-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2023-12-16T23:00:00Z",
+      "endTime" : "2023-12-17T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs represent the main danger. Gliding snow requires caution.",
+      "comment" : "The fresh wind slabs remain in some cases prone to triggering. This applies in particular on shady slopes, also on sunny slopes at elevated altitudes. Caution is to be exercised in particular above approximately 2200 m, as well as in gullies and bowls, and behind abrupt changes in the terrain. Avalanches can be released easily and reach medium size. The prevalence of avalanche prone locations and likelihood of triggering will increase with altitude. Shooting cracks when stepping on the snowpack can indicate the danger. <br/> <br/> As a consequence of warming loose snow avalanches are to be expected, but they will be mostly small. In addition there is a danger of gliding avalanches. This applies on steep slopes below approximately 2400 m. <br/> <br/> Weak layers in the old snowpack can be released especially by large additional loads in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. Individual avalanche prone locations are to be found on very steep shady slopes above approximately 2200 m. Avalanches can reach large size in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The wind was strong in some cases. As a consequence of new snow and wind from northerly directions, sometimes large wind slabs formed. More recent wind slabs are lying on soft layers in all aspects at high altitudes and in high Alpine regions. Faceted weak layers exist in the centre of the snowpack in particular above approximately 2200 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather conditions will foster a gradual settling of the snow drift accumulations. As a consequence of warming, the likelihood of wet loose snow avalanches being released will increase for a while in particular on very steep sunny slopes.",
+      "tendencyType" : "decreasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2023-12-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "N", "S", "SW", "W", "NW", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "N", "W", "NW", "NE" ]
+    } ],
+    "bulletinID" : "7021a0d0-738f-4102-b075-cac2a0b98eb4",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Glockturm Range",
+      "regionID" : "AT-07-19"
+    }, {
+      "name" : "Weißkugel Range",
+      "regionID" : "AT-07-20"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Northern Zillertal Alps",
+      "regionID" : "AT-07-23"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    } ]
+  }, {
+    "publicationTime" : "2023-12-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2023-12-16T23:00:00Z",
+      "endTime" : "2023-12-17T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs require caution.",
+      "comment" : "The fresh and older wind slabs are in some cases prone to triggering above approximately 2200 m. The avalanche prone locations are to be found in particular in west to north to east facing aspects. Avalanches can be released by a single winter sport participant and reach medium size. Caution is to be exercised in particular adjacent to ridgelines and in gullies and bowls. As a consequence of warming loose snow avalanches are to be expected, but they will be mostly small. <br/> <br/> Weak layers in the old snowpack can be released in very isolated cases in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. This applies on very steep shady slopes above approximately 2400 m, especially in the north. The avalanche prone locations are rare. Avalanches can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of a strong to storm force northwesterly wind, wind slabs formed in the last few days in gullies and bowls and behind abrupt changes in the terrain. These are lying on soft layers in particular on shady slopes at elevated altitudes. <br/> Faceted weak layers exist in the centre of the snowpack in particular above approximately 2400 m. Sunshine and high temperatures will give rise as the day progresses to slight moistening of the snowpack in particular on sunny slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather conditions will foster a gradual settling of the snow drift accumulations. As a consequence of warming, the likelihood of wet loose snow avalanches being released will increase further in particular on very steep sunny slopes.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2023-12-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "W", "NW", "NE" ]
+    } ],
+    "bulletinID" : "aa17ab0e-538e-400d-b35a-012f8235a4fe",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2023-12-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2023-12-16T23:00:00Z",
+      "endTime" : "2023-12-17T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs require caution. Wet loose snow avalanches are possible.",
+      "comment" : "The fresh wind slabs are mostly only small but can be released in isolated cases. Individual avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls, and behind abrupt changes in the terrain, especially on very steep shady slopes at elevated altitudes. <br/> As a consequence of warming during the day and solar radiation individual wet loose snow avalanches are possible, but they will be mostly small. This applies on extremely steep sunny slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wind slabs are to be found in particular adjacent to ridgelines and in gullies and bowls. They are mostly small and unlikely to be released now. Sunshine and high temperatures will give rise as the day progresses to increasing moistening of the snowpack especially on sunny slopes. Snow depths vary greatly above the tree line, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Moist and wet snow slides are still possible.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2023-12-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "b5c31818-fb9c-4616-8f04-80a114e4ad3d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
