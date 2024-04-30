@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3987RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3987RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, wind-loaded gullies, bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>smooth steep slopes, grass-covered, rock plates</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Danger zones blanketed: difficult to recognize</avActivityHighlights>
+          <avActivityComment>Fresh and older snowdrifts are trigger-prone at high altitudes. Danger zones are covered, they occur in ridgeline terrain, behind discontinuities and in wind-loaded gullies and bowls. Small-to-medium sized avalanches can be triggered by one person. Older danger zones have been blanketed and are difficult to recognize. Backcountry sports require much experience in assessing avalanche dangers on-site and prudent route selection. Despite lower temperatures, glide-snow avalanches are still a threat on steep grass-covered and rocky slopes in all aspects, avoid zones below glide cracks.</avActivityComment>
+          <snowpackStructureComment>The snowdrift accumulations generated over the last few days are bonding only very slowly on shady slopes and with ascending altitude. Fresh and older drifts often lie deposited stop soft faceted layers or surface hoar, poorly bonded. Older drifts have been covered, the old snowpack below them is generally well consolidated and stable. The warm ground and wet lower layers are reinforcing the gliding movement of the entire snowpack.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Cloudless skies, bitter cold. Saturday daytime:  Unhampered sunshine, cold but slowly rising temperatures. At 2000 m: -12 degrees to -5 degrees. Easterly winds slackening off and shifting to northerly.</wxSynopsisComment>
+          <tendencyComment>Sunday morning: clouds passing through at high altitude, sunnier in the afternoon. Temperatures rising at high altitude. Avalanche danger levels will gradually diminish.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
