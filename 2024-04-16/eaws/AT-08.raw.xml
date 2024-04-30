@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4731RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-16T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4731RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-16T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-17T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, in gullies and bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>isolated glide-snow avalanches</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Danger zones increase with ascending altitude and during course of day</avActivityHighlights>
+          <avActivityComment>Fresh snowdrifts can trigger small-to-medium slabs by 1 person. Danger zones occur esp. in steep ridgeline terrain, behind discontinuities and in gullies and bowls. Frequency and size of danger zones increase with ascending altitude and during the course of the day. Precipitation will be reinforced by showers, making amounts of fresh snow vary. Regionally, danger level 3 (considerable) can be reached. Backcountry undertakings require a prudent route selection. In addition, isolated glide-snow avalanches are still possible. Avoid zones below glide cracks. In case of solar radiation or longer bright intervals, small loose-snow avalanches can trigger naturally.</avActivityComment>
+          <snowpackStructureComment>The fresh snow (10 cm, locally more) was transported by NW winds, forming thin snowdrift accumulations. Tomorrow, fresh snowfall and wind will generate more fresh snowdrift accumulations. Prior to the snowfall the slopes were largely bare of snow at intermediate altitudes, many areas on sunny slopes. On north-facing slopes the snowpack lay at 1500 m. The fresh snow there lies atop ground which was bare of snow before or atop a thoroughly wet snowpack, generally well bonded with the old snow.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Heavily cloudy skies with snow showers above 1000 m. Wednesday daytime: Wintery! Snowfall and cold, turning to snow showers in afternoon. At 2000 m: -6 degrees. Moderate to brisk northwesterly winds.</wxSynopsisComment>
+          <tendencyComment>Thursday will bring typical April weather: sunshine, clouds, snowfall and graupel. Avalanche danger could increase further, depending on the amount of fresh fallen snow.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
