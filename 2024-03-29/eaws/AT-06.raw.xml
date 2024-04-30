@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4594RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-03-29T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4594RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-03-29T17:00:00+00:00</beginPosition>
+          <endPosition>2024-03-30T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>increasing as day progresses</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>size and frequency of snowdrifts increase with ascending altitude</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Beware snowdrifts on high-altitude north-facing slopes</avActivityHighlights>
+          <avActivityComment>Avalanche danger above the treeline is moderate, below that altitude danger is low. &#13;
+Due to strong southerly foehn winds, fresh snowdrift accumulations have been generated on north-facing slopes which can be triggered by 1 person. Danger zones occur behind discontinuities and in gullies and bowls, also distant from ridges.&#13;
+Danger of naturally triggered glide-snow avalanches in steep sunny grass-covered terrain at all altitudes and in steep rocky terrain.</avActivityComment>
+          <snowpackStructureComment>On Friday night it will be exceptionally mild in high alpine regions, the snowpack will thus be soft already in early morning hours. Due to stormy southerly foehn winds on Holy Thursday, snowdrift accumulations were deposited on extended north-facing slopes above 2000 m which have not yet settled. Weak layers are evident (loose snow, graupel, faceted crystals) in transitions to the old snowpack and inside the drifts. In addition, stormy winds have distributed the snow very irregularly, often formed hard snowdrift masses. On shady slöopes there are isolated weak layers more deeply embedded in the snowpack near crusts.&#13;
+At intermediate altitudes the mild temperatures are making the snowpack wetter, thus destabilizing it. It glides over smooth steep slopes. The slopes are becoming bare of snow.</snowpackStructureComment>
+          <wxSynopsisComment>A low with its center over Ireland is sending very warm air masses from the Mediterranean to the Eastern Alps. These are generating stormy southerly foehn winds on Holy Saturday. In Niedere Tauern and Gurktal/Seetal Alps clouds from the south will lodge against the mountain flanks, bringing short rain showers, scattered clouds. North of the Main Alpine Ridge there will be foehn storms, at ridglines reaching gale strength. The midday temperatures will at +6 degrees at 2000 m; +10 degrees at 1500 m, slightly cooler in the barrier cloud regions.&#13;
+On Easter Sunday the same scenario will continue. South of the Main Alpine Ridge, heavy cloud with isolated thunderstorm-like rain showers. The northern flank of the Alps will have better conditions, apart from the storm-strength winds.</wxSynopsisComment>
+          <tendencyComment>Wet-snow and gliding snow problems moving to the foreground, snowdrift problem receding.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-08-02"/>
+      <locRef xlink:href="AT-06-17"/>
+      <locRef xlink:href="AT-06-18"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
