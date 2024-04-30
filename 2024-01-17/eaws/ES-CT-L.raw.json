@@ -1,0 +1,65 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-01-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-01-17T23:00:00Z",
+      "endTime" : "2024-01-18T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs at high altitude. Wet and gliding avalanches are still possible.",
+      "comment" : "The moist fresh snow and in particular the wind slabs formed by the moderate to strong southwesterly wind must be evaluated with care and prudence. The fresh wind slabs are mostly small but in some cases prone to triggering. In particular in the valleys bordering the Esera basin and the Ribagorçana basin and at high altitude the avalanche prone locations are more prevalent and the danger is greater. <br/> Gliding avalanches are also to be expected at any time. In isolated cases they are medium-sized. Areas with glide cracks are to be avoided as far as possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Northeastern half of Aran: Some rain has fallen. Southwestern half of Aran: Above approximately 2400 m snow has fallen. <br/> The wind was strong adjacent to ridgelines. <br/> Naturally triggered avalanches have confirmed poor snowpack stability on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Friday: Gradual increase in danger of dry avalanches as the snowfall becomes more intense. Sharp decrease in danger of moist avalanches as the temperature drops.",
+      "tendencyType" : "increasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-01-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SE", "W", "SW", "E" ]
+    } ],
+    "bulletinID" : "5e881046-441c-4ab1-ad00-9f520394ffe2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
