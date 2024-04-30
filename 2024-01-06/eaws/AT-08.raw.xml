@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3874RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-06T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3874RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-06T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-07T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>often poorly bonded with the old snow</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, wind-loaded gullies, bowls</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Main problem: fresh snow, fresh snowdrifts</avActivityHighlights>
+          <avActivityComment>Avalanche danger above 1800 m is moderate, below that altitude danger is low. The fresh snow and older drifts at high altitudes are the main problem. The fresh snow can be triggered in some steep terrain. On steep ridges, behind discontinuities and in wind-loaded gullies and bowls, older danger zones have been blanketed. Size and frequency of danger zones increase with ascending altitude. Small-to-medium avalanches can be triggered by 1 person. Danger will increase during the course of the day. A cautious route selection is advised. Glide-snow avalanches continue to be possible on steep smooth slopes.</avActivityComment>
+          <snowpackStructureComment>Today 15-25 cm of fresh snow was registered, another 15-25 cm is expected by Sunday evening. It lies deposited on a highly varied snowpack, often is poorly bonded. At higher altitudes the older drifts have been blanketed. As winds intensify the fresh snow will be transported, generating new snowdrift accumulations which are prone to triggering. The old snowpack is generally stable. The warm and wet ground is reinforcing the gliding movement of the entire snowpack, though this has now receded somewhat.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Light-to-moderate snowfall down to low lying areas Sunday daytime:  Intermittent light-to-moderate snowfall. Temperature at 2000 m: -7 degrees. Moderate N/NE winds.</wxSynopsisComment>
+          <tendencyComment>Weather conditions will stabilize at the beginning of the week, only gradually on Monday, but improving noticeably on Tuesday. Avalanche danger will incrementally decrease.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
