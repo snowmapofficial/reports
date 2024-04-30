@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4217RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4217RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-15T23:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T11:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-02-16T11:00:00+00:00</beginPosition>
+                  <endPosition>2024-02-16T23:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Rising avalanche danger during course of day</avActivityHighlights>
+          <avActivityComment>Avalanche danger is low in the morning, rising to moderate (Danger Level 2) above 1800 m during the course of the day. Main problem: wet snow. Moist and wet loose-snow avalanches can trigger in steep rocky terrain, in isolated cases wet glide-snow avalanches can trigger natureally on very steep slopes over smooth ground. Frequency and size of avalanches increase as the day progresses. At high altitudes, wet snow avalanches will be maximum medium-sized.&#13;
+Small snowdrift accumulations at high altitudes can be problematic. Isolated danger zones occur in steep ridgeline terrain on N/E/SE facing slopes and in wind-loaded gullies and bowls. Small slabs can be triggered by 1 person. Danger of falling outweighs that of being buried in snow masses.</avActivityComment>
+          <snowpackStructureComment>The snowpack cools at night, forms a melt-freeze crust which quickly softens during the daytime. The snowpack becomes moist early on sunny slopes, during the course of the day in other aspects. Loose snow of recent days loses its firmness, can easily glide away. Water is seeping more and more into the snowpack, increasing the wetness at ground level, esp. where there is little snow on the ground. Gliding snow masses are the consequence. At higher altitudes, ridgeline snowdrift accumulations can be trigger-prone. The old snowpack is compact and stable by and large. Below 1400 m there is hardly any snow on the ground.</snowpackStructureComment>
+          <tendencyComment>In case of minor precipitation and lower temperatures on the weekend, danger of wet-snow avalanches will decrease.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+    <Bulletin gml:id="RID4217RGR2">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-15T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4217RGR2">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-15T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-16T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Isolated small wet-snow slides during the course of the day</avActivityHighlights>
+          <avActivityComment>Avalanche danger is low. Problem: wet-snow. Isolated moist and wet loose-snow avalanches can trigger in steep rocky terrain. Avalanche releases are small. Beware the risks of falling. On very steep slopes over smooth ground, small wet glide-snow avalanches cannot be excluded.</avActivityComment>
+          <snowpackStructureComment>The snowpack cools at night, forms a melt-freeze crust which quickly softens during the daytime. The snowpack becomes moist early on sunny slopes, during the course of the day in other aspects. Loose snow of recent days loses its firmness, can easily glide away. Water is seeping increasingly into the snowpack, increasing the wetness at ground level, esp. where there is little snow on the ground. Gliding snow masses are the consequence. At higher altitudes, ridgeline snowdrift accumulations can be trigger-prone. The old snowpack is compact and stable by and large. Below 1400 m there is hardly any snow on the ground.</snowpackStructureComment>
+          <tendencyComment>In case of minor precipitation and lower temperatures on the weekend, danger of wet-snow avalanches will decrease.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
