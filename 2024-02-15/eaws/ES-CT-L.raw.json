@@ -1,0 +1,88 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-02-15T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-02-15T23:00:00Z",
+      "endTime" : "2024-02-16T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Early and late morning: Wet snow requires caution. Midday and afternoon: New snow above approximately 2000 m.",
+      "comment" : "As a consequence of the precipitation moist and wet avalanches are to be expected as the day progresses, even medium-sized ones. The avalanche prone locations are to be found in particular on steep slopes below approximately 2500 m. <br/> Midday and afternoon: As the snowfall level drops small dry avalanches are to be expected above approximately 2000 m. These can in some cases be released by people."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack is not frozen and will soften quickly. <br/> Up to 2500 m rain will fall in the early morning over a wide area. Above approximately 2000 m snow will fall from midday. 10 to 15 cm of snow will fall until late in the night above approximately 2000 m. <br/> Above approximately 2000 m there are 40 to 60 cm of snow, and even more in some localities. At low altitude from a snow sport perspective, insufficient snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Saturday: Gradual decrease in danger of moist avalanches as the temperature drops.",
+      "tendencyType" : "decreasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-02-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "W", "SW", "E" ]
+    } ],
+    "bulletinID" : "8ebc573f-ede1-4cf1-8cf2-ecf67535f791",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
