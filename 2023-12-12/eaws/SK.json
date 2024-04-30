@@ -1,0 +1,132 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In all our mountains above 1300 m above sea level, a second avalanche level is declared. Especially the leeward sides of ridges, narrow couloirs and slopes under rock walls are dangerous. Especially dangerous are the northern exposures. Especially in these places there are wind-beaten slabs on hard ground, the stability of which is difficult to estimate. Loosening is possible on steep slopes above 40\u00b0 with only a small additional load.  At lower altitudes, the snow cover is soaked through due to rain, so small foundation or sliding avalanches can occur.",
+        "highlights": "Watch out for wind-slabs  and pillows"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "W",
+            "S",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "frequency": "some",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "W",
+            "S",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1300"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8f0182eb-b39d-49fd-8fe2-e99c48cad01c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2023-12-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2023-12-12T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 10 cm of new snow fell yesterday at the highest altitudes of our mountains. It is very unevenly distributed due to the changing wind direction. After yesterday's warming, the snow cover froze overnight and stabilised slightly. A light crust has formed on its surface, but it will melt during the day, especially at lower altitudes, soaking through the whole profile and working its way down to the hard ground. At higher altitudes there is hard firn hail, or wind-beaten hard snow on which snow slabs and cushions are blown. These are most pronounced just below the ridges on all orientations, as winds of variable directions have been creating them over the past few days."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "With snowfall during the day slightly rising.\n\n<br><br><i> Compiled by: Pavel Bet'ko </i>",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2023-12-12T23:00:00+00:00",
+        "endTime": "2023-12-13T23:00:00+00:00"
+      }
+    }
+  ]
+}
