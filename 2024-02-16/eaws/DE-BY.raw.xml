@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4228RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-16T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4228RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-16T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-17T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1500Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Beware small snowdrift accumulations at high altitudes</avActivityHighlights>
+          <avActivityComment>Avalanche danger above 1500 m is moderate, below that altitude danger is low. Main problem: wet snow. In steep rocky terrain at intermediate altitudes, wet loose-snow avalanches are possible. In places which have not yet discharged, wet glide-snow avalanches can trigger naturally on steep slopes over smooth ground. Avalanche releases are usually small, sometimes medium-sized.&#13;
+Small snowdrifts can be triggered by 1 person in steep ridgeline N/E facing terrain and in wind-loaded gullies and bowls, mostly small releases, the danger of falling outweighs that of being buried in snow masses.</avActivityComment>
+          <snowpackStructureComment>Rainfall up to high altitudes will increase the water seepage into the already thoroughly wet snowpack, thereby weakening it further, especially at ground level, gliding movements of the entire snowpack are the result. At high altitudes, small fresh trigger-prone snowdrifts are being generated. Otherwise the snowpack is compact and stable by and large. At highest altitudes there are thin layers of expansively metamorphosed crystals; tests have shown them to be unlikely to trigger. Below 1500 m there is very little snow on the ground.</snowpackStructureComment>
+          <tendencyComment>As precipitation tapers off, avalanche danger will recede slightly on Sunday.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
