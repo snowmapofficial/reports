@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4174RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4174RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-10T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1400Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>jederzeit möglich, verstärkt bei Regen und Nassschneeproblem</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <comment>dünne, kammnahe Triebschneelinsen</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Etwas Neuschnee, frischen Triebschnee in höheren Lagen und Nass- und Gleitschnee beachten - mäßige Lawinengefahr!</avActivityHighlights>
+          <avActivityComment>Es besteht teils in den höheren Lagen bzw. ab rund 1400 m Höhe mäßige Lawinengefahr.  Bei Regen sind spontane Nassschneelawinen möglich, die Gefahr geht dann erst mit der Abkühlung zurück. Bei einer genügend mächtigen Schneedecke sind auch Gleitschneelawinen jederzeit möglich. Steile Bereiche mit Rissen sind zu meiden und auf freigeblasenen harten, vereisten Steilhängen in Hochlagen besteht Absturzgefahr. Frischer, kleinräumiger Triebschnee in kammnahen Steilhängen, steilen Mulden und Rinnen ist bereits bei geringer Zusatzbelastung als meist kleine Schneebrettlawine auslösbar.</avActivityComment>
+          <snowpackStructureComment>Es fallen in Summe 10 bis 15 cm Neuschnee, der kleinräumig verfrachtet wird. In der Früh kann es auch teils bis in höhere Lagen noch regnen. Der frische Triebschnee bindet vor allem hochalpin mit der harten, vereisten oder darunter über Nacht verharschten Altschneedecke ungenügend. Bis in mittlere Lagen ist die Schneedecke auch im Inneren feucht, teils nass. Sie ist überhaupt sehr unregelmäßig verteilt, oft stark windbeeinflusst. Rücken und Grate sind oft völlig abgeweht. Mit der sinkenden Schneefallgrenze fällt etwas Schnee auch bis in tiefe Lagen.</snowpackStructureComment>
+          <wxSynopsisComment>Am Sonntag wird die Sicht stark durch Wolken und Nebel eingeschränkt. Es regnet und schneit immer wieder, wobei die Schneefallgrenze von 1800 m in der Früh gegen 1000 m am Abend sinkt. Der Wind aus West bis Nordwest weht mäßig stark. In 1500 m um 0 Grad, in 2000 m um -3 Grad.&#13;
+Am Montag wird die Sicht durch Wolken eingeschränkt. Längere sonnige Aufhellungen bleiben selten. Zeitweise schneit es unergiebig (Neuschneemenge: 5 cm). Die Schneefallgrenze liegt um 1100 m. Der Wind aus West bis Nordwest weht mäßig stark mit Böen zwischen 30 km/h und 40 km/h. In 1500 m um -1 Grad, in 2000 m um -5 Grad.</wxSynopsisComment>
+          <tendencyComment>Triebschnee und Gleitschneeproblem beachten.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-04"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-01"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
