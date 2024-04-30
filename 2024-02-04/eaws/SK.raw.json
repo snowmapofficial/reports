@@ -1,0 +1,81 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "For all mountain ranges of Slovakia a moderate avalanche danger is declared, i.e. 2 degree from the 5-part international scale.\nThe main avalanche problem at altitudes above 1500m above sea level is wind-blown snow.\nSnow is very unevenly distributed over the forest belt. In troughs of eastern and southern orientation, pillows and slabs on the icy surface of old snow form in strong northwesterly winds. On steep slopes, slab avalanches are likely to be released under mechanical loading.\nAt altitudes up to 1500 m above sea level, the main avalanche problem is wet snow, where care must also be taken for possible avalanche release under additional mechanical loads."
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "SE", "SW", "S", "NE", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "frequency" : "few",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "very_poor",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "SE", "SW", "S", "W", "N", "NE", "NW", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "frequency" : "some",
+      "problemType" : "wet_snow",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "d65cfc4f-0ff4-432a-a698-a922d2d10aa7",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-02-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2024-02-04T16:00:00Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Lúčianska Malá Fatra",
+      "regionID" : "SK-08"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "The snow cover is very unevenly distributed due to very strong winds. On the windward, westerly sides the snow is blown onto a hard ice base, in places even into the grass. Conversely, in leeward moguls and gullies, wind-blown snow is deposited in slabs and cushions. These lie on a hard icy surface with which they are poorly bonded. The 0°C isotherm is around 1500m above sea level. Between 30 and 40 cm of new snow is expected to fall in our mountains during the night of Sunday and Monday. This will be blown by strong north-westerly winds into the forest zone.\nBelow 1500m above sea level the snow is wet to soaking wet. This makes it incoherent and tends to release slides and avalanches when skiing."
+    },
+    "tendency" : {
+      "highlights" : "With snow and wind forecast, avalanche danger is increasing.\n<br><br><I> Compiled by Ivan Chlebovec</I>",
+      "tendencyType" : "increasing"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2024-02-05T23:00:00Z",
+      "startTime" : "2024-02-04T23:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
