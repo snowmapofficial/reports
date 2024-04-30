@@ -1,0 +1,86 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-02-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-02-24T23:00:00Z",
+      "endTime" : "2024-02-25T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs in all aspects. Moist snow slides and avalanches from the middle of the day.",
+      "comment" : "The new snow and wind slabs can be released very easily in all aspects at intermediate and high altitudes. As a consequence of a moderate to strong southerly wind, further wind slabs will form in the course of the day in particular at the southern border of Aran. In isolated cases the avalanches in these regions are medium-sized and in many cases easily released. During the day: As the snowfall level rises more frequent small moist snow slides and avalanches are to be expected below approximately 2200 m. The avalanche prone locations are barely recognisable because of the poor visibility. Backcountry touring and other off-piste activities call for defensive route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 10 to 15 cm of snow fell in the last two days. 5 to 15 cm of snow, and even more in some localities, will fall until the evening. The new snow is lying on a crust in all aspects. This snow has hardly bonded at all. The sometimes strong wind will transport the new snow. As a consequence of rising temperatures, rain up to intermediate altitudes and the occasionally strong southerly wind, a precarious avalanche situation will develop in the course of the day. The new snow of the last few days will become increasingly prone to triggering. <br/> <br/> Above approximately 2000 m there are 40 to 60 cm of snow, and even more in some localities. At low altitude from a snow sport perspective, insufficient snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Monday: Significant decrease in danger of moist avalanches as the snowfall level drops. Further increase in danger of dry avalanches as the snowfall becomes more intense.",
+      "tendencyType" : "increasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-02-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    } ],
+    "bulletinID" : "ef93f9ad-eca5-48dc-978d-b12f0da576c1",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
