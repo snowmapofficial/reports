@@ -1,0 +1,91 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "In all our mountain ranges, a second avalanche danger level is declared above the forest zone. Especially the leeward sides of ridges, narrow couloirs and places under rock walls are dangerous. Here, there are hard wind-beaten slabs whose stability is very difficult to estimate. Their loosening is possible on steep slopes and with high additional loads.  There is a risk of small to medium avalanches. The second avalanche problem is the permanently weak layer from 1700 m above sea level. This occurs in predominantly shady couloirs and on northern orientations. Please note that in order to recognize the permanently weak layer it is necessary to dig out a snow profile.",
+      "highlights" : "Watch out for wind-slabs. There are critical layers in the shady troughs and on northern exposures !"
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "W", "N", "NE", "NW", "E" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "frequency" : "some",
+      "problemType" : "persistent_weak_layers",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "SW", "S", "W", "N", "NW" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "frequency" : "some",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "a86e88c1-b666-412f-8d46-72f24408c4ef",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-01-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    }, {
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2024-01-09T16:00:00Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Lúčianska Malá Fatra",
+      "regionID" : "SK-08"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "The snow cover is very varied in our mountains due to strong winds. Mountain ridges are blown into hard to icy ground. In valleys and troughs, hard slabs and pillows are beaten down by wind and low temperatures, alternating with places of loose snow. In the forest belt, the snow surface is frozen hard to icy in places. Continuous snow cover is found from 1200 m above sea level."
+    },
+    "tendency" : {
+      "highlights" : "Unchanging due to cold air and persistent wind.\n\n<BR><BR> <I> Compiled by: Pavel Beťko</I>",
+      "tendencyType" : "steady"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2024-01-10T23:00:00Z",
+      "startTime" : "2024-01-09T23:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
