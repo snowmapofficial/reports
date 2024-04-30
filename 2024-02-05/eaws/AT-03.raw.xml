@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4129RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-05T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4129RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-05T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-06T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment>aus steilen, schneebefüllten Hängen möglich</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Geringe Lawinengefahr aber vereinzelt Nassschneelawinen möglich!</avActivityHighlights>
+          <avActivityComment>Es herrscht verbreitet geringe Lawinengefahr. Es gibt nur mehr vereinzelte Gefahrenstellen, die sich in steilen Hängen der Hochlagen befinden. Hier können in schneebefüllten Rinnen und Mulden vereinzelt durch geringe Zusatzbelastung Nassschneelawinen ausgelöst werden. Außerdem können mit der Erwärmung kleine, spontane, nasse Lockerschneelawinen aus steilem Fels- und Schrofengelände nicht ausgeschlossen werden.</avActivityComment>
+          <snowpackStructureComment>Tiefe Lagen sind meist schon schneefrei, selbst in mittleren Lagen ist häufig keine geschlossene Schneedecke mehr vorhanden. Mit der Erwärmung und dem Wind wird der Schnee einerseits weiter ausapern, andererseits bis zu den Gipfeln feucht und oberflächlich weich. In schneegefüllten Mulden und Rinnen kann sich die Verbindung zwischen den oberen Schneeschichten durch den Feuchtigkeitseintrag verschlechtern. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag wird es trocken und überall freundlich, nur hohe Schleierwolken dämpfen den Sonnenschein etwas. Der Wind weht weiter aus westlicher Richtung, lässt aber überall nach. Im Bereich Rax-Schneeberg weht er noch kräftig, in den restlichen Regionen nur noch mäßig. Die Temperaturen liegen im Westen in 1500 m bei +5 Grad, in 2000 m um +2 Grad, im Osten um jeweils 2 Grad höher.</wxSynopsisComment>
+          <tendencyComment>Am Mittwoch nimmt die Bewölkung etwas zu, der Wind nimmt hingegen überall ab. Die Temperaturen werden in allen Höhen etwas kühler, in 2000 m hat es um 0 Grad. Die Lawinengefahr bleibt unverändert, der Schnee wird weiter geringer.  </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-02"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
