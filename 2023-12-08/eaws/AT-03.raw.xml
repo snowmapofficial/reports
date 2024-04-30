@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3616RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2023-12-08T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3616RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2023-12-08T17:00:00+00:00</beginPosition>
+          <endPosition>2023-12-09T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <comment>umfangreicher Triebschnee, sehr leicht auslösbar</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Älterer Triebschnee in den Hochlagen!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr wird mit mäßig beurteilt. Es gibt 2 Hauptproblematiken: &#13;
+1) In den Hochlagen: Älterer Triebschnee kann durch eine große Zusatzbelastung ausgelöst werden. Die Gefahrenstellen befinden sich im Nord und im Ostsektor. Vorsicht hinter Geländekanten und bei Einfahrten von Rinnen und Mulden, hier sollten die älteren Triebschneemengen nicht unterschätzt werden. &#13;
+2) In den mittleren und tiefen Lagen: Hier sind weiterhin Gleitschneelawinen möglich. Kleine bis mittlere Nassschneelawinen sind in den tiefen Lagen möglich. Diese können im Wald auf einer Laubschicht abgleiten!</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke konnte sich setzen. In den Hochlagen ist die Schneedecke meist hart und teilweise eisig. Im Leebereich liegt älterer Triebschnee auf einer weichen Schicht auf. Der Wind hat die Schneedecke oberhalb der Baumgrenze massiv bearbeitet. Luvhänge sind teils schneelos. Rinnen und Mulden wurden mit Triebschnee gefüllt. In den mittleren und tiefen Lagen wurde der Schnee mit der Erwärmung feucht, teilweise auch nass. </snowpackStructureComment>
+          <wxSynopsisComment>Am Samstag überwiegen die Wolken und vor allem am Vormittag schneit es bei einer von Westen her ansteigenden Schneefallgrenze um 800m bis 1000m etwas. Es werden 5 bis 10 cm Neuschnee erwartet. Am Nachmittag ist es in den Ybbstaler Alpen oft schon niederschlagsfrei, im Rax-Schneeberggebiet klingen die Niederschläge später ab. Mäßiger Höhenwind aus Südwest. Nachmittagstemperaturen auf 1500m von West nach Ost zwischen plus 2 und minus 4 Grad.</wxSynopsisComment>
+          <tendencyComment>Sonntag: Ganztägig überwiegen dichte Wolken und vor allem in der ersten Tageshälfte muss mit Schneefall, von Westen her zunehmend mit Schneeregen oder leichtem Regen gerechnet werden. Die Nassschneeproblematik bleibt in den mittleren Lagen aufrecht. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-03-01"/>
+      <locRef xlink:href="AT-03-06"/>
+      <locRef xlink:href="AT-03-04"/>
+      <locRef xlink:href="AT-03-05"/>
+      <locRef xlink:href="AT-03-02"/>
+      <locRef xlink:href="AT-03-03"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
