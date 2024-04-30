@@ -1,0 +1,66 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-04-06T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-06T22:00:00Z",
+      "endTime" : "2024-04-07T22:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution.",
+      "comment" : "As the day progresses an unfavourable avalanche situation will persist in some regions. As the moisture increases more moist snow slides and avalanches are possible, even medium-sized ones. Avalanches can be released by people or triggered naturally. In particular at the border to Benasque and at the border to Ribagorça and Pallars the avalanche prone locations are more prevalent and the danger is greater. In addition a latent danger of gliding avalanches exists. <br/> <br/> The current avalanche situation calls for meticulous route selection. Backcountry tours should be started and concluded early."
+    },
+    "snowpackStructure" : {
+      "comment" : "The avalanche conditions remain spring-like. Outgoing longwave radiation during the night will be reduced. The rain will give rise towards the evening to significant moistening of the snowpack in some cases in all aspects also at elevated altitudes. The sometimes storm force wind will transport only a little snow. <br/> Above approximately 2000 m there are 30 to 100 cm of snow, and even more in some localities. At high altitudes and in high Alpine regions snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Monday: Gradual decrease in danger of moist avalanches as the temperature drops.",
+      "tendencyType" : "decreasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    } ],
+    "bulletinID" : "e5853561-6631-498c-9a29-d407b1a451e7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
