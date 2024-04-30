@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4812RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-29T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4812RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-29T16:00:00+00:00</beginPosition>
+          <endPosition>2024-05-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-29T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-05-02T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-05-02T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-05-02T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-04-29T22:00:00+00:00</beginPosition>
+                  <endPosition>2024-05-02T10:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validTime>
+                <TimePeriod>
+                  <beginPosition>2024-05-02T10:00:00+00:00</beginPosition>
+                  <endPosition>2024-05-02T22:00:00+00:00</endPosition>
+                </TimePeriod>
+              </validTime>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Caution in zones with glide cracks!</avActivityHighlights>
+          <avActivityComment>Avalanche danger rises from low to moderate during the course of the day. Main problem: wet snow. Where there is still enough snow, wet snow can trigger naturally as loose snow avalanches in very steep terrain or be released by 1 skier. Heed danger of being swept along. In addition, possibility of glide snow avalanches on steep grass-covered slopes and rock slabs with sufficient snow. Wet snow is entrained in the avalanche track. Esp. at higher altitudes with plenty of snow and later in the day avalanches can attain medium size.</avActivityComment>
+          <snowpackStructureComment>In high altitude terrain and under clear nocturnal skies the snowpack is melt-freeze encrusted in the morning. Solar radiation and rising temperatures will melt it fast. The snowpack is thoroughly moist down to the ground, heavy and forfeits more and more of its firmness as the day progresses. Where the water seeps down to and accumulates at the ground, gliding  movements over smooth ground are promoted. Above 1600 m there are still above-average quantities of snow in the Bavarian Alps. At lower altitudes and on south-facing intermediate altitude slopes the ground becomes gradually bare of snow.</snowpackStructureComment>
+          <tendencyComment>Currently, wet snow avalanches and a daytime avalanche danger cycle are expected.  As of Thursday, rainshowers will lead to even more moisture in the snowpack. </tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
