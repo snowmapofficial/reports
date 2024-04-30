@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3933RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-13T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3933RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-13T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-14T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>extremely steep terrain, behind discontinuities, wind-loaded gullies, bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep grass-covered slopes, rock plates possible</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Favorable backcountry touring conditions, but still with glide-snow avalanches</avActivityHighlights>
+          <avActivityComment>For backcountry tourers, mostly favorable conditions, low avalanche danger. Small, fresh and older snowdrift accumulations can still be triggered. Isolated danger zones occur on steep ridges, behind discontinuities and in wind-loaded gullies and bowls,  increase in size and frequency with ascending altitude. Winter sports enthusiasts can trigger small avalanhes. Pay attention to the risks of falling and being swept along. Glide-snow avalanches continue to be possible on steep smooth slopes, avoid zones below glide cracks.</avActivityComment>
+          <snowpackStructureComment>Near-surface layers are mostly still soft (except wind-impacted and steep south-facing slopes). Bonding is generally good, less so on steep shady slopes, where surface hoar has often formed. Gusty winds have generated fresh drifts. The old snowpack is well consolidated and stable. The warm ground and wet lower layers are reinforcing the gliding movement of the entire snowpack, otherwise only small triggerings have been reported, including medium-sized.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Clear skies and dry. Sunday daytime:  Cloudless skies to scattered clouds. Windy. Temperature at 2000 m: -5 to -3 degrees. Moderate-to-brisk NW winds.</wxSynopsisComment>
+          <tendencyComment>Monday will have heavily overcast skies, light snowfall is possible, westerly winds will be brisk, thus, avalanche danger levels could increase.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
