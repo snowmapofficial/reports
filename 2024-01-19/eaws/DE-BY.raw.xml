@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3984RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-19T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3984RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-19T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-20T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Snowdrift accumulations at high altitudes</avActivityHighlights>
+          <avActivityComment>Avalanche danger in the Bavarian Alps is moderate above the treeline, below that altitude danger is low. Main problem: snowdrift accumulations. Danger zones occur on steep ridgeline slopes, behind discontinuities and in wind-loaded gullies and bowls in all aspects. Snowdrift accumulations can be triggered as slab avalanches by one sole person and reach medium size. Apart from the dangers of being buried in snow, be attentive to the risks of falling.&#13;
+Due to solar radiation or from 1 skier, small loose-snow avalanches can be triggered in steep rocky terrain.&#13;
+In addition, glide-snow activity on smooth grass-covered slopes in in forest clearances has increased at intermediate altitudes. Avoid zones below glide cracks.</avActivityComment>
+          <snowpackStructureComment>Wind from varying directions have generated small-sized snowdrift accumulations which are prone to triggering, and are now blanketed, making them hard to spot. They were deposited atop a melt-freeze crust at intermediate altitudes, atop variable wind crusts higher up. Bonding is often poor. In addition, beneath the thin melt-freeze crust are trigger-prone weak layers of faceted crystals. At lower altitudes the snow base is moist, sometimes wet down to the ground, resulting in reinforced gliding movements of the entire snowpack.</snowpackStructureComment>
+          <tendencyComment>Due to higher temperatures, the danger of dry-snow slab avalanches will recede further.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-12"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
