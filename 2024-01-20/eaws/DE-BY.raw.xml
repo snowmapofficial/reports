@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3993RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-20T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3993RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-20T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-21T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_ForestlineLo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment></comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Snowdrift accumulations at high altitudes: AVOID them</avActivityHighlights>
+          <avActivityComment>Avalanche danger above the treeline is moderate above the treeline, below that altitude danger is low. Main problem: small snowdrift accumulations. Danger zones occur on steep ridgeline slopes, behind discontinuities and in wind-loaded gullies and bowls in all aspects. Snowdrift accumulations can be triggered as slab avalanches by one sole person and reach medium size. Apart from the dangers of being buried in snow, be attentive to the risks of falling.&#13;
+Due to solar radiation or from 1 skier, small loose-snow avalanches can be triggered in steep rocky terrain.&#13;
+In addition, glide-snow activity on smooth grass-covered slopes in in forest clearances has increased at intermediate altitudes. Avoid zones below glide cracks.</avActivityComment>
+          <snowpackStructureComment>Intensifying SW winds will generate new, small snowdrift accumulations, they will be deposited on loose layers and become increasingly prone to triggering with ascending altitude. Older snowdrifts which varying winds have generated are now lightly blanketed, making them difficult to recognize. The low tempertures have created a weak layer of faceted (expansively metamorphosed) crystals in the transition between old and fresh snow. Otherwise the snowpack is stable and compact, only in some places do weak layers threaten at the uppermost part of the snowpack. At low altitudes the snowpack is wet down to the ground. Gliding snow masses over smooth ground are the consequence.</snowpackStructureComment>
+          <tendencyComment>Stormy winds and variable weather conditions will increase avalanche danger levels at the start of the week.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="DE-BY-41"/>
+      <locRef xlink:href="DE-BY-42"/>
+      <locRef xlink:href="DE-BY-43"/>
+      <locRef xlink:href="DE-BY-51"/>
+      <locRef xlink:href="DE-BY-52"/>
+      <locRef xlink:href="DE-BY-20"/>
+      <locRef xlink:href="DE-BY-11"/>
+      <locRef xlink:href="DE-BY-30"/>
+      <locRef xlink:href="DE-BY-60"/>
+      <locRef xlink:href="DE-BY-12"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
