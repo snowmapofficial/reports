@@ -1,0 +1,109 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "For all mountain ranges of Slovakia a moderate avalanche danger is declared, i.e. 2 degree from the 5-part international scale.\nDangerous are formations of wind-blown snow on very steep slopes oriented E to SW.\nTemperatures above freezing cause the risk of avalanches from wet snow, which can be released especially under high additional loads. The most dangerous will be sunlit slopes of S orientation with more accumulated snow and high gradients.\nSmaller spontaneous avalanches are also likely to occur during the day."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "S",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "ba8e531a-d649-4373-b60c-3730d7f02304",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-01-31"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-01-30T16:13:01+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "It has warmed up considerably in the mountains. At 1500-2200m above sea level, the air temperature is expected to stay above 0\u00b0C throughout the night from Tuesday to Wednesday.\nThe snow cover is blown to a hard base of ice on the windward, western sides due to the very windy weekend.\nPillows of wind-blown snow that are in east to southwest exposures are melting, and may become loose on the hard ground. At the same time, warming causes the top layer of snow cover to melt."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Thursday, cooling down and snowing with wind is forecasted, the avalanche danger is likely to increase.\n\n<br><br><I> Compiled by Ivan Chlebovec</I>",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-01-30T23:00:00+00:00",
+        "endTime": "2024-01-31T23:00:00+00:00"
+      }
+    }
+  ]
+}
