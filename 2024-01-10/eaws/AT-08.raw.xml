@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID3908RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-01-10T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID3908RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-01-10T17:00:00+00:00</beginPosition>
+          <endPosition>2024-01-11T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep ridgeline terrain, behind discontinuities, wind-loaded gullies, bowls</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>steep grass-covered slopes, rock plates</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Pay close heed to snowdrifts with ascending altitude</avActivityHighlights>
+          <avActivityComment>Avalanche danger is predominantly moderate. Small and older snowdrifts are the main problem. Danger zones occur on steep ridges, behind discontinuities and in wind-loaded gullies and bowls,  increase in size and frequency with ascending altitude. Small-to-medium avalanches can be triggered by 1 person. Loose-snow avalanches can trigger naturally or by 1 person esp. in rocky and sun-drenched steep terrain. Glide-snow avalanches continue to be possible on steep smooth slopes.</avActivityComment>
+          <snowpackStructureComment>The snow which has fallen since Friday has settled somewhat, is well bonded to the old snowpack, but this process is slower with ascending altitude, where weak, trigger-prone layers are evident. Wind impact has generated easily triggered snowdrift accumulations, as cracks and triggerings today have confirmed. The old snowpack is highly irregular. The warm and wet ground is reinforcing the gliding movement of the entire snowpack, have recently increased in frequency.</snowpackStructureComment>
+          <wxSynopsisComment>Nocturnal hours: Scattered clouds to cloudless skies, temperatures dropping. Thursday daytime:  Sunshine all day long, cloudless skies, slightly higher temperatures. Temperature at 2000 m: -6 to -1 degree. Light-to moderate NE winds.</wxSynopsisComment>
+          <tendencyComment>Quite sunny on Friday and Saturday, slightly milder. Avalanche danger levels are not expected to change significantly.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-08-02"/>
+      <locRef xlink:href="AT-08-03-02"/>
+      <locRef xlink:href="AT-08-03-01"/>
+      <locRef xlink:href="AT-08-04"/>
+      <locRef xlink:href="AT-08-05-02"/>
+      <locRef xlink:href="AT-08-05-01"/>
+      <locRef xlink:href="AT-08-06"/>
+      <locRef xlink:href="AT-08-01"/>
+      <locRef xlink:href="AT-08-07"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
