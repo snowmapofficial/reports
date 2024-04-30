@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4315RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-02-26T17:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4315RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-02-26T17:00:00+00:00</beginPosition>
+          <endPosition>2024-02-27T17:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lo"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>Triebschnee beachten, vor allem kammnah</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>selten und aus extrem steilem Gelände</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Überwiegend ist in höheren Lagen auf lokale Gefahrenstellen wie Triebschnee noch zu achten!</avActivityHighlights>
+          <avActivityComment>Die Lawinengefahr ist ab rund 1600 bis 1800 m Höhe noch mäßig. Hauptsächlich im erweiterten Nordsektor gibt es vor allem in den Kammlagen, hinter Geländekanten und in steilen Mulden sowie Rinnen noch lokal Gefahrenstellen durch Triebschnee, die zu meiden sind. Eine Auslösung von kleinen bis mittleren Schneebrettlawinen ist hier stellenweise noch durch geringe Zusatzbelastung möglich. Zusätzlich sind in allen Expositionen vereinzelt spontane Gleitschneelawinen möglich. Dort, wo der letzte Schnee auf aperem Boden zu liegen gekommen ist, kann er auf glattem Untergrund spontan oder durch Belastung ins Gleiten kommen.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke und auch der Triebschnee konnten sich durch die milden Temperaturen weiter setzen. Vor allem im erweiterten Nordsektor, lokal auch in anderen Expositionen, gibt es noch älteren Triebschnee, der auf einer weichen Schicht zu liegen gekommen ist, nun aber besser bindet und nur teils noch störanfällig ist. Die Triebschneepakete können auch dünne Zwischenschichten enthalten. Die Schneeoberfläche ist nur mehr in den höheren schattigen Lagen pulvrig. Das Schneedeckenfundament ist überwiegend stabil und bis auf schattseitige Hochlagen isotherm und im Inneren feucht, teils auch nass. </snowpackStructureComment>
+          <wxSynopsisComment>Am Dienstag sind die Wolken über den Alpen meist dicht, die Sicht ist dadurch zwar recht diffus aber nicht eingeschränkt. Es bleibt überwiegend trocken. Der Wind weht in den Alpen schwach bis mäßig aus südöstlichen Richtungen. Die Temperaturen erreichen in 1500 m um 4 Grad, in 2000 m um 1 Grad.&#13;
+Am Mittwoch sind die Wolken meist dicht und schränken die Sicht zum Teil ein. Zwischendurch kann es, wenn überhaupt nur kurzzeitig auflockern. Es bleibt überwiegend trocken, auch wenn ein paar Regentropfen hier und da nicht ausgeschlossen werden können (Schneefallgrenze ca. 2000 m). Der Wind weht überwiegend schwach aus unterschiedlichen Richtungen. Die Temperaturen liegen in 1500 m bei 2 bis 5 Grad, in 2000 m bei 2 Grad.</wxSynopsisComment>
+          <tendencyComment>Keine wesentliche Änderung der Lawinensituation bzw. weiter langsam Entspannung der Triebschneesituation.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-04-02"/>
+      <locRef xlink:href="AT-04-05"/>
+      <locRef xlink:href="AT-04-06"/>
+      <locRef xlink:href="AT-04-07"/>
+      <locRef xlink:href="AT-04-08"/>
+      <locRef xlink:href="AT-04-01"/>
+      <locRef xlink:href="AT-04-03"/>
+      <locRef xlink:href="AT-04-04"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
