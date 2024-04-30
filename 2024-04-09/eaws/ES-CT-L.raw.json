@@ -1,0 +1,66 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-09T22:00:00Z",
+      "endTime" : "2024-04-10T22:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs represent the main danger.",
+      "comment" : "As a consequence of new snow and a moderate wind from northwesterly directions, further wind slabs will form during the course of the night. These can in some places be released by people, but they will be small in most cases. The avalanche prone locations are to be found in all aspects above approximately 2000 m. The number and size of avalanche prone locations will increase with altitude."
+    },
+    "snowpackStructure" : {
+      "comment" : "5 to 10 cm of snow has fallen since yesterday above approximately 2000 m. Up to 5 cm of snow will fall during the night above approximately 2000 m. The moderate wind will transport the new snow significantly. The wind slabs are located on a brown crust due to the effect of Saharan dust."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Thursday: The danger of dry slab avalanches will decrease during the day. As a consequence of warming during the day and the solar radiation, the likelihood of gliding avalanches and moist snow slides being released will increase appreciably.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    } ],
+    "bulletinID" : "599cc8a0-7f40-4578-8b4c-6341cc215efc",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
