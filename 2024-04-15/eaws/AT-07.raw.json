@@ -1,0 +1,428 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-15T22:00:00Z",
+      "endTime" : "2024-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow represents the main danger. Loose snow avalanches require caution.",
+      "comment" : "More medium-sized and, in isolated cases, large gliding avalanches are possible. This applies on steep grassy slopes below approximately 2600 m. Areas with glide cracks are to be avoided. <br/> On extremely steep slopes small and, in isolated cases, medium-sized loose snow avalanches are to be expected as a consequence of the new snow. Avalanches can in very isolated cases release the wet snowpack and reach large size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be wet all the way through. This applies on sunny slopes in all altitude zones, as well as on shady slopes below approximately 2600 m. <br/> The meteorological conditions will bring about a gradual strengthening of the snowpack. 10 cm of snow, and even more in some localities, will fall on Tuesday above approximately 2000 m. <br/> In particular below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Slight increase in avalanche danger as a consequence of the snowfall.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-04-16T22:00:00Z",
+        "endTime" : "2024-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    } ],
+    "bulletinID" : "828cdccc-ff42-448e-a586-0d163093f62e",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Western Lechtal Alps",
+      "regionID" : "AT-07-07"
+    }, {
+      "name" : "Western Verwall Mountains",
+      "regionID" : "AT-07-10"
+    }, {
+      "name" : "Allgäu Alps",
+      "regionID" : "AT-07-01"
+    }, {
+      "name" : "Silvretta",
+      "regionID" : "AT-07-12"
+    } ]
+  }, {
+    "publicationTime" : "2024-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-15T22:00:00Z",
+      "endTime" : "2024-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Decrease in danger of wet avalanches as the temperature drops. Wet and gliding snow require caution.",
+      "comment" : "More medium-sized and, in isolated cases, large gliding avalanches are possible. This applies in particular on steep grassy slopes below approximately 2600 m. Areas with glide cracks are to be avoided. <br/> In the early morning more medium-sized wet avalanches are possible. This applies on very steep slopes below approximately 2600 m. <br/> <br/> In isolated cases wet avalanches can release the saturated snowpack and reach large size. In steep gullies avalanches can in isolated cases reach valley bottoms at relatively high altitudes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is wet all the way through. This applies on sunny slopes in all altitude zones, as well as on shady slopes below approximately 2600 m. Some snow will fall in some localities. The meteorological conditions will bring about a gradual strengthening of the snowpack. <br/> The surface of the snowpack will only just freeze and will already be soft in the early morning. <br/> <br/> In particular below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Decrease in danger of wet avalanches as the temperature drops.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-04-16T22:00:00Z",
+        "endTime" : "2024-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    } ],
+    "bulletinID" : "f27f7364-8541-431f-8255-27827e646e20",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2024-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-15T22:00:00Z",
+      "endTime" : "2024-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow represents the main danger.",
+      "comment" : "More medium-sized and, in isolated cases, large gliding avalanches are possible. This applies in particular on steep grassy slopes below approximately 2600 m. Areas with glide cracks are to be avoided. In steep gullies avalanches can in very isolated cases reach areas without any snow cover. <br/> <br/> On extremely steep slopes individual loose snow avalanches are to be expected, but they will be mostly small. In the regions exposed to snowfall this applies."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is wet all the way through. This applies on sunny slopes in all altitude zones, as well as on shady slopes below approximately 2600 m. <br/> The meteorological conditions will bring about a gradual strengthening of the snowpack. Some snow will fall in some localities. <br/> In particular below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Slight increase in avalanche danger as a consequence of the snowfall.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-04-16T22:00:00Z",
+        "endTime" : "2024-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    } ],
+    "bulletinID" : "6afcf0c0-310f-4aeb-9d28-6144981e052f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eastern Lechtal Alps",
+      "regionID" : "AT-07-02-02"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "AT-07-02-01"
+    }, {
+      "name" : "Kauner Ridge",
+      "regionID" : "AT-07-14-01"
+    }, {
+      "name" : "Weißkugel Range",
+      "regionID" : "AT-07-20"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Eastern Verwall Mountains",
+      "regionID" : "AT-07-11"
+    }, {
+      "name" : "Northern Zillertal Alps",
+      "regionID" : "AT-07-23"
+    }, {
+      "name" : "Samnaun Mountains",
+      "regionID" : "AT-07-13"
+    }, {
+      "name" : "Mieming Mountains",
+      "regionID" : "AT-07-03"
+    }, {
+      "name" : "Western Tuxer Alps",
+      "regionID" : "AT-07-15"
+    }, {
+      "name" : "Eastern Tuxer Alps",
+      "regionID" : "AT-07-16"
+    }, {
+      "name" : "Central Lechtal Alps",
+      "regionID" : "AT-07-08"
+    }, {
+      "name" : "Kalkkögel",
+      "regionID" : "AT-07-14-04"
+    }, {
+      "name" : "Glockturm Range",
+      "regionID" : "AT-07-19"
+    }, {
+      "name" : "Grieskogel Mountains",
+      "regionID" : "AT-07-09"
+    }, {
+      "name" : "Serles Ridge",
+      "regionID" : "AT-07-14-05"
+    }, {
+      "name" : "Kühtai - Geigen Ridge",
+      "regionID" : "AT-07-14-02"
+    }, {
+      "name" : "Sellrain - Alpein Mountains",
+      "regionID" : "AT-07-14-03"
+    }, {
+      "name" : "Western Karwendel Mountains",
+      "regionID" : "AT-07-04-01"
+    } ]
+  }, {
+    "publicationTime" : "2024-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-15T22:00:00Z",
+      "endTime" : "2024-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow represents the main danger.",
+      "comment" : "On steep grassy slopes individual gliding avalanches are possible. These can in some cases release the wet snowpack and reach medium size. Areas with glide cracks are to be avoided."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be wet all the way through. <br/> The meteorological conditions will bring about a gradual strengthening of the snowpack. Some snow will fall in some localities. <br/> In particular at low and intermediate altitudes only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Slight increase in avalanche danger as a consequence of the snowfall.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-04-16T22:00:00Z",
+        "endTime" : "2024-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "SE", "NE", "S", "N", "SW", "W" ]
+    } ],
+    "bulletinID" : "74a267cb-6f31-40a2-acb0-5fd8a4603ad5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Brandenberg Alps",
+      "regionID" : "AT-07-05"
+    }, {
+      "name" : "Wilder Kaiser Mountains - Waidring Alps",
+      "regionID" : "AT-07-06"
+    }, {
+      "name" : "Eastern Kitzbühel Alps",
+      "regionID" : "AT-07-18"
+    }, {
+      "name" : "Eastern Karwendel Mountains",
+      "regionID" : "AT-07-04-02"
+    }, {
+      "name" : "Central Kitzbühel Alps",
+      "regionID" : "AT-07-17-02"
+    }, {
+      "name" : "Western Kitzbühel Alps",
+      "regionID" : "AT-07-17-01"
+    } ]
+  } ]
+}
