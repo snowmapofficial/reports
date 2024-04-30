@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-03-09T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-03-09T23:00:00Z",
+      "endTime" : "2024-03-10T23:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh snow and large quantities of wind-drifted snow represent the main danger.",
+      "comment" : "The fresh snow and in particular the many sometimes large wind slabs can be released easily or naturally in all aspects and at intermediate and high altitudes. The avalanche prone locations are to be found especially adjacent to ridgelines in all aspects above approximately 2000 m and in gullies and bowls. In particular in the valleys of Molières and Conangles, at the border to Ribagorça and Pallars and at the border to Benasque the avalanche prone locations are more prevalent. The avalanche danger in these regions is within the upper range of danger level 3 (considerable). <br/> The conditions are dangerous for backcountry touring and other off-piste activities."
+    },
+    "snowpackStructure" : {
+      "comment" : "20 to 40 cm of snow, and even more in some localities, has fallen since Friday above approximately 1500 m. 5 to 10 cm of snow, and up to 20 cm in some localities, will fall on Sunday. The wind will be moderate to strong over a wide area. The southerly wind will transport the new snow significantly. <br/> The fresh wind slabs are lying on weak layers on shady slopes at intermediate and high altitudes. <br/> Above approximately 2000 m there are 90 to 130 cm of snow, and even more in some localities."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Monday: Above approximately 1500 m snow will fall. The northwesterly wind will transport the new snow significantly. The avalanche danger will not decrease for the time being.",
+      "tendencyType" : "steady"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-03-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    } ],
+    "bulletinID" : "d84ff3a4-9f96-4958-be4d-11e477049e88",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
