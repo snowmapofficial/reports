@@ -1,0 +1,126 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In all our mountain ranges, a second avalanche danger level is declared above the forest zone. Especially the leeward sides of ridges, narrow couloirs and places under rock walls are dangerous. Here, there are hard wind-beaten slabs whose stability is very difficult to estimate. Their loosening is possible on steep slopes and with high additional loads.  There is a risk of small to medium avalanches. The second avalanche problem is the permanently weak layer from 1700 m above sea level. This occurs in predominantly shady couloirs and on northern orientations. Please note that in order to recognize the permanently weak layer it is necessary to dig out a snow profile.",
+        "highlights": "Watch out for wind-slabs. There are critical layers in the shady troughs and on northern exposures !"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W",
+            "N",
+            "NW"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "a86e88c1-b666-412f-8d46-72f24408c4ef",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2024-01-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2024-01-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow cover is very varied in our mountains due to strong winds. Mountain ridges are blown into hard to icy ground. In valleys and troughs, hard slabs and pillows are beaten down by wind and low temperatures, alternating with places of loose snow. In the forest belt, the snow surface is frozen hard to icy in places. Continuous snow cover is found from 1200 m above sea level."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Unchanging due to cold air and persistent wind.\n\n<BR><BR> <I> Compiled by: Pavel Be\u0165ko</I>",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2024-01-09T23:00:00+00:00",
+        "endTime": "2024-01-10T23:00:00+00:00"
+      }
+    }
+  ]
+}
