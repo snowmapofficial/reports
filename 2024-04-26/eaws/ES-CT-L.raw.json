@@ -1,0 +1,66 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-04-26T22:00:00Z",
+      "endTime" : "2024-04-27T22:00:00Z"
+    },
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs at the southern and western borders of Aran.",
+      "comment" : "As a consequence of new snow and a strong southerly wind, precarious wind slabs will form in the course of the day in particular in the regions of the south exposed to the foehn wind. <br/> Valleys of Molières and Conangles and circuses of Saboredo, Colomèrs and Valarties: The fresh wind slabs can be released easily. or in isolated cases naturally, in all aspects above approximately 2100 m. In many cases they are medium-sized. <br/> Other regions, Below approximately 2500 m the avalanche situation is more favourable."
+    },
+    "snowpackStructure" : {
+      "comment" : "In particular in the south 20 to 30 cm of snow will fall until Sunday above approximately 2100 m. The wind will be moderate to strong. This snow will be deposited on a quite favourable old snowpack on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sunday: As a consequence of the ceasing of precipitation there will be a gradual decrease in the avalanche danger as the day progresses.",
+      "tendencyType" : "decreasing"
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NE", "SE", "W", "SW", "NW", "E" ]
+    } ],
+    "bulletinID" : "e48df6f5-2e31-48a5-a932-dea52f056246",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
