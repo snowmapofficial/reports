@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <observations>
+    <Bulletin gml:id="RID4617RGR1">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2024-04-01T16:00:00+00:00</dateTimeReport>
+          <srcRef>
+            <Operation gml:id="BID4617RGR1">
+              <name>avalanche-warnings.eu</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2024-04-01T16:00:00+00:00</beginPosition>
+          <endPosition>2024-04-02T16:00:00+00:00</endPosition>
+        </TimePeriod>
+      </validTime>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <comment>possible at any time of day or night</comment>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_N"/>
+              <validAspect xlink:href="AspectRange_NE"/>
+              <validAspect xlink:href="AspectRange_E"/>
+              <validAspect xlink:href="AspectRange_SE"/>
+              <validAspect xlink:href="AspectRange_S"/>
+              <validAspect xlink:href="AspectRange_SW"/>
+              <validAspect xlink:href="AspectRange_W"/>
+              <validAspect xlink:href="AspectRange_NW"/>
+              <comment>as rain sets in</comment>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>First, rainfall up to high altitudes. Then, dropping temperatures.</avActivityHighlights>
+          <avActivityComment>Avalanche danger is still moderate: due to nocturnal rainfall wet-snow and glide-snow avalanches conntinue to be naturally triggerable, they can plummet even down to the valleys. In high-alpine zones fresh snowdrift accumulations will be generated which can be triggered by backcountry tourers, esp. on E/N facing slopes.</avActivityComment>
+          <snowpackStructureComment>High temperatures over the last few days have done harsh work on the snowpack, it has forfeited its firmness. The snow base is wet, the surface generally soft already in early morning, due to the expected rainfall it is becoming wetter and heavier. At high alpine altitudes it is stabilizing. As temperatures drop, fresh drifts will be generated, poorly bonding with the old snowpack.</snowpackStructureComment>
+          <wxSynopsisComment>On Monday night, rainfall initially in eastern and southern regions, often heavy. In eastern Styria it will gradually terminate and recede to the north. The snowfall level will drop to 1200 m. On Tuesday, sunshine and clouds will alternate. In afternoon, convective cloud build-up will heighten the tendency towards showers, esp. in southern regions, snow showers above 1700 m. Colder: at 2000 m about 0 degrees. Brisk NW winds.</wxSynopsisComment>
+          <tendencyComment>On Wednesday, sunshine in eastern Styria, then cloud cover will move in, but not much precipitation is anticipated. Isolated glide-snow avalanches can’t be ruled out in alpine zones.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+      <locRef xlink:href="AT-06-01"/>
+      <locRef xlink:href="AT-06-02"/>
+      <locRef xlink:href="AT-06-04-01"/>
+      <locRef xlink:href="AT-06-03"/>
+      <locRef xlink:href="AT-06-05"/>
+      <locRef xlink:href="AT-06-06"/>
+      <locRef xlink:href="AT-06-04-02"/>
+      <locRef xlink:href="AT-06-07"/>
+      <locRef xlink:href="AT-06-08-01"/>
+      <locRef xlink:href="AT-06-09"/>
+      <locRef xlink:href="AT-06-10"/>
+      <locRef xlink:href="AT-06-18"/>
+      <locRef xlink:href="AT-06-17"/>
+    </Bulletin>
+  </observations>
+</ObsCollection>
