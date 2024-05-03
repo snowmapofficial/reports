@@ -1,0 +1,135 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-05-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-05-01T22:00:00Z",
+      "endTime" : "2024-05-02T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in avalanche danger as a consequence of the precipitation.",
+      "comment" : "Increase in danger of dry avalanches as a consequence of the precipitation. Avalanches can reach medium size in particular in the regions exposed to heavier precipitation. This applies in particular on wind-loaded slopes. The avalanche prone locations for dry avalanches are to be found in particular on steep slopes above approximately 2500 m. <br/> As a consequence of the rain wet and gliding avalanches are possible as the day progresses, especially below approximately 2000 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some regions up to 30 cm of snow will fall above approximately 2500 m. As a consequence of new snow and a sometimes strong wind, wind slabs will form in particular in the vicinity of peaks. The rain will give rise to increasing and thorough wetting of the snowpack below approximately 2000 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be cloudy. Further decrease in danger of wet avalanches as the temperature drops.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-05-02T22:00:00Z",
+        "endTime" : "2024-05-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-05-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "N", "NE", "E", "SE", "NW", "W", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "N", "NE", "E", "SE", "NW", "W", "S" ]
+    } ],
+    "bulletinID" : "60e23c0e-efc4-475c-acef-f4b28a673604",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Southern Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Northern Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Southern Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Fassa Valley",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo and Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Southern Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Northern Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
