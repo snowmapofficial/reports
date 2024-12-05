@@ -1,0 +1,78 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-12-05T07:00:49Z",
+    "validTime" : {
+      "startTime" : "2024-12-04T16:00:00Z",
+      "endTime" : "2024-12-05T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Thursday, very sunny weather will prevail under the influence of a high-pressure front. The skies will often be cloudless. Visibility will be very good. Only in the valleys will persistent fog often prevail, or flat high-fog with the uppermost border between 700 and 900 m. Generally, light N/NE winds. At midday at 2000m: -8 degrees; at 3000m: -13 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "In gullies and bowls, isolated avalanches are possible.",
+      "comment" : "In gullies and bowls above approximately 2600m, isolated avalanches can be triggered particularly by large additional loading. The releases will mostly be small-sized and occur especially in shady, wind-protected zones along the Salzburg border. Apart from the risk of being buried in snow masses, the danger of being swept along and taking a fall should be taken into consideration."
+    },
+    "snowpackStructure" : {
+      "comment" : "Locally, 5-10 cm of fresh snow has been recorded. The somewhat older snowdrift accumulations now blanket a weak old snowpack on shady slopes above about 2600m.  The upper part of the snowpack is soft; the mid-level layers are faceted; the lower layers are hardened. There is little snow on the ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Little change in avalanche danger levels is expected.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2024-12-05T16:00:00Z",
+        "endTime" : "2024-12-06T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE", "E", "W" ]
+    } ],
+    "bulletinID" : "8372ce93-d3a3-4690-abd2-a51d77fec0a0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Isolated avalanches possible in gullies and bowls"
+  }
+}
