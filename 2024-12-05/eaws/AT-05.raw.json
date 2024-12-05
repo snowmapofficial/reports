@@ -1,0 +1,102 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-12-05T07:00:49Z",
+    "validTime" : {
+      "startTime" : "2024-12-04T16:00:00Z",
+      "endTime" : "2024-12-05T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "Until midnight, light snowfall from heavy clouds is expected particularly in the northern barrier cloud zones. Thereafter the snowfall will ease off and the clouds will begin to disperse. Initially, strong NW winds will be blowing at high altitudes in the Tauern (reaching 50 km/hr), after midnight the winds will slacken off. On Thursday, residual clouds will disperse in the morning, then sunshine will prevail generally. Winds will be mostly light to moderate, shifting increasingly to southern directions. Temperatures will rise during the course of the day. At 2000m: from -10 to -4 degrees; at 3000m: from -12 to -9 degrees C."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Isolated avalanche prone locations in the old snow due to ridgeline snowdrifts and weak layers",
+      "comment" : "Avalanche danger is low. In a few places in steep terrain, minimum additional loading can trigger a small-to-medium slab avalanche. Danger zones due to small snowdrift patches occur especially above 2200m near ridgelines in extended east-facing terrain. As winds shift to southerly, frequent snowdrift patches will be generated also on north-facing slopes. In high-alpine terrain, in addition, on purely shady slopes (NW to NE) slab avalanches can be triggered in the old snow. In rocky terrain on sunny slopes, small loose-snow slides can trigger naturally. In general, there is still very little snow on the ground, thus the main danger stems from injuries in the terrain (falls, protruding stones, rocks, crevices, branches) rather than from snow and avalanches."
+    },
+    "snowpackStructure" : {
+      "comment" : "In wind-protected zones there is very loosely-packed fresh snow on the surface which is settling only very slowly. On sunny slopes the settling process is proceeding somewhat faster. In ridgeline zones the loosely-packed fresh fallen snow is covered in some places by fresh, shallow snowdrift patches. On shady slopes the blanketed surface hoar can serve as a weak layer in some cases. In gullies and bowls at high and high-alpine altitudes, generally hardened layers of melt-freeze crusts constitute the snowpack base (September snow). Faceted, often trigger-sensitive intermediate layers between this base and the bonded snow from November often weaken the layering. Below 1800m the fresh snow fell by and large on bare ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Variable weather conditions and another bout of precipitation will raise avalanche danger a notch.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2024-12-05T16:00:00Z",
+        "endTime" : "2024-12-06T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "SE", "N", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "cf92e737-db47-446f-b9ba-7be32b2f9e4f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Großvenedigergruppe Nord",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe Nord",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Goldberggruppe Nord",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Großvenedigergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Alpenhauptkamm",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Ankogelgruppe, Muhr",
+      "regionID" : "AT-05-03"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Shady-slope and ridgeline danger zones at high altitudes"
+  }
+}
