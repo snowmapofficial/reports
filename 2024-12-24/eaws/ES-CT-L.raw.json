@@ -1,0 +1,98 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-12-24T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-12-23T16:00:00Z",
+      "endTime" : "2024-12-24T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "highlights" : "As a consequence of new snow and warming a precarious avalanche situation will be encountered over a wide area.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs and weakly bonded old snow are to be critically assessed. Moist snow slides during the day require caution.",
+      "comment" : "The fresh snow and in particular the many extensive wind slabs can be released easily, or, in isolated cases naturally in all aspects and above the tree line. In many cases the avalanches are medium-sized. On wind-protected shady slopes they can be triggered in deep layers of the snowpack and reach large size in some cases. <br/> <br/> As the snowfall level rises more frequent moist snow slides and avalanches are to be expected as the day progresses, even medium-sized ones. <br/> <br/> Backcountry touring and other off-piste activities call for experience in the assessment of avalanche danger and careful route selection. The avalanche prone locations are numerous and are barely recognisable because of the poor visibility."
+    },
+    "snowpackStructure" : {
+      "comment" : "30 cm of snow, and even more in some localities, has fallen since yesterday. The sometimes storm force wind has transported the new snow significantly. The fresh wind slabs are lying on unfavourable layers in particular on wind-protected shady slopes above the tree line. Released avalanches and field observations confirm poor snowpack stability in particular on wind-loaded slopes. <br/> <br/> Tuesday: Intermediate and high altitudes: Some snow will fall until midday. By the middle of the day further wind slabs will form. Low altitudes: Some rain will fall. <br/> <br/> At intermediate altitudes there are 50 to 100 cm of snow. Above the tree line snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Christmas Day: Further increase in danger of gliding avalanches and moist snow slides as a consequence of warming during the day and solar radiation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-12-24T16:00:00Z",
+        "endTime" : "2024-12-25T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "SE", "W", "N", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "SE", "W", "N", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "W", "N" ]
+    } ],
+    "bulletinID" : "a7be2867-4ac0-4be2-93ae-e13498fd58fc",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
