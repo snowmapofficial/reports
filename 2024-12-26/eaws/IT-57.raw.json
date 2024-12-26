@@ -1,0 +1,132 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-12-26T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-12-25T23:00:00Z",
+      "endTime" : "2024-12-26T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Dry slab avalanches are the main danger.",
+      "comment" : "The fresh wind slabs are easy to recognise and to be assessed with care and prudence. Adjacent to ridgelines and in gullies and bowls and on west facing slopes dry slab avalanches are possible, in particular medium-sized ones."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wind slabs are to be found adjacent to ridgelines and in gullies and bowls. In some cases the various wind slabs have bonded still only poorly together. In particular in gullies and bowls, and behind abrupt changes in the terrain the wind slabs have increased in size. Above approximately 1800 m the avalanche prone locations are more prevalent."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-12-26T23:00:00Z",
+        "endTime" : "2024-12-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "S", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "S", "N" ]
+    } ],
+    "bulletinID" : "b2a347ba-a47f-4504-ba70-71438859e9ca",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2024-12-26T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-12-25T23:00:00Z",
+      "endTime" : "2024-12-26T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs require caution.",
+      "comment" : "As a consequence of new snow and strong wind dry slab avalanches are to be expected, but they will be mostly small."
+    },
+    "snowpackStructure" : {
+      "comment" : "The sometimes strong wind has transported the new snow. Wind slabs have formed in particular adjacent to ridgelines on west facing slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2024-12-26T23:00:00Z",
+        "endTime" : "2024-12-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "E", "SW", "W", "S", "SE", "N", "NE" ]
+    } ],
+    "bulletinID" : "3d9cf44d-4fab-4485-a998-2ef796a4d7c7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
