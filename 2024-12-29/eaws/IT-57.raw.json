@@ -1,0 +1,121 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2024-12-29T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-12-28T23:00:00Z",
+      "endTime" : "2024-12-29T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Dry slab avalanches are the main danger. Moist and wet avalanches are possible below approximately 1800 m.",
+      "comment" : "The fresh wind slabs are easy to recognise and can in some cases be released easily at their margins. Adjacent to ridgelines and in gullies and bowls and on west facing slopes dry slab avalanches are possible, even medium-sized ones. Below approximately 1800 m small and, in isolated cases, medium-sized moist and wet avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wind slabs are to be found adjacent to ridgelines and in gullies and bowls. The various wind slabs have bonded quite well already together. Above approximately 1900 m the avalanche prone locations are more prevalent. The solar radiation will give rise to increasing moistening of the snowpack in particular on sunny slopes at intermediate altitudes. The danger of moist and wet avalanches will decrease during the night."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-12-29T23:00:00Z",
+        "endTime" : "2024-12-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "S", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    } ],
+    "bulletinID" : "65f97779-2df5-4eb7-95d4-27eb2972e2d8",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2024-12-29T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2024-12-28T23:00:00Z",
+      "endTime" : "2024-12-29T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches are the main danger.",
+      "comment" : "As a consequence of warming during the day and solar radiation mostly small moist and wet avalanches are possible in all altitude zones. At the base of rock walls the likelihood of avalanches being released is greater."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wind slabs are to be found adjacent to ridgelines and in gullies and bowls. The various wind slabs have bonded quite well already together. The solar radiation will give rise to increasing moistening of the snowpack in particular on sunny slopes. The danger of moist and wet avalanches will decrease during the night."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2024-12-29T23:00:00Z",
+        "endTime" : "2024-12-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2024-12-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    } ],
+    "bulletinID" : "48bbd7c9-b599-4beb-a094-ec2f6c07b4da",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
