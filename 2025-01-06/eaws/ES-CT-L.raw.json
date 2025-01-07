@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-06T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-06T16:00:00Z",
+      "endTime" : "2025-01-07T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs represent the main danger.",
+      "comment" : "The small wind slabs are lying on a crust. The avalanches can be released by people, but they will be small in most cases. The avalanche prone locations are to be found in particular adjacent to ridgelines and in pass areas above approximately 2200 m and at transitions into gullies and bowls. <br/> At low altitude moist snow slides are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some regions 5 cm of snow will fall until late in the night above approximately 2000 m. The wind will be moderate to strong adjacent to ridgelines. The snowpack is favourably layered and its surface has a strong melt-freeze crust. <br/> <br/> Above the tree line snow depths vary greatly, depending on the infuence of the wind. At intermediate altitudes there are 40 to 80 cm of snow. In all regions less snow than usual is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wednesday: Slight increase in danger of moist snow slides as a consequence of warming during the day. Slight decrease in danger of dry avalanches.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-01-07T16:00:00Z",
+        "endTime" : "2025-01-08T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "SE", "S", "E" ]
+    } ],
+    "bulletinID" : "f61c9af9-c0bc-4da3-a172-42e9acc3486a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
