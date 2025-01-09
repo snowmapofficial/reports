@@ -1,0 +1,80 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "In all of our mountain ranges there is a low avalanche danger (level 1) above the treeline. The situation is very different depending on the altitude. After a short cooling, it has warmed up again. Above 1800 m above sea level, where negative temperatures are maintained, the snow has been beaten down by the wind into slabs and pillows of varying hardness, which are deposited on a hard to icy base, the two layers being weakly interconnected. Below 1800 m above sea level the temperatures will be above 0°C, therefore there is an avalanche problem of wet snow. Due to the overall low snow cover, only small avalanches or avalanches may occur.",
+      "highlights" : "Watch out for wind-blown snow slabs above 1800 m above sea level."
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "W", "SW", "SE", "NW", "NE", "S", "N", "E" ],
+      "avalancheSize" : 1,
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "frequency" : "few",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "fair",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "W", "SW", "SE", "NW", "NE", "S", "N", "E" ],
+      "avalancheSize" : 1,
+      "elevation" : {
+        "lowerBound" : "treeline",
+        "upperBound" : "1800"
+      },
+      "frequency" : "few",
+      "problemType" : "wet_snow",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "7d451c93-50b7-4f83-bffb-5d9bcd5672de",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2025-01-08T16:00:00Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "The snow is very unevenly distributed due to the strong wind. The snow from the ridges is blown away. The snow from the last snowfall fell on a very hard, almost icy surface, which was caused by the fact that it cooled down considerably after the warming period. There are several ice crusts in the snowpack. The crusts are not load-bearing, so they break through when moving on foot. Movement off the beaten track is difficult. Temperatures above 0°C are expected at elevations below 1,800 m, so the snow surface there will be moist to wet. On average there is between 20 and 50 cm of snow in our mountains. A continuous snow cover is mostly found above the treeline."
+    },
+    "tendency" : {
+      "highlights" : "No change",
+      "tendencyType" : "steady"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2025-01-09T23:00:00Z",
+      "startTime" : "2025-01-08T23:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
