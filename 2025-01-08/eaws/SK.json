@@ -1,0 +1,119 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In all of our mountain ranges there is a low avalanche danger (level 1) above the treeline. The situation is very different depending on the altitude. After a short cooling, it has warmed up again. Above 1800 m above sea level, where negative temperatures are maintained, the snow has been beaten down by the wind into slabs and pillows of varying hardness, which are deposited on a hard to icy base, the two layers being weakly interconnected. Below 1800 m above sea level the temperatures will be above 0\u00b0C, therefore there is an avalanche problem of wet snow. Due to the overall low snow cover, only small avalanches or avalanches may occur.",
+        "highlights": "Watch out for wind-blown snow slabs above 1800 m above sea level."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "SW",
+            "SE",
+            "NW",
+            "NE",
+            "S",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "SW",
+            "SE",
+            "NW",
+            "NE",
+            "S",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "treeline",
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "7d451c93-50b7-4f83-bffb-5d9bcd5672de",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-01-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-01-08T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow is very unevenly distributed due to the strong wind. The snow from the ridges is blown away. The snow from the last snowfall fell on a very hard, almost icy surface, which was caused by the fact that it cooled down considerably after the warming period. There are several ice crusts in the snowpack. The crusts are not load-bearing, so they break through when moving on foot. Movement off the beaten track is difficult. Temperatures above 0\u00b0C are expected at elevations below 1,800 m, so the snow surface there will be moist to wet. On average there is between 20 and 50 cm of snow in our mountains. A continuous snow cover is mostly found above the treeline."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "No change",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2025-01-08T23:00:00+00:00",
+        "endTime": "2025-01-09T23:00:00+00:00"
+      }
+    }
+  ]
+}
