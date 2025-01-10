@@ -1,0 +1,91 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-10T16:00:00Z",
+      "endTime" : "2025-01-11T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs are to be evaluated with care and prudence.",
+      "comment" : "As a consequence of new snow and strong wind more frequent dry slab avalanches are possible as the day progresses. The avalanches can in many cases be released by people, but they will be small in most cases. The avalanche prone locations are to be found in particular adjacent to ridgelines and in pass areas above approximately 2000 m and at transitions into gullies and bowls. <br/> <br/> Early and late morning: As a consequence of the rain individual small moist loose snow slides are possible below approximately 2000 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 20 to 30 cm of snow, and even more in some localities, will fall until Sunday above approximately 1500 m. As a consequence of the moderate to strong northwesterly wind, fresh snow drift accumulations will form in the course of the day. <br/> Shady slopes: The upper section of the snowpack is unfavourably layered and its surface consists of loosely bonded snow lying on a melt-freeze crust. <br/> Sunny slopes and low altitudes: The surface of the snowpack will freeze to form a strong crust and will already be soft in the early morning. <br/> <br/> At intermediate altitudes there are 40 to 80 cm of snow. Above the tree line snow depths vary greatly, depending on the infuence of the wind. In all regions less snow than usual is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sunday: Significant increase in danger of dry avalanches as a consequence of new snow and strong wind. The wind slabs will be deposited on unfavourable layers in particular on shady slopes.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-01-11T16:00:00Z",
+        "endTime" : "2025-01-12T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "NE", "S", "W", "N", "NW", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "NE", "S", "W", "N", "NW", "SW", "E" ]
+    } ],
+    "bulletinID" : "0a7838c7-917b-44be-afa9-4a935dfe9f5c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
