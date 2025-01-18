@@ -1,0 +1,62 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-17T16:00:00Z",
+      "endTime" : "2025-01-18T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : { },
+    "snowpackStructure" : { },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-01-18T16:00:00Z",
+        "endTime" : "2025-01-19T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "9d2bf7ef-b299-4734-827a-0423324a1a4a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gippel - Göllergebiet",
+      "regionID" : "AT-03-06"
+    }, {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Türnitzer Alpen",
+      "regionID" : "AT-03-02"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : { }
+}
