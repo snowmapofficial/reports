@@ -1,0 +1,123 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-20T23:00:00Z",
+      "endTime" : "2025-01-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Old wind slabs above approximately 1800 m. The avalanches can in isolated cases be released, mostly by large loads. Wet snow at intermediate altitudes.",
+      "comment" : "Above approximately 1800 m and in gullies and bowls, and behind abrupt changes in the terrain individual slab avalanches are possible, but they will be mostly small. The older wind slabs can in isolated cases be released, mostly by large loads. Wet snow at intermediate altitudes. In gullies and bowls individual small moist and wet avalanches are possible at intermediate altitudes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be subject to considerable local variations. At intermediate altitudes a little snow is lying. The fresh and older wind slabs are to be found in particular in gullies and bowls, and behind abrupt changes in the terrain. The snowpack will be generally well bonded. Up to intermediate altitudes rain has fallen. These weather conditions gave rise to increasing and thorough wetting of the snowpack especially at intermediate altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-01-21T23:00:00Z",
+        "endTime" : "2025-01-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    } ],
+    "bulletinID" : "05f5d92b-be06-43e8-9379-e6c6dfcd01a9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-01-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-20T23:00:00Z",
+      "endTime" : "2025-01-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow represents the main danger.",
+      "comment" : "Especially in gullies and bowls individual small moist and wet avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "In these regions only a little snow is lying. The fresh and older wind slabs are to be found especially in gullies and bowls. The weather conditions will give rise to gradual moistening of the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-01-21T23:00:00Z",
+        "endTime" : "2025-01-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    } ],
+    "bulletinID" : "40355018-8f0d-42d3-affc-b55f8097e2ab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
