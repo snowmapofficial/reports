@@ -1,0 +1,794 @@
+ <!DOCTYPE html>
+<html lang="cs">
+<head>
+
+
+    <meta name="cywetadns-domain-verification" content="d108d81bc360a5bbec2da00a91cf66a1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Simopt, s.r.o. - internetová agentura">
+    <meta name="keywords" content="Jeseníky">
+    <meta name="description" content="Šerák
+Aktuální graf z meteo stanice ČHMÚ Šerák (převzato z portal.chmi.cz)
+ 
+
+Aktuální snímek z webkamery ČHMÚ Šerák (převzato z portal.chmi.cz)
+
+ ">
+    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="all,follow">
+
+    <!-- VIEW PORT -->
+    <meta name="viewport" content="width=640px">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://www.horskasluzba.cz/favicon.ico">
+    <link href="https://www.horskasluzba.cz/favicon.ico" rel="icon">
+
+
+    <link rel="preload" href="https://www.horskasluzba.cz/cz/fonts/dinpro-bold-webfont.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="https://www.horskasluzba.cz/cz/fonts/dinpro-regular-webfont.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="https://www.horskasluzba.cz/cz/fonts/dinpro-black-webfont.woff" as="font" type="font/woff" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://www.horskasluzba.cz/inc/fa/css/all.min.css" type="text/css">
+
+    <title>Jeseníky | Lavinová předpověď | Horská služba ČR</title>
+
+    <!-- css styles -->
+    <link type="text/css" rel="stylesheet" src="https://www.horskasluzba.cz/cache/css/page-css-424-9c4017455fa415566371b5608143cb2a.min.css">
+
+
+    <!--[if IE 6]>
+    <link rel="stylesheet" src="https://www.horskasluzba.cz/cz/style-ie6.css" type="text/css">
+    <![endif]-->
+
+    <!--[if IE]>
+    <link rel="stylesheet" src="https://www.horskasluzba.cz/cz/style-ie.css" type="text/css">
+    <![endif]-->
+
+    
+    <meta property="og:title" content="Jeseníky | Lavinová předpověď | Horská služba ČR">
+    <meta property="og:description" content="Šerák
+Aktuální graf z meteo stanice ČHMÚ Šerák (převzato z portal.chmi.cz)
+ 
+
+Aktuální snímek z webkamery ČHMÚ Šerák (převzato z portal.chmi.cz)
+
+ ">
+    <meta property="og:image" content="http://www.horskasluzba.cz/cz/img/logo.png">
+    
+
+
+    <!-- javascripts -->
+    
+    <script src="https://www.horskasluzba.cz/cache/js/page-js-424-c672b3aca0e3d56bef2922660c05e970.min.js"></script>
+
+    <script type="text/javascript">
+$(document).ready(function () {
+    Mapp.Appear.initAppearImages();
+    Mapp.Webp.init();
+});
+
+
+  var map = null;
+function appearMap1(callback) {     if ($('#mapAvalanche').hasClass('appear')) {
+       $('#mapAvalanche').removeClass('appear');
+       map = simopt.leafletmap.createMap("mapAvalanche", {"height":550,"categories":["avalanche"],"gmOpt":{"zoom":10,"center":{"lat":50.139588020140998,"lng":17.175064086913999},"useClusterer":false},"mcOpt":[],"lang":"en","toolPanel":false,"dataUrl":"\/cz\/maps\/mapdata?map=g&mod=aval&date=2025-01-23&lang=en","showDayPart":1,"seasson":"winter","regionLink01":"\/cz\/oblasti\/sumava","regionLink02":"\/cz\/oblasti\/krusne-hory","regionLink03":"\/cz\/oblasti\/jizerske-hory","regionLink04":"\/cz\/oblasti\/krkonose","regionLink05":"\/cz\/oblasti\/orlicke-hory","regionLink06":"\/cz\/oblasti\/jeseniky","regionLink07":"\/cz\/oblasti\/beskydy"}, callback);
+    }
+ };
+function forceAppearMap1() {
+   if ($('#mapAvalanche').is(':appeared')) {
+     appearMap1();
+  }
+};
+$(document).ready(function(){
+$('#mapAvalanche').addClass('appear').on('appear', function () {
+   appearMap1();
+});
+forceAppearMap1();
+setTimeout(forceAppearMap1,500);
+$(document).scroll(function() { forceAppearMap1()});
+
+});
+
+$(document).ready(function () { FsGallery.addImages([{"originalImage":"\/data\/web\/laviny\/2025-01\/snowprofil5.png","fullImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil5.png&method=fitbox&nw=1280&nh=1280&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil5.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/f6\/data-web-laviny-2025-01-snowprofil5.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/0c\/data-web-laviny-2025-01-snowprofil5.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Mal\u00fd Kotel, E (st\u0159edn\u011b stabiln\u00ed), <small>16. 01. 2025<\/small>","index":0},{"originalImage":"\/data\/web\/laviny\/2025-01\/snowprofil2.png","fullImage":{"src":"\/cache\/img\/7e\/data-web-laviny-2025-01-snowprofil2.fitbox.x1280.y1280.r0.q85.nr0.me2.png","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil2.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/aa\/data-web-laviny-2025-01-snowprofil2.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/cc\/data-web-laviny-2025-01-snowprofil2.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Velk\u00fd Kotel, B (stabiln\u00ed), <small>14. 01. 2025<\/small>","index":1},{"originalImage":"\/data\/web\/laviny\/2025-01\/cz-j-vk-202.png","fullImage":{"src":"\/cache\/img\/0d\/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x1280.y1280.r0.q85.nr0.me2.png","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fcz-j-vk-202.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/e7\/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/41\/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Velk\u00fd Kotel, C (st\u0159edn\u011b stabiln\u00ed), <small>10. 01. 2025<\/small>","index":2},{"originalImage":"\/data\/web\/laviny\/2025-01\/cz-j-vk-201.png","fullImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fcz-j-vk-201.png&method=fitbox&nw=1280&nh=1280&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fcz-j-vk-201.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/d6\/data-web-laviny-2025-01-cz-j-vk-201.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/c9\/data-web-laviny-2025-01-cz-j-vk-201.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Velk\u00fd Kotel, C (st\u0159edn\u011b stabiln\u00ed), <small>03. 01. 2025<\/small>","index":3},{"originalImage":"\/data\/web\/laviny\/2025-01\/snowprofil.png","fullImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil.png&method=fitbox&nw=1280&nh=1280&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/08\/data-web-laviny-2025-01-snowprofil.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/f3\/data-web-laviny-2025-01-snowprofil.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Mezikotl\u00ed, A (stabiln\u00ed), <small>02. 01. 2025<\/small>","index":4},{"originalImage":"\/data\/web\/laviny\/2025-01\/snowprofil1.png","fullImage":{"src":"\/data\/web\/laviny\/2025-01\/snowprofil1.png","w":661,"h":916},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2025-01%2Fsnowprofil1.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":462,"h":640},"fullWebp":{"src":"\/cache\/img\/8f\/data-web-laviny-2025-01-snowprofil1.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":661,"h":916},"mobileWebp":{"src":"\/cache\/img\/33\/data-web-laviny-2025-01-snowprofil1.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":462,"h":640},"title":"Velk\u00fd Kotel, A (stabiln\u00ed), <small>24. 12. 2024<\/small>","index":5},{"originalImage":"\/data\/web\/laviny\/2024-12\/cz-j-vk-201.png","fullImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2024-12%2Fcz-j-vk-201.png&method=fitbox&nw=1280&nh=1280&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2024-12%2Fcz-j-vk-201.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/de\/data-web-laviny-2024-12-cz-j-vk-201.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/5b\/data-web-laviny-2024-12-cz-j-vk-201.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Velk\u00fd Kotel, C (st\u0159edn\u011b stabiln\u00ed), <small>22. 12. 2024<\/small>","index":6},{"originalImage":"\/data\/web\/laviny\/2024-12\/snowprofil.png","fullImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2024-12%2Fsnowprofil.png&method=fitbox&nw=1280&nh=1280&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2024-12%2Fsnowprofil.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/38\/data-web-laviny-2024-12-snowprofil.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/08\/data-web-laviny-2024-12-snowprofil.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Kamzi\u010dn\u00edk, B (stabiln\u00ed), <small>19. 12. 2024<\/small>","index":7},{"originalImage":"\/data\/web\/laviny\/2024-12\/cz-j-vk-20.png","fullImage":{"src":"\/cache\/img\/fa\/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x1280.y1280.r0.q85.nr0.me2.png","w":905,"h":"1280"},"mobileImage":{"src":"\/inc\/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Flaviny%2F2024-12%2Fcz-j-vk-20.png&method=fitbox&nw=640&nh=640&rotate=0&jpgquality=85&noresize_small=1&max_enlargement=2","w":452,"h":640},"fullWebp":{"src":"\/cache\/img\/bb\/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x1280.y1280.r0.q85.nr0.me2.png.webp","w":905,"h":"1280"},"mobileWebp":{"src":"\/cache\/img\/ed\/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x640.y640.r0.q85.nr0.me2.png.webp","w":452,"h":640},"title":"Velk\u00fd Kotel, B (stabiln\u00ed), <small>12. 12. 2024<\/small>","index":8}],'');
+ });</script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRYBC1LWGT"></script><script>
+    window.gaPageId='/pocasi-na-horach/lavinova-predpoved/jeseniky';
+    window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('consent', 'default', {
+            'analytics_storage': 'denied'
+        });
+        gtag('js', new Date());gtag('config', 'G-DRYBC1LWGT', {'page_path': '/pocasi-na-horach/lavinova-predpoved/jeseniky'}); var gaMeasurementId='G-DRYBC1LWGT';</script><script type="text/plain" cookie-consent="tracking">gtag('consent', 'update', {
+      'analytics_storage': 'granted'
+    });</script>
+
+    <!-- header content -->
+    <link rel="alternate" type="application/rss+xml" href="https://www.horskasluzba.cz/cz/rss" title="Horská služba ČR">
+
+
+</head>
+<body class="webp">
+
+
+
+
+<a name="top"></a>
+
+<div id="bodyFrame">
+
+    <div id="headerFrameForMapFs"></div>
+
+    <div id="mainFrame">
+
+        <div id="headerFrame" class="noprint">
+            <div id="headerLogo"><a src="https://www.horskasluzba.cz/cz/"><img src="https://www.horskasluzba.cz/cz/img/gui/header_logo_hscr.png" alt="Horská služba ČR" title="Horská služba ČR" border="0"
+                                                                width="175" height="200"></a></div>
+            <div id="headerPanel">
+                <div id="headerTools">
+
+                    
+<div id="searchbox"><div id="searchbox-padding">
+
+  <h2 class="invisible">Vyhledávání:</h2>
+
+  <form action="/cz/hledani" name="simple_search" method="GET" onSubmit="if (this['hledej-slovo_1'].value=='Vyhledat') { alert('Zadejte prosím výraz pro vyhledání.'); return false;} else {return true;}">
+      
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><input type="text" name="hledej-slovo_1" id="searchbox-input"  value="Vyhledat" onClick="if (this.value=='Vyhledat') this.value='';" onblur="if (this.value=='') this.value='Vyhledat';"></td>
+          <!--<td><input type="text" name="hledej-slovo_1" id="searchbox-input"  value="Vyhledat"></td>-->
+          <td><input type="submit" value="OK" id="searchbox-button"></td>
+        </tr>
+      </table>
+  </form>
+
+  <hr noshade size="1" class="invisible">
+
+
+</div></div>
+
+                    
+                    <div id="infoBox">
+                        <div id="infoBoxInner">
+                            <div id="social-icons">
+                                <a href="https://www.ceskeparky.cz/horskasluzba/" target="_blank"><i class="fas fa-shopping-basket" style="color:#339614" id="eshop-btn"></i></a>
+                                <a href="https://cs-cz.facebook.com/horskasluzba.cz/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://twitter.com/horskac" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/horskasluzba/?hl=cs" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+
+                            <ul class='mainmenu mainmenu-level-1'><li class='first li-l1'><a src="https://www.horskasluzba.cz/cz/horska-sluzba" class='first a-l1'  ><span>O Horské službě</span></a><ul class='mainmenu mainmenu-level-2'><li class='first li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/poslani-a-ukoly" class='first a-l2'  ><span>Poslání a úkoly</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/historie" class=' a-l2'  ><span>Historie</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s" class=' a-l2'  ><span>Horská služba ČR, o.p.s.</span></a><ul class='mainmenu mainmenu-level-3'><li class='first li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/statut-horske-sluzby-cr-o-p-s" class='first a-l3'  ><span>Statut Horské služby ČR, o.p.s.</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/financovani-hs-cr-o-p-s" class=' a-l3'  ><span>Financování HS ČR, o.p.s. </span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/uredni-deska-uredni-deska" class=' a-l3'  ><span>Úřední deska</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/profil-zadavatele" class=' a-l3'  ><span>Profil zadavatele</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/vyrocni-zpravy" class=' a-l3'  ><span>Výroční zprávy</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/zpravy-od-auditora" class=' a-l3'  ><span>Zprávy od auditora</span></a></li><li class='last li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/prodej-nepotrebneho-majetku" class='last a-l3'  ><span>Prodej nepotřebného majetku</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-ceske-republiky-z-s" class=' a-l2'  ><span>Horská služba České republiky, z.s.</span></a><ul class='mainmenu mainmenu-level-3'><li class='first last li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-ceske-republiky-z-s/stanovy-horske-sluzby-cr-z-s" class='first last a-l3'  ><span>Stanovy Horské služby ČR, z.s.</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/podminky-prijeti-k-hs" class=' a-l2'  ><span>Podmínky přijetí k HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/odborne-komise" class=' a-l2'  ><span>Odborné komise</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny" class=' a-l2'  ><span>Laviny</span></a><ul class='mainmenu mainmenu-level-3'><li class='first li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/lavinove-aktuality" class='first a-l3'  ><span>Lavinové aktuality</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/video-a-foto-galerie?laviny=1" class=' a-l3'  ><span>Fotogalerie laviny</span></a></li><li class='last li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/informace-o-lavinach" class='last a-l3'  ><span>Informace o lavinách</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie" class=' a-l2'  ><span>Kynologie</span></a><ul class='mainmenu mainmenu-level-3'><li class='first li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie/aktuality-z-kynologie" class='first a-l3'  ><span>Aktuality z kynologie</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie/kynologicka-brigada" class=' a-l3'  ><span>Kynologická brigáda</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie/prehled-zasahu" class=' a-l3'  ><span>Přehled zásahů</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie/historie" class=' a-l3'  ><span>Historie</span></a></li><li class='last li-l3'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/kynologie/vzpominka-na-nase-psy" class='last a-l3'  ><span>Vzpomínka na naše psy</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/cenik-specialnich-vykonu" class=' a-l2'  ><span>Ceník specialních výkonů</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/cenik-ostatnich-cinnosti" class=' a-l2'  ><span>Ceník ostatních činností</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/moznost-zakoupeni-knihy-cerveni-andele" class=' a-l2'  ><span>Možnost zakoupení knihy Červení andělé</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/tarify" class=' a-l2'  ><span>Tarify</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/zahranicni-rozvojova-spoluprace" class=' a-l2'  ><span>Zahraniční rozvojová spolupráce</span></a></li><li class=' li-l2'><a href='https://www.ceskeparky.cz/horskasluzba/' class=' a-l2' target='_blank' ><span>E-shop</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/horska-sluzba/nadacni-fond-horske-sluzby-rescue" class='last a-l2'  ><span>Nadační fond horské služby – RESCUE</span></a></li></ul></li><li class='last li-l1'><a src="https://www.horskasluzba.cz/cz/kontakty" class='last a-l1'  ><span>Kontakty</span></a><ul class='mainmenu mainmenu-level-2'><li class='first li-l2'><a src="https://www.horskasluzba.cz/cz/kontakty/kontakty" class='first a-l2'  ><span>Kontakty</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/kontakty/kontaktni-formular" class='last a-l2'  ><span>Kontaktní formulář</span></a></li></ul></li></ul>
+
+
+                        </div>
+                    </div>
+
+
+                    <div id="headerMobileMenuLink">
+                        <div id="headerMobileMenuLinkPadding"><a href="#mobileMenuA" onClick="simopt.scrollToAnchor('mobileMenuA',-20);return false;">MENU</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="mainMenu"><ul class='mainmenu mainmenu-level-1'><li class='first  li-l1'><a src="https://www.horskasluzba.cz/cz/aktualni-informace" class='first  a-l1'  ><span>Na horách</span></a><ul class='mainmenu mainmenu-level-2'><li class='first li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/aktualne" class='first a-l2'  ><span>Aktuálně</span></a><ul class='mainmenu mainmenu-level-3'><li class='first li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/aktualne/aktuality" class='first a-l3'  ><span>Aktuality</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/aktualne/tiskove-zpravy" class=' a-l3'  ><span>Tiskové zprávy</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/aktualne/napsali-o-nas" class=' a-l3'  ><span>Napsali o nás</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/aktualne/napsali-nam" class=' a-l3'  ><span>Napsali nám</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla" class=' a-l2'  ><span>Informace a Pravidla</span></a><ul class='mainmenu mainmenu-level-3'><li class='first li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/kde-a-jak-najit-horskou-sluzbu" class='first a-l3'  ><span>Kde a jak najít Horskou službu?</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/desatero-horske-sluzby" class=' a-l3'  ><span>Desatero Horské služby</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/deset-zlatych-pravidel-pro-pohyb-ve-volnem-terenu" class=' a-l3'  ><span>Deset zlatých pravidel pro pohyb ve volném terénu</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/10-pravidel-fis-pro-chovani-na-sjezdovych-tratich" class=' a-l3'  ><span>10 pravidel FIS pro chovaní na sjezdových tratích</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/deset-pravidel-pro-pohyb-cyklisty-na-horach" class=' a-l3'  ><span>Deset  pravidel pro pohyb cyklisty na horách</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/do-prirody-ohleduplne-od-aopk-cr" class=' a-l3'  ><span>Do přírody ohleduplně od AOPK ČR</span></a></li><li class=' li-l3'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/informace-a-pravidla/interaktivni-mapa-horske-sluzby" class=' a-l3'  ><span>Interaktivní mapa Horské služby</span></a></li></ul></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/casopis-horske-sluzby" class=' a-l2'  ><span>Časopis Horské služby</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/video-a-foto-galerie" class=' a-l2'  ><span> Video a foto galerie</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/zachranne-akce" class=' a-l2'  ><span>Záchranné akce</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/aktualni-informace/ke-stazeni" class=' a-l2'  ><span>Ke stažení</span></a></li></ul></li><li class='li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/beskydy" class='a-l1'  ><span>Beskydy</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/beskydy/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/beskydy" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/beskydy/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/beskydy" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/beskydy" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/beskydy" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/beskydy" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class=' li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/jeseniky" class=' a-l1'  ><span>Jeseníky</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/jeseniky" class='a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/jeseniky/aktuality" class=' a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/jeseniky/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/jeseniky" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky" class=' a-l2'  ><span>Lavinová předpověď</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/jeseniky" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/jeseniky" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/jeseniky" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class=' li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/jizerske-hory" class=' a-l1'  ><span>Jizerské hory</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/jizerske-hory/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/jizerske-hory/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/jizerske-hory" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/jizerske-hory" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/jizerske-hory" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/jizerske-hory" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/jizerske-hory" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class=' li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/krkonose" class=' a-l1'  ><span>Krkonoše</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/krkonose/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/krkonose/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/krkonose" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/krkonose" class=' a-l2'  ><span>Lavinová předpověď</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/krkonose" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/krkonose" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/krkonose" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/krkonose" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class=' li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/krusne-hory" class=' a-l1'  ><span>Krušné hory</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/krusne-hory/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/krusne-hory/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/krusne-hory" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/krusne-hory" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/krusne-hory" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/krusne-hory" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/krusne-hory" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class=' li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/orlicke-hory" class=' a-l1'  ><span>Orlické hory</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/orlicke-hory/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/orlicke-hory/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/orlicke-hory" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/orlicke-hory" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/orlicke-hory" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src='https://www.horskasluzba.cz/service/index.php?page=pocasi-na-horach/data-z-meteostanic/orlicke-hory' class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/orlicke-hory" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li><li class='last li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/sumava" class='last a-l1'  ><span>Šumava</span></a><ul class='mainmenu mainmenu-level-2'><li class='li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/sumava/aktuality" class='a-l2'  ><span>Aktuality</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/oblasti/sumava/okrsky" class=' a-l2'  ><span>Okrsky</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/webkamery/sumava" class=' a-l2'  ><span>Webkamery</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/sumava" class=' a-l2'  ><span>Počasí v oblasti</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/sumava" class=' a-l2'  ><span>Upozornění HS</span></a></li><li class=' li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/sumava" class=' a-l2'  ><span>Data z meteostanic</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/sumava" class='last a-l2'  ><span>Předpověď počasí</span></a></li></ul></li></ul></div>
+            </div>
+            <div id="headerSos"><img src="https://www.horskasluzba.cz/cz/img/gui/header_sos_contact.png" alt="+ 420 1210, NON-STOP SOS" title="+ 420 1210, NON-STOP SOS" border="0" width="380"
+                                     height="150"></div>
+
+            <div id="mobileBackgroundFrame"><picture><source  data-srcset="/cache/img/34/data-web-background-laviny-laviny-krkonose-laviny-inverze.clip.x320.y140.r0.q85.nr0.me2.jpg.co50.webp 320w, /cache/img/85/data-web-background-laviny-laviny-krkonose-laviny-inverze.clip.x640.y280.r0.q85.nr0.me2.jpg.co50.webp 640w"  type="image/webp"  ><img  src="https://www.horskasluzba.cz/data/web/misc/blank.png"  data-src="https://www.horskasluzba.cz/cache/img/d6/data-web-background-laviny-laviny-krkonose-laviny-inverze.clip.x640.y280.r0.q85.nr0.me2.co50.jpg"  data-srcset="/cache/img/bd/data-web-background-laviny-laviny-krkonose-laviny-inverze.clip.x320.y140.r0.q85.nr0.me2.co50.jpg 320w, /cache/img/d6/data-web-background-laviny-laviny-krkonose-laviny-inverze.clip.x640.y280.r0.q85.nr0.me2.co50.jpg 640w"   class="appear" alt="ilustrace na pozadí" id="mobile-background-image"></picture></div>
+
+
+        </div>
+
+        <div id="fullscreenFrame"></div>
+
+        <div id="contentFrame">
+
+            
+
+            
+
+            <div id="columnsFrame">
+
+
+                <!--
+                <div id="pageJetikTop" class="noprint">
+                <a href="http://www.jetik.eu" target="_blank"  onClick="CountStats('click-jetik','click-jetik');" ><img src="https://www.horskasluzba.cz/cz/jetik/jetik-banner-page-top.png" alt="www.jetik.eu" height="149" width="246"></a>
+                 </div>
+                 <div id="pageJetikLeft" class="noprint">
+                        <img src="https://www.horskasluzba.cz/cz/jetik/jetik-banner-page-left.png" alt="www.jetik.eu" height="361" width="148">
+                        <a href="http://www.jetik.eu" target="_blank" id="pageJetikLeft_link_web"></a>
+                        <a href="https://itunes.apple.com/us/app/ceske-hory/id1004322308?ls=1&mt=8"  onClick="CountStats('click-jetik-itunes','click-jetik-itunes');"  target="_blank" id="pageJetikLeft_link_appstore"></a>
+                        <a href="https://play.google.com/store/apps/details?id=cz.simopt.ceskehory" onClick="CountStats('click-jetik-google-play','click-jetik-google-play');"   target="_blank" id="pageJetikLeft_link_googleplay"></a>
+                 </div>
+               -->
+
+                <div id="column1" class="noprint">
+                    <div id="column1Padding">
+
+                        
+                        <div id="leftMenu"><h2>Počasí na horách</h2><ul class='leftmenu leftmenu-level-1'><li class='opened first li-l1'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved" class='opened first a-l1'  ><span>Lavinová předpověď</span></a><ul class='leftmenu leftmenu-level-2'><li class='selected first li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky" class='selected first a-l2'  ><span>Jeseníky</span></a></li><li class='last li-l2'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/krkonose" class='last a-l2'  ><span>Krkonoše</span></a></li></ul></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech" class='submenu-closed a-l1'  ><span>Počasí v oblastech</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs" class='submenu-closed a-l1'  ><span>Upozornění HS</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic" class='submenu-closed a-l1'  ><span> Data z meteostanic</span></a></li><li class='last submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi" class='last submenu-closed a-l1'  ><span>Předpověď počasí</span></a></li></ul></div>
+                        
+
+
+                        <!--
+                        <div id="pageBannerLeft" class="noprint" style="margin-left:-10px">
+                          <br><br>
+                        <a href="http://www.momentysportu.cz" target="_blank"><img src="https://www.horskasluzba.cz/cz/banner/Web_fisaf-300x600px.gif" alt="Momenty sportu" width="210"></a>
+                       </div>
+                       -->
+
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div id="column2">
+
+                    <div id="column2Padding">
+
+                        
+                        <div id="column2rightPanel"><div class='avalanche-icons'><a href='https://www.avalanches.org/' target='_blank'><img src="https://www.horskasluzba.cz/cz/img/icons/eaws-logo-2021.png"  class='icon-eaws' alt='EAWS - European Avalanche Warning Services' title='EAWS - European Avalanche Warning Services ' style='margin-right: 0; margin-bottom: 1em; ' width='100%'></a><a href='http://www.alpine-rescue.org/xCMS5/WebObjects/nexus5.woa/wa/icar?menuid=1077&rubricid=243' target='_blank'><img src="https://www.horskasluzba.cz/cz/img/icons/ikar-logo.gif" class='icon-ikar' alt='IKAR - Recommendations Avalanche Commission' title='IKAR - Recommendations Avalanche Commission' height='60'></a></div></div>
+                        
+
+                        
+                        <div id="breadcrumbsPanel" class="noprint"><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach" title="Počasí na horách" class="first">Počasí na horách</a>&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;<a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved" title="Lavinová předpověď" >Lavinová předpověď</a>&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;<span class='last'>Jeseníky</span></div>
+                        
+
+                        
+                        <div id="caption-box">
+                            <h1>Jeseníky</h1>
+                            <div class="langSwitch"><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky"><img height="20" src="https://www.horskasluzba.cz/cz/img/flag_cz.svg">  Česká verze</a></div>
+                        </div>
+                        
+
+                        <div id="avalancheContent">
+
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="avalancheForecastPanel">
+        <h2>Avalanche forecast 23. 01. 2025, 08:04</h2>
+
+
+
+        
+        <div class="avalancheDayPart">
+            
+            <div id="avalancheIconsContainer">
+                <table border="0" class="avalancheIconsTable">
+                    <tr>
+                        <td>
+                            <div class="iconBox"><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/avalanche-danger-scale#level_1"><img class="appear iconImg" alt="1. avalanche danger level - low" title="1. avalanche danger level - low" src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/maps/avalanche/new/dry/level_big_1.png"></a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Avalanche danger level: <br><b><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/avalanche-danger-scale#level_1" alt="1. avalanche danger level - low" title="1. avalanche danger level - low">low</a></b>
+                        </td>
+                    </tr>
+                </table>
+                
+
+                
+                <table border="0" class="avalancheIconsTable">
+                    <tr  style="height: 110px;">
+                        <td>
+                            <div class="iconBox"><img class="appear expositionIcon" alt="Dangerous exposure ALL" title="Dangerous exposure ALL" src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/modules/avalanche/exposition-icon.php?exp=11111111&d=1&lang=en"></div>
+                        </td>
+                    </tr>
+                    <tr  style="height: 40px;">
+                        <td>
+                            <img class="appear warningCaptionIcon" alt="Wet snow" title="Wet snow" src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/2d/data-app-avalanche-warning-icons-wet-snow.fitbox.x80.y80.r0.q85.nr1.me2.jpg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/informace-o-lavinach/typical-avalanche-problems#wet_snow">Wet snow</a></b><br><nobr><nobr>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="avalancheWeatherPanel">
+        
+
+        
+        <h2>Weather 23. 01. 2025, 07:20</h2>
+
+        <table border="0" class="base-table avalancheForecastTable">
+            <tr>
+                <th class="param">Location:</th>
+                <td class="value">Vysoká Hole 1464 m n. m.</td>
+            </tr>
+            <tr>
+                <th class="param">Temperature:</th>
+                <td class="value">-2 °C</td>
+            </tr>
+            <tr>
+                <th class="param">Visibility:</th>
+                <td class="value">Normální - 1 až 10 km</td>
+            </tr>
+            <tr>
+                <th class="param">Cloudiness:</th>
+                <td class="value">4/8 polojasno</td>
+            </tr>
+            <tr>
+                <th class="param">Wind:</th>
+                <td class="value">Jihovýchodní 5 m/s</td>
+            </tr>
+            <tr>
+                <th class="param">Precipitation:</th>
+                <td class="value">Beze srážek</td>
+            </tr>
+            
+            <tr>
+                <th class="param">Snow:</th>
+                <td class="value">Celkem: 20 cm, Nový: 0 cm, Kvalita: starý sníh - zmrzlý</td>
+            </tr>
+            
+        </table>
+        
+
+    </div>
+
+
+    <div class="avalancheTendencyPanel">
+        <h2>Trend</h2>
+        <table border="0" class="tendency-table">
+            <tr class="tr-graph">
+
+                
+                <td>
+                    <div class="tendency-graph-item">
+                        
+                        <div class="level-1 tendency-grap-cell" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-20&lang=en';">
+                            <div class="tendency-grap-cell-padding" style="height:30px;">
+                                1<br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+                
+                <td>
+                    <div class="tendency-graph-item">
+                        
+                        <div class="level-1 tendency-grap-cell" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-21&lang=en';">
+                            <div class="tendency-grap-cell-padding" style="height:30px;">
+                                1<br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+                
+                <td>
+                    <div class="tendency-graph-item">
+                        
+                        <div class="level-1 tendency-grap-cell" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-22&lang=en';">
+                            <div class="tendency-grap-cell-padding" style="height:30px;">
+                                1<br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+                
+                <td>
+                    <div class="tendency-graph-item">
+                        
+                        <div class="level-1 tendency-grap-cell" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-23&lang=en';">
+                            <div class="tendency-grap-cell-padding" style="height:30px;">
+                                1<br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+                
+                <td>
+                    <div class="tendency-graph-item">
+                        
+                        <div class="level-1 tendency-grap-cell" onClick="document.location=real_root_web+'/horska-sluzba/laviny/stupne-lavinoveho-nebezpeci#level_1';">
+                            <div class="tendency-grap-cell-padding" style="height:30px;">
+                                1<br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+                
+            </tr>
+            <tr class="tr-day">
+                
+                <td class="level-1" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-20&lang=en';">Mon<br><small>(20. 01.)</small></td>
+                
+                <td class="level-1" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-21&lang=en';">Tue<br><small>(21. 01.)</small></td>
+                
+                <td class="level-1" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-22&lang=en';">Wed<br><small>(22. 01.)</small></td>
+                
+                <td class="level-1" onClick="document.location=real_root_web+'/pocasi-na-horach/lavinova-predpoved/jeseniky&date=2025-01-23&lang=en';">Today<br><small>(23. 01.)</small></td>
+                
+                <td class="level-1" onClick="document.location=real_root_web+'/horska-sluzba/laviny/stupne-lavinoveho-nebezpeci#level_1';">Tomorrow<br><small>(24. 01.)</small></td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <div class="avalancheMapContainer">
+
+        
+        <div>
+            <h2>Map</h2>
+            <div id="mapAvalancheWrapper" style='width:690px; height:540px;'><div id="mapAvalanche" style='width:690px; height:540px;'></div></div>
+        </div>
+        
+
+        
+        
+    </div>
+
+            
+        <!--
+        <div class="situationCommentPanel">
+            <h3>Comment</h3>
+            <p>V Jeseníkách v 1300 m/m leží do 1 m sněhu, na hřebeni hor 30 cm sněhu.<br />
+Díky oblevě a dešti je sníh na lavinových svazích mokrý. <br />
+Vlivem vyšších denních teplot, slunečnímu svitu, muže nastat uvolnění lavin po dodatečném zatížení<br />
+V Jeseníkách platí 1. lavinový stupeň.</p>
+            <p>Author: <b>Jiří Hejtmánek</b></p>
+        </div>
+        --> 
+        
+
+
+        
+    
+    <h2>Dangerous patterns</h2>
+    
+    <div class="avalancheDayPart">
+        
+        
+        <div class="webhierarchyContent">
+            <ul>
+                
+                <li><a src="https://www.horskasluzba.cz/cz/horska-sluzba/laviny/informace-o-lavinach/danger-patterns#DP10">Springtime situation</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+    
+    
+
+
+    
+    <div class="listingPanel">
+        Older forecasts: <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?id=3840&amp;lang=en">22. 01. 2025</a>, <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?id=3838&amp;lang=en">21. 01. 2025</a>, <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?id=3836&amp;lang=en">20. 01. 2025</a>, <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?id=3834&amp;lang=en">19. 01. 2025</a>, <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?id=3832&amp;lang=en">18. 01. 2025</a>
+    </div>
+    
+
+    <div class="webhierarchyContent">
+        <h2>Šerák</h2>
+<p class="object-caption"><strong class="blue-text">Aktuální graf z meteo stanice ČHMÚ Šerák </strong>(převzato z <a href="http://portal.chmi.cz" target="_blank">portal.chmi.cz</a>)</p>
+<p><a href="https://www.chmi.cz/files/portal/docs/poboc/OS/KW/Captor/tmp/DMULTI-O1SERA01.gif" target="_blank"> <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Luční bouda" style="max-width: 690px" data-src="https://www.chmi.cz/files/portal/docs/poboc/OS/KW/Captor/tmp/DMULTI-O1SERA01.gif" class="appear"></a></p>
+<p></p>
+<p class="object-caption"><strong class="blue-text">Aktuální snímek z webkamery ČHMÚ Šerák </strong>(převzato z <a href="http://portal.chmi.cz" target="_blank">portal.chmi.cz</a>)</p>
+<p><a href="https://www.chmi.cz/files/portal/docs/meteo/kam/serak.jpg" target="_blank"><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Labská bouda" style="max-width: 690px" data-src="https://www.chmi.cz/files/portal/docs/meteo/kam/serak.jpg" class="appear"></a></p>
+<p class="object-caption"><strong class="blue-text"> </strong></p>
+    </div>
+
+    
+    <div>
+        <h2>Profiles archive</h2>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/snowprofil5.png" target="_blank" onClick="FsGallery.show(0,''); return false;"'><picture><source  srcset="/cache/img/db/data-web-laviny-2025-01-snowprofil5.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/d1/data-web-laviny-2025-01-snowprofil5.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="E (poor)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/d1/data-web-laviny-2025-01-snowprofil5.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Malý Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_5.png" class="appear">
+                    E (poor)
+                </div>
+                <div class="date">16. 01. 2025, 14:41</div>
+                <div class="Author">author: Ondřej Škovránek</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/snowprofil2.png" target="_blank" onClick="FsGallery.show(1,''); return false;"'><picture><source  srcset="/cache/img/96/data-web-laviny-2025-01-snowprofil2.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/e2/data-web-laviny-2025-01-snowprofil2.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="B (Fair)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/e2/data-web-laviny-2025-01-snowprofil2.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_2.png" class="appear">
+                    B (Fair)
+                </div>
+                <div class="date">14. 01. 2025, 10:54</div>
+                <div class="Author">author: Jiří Hejtmánek</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item profile-item-last">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/cz-j-vk-202.png" target="_blank" onClick="FsGallery.show(2,''); return false;"'><picture><source  srcset="/cache/img/b5/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/52/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="C (poor)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/52/data-web-laviny-2025-01-cz-j-vk-202.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_3.png" class="appear">
+                    C (poor)
+                </div>
+                <div class="date">10. 01. 2025, 13:00</div>
+                <div class="Author">author: Martin Chalupa</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/cz-j-vk-201.png" target="_blank" onClick="FsGallery.show(3,''); return false;"'><picture><source  srcset="/cache/img/cd/data-web-laviny-2025-01-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/35/data-web-laviny-2025-01-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="C (poor)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/35/data-web-laviny-2025-01-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_3.png" class="appear">
+                    C (poor)
+                </div>
+                <div class="date">03. 01. 2025, 13:00</div>
+                <div class="Author">author: Martin Chalupa</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/snowprofil.png" target="_blank" onClick="FsGallery.show(4,''); return false;"'><picture><source  srcset="/cache/img/16/data-web-laviny-2025-01-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/85/data-web-laviny-2025-01-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="A (Fair)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/85/data-web-laviny-2025-01-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Mezikotlí</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_1.png" class="appear">
+                    A (Fair)
+                </div>
+                <div class="date">02. 01. 2025, 16:18</div>
+                <div class="Author">author: Ondřej Škovránek</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item profile-item-last">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2025-01/snowprofil1.png" target="_blank" onClick="FsGallery.show(5,''); return false;"'><picture><source  srcset="/cache/img/b8/data-web-laviny-2025-01-snowprofil1.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/8b/data-web-laviny-2025-01-snowprofil1.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="A (Fair)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/8b/data-web-laviny-2025-01-snowprofil1.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_1.png" class="appear">
+                    A (Fair)
+                </div>
+                <div class="date">24. 12. 2024, 16:30</div>
+                <div class="Author">author: Jiří Hejtmánek</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2024-12/cz-j-vk-201.png" target="_blank" onClick="FsGallery.show(6,''); return false;"'><picture><source  srcset="/cache/img/20/data-web-laviny-2024-12-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/e2/data-web-laviny-2024-12-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="C (poor)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/e2/data-web-laviny-2024-12-cz-j-vk-201.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_3.png" class="appear">
+                    C (poor)
+                </div>
+                <div class="date">22. 12. 2024, 17:48</div>
+                <div class="Author">author: Martin Chalupa</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item ">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2024-12/snowprofil.png" target="_blank" onClick="FsGallery.show(7,''); return false;"'><picture><source  srcset="/cache/img/41/data-web-laviny-2024-12-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/86/data-web-laviny-2024-12-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="B (Fair)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/86/data-web-laviny-2024-12-snowprofil.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Kamzičník</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_2.png" class="appear">
+                    B (Fair)
+                </div>
+                <div class="date">19. 12. 2024, 16:09</div>
+                <div class="Author">author: Ondřej Škovránek</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="profile-item profile-item-last">
+            <div class="profile-item-img-box">
+                <a src="https://www.horskasluzba.cz/data/web/laviny/2024-12/cz-j-vk-20.png" target="_blank" onClick="FsGallery.show(8,''); return false;"'><picture><source  srcset="/cache/img/4a/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x100.y200.r0.q85.nr0.me2.png.webp 100w"  type="image/webp"  ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" srcset="/cache/img/2f/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x100.y200.r0.q85.nr0.me2.png 100w" class="appear preview" alt="B (Fair)" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cache/img/2f/data-web-laviny-2024-12-cz-j-vk-20.fitbox.x100.y200.r0.q85.nr0.me2.png"></picture></a>
+            </div>
+            <div class="profile-item-descr">
+                <h3>Velký Kotel</h3>
+                <div class="profileDescr">
+                    <img src="https://www.horskasluzba.cz/data/web/misc/blank.png" style="max-width: 690px" data-src="https://www.horskasluzba.cz/data/app/avalanche/profil_2.png" class="appear">
+                    B (Fair)
+                </div>
+                <div class="date">12. 12. 2024, 08:40</div>
+                <div class="Author">author: Martin Chalupa</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+    
+
+    <div class="data-note">Data and forecasts are indicative.</div>
+    
+
+
+    
+    
+    
+
+</div>
+<div class="data-note">Data a předpovědi jsou orientační. Tyto informace slouží pouze pro nekomerční použití a potřeby Horské služby.</div><div class='clear-left'></div><div class='oblast-submenu'><a src="https://www.horskasluzba.cz/cz/webkamery/jeseniky" ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Webkamery oblasti" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-webkamery-oblasti.png" class="appear"></a><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/pocasi-v-oblastech/jeseniky" ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Aktuální počasí" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-aktualni-pocasi.png" class="appear"></a><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/predpoved-pocasi/jeseniky" ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Předpověď počasí" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-predpoved-pocasi.png" class="appear"></a><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/data-z-meteostanic/jeseniky" ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Meteorologická data" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-meteodata.png" class="appear"></a><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/upozorneni-hs/jeseniky" ><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Upozornění oblasti" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-upozorneni-oblasti.png" class="appear"></a><a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky" class='last'><img src="https://www.horskasluzba.cz/data/web/misc/blank.png" alt="Lavinová předpověď" height="43" style="max-width: 690px" data-src="https://www.horskasluzba.cz/cz/img/icons/ico-lavinova-predpoved.png" class="appear"></a></div>
+                        
+
+                        
+
+
+                        <div class="clear"></div>
+                        
+                        <div class="clear"></div>
+
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+
+    <a name="mobileMenuA"></a>
+    <div id="mobileTopLink"><a href="#top" onClick="simopt.scrollToAnchor('top');return false;"><img src="https://www.horskasluzba.cz/cz/img/gui/mobile-arrow-top.png" alt="Nahoru" border="0"
+                                                                                                     height="14" width="24"></a></div>
+    <div id="mobileMenu">
+        <ul class='mobile mobile-level-1'><li class='first submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/aktualni-informace" class='first submenu-closed a-l1'  ><span>Na horách</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/beskydy" class='submenu-closed a-l1'  ><span>Beskydy</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/jeseniky" class='submenu-closed a-l1'  ><span>Jeseníky</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/jizerske-hory" class='submenu-closed a-l1'  ><span>Jizerské hory</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/krkonose" class='submenu-closed a-l1'  ><span>Krkonoše</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/krusne-hory" class='submenu-closed a-l1'  ><span>Krušné hory</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/orlicke-hory" class='submenu-closed a-l1'  ><span>Orlické hory</span></a></li><li class='submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/oblasti/sumava" class='submenu-closed a-l1'  ><span>Šumava</span></a></li><li class='first submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/horska-sluzba" class='first submenu-closed a-l1'  ><span>O Horské službě</span></a></li><li class='last submenu-closed li-l1'><a src="https://www.horskasluzba.cz/cz/kontakty" class='last submenu-closed a-l1'  ><span>Kontakty</span></a></li></ul>
+    </div>
+
+
+    <div id="footerFrame" class="noprint">
+        <div id="footerFramePadding">
+            <div id="footerTopLink"><a href="#top" onClick="simopt.scrollToAnchor('top');return false;"><img src="https://www.horskasluzba.cz/cz/img/gui/mobile-arrow-top.png" alt="Nahoru"
+                                                                                                             border="0" height="14" width="24"></a></div>
+            <div id="footerCotact">
+                        <p>
+<a class="sitemapLink" src="https://www.horskasluzba.cz/cz/ochrana-osobnich-udaju">Ochrana osobních údajů</a> | 
+          <a class="sitemapLink" src="https://www.horskasluzba.cz/cz/javascript:;" onclick="return false;" id="openCookiesPreferencesBtn">Správa cookies</a> | 
+          <a src="https://www.horskasluzba.cz/cz/mapa-stranek" class="sitemapLink">Mapa stránek</a>
+          
+             <span class='mobile-inline'>| <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?desktop=1" class="sitemapLink">Zobrazit klasický web</a></span>
+             <span class='no-mobile'>| <a src="https://www.horskasluzba.cz/cz/pocasi-na-horach/lavinova-predpoved/jeseniky?mobile=1" class="sitemapLink">Zobrazit mobilní web</a></span>
+          
+          
+
+          <br><br>
+          <b>© Horská služba ČR, o.p.s.</b><br>
+          543 51 Špindlerův Mlýn 260, T +420 499 433 230<br><br>
+ID schránky: u4zgr6q<br><br>
+          Vyrobil <a href="http://www.simopt.cz">Simopt, s.r.o.</a>, 2025
+        </p>
+            </div>
+            <div id="footerPartners">        <table class="partnersTable" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="descTd">Zakladatel Horské služby</td>
+            <td class="logoTd"><a href="http://www.mmr.cz" target="_blank"><img src="https://www.horskasluzba.cz/data/web/partners/logo_mmr_cz.png" title="MINISTERSTVO PRO MÍSTNÍ ROZVOJ" alt="MINISTERSTVO PRO MÍSTNÍ ROZVOJ" width="169" height="52"></a></td>
+            <td class="descTdMinistr" >
+<a src="https://www.horskasluzba.cz/cz/horska-sluzba/horska-sluzba-cr-o-p-s/financovani-hs-cr-o-p-s">ČINNOST HORSKÉ SLUŽBY ČR JE FINANCOVÁNA DOTACEMI Z MINISTERSTVA PRO MÍSTNÍ ROZVOJ A KRAJŮ</a>
+            </td>
+          </tr>
+          
+      
+        </table>    
+      
+        <table class="partnersTable partnersTable2" cellpadding="0" cellspacing="0" border="0" width="100%">
+          
+          <tr>
+            <td class="descTd" style="padding-top: 20px" colspan="3">Partneři Horské služby</td>
+            <td class="descTd" style="padding-top: 20px"></td>
+
+         </tr>
+<tr>
+            <td class="logoTd" style="padding-top: 10px"><a href="http://www.nakolejensprilbou.cz/" target="_blank"><img src="https://www.horskasluzba.cz/data/web/partners/logo-na-kole-jen-s-prilbou.png" title="Na kole jen s přilbou" alt="Na kole jen s přilbou" width="111" height="50"></a></td>
+
+
+<td class="logoTd" style="padding-bottom: 10px;
+    padding-top: 10px"><a href="http://www.alpine-rescue.org/xCMS5/WebObjects/nexus5.woa/wa/icar?menuid=1049" target="_blank"><img src="https://www.horskasluzba.cz/data/web/partners/logo-icar-footer.png" title="ICAR" alt="ICAR" height="50"></a></td>
+
+
+<td class="logoTd" style="padding-bottom: 10px;
+    padding-top: 10px"><a href="https://www.kudyznudy.cz" target="_blank"><img src="https://www.horskasluzba.cz/data/web/partners/kudyznudy-2.jpg" title="kudyznudy.cz" alt="kudyznudy.cz" height="46" style="margin: -5px;    opacity: 0.75; "></a></td>
+
+
+
+            <td class="logoTd"  style="text-align: right;
+    width: 100%;
+    padding-right: 40px;"><a src="https://www.horskasluzba.cz/cz/horska-sluzba/nadacni-fond-horske-sluzby-rescue" ><img src="https://www.horskasluzba.cz/data/web/partners/nadacni-fond.png" title="Nadační fond Horské služby – RESCUE" alt="Nadační fond Horské služby – RESCUE"  height="42"></a></td>
+           
+
+          </tr>
+          
+        </table></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="backgroundFrame" class="noprint">
+    <picture><source  data-srcset="/inc/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Fbackground%2Flaviny%2Flaviny-krkonose%2Flaviny-inverze.jpg&amp;method=fitbox&amp;nw=320&amp;nh=242&amp;rotate=0&amp;jpgquality=85&amp;noresize_small=1&amp;max_enlargement=2&amp;outputformat=webp 320w, /inc/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Fbackground%2Flaviny%2Flaviny-krkonose%2Flaviny-inverze.jpg&amp;method=fitbox&amp;nw=640&amp;nh=485&amp;rotate=0&amp;jpgquality=85&amp;noresize_small=1&amp;max_enlargement=2&amp;outputformat=webp 640w, /inc/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Fbackground%2Flaviny%2Flaviny-krkonose%2Flaviny-inverze.jpg&amp;method=fitbox&amp;nw=800&amp;nh=606&amp;rotate=0&amp;jpgquality=85&amp;noresize_small=1&amp;max_enlargement=2&amp;outputformat=webp 800w, /cache/img/27/data-web-background-laviny-laviny-krkonose-laviny-inverze.fitbox.x1280.y970.r0.q85.nr0.me2.jpg.webp 1280w"  type="image/webp"  ><img  src="https://www.horskasluzba.cz/data/web/misc/blank.png"  data-src="https://www.horskasluzba.cz/data/web/background/laviny/laviny-krkonose/laviny-inverze.jpg"  data-srcset="/inc/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Fbackground%2Flaviny%2Flaviny-krkonose%2Flaviny-inverze.jpg&amp;method=fitbox&amp;nw=320&amp;nh=242&amp;rotate=0&amp;jpgquality=85&amp;noresize_small=1&amp;max_enlargement=2 320w, /cache/img/e5/data-web-background-laviny-laviny-krkonose-laviny-inverze.fitbox.x640.y485.r0.q85.nr0.me2.jpg 640w, /inc/imgresize.php?img=%2Fvar%2Fwww%2Fhscr-web%2Fdata%2Fwww%2Fhscr-web.vm-11.simoptclient.cz%2Fdata%2Fweb%2Fbackground%2Flaviny%2Flaviny-krkonose%2Flaviny-inverze.jpg&amp;method=fitbox&amp;nw=800&amp;nh=606&amp;rotate=0&amp;jpgquality=85&amp;noresize_small=1&amp;max_enlargement=2 800w, /data/web/background/laviny/laviny-krkonose/laviny-inverze.jpg 1280w"   class="appear" alt="ilustrace na pozadí" id="background-image"></picture>
+</div>
+
+
+<!-- PAGE END CONTENT AND JAVASCRIPT -->
+
+
+<!-- Cookie Consent by https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({
+            "notice_banner_type": "headline",
+            "consent_type": "express",
+            "palette": "light",
+            "language": "cs",
+            "page_load_consent_levels": ["strictly-necessary"],
+            "notice_banner_reject_button_hide": false,
+            "preferences_center_close_button_hide": false,
+            "website_name": "Horská služba ČR",
+            "open_preferences_center_selector": "#openCookiesPreferencesBtn",
+            "website_privacy_policy_url": "https://www.horskasluzba.cz/cz/ochrana-osobnich-udaju"
+        });
+    });
+</script>
+
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Generator</a></noscript>
+<!-- End Cookie Consent by https://www.TermsFeed.com -->
+</body>
+</html>
