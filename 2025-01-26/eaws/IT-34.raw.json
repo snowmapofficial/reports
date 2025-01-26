@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-26T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-25T23:00:00Z",
+      "endTime" : "2025-01-26T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The new snow and wind slabs represent the main danger.",
+      "comment" : "Above approximately 1500 m snow will fall on Sunday over a wide area. In the Dolomites 5 to 10 cm of snow will fall on Sunday. In the Prealps 10 to 25 cm of snow, and even more in some localities, will fall. <br/> The new snow will be deposited on a crust in particular on sunny slopes. This snow can be released naturally in all aspects and generally above the tree line. <br/> At high altitude the wind will be strong at times. Gradual increase in avalanche danger as a consequence of new snow and strong wind. In particular adjacent to ridgelines and in gullies and bowls the previously small wind slabs will increase in size substantially as the day progresses. The fresh snow as well as the wind slabs that are forming in particular above approximately 2000 m can be released easily, even by a single winter sport participant,. In the regions exposed to the foehn wind the avalanche prone locations are more prevalent. These places are clearly recognisable to the trained eye. <br/> On steep slopes small and medium-sized dry avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 5 to 20 cm of snow, and even more in some localities, will fall. As a consequence of a strong wind from southwesterly directions, further wind slabs will form. The fresh wind slabs are lying on soft layers in particular on shady slopes. <br/> <br/> Only a small amount of snow is lying for the time of year. On sunny slopes at low and intermediate altitudes hardly any snow is lying. The snowpack will be subject to considerable local variations. Above the tree line snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Above approximately 1500 m snow will fall on Monday over a wide area. Down to intermediate altitudes snow will fall from the afternoon. In the afternoon as a consequence of new snow and strong wind there will be an increase in the avalanche danger within the current danger level. The weather report and anticipated change in the avalanche danger are uncertain.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-01-26T23:00:00Z",
+        "endTime" : "2025-01-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "W", "SE", "N", "NE" ]
+    } ],
+    "bulletinID" : "3623e5ad-68a4-4287-9b49-8eb82376123c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
