@@ -1,0 +1,91 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-01-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-01-26T16:00:00Z",
+      "endTime" : "2025-01-27T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs are to be evaluated critically. Wet snow requires caution.",
+      "comment" : "As a consequence of new snow and southwesterly wind, mostly small wind slabs formed at intermediate and high altitudes. In all aspects the wind slabs will increase in size as the day progresses. These can in many cases be released very easily and reach medium size. The avalanche prone locations are to be found in steep terrain at intermediate and high altitudes and in gullies and bowls, and behind abrupt changes in the terrain. Avalanches can additionally to some extent be released in the old snowpack especially in places that are protected from the wind. <br/> <br/> As a consequence of the rain small and, in isolated cases, medium-sized moist snow slides and avalanches are possible. <br/> <br/> In the course of the day danger level 3 (considerable) will be reached from the border with Ribagorça and Pallars to the central part of Aran."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area up to 5 cm of snow, and even more in some localities, has fallen. The sometimes strong wind has transported the new snow significantly. <br/> <br/> In the southern half of Aran and in the western half of Aran 30 to 40 cm of snow, but less in some localities, will fall in the next few hours above approximately 2200 m. The rain will give rise during the night to increasing moistening of the snowpack below approximately 2400 m. The southwesterly wind will transport the snow. <br/> <br/> In particular above the tree line snow depths vary greatly, depending on the infuence of the wind. In all regions less snow than usual is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Slight decrease in avalanche danger as the snowfall eases.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-01-27T16:00:00Z",
+        "endTime" : "2025-01-28T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-01-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "NE", "S", "W", "N", "NW", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "NE", "S", "W", "N", "NW", "SW", "E" ]
+    } ],
+    "bulletinID" : "fb2083aa-5ea6-44a4-bb07-a3e6e95362f2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
