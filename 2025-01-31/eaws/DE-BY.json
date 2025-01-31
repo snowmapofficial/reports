@@ -1,0 +1,215 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger above 2000m is moderate, below that altitude danger is low. Main problem: weak layers in old snow. Medium-sized slab avalanches can be triggered especially by large additional loading  at transitions from shall to deep snow. Avalanche prone locations occur primarily in very steep terrain in W/N/E aspects. Frequency and size increase with ascending altitude. In addition, on very steep slopes with smooth ground below 2000m isolated small glide-snow avalanches can trigger naturally in all aspects. Avoid stopping or staying below glide cracks.",
+        "highlights": "Caution esp. at transitions from shallow to deep snow!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NW",
+            "E",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "NE",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "4eb3bced-add7-4801-92af-119eab10001e",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-02-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-01-31T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A few centimeters of new snow cover older snowdrift accumulations. At higher altitudes the middle part of the snowpack contains weak layers consisting of faceted crystals close to melt-freeze crusts with varying thickness. Up to intermediate altitudes a thin superficial crust will form during the course of the night. The snowpack base is frequently wet at the base, as a consequence the snowpack can start gliding over smooth ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Avalanche danger levels will diminish amid calm high pressure weather.",
+          "validTime": {
+            "startTime": "2025-02-01T16:00:00+00:00",
+            "endTime": "2025-02-02T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-01-31T16:00:00+00:00",
+        "endTime": "2025-02-01T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is low. Persistent weak layers in old snow can become a problem. Small slab avalanches can be triggered in particular by large additional loading. Isolated danger prone locations occur at transitions from shallow to deep snow in very steep W/N/E-facing terrain."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1400"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "7f69fd17-6d7b-4dcb-b3a5-f0033b015851",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-02-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-01-31T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A few centimeters of new snow cover older snowdrift accumulations. At higher altitudes the middle part of the snowpack contains weak layers consisting of faceted crystals close to melt-freeze crusts. Elsewhere the snowpack is by and large stable. Up to intermediate altitudes a thin superficial crust will form during the course of the night. The snowpack base is partly wet. Therefore, gliding movements of the snowpack cannot be exlcuded."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "validTime": {
+            "startTime": "2025-02-01T16:00:00+00:00",
+            "endTime": "2025-02-02T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-01-31T16:00:00+00:00",
+        "endTime": "2025-02-01T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "generalHeadline": "From place to place weak layers persist in the old snow on very steep slopes at higher altitudes"
+  }
+}
