@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-01T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-01T23:00:00Z",
+      "endTime" : "2025-02-02T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow at high altitude.",
+      "comment" : "Above approximately 1900 m and in gullies and bowls, and behind abrupt changes in the terrain individual wet slab avalanches are possible, but they will be mostly small. These can be released in near-ground layers in very isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be generally well bonded. The snowpack will be subject to considerable local variations. The older wind slabs are to be found in gullies and bowls, and behind abrupt changes in the terrain. At intermediate altitudes a little snow is lying. During the day: Wind and new snow above approximately 1700 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-02T23:00:00Z",
+        "endTime" : "2025-02-03T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "E", "SW", "W", "SE", "S", "N", "NE" ]
+    } ],
+    "bulletinID" : "d2d672ff-14ea-422f-95f3-8cab13a90360",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
