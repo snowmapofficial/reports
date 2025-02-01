@@ -1,0 +1,254 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-01T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-01T16:00:00Z",
+      "endTime" : "2025-02-02T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weakly bonded old snow requires caution.",
+      "comment" : "Single winter sport participants can release avalanches in some places. Avalanches can in some cases penetrate deep layers and reach large size. <br/> Avalanche prone locations for dry avalanches are to be found in particular on steep west, north and east facing slopes above the tree line, in isolated cases also on steep shady slopes in areas close to the tree line. The avalanche prone locations are covered with new snow and are therefore barely recognisable, even to the trained eye. Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack and fresh avalanches can indicate the danger. Remotely triggered avalanches are possible in isolated cases. <br/> In addition individual medium-sized gliding avalanches are possible. This applies on steep grassy slopes below approximately 2400 m. <br/> <br/> Defensive route selection is appropriate."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above the tree line snow depths vary greatly, depending on the infuence of the wind. The snowpack will be subject to considerable local variations at elevated altitudes. <br/> The somewhat older wind slabs of the last few days are lying on top of a weakly bonded old snowpack in particular on west to north to east facing aspects above the tree line. They are covered with new snow in some cases and therefore difficult to recognise. The weather conditions will foster a gradual stabilisation of the snowpack. <br/> Weak layers exist deep in the old snowpack also on south facing slopes, especially in high Alpine regions. <br/> <br/> Low and intermediate altitudes: The old snowpack is moist and its surface consists of loosely bonded snow lying on a crust that is strong in many cases."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Weakly bonded old snow requires caution.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-02-02T16:00:00Z",
+        "endTime" : "2025-02-03T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "NE", "E", "NW", "N" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "S", "W", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "fc216a30-8950-45c4-8eff-e81c668dfea2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Glockturm Range",
+      "regionID" : "AT-07-19"
+    }, {
+      "name" : "Weißkugel Range",
+      "regionID" : "AT-07-20"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-01T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-01T16:00:00Z",
+      "endTime" : "2025-02-02T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs require caution.",
+      "comment" : "Single winter sport participants can release avalanches in isolated cases, caution is to be exercised in particular in gullies and bowls, and behind abrupt changes in the terrain. Avalanche prone locations for dry avalanches are to be found in particular on steep west, north and east facing slopes above the tree line. The avalanche prone locations are sometimes covered with new snow and are difficult to recognise. Mostly avalanches are small. <br/> <br/> Individual gliding avalanches and wet snow slides are possible, especially on steep grassy slopes below the tree line."
+    },
+    "snowpackStructure" : {
+      "comment" : "The somewhat older wind slabs are in individual cases still prone to triggering in particular on shady slopes above the tree line. This applies in particular at high altitude. <br/> The old snowpack is moist and its surface consists of loosely bonded snow lying on a crust that is strong in many cases. This applies especially at low and intermediate altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind slabs require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-02T16:00:00Z",
+        "endTime" : "2025-02-03T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "NW", "N", "E" ]
+    } ],
+    "bulletinID" : "831319aa-e753-4bc5-aad8-c39e59feba84",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
