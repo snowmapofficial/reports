@@ -1,0 +1,143 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-08T23:00:00Z",
+      "endTime" : "2025-02-09T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs.",
+      "comment" : "The fresh snow and the wind slabs that are forming in particular adjacent to ridgelines must be evaluated with care and prudence in particular on steep shady slopes above approximately 2100 m. On steep shady slopes and in gullies and bowls, and behind abrupt changes in the terrain avalanches are possible, in particular medium-sized ones. Weak layers in the old snowpack necessitate defensive route selection. Dry slab avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The new snow is bonding only slowly with the old snowpack. The snowpack remains unfavourable also on wind-loaded slopes. Shady slopes where weaknesses exist in the old snowpack are dangerous."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "In the evening in some localities danger level 3 (considerable) will be reached in the regions exposed to heavier precipitation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-09T23:00:00Z",
+        "endTime" : "2025-02-10T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline",
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "6deff9f2-5571-4df4-8c5c-3d2109e0771c",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-08T23:00:00Z",
+      "endTime" : "2025-02-09T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "⚠ Error: Incomplete joker sentence",
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "snowpackStructure" : {
+      "comment" : "The new snow is bonding only slowly with the old snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-09T23:00:00Z",
+        "endTime" : "2025-02-10T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "64c74374-357f-4724-8f09-d05d39bac310",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-25-PV-01",
+      "regionID" : "IT-25-PV-01"
+    }, {
+      "name" : "PREALPI OCCIDENTALI",
+      "regionID" : "IT-25-VA-01"
+    }, {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  } ]
+}
