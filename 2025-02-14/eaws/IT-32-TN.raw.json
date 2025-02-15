@@ -1,0 +1,145 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-14T16:00:00Z",
+      "endTime" : "2025-02-15T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs require caution. Weak layers in the old snowpack are treacherous.",
+      "comment" : "As a consequence of new snow and a moderate to strong wind from northerly directions, mostly small wind slabs will form in particular adjacent to ridgelines and in gullies and bowls. <br/> <br/> Weak layers in the old snowpack can still be released in isolated cases by winter sport participants in particular in little used terrain. Such avalanche prone locations are to be found in particular on extremely steep shady slopes at high altitudes and in high Alpine regions. Caution is to be exercised at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. The avalanche prone locations are barely recognisable, even to the trained eye. The avalanches are medium-sized. <br/> <br/> In addition mostly small dry loose snow avalanches are possible. In the event of solar radiation this applies on extremely steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 5 to 15 cm of snow, and even more in some localities, has fallen. The new snow will be deposited on soft layers in particular on shady slopes at elevated altitudes. At elevated altitudes snow depths vary greatly, depending on the infuence of the wind. <br/> <br/> Faceted weak layers exist in the bottom section of the snowpack especially on west, north and east facing slopes. These can be released in isolated cases."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Fresh wind slabs at high altitude. Weak layers deep in the old snowpack necessitate caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-15T16:00:00Z",
+        "endTime" : "2025-02-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NW", "S", "NE", "SE", "N", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NW", "NE", "N", "W" ]
+    } ],
+    "bulletinID" : "a7d2bb12-a03e-41e7-87f0-4bb0bc20f80e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Southern Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Northern Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Fassa Valley",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Southern Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Southern Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Sole, Pejo and Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Northern Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
