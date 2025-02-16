@@ -1,0 +1,321 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-16T16:00:00Z",
+      "endTime" : "2025-02-17T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Monday, dense clouds or fog initially, sunshine will come out later in the day. At 1000m: -4 degrees; at 2000m: -8 degrees. Light to moderate NW winds, strong in exposed terrain. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Heed fresh snowdrifts. Isolated danger zones in gullies and bowls.",
+      "comment" : "Fresh snowdrift accumulations are mostly small, triggerable only in isolated cases, esp. on wind-protected shady slopes at high altitude. Caution urged in transitions into gullies and bowls. These danger zones occur seldom."
+    },
+    "snowpackStructure" : {
+      "comment" : "Freshly generated snowdrift accumulations have been deposited on top of an unfavorable old snowpack surface."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Pay attention to fresh snowdrifts",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-17T16:00:00Z",
+        "endTime" : "2025-02-18T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "47dda211-3bb7-4586-b7b8-4c227b0e6cdb",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gurktal Alps South",
+      "regionID" : "AT-02-05-02"
+    }, {
+      "name" : "Gurktal Alps",
+      "regionID" : "AT-02-05-01"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-02-08"
+    }, {
+      "name" : "Packalpe",
+      "regionID" : "AT-02-07"
+    }, {
+      "name" : "Saualpe",
+      "regionID" : "AT-02-06"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-16T16:00:00Z",
+      "endTime" : "2025-02-17T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Monday, dense clouds or fog initially, sunshine will come out later in the day. At 1000m: -4 degrees; at 2000m: -8 degrees; at 3000m: -13 degrees. Light to moderate NW winds, strong in exposed terrain. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution: isolated weak layers prone to triggering. Heed drifts.",
+      "comment" : "Weak layers in the old snow can be triggered in many cases by one sole skier on W/N/E facing slopes above 2400m. Caution in transitions from shallow to deeper snow, e.g. at entry points into gullies and bowls. Due to fresh snow and northerly winds, trigger-sensitive snowdrift accumulations were generated in gullies, bowls and behind protruberances in the landscape. They can be triggered by one sole skier in the weak old snow, esp. on W/N/E facing slopes above 2400m. Danger zones are easy to recognize for the practiced eye. Avalanches can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "In the lowermost part of the snowpack there are faceted, expansively metamorphosed weak layers, esp. on W/N/E facing slopes. The fresh snowdrift accumulations lie deposited atop an unfavorable old snowpack surface in high-alpine zones. Highly varied snow depths, depending on wind impact."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Fresh snowdrifts need to be cautiously assessed. Pay attention to weak layers in old snowpack.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-17T16:00:00Z",
+        "endTime" : "2025-02-18T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP4" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "W", "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "9ba7214f-4b8c-4653-8f79-85119effc3f1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-16T16:00:00Z",
+      "endTime" : "2025-02-17T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Monday, dense clouds or fog initially, sunshine will come out later in the day. At 1000m: -4 degrees; at 2000m: -8 degrees; at 3000m: -13 degrees. Light to moderate NW winds, strong in exposed terrain. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Heed weak layers in the old snow",
+      "comment" : "Weak layers in the old snow can be triggered in many cases by one sole skier on NW/N/E facing slopes esp. above 2000m. Caution in transitions from shallow to deeper snow, e.g. at entry points into gullies and bowls. Due to fresh snow and northerly winds, trigger-sensitive snowdrift accumulations were generated in gullies, bowls and behind protruberances in the landscape. Avalanches can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "At mid-level inside the snowpack, esp. on N/NW/NE facing slopes where the snow is shallow, faceted, espansively metamorphosed weak layers are evident. The snowpack is highly diverse even over small areas."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Assess snowdrifts with caution",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-17T16:00:00Z",
+        "endTime" : "2025-02-18T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP4" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "b8103c2e-c70f-4fce-85b6-f424ca271bde",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-02-04-01"
+    }, {
+      "name" : "Southern Nockberge",
+      "regionID" : "AT-02-04-02"
+    }, {
+      "name" : "Eastern Karawanken",
+      "regionID" : "AT-02-19"
+    }, {
+      "name" : "Central Karawanken",
+      "regionID" : "AT-02-18"
+    }, {
+      "name" : "Central Karnian Alps",
+      "regionID" : "AT-02-15"
+    }, {
+      "name" : "Goldeck Group",
+      "regionID" : "AT-02-12-02"
+    }, {
+      "name" : "Central Gailtal Alps",
+      "regionID" : "AT-02-12-01"
+    }, {
+      "name" : "Western Karawanken",
+      "regionID" : "AT-02-17"
+    }, {
+      "name" : "Eastern Karnian Alps",
+      "regionID" : "AT-02-16"
+    }, {
+      "name" : "Gailtal Alps West",
+      "regionID" : "AT-02-11"
+    }, {
+      "name" : "Villacher Alpe",
+      "regionID" : "AT-02-13"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-16T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-16T16:00:00Z",
+      "endTime" : "2025-02-17T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Monday, dense clouds or fog initially, sunshine will come out later in the day. At 1000m: -4 degrees; at 2000m: -8 degrees. Light to moderate NW winds, strong in exposed terrain. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Heed weak layers in the old snow, they can be triggered in isolated cases",
+      "comment" : "Weak layers in the old snow can be triggered in many cases by one sole skier on W/N/E facing slopes above 2200m. Caution in transitions from shallow to deeper snow, e.g. at entry points into gullies and bowls. Avalanches can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "Inside the snowpack, esp. on N/NW/NE facing slopes where the snow is shallow, faceted, espansively metamorphosed weak layers are evident. The snowpack is highly diverse even over small areas."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Pay attention to weak layers in old snowpack.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-17T16:00:00Z",
+        "endTime" : "2025-02-18T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP4", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "N", "NE" ]
+    } ],
+    "bulletinID" : "c1420eba-2720-4959-b8fd-1d8f97f66b2e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kreuzeck Group",
+      "regionID" : "AT-02-09"
+    }, {
+      "name" : "Western Karnian Alps",
+      "regionID" : "AT-02-14"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-02-10"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Weak layers in old snow can trigger in isolated cases. Heed drifts!"
+  }
+}
