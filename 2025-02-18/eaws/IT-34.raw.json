@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-18T23:00:00Z",
+      "endTime" : "2025-02-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack necessitate caution. In addition the wind slabs should be taken into account.",
+      "comment" : "As a consequence of a moderate to strong wind from northwesterly directions, clearly visible wind slabs formed since Sunday in gullies and bowls and behind abrupt changes in the terrain, caution is to be exercised in particular adjacent to ridgelines on steep north, east and west facing slopes. They are mostly only small but can be released easily at their margins. The prevalence of avalanche prone locations and likelihood of triggering will increase with altitude. Weak layers in the old snowpack can still be released in isolated cases by winter sport participants in particular in little used terrain. Individual avalanche prone locations are to be found on steep west, north and east facing slopes above approximately 2000 m. Caution is to be exercised in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. The avalanche prone locations are easy to recognise. Avalanches can reach medium size. <br/> <br/> Apart from the danger of being buried, restraint should be exercised in particular in view of the danger of avalanches sweeping people along and giving rise to falls."
+    },
+    "snowpackStructure" : {
+      "comment" : "In the last few days the wind was moderate to strong in the vicinity of peaks. In particular adjacent to ridgelines on north, east and west facing slopes mostly small wind slabs formed. <br/> Faceted weak layers exist in the bottom section of the snowpack especially on west, north and east facing slopes. <br/> The solar radiation will give rise as the day progresses to moistening of the snowpack on steep sunny slopes. <br/> At elevated altitudes snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind slabs and weakly bonded old snow require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-19T23:00:00Z",
+        "endTime" : "2025-02-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "35357c1f-61fd-4252-9f78-5fcc84016555",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
