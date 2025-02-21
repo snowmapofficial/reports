@@ -1,0 +1,84 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-20T23:00:00Z",
+      "endTime" : "2025-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Https://www.arpa.veneto.it/dati-ambientali/bollettini/neve/neve-e-valanghe",
+      "comment" : "Con il rialzo termico e l'irradiazione solare diurni, la probabilità di distacco di valanghe bagnate aumenterà nettamente soprattutto sui pendii ripidi al di sotto del limite del bosco. Dopo una notte serena, al mattino predominano generalmente condizioni piuttosto favorevoli, poi il pericolo di valanghe bagnate e per scivolamento di neve aumenterà."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto di neve vecchia è instabile in alcuni punti. Ciò soprattutto sui pendii ombreggiati ripidi al di sopra dei 2000 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-02-21T23:00:00Z",
+        "endTime" : "2025-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "N", "NW" ]
+    } ],
+    "bulletinID" : "912aa76e-5dfc-4cc4-86b9-e84ad9d65bb6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
