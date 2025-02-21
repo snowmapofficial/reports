@@ -1,0 +1,123 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-20T23:00:00Z",
+      "endTime" : "2025-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist snow slides and avalanches are possible in isolated cases.",
+      "comment" : "In very isolated cases the avalanches are rather small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sunshine and high temperatures will give rise as the day progresses to increasing and thorough wetting of the old snowpack over a wide area."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-21T23:00:00Z",
+        "endTime" : "2025-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "N", "NW" ]
+    } ],
+    "bulletinID" : "4d621722-955b-4d5f-b207-f1576ee3f4d1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-20T23:00:00Z",
+      "endTime" : "2025-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Old wind slabs represent the main danger.",
+      "comment" : "Above approximately 1900 m and in gullies and bowls, and behind abrupt changes in the terrain dry slab avalanches are possible, but they can reach medium size in isolated cases. They can be released, mostly by large loads in isolated cases. On wind-protected shady slopes the danger is a little higher. Isolated mostly small moist snow slides and avalanches are possible below approximately 1900 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "The old snowpack will be generally stable. More recent wind slabs have formed in particular adjacent to ridgelines on southwest, west and northwest facing slopes and generally at elevated altitudes. The weather conditions will give rise to increasing moistening of the snowpack over a wide area below approximately 1900 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-21T23:00:00Z",
+        "endTime" : "2025-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SW", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "90ae5b69-dd68-4023-91cb-a31d02bd0dbe",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
