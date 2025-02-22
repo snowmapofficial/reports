@@ -1,0 +1,141 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-21T23:00:00Z",
+      "endTime" : "2025-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "At elevated altitudes a moderate avalanche danger will prevail.",
+      "comment" : "The wind slabs remain in some cases prone to triggering. Weak layers in the old snowpack necessitate caution. The avalanche prone locations are to be found in particular at the base of rock walls and behind abrupt changes in the terrain and adjacent to ridgelines and in gullies and bowls. In particular on steep sunny slopes loose snow avalanches are possible as a consequence of solar radiation. Avalanches can be released, mostly by large loads."
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist in the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be sunny at times.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-22T23:00:00Z",
+        "endTime" : "2025-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "559d6c99-750b-439f-9efd-79a164c66e26",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-21T23:00:00Z",
+      "endTime" : "2025-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "On sunny slopes a little snow is lying.",
+      "comment" : "The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls and at transitions from a shallow to a deep snowpack. Avalanches can be released by large loads. <br/> In particular on steep slopes loose snow avalanches are possible as a consequence of solar radiation."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be subject to considerable local variations. <br/> Weak layers exist in the snowpack in particular on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be sunny at times.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-22T23:00:00Z",
+        "endTime" : "2025-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "61d1805a-e01e-4808-bb96-8eafddf6b5b9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    } ]
+  } ]
+}
