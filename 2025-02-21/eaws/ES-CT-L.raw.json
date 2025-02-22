@@ -1,0 +1,86 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-21T19:32:34Z",
+    "validTime" : {
+      "startTime" : "2025-02-21T16:00:00Z",
+      "endTime" : "2025-02-22T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs represent the main danger.",
+      "comment" : "The more recent wind slabs can be released easily by a single winter sport participant in particular on northwest to east to southeast facing aspects above approximately 2200 m. In isolated cases the avalanches are medium-sized. The avalanche prone locations are to be found at transitions into gullies and bowls and adjacent to ridgelines and in pass areas. <br/> <br/> The new snow can be released by a single winter sport participant in all aspects above approximately 2000 m. The avalanches are small. <br/> <br/> The avalanche prone locations are barely recognisable because of the poor visibility. The current avalanche situation calls for caution and restraint."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of snowfall above approximately 1800 m and the occasionally strong southerly wind, the snow drift accumulations will increase in size in the course of the day. Isolated avalanche prone weak layers exist in the snowpack. In some cases the wind slabs have bonded poorly with each other and the old snowpack. <br/> <br/> Especially on sunny slopes at low and intermediate altitudes hardly any snow is lying. In all regions less snow than usual is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sunday: Slight increase in danger of moist avalanches as a consequence of warming.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-22T16:00:00Z",
+        "endTime" : "2025-02-23T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "SE", "NW", "NE", "SW", "S", "W", "E" ]
+    } ],
+    "bulletinID" : "b5dd8ec7-6551-41dc-9c45-2df4c1f2d4f3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
