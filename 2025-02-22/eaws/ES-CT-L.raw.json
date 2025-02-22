@@ -1,0 +1,82 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-22T16:00:00Z",
+      "endTime" : "2025-02-23T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs require caution. Dry and moist snow slides as the day progresses.",
+      "comment" : "The fresh and somewhat older wind slabs can be released in all aspects above approximately 2300 m. They are covered with new snow in some cases and therefore difficult to recognise. Sometimes the avalanches are medium-sized. The avalanche prone locations are to be found at transitions into gullies and bowls and adjacent to ridgelines and in pass areas. In particular at the southern and eastern borders of Aran the avalanche prone locations are more prevalent and the danger is greater. <br/> <br/> The new snow of Saturday can be released easily or naturally in all aspects. The avalanche prone locations are to be found on very steep slopes. Mostly the avalanches are small. As a consequence of warming during the day and solar radiation the prevalence and size of the avalanche prone locations will increase. In the regions exposed to precipitation the moist avalanches can in some cases reach medium size. <br/> <br/> Backcountry touring calls for meticulous route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "Saturday: In particular in the east and in the south 10 to 20 cm of snow, and even more in some localities, will fall until the evening above approximately 2000 m. As a consequence of new snow and a moderate to strong wind from variable directions, wind slabs formed by the evening in all aspects. Faceted weak layers exist in the old snowpack in particular on rather lightly snow-covered shady slopes. In some cases the wind slabs have bonded still only poorly with each other and the old snowpack. Sunshine and high temperatures will give rise as the day progresses to increasing moistening of the snowpack in particular on very steep sunny slopes. <br/> <br/> Especially on sunny slopes at low and intermediate altitudes hardly any snow is lying. In all regions less snow than usual is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Monday: Further increase in danger of moist avalanches as a consequence of warming. Gradual decrease in danger of dry avalanches as the snowfall eases.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-23T16:00:00Z",
+        "endTime" : "2025-02-24T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "NE", "W", "S", "N", "NW", "SW", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "NE", "S", "W", "N", "NW", "SW", "E" ]
+    } ],
+    "bulletinID" : "c562312f-cee4-46ee-b158-51a7c5476397",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
