@@ -1,0 +1,135 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-25T23:00:00Z",
+      "endTime" : "2025-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige récemment soufflée à évaluer avec précaution. Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée.",
+      "comment" : "Les accumulations de neige fraîche soufflée peuvent partiellement être déjà déclenchées par un seul amateur de sports d'hiver. Des avalanches sont en partie de taille moyenne. Des endroits dangereux se situent surtout sur les pentes raides à l'ombre au-dessus de la limite de la forêt. Dans les régions concernées par les précipitations principales les endroits dangereux sont plus fréquents et plus étendus. <br/> Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée dans les endroits à l'ombre et abrités du vent. Les endroits dangereux se situent sur les pentes très raides exposées à l'ouest, au nord et à l'est au-dessus d'environ 2400 m. Prudence surtout aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs. Des avalanches peuvent atteindre une taille moyenne de manière isolée. <br/> <br/> Des avalanches de glissement en général de petite taille sont possibles sur les pentes raides herbeuses."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il tombe en général au-dessus d'environ 1500 m de 10 à 25 cm de neige, localement plus. Les accumulations de neige soufflée fraîches reposent sur des couches meubles surtout sur les pentes raides à l'ombre. <br/> <br/> Dans la partie inférieure du manteau neigeux des couches fragiles ayant subi une métamorphose constructive à grains anguleux sont présentes sur les pentes exposées à l'ouest, au nord et à l'est. <br/> <br/> À basse et moyenne altitude le manteau neigeux est humide."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Jeudi: Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-26T23:00:00Z",
+        "endTime" : "2025-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "N", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "N", "NW" ]
+    } ],
+    "bulletinID" : "5e1afb52-9a58-4f21-8aed-479a6ac6d100",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Adamello du sud",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Préalpes",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Brenta du nord - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Vallée de Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Alpes occidentales du Nonsberg",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Brenta du sud",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Vallée de Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo et Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Lagorai du sud",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Vallée de Ledro",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Lagorai du nord",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Vallée de Mocheni",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
