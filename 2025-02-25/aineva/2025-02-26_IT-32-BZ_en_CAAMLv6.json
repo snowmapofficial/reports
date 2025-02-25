@@ -1,0 +1,209 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-25T23:00:00Z",
+      "endTime" : "2025-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs are to be evaluated with care and prudence. Weak layers in the old snowpack can be released in isolated cases.",
+      "comment" : "The fresh wind slabs can in some cases be released, even by a single winter sport participant. In some cases avalanches are medium-sized. Avalanche prone locations are to be found in particular on steep shady slopes above the tree line. In the regions exposed to heavier precipitation the avalanche prone locations are more prevalent and larger. They are easy to recognise. <br/> <br/> Weak layers in the old snowpack can be released in isolated cases in shady places that are protected from the wind. The avalanche prone locations are to be found on very steep west, north and east facing slopes above approximately 2400 m. Caution is to be exercised in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. Avalanches can reach medium size in isolated cases. <br/> <br/> On steep grassy slopes mostly small gliding avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 10 to 20 cm of snow, and up to 25 cm in some localities, will fall, in particular in the High Tauern and in the Sexten Dolomites. In the Vinschgau less snow will fall. The fresh wind slabs are lying on soft layers in particular on steep shady slopes. <br/> <br/> Faceted weak layers exist in the bottom section of the snowpack on west, north and east facing slopes. <br/> <br/> The snowpack will be moist at low and intermediate altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The fresh wind slabs of Wednesday remain for the foreseeable future prone to triggering in particular on steep shady slopes above the tree line.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-26T23:00:00Z",
+        "endTime" : "2025-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "N", "NW" ]
+    } ],
+    "bulletinID" : "ca92c9f3-5896-449c-a9fd-3d751c1adefd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-25T23:00:00Z",
+      "endTime" : "2025-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs require caution.",
+      "comment" : "The fresh wind slabs can in isolated cases be released by a single winter sport participant, but they will be small in most cases. Avalanche prone locations are to be found in particular on steep shady slopes above the tree line. They are easy to recognise. Restraint should be exercised because avalanches can sweep people along and give rise to falls. <br/> <br/> On steep grassy slopes mostly small gliding avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Some snow will fall. The fresh wind slabs are lying on soft layers in particular on steep shady slopes. <br/> <br/> Faceted weak layers exist in the bottom section of the snowpack on shady slopes. <br/> <br/> The snowpack will be moist at low and intermediate altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Fresh wind slabs require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-26T23:00:00Z",
+        "endTime" : "2025-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "ec6dec53-ef0d-42d9-8959-0bf31cb387dd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
