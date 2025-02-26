@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-26T23:00:00Z",
+      "endTime" : "2025-02-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs require caution. Weak layers in the old snowpack can be released.",
+      "comment" : "The fresh snow and the wind slabs can be released by a single winter sport participant in all aspects above the tree line. Avalanche prone locations are to be found adjacent to ridgelines and in gullies and bowls, and behind abrupt changes in the terrain. In the regions exposed to heavier precipitation the avalanche prone locations are more prevalent and larger. Small and medium-sized avalanches are possible. <br/> Small and, in isolated cases, medium-sized natural avalanches are possible in the regions exposed to heavier precipitation. <br/> <br/> Weak layers in the old snowpack can be released on shady slopes. The avalanche prone locations are to be found on very steep west, north and east facing slopes above approximately 2000 m. Caution is to be exercised in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. Avalanches can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "5 to 20 cm of snow has fallen since Tuesday. Over a wide area in some localities up to 25 cm of snow will fall until Thursday. The fresh wind slabs are lying on soft layers in particular on steep shady slopes. <br/> <br/> Faceted weak layers exist in the bottom section of the snowpack on west, north and east facing slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The fresh wind slabs of Wednesday are in some cases still prone to triggering above the tree line.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-02-27T23:00:00Z",
+        "endTime" : "2025-02-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "d3a63044-9301-4e78-8b48-eb058aabc420",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
