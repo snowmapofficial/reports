@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-02-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-02-28T23:00:00Z",
+      "endTime" : "2025-03-01T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor frischem Triebschnee. Schwachschichten im Altschnee können ausgelöst werden.",
+      "comment" : "Die frischen Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden und mittlere Größe erreichen. Gefahrenstellen liegen v.a. an steilen Schattenhängen oberhalb der Waldgrenze. Vorsicht vor allem in Kammlagen sowie in Rinnen, Mulden und hinter Geländekanten. <br/> <br/> Zudem können stellenweise Lawinen tiefere Schichten der Schneedecke mitreißen. Solche Gefahrenstellen liegen an sehr steilen West-, Nord- und Osthängen oberhalb von rund 2000 m. In den Hauptniederschlagsgebieten sind die Gefahrenstellen häufiger. Vorsicht vor allem an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Lawinen können mittlere Größe erreichen. Die Mitreiß- und Absturzgefahr sollte beachtet werden. <br/> In den Hauptniederschlagsgebieten sind im Tagesverlauf Lockerschneelawinen zu erwarten, aber meist nur kleine."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Dienstag fielen bis zu 40 cm Schnee. Bis Samstag fallen lokal 2 bis 20 cm Schnee. Die frischen Triebschneeansammlungen liegen vor allem an steilen Schattenhängen auf weichen Schichten. <br/> <br/> Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. Es gingen in den Niederschlagsgebieten mehrere kleine und mittlere Lawinen spontan ab."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Anstieg der Gefahr von feuchten und nassen Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-01T23:00:00Z",
+        "endTime" : "2025-03-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "aaab1197-8535-436f-ab4f-bea165eabae9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
