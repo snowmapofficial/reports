@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-01T11:12:29Z",
+    "validTime" : {
+      "startTime" : "2025-02-28T23:00:00Z",
+      "endTime" : "2025-03-01T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve ventata recente. Gli strati deboli presenti nella neve vecchia possono distaccarsi.",
+      "comment" : "I nuovi accumuli di neve ventata possono distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali e raggiungere dimensioni medie. Punti pericolosi si trovano specialmente sui pendii ombreggiati ripidi al di sopra del limite del bosco. Attenzione soprattutto nelle zone in prossimità delle creste, come pure nelle conche, nei canaloni e dietro ai cambi di pendenza. <br/> <br/> Inoltre, in alcuni punti le valanghe possono trascinare gli strati più profondi del manto nevoso. Tali punti pericolosi si trovano sui pendii molto ripidi esposti a ovest, nord ed est al di sopra dei 2000 m circa. Nelle regioni più colpite dalle precipitazioni i punti pericolosi sono più numerosi. Attenzione soprattutto nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni. Le valanghe possono raggiungere dimensioni medie. Attenzione al pericolo di trascinamento e di caduta. <br/> Nelle regioni più colpite dalle precipitazioni, nel corso della giornata sono previste valanghe di neve a debole coesione, ma per lo più solo di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Da martedì sono caduti sino a 40 cm di neve. A livello locale fino a sabato cadranno da 2 a 20 cm di neve. Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici soprattutto sui pendii ripidi ombreggiati. <br/> <br/> Sui pendii esposti a ovest, nord ed est, nella parte basale del manto nevoso si trovano strati fragili a cristalli angolari. Nelle regioni colpite dalle precipitazioni sono cadute alcune valanghe spontanee di piccole e medie dimensioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, aumento del pericolo di valanghe umide e bagnate.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-01T23:00:00Z",
+        "endTime" : "2025-03-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "aaab1197-8535-436f-ab4f-bea165eabae9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
