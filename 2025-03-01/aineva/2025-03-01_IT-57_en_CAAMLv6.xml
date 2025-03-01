@@ -1,0 +1,125 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="a8a0e3ab-eae8-4628-9ffd-16291567bd59" lang="en">
+    <publicationTime>2025-03-01T11:12:29Z</publicationTime>
+    <validTime>
+      <startTime>2025-02-28T23:00:00Z</startTime>
+      <endTime>2025-03-01T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>true</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1800</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wind_slab</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>SE</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Old wind slabs at high altitude.</highlights>
+      <comment>Above approximately 1800 m and on very steep slopes individual slab avalanches are possible, even medium-sized ones.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>The old snowpack will be generally stable. The more recent wind slabs are in isolated cases prone to triggering at high altitude. The more recent wind slabs have formed in particular in gullies and bowls and at elevated altitudes. Some new snow above approximately 1700 m.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-03-01T23:00:00Z</startTime>
+        <endTime>2025-03-02T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-03-01</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+  <bulletin bulletinID="d55154a7-c7c8-4894-9cbe-4d1e5595acfc" lang="en">
+    <publicationTime>2025-03-01T11:12:29Z</publicationTime>
+    <validTime>
+      <startTime>2025-02-28T23:00:00Z</startTime>
+      <endTime>2025-03-01T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>true</unscheduled>
+    <region regionID="IT-57-MC-02">
+      <name>IT-57-MC-02</name>
+    </region>
+    <region regionID="IT-57-PU-01">
+      <name>Appennino Pesarese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1400</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>W</aspect>
+      <aspect>E</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <aspect>SE</aspect>
+      <aspect>N</aspect>
+      <aspect>NW</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>New snow at high altitude.</highlights>
+      <comment>Small avalanches are possible in isolated cases.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>At low and intermediate altitudes no snow is lying. Some new snow at high altitude.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-03-01T23:00:00Z</startTime>
+        <endTime>2025-03-02T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-03-01</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
