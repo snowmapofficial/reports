@@ -1,0 +1,135 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-01T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-01T23:00:00Z",
+      "endTime" : "2025-03-02T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve fresca, alla neve ventata e alla neve vecchia con strati deboli persistenti.",
+      "comment" : "I nuovi accumuli di neve ventata possono distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali e raggiungere dimensioni medie. I punti pericolosi sono in parte innevati e difficilmente individuabili da parte del principiante. Attenzione soprattutto nelle zone in prossimità delle creste, come pure nelle conche, nei canaloni e dietro ai cambi di pendenza. <br/> <br/> Inoltre, isolate valanghe possono trascinare gli strati più profondi del manto nevoso. Tali punti pericolosi si trovano sui pendii molto ripidi esposti a ovest, nord ed est al di sopra dei 2000 m circa. Attenzione al pericolo di trascinamento e di caduta. <br/> Nelle aree colpite dalle precipitazioni, nel corso della giornata sono previste valanghe di neve a debole coesione, ma per lo più solo di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "In alcune aree, nelle ultime ore è caduta un po' di neve. Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici soprattutto sui pendii ripidi ombreggiati. <br/> Sui pendii esposti a ovest, nord ed est, nella parte basale del manto nevoso si trovano strati fragili a cristalli sfaccettati. <br/> Il manto di neve vecchia è umido alle quote di bassa e media montagna. Negli ultimi tre giorni, al di sopra dei 1800 m circa sono cadute alcune valanghe spontanee per lo più di piccole dimensioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, progressivo aumento del pericolo di valanghe di neve umida e bagnata.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-02T23:00:00Z",
+        "endTime" : "2025-03-03T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "N", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "N", "NW" ]
+    } ],
+    "bulletinID" : "13cc25e5-a23a-4d94-beee-72b75df29e27",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Adamello meridionale",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Prealpi",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Brenta settentrionale - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Valle di Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone e Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Alpi della Val di Non occidentali",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Lavarone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Brenta meridionale",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Valle di Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo e Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Lagorai meridionale",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Valle di Ledro",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Lagorai settentrionale",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Valle dei Mocheni",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
