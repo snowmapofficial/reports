@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-02T23:00:00Z",
+      "endTime" : "2025-03-03T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor frischem Triebschnee. Schwachschichten im Altschnee können ausgelöst werden. Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an. Dies vor allem in den Voralpen bei Sonneneinstrahlung.",
+      "comment" : "Die frischen Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden und vereinzelt groß werden. Gefahrenstellen liegen v.a. an steilen Schattenhängen oberhalb der Waldgrenze. Vorsicht vor allem in Kammlagen sowie in Rinnen, Mulden und hinter Geländekanten. Die Gefahrenstellen sind teils überschneit und schwer zu erkennen. <br/> <br/> Zudem können stellenweise Lawinen tiefere Schichten der Schneedecke mitreißen. Solche Gefahrenstellen liegen an steilen West-, Nord- und Osthängen sowie im selten befahrenen Gelände. Lawinen sind vereinzelt groß. In den Hauptniederschlagsgebieten sind die Gefahrenstellen häufiger. Wummgeräusche können auf die Gefahr hinweisen. Vorsicht vor allem an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Die Mitreiß- und Absturzgefahr sollte beachtet werden. <br/> Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind im Tagesverlauf feuchte Lockerschneelawinen zu erwarten, auch mittelgroße."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die frischen Triebschneeansammlungen liegen vor allem an steilen Schattenhängen auf weichen Schichten. <br/> <br/> Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. Sonne und Wärme führen im Tagesverlauf an steilen Sonnenhängen zu einer Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Anstieg der Gefahr von feuchten und nassen Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-03T23:00:00Z",
+        "endTime" : "2025-03-04T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "c41a9c40-a945-4ab5-8c5d-5698dc25f4f8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
