@@ -1,0 +1,123 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Moderate avalanche danger (level 2) is declared in all mountain ranges above the forest line. Up to 30 cm of new snow fell during the last snowfall period, which was mainly transported to east-facing slopes. Here there are still unbound slabs and pillows lying on top of an old layer of hardened firn to ice. The bonding between these layers is still insufficient. In addition, on the north-facing slopes, there is an unstable layer of square-grained snow in profile on top of the old hardened snow, on top of which new snow is lying.  Avalanches are expected to be triggered mainly on steep to very steep terrain, especially at high additional loads. Only small or medium avalanches are expected, but the problem is the transport and accumulation zone of the deposits, where, due to the low snow cover, there is often rock debris or exposed rock blocks. Due to higher air pressure, a gradual influx of warmer air and clear to partly cloudy weather is expected. This, together with more direct solar radiation hitting the surface, may cause spontaneous smaller avalanches and avalanches of new unbound snow on S orientations.",
+        "highlights": "Beware of still untied slabs of blown snow."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "NE",
+            "S",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "2279f22d-eaa0-4b56-91b2-d1daa162747c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-03-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-03-02T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow cover is still below average, with continuous snow cover above 1500 m above sea level. Up to 30 cm of new snow has fallen in the last snowfall period, which is gradually melting. It retains its powdery character on the N-facing slopes, but there is a layer of square-grained snow beneath the layer of new snow, which significantly increases instability locally.  On S-facing slopes, a crust has formed on the surface. It is expected to melt during the day on these exposures and gradually change to firn as night freezes."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Persistent during the day, weakly decreasing with the approach of night and cooling.\n\n<br><br><font size=\"2\">bl</font>",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2025-03-02T23:00:00+00:00",
+        "endTime": "2025-03-03T23:00:00+00:00"
+      }
+    }
+  ]
+}
