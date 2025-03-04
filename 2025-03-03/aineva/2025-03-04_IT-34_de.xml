@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-03T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="ae399b9d-41b6-4e3a-b5c8-13fd922614cc" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-03T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-03T23:00:00Z</beginPosition>
+          <endPosition>2025-03-04T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-04T23:00:00Z</beginPosition>
+                <endPosition>2025-03-05T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Vorsicht vor frischem Triebschnee. Schwachschichten im Altschnee können ausgelöst werden. Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an. Dies vor allem bei Sonneneinstrahlung.</avActivityHighlights>
+          <avActivityComment>Die frischen Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden und vereinzelt groß werden. Gefahrenstellen liegen v.a. an steilen Schattenhängen oberhalb der Waldgrenze. Vorsicht vor allem in Kammlagen sowie in Rinnen, Mulden und hinter Geländekanten. &lt;br/&gt; Zudem können stellenweise Lawinen tiefere Schichten der Schneedecke mitreißen. Solche Gefahrenstellen liegen an steilen West-, Nord- und Osthängen sowie im selten befahrenen Gelände. Vorsicht vor allem an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. &lt;br/&gt; Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind im Tagesverlauf feuchte Lockerschneelawinen zu erwarten, auch mittelgroße.</avActivityComment>
+          <snowpackStructureComment>Die frischen Triebschneeansammlungen liegen vor allem an steilen Schattenhängen auf weichen Schichten. &lt;br/&gt; Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. Sonne und Wärme führen im Tagesverlauf an steilen Sonnenhängen zu einer Anfeuchtung der Schneedecke.</snowpackStructureComment>
+          <tendencyComment>Anstieg der Gefahr von feuchten und nassen Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
