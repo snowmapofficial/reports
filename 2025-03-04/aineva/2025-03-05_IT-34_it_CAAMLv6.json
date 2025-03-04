@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-04T23:00:00Z",
+      "endTime" : "2025-03-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli strati deboli presenti nella neve vecchia possono distaccarsi. Attenzione alla neve ventata. Il pericolo di valanghe umide e bagnate aumenterà nel corso della giornata. Ciò soprattutto in seguito all'irradiazione solare.",
+      "comment" : "Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata sono previste valanghe umide di neve a debole coesione, anche di medie dimensioni. <br/> Gli accumuli di neve ventata possono distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali e, a livello isolato, raggiungere grandi dimensioni. Punti pericolosi si trovano specialmente sui pendii ombreggiati ripidi al di sopra del limite del bosco. Attenzione soprattutto nelle zone in prossimità delle creste, come pure nelle conche, nei canaloni e dietro ai cambi di pendenza. <br/> Inoltre, in alcuni punti le valanghe possono trascinare gli strati più profondi del manto nevoso. Tali punti pericolosi si trovano sui pendii ripidi esposti a ovest, nord ed est come pure nelle zone poco frequentate. Attenzione soprattutto nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il sole e il calore causeranno nel corso della giornata sui pendii soleggiati ripidi un inumidimento del manto nevoso. Sui pendii esposti a ovest, nord ed est, all'interno del manto nevoso si trovano strati fragili a cristalli angolari. <br/> Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici soprattutto sui pendii ripidi ombreggiati."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, aumento del pericolo di valanghe umide e bagnate.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-05T23:00:00Z",
+        "endTime" : "2025-03-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW" ]
+    } ],
+    "bulletinID" : "7cdbe0e7-7901-4f3b-a2f4-34d39a1ddb96",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
