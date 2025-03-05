@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-05T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-05T23:00:00Z",
+      "endTime" : "2025-03-06T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée sur les pentes raides à l'ombre. Le danger d'avalanches humides et mouillées augmente en cours de journée.",
+      "comment" : "Avec le réchauffement diurne et le rayonnement solaire en cours de journée des avalanches de neige meuble humide sont possibles, également de taille moyenne. <br/> Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée sur les pentes raides à l'ombre. Prudence surtout à proximité des crêtes comme dans les combes, couloirs et derrière les ruptures de terrain. Des endroits dangereux se situent surtout sur les pentes raides à l'ombre au-dessus de la limite de la forêt."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le soleil et la chaleur entraînent en cours de journée sur les pentes raides au soleil une humidification du manteau neigeux. Dans le manteau neigeux des couches fragiles ayant subi une métamorphose constructive à grains anguleux sont présentes sur les pentes exposées à l'ouest, au nord et à l'est. <br/> Les accumulations de neige soufflée fraîches reposent sur des couches meubles surtout sur les pentes raides à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Augmentation du danger d'avalanches humides et mouillées avec le réchauffement diurne et le rayonnement solaire.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-06T23:00:00Z",
+        "endTime" : "2025-03-07T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "E", "S", "SW", "SE", "NW" ]
+    } ],
+    "bulletinID" : "76c25096-f3d2-47b8-a16e-5c5e51fda073",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
