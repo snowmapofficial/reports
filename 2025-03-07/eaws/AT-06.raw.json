@@ -1,0 +1,118 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-07T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-07T16:00:00Z",
+      "endTime" : "2025-03-08T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "A high pressure system with dry air masses is dominating the weather in the eastern Alps. After a cool night, Fridaywill be sunny and the visibility will be excellent.  In the eastern half of Styria brisk southwesterly winds are called which weakens during the afternoon. Temperatures are rising quickly during the course of the day and will be around 2 to 4 degrees in 2.000 m at noon."
+    },
+    "avalancheActivity" : {
+      "highlights" : "During the course of the day on sunny slopes increasing moist loss. On shady slopes danger spots due to snowdrift.",
+      "comment" : "Avalanche danger is in general low. During the course of the day loose wet-snow avalanches which could be triggered in extremly steep, rocky slopes can be sponaneously triggered. These avalanches are mostly small  sized. Occasionaly fresh snowdrift deposits in high altitudes on shady slopes and adjaecent to ridgelines could be triggered as small slab avalanches."
+    },
+    "snowpackStructure" : {
+      "comment" : "During the nicht the snow cover cools down and solidifies. Due to radiation the snow will get firn-like already in the morning and gets increasingly moist and instable. on shady slopes in hight altitudes loose snow is found in some places, and in rare cases fresh snowdrift deposits which are prone to triggering have formed due to southern winds. The snow surface is often icy or hoar-like. The snow base is predominantly stable. Especially on sunny slopes only little amounts of snow is found even in high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "On Sunday sunny weather is called with high veil clouds. The southern winds are increasing in some places but it will stay mild. The avalanche danger will stay low.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-08T16:00:00Z",
+        "endTime" : "2025-03-09T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "c824b947-7ca8-4282-8ecd-0fb85232cfa2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Südliche Wölzer Tauern",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Nördliche Wölzer Tauern",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-06-16"
+    }, {
+      "name" : "Stub- und Gleinalpe",
+      "regionID" : "AT-06-15"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Tauern",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Persistent influence of the high-pressure system, slightly increasing avalanche danger during the course of the day"
+  }
+}
