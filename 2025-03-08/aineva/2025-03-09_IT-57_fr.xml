@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-08T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="8194d49a-24c4-42b1-b75a-d3705fab6b25" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-08T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-08T23:00:00Z</beginPosition>
+          <endPosition>2025-03-09T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-57-AP-01"/>
+      <locRef xlink:href="IT-57-MC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-09T23:00:00Z</beginPosition>
+                <endPosition>2025-03-10T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Des avalanches de plaque de neige humide et des avalanches et coulées humides sont possibles de manière isolée.</avActivityHighlights>
+          <avActivityComment>À proximité des crêtes, dans les combes et couloirs et au-dessus d'environ 1900 m des avalanches de plaque de neige humide isolées sont possibles, également de taille moyenne. Des avalanches et coulées mouillées isolées en général de petite taille sont possibles avec le réchauffement diurne. Les endroits dangereux pour les avalanches mouillées se situent spécialement sur les pentes rocheuses au soleil en dessous d'environ 1900 m. En outre, des avalanches de glissement isolées sont possibles.</avActivityComment>
+          <snowpackStructureComment>Le manteau neigeux ancien est généralement stable. Les accumulations plus récentes de neige soufflée se sont formées surtout dans les combes et couloirs et en altitude. Le soleil et la chaleur entraînent en cours de journée partiellement une humidification croissante du manteau neigeux.</snowpackStructureComment>
+          <tendencyComment>Lundi: Avec l'arrivée des pluies l'activité des avalanches spontanées augmente progressivement.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
