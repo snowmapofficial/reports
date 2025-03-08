@@ -1,0 +1,235 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-08T16:00:00Z",
+      "endTime" : "2025-03-09T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday, sunny weather, only thin cirrus clouds, hampered by dust from the Sahara Desert. In the evening hours, intermediate level clouds will move in from the southwest, moderate SW winds will also arise. At midday at 2000m: +2 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution: persistent weak layers",
+      "comment" : "Isolated avalanches are triggerable by persons in the weak old snow, esp. on W/N/E facng slopes above 1800m and at the foot of rock walls, releases sometimes medium-sized. Due to daytime warming and solar radiation, isolated small wet loose-snow avalanches are possible, esp. on very steep sunny slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "W/N/E facing slopes: in the lowermost part of the snowpack are expansively metamorphosed (faceted) weak layers, esp. above 1800m. Due to low temperatures and low air moisture, the surface forms a crust during nighttime hours. Sunshine and warmth during daytime hours soften up the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Widespread precipitation is anticipated, snowfall level at high altitudes.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-09T16:00:00Z",
+        "endTime" : "2025-03-10T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "E", "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "W", "E", "S", "SW", "SE" ]
+    } ],
+    "bulletinID" : "f9b21705-8e22-488b-871a-3d6238d6dc46",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eastern Karawanken",
+      "regionID" : "AT-02-19"
+    }, {
+      "name" : "Central Karawanken",
+      "regionID" : "AT-02-18"
+    }, {
+      "name" : "Western Karawanken",
+      "regionID" : "AT-02-17"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-08T16:00:00Z",
+      "endTime" : "2025-03-09T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday, sunny weather, only thin cirrus clouds, hampered by dust from the Sahara Desert. In the evening hours, intermediate level clouds will move in from the southwest, moderate SW winds will also arise. At midday at 2000m: +2 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Favorable avalanche situation",
+      "comment" : "Isolated avalanche prone locations occur on very steep shady slopes and in transitions into gullies and bowls at high altitudes. Avalanches can hardly trigger and releases are small-sized. Due to daytime warming and solar radiation only isolated small wet loose-snow avalanches are possible, esp. on very steep sunny slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Shady slopes: inside the snowpack are expansively metamorphosed (faceted) weak layers. Sunny slopes: Due to low temperatures and low air moisture, a surface crust forms during the nocturnal hours. Sunshine and warmth soften up the snowpack during the daytime hours."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Regional precipitation, snowfall level at high altitudes",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-09T16:00:00Z",
+        "endTime" : "2025-03-10T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "3e24eab3-09f1-44b1-b0c8-44c156008633",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gurktal Alps South",
+      "regionID" : "AT-02-05-02"
+    }, {
+      "name" : "Gurktal Alps",
+      "regionID" : "AT-02-05-01"
+    }, {
+      "name" : "Nockberge",
+      "regionID" : "AT-02-04-01"
+    }, {
+      "name" : "Southern Nockberge",
+      "regionID" : "AT-02-04-02"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-02-08"
+    }, {
+      "name" : "Packalpe",
+      "regionID" : "AT-02-07"
+    }, {
+      "name" : "Goldeck Group",
+      "regionID" : "AT-02-12-02"
+    }, {
+      "name" : "Central Gailtal Alps",
+      "regionID" : "AT-02-12-01"
+    }, {
+      "name" : "Saualpe",
+      "regionID" : "AT-02-06"
+    }, {
+      "name" : "Eastern Karnian Alps",
+      "regionID" : "AT-02-16"
+    }, {
+      "name" : "Gailtal Alps West",
+      "regionID" : "AT-02-11"
+    }, {
+      "name" : "Villacher Alpe",
+      "regionID" : "AT-02-13"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-08T16:00:00Z",
+      "endTime" : "2025-03-09T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday, sunny weather, only thin cirrus clouds, hampered by dust from the Sahara Desert. In the evening hours, intermediate level clouds will move in from the southwest, moderate SW winds will also arise. At midday at 2000m: +2 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution: weak layers in old snow and freshly generated snowdrifts.",
+      "comment" : "Due to light-to-moderate southerly winds, fresh snowdrift accumulations have been generated esp. in ridgeline terrain. The fresh drifts are small but often prone to triggering, esp. a high altitudes, releases can reach medium size, particularly on W/N/E facing slopes and at the foot of rock walls at high altitudes. Due to daytime warming and solar radiation, increasingly frequent generally wet loose-snow avalanches are possible, esp. on extremely steep sunny slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "W/N/E facing slopes: in the mid-section of the snowpack are expansively metamorphosed (faceted) weak layers, esp. at high altitudes. Due to southerly winds, small snowdrift accumulations are accumulating. The fresh drifts lie deposited atop soft layers, esp. on shady slopes. Sunny slopes: due to low temperatures and low air moisture, the surface forms a crust during nighttime hours. Sunshine and warmth during daytime hours soften up the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Regional precipitation, snowfall level at high altitudes",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-09T16:00:00Z",
+        "endTime" : "2025-03-10T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "3e2f8343-65c3-4789-879a-ba9af24cd253",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Kreuzeck Group",
+      "regionID" : "AT-02-09"
+    }, {
+      "name" : "Central Karnian Alps",
+      "regionID" : "AT-02-15"
+    }, {
+      "name" : "Western Karnian Alps",
+      "regionID" : "AT-02-14"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-02-10"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Quite favorable conditions in early morning"
+  }
+}
