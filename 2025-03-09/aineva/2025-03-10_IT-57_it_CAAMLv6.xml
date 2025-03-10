@@ -1,0 +1,85 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="9f0c6226-6994-4ddc-a0eb-a348035ab80c" lang="it">
+    <publicationTime>2025-03-09T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-03-09T23:00:00Z</startTime>
+      <endTime>2025-03-10T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1900</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1900</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1900</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>N</aspect>
+      <aspect>NW</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <upperBound>1900</upperBound>
+      </elevation>
+      <aspect>S</aspect>
+      <aspect>SE</aspect>
+      <aspect>NE</aspect>
+      <aspect>W</aspect>
+      <aspect>SW</aspect>
+      <aspect>N</aspect>
+      <aspect>NW</aspect>
+      <aspect>E</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>fair</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Attenzione alle valanghe di neve umida a lastroni e valanghe bagnate spontanee.</highlights>
+      <comment>Piogge sino da alta quota. Nelle zone in prossimità delle creste, nelle conche e nei canaloni e al di sopra dei 1900 m circa, sono possibili valanghe per scivolamento di neve e colate, anche di medie dimensioni. I punti pericolosi per valanghe bagnate si trovano principalmente sui pendii ripidi.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Il manto di neve vecchia è stabile a livello generale. Gli ultimi accumuli di neve ventata si sono formati specialmente nei canaloni e nelle conche e in quota. Nel corso della giornata la pioggia causerà specialmente alle quote medie e alte una sturttura sfavorevole del manto nevoso.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-03-10T23:00:00Z</startTime>
+        <endTime>2025-03-11T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-03-10</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
