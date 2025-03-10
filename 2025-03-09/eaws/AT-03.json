@@ -1,0 +1,89 @@
+{
+  "bulletins": [
+    {
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "E",
+            "NE",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "W",
+            "E",
+            "SE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "f72d7b88-3f42-472c-a7c9-15a52b59eba3",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-03-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-03-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-03-04",
+          "name": "Rax - Schneeberggebiet"
+        },
+        {
+          "regionID": "AT-03-01",
+          "name": "Ybbstaler Alpen"
+        }
+      ],
+      "source": {
+        "provider": {
+          "name": "LWD Nieder\u00f6sterreich",
+          "website": "https://www.lawinenwarndienst-niederoesterreich.at"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-03-10T16:00:00+00:00",
+            "endTime": "2025-03-11T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-03-09T16:00:00+00:00",
+        "endTime": "2025-03-10T16:00:00+00:00"
+      }
+    }
+  ]
+}
