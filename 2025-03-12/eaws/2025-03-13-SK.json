@@ -1,0 +1,115 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Moderate avalanche danger (level 2) has been declared in all mountain ranges of Slovakia. Abundant liquid precipitation in the form of rain is expected up to about 2000m above sea level. These will further drench the entire snow cover and significantly reduce its stability. Above 2000m above sea level, snowfall is expected, which may locally amount to more than 20cm. The new snow will be transported by the wind to the leeward slopes of mainly northerly orientations and will form unstable snow slabs and pillows.",
+        "highlights": "Beware of wet snow up to 2000m above sea level. Above this limit new wind blown snow."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "NW",
+            "NE",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "SW",
+            "SE",
+            "NW",
+            "NE",
+            "S",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "a9c25b01-4b67-4d0d-85a5-35e205791253",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-03-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-03-12T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow cover is below average, with continuous snow cover above 1600 m above sea level. The snow is wet and slushy due to warming. Rain will continue to soak the snow cover and increase its instability. Conversely, the snowline is expected to reach 2000 m above sea level, where unstable snow formations will form due to the wind. More snow is to be expected under rock walls, thresholds and in leeward areas."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Due to rain, snowfall and increasing winds, it is rising.",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2025-03-12T23:00:00+00:00",
+        "endTime": "2025-03-13T23:00:00+00:00"
+      }
+    }
+  ]
+}
