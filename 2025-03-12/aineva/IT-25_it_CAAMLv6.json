@@ -1,0 +1,236 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T23:00:00Z",
+      "endTime" : "2025-03-13T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve fresca e neve ventata sono la principale fonte di pericolo.",
+      "comment" : "La neve fresca e la neve ventata degli ultimi giorni possono facilmente subire un distacco provocato o spontaneo a tutte le esposizioni al di sopra dei 1800 m circa. I punti pericolosi si trovano nelle conche, nei canaloni e dietro ai cambi di pendenza. Sfavorevoli sono i pendii carichi di neve ventata, dove la brina superficiale è stata innevata."
+    },
+    "snowpackStructure" : {
+      "comment" : "In molte regioni da lunedì sono caduti diffusamente da 25 a 40 cm di neve al di sopra dei 1700 m circa, localmente anche meno. Il vento a tratti forte ha causato il trasporto della neve. Ciò ha causato diffusamente una sturttura sfavorevole del manto nevoso. <br/> La neve fresca e la neve ventata sono instabili. Ciò specialmente nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni. <br/> La neve fresca e quella ventata poggiano su un debole manto di neve vecchia, specialmente sui pendii ombreggiati. <br/> Sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili a grani grossi. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-13T23:00:00Z",
+        "endTime" : "2025-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1400",
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "6786d539-339e-4bc5-8868-72fd31fadbfe",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T23:00:00Z",
+      "endTime" : "2025-03-13T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Probabili valanghe asciutte e umide.",
+      "comment" : "La neve fresca e la neve ventata possono distaccarsi spontaneamente a tutte le esposizioni. Con la neve fresca, soprattutto sui pendii ripidi e sui pendii molto ripidi erbosi sono possibili valanghe umide di neve a debole coesione per lo più di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neve fresca e quella ventata poggiano spesso su un manto di neve vecchia umida."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-13T23:00:00Z",
+        "endTime" : "2025-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "1460eb68-8114-4f5e-913f-6054cbbc768c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    }, {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T23:00:00Z",
+      "endTime" : "2025-03-13T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Possibili colate umide e bagnate e piccole valanghe.",
+      "comment" : "Con le precipitazioni, sono possibili isolate valanghe umide e bagnate di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso sarà fradicio a livello generale."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-13T23:00:00Z",
+        "endTime" : "2025-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "78b9555f-0450-4564-a357-5f999986f48a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PREALPI OCCIDENTALI",
+      "regionID" : "IT-25-VA-01"
+    } ]
+  } ]
+}
