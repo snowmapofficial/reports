@@ -1,0 +1,54 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T16:00:00Z",
+      "endTime" : "2025-03-12T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : { },
+    "snowpackStructure" : { },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-12T16:00:00Z",
+        "endTime" : "2025-03-13T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "N", "W", "NW", "SW", "E", "SE", "NE" ]
+    } ],
+    "bulletinID" : "ee57eff4-6e31-4ff3-ace8-c1ac2179749d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : { }
+}
