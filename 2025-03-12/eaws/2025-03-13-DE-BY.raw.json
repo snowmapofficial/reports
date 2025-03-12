@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T16:00:00Z",
+      "endTime" : "2025-03-13T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow now mostly only an issue in the Allgäu.",
+      "comment" : "Avalanche danger is low. Snowdrifts are problematic. In some places small slab avalanches can be triggered by a single person engaged in winter sports in steep NW/N/E-facing terrain as well as in wind-loaded gullies and bowls. The frequency of avalanche prone locations increases with ascending altitude and as the day progresses. Smaller glide-snow avalanches can release on steep slopes with over smooth ground with still plenty of snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "Snowfall of 5cm to 15cm and weak to moderate winds. The wind impact will grow at high altitude during the course of the day and will transport the new fallen snow. In some places, fresh snowdrifts will be deposited atop soft intermiedate layers and are prone to triggering. At intermediate altitudes the old snowpack is superficially moist and bonds well with the fresh snow and snowdrifts. Possibility of gliding movements over wet smooth ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger increases somewhat due to snow and wind.",
+      "validTime" : {
+        "startTime" : "2025-03-13T16:00:00Z",
+        "endTime" : "2025-03-14T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "E", "NE" ]
+    } ],
+    "bulletinID" : "6cce22d8-a843-496e-9af6-57a3d4986b2e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "At high altitudes, fresh snowdrifts will accumulate during the course of the day."
+  }
+}
