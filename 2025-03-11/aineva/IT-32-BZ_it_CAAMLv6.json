@@ -1,0 +1,270 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve ventata recente ad alta quota. Sono possibili valanghe per scivolamento di neve e colate umide.",
+      "comment" : "Con vento in parte forte proveniente dai quadranti meridionali si formeranno accumuli di neve ventata instabili. Attenzione soprattutto sui pendii ombreggiati molto ripidi nelle zone in prossimità delle creste, nelle conche e nei canaloni ad alta quota e in alta montagna. <br/> <br/> Sono possibili valanghe umide di neve a debole coesione al di sotto dei 2200 m circa. Ciò sui pendii ripidi estremi in caso di schiarite più ampie. Le valanghe sono per lo più di piccole dimensioni e distaccabili da un singolo appassionato di sport invernali. <br/> Con l'aria umida, il pericolo di valanghe per scivolamento di neve aumenterà. Attenzione soprattutto sui pendii erbosi ripidi. <br/> <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi a livello molto isolato. I punti pericolosi si trovano soprattutto sui pendii ombreggiati ripidi estremi al di sopra dei 2400 m circa. Le valanghe possono raggiungere dimensioni medie a livello isolato."
+    },
+    "snowpackStructure" : {
+      "comment" : "Cadranno sino a 10 cm di neve, localmente anche di più. Ciò ad alta quota e in alta montagna. Il vento causerà il trasporto della neve fresca e, in parte, anche della neve vecchia. Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici sui pendii ombreggiati in quota. <br/> L'irraggiamento notturno sarà praticamente assente. La superficie del manto nevoso si ammorbidirà nel corso della giornata. Ciò alle quote di bassa e media montagna. <br/> Sui pendii esposti a ovest, nord ed est, nella parte basale del manto nevoso si trovano strati fragili a cristalli angolari. <br/> È presente poca neve rispetto alla media stagionale."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La neve ventata recente è la principale fonte di pericolo. A livello locale cadranno sino a 10 cm di neve, localmente anche di più.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    } ],
+    "bulletinID" : "45cdfd25-3769-4808-a77c-cd040ddda21f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Dolomiti di Gardena",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Costiera di Luson",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomiti di Sesto",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Monti di Fundres orientali",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Gruppo della Cima Dura",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Vallelunga",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Catena delle Vedrette di Ries",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpi del Defereggen occidentali",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Gruppo Sesvenna meridionale",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Cresta di Senales",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Gruppo Sesvenna settentrionale",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Alpi della Val di Non orientali",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Monti di Pianol",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Gruppo Saldura-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Dolomiti di Fiemme settentrionali",
+      "regionID" : "IT-32-BZ-17"
+    }, {
+      "name" : "Dolomiti di Braies",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Monti di Fundres occidentali",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Gruppo della Cima San Giacomo",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Alpi Sarentine meridionali",
+      "regionID" : "IT-32-BZ-08-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata recente deve essere valutata con spirito critico. Sono possibili valanghe di slittamento e scaricamenti di neve umida.",
+      "comment" : "Il pericolo di valanghe si trova nella fascia superiore del grado di pericolo 2 \"moderato\". Con vento a tratti forte proveniente dai quadranti meridionali si formeranno accumuli di neve ventata instabili. Attenzione soprattutto sui pendii ombreggiati molto ripidi nelle zone in prossimità delle creste, nelle conche e nei canaloni ad alta quota e in alta montagna. Sono possibili valanghe spontanee di piccole e, a livello isolato, di medie dimensioni. <br/> <br/> Sono possibili valanghe di neve umida a debole coesione al di sotto dei 2200 m circa. Ciò sui pendii ripidi estremi in caso di riduzione della copertura nuvolosa. Le valanghe sono per lo più di piccole dimensioni e distaccabili da un singolo appassionato di sport invernali. <br/> Con l'aria umida, il pericolo di valanghe di slittamento aumenterà. Attenzione soprattutto sui pendii erbosi ripidi. <br/> <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi a livello molto isolato. I punti pericolosi si trovano soprattutto sui pendii ombreggiati ripidi estremi al di sopra dei 2400 m circa. Le valanghe possono raggiungere dimensioni piuttosto grandi."
+    },
+    "snowpackStructure" : {
+      "comment" : "Cadranno sino a 25 cm di neve, localmente anche di più. Ciò ad alta quota e in alta montagna. Il vento causerà il trasporto della neve fresca e, in parte, anche della neve vecchia. Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici sui pendii ombreggiati in quota. <br/> L'irraggiamento notturno sarà praticamente assente. La superficie del manto nevoso si ammorbidirà nel corso della giornata. Ciò alle quote di bassa e media montagna. <br/> Sui pendii esposti a ovest, nord ed est, nella parte basale del manto nevoso si trovano strati fragili a cristalli sfaccettati. <br/> È presente poca neve rispetto alla media stagionale."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La neve ventata recente è la principale fonte di pericolo. A livello locale cadranno sino a 10 cm di neve, localmente anche di più. Ulteriore aumento del pericolo di valanghe.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    } ],
+    "bulletinID" : "f16847da-6525-413d-9dcb-7af34a4bca73",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Gruppo della Punta Cervina",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Alta Val Passiria",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Gruppo Tessa",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Racines",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Alpi dello Stubai meridionali",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Alpi della Zillertal meridionali",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Val di Vizze",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Gruppo dell'Ortles",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Val d'Ultimo",
+      "regionID" : "IT-32-BZ-15"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Sono possibili valanghe di slittamento e scaricamenti di neve umida. Neve ventata recente ad alta quota.",
+      "comment" : "Sono possibili valanghe umide di neve a debole coesione al di sotto dei 2200 m circa. Ciò sui pendii ripidi estremi in caso di schiarite più ampie. Le valanghe sono per lo più di piccole dimensioni e distaccabili da un singolo appassionato di sport invernali. <br/> Con l'aria umida, il pericolo di valanghe per scivolamento di neve aumenterà. Attenzione soprattutto sui pendii erbosi ripidi. <br/> <br/> Con vento in parte forte proveniente dai quadranti meridionali si sono formati accumuli di neve ventata instabili. Attenzione soprattutto sui pendii ombreggiati molto ripidi nelle zone in prossimità delle creste ad alta quota e in alta montagna. <br/> <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi a livello molto isolato. I punti pericolosi si trovano soprattutto sui pendii ombreggiati ripidi estremi al di sopra dei 2400 m circa. Le valanghe possono raggiungere dimensioni medie a livello isolato."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sono caduti sino a 10 cm di neve, localmente anche di più. Ciò ad alta quota e in alta montagna. Il vento causerà il trasporto della neve fresca e, in parte, anche della neve vecchia. Gli accumuli di neve ventata di più recente formazione poggiano su strati soffici sui pendii ombreggiati in quota. <br/> L'irraggiamento notturno sarà praticamente assente. La superficie del manto nevoso si ammorbidirà nel corso della giornata. Ciò sui pendii soleggiati molto ripidi, come pure sui pendii ombreggiati alle quote di bassa e media montagna. <br/> Sui pendii esposti a ovest, nord ed est, nella parte basale del manto nevoso si trovano strati fragili a cristalli angolari. <br/> È presente poca neve rispetto alla media stagionale."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "A livello locale cadranno sino a 10 cm di neve. Il vento a tratti forte causerà il trasporto della neve fresca.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "e6a20062-dcac-4bed-96ad-0d1124ef4053",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alta Valle Aurina",
+      "regionID" : "IT-32-BZ-05-03"
+    } ]
+  } ]
+}
