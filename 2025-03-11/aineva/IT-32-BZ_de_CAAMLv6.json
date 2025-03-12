@@ -1,0 +1,270 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Frischer Triebschnee in hohen Lagen. Es sind Gleitschneelawinen und feuchte Rutsche möglich.",
+      "comment" : "Mit teils starkem Wind aus südlichen Richtungen entstehen störanfällige Triebschneeansammlungen. Vorsicht vor allem an sehr steilen Schattenhängen in Kammlagen, Rinnen und Mulden in hohen Lagen und im Hochgebirge. <br/> <br/> Es sind unterhalb von rund 2200 m feuchte Lockerschneelawinen möglich. Dies an extrem steilen Hängen bei größeren Aufhellungen. Die Lawinen sind meist klein und von einzelnen Wintersportlern auslösbar. <br/> Mit der feuchten Luft steigt die Gefahr von Gleitschneelawinen an. Vorsicht vor allem an steilen Grashängen. <br/> <br/> Schwachschichten im Altschnee können sehr vereinzelt ausgelöst werden. Die Gefahrenstellen liegen vor allem an extrem steilen Schattenhängen oberhalb von rund 2400 m. Lawinen können vereinzelt mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen bis zu 10 cm Schnee, lokal auch mehr. Dies in hohen Lagen und im Hochgebirge. Der Wind verfrachtet den Neuschnee und teilweise auch Altschnee. Die frischen Triebschneeansammlungen liegen an Schattenhängen in der Höhe auf weichen Schichten. <br/> Die nächtliche Abstrahlung ist kaum vorhanden. Die Schneeoberfläche weicht im Tagesverlauf auf. Dies in tiefen und mittleren Lagen. <br/> Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. <br/> Es liegt für die Jahreszeit wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Frischer Triebschnee ist die Hauptgefahr. Es fallen lokal bis zu 10 cm Schnee, lokal auch mehr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    } ],
+    "bulletinID" : "45cdfd25-3769-4808-a77c-cd040ddda21f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Frischen Triebschnee kritisch beurteilen. Es sind Gleitschneelawinen und feuchte Rutsche möglich.",
+      "comment" : "Die Lawinengefahr liegt im oberen Bereich der Gefahrenstufe 2, \"mäßig\". Mit teils starkem Wind aus südlichen Richtungen entstehen störanfällige Triebschneeansammlungen. Vorsicht vor allem an sehr steilen Schattenhängen in Kammlagen, Rinnen und Mulden in hohen Lagen und im Hochgebirge. Es sind kleine und vereinzelt mittlere spontane Lawinen möglich. <br/> <br/> Es sind unterhalb von rund 2200 m feuchte Lockerschneelawinen möglich. Dies an extrem steilen Hängen bei größeren Aufhellungen. Die Lawinen sind meist klein und von einzelnen Wintersportlern auslösbar. <br/> Mit der feuchten Luft steigt die Gefahr von Gleitschneelawinen an. Vorsicht vor allem an steilen Grashängen. <br/> <br/> Schwachschichten im Altschnee können sehr vereinzelt ausgelöst werden. Die Gefahrenstellen liegen vor allem an extrem steilen Schattenhängen oberhalb von rund 2400 m. Lawinen können recht groß werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen bis zu 25 cm Schnee, lokal auch mehr. Dies in hohen Lagen und im Hochgebirge. Der Wind verfrachtet den Neuschnee und teilweise auch Altschnee. Die frischen Triebschneeansammlungen liegen an Schattenhängen in der Höhe auf weichen Schichten. <br/> Die nächtliche Abstrahlung ist kaum vorhanden. Die Schneeoberfläche weicht im Tagesverlauf auf. Dies in tiefen und mittleren Lagen. <br/> Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. <br/> Es liegt für die Jahreszeit wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Frischer Triebschnee ist die Hauptgefahr. Es fallen lokal bis zu 10 cm Schnee, lokal auch mehr. Weiterer Anstieg der Lawinengefahr.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    } ],
+    "bulletinID" : "f16847da-6525-413d-9dcb-7af34a4bca73",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-11T23:00:00Z",
+      "endTime" : "2025-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es sind Gleitschneelawinen und feuchte Rutsche möglich. Frischer Triebschnee in hohen Lagen.",
+      "comment" : "Es sind unterhalb von rund 2200 m feuchte Lockerschneelawinen möglich. Dies an extrem steilen Hängen bei größeren Aufhellungen. Die Lawinen sind meist klein und von einzelnen Wintersportlern auslösbar. <br/> Mit der feuchten Luft steigt die Gefahr von Gleitschneelawinen an. Vorsicht vor allem an steilen Grashängen. <br/> <br/> Mit teils starkem Wind aus südlichen Richtungen entstanden störanfällige Triebschneeansammlungen. Vorsicht vor allem an sehr steilen Schattenhängen in Kammlagen in hohen Lagen und im Hochgebirge. <br/> <br/> Schwachschichten im Altschnee können sehr vereinzelt ausgelöst werden. Die Gefahrenstellen liegen vor allem an extrem steilen Schattenhängen oberhalb von rund 2400 m. Lawinen können vereinzelt mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fielen bis zu 10 cm Schnee, lokal auch mehr. Dies in hohen Lagen und im Hochgebirge. Der Wind verfrachtet den Neuschnee und teilweise auch Altschnee. Die frischen Triebschneeansammlungen liegen an Schattenhängen in der Höhe auf weichen Schichten. <br/> Die nächtliche Abstrahlung ist kaum vorhanden. Die Schneeoberfläche weicht im Tagesverlauf auf. Dies an sehr steilen Sonnenhängen sowie an Schattenhängen in tiefen und mittleren Lagen. <br/> Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. <br/> Es liegt für die Jahreszeit wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es fallen lokal bis zu 10 cm Schnee. Der teilweise starke Wind verfrachtet den Neuschnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-12T23:00:00Z",
+        "endTime" : "2025-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SE", "NE", "W", "SW", "N", "NW", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "e6a20062-dcac-4bed-96ad-0d1124ef4053",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    } ]
+  } ]
+}
