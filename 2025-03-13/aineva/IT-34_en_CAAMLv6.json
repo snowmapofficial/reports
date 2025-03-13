@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-13T10:58:23Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T23:00:00Z",
+      "endTime" : "2025-03-13T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "As a consequence of new snow and wind a considerable avalanche danger will prevail.",
+      "comment" : "Over a wide area 5 to 15 cm of snow, and even more in some localities, has fallen above approximately 1800 m. In some regions 10 to 25 cm of snow will fall in the next few hours above approximately 2000 m. In some regions 5 to 10 cm of snow will fall on Thursday above approximately 1600 m. Gradual increase in avalanche danger as a consequence of new snow and wind. Avalanches can occur easily or triggered naturally. This applies even in case of a small load. The avalanche prone locations are to be found in all aspects above approximately 2000 m and in gullies and bowls, and behind abrupt changes in the terrain. In the regions exposed to heavier precipitation caution is to be exercised in particular at the base of rock walls. Wind-loaded slopes where weaknesses exist in the old snowpack are unfavourable. At transitions from a shallow to a deep snowpack, when entering gullies and bowls for example the avalanche prone locations are more prevalent. In the regions exposed to heavier precipitation the avalanche situation is dangerous. Medium-sized and, in isolated cases, large avalanches are possible. The snow sport conditions outside marked and open pistes are dangerous. Careful route selection and spacing between individuals are recommended."
+    },
+    "snowpackStructure" : {
+      "comment" : "In particular in shady places that are protected from the wind: Towards its surface, the snowpack is fairly homogeneous and has a loosely bonded surface. <br/> The new snow and wind slabs are lying on the unfavourable surface of an old snowpack on steep shady slopes above approximately 2000 m. Faceted weak layers exist in the bottom section of the snowpack here. The snowpack will be moist at low altitude. On sunny slopes below approximately 2200 m hardly any snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Over a wide area wind and new snow to above 1500 m. The prevalence of avalanche prone locations and likelihood of triggering will increase with altitude. On Friday as the precipitation becomes more intense there will be an increase in the avalanche danger within the current danger level.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-13T23:00:00Z",
+        "endTime" : "2025-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "8401c1e1-3130-442b-92d1-0d7d8a641f49",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
