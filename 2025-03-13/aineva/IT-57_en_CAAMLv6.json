@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-13T10:58:23Z",
+    "validTime" : {
+      "startTime" : "2025-03-12T23:00:00Z",
+      "endTime" : "2025-03-13T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "In gullies and bowls the avalanche prone locations are to be found in particular above approximately 1900 m. Moist slab avalanches and natural wet avalanches require caution.",
+      "comment" : "Rain to high altitudes. Adjacent to ridgelines and in gullies and bowls and above approximately 1900 m gliding avalanches and snow slides are possible, but they can reach medium size in isolated cases. The avalanche prone locations for wet avalanches are to be found also at the base of rock walls and on steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The old snowpack will be generally stable. The more recent wind slabs have formed in particular in gullies and bowls and at elevated altitudes. The weather conditions as the day progresses will give rise to increasing moistening of the snowpack also at intermediate and high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-13T23:00:00Z",
+        "endTime" : "2025-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "40f85afe-f2c2-4676-8314-29ba3cee4633",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
