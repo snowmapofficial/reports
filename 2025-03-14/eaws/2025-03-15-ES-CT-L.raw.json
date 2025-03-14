@@ -1,0 +1,81 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Restraint is advisable on this first sunny day after a long period of poor weather.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow, wind slabs and old snow require caution.",
+      "comment" : "As a consequence of the new snow dry avalanches are possible as the day progresses, but they can reach medium size in some cases. These can be released by people. The avalanche prone locations are to be found in particular in steep terrain at intermediate and high altitudes and in places that are protected from the wind. <br/> As a consequence of warming during the day and solar radiation moist avalanches are possible as the day progresses, but they can reach medium size in isolated cases. <br/> <br/> The older wind slabs can in some cases be released by people and reach medium size. The avalanche prone locations are to be found in particular on steep, little used shady slopes at high altitudes and in high Alpine regions. Avalanche prone weak layers exist in the snowpack in particular on steep shady slopes. Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack and fresh avalanches are a clear indication of a weakly bonded snowpack. These avalanche prone locations are covered with new snow and are therefore difficult to recognise."
+    },
+    "snowpackStructure" : {
+      "comment" : "15 to 20 cm of snow, and even more in some localities, fell in the last two days above approximately 1500 m. In the past few hours the wind was light over a wide area. <br/> <br/> Over a wide area new snow and wind slabs are lying on old snow containing large grains. The various wind slabs have bonded poorly with the old snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sunday: Further increase in danger of moist avalanches as a consequence of warming during the day and solar radiation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "SE", "NW", "NE", "SW", "S", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE", "W", "E" ]
+    } ],
+    "bulletinID" : "1bdc83e7-0a3c-491c-bb1c-6662298d2306",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
