@@ -1,0 +1,180 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Rainy and snowy weather coming from southwest. Snowline on Koralpe will be 1.500 m. Peak of precipitation will be in Niedere Tauern. In the afternoon the precipitation will be weakening and sunny weather is possible in the area of the foothills. Moderate high westerly winds. Temperatures at noon in 2.000 m are around -4 degrees in the north and 0 degrees in the south."
+    },
+    "avalancheActivity" : {
+      "comment" : "Avalanche danger above 1.800 m moderate and below 1.800 m low. The main problem is fresh snowdrift. Danger spots are located in the north sector above 1.800 m. Small slab avalanches can be triggered by an alpinist in extremly steep slopes. Caution behind ridgelines. Due to sun radiation in places wet loose-snow avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "In the last 24 hours it had 10 to 20 cm new snow. The southern winds drifted the new snow to the northern sector. The peak of precipitation was between Turrach heights and Niedere Tauern. In high altitudes the fresh snowdrift is placed on top of a hard old snow cover or on top of faceted snow. In medium altitudes the snow is on top of meadows."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Forecast for Saturday: dense clouds and the summits will be foggy and snowy. The snowline is 900 m in the north and 1.300 m in the south. During the afternoon precipitation will be weakening and it can clear up a little bit in the area of the foothills. Slightly increasing avalanche danger is to expect.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "85a6f690-3e76-45f4-9c35-8bfb36831afd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Rainy and snowy weather coming from southwest. Snowline on Koralpe will be 1.500 m and in the northern Alps 1.000 m. Peak of precipitation will be in Niedere Tauern. In the afternoon the precipitation will be weakening. Temperatures at noon in 2.000 m are around -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "New snow. Caution in the northern sector!",
+      "comment" : "Avalanche danger is in general low. In high altitudes fresh snowdrift deposits are formed in the northern expositions. These can be triggered by an alpinist. Wet loose-snow avalanches can be triggered."
+    },
+    "snowpackStructure" : {
+      "comment" : "10 cm of new snow. Some new snow covers the stable snow base. The southern winds drifted the new snow to the northern sector. The fresh snowdrift is placed on top of a hard old snow cover or on top of faceted snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Forecast for Saturday: dense clouds and the summits will be foggy and snowy. The snowline is 900 m in the north and 1.300 m in the south. During the afternoon precipitation will be weakening and it can clear up a little bit in the area of the foothills. Slightly increasing avalanche danger is to expect.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "335c0063-8bfa-4366-bb48-81119c7ff86a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Südliche Wölzer Tauern",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-06-16"
+    }, {
+      "name" : "Nördliche Wölzer Tauern",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Stub- und Gleinalpe",
+      "regionID" : "AT-06-15"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Tauern",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Fresh snowdrift in the northern sector!"
+  }
+}
