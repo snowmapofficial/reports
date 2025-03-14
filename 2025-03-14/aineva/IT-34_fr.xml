@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-14T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="29a18908-3de2-4355-8575-cb1f09cf4cec" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-14T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-14T23:00:00Z</beginPosition>
+          <endPosition>2025-03-15T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-15T23:00:00Z</beginPosition>
+                <endPosition>2025-03-16T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Avec la neige fraîche et le vent danger d'avalanches marqué.</avActivityHighlights>
+          <avActivityComment>Il est tombé en général au-dessus d'environ 1800 m de 20 à 30 cm de neige, localement plus. Samedi il tombera dans certaines régions au-dessus d'environ 2000 m de 20 à 25 cm de neige. Augmentation progressive du danger d'avalanches avec la neige fraîche et le vent. Des avalanches peuvent se déclencher facilement ou spontanément. Ceci dès une faible surcharge. Les endroits dangereux se situent à toutes les expositions au-dessus d'environ 2000 m ainsi que dans les combes, couloirs et derrière les ruptures de terrain. Prudence surtout au pied des parois rocheuses dans les régions concernées par les précipitations principales. Ce sont les pentes où la neige soufflée s'est accumulée où des endroits fragiles sont présents dans la neige ancienne qui sont défavorables. Aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs les endroits dangereux sont plus fréquents. Dans les régions concernées par les précipitations principales la situation avalancheuse est dangereuse. Des avalanches de moyenne et rarement grande taille sont possibles. Les conditions pour les sports de neige en dehors des pistes sécurisées sont dangereuses. Un choix prudent d'itinéraire et des distances de délestage sont recommandés.</avActivityComment>
+          <snowpackStructureComment>En dessous d'environ 2000 m le manteau neigeux est humide. &lt;br/&gt; La neige fraîche et la neige soufflée reposent sur une surface de neige ancienne défavorable sur les pentes raides à l'ombre au-dessus d'environ 2000 m. Les accumulations de neige soufflée fraîches seront recouvertes de neige fraîche et donc difficilement identifiables.</snowpackStructureComment>
+          <tendencyComment>Les endroits dangereux et la probabilité de déclenchement augmentent avec l'altitude.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
