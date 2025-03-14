@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T23:00:00Z",
+      "endTime" : "2025-03-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con neve fresca e vento marcato pericolo di valanghe.",
+      "comment" : "In molte regioni sono caduti da 20 a 30 cm di neve al di sopra dei 1800 m circa, localmente anche di più. In alcune regioni sabato cadranno da 20 a 25 cm di neve al di sopra dei 2000 m circa. Con neve fresca e vento, progressivo aumento del pericolo di valanghe. Le valanghe possono distaccarsi in modo provocato o spontaneo. Ciò già in seguito a un debole sovraccarico. I punti pericolosi si trovano a tutte le esposizioni al di sopra dei 2000 m circa come pure nelle conche, nei canaloni e dietro ai cambi di pendenza. Attenzione soprattutto alle basi di pareti rocciose nelle regioni più colpite dalle precipitazioni. Sfavorevoli sono i pendii carichi di neve ventata, dove nel manto di neve vecchia sono presenti strati deboli. Nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni i punti pericolosi sono più numerosi. Nelle regioni più colpite dalle precipitazioni la situazione valanghiva è pericolosa. Sono possibili valanghe di medie e, a livello isolato, di grandi dimensioni. Le condizioni per gli sport invernali al di fuori delle piste assicurate sono pericolose. Si consiglia una prudente scelta dell'itinerario e di mantenere le distanze di scarico."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è umido al di sotto dei circa 2000 m. <br/> La neve fresca e la neve ventata poggiano su una sfavorevole superficie del manto di neve vecchia sui pendii ripidi ombreggiati al di sopra dei 2000 m circa. Gli accumuli di neve ventata di più recente formazione verranno innevati e saranno quindi difficilmente individuabili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "I punti pericolosi e la probabilità di distacco aumenteranno con l'altitudine.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T23:00:00Z",
+        "endTime" : "2025-03-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "29a18908-3de2-4355-8575-cb1f09cf4cec",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
