@@ -1,0 +1,487 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-14T16:08:39Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Saturday, snowfall level will ascend to 1000m and by afternoon to 1400m. In exposed terrain, strong S/SW winds (60 km/hr). At 2000m: +1 degree in afternoon; at 1000m: 3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "At night in southern regions above 1600m: Danger Level 4 (high) will be reached. Increasing naturally triggered avalanches.",
+      "comment" : "During the night, increasingly frequent naturally avalanches are expected, triggerable in the old snow and on shady slopes where they can grow to large size. In addition, avalanches can be triggered in the near-surface layers by large additional loading, these can often sweep along the thoroughly wet snowpack. Caution urged at the foot of rock walls, behind protruberances, and in gullies and bowls. Activity of small-to-medium loose-snow avalanches will increase significantly. Runout zones should be circumvented. On very steep grass-covered slopes, glide-snow avalanches are possible, also medium sized releases. Some transportation routes can be placed at risk."
+    },
+    "snowpackStructure" : {
+      "comment" : "Since Wednesday above 1800m, about 50-80 cm of fresh snow has been registered, locally more. Above 1400m 30-50cm of fresh snow still expected. Winds will transport the fresh snow. Fresh snow and drifts are being deposited on shady slopes above 1800m atop an unfavorable old snowpack surface (soft layers). More deeply embedded inside the snowpack, esp. on shady slopes, there are expansively metamorphosed (faceted) weak layers, esp. above 2000m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Naturally triggered dry-snow avalanches will gradually decrease as the snowfall ends. Glide-snow avalanches can trigger at any time of day or night.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "SW", "W", "S", "NE", "E", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "N", "NW", "SW", "W", "S", "NE", "E", "SE" ]
+    } ],
+    "bulletinID" : "758a2f9e-7707-4e9e-b751-65179875aed0",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eastern Karawanken",
+      "regionID" : "AT-02-19"
+    }, {
+      "name" : "Central Karawanken",
+      "regionID" : "AT-02-18"
+    }, {
+      "name" : "Central Karnian Alps",
+      "regionID" : "AT-02-15"
+    }, {
+      "name" : "Western Karnian Alps",
+      "regionID" : "AT-02-14"
+    }, {
+      "name" : "Western Karawanken",
+      "regionID" : "AT-02-17"
+    }, {
+      "name" : "Eastern Karnian Alps",
+      "regionID" : "AT-02-16"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-14T16:08:39Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Saturday, snowfall level will ascend to 1000m and by afternoon to 1400m. In exposed terrain, strong S/SW winds (60 km/hr). At 2000m: +1 degree in afternoon; at 1000m: 3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Naturally triggered avalanches possible",
+      "comment" : "Fresh snow + moderate to strong southerly winds will generate further snowdrift accumulations, esp. on shady slopes bove 1800m in gullies, bowls, behind protruberances in the terrain, which can be easily triggered or trigger naturally. Isolated danger zones occur on sunny wind-protected slopes above 2000m. In addition, avalanches can be triggered in the near-surface layers by large additional loading, these can often sweep along the thoroughly wet snowpack. Caution urged at the foot of rock walls, behind protruberances, and in gullies and bowls. Activity of small-to-medium loose-snow avalanches will increase significantly. Runout zones should be circumvented. On very steep grass-covered slopes, glide-snow avalanches are possible, also medium sized releases. Some transportation routes can be placed at risk."
+    },
+    "snowpackStructure" : {
+      "comment" : "Since Wednesday above 2000m, about 15-20 cm of fresh snow has been registered, locally more. Above 1600m 20-40cm of fresh snow still expected. Winds will transport the fresh snow. Fresh snow and drifts are being deposited on shady slopes above 1800m atop an unfavorable old snowpack surface (soft layers). More deeply embedded inside the snowpack, esp. on shady slopes, there are expansively metamorphosed (faceted) weak layers, esp. above 2000m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Naturally triggered dry-snow avalanches will gradually decrease as the snowfall ends. Glide-snow avalanches can trigger at any time of day or night.",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "N", "NW", "SW", "W", "S", "NE", "E", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "8936106f-5e65-4399-b528-6dfd9eed38cc",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gailtal Alps West",
+      "regionID" : "AT-02-11"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-02-10"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-14T16:08:39Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Saturday, snowfall level will ascend to 1000m and by afternoon to 1400m. In exposed terrain, strong S/SW winds (60 km/hr). At 2000m: +1 degree in afternoon; at 1000m: 3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avoid snowdrift accumulations",
+      "comment" : "Fresh snow + moderate to strong southerly winds will generate further snowdrift accumulations, esp. on shady slopes bove 1800m in gullies, bowls, behind protruberances in the terrain, which can be easily triggered or trigger naturally. Isolated danger zones occur on sunny wind-protected slopes above 2000m. In addition, avalanches can be triggered in the near-surface layers by large additional loading, these can often sweep along the thoroughly wet snowpack. Caution urged at the foot of rock walls, behind protruberances, and in gullies and bowls. Activity of small-to-medium loose-snow avalanches will increase significantly. Runout zones should be circumvented. On very steep grass-covered slopes, glide-snow avalanches are possible, also medium sized releases. Some transportation routes can be placed at risk."
+    },
+    "snowpackStructure" : {
+      "comment" : "Since Wednesday above 2000m, about 15-20 cm of fresh snow has been registered, locally more. Above 1600m 20-30cm of fresh snow still expected. Winds are transporting the fresh snow intensively. Fresh snow and drifts are being deposited on shady slopes above 1800m atop an unfavorable old snowpack surface (soft layers)."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Naturally triggered dry-snow avalanches will gradually decrease as the snowfall ends. Glide-snow avalanches can trigger at any time of day or night.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "N", "NW", "SW", "W", "S", "NE", "E", "SE" ]
+    } ],
+    "bulletinID" : "943f4373-432f-4a1c-8cfc-45af0ffd05e8",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-02-04-01"
+    }, {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Kreuzeck Group",
+      "regionID" : "AT-02-09"
+    }, {
+      "name" : "Goldeck Group",
+      "regionID" : "AT-02-12-02"
+    }, {
+      "name" : "Central Gailtal Alps",
+      "regionID" : "AT-02-12-01"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Villacher Alpe",
+      "regionID" : "AT-02-13"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-14T16:08:39Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Saturday, snowfall level will ascend to 1000m and by afternoon to 1400m. In exposed terrain, strong S/SW winds (60 km/hr). At 2000m: +1 degree in afternoon; at 1000m: 3 degrees."
+    },
+    "avalancheActivity" : {
+      "comment" : "Due to fresh snow and moderate-velocity southerly winds, trigger-sensitive snowdrift accumulations have been generated esp. in ridgeline terrain, in gullies and bowls, esp. above 2400m. Avalanches can be triggered by persons in the uppermost layers. In addition, isolated avalanches can fracture down to deeper layers of the snowpack and then grow to medium size. In starting zones which have not yet discharged, mostly small wet loose snow avalanches are possible, and can be triggered by winter sports enthusiasts. Caution urged in extremely steep slopes below 2000m. In addition, in the major areas of precipitation, isolated mostly small glide-snow avalanches are possible esp. on extremely steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Since Wednesday above 2000m, about 15-20 cm of fresh snow has been registered, locally more. Above 1600m 20-20cm of fresh snow still expected. Winds are transporting the fresh snow intensively. Fresh snow and drifts are being deposited on shady slopes above 2000m atop an unfavorable old snowpack surface (soft layers)."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Naturally triggered dry-snow avalanches will gradually decrease as the snowfall ends. Glide-snow avalanches can trigger at any time of day or night.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "W", "NE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "N", "NW", "SW", "W", "S", "NE", "E", "SE" ]
+    } ],
+    "bulletinID" : "54e2d6bb-6bd3-4490-bd49-c1699fe898b0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-14T16:08:39Z",
+    "validTime" : {
+      "startTime" : "2025-03-14T16:00:00Z",
+      "endTime" : "2025-03-15T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : {
+      "comment" : "On Saturday, snowfall level will ascend to 1000m and by afternoon to 1400m. In exposed terrain, strong S/SW winds (60 km/hr). At 2000m: +1 degree in afternoon; at 1000m: 3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet loose-snow avalanches are hardly possible.",
+      "comment" : "Due to fresh snow and strong-to-storm velocity southerly winds, trigger-sensitive snowdrift accumulations have been generated esp. above 1800m on NW/N/NE facing slopes, in gullies and bowls, and behind protruberances in the terrain. Avalanches can grow to medium size, and can be triggered by winter sports enthusiasts."
+    },
+    "snowpackStructure" : {
+      "comment" : "Since Wednesday above 1800m, about 10-20 cm of fresh snow has been registered, locally more. Another 15-20cm cm of fresh snow is still expected. Winds are transporting the fresh snow. Fresh snow and drifts are being deposited on shady slopes atop an unfavorable old snowpack surface (soft layers)."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "No significant rise in avalanche danger",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-15T16:00:00Z",
+        "endTime" : "2025-03-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "1bd74e44-81a6-4de3-837c-0e7e8f4df122",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gurktal Alps South",
+      "regionID" : "AT-02-05-02"
+    }, {
+      "name" : "Gurktal Alps",
+      "regionID" : "AT-02-05-01"
+    }, {
+      "name" : "Southern Nockberge",
+      "regionID" : "AT-02-04-02"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-02-08"
+    }, {
+      "name" : "Packalpe",
+      "regionID" : "AT-02-07"
+    }, {
+      "name" : "Saualpe",
+      "regionID" : "AT-02-06"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "At night in southern regions above 1600m: Danger Level 4 (high) will be reached. Increasing naturally triggered avalanches."
+  }
+}
