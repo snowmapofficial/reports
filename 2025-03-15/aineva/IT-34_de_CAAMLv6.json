@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-15T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-15T23:00:00Z",
+      "endTime" : "2025-03-16T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Mit Neuschnee und Wind erhebliche Lawinengefahr.",
+      "comment" : "Es fielen verbreitet oberhalb von rund 1900 m 15 bis 20 cm Schnee, lokal auch mehr. In den nächsten Stunden fallen gebietsweise oberhalb von rund 2000 m 15 bis 20 cm Schnee. Allmählicher Anstieg der Lawinengefahr mit Neuschnee und Wind. Lawinen können leicht ausgelöst werden oder spontan abgehen. Dies bereits mit kleiner Belastung. Die Gefahrenstellen liegen an allen Expositionen oberhalb von rund 2000 m sowie in Rinnen, Mulden und hinter Geländekanten. Vorsicht vor allem an Felswandfüßen in den Hauptniederschlagsgebieten. Ungünstig sind Triebschneehänge, wo Schwachstellen im Altschnee vorhanden sind. An Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden sind die Gefahrenstellen häufiger. In den Hauptniederschlagsgebieten ist die Lawinensituation gefährlich. Mittlere und vereinzelt große Lawinen sind möglich. Die Verhältnisse für Schneesport abseits gesicherter Pisten sind gefährlich. Eine vorsichtige Routenwahl und Entlastungsabstände werden empfohlen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist unterhalb von rund 2000 m feucht. <br/> Neu- und Triebschnee liegen an steilen Schattenhängen oberhalb von rund 2000 m auf einer ungünstigen Altschneeoberfläche. Die frischen Triebschneeansammlungen werden überschneit und damit schwierig zu erkennen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gefahrenstellen und Auslösebereitschaft nehmen mit der Höhe zu.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-16T23:00:00Z",
+        "endTime" : "2025-03-17T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "3e663c0a-0732-48a4-aeed-69fc07b7015b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
