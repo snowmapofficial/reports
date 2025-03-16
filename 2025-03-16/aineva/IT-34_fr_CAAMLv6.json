@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-16T09:10:30Z",
+    "validTime" : {
+      "startTime" : "2025-03-15T23:00:00Z",
+      "endTime" : "2025-03-16T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Avec la neige fraîche et le vent danger d'avalanches marqué.",
+      "comment" : "Il est tombé en général au-dessus d'environ 1900 m de 15 à 20 cm de neige, localement plus. Dans les prochaines heures il tombera dans certaines régions au-dessus d'environ 2000 m de 15 à 20 cm de neige. Augmentation progressive du danger d'avalanches avec la neige fraîche et le vent. Des avalanches peuvent se déclencher facilement ou spontanément. Ceci dès une faible surcharge. Les endroits dangereux se situent à toutes les expositions au-dessus d'environ 2000 m ainsi que dans les combes, couloirs et derrière les ruptures de terrain. Prudence surtout au pied des parois rocheuses dans les régions concernées par les précipitations principales. Ce sont les pentes où la neige soufflée s'est accumulée où des endroits fragiles sont présents dans la neige ancienne qui sont défavorables. Aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs les endroits dangereux sont plus fréquents. Dans les régions concernées par les précipitations principales la situation avalancheuse est dangereuse. Des avalanches de moyenne et rarement grande taille sont possibles. Les conditions pour les sports de neige en dehors des pistes sécurisées sont dangereuses. Un choix prudent d'itinéraire et des distances de délestage sont recommandés."
+    },
+    "snowpackStructure" : {
+      "comment" : "En dessous d'environ 2000 m le manteau neigeux est humide. <br/> La neige fraîche et la neige soufflée reposent sur une surface de neige ancienne défavorable sur les pentes raides à l'ombre au-dessus d'environ 2000 m. Les accumulations de neige soufflée fraîches seront recouvertes de neige fraîche et donc difficilement identifiables."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Les endroits dangereux et la probabilité de déclenchement augmentent avec l'altitude.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-16T23:00:00Z",
+        "endTime" : "2025-03-17T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "3e663c0a-0732-48a4-aeed-69fc07b7015b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
