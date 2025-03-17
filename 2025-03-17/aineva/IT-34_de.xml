@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-17T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="5f6a3547-e588-4ff6-854e-084ca48b628c" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-17T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-17T23:00:00Z</beginPosition>
+          <endPosition>2025-03-18T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-18T23:00:00Z</beginPosition>
+                <endPosition>2025-03-19T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die aktuelle Lawinensituation erfordert eine vorsichtige Routenwahl.</avActivityHighlights>
+          <avActivityComment>Der viele Neuschnee der letzten sieben Tage sowie die mit dem schwachen bis mäßigen Südwind entstandenen Triebschneeansammlungen können an allen Expositionen oberhalb der Waldgrenze leicht ausgelöst werden oder spontan abgleiten. Die Lawinen können an sehr steilen Schattenhängen bis auf den Boden durchreißen und groß werden. &lt;br/&gt; Lawinen können von einzelnen Wintersportlern ausgelöst werden, vor allem in Rinnen, Mulden und hinter Geländekanten. Wummgeräusche sowie spontane Lawinenabgänge sind Alarmzeichen. &lt;br/&gt; Vorsicht vor allem an Triebschneehängen in den Gebieten mit viel Neuschnee. &lt;br/&gt; In den letzten zwei Tagen fiel verbreitet Regen bis auf 2200 m. Es sind weiterhin mittlere und vereinzelt große feuchte und nasse Lawinen möglich. Besonders gefährlich sind Felswandfüße. &lt;br/&gt; Touren und Variantenabfahrten erfordern Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl.</avActivityComment>
+          <snowpackStructureComment>Neu- und Triebschnee liegen auf einer schwachen Altschneedecke, vor allem an Schattenhängen. &lt;br/&gt; Die hohe Luftfeuchtigkeit führte am Samstag an allen Expositionen unterhalb von rund 2200 m zu einer deutlichen Anfeuchtung der Schneedecke. &lt;br/&gt;</snowpackStructureComment>
+          <tendencyComment>Anstieg der Gefahr von feuchten Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
