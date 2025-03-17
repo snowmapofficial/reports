@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-17T23:00:00Z",
+      "endTime" : "2025-03-18T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La situation avalancheuse actuelle demande un choix prudent des itinéraires.",
+      "comment" : "La neige fraîche abondante des sept derniers jours ainsi que les accumulations de neige soufflée qui se sont formées avec le vent de sud faible à modéré peuvent être déclenchées facilement ou glisser spontanément à toutes les expositions au-dessus de la limite de la forêt. Les avalanches peuvent entraîner le manteau jusqu'au sol sur les pentes très raides à l'ombre et atteindre une grande taille. <br/> Des avalanches peuvent être déclenchées par un seul amateur de sports d'hiver, surtout dans les combes, couloirs et derrière les ruptures de terrain. Des bruits sourds ainsi que des départs spontanés d'avalanches sont des signes d'alarme. <br/> Prudence surtout sur les versants où s'est accumulée la neige soufflée dans les régions ayant reçu beaucoup de neige fraîche. <br/> Dans les derniers deux jours il est tombé en général de la pluie jusqu'à 2200 m. Des avalanches humides et mouillées de moyenne et rarement grande taille sont toujours possibles. Ce sont les bases de parois rocheuses qui sont particulièrement dangereuses. <br/> Les randonnées et descentes hors-piste demandent de l' expérience dans l'évaluation du danger d'avalanche et un choix prudent des itinéraires."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neige fraîche et soufflée reposent sur un manteau neigeux ancien fragile, surtout sur les pentes à l'ombre. <br/> La forte humidité de l'air a entraîné samedi à toutes les expositions en dessous d'environ 2200 m une humidification nette du manteau neigeux. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Augmentation du danger d'avalanches humides avec le réchauffement diurne et le rayonnement solaire.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-18T23:00:00Z",
+        "endTime" : "2025-03-19T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "5f6a3547-e588-4ff6-854e-084ca48b628c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
