@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-17T23:00:00Z",
+      "endTime" : "2025-03-18T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The current avalanche situation calls for careful route selection.",
+      "comment" : "The large quantity of fresh snow of the last seven days as well as the wind slabs formed by the light to moderate southerly wind can be released easily or naturally in all aspects above the tree line. On very steep shady slopes the avalanches can penetrate down to the ground and reach large size. <br/> Avalanches can be released by a single winter sport participant, in particular in gullies and bowls, and behind abrupt changes in the terrain. Whumpfing sounds and natural avalanches serve as an alarm sign. <br/> In the regions exposed to a lot of new snow caution is to be exercised in particular on wind-loaded slopes. <br/> Up to 2200 m rain fell in the last two days over a wide area. More medium-sized and, in isolated cases, large moist and wet avalanches are possible. Bases of rock walls are especially dangerous. <br/> Backcountry touring and other off-piste activities call for experience in the assessment of avalanche danger and careful route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "New snow and wind slabs are lying on a weakly bonded old snowpack, in particular on shady slopes. <br/> The high humditiy gave rise on Saturday to significant moistening of the snowpack in all aspects below approximately 2200 m. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Increase in danger of moist avalanches as a consequence of warming during the day and solar radiation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-18T23:00:00Z",
+        "endTime" : "2025-03-19T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "5f6a3547-e588-4ff6-854e-084ca48b628c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
