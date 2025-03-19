@@ -1,0 +1,104 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-19T16:00:00Z",
+      "endTime" : "2025-03-20T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs are to be avoided. Weak layers in the old snowpack are treacherous. Moist snow slides and avalanches are likely to occur.",
+      "comment" : "As a consequence of a strong to storm force wind from southeasterly directions, avalanche prone wind slabs formed since Sunday adjacent to ridgelines and in gullies and bowls. They can in many places be released very easily or triggered naturally. Sometimes the avalanches are medium-sized. On Thursday the wind slabs will increase in size once again. In particular at the southern and eastern borders of Aran the avalanche prone locations are more prevalent and the danger is greater. <br/> <br/> Faceted weak layers exist in the centre of the old snowpack in particular on rather lightly snow-covered shady slopes. These can be released in particular in little used backcountry terrain. <br/> <br/> As a consequence of warming during the day and solar radiation more frequent small and, in isolated cases, medium-sized moist snow slides and avalanches are to be expected. In the regions exposed to heavier precipitation the likelihood of avalanches being released is greater. <br/> <br/> Backcountry touring and other off-piste activities call for experience in the assessment of avalanche danger and careful route selection. Released avalanches and field observations confirm a precarious avalanche situation."
+    },
+    "snowpackStructure" : {
+      "comment" : "Some snow fell today in particular at the southern and eastern borders of Aran. The wind was moderate to strong adjacent to ridgelines in particular at the southern and eastern borders of Aran. The various wind slabs have bonded poorly with each other and the old snowpack. <br/> <br/> On Thursday it will be warm. The southeasterly wind will transport the fresh and old snow significantly. In the course of the day the wind slabs will increase in size additionally."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Until Friday the wind will be violent in the vicinity of peaks. Further increase in danger of dry and moist avalanches as the precipitation becomes more intense.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-20T16:00:00Z",
+        "endTime" : "2025-03-21T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "SW", "NE", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "N", "SE", "S", "SW", "NE", "E", "W" ]
+    } ],
+    "bulletinID" : "b33b010e-5be3-4b19-8eda-540671a111a2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
