@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-21T23:00:00Z",
+      "endTime" : "2025-03-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack represent the main danger.",
+      "comment" : "Over a wide area 15 to 25 cm of snow will fall. Up to 1800 m rain will fall in the next few hours. <br/> <br/> Weak layers in the old snowpack can still be released in some places by individual winter sport participants. The avalanche prone locations are to be found in particular on steep, little used slopes above approximately 1600 m. As a consequence of the precipitation, the likelihood of natural moist avalanches being released will increase gradually below approximately 2200 m. The number and size of avalanche prone locations will increase with altitude. In isolated cases avalanches are large. <br/> On very steep shady slopes the avalanches can penetrate down to the ground and reach large size. The avalanche prone locations are barely recognisable, even to the trained eye. The current avalanche situation calls for meticulous route selection. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist deep in the old snowpack on little used shady slopes. <br/> The rain will give rise to moistening of the snowpack below approximately 2200 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Some snow will fall. Weakly bonded old snow and wet snow require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-22T23:00:00Z",
+        "endTime" : "2025-03-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "53d71f5b-e686-41a8-9535-94bcf4d76aa2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
