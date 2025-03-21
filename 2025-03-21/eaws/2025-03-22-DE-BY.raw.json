@@ -1,0 +1,97 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-21T16:17:40Z",
+    "validTime" : {
+      "startTime" : "2025-03-21T16:00:00Z",
+      "endTime" : "2025-03-22T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Avalanche problems are transferring to higher altitudes",
+      "comment" : "Avalanche danger is low. Wet snow is the main problem. Small loose-snow slides can trigger naturally in extremely steep sunny terrain wherever sufficient snow has fallen due to solar radiation. In isolated cases on very steep north-facing slopes at high altitudes, persistent weak layers can be problematic. Near ridgelines, esp in transitions from shallow to deeper snow, small slab avalanches can be triggered by minimum additional loading.  In addition, isolated small glide-snow avalanches are possible over smooth ground on steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "NIghttime skies are cloudy. In early morning the snowpack is often superficially moist or wet. Due to mild temperatures the snow is moist and forfeiting its firmness. Otherwiese it is mostly stable and wet at its base. Only on shady slopes at high altitudes is the surface snow still dry and loose in some places. There, it can be transported by the foehn winds and generate small snowdrift accumulations. In isolated cases in very steep terrain at high altitudes there is a weak layer at ground level. On south-facing slopes the ground is bare of snow up to high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "It will remain mild and variable. Wet snow is the main problem.",
+      "validTime" : {
+        "startTime" : "2025-03-22T16:00:00Z",
+        "endTime" : "2025-03-23T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "W", "E", "S", "SW", "SE", "NE", "N", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "0ea4fe7f-5cec-47bf-8ca7-6e76354a2985",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Caution: cornices! They are becoming instable."
+  }
+}
