@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-21T23:00:00Z",
+      "endTime" : "2025-03-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli strati deboli presenti nella neve vecchia rappresentano la principale fonte di pericolo.",
+      "comment" : "In molte regioni cadranno da 15 a 25 cm di neve. Nelle prossime ore cadrà pioggia sino ai 1800 m. <br/> <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi ancora in alcuni punti in seguito al passaggio di un singolo appassionato di sport invernali. I punti pericolosi si trovano soprattutto sui pendii ripidi e poco frequentati al di sopra dei 1600 m circa. Con le precipitazioni, la probabilità di distacco di valanghe umide spontanee aumenterà progressivamente al di sotto dei 2200 m circa. Il numero e le dimensioni dei punti pericolosi aumenteranno con l'altitudine. Le valanghe sono a livello isolato di grandi dimensioni. <br/> Sui pendii ombreggiati molto ripidi le valanghe possono trascinare l'interno manto nevoso e raggiungere grandi dimensioni. I punti pericolosi sono difficilmente individuabili anche da parte dell'escursionista esperto. L'attuale situazione valanghiva richiede un'attenta scelta dell'itinerario. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Sui pendii ombreggiati poco frequentati, negli strati profondi del manto di neve vecchia si trovano insidiosi strati fragili. <br/> La pioggia causerà al di sotto dei 2200 m circa un inumidimento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Cadrà un po' di neve. La neve vecchia con strati deboli persistenti e la neve bagnata richiedono attenzione.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-22T23:00:00Z",
+        "endTime" : "2025-03-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "53d71f5b-e686-41a8-9535-94bcf4d76aa2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
