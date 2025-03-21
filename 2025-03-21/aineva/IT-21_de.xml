@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="ccce6d69-f116-4f65-b05e-8dab2def9243" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-21T23:00:00Z</beginPosition>
+          <endPosition>2025-03-22T11:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neu- und Triebschnee im Verlaufe der Nacht.</avActivityHighlights>
+          <avActivityComment>Bis Sonntag fällt Schnee oberhalb von rund 1500 m. Der Neuschnee sowie die vor allem in Rinnen, Mulden und hinter Geländekanten vorhandenen, teils großen Triebschneeansammlungen können oberhalb von rund 2200 m leicht ausgelöst werden oder spontan abgleiten. Die Lawinen können an sehr steilen Hängen in den verschiedenen Neuschneeschichten ausgelöst werden und teils groß werden. &lt;br/&gt; Touren und Variantenabfahrten erfordern Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl.</avActivityComment>
+          <snowpackStructureComment>Bis Samstag fallen oberhalb von rund 1500 m 30 bis 40 cm Schnee. In Kammlagen, Rinnen und Mulden entstehen teils große Triebschneeansammlungen. &lt;br/&gt; (--), vor allem an steilen, eher schneearmen Schattenhängen. In den letzten drei Tagen wurden an sehr steilen Hängen große und vereinzelt sehr große Lawinen gemeldet. &lt;br/&gt; Sonne und Wärme führten vor allem an Sonnenhängen unterhalb von rund 3000 m verbreitet zu einer zunehmenden Verfestigung der Schneedecke. Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer Kruste an der Oberfläche. Besonders heikel sind Übergänge von wenig zu viel Schnee, wo Schwachstellen im Altschnee vorhanden sind.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="ccce6d69-f116-4f65-b05e-8dab2def9243_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-22T11:00:00Z</beginPosition>
+          <endPosition>2025-03-22T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neu- und Triebschnee im Verlaufe der Nacht.</avActivityHighlights>
+          <avActivityComment>Bis Sonntag fällt Schnee oberhalb von rund 1500 m. Der Neuschnee sowie die vor allem in Rinnen, Mulden und hinter Geländekanten vorhandenen, teils großen Triebschneeansammlungen können oberhalb von rund 2200 m leicht ausgelöst werden oder spontan abgleiten. Die Lawinen können an sehr steilen Hängen in den verschiedenen Neuschneeschichten ausgelöst werden und teils groß werden. &lt;br/&gt; Touren und Variantenabfahrten erfordern Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl.</avActivityComment>
+          <snowpackStructureComment>Bis Samstag fallen oberhalb von rund 1500 m 30 bis 40 cm Schnee. In Kammlagen, Rinnen und Mulden entstehen teils große Triebschneeansammlungen. &lt;br/&gt; (--), vor allem an steilen, eher schneearmen Schattenhängen. In den letzten drei Tagen wurden an sehr steilen Hängen große und vereinzelt sehr große Lawinen gemeldet. &lt;br/&gt; Sonne und Wärme führten vor allem an Sonnenhängen unterhalb von rund 3000 m verbreitet zu einer zunehmenden Verfestigung der Schneedecke. Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer Kruste an der Oberfläche. Besonders heikel sind Übergänge von wenig zu viel Schnee, wo Schwachstellen im Altschnee vorhanden sind.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="ad0a4095-4c1a-4323-ad04-cb443afa8580" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-21T23:00:00Z</beginPosition>
+          <endPosition>2025-03-22T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Alter Triebschnee vor allem an steilen Schattenhängen. Schwacher Altschnee in mittleren und hohen Lagen.</avActivityHighlights>
+          <avActivityComment>Bis Sonntag fällt Schnee oberhalb von rund 1300 m. Mit dem Schneefall nehmen Anzahl und Größe der Gefahrenstellen zu. Die überschneiten Triebschneeansammlungen werden vor allem an steilen Nordwest-, Nord- und Nordosthängen oberhalb von rund 1900 m zunehmend störanfällig. Die Lawinen können an steilen Schattenhängen in tiefen Schichten anreißen und teils groß werden, besonders in Rinnen, Mulden und hinter Geländekanten. &lt;br/&gt; Lawinen können stellenweise mit geringer Belastung ausgelöst werden und mittlere Größe erreichen. &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Bis Samstag fallen oberhalb von rund 1500 m 10 bis 25 cm Schnee, lokal auch mehr. &lt;br/&gt; Im unteren Teil der Schneedecke sind an Schattenhängen kantig aufgebaute Schwachschichten vorhanden. &lt;br/&gt; Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="915e9f22-ffba-4aa0-9464-90df4155c4a5" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-21T23:00:00Z</beginPosition>
+          <endPosition>2025-03-22T11:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Vorsicht vor Neu- und Triebschnee.</avActivityHighlights>
+          <avActivityComment>Bis Sonntag fällt Schnee oberhalb von rund 1200 m. In Kammlagen, Rinnen und Mulden entstehen Triebschneeansammlungen. Die Lawinen können an sehr steilen Schattenhängen in tiefen Schichten anreißen und recht groß werden. &lt;br/&gt; Neu- und Triebschnee können vor allem an steilen Schattenhängen oberhalb von rund 2200 m teilweise von einzelnen Wintersportlern ausgelöst werden, vor allem in Rinnen, Mulden und hinter Geländekanten.</avActivityComment>
+          <snowpackStructureComment>Bis Samstag fallen oberhalb von rund 1500 m 25 bis 40 cm Schnee, lokal auch mehr. &lt;br/&gt; In Kammlagen, Rinnen und Mulden entstehen weitere Triebschneeansammlungen. &lt;br/&gt; Verschiedene Triebschneeschichten liegen auf einer schwachen Altschneedecke, vor allem an steilen Schattenhängen. &lt;br/&gt; Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche. Besonders sehr steile Schattenhänge, oberhalb von rund 2200 m: Der obere Bereich der Schneedecke ist teils schwach, mit einer Oberfläche aus lockerem Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen im Tagesverlauf zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="915e9f22-ffba-4aa0-9464-90df4155c4a5_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-22T11:00:00Z</beginPosition>
+          <endPosition>2025-03-22T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Vorsicht vor Neu- und Triebschnee.</avActivityHighlights>
+          <avActivityComment>Bis Sonntag fällt Schnee oberhalb von rund 1200 m. In Kammlagen, Rinnen und Mulden entstehen Triebschneeansammlungen. Die Lawinen können an sehr steilen Schattenhängen in tiefen Schichten anreißen und recht groß werden. &lt;br/&gt; Neu- und Triebschnee können vor allem an steilen Schattenhängen oberhalb von rund 2200 m teilweise von einzelnen Wintersportlern ausgelöst werden, vor allem in Rinnen, Mulden und hinter Geländekanten.</avActivityComment>
+          <snowpackStructureComment>Bis Samstag fallen oberhalb von rund 1500 m 25 bis 40 cm Schnee, lokal auch mehr. &lt;br/&gt; In Kammlagen, Rinnen und Mulden entstehen weitere Triebschneeansammlungen. &lt;br/&gt; Verschiedene Triebschneeschichten liegen auf einer schwachen Altschneedecke, vor allem an steilen Schattenhängen. &lt;br/&gt; Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche. Besonders sehr steile Schattenhänge, oberhalb von rund 2200 m: Der obere Bereich der Schneedecke ist teils schwach, mit einer Oberfläche aus lockerem Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen im Tagesverlauf zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="8304cef9-08e4-478d-9756-5d7371f4e63d" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-21T23:00:00Z</beginPosition>
+          <endPosition>2025-03-22T11:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee oberhalb von rund 1200 m.</avActivityHighlights>
+          <avActivityComment>Mit dem Schneefall nehmen Anzahl und Größe der Gefahrenstellen zu. Die überschneiten Triebschneeansammlungen werden vor allem an steilen Nordwest-, Nord- und Nordosthängen oberhalb von rund 1900 m zunehmend störanfällig. Die Lawinen können an steilen Schattenhängen in tiefen Schichten anreißen und teils groß werden, besonders in Rinnen, Mulden und hinter Geländekanten. &lt;br/&gt; Lawinen können stellenweise mit geringer Belastung ausgelöst werden, sind aber meist klein. &lt;br/&gt; Bis Sonntag fällt verbreitet Schnee oberhalb von rund 1300 m.</avActivityComment>
+          <snowpackStructureComment>Bis Sonntag fallen oberhalb von rund 1500 m 15 bis 25 cm Schnee, lokal auch mehr. &lt;br/&gt; Im unteren Teil der Schneedecke sind an Schattenhängen kantig aufgebaute Schwachschichten vorhanden. &lt;br/&gt; Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="8304cef9-08e4-478d-9756-5d7371f4e63d_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-21T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-22T11:00:00Z</beginPosition>
+          <endPosition>2025-03-22T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+                <endPosition>2025-03-23T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee oberhalb von rund 1200 m.</avActivityHighlights>
+          <avActivityComment>Mit dem Schneefall nehmen Anzahl und Größe der Gefahrenstellen zu. Die überschneiten Triebschneeansammlungen werden vor allem an steilen Nordwest-, Nord- und Nordosthängen oberhalb von rund 1900 m zunehmend störanfällig. Die Lawinen können an steilen Schattenhängen in tiefen Schichten anreißen und teils groß werden, besonders in Rinnen, Mulden und hinter Geländekanten. &lt;br/&gt; Lawinen können stellenweise mit geringer Belastung ausgelöst werden, sind aber meist klein. &lt;br/&gt; Bis Sonntag fällt verbreitet Schnee oberhalb von rund 1300 m.</avActivityComment>
+          <snowpackStructureComment>Bis Sonntag fallen oberhalb von rund 1500 m 15 bis 25 cm Schnee, lokal auch mehr. &lt;br/&gt; Im unteren Teil der Schneedecke sind an Schattenhängen kantig aufgebaute Schwachschichten vorhanden. &lt;br/&gt; Besonders Sonnenhänge sowie tiefe und mittlere Lagen: Der obere Bereich der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche.</snowpackStructureComment>
+          <tendencyComment>Mit dem Neuschnee nehmen die Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
