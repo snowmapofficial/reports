@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-22T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="3506a409-d842-4597-8ce3-901d4f20e7a6" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-22T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-22T23:00:00Z</beginPosition>
+          <endPosition>2025-03-23T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2200Lw"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2200Lw"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-23T23:00:00Z</beginPosition>
+                <endPosition>2025-03-24T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Weak layers in the old snowpack represent the main danger.</avActivityHighlights>
+          <avActivityComment>Over a wide area 15 to 20 cm of snow has fallen. Up to 1800 m rain will fall today. As a consequence of the precipitation, the likelihood of natural moist avalanches being released will increase gradually below approximately 2200 m. In isolated cases avalanches are large. &lt;br/&gt; Weak layers in the old snowpack can still be released in some places by individual winter sport participants. The avalanche prone locations are to be found in particular on steep, little used slopes above approximately 1600 m. The number and size of avalanche prone locations will increase with altitude. &lt;br/&gt; The avalanche prone locations are barely recognisable, even to the trained eye. &lt;br/&gt; The current avalanche situation calls for meticulous route selection.</avActivityComment>
+          <snowpackStructureComment>Precarious weak layers exist deep in the old snowpack on little used shady slopes. &lt;br/&gt; The rain will give rise to moistening of the snowpack below approximately 2200 m.</snowpackStructureComment>
+          <tendencyComment>Some snow will fall. Weakly bonded old snow and wet snow require caution.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
