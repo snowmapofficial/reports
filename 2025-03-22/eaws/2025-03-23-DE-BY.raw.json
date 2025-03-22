@@ -1,0 +1,155 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-22T16:00:00Z",
+      "endTime" : "2025-03-23T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gliding snow activity increasing",
+      "comment" : "Avalanche danger is moderate above 1500m. Gliding snow is the main problem. On very steep slopes in all aspects, wet glide-snow avalanches can release naturally over smooth ground, releases mostly small sized. In addition small wet loose-snow avalanches can trigger naturally in extremely steep terrain. In isolated cases, the old snow on very steep ridgeline terrain in northern aspects can be problematic. Small slab avalanches can be triggered by minimum additional loading, esp. in transitions from shallow to deeper snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "Light rainfall is expected during the nocturnal hours. In daytime, showers can be expected which will moisten the snowpack up to high altitudes. When moisture reaches ground level, the snowpack can begin to glide over smooth ground. Otherwise the snowpack is stable. Only on shady slopes at high altitudes is the near-surface snow still loose and dry. In a few places there is a weak layer at ground level. As the result of a bit of fresh snow and wind, small snowdrift patches can be forems. On south-facing slopes the ground is mostly bare of snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The snowdrift problem could come to the forefront in case there is fresh snowfall.",
+      "validTime" : {
+        "startTime" : "2025-03-23T16:00:00Z",
+        "endTime" : "2025-03-24T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "W", "S", "NE", "N", "NW", "E", "SW", "SE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "W", "S", "NE", "N", "NW", "E", "SW", "SE" ]
+    } ],
+    "bulletinID" : "2ecf38a6-ec88-4a05-9e1e-3afa1ff81560",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-22T16:00:00Z",
+      "endTime" : "2025-03-23T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Avalanche activity is moving to regions where snow is sufficient",
+      "comment" : "Avalanche danger is low. Wet snow is the main problem. Small loose-snow slides can trigger naturally in extremely steep sunny terrain wherever sufficient snow has fallen due to solar radiation. In isolated cases on very steep north-facing slopes at high altitudes, persistent weak layers can be problematic. Near ridgelines, esp in transitions from shallow to deeper snow, small slab avalanches can be triggered by minimum additional loading.  In addition, isolated small glide-snow avalanches are possible over smooth ground on steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Light rainfall is expected during the nocturnal hours. In daytime, showers can be expected which will moisten the snowpack up to high altitudes. When moisture reaches ground level, the snowpack can begin to glide over smooth ground. Otherwise the snowpack is stable. Only on shady slopes at high altitudes is the near-surface snow still loose and dry. In a few places there is a weak layer at ground level. As the result of a bit of fresh snow and wind, small snowdrift patches can be forems. On south-facing slopes the ground is mostly bare of snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The snowdrift problem could come to the forefront in case there is fresh snowfall.",
+      "validTime" : {
+        "startTime" : "2025-03-23T16:00:00Z",
+        "endTime" : "2025-03-24T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "N", "W", "SW", "NW", "E", "SE", "NE" ]
+    } ],
+    "bulletinID" : "a6a2384b-4577-45c3-a35f-bbfab78c8a1d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Rainfall having strong effect on the snowpack"
+  }
+}
