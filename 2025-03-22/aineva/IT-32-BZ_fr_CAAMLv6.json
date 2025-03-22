@@ -1,0 +1,359 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-22T23:00:00Z",
+      "endTime" : "2025-03-23T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne constituent le danger principal. Neige fraîche soufflée en haute montagne.",
+      "comment" : "Des couches fragiles dans la neige ancienne peuvent encore être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées à l'ombre au-dessus d'environ 2200 m. Quelques endroits dangereux se situent aussi sur les pentes au soleil en haute montagne. Des avalanches sont généralement de taille moyenne. En outre, des avalanches peuvent de manière isolée entraîner avec elles les couches profondes du manteau neigeux et atteindre une grande taille. <br/> <br/> En outre les accumulations de neige soufflée fraîches devraient être prises en considération, surtout sur les pentes raides à l'ombre à proximité des crêtes en altitude. <br/> <br/> Des avalanches de neige meuble mouillée de petite et rarement moyenne taille sont possibles sur les pentes très raides en dessous d'environ 2200 m, notamment dans les régions où il pleut."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il tombe jusqu'à 10 cm de neige. Il tombe de la pluie jusqu'à 2000 m dans certaines régions. <br/> <br/> Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées à l'ombre. Des accumulations de neige soufflée en général petites se forment avec la neige fraîche et le vent de sud-ouest modéré à fort à proximité des crêtes. <br/> <br/> Avec les températures douces et le ciel très nuageux aucune croûte de surface n'apparaît en cours de nuit. Les conditions météorologiques entraînent à basse et moyenne altitude un ramollissement croissant du manteau neigeux. Sous la limite de la forêt on ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige ancienne fragile et neige mouillée à surveiller. La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et se ramollit rapidement.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-23T23:00:00Z",
+        "endTime" : "2025-03-24T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "7b9867fe-70f8-49f4-b91e-6ecd407e78f0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Adamello du sud",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Brenta du nord - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Brenta du sud",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Alpes occidentales du Nonsberg",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Sole, Pejo et Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-22T23:00:00Z",
+      "endTime" : "2025-03-23T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne constituent le danger principal. Des avalanches petites et moyennes mouillées sont possibles de manière isolée.",
+      "comment" : "Des couches fragiles dans la neige ancienne peuvent encore être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées à l'ombre au-dessus d'environ 2200 m. Quelques endroits dangereux se situent aussi sur les pentes au soleil en haute montagne. Des avalanches sont généralement de taille moyenne. En outre, des avalanches peuvent de manière isolée entraîner avec elles les couches profondes du manteau neigeux et atteindre une grande taille. <br/> <br/> En outre des accumulations de neige soufflée généralement petites devraient être prises en considération, surtout sur les pentes raides à l'ombre en altitude. <br/> <br/> Des avalanches de glissement et coulées mouillées de petite et rarement moyenne taille sont possibles sur les pentes très raides en dessous d'environ 2200 m, notamment dans les régions où il pleut."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il tombe jusqu'à 10 cm de neige. Il tombe de la pluie jusqu'à 2000 m dans certaines régions. <br/> <br/> Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées à l'ombre. Des accumulations de neige soufflée en général petites se forment avec la neige fraîche et le vent de sud-ouest modéré à fort à proximité des crêtes. <br/> <br/> Avec les températures douces et le ciel très nuageux aucune croûte de surface n'apparaît en cours de nuit. Les conditions météorologiques entraînent à basse et moyenne altitude un ramollissement croissant du manteau neigeux. Sous la limite de la forêt on ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige ancienne fragile et neige mouillée à surveiller. La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et se ramollit rapidement.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-23T23:00:00Z",
+        "endTime" : "2025-03-24T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "37a305e2-e57e-45a1-a23e-4f89f575aa9e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Préalpes",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Vallée de Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Lagorai du sud",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Lagorai du nord",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Pine' - Vallée de Mocheni",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-22T23:00:00Z",
+      "endTime" : "2025-03-23T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige ancienne fragile et neige mouillée à surveiller.",
+      "comment" : "Des avalanches de neige meuble mouillée isolées en général de petite taille sont possibles sur les pentes très raides. <br/> <br/> Sur les pentes à l'ombre: Des avalanches peuvent de manière très isolée être déclenchées par un seul amateur de sports d'hiver. Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées à l'ombre au-dessus d'environ 2000 m. Des avalanches sont généralement petites."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il tombe de la pluie jusqu'au-dessus de 1800 m. <br/> <br/> Dans le manteau neigeux ancien des couches fragiles isolées susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées à l'ombre. <br/> <br/> Avec les températures douces et le ciel très nuageux aucune croûte de surface n'apparaît en cours de nuit. Les conditions météorologiques entraînent une humidification croissante du manteau neigeux. Sous la limite de la forêt on ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tombe un peu de neige. Neige ancienne fragile et neige mouillée à surveiller. La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et est déjà ramollie le matin.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-23T23:00:00Z",
+        "endTime" : "2025-03-24T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "4690fefd-b1f0-499e-914d-b872c6cefa6b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Vallée de Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallée de Ledro",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    } ]
+  } ]
+}
