@@ -1,0 +1,81 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-23T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-23T16:00:00Z",
+      "endTime" : "2025-03-24T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "The conditions remain wintry at high altitude.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The somewhat older wind slabs are barely recognisable. Dry snow slides and moist snow slides during the day require caution.",
+      "comment" : "The warm fresh snow of the weekend and in particular the sometimes deep wind slabs must be evaluated with care and prudence in particular on very steep shady slopes and at high altitude. Wind slabs can be released by people and reach medium size. The avalanche prone locations are to be found in particular adjacent to ridgelines and in pass areas and in gullies and bowls, and behind abrupt changes in the terrain above approximately 2300 m. As a consequence of the new snow dry and moist snow slides are to be expected as the day progresses, but they will be mostly small. These can be released easily or triggered naturally. At the border to Benasque, at the border to Ribagorça and at the border to Pallars the avalanche prone locations are more prevalent and larger. <br/> <br/> The current avalanche situation calls for meticulous route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "The rain gave rise on Friday to unfavourable bonding of the old snowpack in some places in particular on shady slopes. As a consequence of falling temperatures the snowpack will consolidate during the next few days. 15 to 30 cm of snow, and even more in some localities, fell in the last few days above approximately 2000 m. The southerly wind has transported the new snow significantly. On Monday it will be mostly sunny. The solar radiation will give rise as the day progresses to increasing moistening of the snowpack in particular on steep sunny slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "10 to 20 cm of snow, and even more in some localities, will fall until Tuesday. The northerly wind will transport the new snow significantly. Further increase in danger of dry avalanches as a consequence of new snow and wind.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-24T16:00:00Z",
+        "endTime" : "2025-03-25T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "SE", "NE", "NW", "E", "S", "W", "SW" ]
+    } ],
+    "bulletinID" : "3a5b7c4c-50aa-439c-b58f-550f5e8b057c",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
