@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-26T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-25T23:00:00Z",
+      "endTime" : "2025-03-26T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Le danger d'avalanches de neige mouillée et de glissement se situe à toutes les expositions dans la plage supérieure du degré de danger 2, \"limité\". Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement d'avalanches humides et mouillées augmente surtout sur les pentes raides sous la limite de la forêt. Après une nuit claire, il règne le matin généralement des conditions assez favorables, puis le danger d'avalanches mouillées et de glissement augmente. Avec le refroidissement le danger d'avalanches diminue progressivement en soirée."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le manteau neigeux est humide, avec une croûte de regel souvent porteuse à la surface. La surface de la neige se ramollit en cours de journée. Avec le réchauffement marqué et une situation avalancheuse dangereuse apparaît."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-03-26T23:00:00Z",
+        "endTime" : "2025-03-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "eeadfae3-6559-4d36-a7de-84099b022bec",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
