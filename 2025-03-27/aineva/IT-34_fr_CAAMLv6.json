@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T23:00:00Z",
+      "endTime" : "2025-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation du danger d'avalanches mouillées avec le réchauffement diurne et le rayonnement solaire. Neige ancienne fragile à surveiller.",
+      "comment" : "Des avalanches de neige mouillée et de glissement de plus en plus fréquentes de moyenne et rarement grande taille sont possibles avec le réchauffement diurne et le rayonnement solaire. Ceci surtout sur les pentes raides ensoleillées en dessous d'environ 2600 m. <br/> <br/> Des couches fragiles dans la neige ancienne peuvent être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt. Des avalanches sont généralement de taille moyenne. En outre, des avalanches peuvent de manière isolée entraîner avec elles les couches profondes du manteau neigeux et atteindre une grande taille. <br/> <br/> En outre les accumulations de neige soufflée généralement petites devraient être prises en considération, surtout sur les pentes très raides à l'ombre à proximité des crêtes en haute montagne. Il convient de tenir compte du danger d'être emporté et entraîné dans une chute."
+    },
+    "snowpackStructure" : {
+      "comment" : "La surface de la neige regèle et devient porteuse. Le soleil et la chaleur entraînent en cours de journée un ramollissement croissant du manteau neigeux. <br/> <br/> Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées exposées à l'ouest, au nord et à l'est. Les accumulations de neige soufflée généralement petites reposent sur des couches meubles surtout sur les pentes très raides à l'ombre en haute montagne. <br/> <br/> Le manteau neigeux est généralement très variable à petite échelle. Sous la limite de la forêt on ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La surface de la neige regèle à peine et se ramollit rapidement. Le danger d'avalanches augmente au sein du degré de danger. Il tombe un peu de neige dans certaines régions.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T23:00:00Z",
+        "endTime" : "2025-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "N", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "0f8760cf-c036-42fb-b3f3-b73c30645c52",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
