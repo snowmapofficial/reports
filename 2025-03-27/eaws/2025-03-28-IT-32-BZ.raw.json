@@ -1,0 +1,267 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T16:00:00Z",
+      "endTime" : "2025-03-28T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of wet avalanches as a consequence of warming during the day and solar radiation. Weakly bonded old snow requires caution.",
+      "comment" : "An increasing number of small and medium-sized wet and gliding avalanches are possible as a consequence of warming during the day and solar radiation. This applies in particular on steep north and east facing slopes below approximately 2200 m, and elsewhere below approximately 2600 m. <br/> <br/> Weak layers in the old snowpack can still be released in isolated cases by individual winter sport participants. The avalanche prone locations are to be found in particular on steep, little used west, north and east facing slopes above approximately 2200 m. Mostly avalanches are medium-sized. In isolated cases avalanches can also release deeper layers of the snowpack and reach large size. <br/> <br/> In addition the mostly small wind slabs should be taken into account, in particular on very steep shady slopes adjacent to ridgelines in high Alpine regions. Restraint should be exercised because avalanches can sweep people along and give rise to falls."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will freeze to form a strong crust. Sunshine and high temperatures will give rise as the day progresses to increasing softening of the snowpack. <br/> <br/> Avalanche prone weak layers exist in the old snowpack especially on little used west, north and east facing slopes. The mostly small wind slabs are lying on soft layers in particular on very steep shady slopes in high Alpine regions. <br/> <br/> The snowpack will be generally subject to considerable local variations. Below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The surface of the snowpack will cool hardly at all during the overcast night. Some snow will fall in some regions, in particular on the Main Alpine Ridge and in the High Tauern.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T16:00:00Z",
+        "endTime" : "2025-03-29T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP5" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "W", "NW", "N", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "W", "SE", "SW", "NE", "N", "E", "S", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "NE", "N", "E", "NW" ]
+    } ],
+    "bulletinID" : "49e67f08-92e6-4fec-b50b-f33773d243b9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Northern Zillertal Alps",
+      "regionID" : "AT-07-23"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T16:00:00Z",
+      "endTime" : "2025-03-28T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger will prevail.",
+      "comment" : "On very steep slopes individual mostly small wet loose snow avalanches are possible. <br/> Avalanches can in very isolated cases be released by a single winter sport participant. The avalanche prone locations are to be found in particular on very steep shady slopes above approximately 2200 m. Mostly avalanches are small."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will freeze to form a strong crust. Sunshine and high temperatures will give rise as the day progresses to increasing softening of the snowpack. Isolated avalanche prone weak layers exist in the old snowpack especially on steep shady slopes. <br/> <br/> The snowpack will be generally subject to considerable local variations. Below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Low avalanche danger will prevail. The surface of the snowpack will cool hardly at all during the overcast night.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T16:00:00Z",
+        "endTime" : "2025-03-29T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NE", "S", "W", "NW", "SE", "SW", "N", "E" ]
+    } ],
+    "bulletinID" : "11b5429d-eca1-46f7-8829-407a7f419be8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
