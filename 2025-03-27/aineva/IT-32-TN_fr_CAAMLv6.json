@@ -1,0 +1,228 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T23:00:00Z",
+      "endTime" : "2025-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige soufflée et neige mouillée constituant le danger principal. Des couches fragiles dans la neige ancienne sont traîtres.",
+      "comment" : "Des couches fragiles dans la neige ancienne peuvent encore être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. <br/> À partir du matin la probabilité de déclenchement d'avalanches humides spontanées augmente progressivement en dessous d'environ 2600 m. <br/> Les endroits dangereux se situent spécialement au pied des parois rocheuses et derrière les ruptures de terrain, ainsi que dans les combes et couloirs. <br/> Quelques avalanches de glissement et coulées humides sont possibles. <br/> La situation avalancheuse actuelle demande un choix prudent des itinéraires."
+    },
+    "snowpackStructure" : {
+      "comment" : "Les accumulations de neige soufflée des semaines écoulées restent parfois fragiles surtout sur les pentes raides à l'ombre. <br/> Profondément dans le manteau neigeux ancien des couches fragiles délicates sont présentes sur les pentes peu fréquentées à l'ombre. <br/> En outre on note une augmentation du danger d'avalanches humides et mouillées en cours de journée."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Samedi: Il tombe en général un peu de neige. Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T23:00:00Z",
+        "endTime" : "2025-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    } ],
+    "bulletinID" : "f985bc0f-bf50-4fa9-ba11-8cca7abbce38",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Adamello du sud",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Brenta du nord - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Alpes occidentales du Nonsberg",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Brenta du sud",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Vallée de Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo et Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Lagorai du sud",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Lagorai du nord",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Vallée de Mocheni",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T23:00:00Z",
+      "endTime" : "2025-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches humides et mouillées sont à prendre en considération. <br/> Des couches fragiles dans la neige ancienne sont traîtres.",
+      "comment" : "À partir du matin la probabilité de déclenchement d'avalanches humides et mouillées augmente progressivement à toutes les altitudes. <br/> Des couches fragiles dans la neige ancienne peuvent encore être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. <br/> Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées au-dessus d'environ 1700 m. La situation avalancheuse actuelle demande un choix prudent des itinéraires."
+    },
+    "snowpackStructure" : {
+      "comment" : "Avec le réchauffement diurne et le rayonnement solaire le danger d'avalanches humides et mouillées augmente jusqu'au degré 2, \"limité\". <br/> Profondément dans le manteau neigeux ancien des couches fragiles délicates sont présentes sur les pentes peu fréquentées à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Samedi: Il tombe en général un peu de neige. Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T23:00:00Z",
+        "endTime" : "2025-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "W", "N" ]
+    } ],
+    "bulletinID" : "c0745f6b-9eab-4dd5-8f2d-a8e039692f10",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Préalpes",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Vallée de Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallée de Ledro",
+      "regionID" : "IT-32-TN-18"
+    } ]
+  } ]
+}
