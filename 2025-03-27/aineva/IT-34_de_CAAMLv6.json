@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T23:00:00Z",
+      "endTime" : "2025-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung. Schwachen Altschnee beachten.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind zunehmend mittlere und vereinzelt große Nass- und Gleitschneelawinen möglich. Dies vor allem an steilen Sonnenhängen unterhalb von rund 2600 m. <br/> <br/> Schwachschichten im Altschnee können stellenweise von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an steilen, wenig befahrenen West-, Nord- und Osthängen oberhalb der Waldgrenze. Lawinen sind meist mittelgroß. Vereinzelt können Lawinen auch tiefere Schichten der Schneedecke mitreißen und groß werden. <br/> <br/> Zudem sollten die meist kleinen Triebschneeansammlungen beachtet werden, vor allem an sehr steilen Schattenhängen in Kammlagen im Hochgebirge. Die Mitreiß- und Absturzgefahr sollte beachtet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert tragfähig. Sonne und Wärme führen im Tagesverlauf zu einer zunehmenden Aufweichung der Schneedecke. <br/> <br/> In der Altschneedecke sind besonders an wenig befahrenen West-, Nord- und Osthängen störanfällige Schwachschichten vorhanden. Die meist kleinen Triebschneeansammlungen liegen vor allem an sehr steilen Schattenhängen im Hochgebirge auf weichen Schichten. <br/> <br/> Die Schneedecke ist allgemein kleinräumig sehr unterschiedlich. Unterhalb der Waldgrenze liegt nur noch wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Schneeoberfläche gefriert nur knapp und weicht rasch auf. Die Lawinengefahr steigt innerhalb der Gefahrenstufe an. Es fällt gebietsweise etwas Schnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T23:00:00Z",
+        "endTime" : "2025-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "S", "SE", "NE", "NW", "N", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "0f8760cf-c036-42fb-b3f3-b73c30645c52",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
