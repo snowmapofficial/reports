@@ -1,0 +1,213 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T16:00:00Z",
+      "endTime" : "2025-03-28T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Thursday night, skies will clear. Friday will bring lots of sunshine. As of midday, cloudbanks will spread from the southeast. During the afternoon hours, visibility will become limited at high altitudes. Late afternoon: along the Main Alpine Ridge to the Dachstein also some rainfall is expected, snowfall level at 2000m. Winds will be light from varying directions. At 2000m: 3 degrees; at 3000m: -4 degrees.  On Friday night, more snowfall, the snowfall level dropping to 1700-1500m."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime increase in avalanche danger. In high-alpine regions: beware hidden weak layers.",
+      "comment" : "Daytime warming and solar radiation lead to increasing avalanche danger during the course of the day. In early morning, danger above 2300m is moderate, below that altitude danger is low. During the daytime it rises at all altitudes to moderate. Below 2400m, increasingly frequent small-to-medium wet-snow avalanches are possible in as aspects on steep slopes. In zones which have not yet discharged, also higher up. Small-to-medium glide-snow avalanches can trigger naturally on very steep grass-covered slopes. Above 2300m in some places, dry slab avalanches can be triggered even by one sole skier. Danger zones occur in very steep terrain and on liitle-tracked NW/NE facing slopes. Releases can fracture in the old snowpack and down to more deeply embedded layers, thereby reaching medium size.\nAvalanche danger is moderate. Wet-snow avalanches can be triggered by one sole skier on steep slopes in all aspects in steep sunny terrain which has not yet discharged. Small-to-medium glide-snow avalanches can trigger naturally on extremely steep grass-covered slopes. Above 2300m, dry slab avalanches can still be triggered by one sole skier. Danger zones occur on very steep, little-tracked slopes on NW/NE facing slopes. Avalanches can fracture down to more deeply embedded layers in the snowpack and reach medium size. Small freshly generated snowdrift patches are often prone to triggering, esp. on very steep shady slopes in high-alpine ridgeline terrain. Apart from the danger of being buried in snow masses, the risks of being swept along and forced to take a fall demand adequate consideration."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack cools at night and forms a melt-freeze crust which is usually capable of bearing loads. During the daytime the snowpack then softens and forfeits its bonding. On shady slopes at high and high-alpine altitudes there are several weak layers of facted crystals inside the old fundament. Also moist slabs can slide away on sunny slopes over the surface crusts."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Dense clouds at night, the snowpack can hardly cool. Snowfall will set in. Avalanche danger will increase during the course of the day.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-28T16:00:00Z",
+        "endTime" : "2025-03-29T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W", "S", "SW", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "663b9d56-5e49-4418-8b1f-3134e95edee7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Großvenedigergruppe Nord",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe Nord",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Goldberggruppe Nord",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Großvenedigergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Alpenhauptkamm",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Oberpinzgauer Grasberge",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Ankogelgruppe, Muhr",
+      "regionID" : "AT-05-03"
+    }, {
+      "name" : "Niedere Tauern Süd",
+      "regionID" : "AT-05-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-27T16:00:00Z",
+      "endTime" : "2025-03-28T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Thursday night, skies will clear. Friday will bring lots of sunshine. As of midday, cloudbanks will spread from the southeast. During the afternoon hours, visibility will become limited at high altitudes. Late afternoon: along the Main Alpine Ridge to the Dachstein also some rainfall is expected, snowfall level at 2000m. Winds will be light from varying directions. At 2000m: 3 degrees; at 3000m: -4 degrees.  On Friday night, more snowfall, the snowfall level dropping to 1700-1500m."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet loose-snow and glide-snow avalanches in very steep terrain are the main danger",
+      "comment" : "Avalanche danger is low. Isolated small loose-snow naturally triggered avalanches are possible or can be triggered by one sole skier. Danger zones for small slab avalanches in the snowdrifts occur seldom on very steep north-facing slopes at high altitudes. On steep grass-covered slopes, isolated small glide-snow avalanches are possible. Apart from the danger of being buried in snow masses, the risks of being swept along and forced to take a fall demand adequate consideration.small wet loose-snow avalanches are possible in very-to-extremely steep terrain in all aspects. The gliding snow activity will increase, small-to-medium glide-snow avalanches are possible on steep grass-covered slopes. Above 2300m, only few danger zones where still small dry slab avalanches can be triggered. Apart from the danger of being buried in snow masses, the risks of being swept along and forced to take a fall demand adequate consideration."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack cools at night and forms a melt-freeze crust which is usually capable of bearing loads. During the daytime the snowpack then softens and forfeits its bonding. On shady slopes at high and high-alpine altitudes there are several weak layers of facted crystals inside the old fundament. At high altitudes the old snowpack fundament is poor on shady slopes but the requisite slab is lacking."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Dense clouds at night, the snowpack can hardly cool. Snowfall will set in. Avalanche danger will increase during the course of the day.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-28T16:00:00Z",
+        "endTime" : "2025-03-29T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "W", "SE", "NW", "S", "SW", "NE", "E" ]
+    } ],
+    "bulletinID" : "e5b017a3-a36c-4d25-a679-32d523a526d9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    }, {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Chiemgauer Alpen, Heutal, Reiteralpe",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    }, {
+      "name" : "Niedere Tauern Nord",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    }, {
+      "name" : "Loferer und Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Kitzbüheler Alpen, Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Daytime increase in avalanche danger"
+  }
+}
