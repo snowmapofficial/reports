@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution.",
+      "comment" : "On steep slopes and above approximately 1800 m moist and wet avalanches are possible, even medium-sized ones."
+    },
+    "snowpackStructure" : {
+      "comment" : "New snow above approximately 1600 m. The weather conditions will give rise to increasing moistening of the snowpack in all altitude zones."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SE", "SW", "W", "NE", "E", "N", "S" ]
+    } ],
+    "bulletinID" : "b0968856-82c6-4d00-9201-2e06d31c4377",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
