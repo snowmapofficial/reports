@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of wet avalanches as the moisture increases. In addition the fresh and older wind slabs must be taken into account.",
+      "comment" : "Small and medium-sized wet and gliding avalanches are possible as the moisture increases. This applies in particular on steep slopes above the tree line. <br/> <br/> Fresh wind slabs are to be evaluated with care and prudence in particular on very steep shady slopes above approximately 2200 m, especially adjacent to ridgelines. Mostly avalanches are small. <br/> <br/> Weak layers in the old snowpack can be released in some places by individual winter sport participants. The avalanche prone locations are to be found in particular on steep, little used west, north and east facing slopes above the tree line. Mostly avalanches are medium-sized. In isolated cases avalanches can also release deeper layers of the snowpack and reach large size."
+    },
+    "snowpackStructure" : {
+      "comment" : "Up to 10 cm of snow, and even more in some localities, will fall. Up to 2000 m rain will fall in the Prealps. The surface of the snowpack will cool hardly at all during the overcast night and will already be soft in the early morning. <br/> As a consequence of a storm force wind from northeasterly directions, mostly small wind slabs will form especially adjacent to ridgelines. The mostly small wind slabs are lying on soft layers in particular on very steep shady slopes in high Alpine regions. <br/> Avalanche prone weak layers exist in the old snowpack especially on little used west, north and east facing slopes. <br/> Below the tree line only a little snow is now lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The surface of the snowpack will cool hardly at all during the overcast night and will already be soft in the early morning.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SE", "SW", "W", "NE", "E", "N", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    } ],
+    "bulletinID" : "560edd7e-5708-4129-9106-e3572a7010f0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
