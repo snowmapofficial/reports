@@ -1,0 +1,222 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige soufflée et neige mouillée constituant le danger principal. Des couches fragiles dans la neige ancienne demandent un choix d'itinéraire prudent.",
+      "comment" : "Les endroits dangereux sont recouverts de neige fraîche et difficilement identifiables, surtout dans les combes, couloirs et derrière les ruptures de terrain. Avec le réchauffement diurne et le rayonnement solaire des avalanches de moyenne et grande taille sont possibles surtout sur les pentes exposées à l'est en passant par le sud à ouest et en dessous d'environ 2300 m. Dans le manteau neigeux des couches fragiles sont présentes dans les endroits à l'ombre et abrités du vent. Des avalanches sèches peuvent être déclenchées avec en général une surcharge importante et atteindre une grande taille de manière isolée."
+    },
+    "snowpackStructure" : {
+      "comment" : "<br/> Dans le manteau neigeux des couches fragiles à gros grains sont présentes sur les pentes à l'ombre. Ceci particulièrement aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "NW", "SW", "W", "NE", "E", "N", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1400",
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    } ],
+    "bulletinID" : "734ad2ec-b763-4359-8d68-00e04482c9ce",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les conditions météorologiques ont favorisé une solidification du manteau neigeux surtout sur les pentes exposées à l'est, au sud et à l'ouest.",
+      "comment" : "Le rayonnement nocturne est bon. La surface de la neige est gelée et porteuse et se ramollit en cours de journée. Quelques avalanches de glissement et coulées humides sont possibles."
+    },
+    "snowpackStructure" : {
+      "comment" : "Avec le réchauffement diurne la probabilité de déclenchement d'avalanches de neige meuble mouillée augmente progressivement surtout sur les pentes raides en herbe à toutes les altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    } ],
+    "bulletinID" : "5047c66a-555c-4a79-8893-82b938e9b4a9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des coulées mouillées et humides et des petites avalanches sont possibles de manière isolée.",
+      "comment" : "Des avalanches humides et mouillées isolées de petite taille sont possibles."
+    },
+    "snowpackStructure" : { },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    } ],
+    "bulletinID" : "267d432a-875d-4114-b985-3f5ecd808a8e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  } ]
+}
