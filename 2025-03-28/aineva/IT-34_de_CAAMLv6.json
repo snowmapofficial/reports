@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-28T23:00:00Z",
+      "endTime" : "2025-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen mit der Anfeuchtung. Zudem müssen die frischen und älteren Triebschneeansammlungen beachtet werden.",
+      "comment" : "Mit der Anfeuchtung sind kleine und mittlere Nass- und Gleitschneelawinen möglich. Dies vor allem an steilen Hängen oberhalb der Waldgrenze. <br/> <br/> Frische Triebschneeansammlungen sollten vor allem an sehr steilen Schattenhängen oberhalb von rund 2200 m vorsichtig beurteilt werden, besonders in Kammlagen. Lawinen sind meist klein. <br/> <br/> Schwachschichten im Altschnee können stellenweise von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an steilen, wenig befahrenen West-, Nord- und Osthängen oberhalb der Waldgrenze. Lawinen sind meist mittelgroß. Vereinzelt können Lawinen auch tiefere Schichten der Schneedecke mitreißen und groß werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen bis zu 10 cm Schnee, lokal auch mehr. Es fällt in den Voralpen Regen bis auf 2000 m. Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und ist schon am Morgen aufgeweicht. <br/> Mit stürmischem Wind aus nordöstlichen Richtungen entstehen besonders in Kammlagen meist kleine Triebschneeansammlungen. Die meist kleinen Triebschneeansammlungen liegen vor allem an sehr steilen Schattenhängen im Hochgebirge auf weichen Schichten. <br/> In der Altschneedecke sind besonders an wenig befahrenen West-, Nord- und Osthängen störanfällige Schwachschichten vorhanden. <br/> Unterhalb der Waldgrenze liegt nur noch wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und ist schon am Morgen aufgeweicht.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-29T23:00:00Z",
+        "endTime" : "2025-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SE", "SW", "W", "NE", "E", "N", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "W", "NE", "E", "N" ]
+    } ],
+    "bulletinID" : "560edd7e-5708-4129-9106-e3572a7010f0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
