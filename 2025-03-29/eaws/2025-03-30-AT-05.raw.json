@@ -1,0 +1,369 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T16:00:00Z",
+      "endTime" : "2025-03-30T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday rainfall and snowfall in the morning hours amidst dense clouds. At midday, clouds will disperse and some sunshine is expected. In evening, clouds will move in widespread from the NW and on Sunday night, rain and snow will fall. Very windy, the W/NW winds will intensify during the course f the day and reach 70 km/hr. At 2000m: -2 degrees, at 3000m: -7 degrees C. On Sunday night the snowfall level will drop to below 1000m and temperatures will fall."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh snowfall plus winds deposited atop unfavorable old snowpack layers",
+      "comment" : "Avalanche danger above 2000m is considerable. In some danger zones avalanches can be triggered by minimum additional loading and grow to medium size. Freshly generated snowdrift accumulaetions lie deposited behind protruberances in the terrain and in gullies & bowls on north-facing slopes above 2200m, and above 2400m in all aspects. Avalanches can fracture in weak layers and grow to large size. Due to solar radiation in afternoon hours, naturally triggered loose-snow avalanches can be expected. Avalanches released at higher altitudes can fracture down to deeper layers and then plummet down to green zones. Especially above the timberline, small-to-medium glide-snow avalanches can trigger naturally in very steep grass-covered terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "By Sunday midday 30-50cm of fresh snow is anticipated at high altitudes. Above 2200m on north-facing slopes weak layers of faceted crystals are found in the lowermost part of the snowpack. Above 2400m on W/S/E facing slopes there are faceted crystals between crusts. Inside the snowdrifts, in addition, trigger-sensitive layers can form rapidly. Below 2000m the snowpack will forfeit its firmness and a crust will form on the surface."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "With increasing snowfall and wind, avalanche danger levels will rise on Monday",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-30T16:00:00Z",
+        "endTime" : "2025-03-31T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "N", "SE", "NW", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SW", "E", "N", "SE", "NW", "W", "S", "NE" ]
+    } ],
+    "bulletinID" : "5135f313-a761-49d2-9c39-938accb080a9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Goldberggruppe Nord",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Großvenedigergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Loferer und Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Glocknergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Goldberggruppe Alpenhauptkamm",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Oberpinzgauer Grasberge",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Ankogelgruppe, Muhr",
+      "regionID" : "AT-05-03"
+    }, {
+      "name" : "Niedere Tauern Süd",
+      "regionID" : "AT-05-02"
+    }, {
+      "name" : "Großvenedigergruppe Nord",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe Nord",
+      "regionID" : "AT-05-10"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T16:00:00Z",
+      "endTime" : "2025-03-30T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday rainfall and snowfall in the morning hours amidst dense clouds. At midday, clouds will disperse and some sunshine is expected. In evening, clouds will move in widespread from the NW and on Sunday night, rain and snow will fall. Very windy, the W/NW winds will intensify during the course f the day and reach 70 km/hr. At 2000m: -2 degrees, at 3000m: -7 degrees C. On Sunday night the snowfall level will drop to below 1000m and temperatures will fall."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Naturally triggered and loose-snow avalanche activity",
+      "comment" : "Avalanche danger above the treeline is moderate, below that altitude danger is low. Glide-snow and loose-snow avalanches can trigger naturally in some very to extremely steep terrain and in isolated cases grow to mediium size. Avalanche activity will increase during the afternoon hours due to solar radiation. Above 2000m the fresh snowdrifts are prone to triggering and can be releases by one sole skier. The releases will be small-sized, in isolated cases medium-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "By Sunday midday, 30-50cm of fresh snow is expected at high altitudes. Prior to the snowfall the sunny slopes were largely bare of snow, in places thoroughly wet. Inside the snowdrifts there are layer which are prone to triggering."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "New snowdrift accumulations being generated due to fresh snowfall and wind",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-30T16:00:00Z",
+        "endTime" : "2025-03-31T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "E", "W", "S", "SW", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W", "S", "SW", "SE" ]
+    } ],
+    "bulletinID" : "bfc6cb5b-6f27-43f7-b592-55a7b9f47f1f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T16:00:00Z",
+      "endTime" : "2025-03-30T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday rainfall and snowfall in the morning hours amidst dense clouds. At midday, clouds will disperse and some sunshine is expected. In evening, clouds will move in widespread from the NW and on Sunday night, rain and snow will fall. Very windy, the W/NW winds will intensify during the course f the day and reach 70 km/hr. At 2000m: -2 degrees, at 3000m: -7 degrees C. On Sunday night the snowfall level will drop to below 1000m and temperatures will fall."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Freshly generated snowdrift accumulations due to snowfall and wind",
+      "comment" : "Avalanche danger above 2000m is considerable, below that altitude danger is low. Where winds have transported the fresh snow, avalanches can be triggered by one sole skier and grow to medium size. Freshly generated snowdrift accumulations lie deposited behind protruberances in the terrain and in gullies & bowls on north-facing slopes above 2200m, and above 2400m in all aspects. Avalanches can fracture in weak layers and grow to large size. Due to solar radiation in afternoon hours, naturally triggered loose-snow avalanches can be expected. Especially above the timberline, small-to-medium glide-snow avalanches can trigger naturally in very steep grass-covered terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "By Sunday midday, 20-30cm of fresh snow is expected at high altitudes. Prior to the snowfall the sunny slopes were largely bare of snow, in places thoroughly wet. Inside the snowdrifts there are layer which are prone to triggering, crusts have often formed."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "With increasing snowfall and wind, fresh snowdrift accumulations will be generated on Monday",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-03-30T16:00:00Z",
+        "endTime" : "2025-03-31T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE", "E" ]
+    } ],
+    "bulletinID" : "da34a719-84d3-4de9-98ae-9c7c7fc895af",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Chiemgauer Alpen, Heutal, Reiteralpe",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Niedere Tauern Nord",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Kitzbüheler Alpen, Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T16:00:00Z",
+      "endTime" : "2025-03-30T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Sunday rainfall and snowfall in the morning hours amidst dense clouds. At midday, clouds will disperse and some sunshine is expected. In evening, clouds will move in widespread from the NW and on Sunday night, rain and snow will fall. Very windy, the W/NW winds will intensify during the course f the day and reach 70 km/hr. At 2000m: -2 degrees, at 3000m: -7 degrees C. On Sunday night the snowfall level will drop to below 1000m and temperatures will fall."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime increase in avalanche danger. In high-alpine regions: beware hidden weak layers.",
+      "comment" : "Avalanche danger above the treeline is moderate, below that altitude danger is low. Small-to-medium glide-snow avalanches can trigger naturally on very steep grass-covered slopes. Above 2300m in some places, dry slab avalanches can be triggered even by one sole skier. Danger zones occur in very steep terrain and on liitle-tracked NW/NE facing slopes. Releases can fracture in the old snowpack and down to more deeply embedded layers, thereby reaching medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "By Sunday midday 30-50cm of fresh snow is anticipated at high altitudes. Above 2200m on north-facing slopes weak layers of faceted crystals are found in the lowermost part of the snowpack. Above 2400m on W/S/E facing slopes there are faceted crystals between crusts. Inside the snowdrifts, in addition, trigger-sensitive layers can form rapidly. Below 2000m the snowpack will forfeit its firmness and a crust will form on the surface."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "With increasing snowfall and wind, fresh snowdrift accumulations will be generated on Monday",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-30T16:00:00Z",
+        "endTime" : "2025-03-31T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "0c726e5a-73e8-46d6-9741-916498af53a5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Fresh snowfall plus winds deposited atop unfavorable old snowpack layers"
+  }
+}
