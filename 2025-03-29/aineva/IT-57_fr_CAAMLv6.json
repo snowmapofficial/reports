@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-29T17:36:31Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T23:00:00Z",
+      "endTime" : "2025-03-30T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attention à la neige mouillée.",
+      "comment" : "Sur les pentes raides et au-dessus d'environ 1800 m des avalanches humides et mouillées sont possibles, également de taille moyenne. Ce sont aussi les bases de parois rocheuses qui sont particulièrement défavorables."
+    },
+    "snowpackStructure" : {
+      "comment" : "Neige fraîche très peu épaisse au-dessus d'environ 1600 m. Les conditions météorologiques entraînent à toutes les altitudes une humidification croissante du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-30T23:00:00Z",
+        "endTime" : "2025-03-31T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NW", "NE", "S", "SE", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "727b017e-9f00-4f4d-9b12-9d8d175ed300",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
