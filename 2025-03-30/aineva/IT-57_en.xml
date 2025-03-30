@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-03-30T06:01:17Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="727b017e-9f00-4f4d-9b12-9d8d175ed300" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-03-30T06:01:17Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-03-29T23:00:00Z</beginPosition>
+          <endPosition>2025-03-30T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-57-AP-01"/>
+      <locRef xlink:href="IT-57-MC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-03-30T23:00:00Z</beginPosition>
+                <endPosition>2025-03-31T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Wet snow requires caution.</avActivityHighlights>
+          <avActivityComment>On steep slopes and above approximately 1800 m moist and wet avalanches are possible, even medium-sized ones. Also bases of rock walls are especially unfavourable.</avActivityComment>
+          <snowpackStructureComment>A little new snow above approximately 1600 m. The weather conditions will give rise to increasing moistening of the snowpack in all altitude zones.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
