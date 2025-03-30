@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-30T06:01:17Z",
+    "validTime" : {
+      "startTime" : "2025-03-29T23:00:00Z",
+      "endTime" : "2025-03-30T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attention à la neige récemment soufflée. Des couches fragiles dans la neige ancienne sont traîtres. En outre il existe un danger d'avalanches humides.",
+      "comment" : "Des accumulations récentes de neige soufflée devraient être évaluées avec prudence surtout sur les pentes très raides à l'ombre au-dessus d'environ 2200 m, notamment à proximité des crêtes à toutes expositions. Des avalanches sont généralement petites. <br/> <br/> Des avalanches de neige mouillée et de glissement de petite et moyenne taille sont possibles avec l'humidification. Ceci surtout sur les pentes raides au-dessus de la limite de la forêt. <br/> <br/> Des couches fragiles dans la neige ancienne peuvent être déclenchées en certains endroits par des amateurs de sports d'hiver isolés. Les endroits dangereux se situent surtout sur les pentes raides peu fréquentées exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt. Des avalanches sont généralement de taille moyenne. En outre, des avalanches peuvent de manière isolée entraîner avec elles les couches profondes du manteau neigeux et atteindre une grande taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il est tombé localement au-dessus d'environ 1800 m de 0 à 15 cm de neige. Il est tombé de la pluie jusqu'à 2000 m dans les Préalpes. Des accumulations de neige soufflée en général petites se forment avec le vent de secteur nord-est tempétueux spécialement à proximité des crêtes. Les accumulations de neige soufflée généralement petites reposent sur des couches meubles surtout sur les pentes très raides à l'ombre en haute montagne. <br/> <br/> La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et est déjà ramollie le matin. <br/> Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées exposées à l'ouest, au nord et à l'est. Sous la limite de la forêt on ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La surface de la neige regèle et devient porteuse. Vent de nord-ouest fort. Lundi le vent souffle fortement en général. En outre des accumulations de neige soufflée se forment spécialement au-dessus d'environ 2200 m. Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-03-30T23:00:00Z",
+        "endTime" : "2025-03-31T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "N", "SW", "SE", "E", "S", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "SE", "S" ]
+    } ],
+    "bulletinID" : "d0bd3931-d283-4a8f-b347-44c654f7d70e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
