@@ -1,0 +1,124 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The extensive wind slabs of the weekend can be released easily. or in isolated cases naturally, in particular on very steep shady slopes above approximately 2300 m. As a consequence of new snow and a moderate to strong wind, extensive wind slabs formed on northwest, north and east facing slopes. In many cases the avalanches are medium-sized. Some occasionally large avalanches are further not ruled out. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls in northwest to north to east facing aspects above approximately 2300 m and at transitions from a shallow to a deep snowpack. <br/> <br/> As a consequence of warming during the day and the solar radiation, the likelihood of moist avalanches being released will increase. These can be released very easily or triggered naturally. The prevalence of the avalanche prone locations will increase as the day progresses. In many cases the avalanches are medium-sized. <br/> Gliding avalanches can also occur.",
+        "highlights": "Wind slabs are to be evaluated with care and prudence. Wet avalanches during the day are to be expected."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "N",
+            "NE",
+            "E"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2300"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "SE",
+            "S",
+            "SW",
+            "NE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "S",
+            "SW",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "1f23aa99-c49c-4813-a33d-cab91b0eb7d8",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-03-31T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Tuesday: The weather will be sunny. <br/> <br/> In particular shady slopes intermediate and high altitudes: Wind slabs are lying on old snow containing large grains. Sunshine and high temperatures will give rise as the day progresses to rapid moistening of the snowpack. <br/> <br/> The conditions are treacherous for backcountry touring. Careful route selection and spacing between individuals are recommended."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Gradual decrease in danger of moist avalanches.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-01T15:00:00+00:00",
+            "endTime": "2025-04-02T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-03-31T15:00:00+00:00",
+        "endTime": "2025-04-01T15:00:00+00:00"
+      }
+    }
+  ]
+}
