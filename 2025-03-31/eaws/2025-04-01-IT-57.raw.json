@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-03-31T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-31T22:00:00Z",
+      "endTime" : "2025-04-01T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wet snow are to be assessed with care and prudence.",
+      "comment" : "On steep slopes and above approximately 1800 m natural avalanches are possible, even medium-sized ones. Also bases of rock walls are especially unfavourable."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wind and new snow above approximately 1600 m. The snowfall gave rise to unfavourable bonding of the snowpack above approximately 1800 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-01T22:00:00Z",
+        "endTime" : "2025-04-02T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "NW", "N", "NE", "SW", "S", "E" ]
+    } ],
+    "bulletinID" : "d3d92c32-f5b5-4648-b7cc-927590856470",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-03-31T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-03-31T22:00:00Z",
+      "endTime" : "2025-04-01T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow at elevated altitudes.",
+      "comment" : "Low, level 1."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some localities wind and new snow at intermediate altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-04-01T22:00:00Z",
+        "endTime" : "2025-04-02T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "W", "NW", "N", "NE", "S", "SW", "E" ]
+    } ],
+    "bulletinID" : "92ec9414-57db-46f5-bf13-393c18153a2f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
