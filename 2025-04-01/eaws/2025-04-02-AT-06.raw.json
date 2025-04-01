@@ -1,0 +1,130 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T15:00:00Z",
+      "endTime" : "2025-04-02T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Wednesday it will be sunny in the morning, clouds are clearing up in northeast. During the course of the day new clouds are forming. the brisk northeasterly winds are weakening. Temperatures in 2.000 m at noon are around -1 to -3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Snowdrift deposits in gullies and bowls are prone to triggering - avalanche danger moderate!",
+      "comment" : "The avalanche is above the treeline considerable. Danger spots which are formed due to fresh snowdrift are found in all expositions.They can be triggered by small additional loads as slab avalanches. Spontaneous gliding-snow avalanches from steep, smooth slopes are possible especially on southern sides. Consider glide cracks or gliding sluff as danger signs!"
+    },
+    "snowpackStructure" : {
+      "comment" : "New snow and snowdrift deposits from the weekend and Monday are placed on top of an old snow cover with which it is sufficiently bonded. Soft layers within the fresh cover or in shady slopes within the bonded snowcover function as weak layers. Wetness from the ground can lead to a loss of friction of the snowcover in steep smooth slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Thursday will be sunny with clear skies. Temperatures will reach +1 degress in 2.000 m. The snowcover can settle and the avalanche danger is decreasing, some wet snow avalanches are possible.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-02T15:00:00Z",
+        "endTime" : "2025-04-03T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    } ],
+    "bulletinID" : "feff7e94-5ec2-4ca9-aeac-23bbf904bfdd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Südliche Wölzer Tauern",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Nördliche Wölzer Tauern",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Koralpe",
+      "regionID" : "AT-06-16"
+    }, {
+      "name" : "Stub- und Gleinalpe",
+      "regionID" : "AT-06-15"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Mürzsteger Alpen",
+      "regionID" : "AT-06-11"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Tauern",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Consider snowdrift in high altitudes!"
+  }
+}
