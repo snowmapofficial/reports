@@ -1,0 +1,180 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T15:00:00Z",
+      "endTime" : "2025-04-02T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Loose-snow avalanches will trigger naturally in the sunshine",
+      "comment" : "Above 1500m avalanche danger is considerable, below that altitude danger is moderate. Snowdrift accumulations are the major problem, esp. on sunny, extremely steep slopes where loose-snow avalanches can trigger naturally. At high altitudes avalanches can in isolated cases grow to large size. Exposed transportation routes and hiking trails can be at risk. Fresh snow and drifts at high altitudes can trigger slab avalanches at high altitudes even be minimum additional loading, Caution esp. in steep ridgeline terrain and in gullies and bowls. In addition, on very steep grass-covered dlopes and in very steep sparsely wooded forest zones, glide-snow avalanches can be expected, esp. wherever the ground was bare of snow prior to this bout of precipitation, glide-snow avlanches can grow to medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The powerful energy transmitted by the sun is loosening bonded snow so that the fresh fallen snow on steep slopes can trigger as loose-snow avalanches. Gusty and often stormy winds from varying directions accompanied the snowfall over the last few days and generated new snowdrift accumulations. In many places, graupel is embedded in the new snow. At intermediate altitudes the fresh snow was often deposited atop wet ground which prior to the precipitation was bare of snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger will gradually recede, wet snow will become the problem.",
+      "validTime" : {
+        "startTime" : "2025-04-02T15:00:00Z",
+        "endTime" : "2025-04-03T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    } ],
+    "bulletinID" : "6bd3c193-4ade-49f7-b978-5b4e0a376245",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T15:00:00Z",
+      "endTime" : "2025-04-02T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Snowdrift accumulations often prone to triggering, but difficult to recognize",
+      "comment" : "Above the timberline avalanche danger is moderate, below that altitude danger is low. Snowdrift accumulations are the major problem. Danger zones where slab avalanches can be triggered even by one sole skier occur in steep ridgeline terrain on N/E/S-facing slopes, in wind-loaded gullies and bowls, and behind protruberances in the terrain. Frequency of danger zones increases with ascending altitude. Slab avalanches can grow to medium size. In addition, the fresh snow can trigger as a loose-snow avalanche in rocky or extremely steep terrain. At higher altitudes, loose-snow avalanches can reach medium size. Small glide-snow avalanches can be expected more frequently on steep grass-covered slopes. Small loose-snow slides can release naturally in steep terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Gusty, often storm-strength winds from varying directions accompanied the recent snowfall. During the course of the day winds will shift to easterly and intensify, thereby generating new snowdrift accumulations. Often, graupel is embedded in the drifts. At intermediate altitude the fresh snow was often deposited atop wet ground bare of snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger will gradually recede, wet snow will become the problem.",
+      "validTime" : {
+        "startTime" : "2025-04-02T15:00:00Z",
+        "endTime" : "2025-04-03T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "S", "NE", "SW", "SE" ]
+    } ],
+    "bulletinID" : "b4f9f53d-547e-4465-8c41-b84955780f34",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Caution: first day of fine weather following fresh snowfall"
+  }
+}
