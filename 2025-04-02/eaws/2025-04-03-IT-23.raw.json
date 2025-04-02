@@ -1,0 +1,285 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-02T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-02T22:00:00Z",
+      "endTime" : "2025-04-03T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Rapid increase in danger as a consequence of warming during the day and solar radiation. The current avalanche situation calls for experience and restraint.",
+      "comment" : "Already in the early morning, a few, then as a consequence of warming during the day and solar radiation more, and in some cases even large, natural avalanches are to be expected. Significant increase in avalanche danger especially on steep sunny slopes. <br/> Especially in the southern areas bordering Piedmont most affected by the rainfall. In these regions the avalanche prone locations are more widespread. Here the avalanches can be released naturally and can reach as far as intermediate altitudes. <br/> As a consequence of new snow and a strong wind from southeasterly directions, wind slabs formed on Wednesday in particular above approximately 2400 m. The fresh snow and in particular the wind slabs formed during the snowfall can be released easily in particular on steep shady slopes. They can be released, even by a single winter sport participant and reach large size in isolated cases. <br/> Weak layers in the old snowpack can still be released in isolated cases by individual winter sport participants. This applies in particular on very steep northwest, north and northeast facing slopes above approximately 2500 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "30 to 40 cm of snow, and up to 50 cm in some localities, will fall until the evening above approximately 2000 m. The fresh snow and very particularly the wind slabs are bonding poorly with the old snowpack. <br/> As a consequence of highly fluctuating temperatures a crust formed on the surface during the last few days, this also applies on shady slopes below approximately 2500 m. <br/> The spring-like weather conditions gave rise to increasing moistening of the snowpack on sunny slopes below approximately 2900 m, also on shady slopes below approximately 2400 m. As a consequence of falling temperatures a crust formed on the surface during the last five days. <br/> Towards its base, the snowpack is wet. This applies in all aspects below approximately 2400 m, and on sunny slopes below approximately 2900 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger will not decrease for the time being.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-03T22:00:00Z",
+        "endTime" : "2025-04-04T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "W", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "SE", "E", "NE", "S", "N", "W", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "W", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "SE", "E", "S", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "d3a868e4-6180-4329-83a8-c99b1ffb140a",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-02T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-02T22:00:00Z",
+      "endTime" : "2025-04-03T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger as a consequence of warming during the day and solar radiation.",
+      "comment" : "Already in the early morning, a few, then as a consequence of warming during the day and solar radiation numerous, and in some cases even medium-sized, natural avalanches are to be expected. Gradual increase in avalanche danger especially on steep sunny slopes. Especially here the avalanche prone locations are more widespread. <br/> As a consequence of new snow and a strong wind from southeasterly directions, extensive wind slabs formed on Wednesday adjacent to ridgelines on north, northeast and northwest facing slopes. <br/> The various wind slabs are to be evaluated with care and prudence in particular in very steep terrain. They can in some places be released by a single winter sport participant. In particular along the border with Switzerland these avalanche prone locations are more prevalent and the danger is slightly greater. <br/> Weak layers in the old snowpack can still be released in isolated cases by individual winter sport participants. This applies in particular on very steep northwest, north and northeast facing slopes above approximately 2500 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "10 to 20 cm of snow, and even more in some localities, will fall until the evening above approximately 2000 m. The fresh snow and very particularly the wind slabs are bonding poorly with the old snowpack. <br/> As a consequence of the occasionally strong foehn wind, snow drift accumulations formed during the last few days. <br/> As a consequence of highly fluctuating temperatures a crust formed on the surface, this also applies on shady slopes below approximately 2500 m. <br/> The spring-like weather conditions gave rise to increasing moistening of the snowpack on sunny slopes below approximately 2900 m, also on shady slopes below approximately 2400 m. As a consequence of falling temperatures a crust formed on the surface during the last five days. <br/> Towards its base, the snowpack is wet. This applies in all aspects below approximately 2400 m, and on sunny slopes below approximately 2900 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger will not decrease for the time being.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-03T22:00:00Z",
+        "endTime" : "2025-04-04T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "W", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "W", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "SE", "E", "S", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "1ba41d6e-5c68-419a-9909-9a76800e7708",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
