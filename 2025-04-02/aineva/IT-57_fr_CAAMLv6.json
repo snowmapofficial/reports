@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-02T08:12:50Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T22:00:00Z",
+      "endTime" : "2025-04-02T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche et neige mouillée à évaluer avec précaution.",
+      "comment" : "Sur les pentes raides et au-dessus d'environ 1800 m des avalanches spontanées sont possibles, également de taille moyenne. Ce sont aussi les bases de parois rocheuses qui sont particulièrement défavorables."
+    },
+    "snowpackStructure" : {
+      "comment" : "Vent et neige fraîche au-dessus d'environ 1600 m. La chute de neige a entraîné au-dessus d'environ 1800 m une structure défavorable du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-02T22:00:00Z",
+        "endTime" : "2025-04-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SE", "NW", "E", "SW", "S", "N" ]
+    } ],
+    "bulletinID" : "68054a78-4d5e-4fdc-811b-86307c4cc462",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-02T08:12:50Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T22:00:00Z",
+      "endTime" : "2025-04-02T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche en altitude.",
+      "comment" : "Faible, degré 1."
+    },
+    "snowpackStructure" : {
+      "comment" : "Localement vent et neige fraîche à moyenne altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-04-02T22:00:00Z",
+        "endTime" : "2025-04-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "W", "SE", "NW", "E", "SW", "S", "N" ]
+    } ],
+    "bulletinID" : "689ed297-44cd-4b0c-9bff-65226ceedee9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
