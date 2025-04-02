@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-02T08:12:50Z",
+    "validTime" : {
+      "startTime" : "2025-04-01T22:00:00Z",
+      "endTime" : "2025-04-02T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve ventata recente. Gli strati deboli presenti nella neve vecchia sono insidiosi. Inoltre sussiste il pericolo di valanghe umide.",
+      "comment" : "I nuovi accumuli di neve ventata dovrebbero essere valutati con attenzione soprattutto sui pendii molto ripidi ombreggiati al di sopra dei 2200 m circa, soprattutto nelle zone vicino alle creste esposte in tutte le direzioni. Le valanghe sono a volte di dimensioni medie. Attenzione al pericolo di trascinamento e di caduta. Con l'umidificazione, sono possibili valanghe bagnate e per scivolamento di neve di piccole e medie dimensioni. Ciò soprattutto sui pendii ripidi al di sopra del limite del bosco. Isolate valanghe possono anche trascinare gli strati più profondi del manto nevoso e raggiungere grandi dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "A livello locale sono caduti da 0 a 2 cm di neve al di sopra dei 2000 m circa. Con vento in parte forte proveniente dai quadranti settentrionali principalmente nelle zone in prossimità delle creste si sono formati accumuli di neve ventata. Gli accumuli di neve ventata poggiano su strati soffici soprattutto sui pendii molto ripidi ombreggiati in alta montagna. La superficie del manto nevoso riuscirà a rigelarsi e a essere portante e si ammorbidirà nel corso della giornata. <br/> Principalmente sui pendii poco frequentati esposti a ovest, nord ed est, all'interno del manto di neve vecchia si trovano strati fragili instabili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-02T22:00:00Z",
+        "endTime" : "2025-04-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SE", "NW", "E", "SW", "S", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "E", "SW", "S" ]
+    } ],
+    "bulletinID" : "c6944b4b-3346-454f-934c-31b8c8a07e47",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
