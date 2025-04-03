@@ -1,0 +1,72 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="5104d785-cc16-4f54-872e-f5ed313fdc84" lang="fr">
+    <publicationTime>2025-04-03T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-04-03T22:00:00Z</startTime>
+      <endTime>2025-04-04T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1800</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>considerable</mainValue>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <aspect>S</aspect>
+      <aspect>E</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Neige mouillée constituant le danger principal.</highlights>
+      <comment>Sur les pentes raides et au-dessus d'environ 1800 m des avalanches spontanées mouillées sont possibles, également de taille moyenne. Ce sont aussi les bases de parois rocheuses qui sont particulièrement défavorables.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Dans les derniers jours il est tombé en général au-dessus d'environ 1800 m de 30 à 70 cm de neige. Le manteau neigeux reste généralement humide. Les conditions météorologiques printanières entraînent aussi à haute altitude une saturation d'eau croissante du manteau neigeux.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-04-04T22:00:00Z</startTime>
+        <endTime>2025-04-05T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-04-04</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
