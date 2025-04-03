@@ -1,0 +1,229 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-03T15:00:00Z",
+      "endTime" : "2025-04-04T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weakly bonded old snow and wet snow require caution. The danger of moist and wet avalanches will increase during the day.",
+      "comment" : "Weak layers in the old snowpack can be released in isolated cases by individual winter sport participants. Such avalanche prone locations are rare and are difficult to recognise. The avalanche prone locations are to be found in particular on steep, little used shady slopes above approximately 2200 m, in particular on southwest, north and east facing slopes. Mostly avalanches are medium-sized. <br/> <br/> As a consequence of warming during the day and the solar radiation, the likelihood of wet avalanches being released will increase significantly. Caution is to be exercised in particular on very steep sunny slopes below approximately 2800 m, as well as on very steep west facing slopes below approximately 2600 m. Avalanches can in some cases release the saturated snowpack. Gliding avalanches can also occur, in particular on grassy slopes below approximately 2400 m. <br/> <br/> The older wind slabs can in isolated cases be released by small loads. Avalanches can in some cases be released in deep layers and reach medium size. Restraint should be exercised because avalanches can sweep people along and give rise to falls."
+    },
+    "snowpackStructure" : {
+      "comment" : "<br/> Avalanche prone weak layers exist in the old snowpack especially on little used west, north and east facing slopes. This applies on shady slopes above approximately 2200 m. <br/> Sunshine and high temperatures will give rise to increasing and thorough wetting of the snowpack over a wide area in all aspects below approximately 2600 m. The surface of the snowpack will freeze to form a strong crust and will soften earlier than the day before. <br/> <br/> As a consequence of foehn wind, wind slabs formed in the last few days especially adjacent to ridgelines. More recent wind slabs are lying on soft layers. This applies especially on shady slopes above approximately 2200 m. <br/> <br/> The snowpack will be subject to considerable local variations at intermediate altitudes. Below the tree line a little snow is lying. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger will persist.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-04T15:00:00Z",
+        "endTime" : "2025-04-05T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline",
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "S", "E", "W", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline",
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "S", "E", "W", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "b6442c02-fce4-4d60-a771-4808ba445bb6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Southern Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Northern Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Fassa Valley",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Southern Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Southern Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Sole, Pejo and Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Northern Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-03T15:00:00Z",
+      "endTime" : "2025-04-04T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The danger of moist and wet avalanches will increase during the day.",
+      "comment" : "Small and medium-sized wet and gliding avalanches are possible as a consequence of warming during the day and solar radiation. As a consequence of the solar radiation, the likelihood of avalanches being released will increase gradually in particular on steep grassy slopes in all altitude zones. Restraint should be exercised because avalanches can sweep people along and give rise to falls. <br/> <br/> The wind slabs of the last few days have bonded quite well with the old snowpack. These can in very isolated cases be released by people. Avalanches can in very isolated cases reach medium size. <br/> Weak layers in the old snowpack can be released in some places in particular on steep shady slopes. These avalanche prone locations are rather rare and are difficult to recognise. The avalanche prone locations are to be found in particular on steep, little used shady slopes above approximately 1900 m. In isolated cases avalanches can also release deeper layers of the snowpack and reach medium size. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "The wind slabs of the last few days have bonded quite well with the old snowpack. <br/> Outgoing longwave radiation during the night was good. The surface of the snowpack has frozen to form a strong crust will soften earlier than the day before. <br/> Individual weak layers exist in the old snowpack especially on steep shady slopes. <br/> The snowpack will be generally subject to considerable local variations. Below the tree line a little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger will persist.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-04T15:00:00Z",
+        "endTime" : "2025-04-05T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "aca4f3a2-9988-44b5-87bf-9b4d8a831850",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    } ]
+  } ]
+}
