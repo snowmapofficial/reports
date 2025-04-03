@@ -1,0 +1,186 @@
+{
+  "bulletins": [
+    {
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W",
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "E",
+            "SE",
+            "W",
+            "S"
+          ],
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "E",
+            "N",
+            "SE",
+            "NW",
+            "W",
+            "S",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "SW",
+            "E",
+            "N",
+            "SE",
+            "NW",
+            "W",
+            "S",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "3eafc38a-08a0-4541-9c94-feaf7a69571f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengbirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-04-04T15:00:00+00:00",
+            "endTime": "2025-04-05T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-03T15:00:00+00:00",
+        "endTime": "2025-04-04T15:00:00+00:00"
+      }
+    }
+  ]
+}
