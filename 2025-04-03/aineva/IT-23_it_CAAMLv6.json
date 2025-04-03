@@ -1,0 +1,254 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-03T22:00:00Z",
+      "endTime" : "2025-04-04T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, progressivo aumento del pericolo.",
+      "comment" : "Con il rialzo termico diurno, soprattutto sui pendii soleggiati ripidi e dai bacini di alimentazione non ancora scaricati sono ancora possibili valanghe di medie dimensioni. <br/> Specialmente nelle zone meridionali a confine con il Piemonte più colpite dalle precipitazioni. In queste regioni, i punti pericolosi sono più diffusi. <br/> Con neve fresca e vento forte proveniente dai quadranti sud orientali nella giornata di mercoledì soprattutto al di sopra dei 2400 m circa si sono formati accumuli di neve ventata. La neve fresca e soprattutto gli accumuli di neve ventata che si sono formati durante le nevicate possono facilmente subire un distacco soprattutto sui pendii ripidi ombreggiati. Essi possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali e raggiungere dimensioni medie. <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi ancora a livello isolato in seguito al passaggio di un singolo appassionato di sport invernali. Ciò soprattutto sui pendii molto ripidi esposti a nord ovest, nord e nord est al di sopra dei 2500 m circa."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mercoledì sono caduti da 30 a 40 cm di neve al di sopra dei 2000 m circa. La neve fresca e in special modo gli accumuli di neve ventata si legheranno solo lentamente con la neve vecchia. <br/> La superficie del manto nevoso riuscirà a rigelarsi e a essere portante solo ad alta quota e si ammorbidirà nel corso della giornata. Con le forti oscillazioni di temperatura, negli ultimi sei giorni si è formata una crosta superficiale, anche sui pendii ombreggiati al di sotto dei 2500 m circa. <br/> Le condizioni meteo primaverili hanno causato sui pendii soleggiati al di sotto dei 2900 m circa un progressivo inumidimento del manto nevoso, anche sui pendii ombreggiati al di sotto dei 2400 m circa. <br/> La parte basale del manto nevoso è bagnata. Ciò a tutte le esposizioni al di sotto dei 2400 m circa e sui pendii soleggiati al di sotto dei 2900 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe diminuirà progressivamente.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-04T22:00:00Z",
+        "endTime" : "2025-04-05T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2100",
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SW", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2100",
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SE", "SW", "NW", "N", "S", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SW", "NW", "N" ]
+    } ],
+    "bulletinID" : "c2444857-e455-42f3-aaa9-1cf14f40fb57",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-03T22:00:00Z",
+      "endTime" : "2025-04-04T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, aumento del pericolo.",
+      "comment" : "Progressivo aumento del pericolo di valanghe umide e bagnate. Nel corso della giornata saranno possibili alcune valanghe spontanee. Ciò specialmente sui pendii ripidi esposti a sud est, sud e ovest al di sotto dei 2800 m circa, come pure sui pendii ombreggiati al di sotto dei 2500 m circa. <br/> Con neve fresca e vento forte proveniente dai quadranti sud orientali nella giornata di mercoledì sui pendii vicino alle creste esposti a nord, nord est e nord ovest si sono formati accumuli di neve ventata soffici. <br/> Gli accumuli di neve ventata dovrebbero essere valutati con attenzione soprattutto sui pendii molto ripidi. Essi possono in alcuni punti distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali. Questi ultimi sono stati innevati e quindi difficilmente individuabili. Specialmente lungo il confine con la Svizzera, questi punti pericolosi sono più frequenti e il pericolo leggermente superiore. <br/> Gli strati deboli presenti nella neve vecchia possono distaccarsi ancora a livello isolato in seguito al passaggio di un singolo appassionato di sport invernali. Ciò soprattutto sui pendii molto ripidi esposti a nord ovest, nord e nord est al di sopra dei 2500 m circa."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mercoledì sono caduti da 10 a 20 cm di neve al di sopra dei 2000 m circa, localmente anche di più. La neve fresca e in special modo gli accumuli di neve ventata si legheranno solo lentamente con la neve vecchia. <br/> Con il vento a tratti forte, negli ultimi giorni si sono formati accumuli di neve ventata. <br/> La superficie del manto nevoso riuscirà a rigelarsi e a essere portante solo ad alta quota e si ammorbidirà nel corso della giornata. Con le forti oscillazioni di temperatura, si è formata una crosta superficiale, anche sui pendii ombreggiati al di sotto dei 2400 m circa. <br/> Le condizioni meteo primaverili hanno causato sui pendii soleggiati al di sotto dei 2900 m circa un progressivo inumidimento del manto nevoso, anche sui pendii ombreggiati al di sotto dei 2400 m circa. <br/> La parte basale del manto nevoso è bagnata. Ciò a tutte le esposizioni al di sotto dei 2400 m circa e sui pendii soleggiati al di sotto dei 2900 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-04T22:00:00Z",
+        "endTime" : "2025-04-05T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2100",
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SE", "SW", "NW", "N", "S", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "22547521-acb1-44bb-a639-4bfd6a766b17",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
