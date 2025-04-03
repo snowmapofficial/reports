@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-03T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-03T22:00:00Z",
+      "endTime" : "2025-04-04T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve bagnata è la principale fonte di pericolo.",
+      "comment" : "Sui pendii ripidi e al di sopra dei 1800 m circa, sono possibili valanghe bagnate spontanee, anche di medie dimensioni. Particolarmente sfavorevoli sono anche i punti alla base di pareti rocciose, (--)."
+    },
+    "snowpackStructure" : {
+      "comment" : "In molte regioni negli ultimi giorni sono caduti da 30 a 70 cm di neve al di sopra dei 1800 m circa. Il manto nevoso rimane umido a livello generale. Le condizioni meteo primaverili causeranno anche ad alta quota un progressivo impregnamento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-04T22:00:00Z",
+        "endTime" : "2025-04-05T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "W", "SE", "SW", "NW", "N", "S", "E" ]
+    } ],
+    "bulletinID" : "5104d785-cc16-4f54-872e-f5ed313fdc84",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
