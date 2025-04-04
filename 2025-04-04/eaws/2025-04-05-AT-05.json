@@ -1,0 +1,417 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger above 2200m is moderate, below that altitude danger is low in the morning and rises to moderate during the course of the day. Wet loose-snow and slab avalanches can be triggered by large additional loading in some places below 2600m and grow to medium size, either triggered by persons or naturally. Slab avalanches can trigger in the old snow in some places by large additional loading. Caution urged in transitions from shallow to deep snow. Esp. on W/N/E-facing slopes above 2200m, avalanches can fracture down to more deeply embedded layers of the snowpack and grow to large size. On extremely steep sunny slopes below 2600m, wet loose-snow and slab avalanches of medium size are possible, naturally triggered or person-triggered. On steep grass-covered slopes below 2400m, medium-sized glide-snow avalanches are possible.",
+        "highlights": "During the course of the day, wet-snow problem intensifies swiftly. At high altitudes, caution towards persistent weak layers."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "W",
+            "NW",
+            "NE",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "W",
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "78698e2b-ddc1-458c-8a48-ac7f06a483bd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-04T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-11",
+          "name": "Gro\u00dfvenedigergruppe Nord"
+        },
+        {
+          "regionID": "AT-05-10",
+          "name": "Glocknergruppe Nord"
+        },
+        {
+          "regionID": "AT-05-09",
+          "name": "Goldberggruppe Nord"
+        },
+        {
+          "regionID": "AT-05-07",
+          "name": "Gro\u00dfvenedigergruppe Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-06",
+          "name": "Glocknergruppe Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-05",
+          "name": "Goldberggruppe Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-04",
+          "name": "Niedere Tauern Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-15",
+          "name": "Oberpinzgauer Grasberge"
+        },
+        {
+          "regionID": "AT-05-03",
+          "name": "Ankogelgruppe, Muhr"
+        },
+        {
+          "regionID": "AT-05-02",
+          "name": "Niedere Tauern S\u00fcd"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack has settled, the surface is often encrusted in early morning. Weak layers inside the fresh fallen snow have consolidated well. In transitions to the old snowpack above 2000m, faceted crystals often form a weak layer. In the lower and middle parts of the snowpack above 2200m there are weak layers of faceted crystals which are embedded between crusts. Below 2000m the entire snowpack is moist. Melt-freeze crusts and snowpack itself soften up during the day, the snowpack can forfeit its bonding thereby. Where the ground was bare of snow before the recent precipitation, the entire snowpack can slide away as a glide-snow avalanche."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Activity of wet-snow avalanches will recede as temperatures drop. The persistent weak layer problem will persist.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-05T15:00:00+00:00",
+            "endTime": "2025-04-06T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-04T15:00:00+00:00",
+        "endTime": "2025-04-05T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Saturday morning, sunshine and good visibility. In afternoon, dense clouds will move in from the north. In evening, snow showers, the snowfall level at 2000m. Only minor amounts of fresh snow are anticipated (max.5cm). The NW winds will intensify significantly during the daytime on Saturday, brisk to strong during the afternoon hours. At 2000m: 0 to +4 degrees; at 3000m. -5 to -2 degrees. On Saturday night, temperatures are expected to drop about 10 degrees at all altitudes."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is initially low, then rises during the daytime to moderate below 2600m. On extremely steep sunny slopes below 2600m, wet loose-snow avalanches of medium size are possible due to daytime warming and solar radiation, either triggered naturally or by persons. Also medium-sized glide-snow avalanches can trigger naturally in very steep grass-covered terrain. In isolated cases on steep shady slopes above 2200m, mostly small slab avalanches can be triggered.",
+        "highlights": "Increasing wet-snow problem during daytime hours"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "N",
+            "W",
+            "SE",
+            "NW",
+            "S",
+            "SW",
+            "NE",
+            "E"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "W",
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W",
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "e0e3993a-2af5-4e10-aba3-1dec1488854a",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "lowerBound": "2600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-04T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-12",
+          "name": "Pongauer Grasberge"
+        },
+        {
+          "regionID": "AT-05-21",
+          "name": "Chiemgauer Alpen, Heutal, Reiteralpe"
+        },
+        {
+          "regionID": "AT-05-20",
+          "name": "Untersbergstock"
+        },
+        {
+          "regionID": "AT-05-08",
+          "name": "Niedere Tauern Nord"
+        },
+        {
+          "regionID": "AT-05-19",
+          "name": "Osterhorngruppe, Gamsfeldgruppe"
+        },
+        {
+          "regionID": "AT-05-18",
+          "name": "Loferer und Leoganger Steinberge"
+        },
+        {
+          "regionID": "AT-05-17",
+          "name": "Steinernes Meer, Hochk\u00f6nig, Hagengebirge, G\u00f6llstock"
+        },
+        {
+          "regionID": "AT-05-16",
+          "name": "Tennengebirge, Gosaukamm"
+        },
+        {
+          "regionID": "AT-05-14",
+          "name": "Kitzb\u00fcheler Alpen, Glemmtal"
+        },
+        {
+          "regionID": "AT-05-13",
+          "name": "Dientner Grasberge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack has settled, the surface is often encrusted in early morning. Weak layers inside the fresh fallen snow have consolidated well. In transitions to the old snowpack above 2000m, faceted crystals often form a weak layer. In the lower and middle parts of the snowpack above 2200m there are weak layers of faceted crystals which are embedded between crusts. Below 2000m the entire snowpack is moist. Melt-freeze crusts and snowpack itself soften up during the day, the snowpack can forfeit its bonding thereby. Where the ground was bare of snow before the recent precipitation, the entire snowpack can slide away as a glide-snow avalanche."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Activity of wet-snow avalanches will recede as temperatures drop. The persistent weak layer problem will persist.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-05T15:00:00+00:00",
+            "endTime": "2025-04-06T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-04T15:00:00+00:00",
+        "endTime": "2025-04-05T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Saturday morning, sunshine and good visibility. In afternoon, dense clouds will move in from the north. In evening, snow showers, the snowfall level at 2000m. Only minor amounts of fresh snow are anticipated (max.5cm). The NW winds will intensify significantly during the daytime on Saturday, brisk to strong during the afternoon hours. At 2000m: 0 to +4 degrees; at 3000m. -5 to -2 degrees. On Saturday night, temperatures are expected to drop about 10 degrees at all altitudes."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is low. On extremely steep sunny slopes, increasingly frequent wet loose-snow avalanches, mostly small releases, are possible due to daytime warming. They can release naturally or be triggered by a winter sports enthusiast. In addition, small-to-medium glide-snow avalanches can trigger on very steep grass-covered slopes.",
+        "highlights": "Beware naturally triggered avalanche activity due to rising daytime temperatures"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "SW",
+            "E"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8dfff1b1-d119-40d8-be80-641999635486",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-04T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-01",
+          "name": "Nockberge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack has settled well, it is melt-freeze encrusted in early morning. Weak layers inside the fresh fallen snow have consolidated. Above 2200m on north-facing slopes there are weak layers of faceted crystals in the lowermost part of the snowpack in some places. Below 2000m the old snow is moist, after nights of cloudy skies it softens quickly during the morning hours and forfeits its bonding."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Activity of wet-snow avalanches will recede as temperatures drop. T",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-05T15:00:00+00:00",
+            "endTime": "2025-04-06T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-04T15:00:00+00:00",
+        "endTime": "2025-04-05T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Saturday morning, sunshine and good visibility. In afternoon, dense clouds will move in from the north. In evening, snow showers, the snowfall level at 2000m. Only minor amounts of fresh snow are anticipated (max.5cm). The NW winds will intensify significantly during the daytime on Saturday, brisk to strong during the afternoon hours. At 2000m: 0 to +4 degrees; at 3000m. -5 to -2 degrees. On Saturday night, temperatures are expected to drop about 10 degrees at all altitudes."
+      }
+    }
+  ],
+  "customData": {
+    "generalHeadline": "Increasing wet-snow problem during daytime hours"
+  }
+}
