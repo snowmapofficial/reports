@@ -1,0 +1,207 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-04T15:00:00Z",
+      "endTime" : "2025-04-05T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Isolated loose-snow avalanches can trigger on shady slopes",
+      "comment" : "Avalanche danger is low and rises to moderate in afternoon  above 1600m. Wet snow is the major problem, wet loose-snow avalanches can trigger naturally or be triggered by skiers on sunny, extremely steep slopes, frequency of danger zones increases during the course of the day. Avalanches can grow to medium size. In some places, snowdrifts can trigger a slab avalanches by large additional loading.  Danger zones occur in steep ridgeline terrain and in wind-loaded gullies and bowls, releases can reach medium size. On very steep grass-covered slopes and on very steep smooth ground, glide-snow avalanches can be expected, these can reach medium size in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "A thin melt-freeze crust forms during the nighttime hours, then softens swiftly in the morning sunshine. During the day, mild temperatures up to high altitudes are moistening the snowpack, causing it to forfeit its firmness. Snow is still powdery only on steep shady slopes at high altitudes, but there, embedded graupel and weak layers in the uppermost part of the snowpack can be prone to triggering. At intermediate altitudes the fresh fallen snow is thoroughly wet over widespread areas. Gliding movements are possible."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "With temperatures dropping, the danger of wet-snow avalanches will diminish.",
+      "validTime" : {
+        "startTime" : "2025-04-05T15:00:00Z",
+        "endTime" : "2025-04-06T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "S", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "SW", "E" ]
+    } ],
+    "bulletinID" : "4a43686f-6aba-44d9-8b19-13de8e973459",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-04T15:00:00Z",
+      "endTime" : "2025-04-05T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "On south-facing slopes, hardly enough snow on the ground for avalanches",
+      "comment" : "Avalanche danger is low. Wet snow can be problematic in isolated cases. Due to daytime warming, mostly small, wet loose snow slides trigger naturally on extremely steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "During the night, a melt-freeze crust will form, then swiftly melt in the sunshine next morning. Older snowdrift accumulations have consolidated somewhat. In many places graupel is embedded. At intermediate altitudes the fresh fallen snow was frequently deposited on moist ground which was previously bare of snow. South-facing slopes are losing their snow cover."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger is not expected to change significantly.",
+      "validTime" : {
+        "startTime" : "2025-04-05T15:00:00Z",
+        "endTime" : "2025-04-06T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "W", "NW", "NE", "E" ]
+    } ],
+    "bulletinID" : "7fa6ce02-91d6-4ebd-bc29-9d58a8d5de24",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-04T15:00:00Z",
+      "endTime" : "2025-04-05T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "On south-facing slopes, hardly enough snow on the ground for avalanches",
+      "comment" : "Avalanche danger is low. Wet snow is the main problem. Due to daytime warming, mostly small, wet loose snow slides trigger naturally on extremely steep slopes. Frequency of danger zones increases during the daytime hours.  On very steep grass-covered slopes, isolated small glide-snow avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "A thin melt-freeze crust forms during the nighttime hours, then softens swiftly in the morning sunshine. During the day, mild temperatures up to high altitudes are moistening the snowpack, causing it to forfeit its firmness. Older snowdrift accumulations have consolidated somewhat. In many places graupel is embedded which can be prone to triggering. At intermediate altitudes the snowpack is deposited on wet ground. South-facing slopes are becoming bare of snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "With temperatures dropping, the danger of wet-snow avalanches will diminish.",
+      "validTime" : {
+        "startTime" : "2025-04-05T15:00:00Z",
+        "endTime" : "2025-04-06T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "SE", "W", "NW", "S", "SW", "NE", "E" ]
+    } ],
+    "bulletinID" : "c5f003fb-e098-41b1-90aa-b174e0a8b950",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Rising daytime avalanche danger at high altitudes"
+  }
+}
