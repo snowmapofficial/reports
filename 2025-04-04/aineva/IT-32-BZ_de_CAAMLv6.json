@@ -1,0 +1,231 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-04T22:00:00Z",
+      "endTime" : "2025-04-05T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung. Vorsicht vor schwachem Altschnee.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind vermehrt nasse Lawinen zu erwarten. Sie können teilweise die durchnässte Schneedecke mitreißen und vereinzelt groß werden. Dies vor allem an sehr steilen Sonnenhängen unterhalb von rund 2800 m. <br/> <br/> Vormittag: Schwachschichten im Altschnee können vereinzelt von einzelnen Wintersportlern ausgelöst werden. Diese Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen oberhalb von rund 2400 m sowie an sehr steilen West- und Osthängen oberhalb von rund 2600 m. Nachmittag: Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Auslösebereitschaft von Schneebrettlawinen deutlich an. Die Lawinen sind meist mittelgroß. <br/> <br/> Zudem sind Gleitschneelawinen möglich. Vorsicht an Grashängen unterhalb von rund 2400 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die nächtliche Abstrahlung war gut. Die Schneeoberfläche gefriert tragfähig und weicht schneller auf als am Vortag. Sonne und Wärme führen vor allem an Sonnenhängen unterhalb von rund 2800 m verbreitet zu einer zunehmenden Durchnässung der Schneedecke. <br/> <br/> In der Altschneedecke sind besonders an wenig befahrenen West-, Nord- und Osthängen störanfällige Schwachschichten vorhanden. Dies an Schattenhängen oberhalb von rund 2400 m sowie an West- und Osthängen oberhalb von rund 2600 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Rückgang der Gefahr von nassen Lawinen mit der Abkühlung.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-05T22:00:00Z",
+        "endTime" : "2025-04-06T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "E", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "SW", "S", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "E", "W" ]
+    } ],
+    "bulletinID" : "0aa9398d-ad55-4845-a0e0-7ecba48056b7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-04T22:00:00Z",
+      "endTime" : "2025-04-05T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.",
+      "comment" : "Lawinen können sehr vereinzelt von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen in der Höhe. <br/> Mit der Sonneneinstrahlung sind einzelne nasse Lawinen möglich. Dies an steilen Sonnenhängen sowie an steilen Westhängen. In den an die Gefahrenstufe 3, \"erheblich\" angrenzenden Gebieten sind die Gefahrenstellen häufiger und die Gefahr höher. <br/> Lawinen sind meist klein."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert nur knapp und weicht rasch auf. In der Altschneedecke sind besonders an steilen Schattenhängen vereinzelt störanfällige Schwachschichten vorhanden. <br/> <br/> Die Schneedecke ist allgemein kleinräumig sehr unterschiedlich. Es liegt nur noch wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Geringe Lawinengefahr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-05T22:00:00Z",
+        "endTime" : "2025-04-06T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "SW", "E", "S", "W" ]
+    } ],
+    "bulletinID" : "24a12837-1a46-4d40-b524-fd7ec120b3f6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
