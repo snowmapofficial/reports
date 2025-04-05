@@ -1,0 +1,104 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="3f07d6a4-7f3d-4d19-b3a2-39fbb7c25da2" lang="fr">
+    <publicationTime>2025-04-05T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-04-05T22:00:00Z</startTime>
+      <endTime>2025-04-06T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-34-BL-05">
+      <name>Alpago - Cansiglio</name>
+    </region>
+    <region regionID="IT-34-BL-06">
+      <name>Vette Feltrine, Visentin, Grappa</name>
+    </region>
+    <region regionID="IT-34-BL-03">
+      <name>Ansiei - Comelico</name>
+    </region>
+    <region regionID="IT-34-BL-04">
+      <name>Cadore</name>
+    </region>
+    <region regionID="IT-34-VR-01">
+      <name>Baldo, Lessini</name>
+    </region>
+    <region regionID="IT-34-BL-01">
+      <name>Agordino, Zoldano</name>
+    </region>
+    <region regionID="IT-34-BL-02">
+      <name>Ampezzo - Cadore</name>
+    </region>
+    <region regionID="IT-34-VI-01">
+      <name>Altopiano, Pasubio, Carega</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1700</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1700</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1700</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wind_slab</problemType>
+      <elevation uom="m">
+        <lowerBound>2200</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Augmentation du danger d'avalanches mouillées avec le réchauffement diurne et le rayonnement solaire.</highlights>
+      <comment>Des avalanches de neige mouillée et de glissement de petite et moyenne taille sont possibles avec le réchauffement diurne et le rayonnement solaire. Ceci surtout sur les pentes très raides ensoleillées en dessous d'environ 2800 m. Elles peuvent parfois entraîner le manteau neigeux entièrement mouillé et atteindre une grande taille de manière isolée. Il convient de tenir compte du danger d'être emporté et entraîné dans une chute. &lt;br/> Les accumulations de neige soufflée devraient être évaluées avec prudence surtout sur les pentes très raides à l'ombre au-dessus d'environ 2200 m. Elles peuvent être déclenchées avec en général une surcharge importante et atteindre une taille moyenne, surtout à proximité des crêtes. Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement d'avalanches de plaque de neige augmente progressivement. &lt;br/> En outre, des avalanches de glissement sont possibles. Prudence sur les pentes herbeuses en dessous d'environ 2400 m.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées exposées à l'ouest, au nord et à l'est. &lt;br/> La surface de la neige regèle à peine et se ramollit plus vite que la veille. Le soleil et la chaleur entraînent surtout sur les pentes au soleil généralement une saturation d'eau croissante du manteau neigeux.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <highlights>Diminution progressive du danger d'avalanches humides et mouillées avec le refroidissement.</highlights>
+      <tendencyType>decreasing</tendencyType>
+      <validTime>
+        <startTime>2025-04-06T22:00:00Z</startTime>
+        <endTime>2025-04-07T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-04-06</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
