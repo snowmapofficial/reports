@@ -1,0 +1,83 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-05T22:00:00Z",
+      "endTime" : "2025-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les conditions météorologiques permettent une solidification du manteau neigeux.",
+      "comment" : "Avec le refroidissement le danger d'avalanches diminue. Les endroits dangereux se situent surtout au pied des parois rocheuses et derrière les ruptures de terrain ainsi que près des crêtes, combes et couloirs. En outre des accumulations de neige soufflée doivent être prises en considération. <br/> Les avalanches peuvent être déclenchées avec une surcharge importante. <br/> Sur la surface de neige dure il existe en de nombreux endroits un risque de chute."
+    },
+    "snowpackStructure" : {
+      "comment" : "Les conditions météorologiques exceptionnelles ont entraîné une solidification du manteau neigeux. La surface de la neige regèle et devient porteuse. Dans le manteau neigeux des couches fragiles sont présentes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "En général vent modéré. Il fait froid. <br/> Avec le refroidissement l'activité des avalanches diminue progressivement.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-06T22:00:00Z",
+        "endTime" : "2025-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "W", "SE", "NW", "N", "S", "SW" ]
+    } ],
+    "bulletinID" : "995ff1cf-3343-405c-a7c9-d840b1057d27",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
