@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-05T22:00:00Z",
+      "endTime" : "2025-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of wet avalanches as a consequence of warming during the day and solar radiation.",
+      "comment" : "Small and medium-sized wet and gliding avalanches are possible as a consequence of warming during the day and solar radiation. This applies in particular on very steep sunny slopes below approximately 2800 m. They can in some cases release the saturated snowpack and reach large size in isolated cases. Restraint should be exercised because avalanches can sweep people along and give rise to falls. <br/> The wind slabs are to be evaluated with care and prudence in particular on very steep shady slopes above approximately 2200 m. They can be released, mostly by large loads and reach medium size, in particular adjacent to ridgelines. As a consequence of warming during the day and the solar radiation, the likelihood of slab avalanches being released will increase gradually. <br/> Gliding avalanches can also occur. Caution is to be exercised on grassy slopes below approximately 2400 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Avalanche prone weak layers exist in the old snowpack especially on little used west, north and east facing slopes. <br/> The surface of the snowpack will only just freeze and will soften earlier than the day before. Sunshine and high temperatures will give rise to increasing and thorough wetting of the snowpack over a wide area in particular on sunny slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gradual decrease in danger of moist and wet avalanches as the temperature drops.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-06T22:00:00Z",
+        "endTime" : "2025-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "W", "SE", "NW", "N", "S", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "3f07d6a4-7f3d-4d19-b3a2-39fbb7c25da2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
