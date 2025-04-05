@@ -1,0 +1,104 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="3f07d6a4-7f3d-4d19-b3a2-39fbb7c25da2" lang="en">
+    <publicationTime>2025-04-05T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-04-05T22:00:00Z</startTime>
+      <endTime>2025-04-06T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-34-BL-05">
+      <name>Alpago - Cansiglio</name>
+    </region>
+    <region regionID="IT-34-BL-06">
+      <name>Vette Feltrine, Visentin, Grappa</name>
+    </region>
+    <region regionID="IT-34-BL-03">
+      <name>Ansiei - Comelico</name>
+    </region>
+    <region regionID="IT-34-BL-04">
+      <name>Cadore</name>
+    </region>
+    <region regionID="IT-34-VR-01">
+      <name>Baldo, Lessini</name>
+    </region>
+    <region regionID="IT-34-BL-01">
+      <name>Agordino, Zoldano</name>
+    </region>
+    <region regionID="IT-34-BL-02">
+      <name>Ampezzo - Cadore</name>
+    </region>
+    <region regionID="IT-34-VI-01">
+      <name>Altopiano, Pasubio, Carega</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1700</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1700</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1700</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wind_slab</problemType>
+      <elevation uom="m">
+        <lowerBound>2200</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Increase in danger of wet avalanches as a consequence of warming during the day and solar radiation.</highlights>
+      <comment>Small and medium-sized wet and gliding avalanches are possible as a consequence of warming during the day and solar radiation. This applies in particular on very steep sunny slopes below approximately 2800 m. They can in some cases release the saturated snowpack and reach large size in isolated cases. Restraint should be exercised because avalanches can sweep people along and give rise to falls. &lt;br/> The wind slabs are to be evaluated with care and prudence in particular on very steep shady slopes above approximately 2200 m. They can be released, mostly by large loads and reach medium size, in particular adjacent to ridgelines. As a consequence of warming during the day and the solar radiation, the likelihood of slab avalanches being released will increase gradually. &lt;br/> Gliding avalanches can also occur. Caution is to be exercised on grassy slopes below approximately 2400 m.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Avalanche prone weak layers exist in the old snowpack especially on little used west, north and east facing slopes. &lt;br/> The surface of the snowpack will only just freeze and will soften earlier than the day before. Sunshine and high temperatures will give rise to increasing and thorough wetting of the snowpack over a wide area in particular on sunny slopes.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <highlights>Gradual decrease in danger of moist and wet avalanches as the temperature drops.</highlights>
+      <tendencyType>decreasing</tendencyType>
+      <validTime>
+        <startTime>2025-04-06T22:00:00Z</startTime>
+        <endTime>2025-04-07T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-04-06</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
