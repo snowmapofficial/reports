@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-05T22:00:00Z",
+      "endTime" : "2025-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation du danger d'avalanches mouillées avec le réchauffement diurne et le rayonnement solaire.",
+      "comment" : "Des avalanches de neige mouillée et de glissement de petite et moyenne taille sont possibles avec le réchauffement diurne et le rayonnement solaire. Ceci surtout sur les pentes très raides ensoleillées en dessous d'environ 2800 m. Elles peuvent parfois entraîner le manteau neigeux entièrement mouillé et atteindre une grande taille de manière isolée. Il convient de tenir compte du danger d'être emporté et entraîné dans une chute. <br/> Les accumulations de neige soufflée devraient être évaluées avec prudence surtout sur les pentes très raides à l'ombre au-dessus d'environ 2200 m. Elles peuvent être déclenchées avec en général une surcharge importante et atteindre une taille moyenne, surtout à proximité des crêtes. Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement d'avalanches de plaque de neige augmente progressivement. <br/> En outre, des avalanches de glissement sont possibles. Prudence sur les pentes herbeuses en dessous d'environ 2400 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans le manteau neigeux ancien des couches fragiles susceptibles d'être déclenchées sont présentes, spécialement sur les pentes peu fréquentées exposées à l'ouest, au nord et à l'est. <br/> La surface de la neige regèle à peine et se ramollit plus vite que la veille. Le soleil et la chaleur entraînent surtout sur les pentes au soleil généralement une saturation d'eau croissante du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Diminution progressive du danger d'avalanches humides et mouillées avec le refroidissement.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-06T22:00:00Z",
+        "endTime" : "2025-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "W", "SE", "NW", "N", "S", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "3f07d6a4-7f3d-4d19-b3a2-39fbb7c25da2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
