@@ -1,0 +1,131 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-05T22:00:00Z",
+      "endTime" : "2025-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Spontane Lawinen ab dem Morgen. Feuchte Schneebrettlawinen oberhalb von rund 1800 m.",
+      "comment" : "An steilen Hängen und oberhalb von rund 1800 m sind spontane Lawinen möglich, vereinzelt auch große. Besonders ungünstig sind auch Felswandfüße. Zudem besteht eine nicht zu unterschätzende Gefahr von feuchten Schneebrettlawinen. Schwachschichten im oberen Teil der Schneedecke erfordern eine defensive Routenwahl. Unterhalb von rund 1800 m sind meist kleine feuchte und nasse Lawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke bleibt allgemein feucht. Die frühlingshaften Wetterbedingungen führen auch in hohen Lagen zu einer zunehmenden Durchnässung der Schneedecke. In der Schneedecke sind an Nordost-, Nord- und Nordwesthängen vereinzelt störanfällige Schwachschichten vorhanden. Es fällt etwas Schnee. Wind und Neuschnee oberhalb von rund 1400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-06T22:00:00Z",
+        "endTime" : "2025-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "W", "SE", "NW", "N", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "E", "W", "SE", "NW", "N", "S", "SW" ]
+    } ],
+    "bulletinID" : "0078a99d-f9d4-4442-8a3e-378d90f0ee86",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-05T22:00:00Z",
+      "endTime" : "2025-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schneefall oberhalb von rund 1200 m.",
+      "comment" : "Dort wo mehr Schnee fällt wird die Gefahrenstufe 1, \"gering\" erreicht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Wetterbedingungen führen zu einer raschen Verfestigung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-04-06T22:00:00Z",
+        "endTime" : "2025-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "6d80b414-2b40-4982-b8f2-be980bc3ecaa",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
