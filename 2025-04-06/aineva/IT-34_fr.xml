@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-06T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="e9d1443f-eec9-47ab-8517-9fa54e868e82" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-06T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-06T22:00:00Z</beginPosition>
+          <endPosition>2025-04-07T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-07T22:00:00Z</beginPosition>
+                <endPosition>2025-04-08T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Des avalanches de plaque de neige et des avalanches humides et mouillées sont toujours possibles.</avActivityHighlights>
+          <avActivityComment>Des couches fragiles dans la neige ancienne peuvent encore être déclenchées de manière très isolée par des amateurs de sports d'hiver. Ces endroits dangereux se situent surtout sur les pentes extrêmement raides à l'ombre au-dessus d'environ 2200 m ainsi que sur les pentes très raides exposées à l'ouest et à l'est au-dessus d'environ 2800 m. Les avalanches sont généralement petites. Des avalanches de moyenne taille sont cependant toujours possibles. &lt;br/&gt; &lt;br/&gt; Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement de coulées de neige meuble humide augmente un peu sur les pentes extrêmement raides au soleil. &lt;br/&gt; &lt;br/&gt; Les accumulations de neige soufflée généralement petites des deux derniers jours sont partiellement fragiles particulièrement sur les pentes très raides à l'ombre en haute montagne. Il convient de tenir compte du danger d'être emporté et entraîné dans une chute. &lt;br/&gt; &lt;br/&gt; En outre, des avalanches de glissement isolées sont possibles. Ceci sur les pentes raides herbeuses en dessous d'environ 2600 m.</avActivityComment>
+          <snowpackStructureComment>Les accumulations de neige soufflée sont déjà assez bien liées avec la neige ancienne. &lt;br/&gt; Dans le manteau neigeux ancien des couches fragiles sont présentes, surtout sur les pentes à l'ombre. La surface de la neige regèle et devient porteuse.</snowpackStructureComment>
+          <tendencyComment>À toutes les altitudes et sur les pentes le danger d'avalanches diminue jusqu'au degré 1, "faible".</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
