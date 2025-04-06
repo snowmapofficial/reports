@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-06T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="e9d1443f-eec9-47ab-8517-9fa54e868e82" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-06T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-06T22:00:00Z</beginPosition>
+          <endPosition>2025-04-07T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-07T22:00:00Z</beginPosition>
+                <endPosition>2025-04-08T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Schneebrettlawinen und feuchte und nasse Lawinen sind weiterhin möglich.</avActivityHighlights>
+          <avActivityComment>Schwachschichten im Altschnee können sehr vereinzelt noch von Wintersportlern ausgelöst werden. Diese Gefahrenstellen liegen vor allem an extrem steilen Schattenhängen oberhalb von rund 2200 m sowie an sehr steilen West- und Osthängen oberhalb von rund 2800 m. Die Lawinen sind meist klein. Mittlere Lawinen sind aber weiterhin möglich. &lt;br/&gt; &lt;br/&gt; Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Auslösebereitschaft von feuchten Lockerschneerutschen an extrem steilen Sonnenhängen etwas an. &lt;br/&gt; &lt;br/&gt; Die meist kleinen Triebschneeansammlungen der letzten zwei Tage sind besonders an sehr steilen Schattenhängen im Hochgebirge teils störanfällig. Die Mitreiß- und Absturzgefahr sollte beachtet werden. &lt;br/&gt; &lt;br/&gt; Zudem sind einzelne Gleitschneelawinen möglich. Dies an steilen Grashängen unterhalb von rund 2600 m.</avActivityComment>
+          <snowpackStructureComment>Die Triebschneeansammlungen sind bereits recht gut mit dem Altschnee verbunden. &lt;br/&gt; In der Altschneedecke sind vor allem an Schattenhängen Schwachschichten vorhanden. Die Schneeoberfläche gefriert tragfähig.</snowpackStructureComment>
+          <tendencyComment>In allen Höhenlagen und an Hängen nimmt die Lawinengefahr ab auf die Stufe 1, "gering".</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
