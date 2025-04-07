@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-07T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="3e651d27-85c0-4ce9-81b3-65006703945d" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-07T22:00:00Z</beginPosition>
+          <endPosition>2025-04-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validElevation xlink:href="ElevationRange_1500Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-08T22:00:00Z</beginPosition>
+                <endPosition>2025-04-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Le condizioni meteo hanno favorito un consolidamento del manto nevoso.</avActivityHighlights>
+          <avActivityComment>Con il raffreddamento, l'attività di valanghe è diminuita progressivamente. I punti pericolosi si trovano soprattutto ai piedi di pareti rocciose e dietro ai cambi di pendenza come pure nelle zone in prossimità delle creste, nei canaloni e nelle conche. Inoltre è necessario fare attenzione agli accumuli di neve ventata. &lt;br/&gt; Le valanghe possono distaccarsi con un forte sovraccarico. &lt;br/&gt; Sulla dura superficie del manto nevoso sussiste un pericolo di caduta in molti punti.</avActivityComment>
+          <snowpackStructureComment>Le condizioni meteo hanno causato un consolidamento del manto nevoso. Con le basse temperature, si è formata una crosta superficiale. Nel corso della giornata l'irradiazione solare causerà sui pendii soleggiati un progressivo inumidimento del manto nevoso.</snowpackStructureComment>
+          <tendencyComment>Le condizioni rimangono invernali.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
