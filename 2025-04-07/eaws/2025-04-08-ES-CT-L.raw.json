@@ -1,0 +1,107 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-07T15:00:00Z",
+      "endTime" : "2025-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow require caution.",
+      "comment" : "A clear night will be followed in the early morning by favourable avalanche conditions generally. As the day progresses as a consequence of warming during the day and solar radiation there will be a gradual increase in the danger of wet and gliding avalanches to level 2 (moderate). This applies in particular in the regions with a lot of snow at the border to Benasque and at the border to Ribagorça and Pallars. These can to an increasing extent be released by people or triggered naturally. Gliding avalanches can also occur. <br/> <br/> The old wind slabs can be released in isolated cases on extremely steep, little used shady slopes and at elevated altitudes. In very isolated cases these are medium-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will freeze to form a strong crust and will soften during the day. The spring-like weather conditions as the day progresses will give rise to increasing moistening of the snowpack in all aspects. <br/> The old snowpack will be moist over a wide area. This applies on sunny slopes in all altitude zones, as well as on shady slopes at low and intermediate altitudes. <br/> <br/> In particular very steep, little used shady slopes: Individual weak layers exist in the old snowpack also at elevated altitudes. <br/> <br/> Backcountry tours should be started and concluded early."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Further increase in danger of wet and gliding avalanches as the moisture increases.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-08T15:00:00Z",
+        "endTime" : "2025-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    } ],
+    "bulletinID" : "75b01f5a-16dd-4c9f-bdd8-54b3e069cc67",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
