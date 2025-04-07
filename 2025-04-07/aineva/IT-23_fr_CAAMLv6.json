@@ -1,0 +1,164 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-07T22:00:00Z",
+      "endTime" : "2025-04-08T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les conditions de randonnées sont assez favorables le matin. Augmentation progressive du danger avec le réchauffement diurne et le rayonnement solaire.",
+      "comment" : "La surface de la neige regèle et devient porteuse et se ramollit en cours de journée. Des avalanches humides et mouillées de petite et moyenne taille sont possibles avec le réchauffement diurne et le rayonnement solaire. Ceci sur les pentes raides ensoleillées en dessous d'environ 2900 m et sur les pentes raides à l'ombre en dessous d'environ 2500 m. Des avalanches mouillées peuvent aussi de manière isolée être déclenchées dans les couches profondes du manteau neigeux et atteindre une taille assez importante. <br/> Les randonnées et montées en refuge devraient être terminées à temps. <br/> Les accumulations de neige soufflée fraîches peuvent être déclenchées de manière isolée par un seul amateur de sports d'hiver. En haute montagne ces endroits dangereux sont plus fréquents. Surtout sur la crête nord, où des vents forts sont localement attendus. <br/> Des avalanches peuvent de manière isolée entraîner avec elles les couches plus profondes du manteau neigeux. Ceci surtout sur les pentes très raides exposées au nord-ouest, au nord et au nord-est au-dessus d'environ 2400 m. Ces endroits dangereux sont très rares et à peine identifiables même pour un oeil exercé."
+    },
+    "snowpackStructure" : {
+      "comment" : "Tôt le matin: Il fait un temps partiellement nuageux. Ceci en dessous d'environ 2200 m. <br/> Avec les fortes variations de température une croûte de surface s'est formée dans les six derniers jours, ceci aussi sur les pentes à l'ombre en dessous d'environ 2500 m. <br/> Les conditions météorologiques printanières ont entraîné sur les pentes au soleil en dessous d'environ 2900 m une humidification croissante du manteau neigeux. La partie inférieure du manteau neigeux est mouillée, aussi sur les pentes à l'ombre en dessous d'environ 2400 m. Ces conditions météorologiques ont entraîné surtout sur les pentes au soleil un tassement du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-08T22:00:00Z",
+        "endTime" : "2025-04-09T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000",
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "N", "SE", "W", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "e3638733-6458-4666-b563-a9925c02a6de",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2900"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
