@@ -1,0 +1,127 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-07T22:00:00Z",
+      "endTime" : "2025-04-08T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Very isolated avalanche prone locations are to be found on very steep shady slopes at elevated altitudes.",
+      "comment" : "The fresh wind slabs can still be released in some cases in particular on near-ridge shady slopes and generally at elevated altitudes. This applies in particular in case of a large load. Medium-sized avalanches are possible. Avalanches can in very isolated cases be triggered in the old snowpack and reach large size. <br/> As the day progresses the likelihood of moist avalanches being released will increase in particular on steep sunny slopes. <br/> <br/> In many places there is a danger of falling on the hard snow surface."
+    },
+    "snowpackStructure" : {
+      "comment" : "The spring-like weather conditions gave rise to favourable bonding of the snowpack over a wide area in all aspects. The surface of the snowpack will freeze to form a strong crust and will soften during the day. <br/> The wind slabs have bonded quite well already with the old snowpack. <br/> Isolated avalanche prone weak layers exist in the old snowpack in particular on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-08T22:00:00Z",
+        "endTime" : "2025-04-09T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800",
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "SE", "W", "S", "E" ]
+    } ],
+    "bulletinID" : "69e4b21f-6968-4eff-bc1b-81587868f418",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
