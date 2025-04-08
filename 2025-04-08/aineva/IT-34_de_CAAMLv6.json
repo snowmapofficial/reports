@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-08T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-08T22:00:00Z",
+      "endTime" : "2025-04-09T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schneebrettlawinen beachten. Mit der tageszeitlichen Erwärmung sind feuchte Lawinen möglich.",
+      "comment" : "Schwachschichten im Altschnee können sehr vereinzelt noch von Wintersportlern ausgelöst werden. Diese Gefahrenstellen liegen vor allem an extrem steilen Schattenhängen oberhalb von rund 2500 m. <br/> Die meist kleinen Triebschneeansammlungen der letzten drei Tage sind besonders an sehr steilen Schattenhängen im Hochgebirge teils störanfällig. <br/> Auf der harten Kruste besteht im Steilgelände Absturzgefahr."
+    },
+    "snowpackStructure" : {
+      "comment" : "<br/> In der Altschneedecke sind vor allem an sehr steilen Schattenhängen Schwachschichten vorhanden. Die Schneeoberfläche gefriert tragfähig."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-09T22:00:00Z",
+        "endTime" : "2025-04-10T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "S", "SE", "SW", "NW", "E", "W" ]
+    } ],
+    "bulletinID" : "905aea01-8988-4e0f-8afe-5c17753e8d2e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
