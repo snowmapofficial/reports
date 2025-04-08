@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-08T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-08T22:00:00Z",
+      "endTime" : "2025-04-09T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La principale fonte di pericolo è costituita da valanghe umide e bagnate.",
+      "comment" : "Al di sopra dei 1800 m circa sono possibili colate e valanghe bagnate di medie dimensioni. Nel corso della giornata la probabilità di distacco aumenterà soprattutto sui pendii soleggiati ripidi. Particolarmente sfavorevoli sono anche i punti alla base di pareti rocciose, (--). Sui pendii ripidi esposti a nord est, nord e nord ovest, all'interno del manto nevoso si trovano isolati strati fragili."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neve fresca degli ultimi giorni si è leggermente assestata. Il manto nevoso rimane umido a livello generale. Le condizioni meteo causeranno un graduale inumidimento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-09T22:00:00Z",
+        "endTime" : "2025-04-10T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SE", "SW", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "S", "SE", "SW", "NW", "E", "W" ]
+    } ],
+    "bulletinID" : "dd27abca-8810-4f6f-97cc-993b59f326e4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
