@@ -1,0 +1,124 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Above approximately 1800 m medium-sized wet snow slides and avalanches are possible. As the day progresses the likelihood of avalanches being released will increase in particular on steep sunny slopes. Also bases of rock walls are especially unfavourable. Individual weak layers exist in the snowpack on steep northeast, north and northwest facing slopes.",
+        "highlights": "Moist and wet avalanches are the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SE",
+            "SW",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NE",
+            "NW"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "NE",
+            "S",
+            "SE",
+            "SW",
+            "NW",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "dd27abca-8810-4f6f-97cc-993b59f326e4",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-08T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-57-AP-01",
+          "name": "Monti Sibillini Ovest"
+        },
+        {
+          "regionID": "IT-57-MC-01",
+          "name": "Appennino Fabrianese"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The new snow of the last few days has settled a little. The snowpack remains generally moist. The weather conditions will give rise to gradual moistening of the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA Marche",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-04-09T22:00:00+00:00",
+            "endTime": "2025-04-10T22:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-08T22:00:00+00:00",
+        "endTime": "2025-04-09T22:00:00+00:00"
+      }
+    }
+  ]
+}
