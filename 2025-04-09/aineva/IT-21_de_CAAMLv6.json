@@ -1,0 +1,116 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-09T22:00:00Z",
+      "endTime" : "2025-04-10T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf rasch an auf die Stufe 2, \"mäßig\".",
+      "comment" : "Im Tagesverlauf steigt die Auslösebereitschaft von feuchten Lawinen vor allem an steilen Sonnenhängen unterhalb von rund 2800 m an. Zwischen etwa 2200 und 2800 m sind mittlere feuchte Schneebrettlawinen möglich. Lawinen können sehr vereinzelt im Altschnee anbrechen und groß werden. Weiter oben sind diese seltener. <br/> Oberhalb von rund 2800 m und kammnahe Schattenhänge: Die Triebschneeansammlungen können vor allem an den Expositionen Nordost über Nord bis Nordwest teilweise noch ausgelöst werden. Dies vor allem mit großer Belastung. <br/> <br/> In tiefen und mittleren Lagen und im felsdurchsetzten Steilgelände sind feuchte Rutsche und Lawinen möglich. Sie können vor allem aus noch nicht entladenen Einzugsgebieten abgehen. Unterhalb von rund 2000 m liegt wenig Schnee. <br/> <br/> Touren und Variantenabfahrten sollten sehr früh gestartet und beendet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert nur knapp und weicht schneller auf als am Vortag. Sonne und Wärme führen im Tagesverlauf vor allem an Sonnenhängen v.a. in tiefen und mittleren Lagen zu einer raschen Anfeuchtung der Schneedecke. <br/> <br/> Hohe Lagen und Hochgebirge, steile Schattenhänge: Tiefer in der Schneedecke sind grobkörnige Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Aktivität von feuchten und nassen Lawinen nimmt mit der Erwärmung schnell zu.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-10T22:00:00Z",
+        "endTime" : "2025-04-11T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE", "E", "S", "SW", "W", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "d2da0263-5871-4a3c-bcee-e8267af3002a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
