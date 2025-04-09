@@ -1,0 +1,107 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-09T15:00:00Z",
+      "endTime" : "2025-04-10T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow require caution.",
+      "comment" : "The early morning will see favourable avalanche conditions generally. As the day progresses as the moisture increases there will be a gradual increase in the danger of wet and gliding avalanches to level 2 (moderate). All aspects: These can to an increasing extent be released by people or triggered naturally. This applies in particular in the regions with a lot of snow at the border to Benasque and at the border to Ribagorça and Pallars."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will freeze to form a strong crust and will soften earlier than the day before. The old snowpack will be in most cases well bonded. <br/> <br/> Backcountry tours should be started and concluded early. Caution is to be exercised in areas with glide cracks."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Further increase in danger of wet and gliding avalanches as a consequence of warming during the day and solar radiation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-10T15:00:00Z",
+        "endTime" : "2025-04-11T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    } ],
+    "bulletinID" : "b676f2dc-63d3-42e9-9f8d-ddb1a58a00cc",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
