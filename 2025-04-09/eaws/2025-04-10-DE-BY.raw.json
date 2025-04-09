@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-09T15:00:00Z",
+      "endTime" : "2025-04-10T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Springtime conditions",
+      "comment" : "Avalanche danger is low. Gliding snow can be problematic. Isolated small glide-snow avalanches are possible on very steep slopes over smooth ground that have not yet discharged, in sparsely wooded deciduous forests or on smooth rock slabs. Due to solar radiation isolated (mostly small-sized) wet loose snow slides can trigger on extremely steep rocky slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is well consolidated and stable. In early morning the surface is most of the time encrusted, before solar radiation turns it into firn. Only in steep shady terrain at highest altitudes is the snow at the surface still soft and dry. On the sunny side the snowpack is becoming more and more shallow up to high altitudes; in many places the snowpack base is wet."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger levels will remain low.",
+      "validTime" : {
+        "startTime" : "2025-04-10T15:00:00Z",
+        "endTime" : "2025-04-11T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "W", "E", "NW", "SE", "S", "SW", "N" ]
+    } ],
+    "bulletinID" : "8e5f5d04-4028-485e-ae73-97e70f643f9a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Favorable avalanche situation."
+  }
+}
