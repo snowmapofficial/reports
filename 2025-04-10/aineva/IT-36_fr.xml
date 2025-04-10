@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-10T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="ec70dd19-da5f-4aca-96c3-5b01ba0d742e" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-10T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-10T22:00:00Z</beginPosition>
+          <endPosition>2025-04-11T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1600Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1600Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-11T22:00:00Z</beginPosition>
+                <endPosition>2025-04-12T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Le danger d'avalanches humides et mouillées augmente en cours de journée.</avActivityHighlights>
+          <avActivityComment>Avec le réchauffement diurne et le rayonnement solaire les endroits dangereux se multiplient. Les endroits dangereux se situent surtout au pied des parois rocheuses et derrière les ruptures de terrain ainsi que près des crêtes, combes et couloirs. En outre des accumulations de neige soufflée doivent être prises en considération. &lt;br/&gt; Les avalanches peuvent être déclenchées avec une surcharge importante. &lt;br/&gt; Sur la surface de neige dure il existe en de nombreux endroits un risque de chute. Ceci surtout en matinée par nuit claire.</avActivityComment>
+          <snowpackStructureComment>Le rayonnement solaire en cours de journée entraîne sur les pentes au soleil une saturation d'eau croissante du manteau neigeux. Sur les pentes exposées au sud il y a peu de neige à basse et moyenne altitude.</snowpackStructureComment>
+          <tendencyComment>Réchauffement persistant. Le danger d'avalanches humides et mouillées augmente.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
