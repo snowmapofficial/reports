@@ -1,0 +1,335 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-11T15:00:00Z",
+      "endTime" : "2025-04-12T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Friday night, clouds will pass through, but skies will often be clear or only partially cloudy. The initially brisk W/NW wind will slacken off during the night. Saturday will be very sunny with good visibility, only a few clouds near Hohe Tauern and Niedere Tauern. Winds will be light to moderate, shifting to southerly later in the day.  At 2000m: 3-9 degrees; at 3000m: -1 to +3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime increase in avalanche danger due to wet-snow avalanches, fewer danger zones for slab avalanches",
+      "comment" : "Avalanche danger increases during the daytime hours. In the morning danger above 2400m is moderate, below that altitude danger is low. Medium-sized slab avalanches can be triggered by minimum additional loading in some places, caution urged in transitions from shallow to deeper snow. Danger zones occur esp. on very steep north-facing slopes above 2400m and on W/E-facing slopes above 2600m. Due to daytime warmth and solar radiation, avalanche danger increases to moderate during the daytime at all altitudes. On extremely steep sunny slopes, small moist loose-snow avalanches can trigger naturally during the course of the day or be triggerered by persons descending and grow to medium size, esp. in high-altitude starting zones. Backcountry tours and ascents to refuges should be launched early and come to an end early in the day. From very steep grass-covered slopes, isolated small-to-medium glide-snow avalanches can trigger naturally."
+    },
+    "snowpackStructure" : {
+      "comment" : "The melt-freeze encrusted snowpack gradually softens up during the early daytime hours. In extended north-facing terrain there are still weak layers of faceted crystals in the old snowpack. On shady summit slopes, shallow snowdrift patches lie deposited often atop weak layers of surface hoar or faceted crystals. In high-alpine regions, thin snowdrifts are being generated on E/S-facing slopes. On shady slopes below 2200m and on sunny slopes, the old snowpack is mostly moist. On very steep, little structure terrain surfaces, the entire snowpack oftens glides downhill."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The snowpack is becoming thoroughly wet. Main danger: wet-snow and glide-snow avalanches.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-12T15:00:00Z",
+        "endTime" : "2025-04-13T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "N", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "S", "SE", "N", "SW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "SW", "W", "S", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "N", "NW", "W", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "E", "N", "SW", "NW", "W", "S", "SE", "NE" ]
+    } ],
+    "bulletinID" : "082536cd-e629-4951-905b-684780d981c7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Großvenedigergruppe Nord",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe Nord",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Großvenedigergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Alpenhauptkamm",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Alpenhauptkamm",
+      "regionID" : "AT-05-05"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-11T15:00:00Z",
+      "endTime" : "2025-04-12T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Friday night, clouds will pass through, but skies will often be clear or only partially cloudy. The initially brisk W/NW wind will slacken off during the night. Saturday will be very sunny with good visibility, only a few clouds near Hohe Tauern and Niedere Tauern. Winds will be light to moderate, shifting to southerly later in the day.  At 2000m: 3-9 degrees; at 3000m: -1 to +3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime increase in avalanche danger due to wet-snow avalanches",
+      "comment" : "Due to daytime warming and solar radiation, avalanche danger increases to moderate at all altitudes during the course of the day. On very steep sunny steep slopes, likelihood of wet-snow avalanches will increase somewhat, either triggering naturally or by persons during the ascent, mostly small releases. but sometimes reaching medium size in high-altitude starting zones. Backcountry tours and ascents to refuges should be launched early and come to an end early in the day. From very steep grass-covered slopes, isolated small-to-medium glide-snow avalanches can trigger naturally. In very steep grass-covered terrain, in addition, mostly small glide-snow avalanches can trigger naturally. Very isolated danger zones for slab avalanches in the old snow occur on very steep shady slopes above 2400m. Danger zones occur in wind-loaded gullies and bowls, behind protruberances in the terrain and in ridgeline terrain, as well as in transitions from shallow to deeper snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "The melt-freeze encrusted snowpack, only sometimes capable of bearing loads, gradually softens up during the early daytime hours. In extended north-facing terrain there are still weak layers of faceted crystals in the old snowpack. On shady summit slopes, shallow snowdrift patches lie deposited often atop weak layers of surface hoar or faceted crystals. In high-alpine regions, thin snowdrifts are being generated on E/S-facing slopes. On shady slopes below 2200m and on sunny slopes, the old snowpack is mostly moist. On very steep, little structure terrain surfaces, the entire snowpack oftens glides downhill."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The snowpack is becoming thoroughly wet. Main danger: wet-snow and glide-snow avalanches.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-12T15:00:00Z",
+        "endTime" : "2025-04-13T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "S", "W", "SW", "SE", "NE", "N", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "W", "S", "SE", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "S", "SE", "N", "SW", "NE" ]
+    } ],
+    "bulletinID" : "dfbc6c27-eff1-45c9-a962-9eb1bbc14d5e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Goldberggruppe Nord",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Niedere Tauern Nord",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Loferer und Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Oberpinzgauer Grasberge",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Kitzbüheler Alpen, Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Ankogelgruppe, Muhr",
+      "regionID" : "AT-05-03"
+    }, {
+      "name" : "Niedere Tauern Süd",
+      "regionID" : "AT-05-02"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    }, {
+      "name" : "Chiemgauer Alpen, Heutal, Reiteralpe",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-11T15:00:00Z",
+      "endTime" : "2025-04-12T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Friday night, clouds will pass through, but skies will often be clear or only partially cloudy. The initially brisk W/NW wind will slacken off during the night. Saturday will be very sunny with good visibility, only a few clouds near Hohe Tauern and Niedere Tauern. Winds will be light to moderate, shifting to southerly later in the day.  At 2000m: 3-9 degrees; at 3000m: -1 to +3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime possibility of small wet-snow avalanches",
+      "comment" : "Avalanche danger is low. During the course of the day, likelihood of small wet-snow avalanches triggering on sunny steep slopes will increase somewhat. On very steep grass-covered slopes below 2600m which have not yet discharged, isolated mostly small glide-snow avalanches can trigger naturally or by persons on their ascent, mostly small releases. In very steep grass-covered terrain, isolated small glide-snow avalanches can trigger naturally."
+    },
+    "snowpackStructure" : {
+      "comment" : "Little snow on the ground. The melt-freeze crust is often capable of bearing loads, but gradually softens in the morning and forfeits its bonding. On very steep, smooth slopes the entire snowpack can glide away in places."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Little change expected",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-12T15:00:00Z",
+        "endTime" : "2025-04-13T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "S", "W", "SW", "SE", "NE", "N", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "W", "S", "SE", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "S", "SE", "N", "SW", "NE" ]
+    } ],
+    "bulletinID" : "fb2f6009-81dc-477d-9985-ef6d6497a6c2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    }, {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Daytime increase in avalanche danger"
+  }
+}
