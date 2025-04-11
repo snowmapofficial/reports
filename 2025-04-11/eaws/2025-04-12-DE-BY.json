@@ -1,0 +1,239 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is low. Wet snow can be problematic. Small wet glide-snow avalanches are possible in all aspects on very steep slopes over smooth ground that have not yet discharged. Where there is still enough snow, small wet loose snow avalanches can in addition release spontaneously on extremely steep E/S/W-facing slopes during the course of the day.",
+        "highlights": "Slight daytime danger cycle due to solar warming."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "W",
+            "SW",
+            "SE",
+            "NE",
+            "N",
+            "NW",
+            "E"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "30a9a4a4-bd0f-4e7b-8a3a-c9e0d1f34bb0",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-12"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-11T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In the morning, the snowpack is covered by a crust capable of bearing loads. As the day progresses, solar radiation will soften it completely; the snowpack is becoming increasingly wet. In south-facing terrain there is barely any snow left."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "validTime": {
+            "startTime": "2025-04-12T15:00:00+00:00",
+            "endTime": "2025-04-13T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-11T15:00:00+00:00",
+        "endTime": "2025-04-12T15:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is low in early morning, rises to moderate above 1600 m as the day unfolds. In addition, gliding  snow can be problematic. Glide-snow avalanches are possible in all aspects on very steep slopes over smooth ground that have not yet discharged, in sparsely wooded deciduous forests, or on smooth rock slabs. As the day progresses, medium-sized glide-snow avalanches cannot be ruled out in sunny higher altitude terrain. Where there is still enough snow, wet loose snow avalanches can release spontaneously on extremely steep E/S/W-facing slopes during the course of the day. Above 1600m releases can grow to medium size, if the thoroughly wet snowpack is entrained completely.",
+        "highlights": "Springtime conditions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "S",
+            "W",
+            "SW",
+            "SE",
+            "NE",
+            "N",
+            "NW",
+            "E"
+          ],
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "W",
+            "S",
+            "SE",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "S",
+            "SE",
+            "N",
+            "SW",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "cda2da7d-b1e2-4dcf-9855-3118af1ae081",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-12"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-11T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In the morning, the snowpack is covered by a crust capable of bearing loads. As the day progresses, solar radiation will soften it completely; the snowpack is becoming increasingly wet. Only in steep shady cirques at high altitude is the superficial snow still dry and soft. In south-facing terrain there is barely any snow left up to high altitudes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Due to milder temperatures and cloudy skies, wet snow will become an issue on Sunday even in the morning.",
+          "validTime": {
+            "startTime": "2025-04-12T15:00:00+00:00",
+            "endTime": "2025-04-13T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-11T15:00:00+00:00",
+        "endTime": "2025-04-12T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "generalHeadline": "Start and end backcountry tours early!"
+  }
+}
