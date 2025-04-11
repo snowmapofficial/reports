@@ -1,0 +1,87 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Sytuacja lawinowa zmienna w zale\u017cno\u015bci od wystawy i wysoko\u015bci. W wy\u017cszych partiach g\u00f3r, na skutek dzia\u0142alno\u015bci wiatru utworzy\u0142y si\u0119 liczne depozyty \u015bwie\u017co nagromadzonego \u015bniegu. Depozyty te o zmiennej mi\u0105\u017cszo\u015bci, usytuowane we wszelkich zag\u0142\u0119bieniach terenowych, pod \u015bcianami oraz na stokach w pobli\u017cu grani. \"Pu\u0142apki\" te le\u017c\u0105 na starej zmro\u017conej warstwie. Poni\u017cej 1700m \u015bnieg mokry, przepadaj\u0105cy."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "NE",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          }
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "NE",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "1700"
+          }
+        }
+      ],
+      "bulletinID": "PL-12_2025-04-12 20:00",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-12"
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "publicationTime": "2025-04-11T17:20:00",
+      "regions": [
+        {
+          "regionID": "PL-12"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Pokrywa \u015bnie\u017cna jest na og\u00f3\u0142 zwi\u0105zana dobrze, ale na niekt\u00f3rych stromych stokach jest zwi\u0105zana umiarkowanie. Wyzwolenie lawiny jest mo\u017cliwe przewa\u017cnie przy du\u017cym obci\u0105\u017ceniu dodatkowym, szczeg\u00f3lnie na stromych stokach wskazanych w komunikacie lawinowym. Samoistne zej\u015bcie bardzo du\u017cych lawin jest ma\u0142o prawdopodobne."
+      },
+      "source": {
+        "provider": {
+          "name": "Tatra\u0144skie OPR",
+          "website": "https://lawiny.topr.pl/"
+        }
+      },
+      "travelAdvisory": {
+        "comment": "Cz\u0119\u015bciowo niekorzystne warunki. Poruszanie si\u0119 wymaga umiej\u0119tno\u015bci oceny lokalnego zagro\u017cenia lawinowego, odpowiedniego wyboru trasy oraz zachowania elementarnych \u015brodk\u00f3w bezpiecze\u0144stwa na wszystkich stromych stokach, a szczeg\u00f3lnie na wskazanych w komunikacie lawinowym, jako niekorzystnych pod wzgl\u0119dem wystawy lub wysoko\u015bci."
+      },
+      "validTime": {
+        "startTime": "2025-04-11T17:20:00",
+        "endTime": "2025-04-12T20:00:00"
+      }
+    }
+  ]
+}
