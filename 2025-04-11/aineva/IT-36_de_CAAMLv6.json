@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-11T14:40:14Z",
+    "validTime" : {
+      "startTime" : "2025-04-10T22:00:00Z",
+      "endTime" : "2025-04-11T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung nehmen die Gefahrenstellen zu. Die Gefahrenstellen liegen vor allem an Felswandfüßen und hinter Geländekanten sowie in Kammlagen, Rinnen und Mulden. Zudem müssen Triebschneeansammlungen beachtet werden. <br/> Die Lawinen können mit großer Belastung ausgelöst werden. <br/> Auf der harten Schneeoberfläche besteht vielerorts Absturzgefahr. Dies vor allem am Vormittag bei klarer Nacht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Sonneneinstrahlung führt im Tagesverlauf an Sonnenhängen zu einer zunehmenden Durchnässung der Schneedecke. An Südhängen liegt in tiefen und mittleren Lagen wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Weitere Erwärmung. Die Gefahr von feuchten und nassen Lawinen steigt an.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-11T22:00:00Z",
+        "endTime" : "2025-04-12T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "E", "NW", "NE", "S", "SE", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "E", "NW", "NE", "S", "SE", "N", "W" ]
+    } ],
+    "bulletinID" : "ec70dd19-da5f-4aca-96c3-5b01ba0d742e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
