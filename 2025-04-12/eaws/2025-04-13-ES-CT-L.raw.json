@@ -1,0 +1,78 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T15:00:00Z",
+      "endTime" : "2025-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The avalanche conditions are precarious. Moist slab avalanches and gliding avalanches require caution.",
+      "comment" : "As a consequence of high temperatures, rain up to high altitudes and the moderate southerly wind, no crust will develop on the surface during the course of the night. All aspects: As the penetration by moisture increases wet and gliding avalanches are to be expected at any time, even large ones in isolated cases. These can to an increasing extent be released by people or triggered naturally."
+    },
+    "snowpackStructure" : {
+      "comment" : "The spring-like weather conditions gave rise to increasing moistening of the old snowpack in all aspects. Several medium-sized to large moist slab avalanches have been released in the last few days. The surface of the snowpack will freeze very little. The rain will give rise as the day progresses to increasing and thorough wetting of the old snowpack in particular on shady slopes at intermediate and high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Further increase in danger of wet and gliding avalanches as the precipitation becomes more intense.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-13T15:00:00Z",
+        "endTime" : "2025-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "E", "NW", "N", "SE", "S", "W", "SW" ]
+    } ],
+    "bulletinID" : "850b8592-ddf6-464f-a246-9030d309b184",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
