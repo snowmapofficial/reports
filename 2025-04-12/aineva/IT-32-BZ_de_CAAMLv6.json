@@ -1,0 +1,219 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T22:00:00Z",
+      "endTime" : "2025-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weiterer Anstieg der Gefahr von nassen Lawinen. Ab dem Vormittag wird die Gefahrenstufe 3, \"erheblich\" erreicht.",
+      "comment" : "Die Gefahr von nassen Lawinen steigt bereits am Vormittag an. Dies an allen Expositionen unterhalb von rund 2600 m. Vor allem an sehr steilen West-, Nord- und Osthängen sind mit der Durchnässung vermehrt nasse Schneebrettlawinen möglich, besonders in den Gebieten mit Regen. Lawinen können die durchnässte Schneedecke mitreißen und mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die nächtliche Abstrahlung ist stark eingeschränkt. Die Schneeoberfläche gefriert nur knapp und ist schon am Morgen aufgeweicht. Die hohe Luftfeuchtigkeit führt im Tagesverlauf unterhalb von rund 2600 m zu einer zunehmenden Durchnässung der Schneedecke. Es fällt gebietsweise Regen bis in hohe Lagen. Der Regen führt besonders an West-, Nord- und Osthängen zu einem Festigkeitsverlust innerhalb der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Nassschnee ist die Hauptgefahr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-13T22:00:00Z",
+        "endTime" : "2025-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    } ],
+    "bulletinID" : "b88618a6-fb8b-473c-a34a-2a8a11745ea7",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T22:00:00Z",
+      "endTime" : "2025-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von nassen Lawinen steigt an.",
+      "comment" : "Mit der Durchnässung sind einzelne nasse Lawinen möglich, aber meist nur kleine."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die nächtliche Abstrahlung ist stark eingeschränkt. Die Schneeoberfläche gefriert kaum und ist schon am Morgen aufgeweicht. Die hohe Luftfeuchtigkeit führt zu einer zunehmenden Durchnässung der Schneedecke. Es fällt gebietsweise etwas Regen. Der Regen führt zu einem Festigkeitsverlust innerhalb der Schneedecke. <br/> Es liegt nur noch wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Nassschnee beachten.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-13T22:00:00Z",
+        "endTime" : "2025-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "N", "NE", "NW", "W" ]
+    } ],
+    "bulletinID" : "d0a42de4-a82f-4f15-b80e-9f232dfe39be",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
