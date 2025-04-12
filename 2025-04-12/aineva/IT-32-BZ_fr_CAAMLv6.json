@@ -1,0 +1,219 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T22:00:00Z",
+      "endTime" : "2025-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation étendue du danger d'avalanches mouillées. À partir de la matinée le degré de danger 3, \"marqué\" sera atteint.",
+      "comment" : "Le danger d'avalanches mouillées augmente dès la matinée. Ceci à toutes les expositions en dessous d'environ 2600 m. Avec l'humidification totale de plus en plus nombreuses avalanches de plaque de neige mouillée sont possibles surtout sur les pentes très raides exposées à l'ouest, au nord et à l'est, notamment dans les régions où il pleut. Des avalanches peuvent entraîner le manteau neigeux entièrement mouillé et atteindre une taille moyenne."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le rayonnement nocturne est fortement réduit. La surface de la neige regèle à peine et est déjà ramollie le matin. La forte humidité de l'air entraîne en cours de journée en dessous d'environ 2600 m une saturation d'eau croissante du manteau neigeux. Il tombe de la pluie jusqu'à haute altitude dans certaines régions. La pluie entraîne spécialement sur les pentes exposées à l'ouest, au nord et à l'est une perte de solidité au sein du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige mouillée constituant le danger principal.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-13T22:00:00Z",
+        "endTime" : "2025-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    } ],
+    "bulletinID" : "b88618a6-fb8b-473c-a34a-2a8a11745ea7",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T22:00:00Z",
+      "endTime" : "2025-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Le danger d'avalanches mouillées augmente.",
+      "comment" : "Avec l'humidification totale des avalanches mouillées isolées sont possibles, mais en général uniquement de petite taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le rayonnement nocturne est fortement réduit. La surface de la neige regèle peu et est déjà ramollie le matin. La forte humidité de l'air entraîne une saturation d'eau croissante du manteau neigeux. Il tombe un peu de pluie dans certaines régions. La pluie entraîne une perte de solidité au sein du manteau neigeux. <br/> On ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige mouillée à surveiller.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-13T22:00:00Z",
+        "endTime" : "2025-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "N", "NE", "NW", "W" ]
+    } ],
+    "bulletinID" : "d0a42de4-a82f-4f15-b80e-9f232dfe39be",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
