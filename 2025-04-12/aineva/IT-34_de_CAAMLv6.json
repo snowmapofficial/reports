@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-12T22:00:00Z",
+      "endTime" : "2025-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Schwachschichten im Altschnee können vor allem an steilen Schattenhängen vereinzelt schon von einzelnen Wintersportlern ausgelöst werden. Dies vor allem im selten befahrenen Gelände sowie an eher schneearmen Stellen oberhalb der Waldgrenze. Lawinen können bis in tiefe Schichten durchreißen und eine gefährliche Größe erreichen. Ausgeprägte Schwachschichten im Altschnee erfordern eine defensive Routenwahl."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Altschneedecke ist kantig aufgebaut und schwach, mit einer tragfähigen Kruste an der Oberfläche. <br/> Die Schneedecke ist hart, mit einer oft tragfähigen Schmelzharschkruste an der Oberfläche. Dies vor allem an steilen Sonnenhängen oberhalb der Waldgrenze. Die Schneeoberfläche weicht im Tagesverlauf auf. Die frühlingshaften Wetterbedingungen führen im Tagesverlauf v.a. an sehr steilen Hängen stellenweise zu einem Festigkeitsverlust innerhalb der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-04-13T22:00:00Z",
+        "endTime" : "2025-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "S", "E", "N", "SW", "NE", "NW", "W" ]
+    } ],
+    "bulletinID" : "3c23df9b-2911-4fb6-9eb4-0a02b95d7f5a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
