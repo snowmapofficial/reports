@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-13T22:00:00Z",
+      "endTime" : "2025-04-14T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il tombe en général un peu de neige. Avec les précipitations les endroits dangereux se multiplient.",
+      "comment" : "Aujourd'hui il tombera en général de la neige au-dessus d'environ 2100 m. <br/> Des avalanches de petite et moyenne taille sont possibles avec les précipitations. En dessous d'environ 2300 m des avalanches humides et mouillées sont à attendre. <br/> La neige fraîche ainsi que les accumulations de neige soufflée se formant de manière isolée peuvent être déclenchées par un seul amateur de sports d'hiver au-dessus d'environ 2500 m. <br/> Des avalanches peuvent de manière isolée se déclencher dans la neige ancienne et atteindre une grande taille. <br/> Samedi: Moins de neige fraîche et de vent qu'attendu:"
+    },
+    "snowpackStructure" : {
+      "comment" : "Samedi: Moins de neige fraîche et de vent qu'attendu: <br/> Depuis dimanche il est tombé de la neige au-dessus d'environ 2000 m. La neige fraîche repose en général sur un manteau neigeux humide. <br/> Le mélange de pluie et de neige entraîne surtout à basse et moyenne altitude une humidification croissante du manteau neigeux. <br/> Dans le manteau neigeux des couches fragiles isolées susceptibles d'être déclenchées sont présentes à haute altitude et en haute montagne. <br/> En dessous d'environ 2000 m il y a peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Chutes de neige continues jusqu'aux altitudes moyennes. Avec l'intensification des précipitations le danger d'avalanches augmente progressivement.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-14T22:00:00Z",
+        "endTime" : "2025-04-15T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP4" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "W", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "4b1d1ecf-c8ba-4392-a7f6-cf9a1bde0160",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
