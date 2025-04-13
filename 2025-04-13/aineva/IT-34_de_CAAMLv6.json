@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-13T22:00:00Z",
+      "endTime" : "2025-04-14T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Regen bis 2400 m. Lokal Schneefall bis über 2400 m. Mit der Durchnässung sind feuchte und nasse Lawinen zu erwarten, aber diese können mittlere Größe erreichen.",
+      "comment" : "Der Schneeregen führt verbreitet zu einer Durchnässung der Altschneedecke. Diese Bedingungen verursachen vor allem an Ost-, Nord- und Westhängen eine Zunahme der Gefahr von Nass- und Gleitschneelawinen, vor allem unterhalb von rund 2400 m. <br/> Es fallen oberhalb von rund 2400 m 5 bis 20 cm Schnee, lokal bis zu 15 cm. Der feuchte Neuschnee sowie die vereinzelt entstehenden Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden, v.a. an sehr steilen Schattenhängen oberhalb von rund 2500 m. Zudem können stellenweise feuchte Lawinen v.a. an sehr steilen Ost-, Nord- und Westhängen im schwachen Altschnee ausgelöst werden. Lawinen können die durchnässte Schneedecke mitreißen und mittlere Größe erreichen. <br/> Für Touren sind die Verhältnisse ungünstig, vor allem in mittleren und hohen Lagen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die hohe Luftfeuchtigkeit führte unterhalb von rund 2500 m verbreitet zu einer Anfeuchtung der Schneedecke. <br/> Die nächtliche Abstrahlung ist stark eingeschränkt. Die Schneeoberfläche gefriert nur knapp und ist schon am Morgen aufgeweicht. Die Wärme führt unterhalb von rund 2500 m zu einer zunehmenden Durchnässung der Schneedecke. Diese Wetterbedingungen führen zu einem Festigkeitsverlust innerhalb der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Regen bis 2500 m. Weiterer Anstieg der Gefahr von feuchten und nassen Lawinen.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-14T22:00:00Z",
+        "endTime" : "2025-04-15T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "E", "W", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "E", "W", "NW" ]
+    } ],
+    "bulletinID" : "802f794e-8ebe-406b-846c-be2e9cb645b3",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
