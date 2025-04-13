@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-13T22:00:00Z",
+      "endTime" : "2025-04-14T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Some snow will fall over a wide area. As a consequence of the precipitation the avalanche prone locations will become more prevalent.",
+      "comment" : "Above approximately 2100 m snow will fall today over a wide area. <br/> As a consequence of the precipitation small and medium-sized avalanches are possible. Below approximately 2300 m moist and wet avalanches are to be expected. <br/> The fresh snow as well as the isolated winds slabs that are forming can be released by a single winter sport participant above approximately 2500 m. <br/> Avalanches can in isolated cases be triggered in the old snowpack and reach large size. <br/> Saturday: Less new snow and wind than expected:"
+    },
+    "snowpackStructure" : {
+      "comment" : "Saturday: Less new snow and wind than expected: <br/> Above approximately 2000 m snow has fallen since Sunday. Over a wide area new snow is lying on a moist old snowpack. <br/> The sleet will give rise to increasing moistening of the snowpack in particular at low and intermediate altitudes. <br/> Isolated avalanche prone weak layers exist in the snowpack at high altitudes and in high Alpine regions. <br/> Below approximately 2000 m a little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Persistent snowfall to intermediate altitudes. As the precipitation becomes more intense there will be a gradual increase in the avalanche danger.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-14T22:00:00Z",
+        "endTime" : "2025-04-15T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP4" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "W", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NE", "SW", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "4b1d1ecf-c8ba-4392-a7f6-cf9a1bde0160",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
