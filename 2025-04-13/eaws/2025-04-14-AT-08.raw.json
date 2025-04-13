@@ -1,0 +1,174 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-13T15:00:00Z",
+      "endTime" : "2025-04-14T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Variably cloudy, intermittent sunshine, most of the summits will be in the clear. In the afternoon, a tendency towards showers. At 2000m: 2-7 degrees. Light to moderate southerly winds, brisker in the foehn-impacted mountain zones."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Danger of wet avalanches even in the morning. Caution on very steep shady slopes in high-alpine zones.",
+      "comment" : "Following a mild night with overcast skies and reduced outgoing radiation, moderate danger prevails. Naturally triggered wet-snow and glide-snow avalanches can be expected, reaching medium size in high-altitude starting zones. Wet-snow avalanches can be triggered by persons in steep terrain. Due to rainfall, danger below 2400m could rise somewhat. Fresh snowdrifts require attentiveness in very high ridgeline terrain. In addition, the old snowpack can be triggered by large additional loading in extremely steep terrain.  Backcountry tours require a cautious route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "On E/S/W-facing slopes up to high-alpine regions and on shady slopes up to 2200m, the moist snowpack is able to consolidate somewhat during the nighttime hours. Due to rainfall in the afternoon up to 2500m, the snowpack will be further weakened. On very steep shady slopes at high altitudes, unfavorable intermediate layers are evident inside the old snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "As the snowpack becomes thoroughly wet, danger of wet-snow and glide-snow avalanches increases.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-14T15:00:00Z",
+        "endTime" : "2025-04-15T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "S", "SE", "N", "SW", "NE" ]
+    } ],
+    "bulletinID" : "1213ae68-c798-42a7-a0a0-dd390db25b15",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Silvretta",
+      "regionID" : "AT-08-06"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-13T15:00:00Z",
+      "endTime" : "2025-04-14T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Variably cloudy, intermittent sunshine, most of the summits will be in the clear. In the afternoon, a tendency towards showers. At 2000m: 2-7 degrees. Light to moderate southerly winds, brisker in the foehn-impacted mountain zones."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Danger of wet-snow avalanches even in the morning",
+      "comment" : "Following a mild night with overcast skies and reduced outgoing radiation, moderate danger prevails. Naturally triggered wet-snow and glide-snow avalanches can be expected, reaching medium size in high-altitude starting zones. Wet-snow avalanches can be triggered by persons in steep terrain. Due to rainfall, danger below 2400m could rise somewhat. Fresh snowdrifts require attentiveness in very high ridgeline terrain. In addition, the old snowpack can be triggered by large additional loading in extremely steep terrain.  Apart from the danger of being buried in snow masses, the risks of being swept along and forced to take a fall require adequate caution."
+    },
+    "snowpackStructure" : {
+      "comment" : "On E/S/W-facing slopes up to high-alpine regions and on shady slopes up to 2200m, the moist snowpack is able to consolidate somewhat during the nighttime hours. Due to rainfall in the afternoon up to 2500m, the snowpack will be further weakened. On very steep shady slopes at high altitudes, unfavorable intermediate layers are evident inside the old snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "As the snowpack becomes thoroughly wet, danger of wet-snow and glide-snow avalanches increases.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-14T15:00:00Z",
+        "endTime" : "2025-04-15T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "NW", "E", "W", "S" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "NW", "E", "W", "S" ]
+    } ],
+    "bulletinID" : "1fabb07c-8821-4187-8d82-712581e0b171",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Lechtaler Alps",
+      "regionID" : "AT-08-07"
+    }, {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Allgäu Alps",
+      "regionID" : "AT-08-02"
+    }, {
+      "name" : "Lechtaler Alps",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Verwall",
+      "regionID" : "AT-08-04"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Danger of wet avalanches even in the morning. Caution in high-alpine zones."
+  }
+}
