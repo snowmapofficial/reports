@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nassschnee ist die Hauptgefahr. Es sind spontane Lawinen zu erwarten. Frischer Triebschnee im Hochgebirge.",
+      "comment" : "<br/> Mit dem Regen steigt die Gefahr von nassen Lawinen im Verlaufe der Nacht weiter an. Dies vor allem unterhalb von rund 2600 m. Besonders an sehr steilen West-, Nord- und Osthängen und unterhalb von rund 2600 m sind mit der Durchnässung vermehrt nasse Schneebrettlawinen zu erwarten. Diese können die durchnässte Schneedecke mitreißen und in den schneereichen Gebieten groß werden. Die Lawinen stoßen in steilen Rinnen teilweise bis ins Grüne vor. <br/> <br/> Frische Triebschneeansammlungen können vor allem an sehr steilen Schattenhängen oberhalb von rund 2600 m teilweise von einzelnen Wintersportlern ausgelöst werden. Solche Gefahrenstellen liegen in Kammlagen, Rinnen und Mulden. Für Touren sind die Verhältnisse ungünstig."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Regen führt in hohen Lagen zu einer zunehmenden Durchnässung der Schneedecke. Diese Situation führt besonders an West-, Nord- und Osthängen zu einem Festigkeitsverlust innerhalb der Schneedecke. <br/> <br/> Hochgebirge: Es fallen 15 bis 30 cm Schnee. Mit Neuschnee und teils starkem Südwind entstehen eher kleine Triebschneeansammlungen. Diese liegen an sehr steilen Schattenhängen auf weichen Schichten."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Regen bis 2300 m. Wind und Neuschnee bis über 2500 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    } ],
+    "bulletinID" : "4d406b7b-7d77-4c8c-a151-c77c59e67024",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
