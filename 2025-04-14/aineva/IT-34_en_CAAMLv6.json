@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow represents the main danger. Natural avalanches are to be expected. Fresh wind slabs in the high Alpine regions.",
+      "comment" : "<br/> During the course of the night as a consequence of the rain there will be an additional increase in the danger of wet avalanches. This applies in particular below approximately 2600 m. Especially on very steep west, north and east facing slopes and below approximately 2600 m more frequent wet slab avalanches are to be expected as the penetration by moisture increases. These can release the saturated snowpack and reach large size in the regions with a lot of snow. In some cases, the avalanches can reach areas without any snow cover in steep gullies. <br/> <br/> Fresh wind slabs can be released by a single winter sport participant in some cases in particular on very steep shady slopes above approximately 2600 m. Such avalanche prone locations are to be found adjacent to ridgelines and in gullies and bowls. The conditions are unfavourable for backcountry touring."
+    },
+    "snowpackStructure" : {
+      "comment" : "The rain will give rise to increasing and thorough wetting of the snowpack at high altitude. This situation will give rise to a loss of strength within the snowpack especially on west, north and east facing slopes. <br/> <br/> High Alpine regions: 15 to 30 cm of snow will fall. As a consequence of new snow and a sometimes strong southerly wind, rather small wind slabs will form. These are lying on soft layers on very steep shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Rain to 2300 m. Wind and new snow to above 2500 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    } ],
+    "bulletinID" : "4d406b7b-7d77-4c8c-a151-c77c59e67024",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
