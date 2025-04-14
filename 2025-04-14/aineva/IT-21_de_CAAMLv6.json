@@ -1,0 +1,103 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Wetterbedingungen führen verbreitet zu einer massiven Anfeuchtung der Schneedecke.",
+      "comment" : "Seit Samstag fielen oberhalb von rund 2500 m bis zu 10 cm Schnee, lokal auch weniger. Heute fällt verbreitet Regen bis in mittlere Lagen. In den Niederschlagsgebieten nehmen die Gefahrenstellen zu. <br/> V.a. an sehr steilen Hängen sind mit dem Niederschlag weiterhin kleine und mittlere feuchte und nasse Lawinen möglich. <br/> In der Altschneedecke sind v.a. in hohen Lagen und im Hochgebirge einzelne Schwachschichten vorhanden. Lawinen können auch im Altschnee anbrechen und recht groß werden. <br/> <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Samstag fiel Regen bis in mittlere Lagen. <br/> Der Neuschnee liegt verbreitet auf einer feuchten Altschneedecke. Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab. <br/> Der Schneeregen führt v.a. in mittleren und hohen Lagen zu einer zunehmenden Anfeuchtung der Schneedecke. <br/> In der Schneedecke sind in hohen Lagen und im Hochgebirge vereinzelt störanfällige Schwachschichten vorhanden. <br/> Unterhalb von rund 2000 m liegt wenig Schnee. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Anhaltender Schneefall bis in mittlere Lagen. Mit der Intensivierung der Niederschläge steigt die Lawinengefahr allmählich an.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "9758ee89-76a9-4ef5-89ee-ddc72a307284",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
