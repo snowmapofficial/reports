@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches humides et mouillées sont le danger principal.",
+      "comment" : "Au-dessus d'environ 1900 m des avalanches spontanées mouillées de petite et rarement moyenne taille sont possibles. Ce sont surtout les combes et goulottes qui sont particulièrement défavorables. Les avalanches de glissement peuvent se déclencher à tout moment du jour et de la nuit."
+    },
+    "snowpackStructure" : {
+      "comment" : "Pluies légères jusqu'à haute altitude: Le manteau neigeux ancien sera de plus en plus totalement mouillé. Les randonnées demandent un choix prudent des itinéraires."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "dd77cd8b-4709-43db-b1e0-d945614b3b50",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
