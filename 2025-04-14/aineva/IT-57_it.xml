@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-14T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="dd77cd8b-4709-43db-b1e0-d945614b3b50" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-14T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-14T22:00:00Z</beginPosition>
+          <endPosition>2025-04-15T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-57-AP-01"/>
+      <locRef xlink:href="IT-57-MC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1900Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-15T22:00:00Z</beginPosition>
+                <endPosition>2025-04-16T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>La principale fonte di pericolo è costituita da valanghe umide e bagnate.</avActivityHighlights>
+          <avActivityComment>Al di sopra dei 1900 m circa sono possibili valanghe bagnate spontanee di piccole e, a livello isolato, di medie dimensioni. Particolarmente sfavorevoli sono soprattutto i canaloni e le conche, (--). Distacchi di valanghe per scivolamento di neve possono verificarsi a qualsiasi ora del giorno e della notte.</avActivityComment>
+          <snowpackStructureComment>Deboli piogge sino da alta quota: Il manto di neve vecchia sarà progressivamente fradicio. Le escursioni richiedono una prudente scelta dell'itinerario.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
