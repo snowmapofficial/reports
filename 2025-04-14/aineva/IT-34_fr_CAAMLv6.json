@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige mouillée constituant le danger principal. Des avalanches spontanées sont à attendre. Neige récemment soufflée en haute montagne.",
+      "comment" : "<br/> Avec la pluie le danger d'avalanches mouillées augmente encore en cours de nuit. Ceci surtout en dessous d'environ 2600 m. Avec l'humidification totale de plus en plus nombreuses avalanches de plaque de neige mouillée sont à attendre spécialement sur les pentes très raides exposées à l'ouest, au nord et à l'est et en dessous d'environ 2600 m. Celles-ci peuvent entraîner le manteau neigeux entièrement mouillé et dans les régions bien enneigées atteindre une grande taille. Dans des couloirs raides les avalanches s'avancent parfois jusqu'aux prairies. <br/> <br/> Des accumulations récentes de neige soufflée peuvent être parfois déclenchées par un seul amateur de sports d'hiver surtout sur les pentes très raides à l'ombre au-dessus d'environ 2600 m. De tels endroits dangereux se situent à proximité des crêtes, dans les combes et couloirs. Pour des randonnées les conditions sont défavorables."
+    },
+    "snowpackStructure" : {
+      "comment" : "La pluie entraîne à haute altitude une saturation d'eau croissante du manteau neigeux. Cette situation entraîne spécialement sur les pentes exposées à l'ouest, au nord et à l'est une perte de solidité au sein du manteau neigeux. <br/> <br/> En haute montagne: Il tombe de 15 à 30 cm de neige. Des accumulations de neige soufflée plutôt petites se forment avec la neige fraîche et le vent de sud partiellement fort. Celles-ci reposent sur des couches meubles sur les pentes très raides à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Pluies jusqu'à 2300 m. Vent et neige fraîche jusqu'au-dessus de 2500 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    } ],
+    "bulletinID" : "4d406b7b-7d77-4c8c-a151-c77c59e67024",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
