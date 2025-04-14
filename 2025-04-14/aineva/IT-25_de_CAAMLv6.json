@@ -1,0 +1,213 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Triebschnee und Nassschnee sind die Hauptgefahr. Mit starkem Wind entstanden in Kammlagen aller Expositionen leicht auslösbare Triebschneeansammlungen.",
+      "comment" : "In den letzten Tagen entstanden zudem meist kleine Triebschneeansammlungen. Die Gefahrenstellen sind für Geübte gut zu erkennen, besonders in Kammlagen, vor allem am zentralen Alpenhauptkamm. In der Schneedecke sind in schattigen, windgeschützten Lagen Schwachschichten vorhanden. Trockene Lawinen können immer noch mit meist großer Belastung ausgelöst werden. Mit dem Regen sind unterhalb von rund 2300 m weiterhin meist kleine feuchte und nasse Lawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Schneedecke sind an Schattenhängen grobkörnige Schwachschichten vorhanden. Dies besonders an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Etwas Neuschnee und insbesondere die in hohen Lagen entstehenden, meist kleinen Triebschneeansammlungen werden auf eine schwache Altschneedecke abgelagert. Der Regen führt im Tagesverlauf unterhalb von rund 2300 m stellenweise zu einer raschen Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1400",
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "4e2b60ff-79df-4669-8cff-7de80703508d",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Feuchte und nasse Rutsche und kleine Lawinen sind vereinzelt möglich.",
+      "comment" : "Es sind einzelne kleine feuchte und nasse Lawinen möglich."
+    },
+    "snowpackStructure" : { },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "d5d9a083-57b3-42a1-9e52-8107bf7a8e0e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-14T22:00:00Z",
+      "endTime" : "2025-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die spontane Aktivität von kleinen feuchten und nassen Lawinen nimmt mit dem Einsetzen der Regenfälle zu. Gleitschneelawinen können selten auch am Morgen abgehen.",
+      "comment" : "Die Schneeoberfläche konnte in der bedeckten Nacht kaum abkühlen und weicht rasch auf. Es sind einige Gleitschneelawinen und feuchte Rutsche möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mit der tageszeitlichen Erwärmung steigt die Auslösebereitschaft von feuchten Lockerschneelawinen vor allem an steilen Grashängen in allen Höhenlagen etwas an."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-15T22:00:00Z",
+        "endTime" : "2025-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP2", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "9c527b16-b059-4f8a-b6d2-c688e6639536",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  } ]
+}
