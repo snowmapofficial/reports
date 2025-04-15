@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-15T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="c58c1167-aebe-4188-9c76-7dad30691dfa" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-15T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-15T22:00:00Z</beginPosition>
+          <endPosition>2025-04-16T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP3</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-16T22:00:00Z</beginPosition>
+                <endPosition>2025-04-17T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Mit der Durchnässung sind jederzeit spontane Lawinen möglich. Frischer Triebschnee im Hochgebirge.</avActivityHighlights>
+          <avActivityComment>Die Gefahr von nassen Lawinen bleibt bestehen. Die Gefahrenstellen liegen an allen Expositionen unterhalb von rund 2800 m. Besonders an sehr steilen West-, Nord- und Osthängen sind mit der Durchnässung einzelne spontane Lawinen möglich. Diese können die durchnässte Schneedecke mitreißen und in den schneereichen Gebieten groß werden. Die Lawinen stoßen in steilen Rinnen teilweise bis ins Grüne vor. Für Touren sind die Verhältnisse ungünstig. &lt;br/&gt; &lt;br/&gt; Frische Triebschneeansammlungen können vor allem an sehr steilen Schattenhängen oberhalb von rund 2800 m vereinzelt von einzelnen Wintersportlern ausgelöst werden. Solche Gefahrenstellen liegen in Kammlagen, Rinnen und Mulden.</avActivityComment>
+          <snowpackStructureComment>Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und ist schon am Morgen aufgeweicht. Es fällt lokal Regen bis in hohe Lagen. Die Wetterbedingungen führen unterhalb von rund 2800 m zu einer zunehmenden Durchnässung der Schneedecke. Diese Situation führt besonders an West-, Nord- und Osthängen zu einem Festigkeitsverlust innerhalb der Schneedecke. &lt;br/&gt; &lt;br/&gt; Hochgebirge: Es fielen 10 bis 20 cm Schnee. Am Mittwoch fallen lokal bis zu 10 cm Schnee. Mit Neuschnee und teils starkem Südwind entstehen eher kleine Triebschneeansammlungen. Diese liegen an sehr steilen Schattenhängen auf weichen Schichten.</snowpackStructureComment>
+          <tendencyComment>Ergiebiger Regen bis 2000 m. Schneefall bis über 2000 m. Allmählicher Anstieg der Gefahr von nassen Lawinen mit der Intensivierung der Niederschläge.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
