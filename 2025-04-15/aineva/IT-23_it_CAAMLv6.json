@@ -1,0 +1,266 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vento e neve fresca al di sopra dei 2300 m circa. Il pericolo aumenterà nettamente nel corso della giornata. Per le escursioni al di fuori delle piste assicurate, le condizioni sono molto pericolose.",
+      "comment" : "Principalmente nelle regioni sud orientali cadranno da 80 a 100 cm di neve al di sopra dei 2400 m circa, localmente anche di più. Con l'intensificarsi delle nevicate, a partire dal mattino il numero e le dimensioni dei punti pericolosi aumenteranno. La pioggia mista a neve causerà al di sotto dei 2700 m circa diffusamente un impregnamento del manto nevoso. La neve fresca e la neve ventata diventeranno progressivamente sempre più instabili a tutte le esposizioni. <br/> Queste condizioni favoriranno nel corso della giornata un netto aumento del pericolo di valanghe asciutte e bagnate sui pendii ripidi, specialmente alle quote medie e alte. Soprattutto verso sera si prevedono frequenti valanghe spontanee di grandi dimensioni che possono avanzare sino a valle. <br/> Inoltre, in alcuni punti le valanghe umide possono subire un distacco nel debole manto di neve vecchia."
+    },
+    "snowpackStructure" : {
+      "comment" : "Negli ultimi giorni è caduta neve al di sopra dei 2300 m circa. L'alta umidità dell'aria ha causato al di sotto dei 2800 m circa diffusamente un inumidimento del manto nevoso. La pioggia mista a neve ha causato a tutte le esposizioni al di sotto dei 2700 m circa un impregnamento del manto nevoso. <br/> La parte basale del manto nevoso è bagnata, anche sui pendii ombreggiati al di sotto dei 2700 m circa. <br/> L'irraggiamento notturno sarà praticamente assente. La superficie del manto nevoso non riuscirà a rigelarsi durante la notte coperta e risulterà ammorbidita già al mattino. <br/> Fino a giovedì cadrà molta neve. La pioggia mista a neve causerà soprattutto alle quote medie e alte una sturttura sfavorevole del manto di neve vecchia. <br/> In molti punti la neve fresca poggia su un manto di neve bagnata."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Intense nevicate soprattutto nelle regioni sud orientali sino alle quote di media montagna. Piogge sino a 1900 m. Con neve fresca e forte vento, ulteriore aumento del pericolo di valanghe.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "SW", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "9f9ddcf6-120e-47f1-97de-7a18f3f575d2",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "high",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve fresca al di sopra dei 2300 m circa. Il pericolo aumenterà nel corso della giornata. Per le escursioni al di fuori delle piste assicurate, le condizioni sono pericolose.",
+      "comment" : "Cadranno da 50 a 80 cm di neve al di sopra dei 2400 m circa, localmente anche di più. Con l'intensificarsi delle nevicate, durante il pomeriggio il numero e le dimensioni dei punti pericolosi aumenteranno. La pioggia mista a neve causerà al di sotto dei 2700 m circa diffusamente un impregnamento del manto nevoso. La neve fresca diventerà progressivamente sempre più instabile a tutte le esposizioni. <br/> Queste condizioni favoriranno nel corso della giornata un aumento del pericolo di valanghe asciutte e bagnate sui pendii ripidi. Soprattutto durante la sera si prevedono valanghe spontanee di grandi dimensioni che possono avanzare parecchio. <br/> Le valanghe possono in parte subire un distacco negli strati più profondi e raggiungere grandi dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Negli ultimi giorni è caduta neve al di sopra dei 2300 m circa. L'alta umidità dell'aria ha causato al di sotto dei 2800 m circa diffusamente un inumidimento del manto nevoso. La pioggia mista a neve ha causato a tutte le esposizioni al di sotto dei 2700 m circa diffusamente un impregnamento del manto nevoso. <br/> La parte basale del manto nevoso è bagnata, anche sui pendii ombreggiati al di sotto dei 2700 m circa. <br/> L'irraggiamento notturno sarà praticamente assente. La superficie del manto nevoso non riuscirà a rigelarsi durante la notte coperta e risulterà ammorbidita già al mattino. <br/> Fino a giovedì cadrà molta neve. Le condizioni meteo primaverili causeranno soprattutto al di sotto del limite del bosco un progressivo impregnamento del manto di neve vecchia. <br/> In molti punti la neve fresca poggia su un manto di neve bagnata."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Abbondanti nevicate sino alle quote di media montagna. Piogge sino a 1800 m. Con l'intensificarsi delle nevicate, locale aumento del pericolo di valanghe.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "ffefd7fd-bcb4-4236-bf32-03d46a9d013f",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
