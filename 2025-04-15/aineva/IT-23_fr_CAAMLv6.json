@@ -1,0 +1,266 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vent et neige fraîche au-dessus d'environ 2300 m. Le danger d'avalanches augmente de manière marquée en cours de journée. Pour des randonnées en dehors des pistes sécurisées les conditions sont très dangereuses.",
+      "comment" : "Il tombe spécialement au sud-est au-dessus d'environ 2400 m de 80 à 100 cm de neige, localement plus. Avec l'intensification des chutes de neige le nombre et l'étendue des endroits dangereux augmentent à partir du matin. Le mélange de pluie et de neige entraîne en dessous d'environ 2700 m généralement une saturation d'eau du manteau neigeux. La neige fraîche et la neige soufflée deviennent de plus en plus fragiles à toutes les expositions. <br/> Ces conditions favorisent en cours de journée une nette augmentation du danger d'avalanches sèches et mouillées sur les pentes raides, surtout à moyenne et haute altitude. Surtout en soirée il faut compter avec des avalanches spontanées fréquemment de grande taille, qui s'avancent jusqu'en vallée. <br/> Des avalanches humides peuvent aussi par endroits être déclenchées dans la neige ancienne fragile."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans les derniers jours il est tombé de la neige au-dessus d'environ 2300 m. La forte humidité de l'air a entraîné en dessous d'environ 2800 m généralement une humidification du manteau neigeux. Le mélange de pluie et de neige a entraîné à toutes les expositions en dessous d'environ 2700 m une saturation d'eau du manteau neigeux. <br/> La partie inférieure du manteau neigeux est mouillée, aussi sur les pentes à l'ombre en dessous d'environ 2700 m. <br/> Le rayonnement nocturne est très peu présent. La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et est déjà ramollie le matin. <br/> Jusqu'à jeudi il tombera beaucoup de neige. Le mélange de pluie et de neige entraîne surtout à moyenne et haute altitude une structure défavorable du manteau neigeux ancien. <br/> La neige fraîche repose en général sur un manteau neigeux mouillé."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Surtout au sud-est chutes de neige intensives jusqu'aux altitudes moyennes. Pluies jusqu'à 1900 m. Augmentation étendue du danger d'avalanches avec la neige fraîche et le vent fort.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "SW", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "9f9ddcf6-120e-47f1-97de-7a18f3f575d2",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "high",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche au-dessus d'environ 2300 m. Le danger d'avalanches augmente en cours de journée. Pour des randonnées en dehors des pistes sécurisées les conditions sont dangereuses.",
+      "comment" : "Il tombe au-dessus d'environ 2400 m de 50 à 80 cm de neige, localement plus. Avec l'intensification des chutes de neige le nombre et l'étendue des endroits dangereux augmentent l'après-midi. Le mélange de pluie et de neige entraîne en dessous d'environ 2700 m généralement une saturation d'eau du manteau neigeux. La neige fraîche devient de plus en plus fragile à toutes les expositions. <br/> Ces conditions favorisent en cours de journée une augmentation du danger d'avalanches sèches et mouillées sur les pentes raides. Surtout le soir il faut compter avec des avalanches spontanées de grande taille, qui s'avancent assez loin. <br/> Des avalanches peuvent parfois être déclenchées dans les couches profondes du manteau neigeux et atteindre une grande taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans les derniers jours il est tombé de la neige au-dessus d'environ 2300 m. La forte humidité de l'air a entraîné en dessous d'environ 2800 m généralement une humidification du manteau neigeux. Le mélange de pluie et de neige a entraîné à toutes les expositions en dessous d'environ 2700 m généralement une saturation d'eau du manteau neigeux. <br/> La partie inférieure du manteau neigeux est mouillée, aussi sur les pentes à l'ombre en dessous d'environ 2700 m. <br/> Le rayonnement nocturne est très peu présent. La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et est déjà ramollie le matin. <br/> Jusqu'à jeudi il tombera beaucoup de neige. Les conditions météorologiques printanières entraînent surtout sous la limite de la forêt une saturation d'eau croissante du manteau neigeux ancien. <br/> La neige fraîche repose en général sur un manteau neigeux mouillé."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Chutes de neige abondantes jusqu'aux altitudes moyennes. Pluies jusqu'à 1800 m. Augmentation locale du danger d'avalanches avec l'intensification des chutes de neige.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "ffefd7fd-bcb4-4236-bf32-03d46a9d013f",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
