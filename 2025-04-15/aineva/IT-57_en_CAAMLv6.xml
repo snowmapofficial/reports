@@ -1,0 +1,84 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="8ed2ae9c-5b21-40b5-b6d9-8a1d7bf11c5f" lang="en">
+    <publicationTime>2025-04-15T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-04-15T22:00:00Z</startTime>
+      <endTime>2025-04-16T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1900</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1900</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1900</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>NW</aspect>
+      <aspect>E</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <upperBound>1900</upperBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>NW</aspect>
+      <aspect>E</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Moist and wet avalanches are the main danger.</highlights>
+      <comment>Above approximately 1900 m small and, in isolated cases, medium-sized natural wet avalanches are possible. In particular gullies and bowls are especially unfavourable. Gliding avalanches can be released at any time of day or night.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Light rain to high altitudes: The old snowpack will become increasingly wet all the way through. Backcountry touring calls for careful route selection.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>decreasing</tendencyType>
+      <validTime>
+        <startTime>2025-04-16T22:00:00Z</startTime>
+        <endTime>2025-04-17T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-04-16</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
