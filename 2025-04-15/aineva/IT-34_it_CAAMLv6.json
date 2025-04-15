@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con l'umidificazione, in qualunque momento sono possibili valanghe spontanee. Neve ventata recente in alta montagna.",
+      "comment" : "Il pericolo di valanghe bagnate rimarrà invariato. I punti pericolosi si trovano a tutte le esposizioni al di sotto dei 2800 m circa. Con l'umidificazione, principalmente sui pendii molto ripidi esposti a ovest, nord ed est sono possibili isolate valanghe spontanee. Queste possono trascinare il manto nevoso saturo d'acqua e, nelle regioni con tanta neve, raggiungere grandi dimensioni. Nei canaloni ripidi le valanghe avanzeranno in parte sino all'aperta campagna. Per le escursioni, le condizioni sono sfavorevoli. <br/> <br/> I nuovi accumuli di neve ventata possono, a livello isolato, subire un distacco in seguito al passaggio di un singolo appassionato di sport invernali soprattutto sui pendii molto ripidi ombreggiati al di sopra dei 2800 m circa. Tali punti pericolosi si trovano nelle zone in prossimità delle creste, nelle conche e nei canaloni."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso non riuscirà a rigelarsi durante la notte coperta e risulterà ammorbidita già al mattino. A livello locale, cadrà pioggia sino ad alta quota. Le condizioni meteo causeranno al di sotto dei 2800 m circa un progressivo impregnamento del manto nevoso. Ciò causerà principalmente sui pendii esposti a ovest, nord ed est una destabilizzazione all'interno del manto nevoso. <br/> <br/> In alta montagna: Sono caduti da 10 a 20 cm di neve. A livello locale mercoledì cadranno sino a 10 cm di neve. Con neve fresca e vento in parte forte proveniente da sud si formeranno accumuli di neve ventata di dimensioni piuttosto piccole. Questi ultimi poggiano su strati soffici sui pendii molto ripidi ombreggiati."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Abbondanti piogge sino a 2000 m. Nevicate sino al di sopra dei 2000 m. Con l'intensificarsi delle precipitazioni, progressivo aumento del pericolo di valanghe bagnate.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "SE", "SW", "N", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "c58c1167-aebe-4188-9c76-7dad30691dfa",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
