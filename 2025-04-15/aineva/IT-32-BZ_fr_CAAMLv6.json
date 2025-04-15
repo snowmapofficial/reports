@@ -1,0 +1,207 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Avec l'humidification totale à tout moment des avalanches spontanées sont possibles. Neige récemment soufflée en haute montagne.",
+      "comment" : "Le danger d'avalanches mouillées subsiste. Les endroits dangereux se situent à toutes les expositions en dessous d'environ 2800 m. Avec l'humidification totale de rares avalanches spontanées sont possibles spécialement sur les pentes très raides exposées à l'ouest, au nord et à l'est. Celles-ci peuvent entraîner le manteau neigeux entièrement mouillé et dans les régions bien enneigées atteindre une grande taille. Dans des couloirs raides les avalanches s'avancent parfois jusqu'aux prairies. Pour des randonnées les conditions sont défavorables. <br/> <br/> Des accumulations récentes de neige soufflée peuvent être déclenchées de manière isolée par un seul amateur de sports d'hiver surtout sur les pentes très raides à l'ombre au-dessus d'environ 2800 m. De tels endroits dangereux se situent à proximité des crêtes, dans les combes et couloirs."
+    },
+    "snowpackStructure" : {
+      "comment" : "La surface de la neige ne se refroidit qu'à peine pendant la nuit couverte et est déjà ramollie le matin. Il tombe localement de la pluie jusqu'à haute altitude. Les conditions météorologiques entraînent en dessous d'environ 2800 m une saturation d'eau croissante du manteau neigeux. Cette situation entraîne spécialement sur les pentes exposées à l'ouest, au nord et à l'est une perte de solidité au sein du manteau neigeux. <br/> <br/> En haute montagne: Il est tombé de 10 à 20 cm de neige, localement plus. Mercredi il tombera localement jusqu'à 10 cm de neige, localement plus. Des accumulations de neige soufflée plutôt petites se forment avec la neige fraîche et le vent de sud partiellement fort. Celles-ci reposent sur des couches meubles sur les pentes très raides à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Augmentation progressive du danger d'avalanches mouillées avec l'intensification des précipitations.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "SE", "SW", "N", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "616eb3a3-540b-476c-b997-8df756f899e1",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige mouillée constituant le danger principal.",
+      "comment" : "Avec les précipitations des avalanches mouillées isolées sont possibles, mais en général uniquement de petite taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le rayonnement nocturne est fortement réduit. La surface de la neige regèle peu et est déjà ramollie le matin. La pluie entraîne une saturation d'eau croissante du manteau neigeux. <br/> On ne trouve plus que peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige mouillée à surveiller.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "NE", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "974fec21-c3e8-4d9f-8198-a39351f45ead",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
