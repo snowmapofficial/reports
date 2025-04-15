@@ -1,0 +1,266 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind und Neuschnee oberhalb von rund 2300 m. Die Gefahr steigt im Tagesverlauf markant an. Für Touren abseits gesicherter Pisten sind die Verhältnisse sehr gefährlich.",
+      "comment" : "Es fallen besonders im Südosten oberhalb von rund 2400 m 80 bis 100 cm Schnee, lokal auch mehr. Mit der Intensivierung der Schneefälle nehmen Anzahl und Größe der Gefahrenstellen ab dem Morgen zu. Der Schneeregen führt unterhalb von rund 2700 m verbreitet zu einer Durchnässung der Schneedecke. Neu- und Triebschnee werden an allen Expositionen zunehmend störanfällig. <br/> Diese Bedingungen begünstigen im Tagesverlauf an steilen Hängen eine deutliche Zunahme der Gefahr von trockenen und nassen Lawinen, vor allem in mittleren und hohen Lagen. Vor allem gegen Abend muss häufig mit spontanen großen Lawinen gerechnet werden, die bis in die Täler vorstoßen. <br/> Zudem können stellenweise feuchte Lawinen im schwachen Altschnee ausgelöst werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten Tagen fiel Schnee oberhalb von rund 2300 m. Die hohe Luftfeuchtigkeit führte unterhalb von rund 2800 m verbreitet zu einer Anfeuchtung der Schneedecke. Der Schneeregen führte an allen Expositionen unterhalb von rund 2700 m zu einer Durchnässung der Schneedecke. <br/> Der untere Teil der Schneedecke ist nass, auch an Schattenhängen unterhalb von rund 2700 m. <br/> Die nächtliche Abstrahlung ist kaum vorhanden. Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und ist schon am Morgen aufgeweicht. <br/> Bis Donnerstag fällt viel Schnee. Der Schneeregen führt vor allem in mittleren und hohen Lagen zu einem ungünstigen Aufbau der Altschneedecke. <br/> Der Neuschnee liegt verbreitet auf einer nassen Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Vor allem im Südosten intensiver Schneefall bis in mittlere Lagen. Regen bis 1900 m. Weiterer Anstieg der Lawinengefahr mit Neuschnee und starkem Wind.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "SW", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "9f9ddcf6-120e-47f1-97de-7a18f3f575d2",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "high",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-15T22:00:00Z",
+      "endTime" : "2025-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neuschnee oberhalb von rund 2300 m. Die Gefahr steigt im Tagesverlauf an. Für Touren abseits gesicherter Pisten sind die Verhältnisse gefährlich.",
+      "comment" : "Es fallen oberhalb von rund 2400 m 50 bis 80 cm Schnee, lokal auch mehr. Mit der Intensivierung der Schneefälle nehmen Anzahl und Größe der Gefahrenstellen am Nachmittag zu. Der Schneeregen führt unterhalb von rund 2700 m verbreitet zu einer Durchnässung der Schneedecke. Der Neuschnee wird an allen Expositionen zunehmend störanfällig. <br/> Diese Bedingungen begünstigen im Tagesverlauf an steilen Hängen eine Zunahme der Gefahr von trockenen und nassen Lawinen. Vor allem am Abend muss mit spontanen großen Lawinen gerechnet werden, die weit vorstoßen. <br/> Lawinen können teilweise in tiefen Schichten ausgelöst werden und groß werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten Tagen fiel Schnee oberhalb von rund 2300 m. Die hohe Luftfeuchtigkeit führte unterhalb von rund 2800 m verbreitet zu einer Anfeuchtung der Schneedecke. Der Schneeregen führte an allen Expositionen unterhalb von rund 2700 m verbreitet zu einer Durchnässung der Schneedecke. <br/> Der untere Teil der Schneedecke ist nass, auch an Schattenhängen unterhalb von rund 2700 m. <br/> Die nächtliche Abstrahlung ist kaum vorhanden. Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und ist schon am Morgen aufgeweicht. <br/> Bis Donnerstag fällt viel Schnee. Die frühlingshaften Wetterbedingungen führen vor allem unterhalb der Waldgrenze zu einer zunehmenden Durchnässung der Altschneedecke. <br/> Der Neuschnee liegt verbreitet auf einer nassen Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Ergiebiger Schneefall bis in mittlere Lagen. Regen bis 1800 m. Lokaler Anstieg der Lawinengefahr mit der Intensivierung der Schneefälle.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-16T22:00:00Z",
+        "endTime" : "2025-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "E", "SE", "SW", "S", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "ffefd7fd-bcb4-4236-bf32-03d46a9d013f",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
