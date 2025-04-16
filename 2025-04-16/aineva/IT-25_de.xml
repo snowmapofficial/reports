@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-04-16T15:12:10Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="375d4183-a0f9-4f10-92da-66f092f823ba" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-16T15:12:10Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-16T22:00:00Z</beginPosition>
+          <endPosition>2025-04-17T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-SO-03"/>
+      <locRef xlink:href="IT-25-SO-01"/>
+      <locRef xlink:href="IT-25-SO-02"/>
+      <locRef xlink:href="IT-25-BG-01"/>
+      <locRef xlink:href="IT-25-BS-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1700Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP3</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation>
+                <elevationRange uom="m">
+                  <beginPosition>1700</beginPosition>
+                  <endPosition>2700</endPosition>
+                </elevationRange>
+              </validElevation>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-17T22:00:00Z</beginPosition>
+                <endPosition>2025-04-18T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee und Nassschnee sind die Hauptgefahr. Mit der Intensivierung der Niederschläge sind oberhalb von rund 1800 m zahlreiche mittlere und vereinzelt große trockene und nasse Lawinen zu erwarten.</avActivityHighlights>
+          <avActivityComment>Mit dem Regen steigt die Gefahr von nassen Lawinen im Tagesverlauf weiter an. Dies vor allem unterhalb von rund 2400 m. Besonders an sehr steilen West-, Nord- und Osthängen und unterhalb von rund 2600 m sind mit der Durchnässung vermehrt nasse Schneebrettlawinen zu erwarten. Diese können die durchnässte Schneedecke mitreißen und auch in den schneereichen Gebieten groß werden. &lt;br/&gt; Frische Triebschneeansammlungen können vor allem an sehr steilen Schattenhängen oberhalb von rund 2600 m teilweise von einzelnen Wintersportlern ausgelöst werden. Solche Gefahrenstellen liegen in Kammlagen, Rinnen und Mulden. Für Touren sind die Verhältnisse ungünstig.</avActivityComment>
+          <snowpackStructureComment>Der Regen führt im Tagesverlauf unterhalb von rund 2600 m verbreitet zu einer raschen Anfeuchtung der Schneedecke. Diese Situation führt besonders an West-, Nord- und Osthängen zu einem Festigkeitsverlust innerhalb der Schneedecke. Etwas Neuschnee und insbesondere die in hohen Lagen entstehenden, meist kleinen Triebschneeansammlungen werden vor allem an den Expositionen Ost über Nord bis West oberhalb von rund 2600 m auf eine ungünstige Altschneeoberfläche abgelagert.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="c6a46a1d-3828-4555-b9ad-cb1b702c5abe" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-16T15:12:10Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-16T22:00:00Z</beginPosition>
+          <endPosition>2025-04-17T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-BS-02"/>
+      <locRef xlink:href="IT-25-LC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP2</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1700Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-17T22:00:00Z</beginPosition>
+                <endPosition>2025-04-18T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die spontane Aktivität von kleinen und mittleren feuchten und nassen Lawinen nimmt im Tagesverlauf zu. Gleitschneelawinen können auch am Morgen abgehen. Der feuchte Neuschnee sowie die Triebschneeansammlungen können vor allem an steilen Schattenhängen oberhalb von rund 2000 m leicht ausgelöst werden oder spontan abgleiten.</avActivityHighlights>
+          <avActivityComment>Die Schneeoberfläche konnte in der bedeckten Nacht kaum abkühlen und weicht rasch auf. Es sind zahlreiche Gleitschneelawinen und feuchte Rutsche möglich. Der Neuschnee und die meist kleinen Triebschneeansammlungen können vor allem an steilen, wenig befahrenen Nordhängen oberhalb von rund 2000 m leicht ausgelöst werden oder spontan abgleiten.</avActivityComment>
+          <snowpackStructureComment>Mit dem Niederschlag steigt die Auslösebereitschaft von feuchten Lockerschneelawinen vor allem an steilen Grashängen in allen Höhenlagen an. Die Schneedecke wird allmählich störanfällig.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="6ab4e743-3fd2-4572-b3b3-5f391a8235c9" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-04-16T15:12:10Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-04-16T22:00:00Z</beginPosition>
+          <endPosition>2025-04-17T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-BG-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1200Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP2</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_1200Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-04-17T22:00:00Z</beginPosition>
+                <endPosition>2025-04-18T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Feuchte und nasse Rutsche und kleine Lawinen sind möglich.</avActivityHighlights>
+          <avActivityComment>Es sind oberhalb von rund 1800 m einzelne kleine feuchte und nasse Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Der Regen führt in hohen Lagen zu einer zunehmenden Durchnässung der Schneedecke. Diese Situation führt besonders an West-, Nord- und Osthängen zu einem Festigkeitsverlust innerhalb der Schneedecke.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
