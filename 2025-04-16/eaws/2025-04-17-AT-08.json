@@ -1,0 +1,324 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger below 2800m is considerable, above that altitude danger is moderate. On steep slopes in all aspects which have not yet discharged, wet-snow and glide-snow avalanches can trigger naturally and grow to medium-to-large size. In high-alpine zones, fresh snowdrift accumulations require attentiveness, they are usually small, but often easily triggered. Danger zones occur in gullies, bowls, behind protruberances in the terrain and on very steep shady slopes above 2800m. In addition, winter sports enthusiasts can trigger small-to-medium avalanches in the old snow in isolated cases. Danger zones occur in little-tracked backcountry terrain, mostly on very steep NW/N/NE-facing slopes and are difficult to recognize.",
+        "highlights": "Main danger: wet-snow avalanches. Beware fresh snowdrifts in high-alpine zones."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "S",
+            "SE",
+            "N",
+            "SW",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "2800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "9eecbbc1-f229-4617-9dad-556d641195dc",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "upperBound": "2800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-16T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-08-05-01",
+          "name": "R\u00e4tikon East"
+        },
+        {
+          "regionID": "AT-08-05-02",
+          "name": "R\u00e4tikon West"
+        },
+        {
+          "regionID": "AT-08-06",
+          "name": "Silvretta"
+        },
+        {
+          "regionID": "AT-08-03-02",
+          "name": "Lechquellen Mountains"
+        },
+        {
+          "regionID": "AT-08-03-01",
+          "name": "Lechtaler Alps"
+        },
+        {
+          "regionID": "AT-08-04",
+          "name": "Verwall"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Outgoing longwave radiation during the night from Wednesday to Thursday will be very poor due to moist-warm air masses and some rainfall. Due to strong-velocity S/SE winds, small snowdrift accumlations will be generated which will be deposited stop soft layers, particularly on shady slopes in high-alpine zones, and be prone to triggering. On south-facing slopes there is hardly any snow on the ground up to high altitudes. Also on shady slopes the ground is becoming bare of snow up to intermediate altitudes. On very steep shady slopes at high altitudes there are unfavorable intermediate layers inside the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Vorarlberg",
+          "website": "https://warnung.vorarlberg.at/vtgdb/dist/index.html#//lwd_lagebericht_en.html"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Due to temperatures dropping and winds slackening off, avalanche danger will recede.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-17T15:00:00+00:00",
+            "endTime": "2025-04-18T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-16T15:00:00+00:00",
+        "endTime": "2025-04-17T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Foehn winds will taper off on Thursday, the air will become moister, clouds and fog will increase. Precipitation can be increasingly expected, the snowfall level will descend only gradually to 2000m. At 2000m: +5 degrees during the daytime. Initially strong S/SE winds, later on tapering off."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger above 1600m is moderate. On steep slopes in all aspects which have not yet discharged, wet-snow and glide-snow avalanches can trigger naturally and, in high-altitude starting zones, can reach medium size. Fresh snowdrift accumulations are mostly small, but need to be assessed with caution on steep shady slopes. In addition, isolated avalanches can be triggered by large additional loading on extremely steep shady slopes. Apart from the danger of being buried in snow masses, the risks of being swept along and forced to take a fall require adequate caution.",
+        "highlights": "Wet-snow and gliding snow are the main dangers."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "N",
+            "SW",
+            "NE",
+            "NW",
+            "E",
+            "W",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "N",
+            "SW",
+            "NE",
+            "NW",
+            "E",
+            "W",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "ac608c76-7405-4ba0-af98-b8b055a32348",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-16T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-08-01",
+          "name": "Bregenzerwald Mountains"
+        },
+        {
+          "regionID": "AT-08-02",
+          "name": "Allg\u00e4u Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Outgoing longwave radiation during the night from Wednesday to Thursday will be very poor due to moist-warm air masses and some rainfall. Due to strong-velocity S/SE winds, small snowdrift accumlations will be generated which will be deposited stop soft layers, particularly on shady slopes in high-alpine zones, and be prone to triggering. On south-facing slopes there is hardly any snow on the ground up to high altitudes. Also on shady slopes the ground is becoming bare of snow up to intermediate altitudes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Vorarlberg",
+          "website": "https://warnung.vorarlberg.at/vtgdb/dist/index.html#//lwd_lagebericht_en.html"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Due to temperatures dropping and winds slackening off, avalanche danger will recede.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-17T15:00:00+00:00",
+            "endTime": "2025-04-18T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-16T15:00:00+00:00",
+        "endTime": "2025-04-17T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Foehn winds will taper off on Thursday, the air will become moister, clouds and fog will increase. Precipitation can be increasingly expected, the snowfall level will descend only gradually to 2000m. At 2000m: +5 degrees during the daytime. Initially strong S/SE winds, later on tapering off."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger is low. In the moist/warm air and with rainfall, danger of wet-snow and glide-snow avalanches will increase. Naturally triggered wet slides and mostly small avalanches can trigger naturally on steep north-facing slopes.",
+        "highlights": "Wet-snow slides and small avalanches"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "N",
+            "NE",
+            "NW",
+            "E"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "cb753b7b-27d1-47c8-a5bf-80ff4fceb8bc",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-04-16T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-08-07",
+          "name": "Lechtaler Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Outgoing longwave radiation during the night from Wednesday to Thursday will be very poor due to moist-warm air masses and some rainfall. The snowpack can\u2019t consolidate. On south-facing slopes there is hardly any snow on the ground up to high altitudes. Also on shady slopes the ground is becoming bare of snow up to intermediate altitudes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Vorarlberg",
+          "website": "https://warnung.vorarlberg.at/vtgdb/dist/index.html#//lwd_lagebericht_en.html"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Due to temperatures dropping and winds slackening off, avalanche danger will recede.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-17T15:00:00+00:00",
+            "endTime": "2025-04-18T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-16T15:00:00+00:00",
+        "endTime": "2025-04-17T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Foehn winds will taper off on Thursday, the air will become moister, clouds and fog will increase. Precipitation can be increasingly expected, the snowfall level will descend only gradually to 2000m. At 2000m: +5 degrees during the daytime. Initially strong S/SE winds, later on tapering off."
+      }
+    }
+  ],
+  "customData": {
+    "generalHeadline": "Main danger: wet-snow avalanches. Beware fresh snowdrifts in high-alpine zones."
+  }
+}
