@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-16T15:12:10Z",
+    "validTime" : {
+      "startTime" : "2025-04-16T22:00:00Z",
+      "endTime" : "2025-04-17T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches humides et mouillées sont le danger principal.",
+      "comment" : "Au-dessus d'environ 1800 m des avalanches spontanées mouillées de petite et rarement moyenne taille sont possibles. Ce sont surtout les combes et goulottes qui sont particulièrement défavorables. Les avalanches de glissement peuvent se déclencher à tout moment du jour et de la nuit."
+    },
+    "snowpackStructure" : {
+      "comment" : "À basse et moyenne altitude il n'y a pas de neige. En altitude le manteau neigeux est très variable à petite échelle. Les accumulations plus anciennes de neige soufflée se situent spécialement dans les combes, couloirs et derrière les ruptures de terrain. À toutes les altitudes le manteau neigeux ancien reste humide. Les conditions météorologiques entraînent aussi à haute altitude un tassement léger du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-17T22:00:00Z",
+        "endTime" : "2025-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NW", "SE", "S", "N", "NE", "SW", "W" ]
+    } ],
+    "bulletinID" : "76745bd7-4a19-4530-9f16-3060818d2d1b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
