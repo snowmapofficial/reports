@@ -1,0 +1,107 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-17T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-17T15:00:00Z",
+      "endTime" : "2025-04-18T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Restraint is advisable on this first sunny day after a long period of poor weather.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution. Wind slabs at elevated altitudes.",
+      "comment" : "In all regions numerous small and medium-sized moist snow slides and avalanches are to be expected as a consequence of warming during the day and solar radiation. The avalanche prone locations are to be found on steep sunny slopes in all altitude zones and on shady slopes below approximately 2600 m. The danger of natural moist avalanches will increase significantly during the day. Individual gliding avalanches can also occur. <br/> <br/> As a consequence of new snow and wind from northerly directions, visible wind slabs formed. In many cases avalanches are medium-sized and easily released. As a consequence of a light to moderate southwesterly wind, mostly small wind slabs will form in the course of the day. The avalanche prone locations for dry avalanches are to be found especially adjacent to ridgelines and in gullies and bowls and in shady places that are protected from the wind. <br/> <br/> Careful route selection is recommended."
+    },
+    "snowpackStructure" : {
+      "comment" : "Friday: The weather will be sunny. The wind will be light to moderate adjacent to ridgelines. <br/> <br/> The snowpack will become moist over a wide area. The old snowpack remains in most cases well bonded."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Further increase in danger of dry and moist avalanches as a consequence of the precipitation.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-04-18T15:00:00Z",
+        "endTime" : "2025-04-19T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "E", "NW", "N", "S", "NE", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "E", "NW", "N", "S", "NE", "SW", "W" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SE", "E", "NW", "N", "S", "NE", "SW", "W" ]
+    } ],
+    "bulletinID" : "e647cb2f-d7f4-4350-8352-790d90afbea6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern limit of Aran",
+      "regionID" : "ES-CT-L-02"
+    }, {
+      "name" : "South slope of Aran",
+      "regionID" : "ES-CT-L-03"
+    }, {
+      "name" : "North and center of Aran",
+      "regionID" : "ES-CT-L-01"
+    } ]
+  } ]
+}
