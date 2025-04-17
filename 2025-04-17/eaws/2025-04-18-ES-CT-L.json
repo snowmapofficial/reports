@@ -1,0 +1,153 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In all regions numerous small and medium-sized moist snow slides and avalanches are to be expected as a consequence of warming during the day and solar radiation. The avalanche prone locations are to be found on steep sunny slopes in all altitude zones and on shady slopes below approximately 2600 m. The danger of natural moist avalanches will increase significantly during the day. Individual gliding avalanches can also occur. <br/> <br/> As a consequence of new snow and wind from northerly directions, visible wind slabs formed. In many cases avalanches are medium-sized and easily released. As a consequence of a light to moderate southwesterly wind, mostly small wind slabs will form in the course of the day. The avalanche prone locations for dry avalanches are to be found especially adjacent to ridgelines and in gullies and bowls and in shady places that are protected from the wind. <br/> <br/> Careful route selection is recommended.",
+        "highlights": "Wet snow requires caution. Wind slabs at elevated altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "frequency": "many",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "e647cb2f-d7f4-4350-8352-790d90afbea6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-18"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1900"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "Restraint is advisable on this first sunny day after a long period of poor weather.",
+      "lang": "en",
+      "publicationTime": "2025-04-17T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Friday: The weather will be sunny. The wind will be light to moderate adjacent to ridgelines. <br/> <br/> The snowpack will become moist over a wide area. The old snowpack remains in most cases well bonded."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Further increase in danger of dry and moist avalanches as a consequence of the precipitation.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2025-04-18T15:00:00+00:00",
+            "endTime": "2025-04-19T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-04-17T15:00:00+00:00",
+        "endTime": "2025-04-18T15:00:00+00:00"
+      }
+    }
+  ]
+}
