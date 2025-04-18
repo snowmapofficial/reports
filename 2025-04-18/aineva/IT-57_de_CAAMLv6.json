@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-18T22:00:00Z",
+      "endTime" : "2025-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Feuchte und nasse Lawinen sind die Hauptgefahr.",
+      "comment" : "Oberhalb von rund 1900 m sind kleine und vereinzelt mittlere spontane nasse Lawinen möglich. Die Gefahrenstellen liegen besonders an Felswandfüßen sowie an steilen Sonnenhängen."
+    },
+    "snowpackStructure" : {
+      "comment" : "In tiefen und mittleren Lagen liegt kein Schnee. In der Höhe ist die Schneedecke kleinräumig sehr unterschiedlich. Die älteren Triebschneeansammlungen liegen besonders in Rinnen, Mulden und hinter Geländekanten. Die Altschneedecke bleibt in allen Höhenlagen feucht. Die Wetterbedingungen führen zu einer zunehmenden Durchnässung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-19T22:00:00Z",
+        "endTime" : "2025-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "N", "NW", "E", "NE", "SE", "SW", "W" ]
+    } ],
+    "bulletinID" : "bfe6d859-e548-4673-a4df-a61ec942e65c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
