@@ -1,0 +1,211 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-18T22:00:00Z",
+      "endTime" : "2025-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches parfois de grande taille sont toujours possibles à partir des zones de départ d'altitude.",
+      "comment" : "Des avalanches sèches et humides parfois de grande taille sont toujours possibles à partir des zones de départ pas encore déchargées, notamment au-dessus d'environ 2500 m. Les avalanches peuvent être déclenchées dans les couches profondes surtout sur les pentes à l'ombre. <br/> La forte humidité de l'air entraîne en cours de journée en dessous d'environ 2700 m une humidification du manteau neigeux. Des avalanches humides peuvent par endroits être déclenchées dans la neige ancienne fragile. Ceci surtout sur les pentes très raides. <br/> <br/> La neige fraîche des derniers jours peut être déclenchée par un seul amateur de sports d'hiver surtout sur les pentes à l'ombre. La situation avalancheuse actuelle demande de l' expérience dans l'évaluation du danger d'avalanche et un choix prudent des itinéraires."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis mardi il est tombé au-dessus d'environ 2500 m de 150 à 180 cm de neige. <br/> Samedi: Spécialement en haute montagne: L'après-midi les accumulations de neige soufflée se développent encore avec le vent du sud-est. À partir de l'après-midi il tombera au-dessus d'environ 2300 m jusqu'à 25 cm de neige. <br/> La partie supérieure du manteau neigeux est humide, avec une croûte souvent porteuse à la surface. <br/> En dessous d'environ 2000 m il y a peu de neige. <br/> Depuis mercredi des avalanches très nombreuses de très grande taille se sont déclenchées spontanément."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Jusqu'à dimanche il tombera au-dessus d'environ 2300 m de 30 à 50 cm de neige. Avec la neige fraîche et le vent des avalanches sèches et humides sont toujours possibles.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-19T22:00:00Z",
+        "endTime" : "2025-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "N", "NW", "E", "NE", "W", "SW", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "SW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "S", "NW", "E", "NE", "W", "SW", "SE" ]
+    } ],
+    "bulletinID" : "7a089cf3-de65-4cdc-8dc7-0c3db28006b7",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-18T22:00:00Z",
+      "endTime" : "2025-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches de plaque de neige mouillée et des coulées mouillées et humides sont toujours fort probables.",
+      "comment" : "De rares avalanches sèches et humides parfois de grande taille sont possibles à partir des zones de départ pas encore déchargées, notamment au-dessus d'environ 2500 m. Les avalanches peuvent être déclenchées dans les couches profondes surtout sur les pentes à l'ombre. <br/> La forte humidité de l'air entraîne en cours de journée en dessous d'environ 2700 m une humidification du manteau neigeux. Des avalanches humides peuvent par endroits être déclenchées dans la neige ancienne fragile. Ceci surtout sur les pentes très raides. <br/> <br/> La neige fraîche des derniers jours peut être déclenchée par un seul amateur de sports d'hiver surtout sur les pentes à l'ombre. La situation avalancheuse actuelle demande de l' expérience dans l'évaluation du danger d'avalanche et un choix prudent des itinéraires."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis mardi il est tombé au-dessus d'environ 2500 m de 80 à 130 cm de neige. <br/> Samedi: Spécialement en haute montagne: L'après-midi les accumulations de neige soufflée se développent avec le vent du sud-est. À partir de l'après-midi il tombera au-dessus d'environ 2300 m jusqu'à 15 cm de neige. <br/> La partie supérieure du manteau neigeux est humide, avec une croûte souvent porteuse à la surface. <br/> Depuis mercredi plusieurs avalanches de moyenne et rarement grande taille se sont déclenchées spontanément."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Jusqu'à dimanche il tombera au-dessus d'environ 2300 m de 10 à 25 cm de neige. Avec la neige fraîche et le vent des avalanches sèches et humides sont toujours possibles.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-19T22:00:00Z",
+        "endTime" : "2025-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "N", "NW", "E", "NE", "W", "SW", "SE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "S", "NW", "E", "NE", "W", "SW", "SE" ]
+    } ],
+    "bulletinID" : "ce524f0e-6826-4e04-959a-0c6a312ee067",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    } ]
+  } ]
+}
