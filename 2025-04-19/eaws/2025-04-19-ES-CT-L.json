@@ -1,0 +1,153 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In all regions numerous small and medium-sized moist snow slides and avalanches are to be expected as a consequence of the rain. The avalanche prone locations are to be found in all aspects below approximately 2600 m. Especially steep shady slopes: The danger of natural moist avalanches will already increase in the early morning. Individual gliding avalanches can also occur. <br/> <br/> As a consequence of new snow and wind from southerly directions, wind slabs will form in particular adjacent to ridgelines and in pass areas as well as at elevated altitudes. In many cases avalanches are medium-sized and easily released. Individual large avalanches are further not ruled out. <br/> <br/> Experience and restraint are required.",
+        "highlights": "Wet snow requires caution. Wind slabs at elevated altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "frequency": "many",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "NW",
+            "N",
+            "S",
+            "NE",
+            "SW",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "69bb7f82-d896-49e0-8eaf-4feee70ff374",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-04-19"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1900"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1900"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "At the southern border of Aran the avalanche prone locations are more prevalent.",
+      "lang": "en",
+      "publicationTime": "2025-04-19T06:00:56+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Friday: The snowpack will be generally moist. <br/> Saturday: The weather will be cloudy. The wind will be moderate to strong adjacent to ridgelines. Early and late morning: Up to 2400 m rain will fall. Down to low altitudes snow will fall until the evening. <br/> In particular high altitudes: At the southern border of Aran 25 to 30 cm of snow, and even more in some localities, will fall. In the other regions 5 to 20 cm of snow will fall. <br/> At low altitude no snow is lying."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Gradual decrease in danger of dry and moist avalanches as a consequence of the ceasing of precipitation.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-04-19T15:00:00+00:00",
+            "endTime": "2025-04-20T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-04-18T15:00:00+00:00",
+        "endTime": "2025-04-19T15:00:00+00:00"
+      }
+    }
+  ]
+}
