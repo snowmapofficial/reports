@@ -1,0 +1,220 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-20T06:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-19T22:00:00Z",
+      "endTime" : "2025-04-20T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Bis Sonntag fallen oberhalb von rund 2300 m 30 bis 50 cm Schnee. Mit Neuschnee und Wind sind weiterhin spontane Lawinen möglich.",
+      "comment" : "Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl. Der Neuschnee der letzten Tage kann vor allem an Schattenhängen von einzelnen Wintersportlern ausgelöst werden. <br/> Aus noch nicht entladenen Einzugsgebieten sind weiterhin teils große trockene und feuchte Lawinen möglich, besonders oberhalb von rund 2500 m. Die Lawinen können v.a. an Schattenhängen in tiefen Schichten ausgelöst werden. <br/> In Kamm- und Passlagen wachsen die Triebschneeansammlungen weiter an. Dies vor allem in den Hauptniederschlagsgebieten. Diese sind teilweise leicht auslösbar. <br/> Diese Wetterbedingungen führen im Tagesverlauf unterhalb von rund 2500 m zu einer Anfeuchtung der Schneedecke. Stellenweise können feuchte Lawinen im schwachen Altschnee ausgelöst werden. Dies vor allem an sehr steilen Hängen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Dienstag fielen oberhalb von rund 2500 m 150 bis 180 cm Schnee. Seit Mittwoch gingen zahlreiche sehr große Lawinen spontan ab, auch aus mäßig steilem Gelände. <br/> Sonntag: Besonders Hochgebirge: In den nächsten Stunden fallen vor allem im Südosten oberhalb von rund 2300 m bis zu 50 cm Schnee. Mit dem Südostwind wachsen die Triebschneeansammlungen in der Nacht weiter an. <br/> Der obere Teil der Schneedecke ist feucht, mit einer oft tragfähigen Kruste an der Oberfläche. <br/> Unterhalb von rund 2000 m liegt wenig Schnee. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind im Tagesverlauf weiterhin trockene und feuchte Lawinen möglich, vereinzelt auch große.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-20T22:00:00Z",
+        "endTime" : "2025-04-21T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "N", "NE", "W", "E", "NW", "SE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "NW", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "N", "NE", "W", "E", "NW", "SE", "SW" ]
+    } ],
+    "bulletinID" : "4204fa47-df74-45fc-aa36-cb4eeb23baaa",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-20T06:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-19T22:00:00Z",
+      "endTime" : "2025-04-20T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Bis Sonntag fallen oberhalb von rund 2300 m 15 bis 30 cm Schnee, lokal auch mehr. Trockene und feuchte Lawinen und nasse Rutsche sind weiterhin wahrscheinlich.",
+      "comment" : "Der Neuschnee der letzten Tage kann vor allem an Schattenhängen von einzelnen Wintersportlern ausgelöst werden. Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl. <br/> Aus noch nicht entladenen Einzugsgebieten sind weiterhin teils große trockene und feuchte Lawinen möglich, besonders oberhalb von rund 2500 m. Die Lawinen können v.a. an Schattenhängen in tiefen Schichten ausgelöst werden. <br/> In Kamm- und Passlagen wachsen die Triebschneeansammlungen weiter an. Dies vor allem entlang der Grenze zwischen dem Wallis und Frankreich. Diese sind teilweise leicht auslösbar. <br/> Diese Wetterbedingungen führen im Tagesverlauf unterhalb von rund 2500 m zu einer Anfeuchtung der Schneedecke. Stellenweise können feuchte Lawinen im schwachen Altschnee ausgelöst werden. Dies vor allem an sehr steilen Hängen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Dienstag fielen oberhalb von rund 2500 m 80 bis 130 cm Schnee. Seit Mittwoch gingen zahlreiche mittlere und mehrfach große Lawinen spontan ab, auch aus mäßig steilem Gelände. <br/> Sonntag: Besonders Hochgebirge: In den nächsten Stunden fallen oberhalb von rund 2300 m bis zu 30 cm Schnee. Mit dem Südostwind wachsen die Triebschneeansammlungen in der Nacht an. <br/> Der obere Teil der Schneedecke ist feucht, mit einer oft tragfähigen Kruste an der Oberfläche. <br/> Unterhalb von rund 2000 m liegt wenig Schnee. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind im Tagesverlauf weiterhin trockene und feuchte Lawinen möglich, vor allem solche mittlerer Größe.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-20T22:00:00Z",
+        "endTime" : "2025-04-21T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "N", "NE", "W", "E", "NW", "SE", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "N", "NE", "W", "E", "NW", "SE", "SW" ]
+    } ],
+    "bulletinID" : "782b3761-b6df-4071-942d-bd81ebb7efef",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
