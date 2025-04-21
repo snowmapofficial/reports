@@ -1,0 +1,134 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-21T15:00:00Z",
+      "endTime" : "2025-04-22T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet avalanches are rare.",
+      "comment" : "Avalanche danger is low. On very steep to extremely steep slopes, spontaneous releases of wet loose snow or glide-snow avalanches cannot be ruled out. Avalanches tend to be small."
+    },
+    "snowpackStructure" : {
+      "comment" : "A coherent snow cover is now rare to find. Only on the shady side above 1400m are there still larger snowfields in some places. The snow is completely soaked."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-04-22T15:00:00Z",
+        "endTime" : "2025-04-23T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "b0629af3-0309-44b9-9d3c-e6908ca023a7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-21T15:00:00Z",
+      "endTime" : "2025-04-22T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Humidity within the snowpack increases.",
+      "comment" : "Avalanche danger above 1600m is moderate. Wet snow can be problematic. On slopes with sufficient snow in extremely steep terrain, small wet loose-snow avalanches can trigger naturally or be triggered by persons. Isolated medium-sized wet glide-snow avalanches can release naturally at any time over smooth ground as well as on meadows or rock slabs."
+    },
+    "snowpackStructure" : {
+      "comment" : "Up to high altitudes the snowpack is becoming increasingly wet. Barely any layering left in the snowpack. South-facing slopes are widespread bare. In some places above approx. 1500m there is still a coherent snow cover on the shady side."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger will decrease slightly.",
+      "validTime" : {
+        "startTime" : "2025-04-22T15:00:00Z",
+        "endTime" : "2025-04-23T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "W", "N", "NE", "NW", "E" ]
+    } ],
+    "bulletinID" : "b567f715-ace7-4c97-bdb3-590d905a2a34",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Avalanche prone locations predominantly at high altitudes."
+  }
+}
