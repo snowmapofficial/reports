@@ -1,0 +1,276 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-21T22:00:00Z",
+      "endTime" : "2025-04-22T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Im Hochgebirge sind die Gefahrenstellen häufiger und größer.",
+      "comment" : "Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr. <br/> Der Neuschnee und die Triebschneeansammlungen müssen in mittleren und hohen Lagen vorsichtig beurteilt werden. Einzelne Schneesportler können Lawinen auslösen, auch große. Dies vor allem an sehr steilen Hängen in Kammlagen, Rinnen und Mulden. <br/> Mit der tageszeitlichen Erwärmung steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf an. Stellenweise können feuchte Lawinen im schwachen Altschnee ausgelöst werden. Touren sollten früh gestartet und beendet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Nach klarer Nacht herrschen am Morgen allgemein günstige Lawinenverhältnisse, dann steigt die Lawinengefahr an. Die Schneeoberfläche gefriert tragfähig. <br/> Die Wetterbedingungen erlaubten eine allmähliche Verfestigung der Triebschneeansammlungen. <br/> Seit Sonntag fielen oberhalb von rund 2500 m 15 bis 30 cm Schnee. <br/> Seit Sonntag blies der Wind lokal zeitweise mäßig bis stark. Mit dem Südwestwind wuchsen die Triebschneeansammlungen am Montag weiter an. <br/> Der obere Teil der Schneedecke ist feucht, mit einer oft tragfähigen Kruste an der Oberfläche. Neu- und Triebschnee liegen auf einer feuchten Altschneedecke. <br/> Unterhalb von rund 2000 m liegt wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es sind im Tagesverlauf weiterhin trockene und feuchte Lawinen möglich.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-22T22:00:00Z",
+        "endTime" : "2025-04-23T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SW", "SE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    } ],
+    "bulletinID" : "992845a3-82c2-4edb-b095-3e147ce63ce4",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-21T22:00:00Z",
+      "endTime" : "2025-04-22T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von trockenen und feuchten Lawinen steigt im Tagesverlauf an.",
+      "comment" : "Der Neuschnee und die Triebschneeansammlungen müssen in mittleren und hohen Lagen vorsichtig beurteilt werden. Einzelne Schneesportler können Lawinen auslösen, auch solche mittlerer Größe. Dies vor allem an sehr steilen Hängen in Kammlagen, Rinnen und Mulden. <br/> Mit der tageszeitlichen Erwärmung steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf an. Stellenweise können feuchte Lawinen im schwachen Altschnee ausgelöst werden. Touren sollten früh gestartet und beendet werden. <br/> Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr."
+    },
+    "snowpackStructure" : {
+      "comment" : "Nach klarer Nacht herrschen am Morgen allgemein günstige Lawinenverhältnisse, dann steigt die Lawinengefahr an. Die Schneeoberfläche gefriert tragfähig. <br/> Die Wetterbedingungen erlaubten eine allmähliche Verfestigung der Triebschneeansammlungen. <br/> Seit Sonntag fielen oberhalb von rund 2500 m 5 bis 15 cm Schnee. <br/> Seit Sonntag blies der Wind lokal zeitweise mäßig bis stark. <br/> Der obere Teil der Schneedecke ist feucht, mit einer oft tragfähigen Kruste an der Oberfläche. Neu- und Triebschnee liegen auf einer feuchten Altschneedecke. <br/> Unterhalb von rund 2000 m liegt wenig Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es sind im Tagesverlauf weiterhin trockene und feuchte Lawinen möglich. Mittwoch: Ab dem Nachmittag fällt Schnee oberhalb von rund 2100 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-22T22:00:00Z",
+        "endTime" : "2025-04-23T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "NW", "SE", "N", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "NW", "SE", "N", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SW", "SE", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "S", "SW", "SE", "NW", "N", "E" ]
+    } ],
+    "bulletinID" : "3ef0f53e-b853-4c22-9621-794337a1e87d",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
