@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-23T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-23T22:00:00Z",
+      "endTime" : "2025-04-24T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "As a consequence of the precipitation the prevalence of the avalanche prone locations will increase. Moist and wet avalanches are the main danger.",
+      "comment" : "In some regions some new snow in the high Alpine regions. <br/> As the moisture increases more moist and wet avalanches are possible. Gliding avalanches can also occur. The avalanche prone locations are to be found in all aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Over a wide area precipitation. Some new snow above approximately 1800 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-24T22:00:00Z",
+        "endTime" : "2025-04-25T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "E", "W", "NE", "SE", "S", "N" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "E", "W", "NE", "SE", "S", "N" ]
+    } ],
+    "bulletinID" : "39c7f62a-b6c4-4fe1-ad42-286f1c0ae906",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
