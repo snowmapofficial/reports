@@ -1,0 +1,314 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T15:00:00Z",
+      "endTime" : "2025-04-25T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs at high altitude. Wet snow requires caution.",
+      "comment" : "Fresh wind slabs can be released by a single winter sport participant in some cases at elevated altitudes. Such avalanche prone locations are to be found adjacent to ridgelines and in gullies and bowls. Mostly avalanches are only small. Loose snow slides are possible. In the event of prolonged bright spells this applies in particular. <br/> <br/> Wet avalanches can in very isolated cases be released by a single winter sport participant. The avalanche prone locations are to be found especially on very steep west, north and east facing slopes below approximately 2600 m. Mostly wet avalanches are only small."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some regions up to 15 cm of snow will fall above approximately 2400 m. As a consequence of new snow and a moderate to strong wind from northerly directions, small wind slabs will form. These are lying on soft layers at elevated altitudes. <br/> <br/> Over a wide area an overcast night. The old snowpack is wet. This applies on shady slopes below approximately 2600 m, as well as on sunny slopes below approximately 3000 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The surface of the snowpack will only just freeze and will soften during the day. As a consequence of warming during the day and solar radiation small loose snow avalanches are possible.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T15:00:00Z",
+        "endTime" : "2025-04-26T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP9" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "W", "N", "NW" ]
+    } ],
+    "bulletinID" : "abf6e1c2-5eb5-4050-b5d9-7bb275efbd1d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kauner Ridge",
+      "regionID" : "AT-07-14-01"
+    }, {
+      "name" : "Western Verwall Mountains",
+      "regionID" : "AT-07-10"
+    }, {
+      "name" : "Eastern Verwall Mountains",
+      "regionID" : "AT-07-11"
+    }, {
+      "name" : "Silvretta",
+      "regionID" : "AT-07-12"
+    }, {
+      "name" : "Samnaun Mountains",
+      "regionID" : "AT-07-13"
+    }, {
+      "name" : "Western Tuxer Alps",
+      "regionID" : "AT-07-15"
+    }, {
+      "name" : "Eastern Tuxer Alps",
+      "regionID" : "AT-07-16"
+    }, {
+      "name" : "Glockturm Range",
+      "regionID" : "AT-07-19"
+    }, {
+      "name" : "Weißkugel Range",
+      "regionID" : "AT-07-20"
+    }, {
+      "name" : "Gurgler Range",
+      "regionID" : "AT-07-21"
+    }, {
+      "name" : "Central Stubai Alps",
+      "regionID" : "AT-07-22"
+    }, {
+      "name" : "Northern Zillertal Alps",
+      "regionID" : "AT-07-23"
+    }, {
+      "name" : "Venediger Range",
+      "regionID" : "AT-07-24"
+    }, {
+      "name" : "Lasörling Range",
+      "regionID" : "AT-07-25"
+    }, {
+      "name" : "Glockner Range",
+      "regionID" : "AT-07-26"
+    }, {
+      "name" : "Eastern Deferegger Alps",
+      "regionID" : "AT-07-27"
+    }, {
+      "name" : "Schober Mountains",
+      "regionID" : "AT-07-28"
+    }, {
+      "name" : "Western Lechtal Alps",
+      "regionID" : "AT-07-07"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-07-29"
+    }, {
+      "name" : "Central Lechtal Alps",
+      "regionID" : "AT-07-08"
+    }, {
+      "name" : "Kalkkögel",
+      "regionID" : "AT-07-14-04"
+    }, {
+      "name" : "Grieskogel Mountains",
+      "regionID" : "AT-07-09"
+    }, {
+      "name" : "Serles Ridge",
+      "regionID" : "AT-07-14-05"
+    }, {
+      "name" : "Kühtai - Geigen Ridge",
+      "regionID" : "AT-07-14-02"
+    }, {
+      "name" : "Sellrain - Alpein Mountains",
+      "regionID" : "AT-07-14-03"
+    }, {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T15:00:00Z",
+      "endTime" : "2025-04-25T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger will prevail.",
+      "comment" : "Only isolated wet avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation during the night will be severely restricted. The surface of the snowpack will cool hardly at all during the overcast night and will already be soft in the early morning. The snowpack will be wet all the way through. <br/> A little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Only isolated wet avalanches are possible.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T15:00:00Z",
+        "endTime" : "2025-04-26T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "c856b53c-c555-463d-b48d-148b36eb0710",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    }, {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
