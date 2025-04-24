@@ -1,0 +1,253 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T15:00:00Z",
+      "endTime" : "2025-04-25T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On. Friday, gloomy weather. Clouds will be dense all day long, many peaks will be shrouded in fog, esp. during the morning hours rainfall and snow showers can be expected. In the afternoon, the tendency towards precipitation will slacken off. Moderate northerly wind. At 2000m: 0 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Beware snowdrifts in ridgeline and pass areas along the Italian border",
+      "comment" : "Due to fresh snow and moderate-velocity winds, trigger-sensitive snowdrift accumulations will be generated over the course of the day which can be triggered by one sole skier, but will be mostly small-sized releases. Caution urged in ridgeline and pass areas along the Italian border in the regions where there was snowfall. Below 2300m: wet-snow avalanches will be small but in isolated cases are triggerable by winter sports enthusiasts, esp. at the foot of rock walls. along the Italian border, following a night of cloudy skies."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above 2200m up to 15cm of fresh snow expected, locally more. Shady slopes along the Italian border: fresh snowdrift accumulations occur above 2300m and lie atop soft layers. The old snowpack is wet. Below 1800m hardly any snow on the ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Weather conditions leading to a swift moistening of the fresh fallen snow",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T15:00:00Z",
+        "endTime" : "2025-04-26T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    } ],
+    "bulletinID" : "05711324-1867-4314-85b9-8e7049e670b1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Central Karnian Alps",
+      "regionID" : "AT-02-15"
+    }, {
+      "name" : "Western Karnian Alps",
+      "regionID" : "AT-02-14"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T15:00:00Z",
+      "endTime" : "2025-04-25T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Thursday, ongoing instable conditions with a tendency towards showers, lots of dense cloud cover, the summit will be shrouded in fog. Sunny interims will be short. Winds light from the east, later blowing a moderate velocity from the northeast. At 2000m: +3 degrees; at 3000m: -7 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Beware snowdrifts along the Salzburg border",
+      "comment" : "Due to fresh snow and moderate-velocity winds, trigger-sensitive snowdrift accumulations will be generated over the course of the day which can be triggered by one sole skier, but will be mostly small-sized releases. Caution urged in gullies and bowls and behind protruberances in the terrain along the Salzburg border.Danger zones occur above 2600m. Isolated danger zones occur also on sunny slopes in high-alpine zones. Wet-snow avalanches will be small but in isolated cases are triggerable by winter sports enthusiasts, esp. at the foot of rock walls. along the Italian border, following a night of cloudy skies."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above 2200m up to 15cm of fresh snow expected, locally more. Shady slopes above 2600m: fresh snowdrift accumulations occur above 2300m and lie atop soft layers. Below 2600m: the old snowpack is wet. Below 2200m hardly any snow on the ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Above 2200m up to 20cm of fresh snow is anticipated, locally more.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T15:00:00Z",
+        "endTime" : "2025-04-26T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    } ],
+    "bulletinID" : "2b0d4f19-595a-4a75-bed1-b4df1c81507a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T15:00:00Z",
+      "endTime" : "2025-04-25T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Thursday, ongoing instable conditions with a tendency towards showers, lots of dense cloud cover, the summit will be shrouded in fog. Sunny interims will be short. Winds light from the east, later blowing at moderate velocity from the northeast.. At 2000m: +3 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Beware wet snow. Isolated danger zones.",
+      "comment" : "Due to rainfall, only isolated mostly small-sized wet-snow avalanches are possible during the course of the day. Caution urged in gulies in the major areas of precipitation. The runout zones should be give great attentiveness."
+    },
+    "snowpackStructure" : {
+      "comment" : "Weather conditions have led to the snowpack becoming thoroughly wet. Many wet-snow avalanches have already released, many starting zones have completely discharged."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "No significant change expected.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T15:00:00Z",
+        "endTime" : "2025-04-26T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "N", "NE", "NW", "E" ]
+    } ],
+    "bulletinID" : "2c0ae15b-f1f3-4cc9-8bc1-90de8e9095f5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-02-04-01"
+    }, {
+      "name" : "Eastern Karawanken",
+      "regionID" : "AT-02-19"
+    }, {
+      "name" : "Central Karawanken",
+      "regionID" : "AT-02-18"
+    }, {
+      "name" : "Kreuzeck Group",
+      "regionID" : "AT-02-09"
+    }, {
+      "name" : "Goldeck Group",
+      "regionID" : "AT-02-12-02"
+    }, {
+      "name" : "Western Karawanken",
+      "regionID" : "AT-02-17"
+    }, {
+      "name" : "Eastern Karnian Alps",
+      "regionID" : "AT-02-16"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-02-10"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Beware snowdrift accumulations"
+  }
+}
