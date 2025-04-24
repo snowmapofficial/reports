@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-24T22:00:00Z",
+      "endTime" : "2025-04-25T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Dans les régions concernées par les précipitations principales le danger d'avalanches augmente. Des avalanches humides et mouillées sont le danger principal.",
+      "comment" : "Avec les précipitations la probabilité de déclenchement d'avalanches humides et mouillées augmente progressivement. En outre, des avalanches de glissement sont possibles. Les endroits dangereux se situent à toutes les expositions. <br/> Dans certaines régions chutes de neige en haute montagne: Les accumulations récentes de neige soufflée sont à évaluer prudemment."
+    },
+    "snowpackStructure" : {
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Localement précipitations. Il fait un temps partiellement nuageux.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-25T22:00:00Z",
+        "endTime" : "2025-04-26T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "W", "N", "E", "SW", "SE", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "W", "N", "E", "SW", "SE", "NE" ]
+    } ],
+    "bulletinID" : "10affde3-45a4-4dde-ab18-6052aa44a8f7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
