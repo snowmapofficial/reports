@@ -1,0 +1,145 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-25T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-25T15:00:00Z",
+      "endTime" : "2025-04-26T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Snow quantities relevant for avalanches now only on shady side slopes above 1800m.",
+      "comment" : "Avalanche danger above 1800m is moderate. Wet snow can be problematic on isolated slopes with sufficient snow. Small wet loose snow avalanches are possible in extremely steep terrain, in particular on Wednesday at dusk. Medium-sized glide-snow avalanches are possible on slopes over smooth ground as well as over meadows or rock slabs."
+    },
+    "snowpackStructure" : {
+      "comment" : "Up to high altitudes the snowpack is thoroughly moist. Barely any layering left in the snowpack. South-facing slopes are widespread bare. Above approx. 1500m there is mostly a continuous snowfield on the shady side."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wet loose snow activity will decrease by the weekend due to cooler temperatures.",
+      "validTime" : {
+        "startTime" : "2025-04-26T15:00:00Z",
+        "endTime" : "2025-04-27T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "NW", "E", "W", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "E", "S" ]
+    } ],
+    "bulletinID" : "f39f7a34-bad7-4418-90a2-9ed1b59baf30",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-25T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-25T15:00:00Z",
+      "endTime" : "2025-04-26T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Hardly any avalanche prone locations left.",
+      "comment" : "Avalanche danger is low. On extremely steep slopes, spontaneous releases of small wet loose snow or glide-snow avalanches cannot be ruled out."
+    },
+    "snowpackStructure" : {
+      "comment" : "Barely any continuous snow covers left. Only on the shady side above 1500m are there still larger snowfields in some places. The snow is completely soaked but stable."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger remains low.",
+      "validTime" : {
+        "startTime" : "2025-04-26T15:00:00Z",
+        "endTime" : "2025-04-27T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "d3e843cc-8efb-4319-9a1d-ab923cb74253",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : { }
+}
