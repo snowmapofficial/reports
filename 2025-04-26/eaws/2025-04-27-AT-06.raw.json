@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-26T15:00:00Z",
+      "endTime" : "2025-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Sunday will be mostly sunny, only the mountains \"Niedere Tauern\" are still covered in clouds in the morning. A south-easterly wind will bring milder air masses to Styria, with temperatures at an altitude of 2000 m between 3 and 6 degrees at noon."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Isolated danger spots - minor wet snow problem!",
+      "comment" : "The avalanche danger is assessed as low. There are only isolated danger spots. Above 2000 m, spontaneous, small wet snow avalanches can occur from extremely steep, shaded slopes and gullies that have not yet been unloaded."
+    },
+    "snowpackStructure" : {
+      "comment" : "On slopes on the sunny side at high altitudes the snow has fully retreated. Only on the shady side there is a closed snow cover, although even there it is already wet or moist up to high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "At the beginning of next week, the high pressure influence with a mild southerly flow will continue. The avalanche risk and snow depths will continue to decrease.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-04-27T15:00:00Z",
+        "endTime" : "2025-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "b22af722-b04c-4308-b75b-b885d6ac6644",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Totes Gebirge",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Südliche Wölzer Tauern",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Nördliche Wölzer Tauern",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Low avalanche danger - spring-like weather."
+  }
+}
