@@ -1,0 +1,95 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-26T22:00:00Z",
+      "endTime" : "2025-04-27T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von kleinen und mittleren Lawinen steigt im Tagesverlauf etwas an. Vorsicht vor frischem Triebschnee. Die Lawinen können vereinzelt in tiefen Schichten anreißen.",
+      "comment" : "Die Aktivität von Lawinen nimmt mit der Erwärmung nur langsam zu. Lawinen können bis auf den Boden durchreißen. Feuchte Lawinen können vereinzelt von einzelnen Wintersportlern ausgelöst werden. Die frischen und schon etwas älteren Triebschneeansammlungen sollten an allen Expositionen oberhalb von rund 2200 m vorsichtig beurteilt werden. Neu- und Triebschnee müssen an allen Expositionen oberhalb von rund 2000 m vorsichtig beurteilt werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Regen führte unterhalb von rund 2400 m zu einer zunehmenden Anfeuchtung der Schneedecke. Neu- und Triebschnee müssen an allen Expositionen im Hochgebirge vorsichtig beurteilt werden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-27T22:00:00Z",
+        "endTime" : "2025-04-28T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "N", "NW", "SW", "E", "S", "NE", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "NW", "SW", "E", "S", "NE", "SE" ]
+    } ],
+    "bulletinID" : "b768a15c-cb73-4680-9f36-e8d178313f71",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
