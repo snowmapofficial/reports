@@ -1,0 +1,147 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-26T15:00:00Z",
+      "endTime" : "2025-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Heed the risk of taking a fall!",
+      "comment" : "Avalanche danger above 1800m is moderate. New snow can be problematic. Small wet loose snow avalanches can release in extremely steep terrain, in particular due to solar radiation. On the shady side, isolated medium-sized glide-snow avalanches are possible on slopes over smooth ground as well as over meadows or rock slabs. In addition, isolated small snowdrift patches can be released by backcountry tourers by minor additional loading. This applies in particular to steep ridgeline terrain at high altitude in N/E/SE aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "At higher altitudes, a few centimeters of new snow were deposited atop a thoroughly moist snowpack or bare ground. Small snowdrift patches accumulated in wind-exposed places at highest altitudes. The old snowpack is compact and generally stable. Above approx. 1600m there is mostly a continuous snowfield on the shady side."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger will slowly diminish.",
+      "validTime" : {
+        "startTime" : "2025-04-27T15:00:00Z",
+        "endTime" : "2025-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "NW", "E", "W", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "SW", "NE", "E", "S" ]
+    } ],
+    "bulletinID" : "81bd03fe-0cc6-44f6-919c-3b79bcb9d97f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps",
+      "regionID" : "DE-BY-20"
+    } ]
+  }, {
+    "publicationTime" : "2025-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-26T15:00:00Z",
+      "endTime" : "2025-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Hardly any avalanche prone locations left.",
+      "comment" : "Avalanche danger is low. On extremely steep slopes with sufficient snow, spontaneous releases of small wet loose snow or glide-snow avalanches cannot be ruled out."
+    },
+    "snowpackStructure" : {
+      "comment" : "Barely any continuous snowfields left. Only on the shady side above 1600m are there still larger snowfields in some places. The snow is completely soaked but by and large stable."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger remains low.",
+      "validTime" : {
+        "startTime" : "2025-04-27T15:00:00Z",
+        "endTime" : "2025-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "29049310-0759-4d3e-92c6-a7dcd26cd8fe",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "New snow moistens fast."
+  }
+}
