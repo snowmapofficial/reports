@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-04-28T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-04-28T15:00:00Z",
+      "endTime" : "2025-04-29T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "On Tuesday, brilliant sunshine from early until late morning. In the afternoon hours, convective cloud build-up will become evident. local showers will be seldom. Light E/NE winds. At 1000m: +19 degrees; at 2000m: +8 degrees; at 3000m: 0 degrees. Source: GeoSphere Austria"
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow is the main danger",
+      "comment" : "Due to daytime warming and solar radiation, likelihood of wet-snow avalanches triggering will increase. Below 2800m mostly small releases are possible, esp. along the Salzburg border. Caution urged esp. on very steep slopes and at the foot of rock walls. Snowdrift accumulations are no longer very trigger-sensitive. Isolated danger zones occur on shady slopes above 2800m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Nocturnal outgoing longwave radiation is quite good, the snowpack surface freezes enough to be capable of bearing loads. The snowpack is thoroughly wet, esp. on sday slopes below 2800m and on sunny slopes below 3200m. In all regions there is too little snow on the ground. Below 2200m there is hardly any snow. Carnic Alps: below 1800m, hardly any snow on the ground."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "On 30 April 2025, the final Avalanche Bulletin of winter season 2024/25 will be published",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-04-29T15:00:00Z",
+        "endTime" : "2025-04-30T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-04-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "N", "NE", "NW", "E" ]
+    } ],
+    "bulletinID" : "5d76967e-1906-481d-bfc7-cb37616bda52",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ankogel Group",
+      "regionID" : "AT-02-03-01"
+    }, {
+      "name" : "Hafner Group",
+      "regionID" : "AT-02-03-02"
+    }, {
+      "name" : "Kreuzeck Group",
+      "regionID" : "AT-02-09"
+    }, {
+      "name" : "Central Karnian Alps",
+      "regionID" : "AT-02-15"
+    }, {
+      "name" : "Western Karnian Alps",
+      "regionID" : "AT-02-14"
+    }, {
+      "name" : "Goldberg Group",
+      "regionID" : "AT-02-01-02"
+    }, {
+      "name" : "Glockner Group",
+      "regionID" : "AT-02-01-01"
+    }, {
+      "name" : "Lienzer Dolomites",
+      "regionID" : "AT-02-10"
+    }, {
+      "name" : "Schober Group",
+      "regionID" : "AT-02-02"
+    } ]
+  } ],
+  "customData" : {
+    "generalHeadline" : "Danger of wet-snow avalanches will increase during the day"
+  }
+}
