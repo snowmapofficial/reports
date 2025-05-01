@@ -1,0 +1,94 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-01T22:00:00Z",
+      "endTime" : "2025-05-02T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "L'emissione del Bollettino di pericolo valanghe per il Friuli Venezia Giulia termina nella giornata odierna e riprenderà per la prossima stagione invernale indicativamente ai primi di dicembre. Per il prossimo periodo verranno pubblicate le \"Note Informative\" che forniscono alcune indicazioni sulle condizioni nivometeorologiche del nostro territorio. <br/> <br/> Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata i punti pericolosi aumenteranno. <br/> Le escursioni dovrebbero iniziare e terminare molto presto.",
+      "comment" : "Con l'umidificazione, sono ancora possibili valanghe umide e bagnate. Esse possono coinvolgere gli strati più profondi del manto nevoso. Inoltre sono possibili valanghe per scivolamento di neve. I punti pericolosi si trovano a tutte le esposizioni in quota."
+    },
+    "snowpackStructure" : {
+      "comment" : "L'innevamento è variabile in funzione della quota e dell'esposizione; in molte zone il manto nevoso si presenta discontinuo; su molti pendii, in particolare sui quadranti meridionali, non c'è neve. Le temperature miti hanno causato diffusamente un impregnamento del manto nevoso, più accentuato dove lo spessore della neve è più contenuto."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Continuo rialzo termico. Il tempo sarà nuvoloso. Le condizioni rimangono primaverili.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-02T22:00:00Z",
+        "endTime" : "2025-05-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "N", "W", "S", "E", "NW", "NE", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "N", "W", "S", "E", "NW", "NE", "SW" ]
+    } ],
+    "bulletinID" : "e8c70468-a069-4753-959c-a22d7e17c1c2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
