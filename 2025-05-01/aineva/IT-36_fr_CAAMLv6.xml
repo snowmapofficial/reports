@@ -1,0 +1,106 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="e8c70468-a069-4753-959c-a22d7e17c1c2" lang="fr">
+    <publicationTime>2025-05-01T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-05-01T22:00:00Z</startTime>
+      <endTime>2025-05-02T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-36-PN-02">
+      <name>PRALPI CARNICHE ORIENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-05">
+      <name>PREALPI GIULIE</name>
+    </region>
+    <region regionID="IT-36-PN-01">
+      <name>PREALPI CARNICHE OCCIDENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-04">
+      <name>CANIN</name>
+    </region>
+    <region regionID="IT-36-UD-03">
+      <name>ALPI GIULIE SENZA CANIN</name>
+    </region>
+    <region regionID="IT-36-UD-02">
+      <name>ALPI CARNICHE ORIENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-01">
+      <name>ALPI CARNICHE OCCIDENTALI</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <validTimePeriod>earlier</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>2100</upperBound>
+      </elevation>
+      <validTimePeriod>later</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>2100</lowerBound>
+      </elevation>
+      <validTimePeriod>later</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m"/>
+      <aspect>SE</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <aspect>S</aspect>
+      <aspect>E</aspect>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>SW</aspect>
+      <validTimePeriod>earlier</validTimePeriod>
+      <snowpackStability>fair</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>2100</lowerBound>
+      </elevation>
+      <aspect>SE</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <aspect>S</aspect>
+      <aspect>E</aspect>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>SW</aspect>
+      <validTimePeriod>later</validTimePeriod>
+      <snowpackStability>fair</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>⚠ Error: Incomplete joker sentence</highlights>
+      <comment>Des avalanches humides et mouillées sont toujours possibles avec l'humidification. Elles peuvent se déclencher dans les couches profondes. En outre, des avalanches de glissement sont possibles. Les endroits dangereux se situent à toutes les expositions en altitude.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>⚠ Error: Incomplete joker sentence</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <highlights>Réchauffement continu. Il fait un temps nuageux. Les conditions restent printanières.</highlights>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-05-02T22:00:00Z</startTime>
+        <endTime>2025-05-03T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-05-02</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
