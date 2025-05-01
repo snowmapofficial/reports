@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-01T22:00:00Z",
+      "endTime" : "2025-05-02T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La principale fonte di pericolo è costituita da valanghe umide e bagnate.",
+      "comment" : "Al di sopra dei 2000 m circa sono possibili valanghe bagnate spontanee per lo più di piccole dimensioni. I punti pericolosi si trovano principalmente nelle conche e nei canaloni come pure sui pendii molto ripidi."
+    },
+    "snowpackStructure" : {
+      "comment" : "Alle quote di bassa e media montagna non c'è neve. In quota il manto nevoso è estremamente variabile su piccola scala. I vecchi accumuli di neve ventata si trovano principalmente nei canaloni e nelle conche e in alta montagna. Il manto di neve vecchia rimane umido in alta montagna. Le condizioni meteo causeranno un progressivo impregnamento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-02T22:00:00Z",
+        "endTime" : "2025-05-03T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "N", "W", "S", "E", "NW", "NE", "SW" ]
+    } ],
+    "bulletinID" : "669b34e2-b254-4ceb-b7f8-f76a9bb30771",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
