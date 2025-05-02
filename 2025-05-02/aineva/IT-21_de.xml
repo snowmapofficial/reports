@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-05-02T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="7cdebcf2-a9ec-448a-9166-cd33b797c7e9" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-02T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-02T22:00:00Z</beginPosition>
+          <endPosition>2025-05-03T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP3</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-03T22:00:00Z</beginPosition>
+                <endPosition>2025-05-04T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Meist bedeckte Nacht. &lt;br/&gt; Gebietsweise leichter Regen bis in hohe Lagen: &lt;br/&gt; Diese Wetterbedingungen führen auch in hohen Lagen zu einer Anfeuchtung der Schneedecke. &lt;br/&gt;</avActivityHighlights>
+          <avActivityComment>Die Schneeoberfläche gefriert nur knapp und weicht schneller auf als am Vortag. &lt;br/&gt; Mit Wärme und Regen gebietsweise noch mäßige Gefahr von feuchten und nassen Lawinen. &lt;br/&gt; Vor allem an Sonnenhängen sowie unterhalb von rund 2200 m liegt kaum Schnee. &lt;br/&gt; Der Lawinenwarndienst hat derzeit wenig Informationen, weshalb die Lawinengefahr vor Ort besonders gründlich überprüft werden sollte. &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Die Altschneedecke bleibt allgemein stabil. Die hohe Luftfeuchtigkeit führt im Tagesverlauf verbreitet zu einer deutlichen Anfeuchtung der Altschneedecke. Vor allem an Sonnenhängen sowie unterhalb von rund 2200 m liegt kaum Schnee.</snowpackStructureComment>
+          <tendencyComment>Mit dem Niederschlag sind kleine und mittlere trockene und nasse Lawinen möglich.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
