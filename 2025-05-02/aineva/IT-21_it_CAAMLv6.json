@@ -1,0 +1,104 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-02T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-02T22:00:00Z",
+      "endTime" : "2025-05-03T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Notte per lo più coperta. <br/> Deboli piogge in alcune regioni sino da alta quota: <br/> Queste condizioni meteo causeranno anche ad alta quota un inumidimento del manto nevoso. <br/>",
+      "comment" : "La superficie del manto nevoso non riuscirà a rigelarsi bene e si ammorbidirà più rapidamente del giorno precedente. <br/> Con il riscaldamento e la pioggia in alcuni punti ancora moderato pericolo di valanghe umide e bagnate. <br/> Soprattutto sui pendii soleggiati così come al di sotto dei 2200 m circa c'è solo poca neve. <br/> Attualmente il servizio di previsione valanghe dispone di informazioni limitate. Il pericolo di valanghe dovrebbe quindi essere valutato con particolare attenzione sul posto. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto di neve vecchia rimane stabile a livello generale. Nel corso della giornata l'alta umidità dell'aria causerà diffusamente un netto inumidimento del manto di neve vecchia. Soprattutto sui pendii soleggiati così come al di sotto dei 2200 m circa c'è solo poca neve."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con le precipitazioni, sono possibili valanghe asciutte e bagnate di piccole e medie dimensioni.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-03T22:00:00Z",
+        "endTime" : "2025-05-04T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "S", "NW", "SE", "SW", "E", "NE" ]
+    } ],
+    "bulletinID" : "7cdebcf2-a9ec-448a-9166-cd33b797c7e9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
