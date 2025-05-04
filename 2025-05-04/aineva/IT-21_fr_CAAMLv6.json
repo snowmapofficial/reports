@@ -1,0 +1,113 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-04T22:00:00Z",
+      "endTime" : "2025-05-05T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "En général chutes de neige au-dessus d'environ 2200 m:",
+      "comment" : "Avec les précipitations les endroits dangereux se multiplient en cours de journée. Ceci surtout à haute altitude et en haute montagne, dans les régions concernées par les précipitations. <br/> Avec le refroidissement l'activité des avalanches humides et mouillées diminue. <br/> Le service de prévisions d'avalanches n'a pas beaucoup d'informations actuellement, c'est pourquoi le danger d'avalanche devrait être étudié avec une attention particulière sur le terrain. <br/> <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "La surface de la neige regèle à peine. <br/> La neige fraîche et soufflée reposent en général sur un manteau neigeux humide. <br/> En dessous d'environ 2300 m il y a peu de neige. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-05T22:00:00Z",
+        "endTime" : "2025-05-06T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "SW", "W", "NW", "N", "NE", "S" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "SW", "W", "NW", "N", "NE", "S" ]
+    } ],
+    "bulletinID" : "166ec2c1-19e4-415e-9911-c5af0802643b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
