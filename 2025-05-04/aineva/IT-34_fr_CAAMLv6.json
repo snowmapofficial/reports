@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-04T22:00:00Z",
+      "endTime" : "2025-05-05T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Dans les prochaines heures il tombera en général au-dessus d'environ 2500 m 15 cm de neige, localement jusqu'à 60 cm. Elle peut facilement être déclenchée, ou glisser spontanément à toutes les expositions au-dessus de la limite de la forêt. Avec l'intensification des chutes de neige de nombreuses avalanches de moyenne et rarement grande taille sont à attendre surtout dans les régions concernées par les précipitations principales."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans les prochaines heures il tombera en général au-dessus d'environ 2500 m 15 cm de neige, localement jusqu'à 60 cm. La neige fraîche repose en général sur un manteau neigeux ancien fragile. Des avalanches peuvent être déclenchées très facilement dans les couches plus profondes du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-05-05T22:00:00Z",
+        "endTime" : "2025-05-06T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SE", "SW", "W", "NW", "N", "NE", "S" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SE", "SW", "W", "NW", "N", "NE", "S" ]
+    } ],
+    "bulletinID" : "25271ab1-399e-42eb-a9d1-0eaa536e34a4",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-05-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-04T22:00:00Z",
+      "endTime" : "2025-05-05T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Le danger d'avalanches de neige mouillée et de glissement augmente au sein du degré de danger."
+    },
+    "snowpackStructure" : {
+      "comment" : "La pluie entraîne à toutes les expositions en dessous d'environ 2300 m une saturation d'eau massive du manteau neigeux. Ces conditions provoquent une très rapide fragilisation du manteau neigeux. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-05-05T22:00:00Z",
+        "endTime" : "2025-05-06T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SE", "SW", "W", "NW", "N", "NE", "S" ]
+    } ],
+    "bulletinID" : "df139e3a-3b17-42a0-b8c1-f751bedcf4c3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
