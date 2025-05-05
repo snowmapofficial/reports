@@ -1,0 +1,128 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="1f0ae5de-458d-416d-bf07-c689436afbd2" lang="en">
+    <publicationTime>2025-05-05T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-05-05T22:00:00Z</startTime>
+      <endTime>2025-05-06T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-21-VB-03">
+      <name>Alpi Lepontine Sud</name>
+    </region>
+    <region regionID="IT-21-CN-01">
+      <name>Alpi Cozie Sud di confine</name>
+    </region>
+    <region regionID="IT-21-TO-01">
+      <name>Alpi Graie di confine</name>
+    </region>
+    <region regionID="IT-21-CN-04">
+      <name>Alpi Marittime Orientali</name>
+    </region>
+    <region regionID="IT-21-TO-04">
+      <name>Alpi Cozie</name>
+    </region>
+    <region regionID="IT-21-CN-05">
+      <name>Alpi Liguri</name>
+    </region>
+    <region regionID="IT-21-TO-05">
+      <name>IT-21-TO-05</name>
+    </region>
+    <region regionID="IT-21-CN-02">
+      <name>Alpi Marittime Occidentali</name>
+    </region>
+    <region regionID="IT-21-TO-02">
+      <name>Alpi Cozie Nord di confine</name>
+    </region>
+    <region regionID="IT-21-CN-03">
+      <name>Alpi Cozie Sud</name>
+    </region>
+    <region regionID="IT-21-TO-03">
+      <name>Alpi Graie</name>
+    </region>
+    <region regionID="IT-21-VC-01">
+      <name>Alpi Pennine</name>
+    </region>
+    <region regionID="IT-21-VB-01">
+      <name>Alpi Pennine di confine</name>
+    </region>
+    <region regionID="IT-21-VB-02">
+      <name>Alpi Lepontine Nord</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>2300</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>2300</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>2300</lowerBound>
+      </elevation>
+      <aspect>N</aspect>
+      <aspect>E</aspect>
+      <aspect>NE</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>2800</lowerBound>
+      </elevation>
+      <aspect>N</aspect>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>SE</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>fair</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Moist and wet avalanches are the main danger.</highlights>
+      <comment>Less snow than expected has fallen since Saturday. &lt;br/> Outgoing longwave radiation during the night will be severely restricted over a wide area. Already in the late morning small and, in isolated cases, medium-sized moist and wet avalanches are possible. &lt;br/> &lt;br/> The Avalanche Warning Service currently has only a small amount of information, so that the avalanche danger should be investigated especially thoroughly in the relevant locality. &lt;br/></comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>The surface of the snowpack will only just freeze. &lt;br/> In some regions up to 5 cm of snow, and even more in some localities, has fallen since Saturday above approximately 2400 m. Over a wide area new snow is lying on a moist old snowpack. &lt;br/> Below approximately 2300 m a little snow is lying. &lt;br/></comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <highlights>As a consequence of falling temperatures, the activity of moist and wet avalanches will gradually decrease.</highlights>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-05-06T22:00:00Z</startTime>
+        <endTime>2025-05-07T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-05-06</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+        <dangerPatterns>DP3</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
