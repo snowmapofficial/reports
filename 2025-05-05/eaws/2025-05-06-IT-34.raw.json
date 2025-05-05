@@ -1,0 +1,142 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-05T22:00:00Z",
+      "endTime" : "2025-05-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "As a consequence of the precipitation there will be an increase in the danger of moist and wet avalanches to level 3 (considerable).",
+      "comment" : "Over a wide area in some localities 30 cm of snow, and up to 60 cm in some localities, will fall until Wednesday above approximately 2500 m. This snow can be released easily or naturally in all aspects at high altitude. In particular in the regions exposed to heavier precipitation numerous medium-sized and, in isolated cases, large avalanches are to be expected as the snowfall becomes more intense. The avalanche prone locations are to be found in particular at the base of rock walls above approximately 2300 m. In the typical avalanche paths in the regions exposed to heavier precipitation the wet avalanches can in isolated cases reach large size."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of mild temperatures and high relative humidity no crust developed on the surface during the last four days. Above approximately 2300 m snow has fallen since yesterday in some localities. Over a wide area new snow is lying on a weakly bonded old snowpack. Avalanches can be released in deeper layers very easily."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-06T22:00:00Z",
+        "endTime" : "2025-05-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "NE", "S", "SW", "NW", "SE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "NE", "S", "SW", "NW", "SE", "W" ]
+    } ],
+    "bulletinID" : "e386eced-08ef-4277-9e8d-7d085cafe0da",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-05-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-05T22:00:00Z",
+      "endTime" : "2025-05-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "The danger of wet and gliding avalanches will increase but remain within the current danger level."
+    },
+    "snowpackStructure" : {
+      "comment" : "The rain will give rise to extreme and thorough wetting of the snowpack in all aspects below approximately 2300 m. These conditions will cause a very rapid weakening of the snowpack. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gradual increase in avalanche danger as a consequence of the snowfall. In places where more snow falls danger level 2 (moderate) may be reached.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2025-05-06T22:00:00Z",
+        "endTime" : "2025-05-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "E", "NE", "S", "SW", "NW", "SE", "W" ]
+    } ],
+    "bulletinID" : "ea961d33-210f-4c67-a2d5-20ee4da093e8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
