@@ -1,0 +1,141 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-05T22:00:00Z",
+      "endTime" : "2025-05-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The weather conditions gave rise to thorough wetting of the snowpack over a wide area. Moist and wet avalanches are still possible during the day.",
+      "comment" : "Outgoing longwave radiation during the night will be reduced in some case, especially at low and intermediate altitudes. The surface of the snowpack will freeze very little and will soften quickly. <br/> Already in the late morning small and, in isolated cases, medium-sized moist and wet avalanches are possible below approximately 2700 m, caution is to be exercised in particular in extremely steep west, north and east facing starting zones that still retain some snow. <br/> Occasionally large natural avalanches are possible in very isolated cases. <br/> The new snow and wind slabs of the last two days are in isolated cases prone to triggering in all aspects above approximately 2900 m. As a consequence of the precipitation the avalanche prone locations will become more prevalent in the afternoon. In the regions exposed to precipitation this applies in particular at high altitudes and in high Alpine regions. <br/> The Avalanche Warning Service currently has only a small amount of information that has been collected in the field, so that the avalanche danger should be investigated especially thoroughly in the relevant locality."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area a mostly overcast night: The surface of the snowpack will only just freeze and will already soften in the late morning. <br/> 5 to 15 cm of snow, and even more in some localities, will fall from the afternoon above approximately 2300 m. <br/> Above approximately 2500 m snow fell in the last two days in some localities. <br/> In some regions rain to the high Alpine regions: These weather conditions gave rise to moistening of the snowpack also at high altitude. Below approximately 2500 m the snowpack is wet all the way through. <br/> Below approximately 2200 m a little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Slight increase in danger as a consequence of new snow and wind, in particular at high altitude. <br/> As a consequence of falling temperatures, the activity of moist and wet avalanches will decrease.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-06T22:00:00Z",
+        "endTime" : "2025-05-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "E", "NW", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "E", "NE", "S", "SW", "NW", "SE", "W" ]
+    } ],
+    "bulletinID" : "f1e564d8-71f9-460e-ad04-7e57d7d83dcf",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
