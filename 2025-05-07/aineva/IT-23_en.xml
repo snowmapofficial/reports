@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="f9c5dc55-b685-4c24-9423-d0e81b5402de" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-23-AO-12"/>
+      <locRef xlink:href="IT-23-AO-13"/>
+      <locRef xlink:href="IT-23-AO-10"/>
+      <locRef xlink:href="IT-23-AO-11"/>
+      <locRef xlink:href="IT-23-AO-16"/>
+      <locRef xlink:href="IT-23-AO-17"/>
+      <locRef xlink:href="IT-23-AO-14"/>
+      <locRef xlink:href="IT-23-AO-15"/>
+      <locRef xlink:href="IT-23-AO-18"/>
+      <locRef xlink:href="IT-23-AO-19"/>
+      <locRef xlink:href="IT-23-AO-20"/>
+      <locRef xlink:href="IT-23-AO-23"/>
+      <locRef xlink:href="IT-23-AO-01"/>
+      <locRef xlink:href="IT-23-AO-24"/>
+      <locRef xlink:href="IT-23-AO-02"/>
+      <locRef xlink:href="IT-23-AO-21"/>
+      <locRef xlink:href="IT-23-AO-22"/>
+      <locRef xlink:href="IT-23-AO-05"/>
+      <locRef xlink:href="IT-23-AO-06"/>
+      <locRef xlink:href="IT-23-AO-25"/>
+      <locRef xlink:href="IT-23-AO-03"/>
+      <locRef xlink:href="IT-23-AO-26"/>
+      <locRef xlink:href="IT-23-AO-04"/>
+      <locRef xlink:href="IT-23-AO-09"/>
+      <locRef xlink:href="IT-23-AO-07"/>
+      <locRef xlink:href="IT-23-AO-08"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2900Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2900Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2900Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation>
+                <elevationRange uom="m">
+                  <beginPosition>2100</beginPosition>
+                  <endPosition>2900</endPosition>
+                </elevationRange>
+              </validElevation>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>New snow and wet snow represent the main danger.</avActivityHighlights>
+          <avActivityComment>Above approximately 2600 m snow will fall in the afternoon in some localities. &lt;br/&gt; Small and medium-sized natural avalanches are possible, in the event of prolonged bright spells in particular at high altitudes and in high Alpine regions and, in the regions exposed to heavier precipitation especially. &lt;br/&gt; The new snow can be released in some cases in all aspects. Backcountry tourers can release avalanches in some places, including medium-sized ones, in particular on very steep slopes. Above approximately 2900 m the avalanche prone locations are more prevalent and the danger is greater. &lt;br/&gt; &lt;br/&gt; Moist and wet avalanches. &lt;br/&gt; Outgoing longwave radiation during the night will be good in some places. Increase in danger as a consequence of solar radiation, especially at the base of rock walls and behind abrupt changes in the terrain on very steep sunny slopes. The danger of moist and wet avalanches will already increase in the early morning, in the regions exposed to heavier precipitation in particular below approximately 2800 m. &lt;br/&gt; The Avalanche Warning Service currently has only a small amount of information that has been collected in the field, so that the avalanche danger should be investigated especially thoroughly in the relevant locality.</avActivityComment>
+          <snowpackStructureComment>10 to 25 cm of snow, and even more in some localities, has fallen since Tuesday above approximately 2600 m. The wind was moderate in the vicinity of peaks in particular in the southeast and in the northeast. &lt;br/&gt; Over a wide area 5 to 10 cm of snow, and even more in some localities, will fall on Thursday above approximately 2300 m. Up to high altitudes rain will fall. &lt;br/&gt; In some regions rain to the high Alpine regions: These weather conditions gave rise to moistening of the snowpack also at high altitude. Below approximately 2500 m the snowpack is wet all the way through. &lt;br/&gt; Below approximately 2200 m a little snow is lying.</snowpackStructureComment>
+          <tendencyComment>The avalanche danger will decrease quickly.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
