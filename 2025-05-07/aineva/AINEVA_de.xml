@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="f9c5dc55-b685-4c24-9423-d0e81b5402de" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-23-AO-12"/>
+      <locRef xlink:href="IT-23-AO-13"/>
+      <locRef xlink:href="IT-23-AO-10"/>
+      <locRef xlink:href="IT-23-AO-11"/>
+      <locRef xlink:href="IT-23-AO-16"/>
+      <locRef xlink:href="IT-23-AO-17"/>
+      <locRef xlink:href="IT-23-AO-14"/>
+      <locRef xlink:href="IT-23-AO-15"/>
+      <locRef xlink:href="IT-23-AO-18"/>
+      <locRef xlink:href="IT-23-AO-19"/>
+      <locRef xlink:href="IT-23-AO-20"/>
+      <locRef xlink:href="IT-23-AO-23"/>
+      <locRef xlink:href="IT-23-AO-01"/>
+      <locRef xlink:href="IT-23-AO-24"/>
+      <locRef xlink:href="IT-23-AO-02"/>
+      <locRef xlink:href="IT-23-AO-21"/>
+      <locRef xlink:href="IT-23-AO-22"/>
+      <locRef xlink:href="IT-23-AO-05"/>
+      <locRef xlink:href="IT-23-AO-06"/>
+      <locRef xlink:href="IT-23-AO-25"/>
+      <locRef xlink:href="IT-23-AO-03"/>
+      <locRef xlink:href="IT-23-AO-26"/>
+      <locRef xlink:href="IT-23-AO-04"/>
+      <locRef xlink:href="IT-23-AO-09"/>
+      <locRef xlink:href="IT-23-AO-07"/>
+      <locRef xlink:href="IT-23-AO-08"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2900Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2900Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2900Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation>
+                <elevationRange uom="m">
+                  <beginPosition>2100</beginPosition>
+                  <endPosition>2900</endPosition>
+                </elevationRange>
+              </validElevation>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee und Nassschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Am Nachmittag fällt lokal Schnee oberhalb von rund 2600 m. &lt;br/&gt; Es sind kleine und mittlere spontane Lawinen möglich, v.a. in hohen Lagen und im Hochgebirge und bei größeren Aufhellungen, besonders in den Hauptniederschlagsgebieten. &lt;br/&gt; Der Neuschnee kann an allen Expositionen teilweise ausgelöst werden. Tourengeher können stellenweise Lawinen auslösen, auch solche mittlerer Größe, v.a. an sehr steilen Hängen. Oberhalb von rund 2900 m sind die Gefahrenstellen häufiger und die Gefahr höher. &lt;br/&gt; &lt;br/&gt; Feuchte und nasse Lawinen. &lt;br/&gt; Die nächtliche Abstrahlung ist stellenweise gut. Anstieg der Gefahr mit der Sonneneinstrahlung, besonders an Felswandfüßen und hinter Geländekanten an sehr steilen Sonnenhängen. Die Gefahr von feuchten und nassen Lawinen steigt schon am Morgen an, v.a. unterhalb von rund 2800 m in den Hauptniederschlagsgebieten. &lt;br/&gt; Der Lawinenwarndienst hat derzeit wenig Informationen aus dem Gelände, weshalb die Lawinengefahr vor Ort besonders gründlich überprüft werden sollte.</avActivityComment>
+          <snowpackStructureComment>Seit Dienstag fielen oberhalb von rund 2600 m 10 bis 25 cm Schnee, lokal auch mehr. Der Wind blies vor allem im Südosten und im Nordosten in Gipfellagen mäßig. &lt;br/&gt; Am Donnerstag fallen verbreitet oberhalb von rund 2300 m 5 bis 10 cm Schnee, lokal auch mehr. Es fällt Regen bis in hohe Lagen. &lt;br/&gt; Gebietsweise Regen bis ins Hochgebirge: Diese Wetterbedingungen führten auch in hohen Lagen zu einer Anfeuchtung der Schneedecke. Unterhalb von rund 2500 m ist die Schneedecke durchnässt. &lt;br/&gt; Unterhalb von rund 2200 m liegt wenig Schnee.</snowpackStructureComment>
+          <tendencyComment>Die Lawinengefahr nimmt rasch ab.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="639a1a8f-c915-42e1-8b69-8ee42bb4b83a" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-SO-03"/>
+      <locRef xlink:href="IT-25-SO-01"/>
+      <locRef xlink:href="IT-25-SO-02"/>
+      <locRef xlink:href="IT-25-BG-01"/>
+      <locRef xlink:href="IT-25-BS-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee und Nassschnee sind die Hauptgefahr. Es sind oberhalb von rund 2200 m mittlere und vereinzelt große feuchte und nasse Lawinen möglich. Mit der tageszeitlichen Erwärmung steigt die Gefahr von Gleitschneelawinen und nassen Rutschen rasch an auf die Stufe 3, "erheblich".</avActivityHighlights>
+          <avActivityComment>Besonders an sehr steilen West-, Nord- und Osthängen und oberhalb von rund 2700 m sind mit dem Schneefall zahlreiche mittlere und große feuchte und nasse Lawinen möglich. Nasse Lawinen können weiterhin von einzelnen Wintersportlern ausgelöst werden. &lt;br/&gt; Mit dem Neuschnee steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf an. Zudem sind einzelne Gleitschneelawinen möglich, Vorsicht vor allem an sehr steilen Grashängen in den schneereichen Gebieten.</avActivityComment>
+          <snowpackStructureComment>Der Schneeregen führt zu einem ungünstigen Aufbau der Schneedecke. Unterhalb von rund 2200 m liegt wenig Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="423fe216-5000-49f0-a46a-848db914cc13" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2800Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Der Neuschnee muss in hohen Lagen und im Hochgebirge vorsichtig beurteilt werden. Oberhalb von rund 2800 m sind die Gefahrenstellen häufig und die Gefahr "erheblich", Stufe 3.</avActivityHighlights>
+          <avActivityComment>Es fielen 10 bis 25 cm Schnee, lokal auch mehr. Der Neuschnee kann von einzelnen Wintersportlern ausgelöst werden. Dies vor allem in Rinnen und Mulden an steilen Hängen in hohen Lagen und im Hochgebirge. Mittlere bis große spontane Lawinen sind möglich. &lt;br/&gt; Unterhalb von rund 2800 m sind kleine und mittlere trockene und feuchte Lawinen möglich. Dies vor allem bei Sonneneinstrahlung. &lt;br/&gt; Touren erfordern Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl.</avActivityComment>
+          <snowpackStructureComment>Ab dem Mittag fallen oberhalb von rund 2200 m 5 bis 10 cm Schnee. &lt;br/&gt; Auch unterhalb von rund 2800 m: Der Neuschnee liegt oft auf einer feuchten Altschneedecke. &lt;br/&gt; V.a. Sonnenhänge und Süd- und Osthänge: Der Neuschnee liegt auf einer harten Kruste. &lt;br/&gt; &lt;br/&gt; Unterhalb von rund 1900 m liegt kaum Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="f05fecc8-eeda-4cce-839a-90d3e7e688fd" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Nassschnee ist die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Es fielen lokal oberhalb von rund 2500 m bis zu 15 cm Schnee, lokal auch mehr. Bis Donnerstag fallen verbreitet oberhalb von rund 2500 m bis zu 25 cm Schnee, lokal auch mehr. Mit dem Niederschlag steigt die Auslösebereitschaft von feuchten und nassen Lawinen vor allem an steilen Hängen oberhalb von rund 2000 m allmählich an. Die Schneeoberfläche ist kaum gefroren ist schon am Morgen aufgeweicht. Auch am Vormittag sind einzelne, mit der Intensivierung der Niederschläge dann vermehrt trockene und nasse Lawinen möglich. Der Neuschnee kann von einzelnen Wintersportlern ausgelöst werden. Dies vor allem in Rinnen und Mulden an steilen Hängen in hohen Lagen und im Hochgebirge. &lt;br/&gt; Touren erfordern Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl. Noch mäßige Lawinengefahr.</avActivityComment>
+          <snowpackStructureComment>Unterhalb von rund 2800 m: Der Neuschnee liegt oft auf einer feuchten Altschneedecke. &lt;br/&gt; Mit Regen bis in hohe Lagen kann sich die Schneedecke nicht verfestigen. Der Regen führt an allen Expositionen unterhalb von rund 2400 m zu einer zunehmenden Durchnässung der Schneedecke. Diese Bedingungen verursachen eine leichte Schwächung der Schneedecke. Die Schneeoberfläche weicht im Tagesverlauf auf. &lt;br/&gt; Unterhalb von rund 1900 m liegt kaum Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="3d550380-8ec6-42b9-8fec-a513d536a7b5" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-BS-02"/>
+      <locRef xlink:href="IT-25-LC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2100Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP2</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2100Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2100Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Feuchte und nasse Lawinen sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Die nächtliche Abstrahlung ist stark eingeschränkt. Es sind kleine und vereinzelt mittlere feuchte und nasse Lawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Die Schneeoberfläche gefriert nur knapp. Unterhalb von rund 2200 m liegt wenig Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="e4ac7eb7-297e-46b0-b438-62521955b4f7" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2500Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Der Neuschnee muss in hohen Lagen und im Hochgebirge vorsichtig beurteilt werden.</avActivityHighlights>
+          <avActivityComment>Es fielen verbreitet oberhalb von rund 2500 m 5 bis 15 cm Schnee, lokal auch mehr. &lt;br/&gt; &lt;br/&gt; Der Neuschnee kann teilweise von einzelnen Wintersportler ausgelöst werden. Dies vor allem in Rinnen und Mulden an sehr steilen Hängen in hohen Lagen und im Hochgebirge. Nebst der Verschüttungsgefahr sollte vor allem die Mitreiß- und Absturzgefahr beachtet werden. &lt;br/&gt; &lt;br/&gt; Unterhalb von rund 2500 m sind meist kleine feuchte Lockerschneelawinen möglich. Dies vor allem bei Sonneneinstrahlung.</avActivityComment>
+          <snowpackStructureComment>Ab dem Mittag fallen verbreitet oberhalb von rund 2500 m 5 bis 10 cm Schnee. &lt;br/&gt; Unterhalb von rund 2800 m: Der Neuschnee liegt oft auf einer feuchten Altschneedecke. &lt;br/&gt; V.a. Sonnenhänge und Süd- und Osthänge: Der Neuschnee liegt auf einer harten Kruste. &lt;br/&gt; &lt;br/&gt; Unterhalb von rund 1900 m liegt kaum Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="888d69a0-216c-4232-b049-0234389ad6d7" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-25-BG-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP2</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Feuchte und nasse Lawinen sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>Die nächtliche Abstrahlung ist stark eingeschränkt. Es sind einzelne kleine nasse Lawinen möglich.</avActivityComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="fc16b494-3bff-4f77-8ebd-bec34d98556b" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Leichter Rückgang der Gefahr von feuchten und nassen Lawinen mit der Abkühlung.</avActivityHighlights>
+          <avActivityComment>Es fielen oberhalb von rund 2000 m bis zu 5 cm Schnee, lokal auch mehr. &lt;br/&gt; &lt;br/&gt; Der obere Teil der Schneedecke ist weitgehend stabil, mit einer oft tragfähigen Kruste an der Oberfläche. &lt;br/&gt; Schon eine kleine Lawine kann Schneesportler mitreißen und zum Absturz bringen. Dies vor allem an sehr steilen Hängen bei Sonneneinstrahlung.</avActivityComment>
+          <snowpackStructureComment>Ab dem Mittag fallen gebietsweise oberhalb von rund 2500 m 5 cm Schnee, lokal auch mehr. &lt;br/&gt; Die Schneeoberfläche ist tragfähig gefroren und weicht später auf als am Vortag. &lt;br/&gt; Unterhalb von rund 2000 m liegt kaum Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="ee785ada-d932-4e95-9b46-ed7f954e59e4" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-05-07T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-05-07T22:00:00Z</beginPosition>
+          <endPosition>2025-05-08T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems/>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-05-08T22:00:00Z</beginPosition>
+                <endPosition>2025-05-09T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>In tiefen und mittleren Lagen liegt nur wenig Schnee. Einzelne Gefahrenstellen liegen an extrem steilen Hängen im Hochgebirge.</avActivityHighlights>
+          <avActivityComment>In tiefen und mittleren Lagen liegt nur wenig Schnee. &lt;br/&gt; Mit der Sonneneinstrahlung sind erst vereinzelt kleine feuchte Lawinen möglich. &lt;br/&gt; Einzelne Gefahrenstellen liegen an sehr steilen Hängen oberhalb von rund 2400 m.</avActivityComment>
+          <snowpackStructureComment>An Süd- und Südosthängen aller Höhenlagen liegt kaum Schnee. Dies auch in tiefen und mittleren Lagen. &lt;br/&gt; &lt;br/&gt;</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
