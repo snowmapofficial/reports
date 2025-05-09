@@ -1,0 +1,164 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-09T22:00:00Z",
+      "endTime" : "2025-05-10T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Après une nuit claire, il règne le matin des conditions favorables, puis le danger d'avalanches mouillées augmente. Les randonnées devraient être commencées tôt et terminées à temps.",
+      "comment" : "Le rayonnement nocturne est assez bon. Augmentation du danger avec le réchauffement diurne et le rayonnement solaire, notamment au pied des parois rocheuses et derrière les ruptures de terrain sur les pentes très raides ensoleillées. Le danger d'avalanches humides et mouillées augmente en cours de journée, surtout en dessous d'environ 2900 m dans les régions concernées par les précipitations principales. <br/> Des avalanches spontanées de petite et moyenne taille sont possibles, surtout à haute altitude et en haute montagne et en cas de rayonnement solaire, notamment dans les régions concernées par les précipitations principales. <br/> Le service de prévisions d'avalanches n'a pas beaucoup d'informations actuellement en provenance du terrain, c'est pourquoi le danger d'avalanche devrait être étudié avec une attention particulière sur le terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis mardi il est tombé au-dessus d'environ 2600 m de 10 à 25 cm de neige, localement plus. Le vent a soufflé à proximité des sommets modérément surtout au sud-est et au nord-est. Vendredi il est tombé en général au-dessus d'environ 2300 m de 5 à 10 cm de neige, localement plus. <br/> La forte humidité de l'air a entraîné aussi à haute altitude une humidification du manteau neigeux. En dessous d'environ 2600 m le manteau neigeux est totalement mouillé. <br/> Surtout sur les pentes ensoleillées et sur les pentes exposées au sud et à l'est: La neige fraîche repose souvent sur une croûte dure. <br/> En dessous d'environ 2200 m il y a peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-10T22:00:00Z",
+        "endTime" : "2025-05-11T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "N", "SE", "NE", "NW", "E", "SW", "S" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200",
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "E", "SW", "S" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "N", "SE", "NE", "NW", "E", "SW", "S" ]
+    } ],
+    "bulletinID" : "2d6c94cc-5aaf-44f2-b4a2-9146f5d197a4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
