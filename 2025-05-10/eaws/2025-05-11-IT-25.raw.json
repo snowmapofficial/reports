@@ -1,0 +1,151 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-10T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-10T22:00:00Z",
+      "endTime" : "2025-05-11T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wet snow represent the main danger. As a consequence of warming during the day there will be a gradual increase in the danger of gliding avalanches and wet snow slides.",
+      "comment" : "The new snow must be evaluated with care and prudence at high altitudes and in high Alpine regions. This applies in particular on steep slopes in particular above approximately 3000 m. The new snow can be released by a single winter sport participant. <br/> Especially in starting zones where no previous releases have taken place and above approximately 2700 m many medium-sized and, in isolated cases, large moist and wet avalanches are possible as a consequence of warming. <br/> Below approximately 2600 m small and medium-sized moist avalanches are possible. <br/> Backcountry touring calls for experience in the assessment of avalanche danger and careful route selection."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be moist below approximately 2800 m. Below approximately 2200 m a little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-11T22:00:00Z",
+        "endTime" : "2025-05-12T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "N", "W", "SW", "SE", "E", "S" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N", "W", "E" ]
+    } ],
+    "bulletinID" : "04174d2b-1608-45e5-9563-231b75243d42",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-05-10T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-10T22:00:00Z",
+      "endTime" : "2025-05-11T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches are the main danger.",
+      "comment" : "Outgoing longwave radiation during the night will be severely restricted. Small and, in isolated cases, medium-sized moist and wet avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will only just freeze. Below approximately 2200 m a little snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-11T22:00:00Z",
+        "endTime" : "2025-05-12T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP2" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N" ]
+    } ],
+    "bulletinID" : "a1c7ed46-bf0c-4ca8-973e-9706ad1014e4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  } ]
+}
