@@ -1,0 +1,154 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-05-10T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-05-10T22:00:00Z",
+      "endTime" : "2025-05-11T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les randonnées devraient être commencées et terminées tôt.",
+      "comment" : "Le rayonnement nocturne est réduit. Augmentation du danger avec le réchauffement diurne et le rayonnement solaire, notamment au pied des parois rocheuses et derrière les ruptures de terrain sur les pentes très raides. Le danger d'avalanches humides et mouillées augmente en cours de journée, surtout en dessous d'environ 3000 m. <br/> Des avalanches spontanées de petite et moyenne taille sont possibles, surtout à haute altitude et en haute montagne et en cas de rayonnement solaire. <br/> Le service de prévisions d'avalanches n'a pas beaucoup d'informations actuellement en provenance du terrain, c'est pourquoi le danger d'avalanche devrait être étudié avec une attention particulière sur le terrain. <br/> Ceci est la dernière carte de dangers de l'hiver 2024/25. Les bulletins d'avalanche réguliers avec les cartes de danger paraissent, suivant l'enneigement, à partir du début décembre."
+    },
+    "snowpackStructure" : {
+      "comment" : "Samedi il est tombé dans certaines régions au-dessus d'environ 2500 m de 2 à 5 cm de neige. Le rayonnement nocturne était fortement réduit. <br/> En dessous d'environ 2600 m le manteau neigeux est totalement mouillé. <br/> Surtout sur les pentes ensoleillées et sur les pentes exposées au sud et à l'est: <br/> En dessous d'environ 2200 m il y a peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La surface de la neige regèle à peine et est déjà ramollie le matin. Dans certaines régions chutes de neige légères au-dessus d'environ 2400 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-05-11T22:00:00Z",
+        "endTime" : "2025-05-12T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-05-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200",
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N", "SW", "W", "E", "SE", "S" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N", "W", "SW", "SE", "E", "S" ]
+    } ],
+    "bulletinID" : "d24f4701-9194-4335-a55f-37e4554231b2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
