@@ -1,0 +1,72 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-02T09:02:04Z",
+    "validTime" : {
+      "startTime" : "2025-11-01T23:00:00Z",
+      "endTime" : "2025-11-02T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The new snow represents the main danger.",
+      "comment" : "The new snow represents the main danger. This snow can be released easily in all aspects above approximately 2400 m. Over a wide area 25 cm of snow will fall in the next few hours above approximately 2400 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 25 cm of snow will fall in the next few hours above approximately 2400 m. The new snow is bonding only slowly with the old snowpack in particular on steep shady slopes above approximately 2400 m. Towards its base, the snowpack is faceted and weak. The new snow can be released easily or naturally in all aspects above the tree line."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-11-02T23:00:00Z",
+        "endTime" : "2025-11-03T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SW", "S", "SE", "N", "E", "NW" ]
+    } ],
+    "bulletinID" : "e0e049a8-115e-473e-9a01-562eb17a88a1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  } ]
+}
