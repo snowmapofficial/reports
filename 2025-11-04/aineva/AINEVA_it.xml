@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-11-04T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="e9ac138d-fc81-4558-aa70-3b1c3a9c60e4" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-11-04T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-11-04T23:00:00Z</beginPosition>
+          <endPosition>2025-11-05T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2300Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_2300Hi"/>
+            </AvProblem>
+          </avProblems>
+          <avActivityHighlights>Gli accumuli di neve ventata rappresentano la principale fonte di pericolo.</avActivityHighlights>
+          <avActivityComment>La neve fresca di domenica rappresenta la principale fonte di pericolo. Essa può facilmente subire un distacco a tutte le esposizioni al di sopra dei 2300 m circa. In molte regioni sono caduti 25 cm di neve al di sopra dei 2400 m circa.</avActivityComment>
+          <snowpackStructureComment>In molte regioni sono caduti 25 cm di neve al di sopra dei 2400 m circa. La neve fresca si legherà solo lentamente con la neve vecchia soprattutto sui pendii ripidi ombreggiati al di sopra dei 2300 m circa. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. La neve fresca può facilmente subire un distacco provocato o spontaneo a tutte le esposizioni al di sopra del limite del bosco.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
