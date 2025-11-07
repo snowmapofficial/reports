@@ -1,0 +1,72 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-06T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-06T23:00:00Z",
+      "endTime" : "2025-11-07T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli accumuli di neve ventata rappresentano la principale fonte di pericolo.",
+      "comment" : "I punti pericolosi si trovano sui pendii ripidi esposti in tutte le direzioni al di sopra dei 2300 m circa come pure nelle zone di passaggio da poca a molta neve. I nuovi accumuli di neve ventata si trovano soprattutto nelle zone in prossimità delle creste, nelle conche e nei canaloni."
+    },
+    "snowpackStructure" : {
+      "comment" : "I friabili accumuli di neve ventata possono facilmente subire un distacco soprattutto nelle zone marginali. Inoltre nelle zone in prossimità delle creste esposte in tutte le direzioni e generalmente in alta montagna si sono formati accumuli di neve ventata di piccole dimensioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-11-07T23:00:00Z",
+        "endTime" : "2025-11-08T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SE", "E", "NE", "NW", "N", "SW" ]
+    } ],
+    "bulletinID" : "d22e5aaa-a804-4ea4-933b-cce4357e8ae2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  } ]
+}
