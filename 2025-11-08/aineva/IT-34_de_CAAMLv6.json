@@ -1,0 +1,72 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-08T23:00:00Z",
+      "endTime" : "2025-11-09T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Triebschneeansammlungen bilden die Hauptgefahr.",
+      "comment" : "Die Gefahrenstellen liegen an Steilhängen aller Expositionen oberhalb von rund 2400 m sowie an Übergängen von wenig zu viel Schnee. Die frischen Triebschneeansammlungen liegen vor allem in Kammlagen, Rinnen und Mulden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Spröde Triebschneeansammlungen sind leicht auslösbar. Zudem entstanden in Kammlagen aller Expositionen und allgemein im Hochgebirge kleine Triebschneeansammlungen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2025-11-09T23:00:00Z",
+        "endTime" : "2025-11-10T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "SW", "NW", "SE", "E", "N", "W" ]
+    } ],
+    "bulletinID" : "1f92bfd0-ba0f-4cda-9fd2-a1e77c446a02",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  } ]
+}
