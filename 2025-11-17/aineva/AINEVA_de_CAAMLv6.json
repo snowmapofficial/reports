@@ -1,0 +1,74 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-17T23:00:00Z",
+      "endTime" : "2025-11-18T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Triebschnee.",
+      "comment" : "Die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen sowie in Kamm- und Passlagen oberhalb von rund 2400 m. Mit dem Neuschnee sind Lawinen möglich, aber meist nur kleine. Auf der eisigen Kruste besteht vielerorts Absturzgefahr."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Sonntag fielen gebietsweise oberhalb von rund 2500 m lokal bis zu 40 cm Schnee. Der Ostwind verfrachtet den Schnee. Vor allem in Kamm- und Passlagen sowie oberhalb von rund 2400 m entstehen meist kleine Triebschneeansammlungen. Die Altschneedecke ist ungünstig geschichtet. Der Neuschnee verbindet sich vor allem an sehr steilen Schattenhängen oberhalb von rund 2400 m nur langsam mit dem Altschnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Vorsicht vor Triebschnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-18T23:00:00Z",
+        "endTime" : "2025-11-19T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "SW", "NE" ]
+    } ],
+    "bulletinID" : "16b114e8-c4e8-4e41-b260-7b23c17b3d03",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  } ]
+}
