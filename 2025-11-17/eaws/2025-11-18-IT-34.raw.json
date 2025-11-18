@@ -1,0 +1,74 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-17T23:00:00Z",
+      "endTime" : "2025-11-18T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs require caution.",
+      "comment" : "The wind slabs can be released by a single winter sport participant. The avalanche prone locations are to be found in particular on very steep shady slopes and adjacent to ridgelines and in pass areas above approximately 2400 m. As a consequence of the new snow avalanches are possible, but they will be mostly small. In many places there is a danger of falling on the icy crust."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some regions in some localities up to 40 cm of snow has fallen since Sunday above approximately 2500 m. The easterly wind will transport the snow. In particular adjacent to ridgelines and in pass areas as well as above approximately 2400 m mostly small wind slabs will form. The old snowpack is unfavourably layered. The new snow is bonding only slowly with the old snowpack in particular on very steep shady slopes above approximately 2400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind slabs require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-18T23:00:00Z",
+        "endTime" : "2025-11-19T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "SW", "NE" ]
+    } ],
+    "bulletinID" : "16b114e8-c4e8-4e41-b260-7b23c17b3d03",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  } ]
+}
