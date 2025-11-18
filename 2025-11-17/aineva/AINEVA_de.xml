@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-11-17T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="16b114e8-c4e8-4e41-b260-7b23c17b3d03" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-11-17T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-11-17T23:00:00Z</beginPosition>
+          <endPosition>2025-11-18T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2400Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validElevation xlink:href="ElevationRange_2400Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-11-18T23:00:00Z</beginPosition>
+                <endPosition>2025-11-19T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Vorsicht vor Triebschnee.</avActivityHighlights>
+          <avActivityComment>Die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen sowie in Kamm- und Passlagen oberhalb von rund 2400 m. Mit dem Neuschnee sind Lawinen möglich, aber meist nur kleine. Auf der eisigen Kruste besteht vielerorts Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Seit Sonntag fielen gebietsweise oberhalb von rund 2500 m lokal bis zu 40 cm Schnee. Der Ostwind verfrachtet den Schnee. Vor allem in Kamm- und Passlagen sowie oberhalb von rund 2400 m entstehen meist kleine Triebschneeansammlungen. Die Altschneedecke ist ungünstig geschichtet. Der Neuschnee verbindet sich vor allem an sehr steilen Schattenhängen oberhalb von rund 2400 m nur langsam mit dem Altschnee.</snowpackStructureComment>
+          <tendencyComment>Vorsicht vor Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
