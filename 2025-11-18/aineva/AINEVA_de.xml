@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-11-18T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="90736a5c-dc1e-4a39-9f59-5275a408cc14" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-11-18T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-11-18T23:00:00Z</beginPosition>
+          <endPosition>2025-11-19T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-11-19T23:00:00Z</beginPosition>
+                <endPosition>2025-11-20T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Vorsicht vor Triebschnee.</avActivityHighlights>
+          <avActivityComment>Die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen sowie in Kamm- und Passlagen oberhalb von rund 2500 m. Mit dem Neuschnee sind Lawinen möglich, aber meist nur kleine. Auf der eisigen Kruste besteht vielerorts Absturzgefahr.</avActivityComment>
+          <snowpackStructureComment>Der Ostwind hat Schnee verfrachtet. Vor allem in Kamm- und Passlagen sowie oberhalb von rund 2500 m entstanden meist kleine Triebschneeansammlungen. Die Altschneedecke ist ungünstig geschichtet. Der Neuschnee verbindet sich vor allem an sehr steilen Schattenhängen in der Höhe nur langsam mit dem Altschnee.</snowpackStructureComment>
+          <tendencyComment>Es fallen lokal in allen Höhenlagen bis zu 15 cm Schnee. Vorsicht vor Triebschnee.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
