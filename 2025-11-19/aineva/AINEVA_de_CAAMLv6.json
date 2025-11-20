@@ -1,0 +1,125 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-19T23:00:00Z",
+      "endTime" : "2025-11-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Triebschnee.",
+      "comment" : "Die Triebschneeansammlungen können von einzelnen Wintersportlern ausgelöst werden. Die Gefahrenstellen liegen vor allem an sehr steilen Schattenhängen sowie in Kamm- und Passlagen oberhalb von rund 2300 m. Mit dem Neuschnee sind Lawinen möglich, aber meist nur kleine. Auf der eisigen Kruste besteht vielerorts Absturzgefahr."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen gebietsweise oberhalb von rund 600 m bis zu 15 cm Schnee. Der mäßige Wind verfrachtet den Neuschnee. Vor allem in Kamm- und Passlagen sowie oberhalb von rund 2300 m entstehen meist kleine Triebschneeansammlungen. Die Altschneedecke ist kantig aufgebaut und schwach. Der Neuschnee verbindet sich vor allem an sehr steilen Schattenhängen in der Höhe nur langsam mit dem Altschnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es fallen lokal oberhalb von rund 600 m bis zu 15 cm Schnee. Vorsicht vor Triebschnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-20T23:00:00Z",
+        "endTime" : "2025-11-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SW", "N", "S", "SE", "NW", "E", "NE" ]
+    } ],
+    "bulletinID" : "0fffd15c-0c52-4ee1-8525-e3d9d0501eaa",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-11-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-19T23:00:00Z",
+      "endTime" : "2025-11-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Auf der eisigen Kruste besteht vielerorts Absturzgefahr. Es fallen gebietsweise oberhalb von rund 800 m bis zu 15 cm Schnee."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Neuschnee liegt stellenweise auf einer eisigen Kruste."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es fallen lokal oberhalb von rund 600 m bis zu 15 cm Schnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-20T23:00:00Z",
+        "endTime" : "2025-11-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "34085e88-77e8-4b32-a7e8-1c8603377df5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
