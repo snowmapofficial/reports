@@ -1,0 +1,663 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered.  A moderate to strong northeasterly wind is blowing, transporting snow to the leeward, south-westerly side of the ridges. Avalanches of dry snow may be triggered by snow drifts on steep slopes. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "In the high mountains, there is more snow above 2400 m!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "S",
+            "W",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "S",
+            "W",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8eb909c3-103f-457f-a92b-69e31f3ed8b6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "During the last deterioration at the beginning of the week, a lot of new snow fell above about 2400 m, almost one metre. At the surface, the snow cover has already thinned somewhat. Since Thursday, up to 20 cm of new dry snow has fallen with light to moderate north-easterly winds. Smaller snow drifts are forming in the immediate vicinity of the ridges. There is a weak layer in the snow cover, which has been covered by new snow."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Sunday, the wind will weaken. The risk of avalanches will remain unchanged.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered. Strong north-easterly winds will build drifts - on steep slopes we may trigger a small avalanche of dry snow. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "Snow is scarce, and creepers may start to creep in places."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "d7083b4b-67fa-484c-a3b4-37eaf4455ac0",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-9",
+          "name": "Southern Julian Prealps"
+        },
+        {
+          "regionID": "SI-11",
+          "name": "Eastern Julian Prealps"
+        },
+        {
+          "regionID": "SI-15",
+          "name": "Southern Littoral"
+        },
+        {
+          "regionID": "SI-13",
+          "name": "Trnovo Forest Plateau and Idrija Hills"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow is scarce in the mountains. Since Thursday, up to 20 cm of new dry snow has fallen with light to moderate north-easterly winds. Small snow drifts are forming close to the ridges."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The risk of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered. Strong north-easterly winds carry newly fallen snow - a small avalanche of dry snow can be triggered when snow drifts are loaded on steep slopes. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "There is little snow, with areas of blowing snow on the south-western slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "035cf4d3-30b2-4c9a-bc8e-cabcda84fdd6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow is scarce in the mountains. Since Thursday, up to 10 cm of new dry snow has fallen with light to moderate north-easterly winds. Small snow drifts are forming close to the ridges."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The risk of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered. Strong north-easterly winds carry newly fallen snow - a small avalanche of dry snow can be triggered when snow drifts are loaded on steep slopes. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "There is little snow, with areas of blowing snow on the south-western slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "ea2eadd0-9e25-4646-a791-d53003435952",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow is scarce in the mountains. Since Thursday, up to 30 cm of new dry snow has fallen with light to moderate north-easterly winds. Small snow drifts are forming close to the ridges."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The risk of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered. Strong north-easterly winds carry newly fallen snow - a small avalanche of dry snow can be triggered when snow drifts are loaded on steep slopes. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "There is little snow, with areas of blowing snow on the south-western slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "d4f542ec-168f-45cc-a016-89a1f16d16d9",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow is scarce in the mountains. Since Thursday, up to 20 cm of new dry snow has fallen with light to moderate north-easterly winds. Small snow drifts are forming close to the ridges."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The risk of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "On the steepest slopes, a small creep of new snow can be triggered. Strong north-easterly winds will build drifts - on steep slopes we may trigger a small avalanche of dry snow. Even small avalanches can cause a loss of balance and a fall into an abyss.",
+        "highlights": "Snow is scarce, and creepers may start to creep in places."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "S",
+            "E",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "f0072c00-9ac6-4c8c-a249-c5b5ffd9026c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-22"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-21T23:39:11+00:00",
+      "regions": [
+        {
+          "regionID": "SI-14",
+          "name": "Inner Carniola and Ko\u010devje Region"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow is scarce in the mountains. Since Thursday, up to 30 cm of new dry snow has fallen with light to moderate north-easterly winds. Small snow drifts are forming close to the ridges."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The risk of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-22T16:00:00+00:00",
+            "endTime": "2025-11-23T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-11-21T16:00:00+00:00",
+        "endTime": "2025-11-22T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at:\nhttps://meteo.arso.gov.si/uploads/probase/www/sproduct/mountain/"
+      }
+    }
+  ]
+}
