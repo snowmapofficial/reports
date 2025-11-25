@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-24T23:00:00Z",
+      "endTime" : "2025-11-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neu- und Triebschnee oberhalb der Waldgrenze.",
+      "comment" : "Am Dienstag fällt verbreitet Schnee bis in tiefe Lagen. Es fallen von den Dolomiten bis in die Voralpen oberhalb von rund 2000 m bis zu 20 cm Schnee. Der Wind bläst stark. <br/> Der Neuschnee kann an allen Expositionen oberhalb der Waldgrenze spontan abgleiten. Die Gefahrenstellen für trockene Lawinen liegen besonders an Felswandfüßen und hinter Geländekanten. Dort sind die Lawinen meist klein. <br/> Der teilweise starke Wind verfrachtet den Neuschnee intensiv. Vor allem in Kammlagen entstehen Triebschneeansammlungen. <br/> Die teils dicken Triebschneeansammlungen bilden die Hauptgefahr. Sie können oberhalb von rund 2000 m schon von einzelnen Wintersportlern ausgelöst werden. <br/> Vor allem an sehr steilen Hängen und in Kammlagen sind mit Neuschnee und Wind mittlere Schneebrettlawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der untere Teil der Schneedecke ist kantig aufgebaut und schwach. Die Neuschneeauflage ist weich. <br/> Oberhalb der Waldgrenze, Schattenhänge: Neu- und Triebschnee liegen verbreitet auf einer schwachen Altschneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Am Mittwoch ist es verbreitet teils bewölkt. Die Lawinenverhältnisse bleiben teils heikel.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-25T23:00:00Z",
+        "endTime" : "2025-11-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    } ],
+    "bulletinID" : "141aa209-3527-4fc8-b52f-3ddf074f66e2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
