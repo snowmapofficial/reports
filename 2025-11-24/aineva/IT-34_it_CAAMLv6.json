@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-24T23:00:00Z",
+      "endTime" : "2025-11-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve fresca e neve ventata al di sopra del limite del bosco.",
+      "comment" : "In molte regioni, martedì cadrà neve sino a bassa quota. Dalle Dolomiti sino alle Prealpi cadranno sino a 20 cm di neve al di sopra dei 2000 m circa. Il vento sarà forte. <br/> La neve fresca può distaccarsi spontaneamente a tutte le esposizioni al di sopra del limite del bosco. I punti pericolosi per valanghe asciutte si trovano principalmente ai piedi di pareti rocciose e dietro ai cambi di pendenza. Qui le valanghe sono per lo più di piccole dimensioni. <br/> Il vento a tratti forte rimaneggerà intensamente la neve fresca. Soprattutto nelle zone in prossimità delle creste si formeranno accumuli di neve ventata. <br/> Gli accumuli di neve ventata in parte spessi rappresentano la principale fonte di pericolo. Essi possono subire un distacco già in seguito al passaggio di un singolo appassionato di sport invernali al di sopra dei 2000 m circa. <br/> Con neve fresca e vento, soprattutto sui pendii molto ripidi e nelle zone in prossimità delle creste sono possibili valanghe di neve a lastroni di medie dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Lo strato di neve fresca è soffice. <br/> Al di sopra del limite del bosco, sui pendii ombreggiati: In molti punti la neve fresca e quella ventata poggiano su un debole manto di neve vecchia."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "In molte regioni mercoledì il tempo sarà in parte nuvoloso. Le condizioni valanghive rimangono parzialmente insidiose.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-25T23:00:00Z",
+        "endTime" : "2025-11-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    } ],
+    "bulletinID" : "141aa209-3527-4fc8-b52f-3ddf074f66e2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
