@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-24T23:00:00Z",
+      "endTime" : "2025-11-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs above the tree line.",
+      "comment" : "Down to low altitudes snow will fall on Tuesday over a wide area. From the Dolomites to the Prealps up to 20 cm of snow will fall above approximately 2000 m. The wind will be strong. <br/> The new snow can be released naturally in all aspects above the tree line. The avalanche prone locations for dry avalanches are to be found especially at the base of rock walls and behind abrupt changes in the terrain. Mostly the avalanches in these loacations are small. <br/> The sometimes strong wind will transport the new snow significantly. In particular adjacent to ridgelines wind slabs will form. <br/> The sometimes deep wind slabs represent the main danger. They can be released even by a single winter sport participant above approximately 2000 m. <br/> In particular on very steep slopes and adjacent to ridgelines medium-sized slab avalanches are possible as a consequence of new snow and wind."
+    },
+    "snowpackStructure" : {
+      "comment" : "Towards its base, the snowpack is faceted and weak. The covering of new snow is soft. <br/> Above the tree line, shady slopes: Over a wide area new snow and wind slabs are lying on a weakly bonded old snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "On Wednesday it will be partly cloudy over a wide area. The avalanche conditions remain to some extent precarious.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-25T23:00:00Z",
+        "endTime" : "2025-11-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SE", "N", "NW", "SW", "W", "S", "NE" ]
+    } ],
+    "bulletinID" : "141aa209-3527-4fc8-b52f-3ddf074f66e2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
