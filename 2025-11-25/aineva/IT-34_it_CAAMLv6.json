@@ -1,0 +1,86 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-11-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-11-25T23:00:00Z",
+      "endTime" : "2025-11-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo.",
+      "comment" : "In molte regioni sono caduti da 10 a 20 cm di neve al di sopra dei 1000 m circa, localmente anche di più. Il vento è stato forte. <br/> La neve fresca può distaccarsi spontaneamente a tutte le esposizioni al di sopra del limite del bosco. I punti pericolosi per valanghe asciutte si trovano principalmente ai piedi di pareti rocciose e dietro ai cambi di pendenza. Qui le valanghe sono per lo più di piccole dimensioni. <br/> Il vento a tratti forte ha causato il trasporto della neve. Soprattutto nelle zone in prossimità delle creste si sono formati accumuli di neve ventata. <br/> Gli accumuli di neve ventata in parte spessi rappresentano la principale fonte di pericolo. Essi possono subire un distacco già in seguito al passaggio di un singolo appassionato di sport invernali al di sopra dei 2000 m circa. <br/> Con neve fresca e vento, soprattutto sui pendii molto ripidi e nelle zone in prossimità delle creste sono possibili valanghe di neve a lastroni di medie dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Lo strato di neve fresca è soffice. <br/> Al di sopra del limite del bosco, sui pendii ombreggiati: In molti punti la neve fresca e quella ventata poggiano su un debole manto di neve vecchia."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le condizioni valanghive rimangono parzialmente insidiose.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-11-26T23:00:00Z",
+        "endTime" : "2025-11-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-11-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "W", "E", "SW", "SE", "NE", "S" ]
+    } ],
+    "bulletinID" : "f24bc716-a3e8-4e82-8d31-7f8353223d4f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
