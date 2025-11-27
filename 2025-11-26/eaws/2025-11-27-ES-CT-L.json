@@ -1,0 +1,138 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The more recent wind slabs can be released by a single winter sport participant at intermediate and high altitudes. The avalanches are rather small. Individual medium-sized avalanches are further not ruled out. <br/> <br/> Especially steep sunny slopes: As a consequence of warming during the day and solar radiation moist snow slides are to be expected, but they will be mostly small. On very steep slopes and in shady places that are protected from the wind more dry snow slides and avalanches are possible. <br/> <br/> Weak layers in the lower part of the snowpack can be released in isolated cases by people on shady slopes. In these aspects the avalanches are in some cases medium-sized. Whumpfing sounds serve as an alarm indicating the danger. <br/> <br/> Careful route selection is recommended.",
+        "highlights": "New snow and wind slabs. Weakly bonded old snow on shady slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "S",
+            "SE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "S",
+            "SE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "frequency": "few",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "c3d06c9a-300d-4486-b475-a999a4a8771d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-11-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Over a wide area 30 to 40 cm of snow fell in the last two days. In the past few hours the wind was moderate to strong especially at the southern and eastern borders of Aran. <br/> Shady slopes intermediate and high altitudes: Towards its base, the snowpack is faceted. <br/> <br/> On Thursday it will be sunny at times. <br/> In particular at elevated altitudes snow depths vary greatly, depending on the infuence of the wind."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slight increase in danger of moist avalanches as a consequence of warming.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-11-27T16:00:00+00:00",
+            "endTime": "2025-11-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-11-26T16:00:00+00:00",
+        "endTime": "2025-11-27T16:00:00+00:00"
+      }
+    }
+  ]
+}
