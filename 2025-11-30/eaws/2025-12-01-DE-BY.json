@@ -1,0 +1,140 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. At medium altitudes, sliding snow is the main problem. On very steep, smooth ground, for example on meadows, in forest aisles and on rock slabs, individual small sliding snow avalanches can detach themselves. There is a particular danger where sliding snow cracks have already opened and the slopes have not yet unloaded.\n\nAt higher altitudes, isolated weak layers in old snow can be problematic. Slab avalanches can be triggered in particular with large additional loads, especially on very steep, shady slopes at the transition from little to much snow. Avalanches usually remain small, but the risk of falling must be taken into account.",
+        "highlights": "Some of the obstacles are only lightly covered with snow, note the risk of falling and injury!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "E",
+            "W",
+            "NW",
+            "SE",
+            "N",
+            "SW",
+            "NE",
+            "S"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "W",
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "36e759f2-499e-43b0-8d9b-404b0d2739c6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-11-30T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "With colder temperatures, the moist snow cover freezes and solidifies at medium altitudes. Some fresh snow covers a compact layer of old snow there. At higher altitudes, well-set powder snow dominates. Here, layers of angular crystals have been preserved in places, especially on shady slopes and in hollows. The ground is not frozen and the snowpack base is often wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche danger is expected to remain low for the next few days.",
+          "validTime": {
+            "startTime": "2025-12-01T16:00:00+00:00",
+            "endTime": "2025-12-02T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-11-30T16:00:00+00:00",
+        "endTime": "2025-12-01T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Largely favourable avalanche situation in the Bavarian Alps."
+    }
+  }
+}
