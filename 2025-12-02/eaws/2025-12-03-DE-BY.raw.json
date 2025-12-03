@@ -1,0 +1,104 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-02T16:00:00Z",
+      "endTime" : "2025-12-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Partly little snow: Be aware of the risk of falling and injury!",
+      "comment" : "The avalanche danger is low. Sliding snow is the main problem at medium altitudes. On very steep, smooth ground, for example on meadows, in forest aisles and on rock slabs, individual smaller sliding snow avalanches can detach themselves. Areas below sliding snow cracks should be avoided.\n\nAt high altitudes, drifting snow can be problematic, especially on very steep slopes close to the crest with exposures from west to north to east. Small slab avalanches can occasionally be triggered there with a small additional load."
+    },
+    "snowpackStructure" : {
+      "comment" : "At medium elevations, the snow cover is moist and compact, often wet at the base. Overnight, a snow cover forms in many places. At higher altitudes, the snow cover is dry. Here, small accumulations of drifting snow develop close to the crest with winds from southerly directions. On shady slopes, layers of angular crystals have been preserved in the old snow in places."
+    },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger remains low.",
+      "validTime" : {
+        "startTime" : "2025-12-03T16:00:00Z",
+        "endTime" : "2025-12-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NE", "SE", "N", "E", "NW", "SW", "S", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "E", "NW", "W" ]
+    } ],
+    "bulletinID" : "3e0261f5-ab89-4e24-8739-80ce579d6f9f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Low avalanche danger in the Bavarian Alps"
+    }
+  }
+}
