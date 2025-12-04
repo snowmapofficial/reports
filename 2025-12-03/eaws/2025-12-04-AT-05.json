@@ -1,0 +1,355 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is moderate above 2100 metres and low below. The main problem is fresh drift snow. In the sectors from west to north to east and in gullies, slab avalanches can be triggered in some places by even a small additional load. They can occasionally break through to deeper weak layers and become medium sized if the snow is thick enough. Danger spots are mainly located close to the crest, directly on the main ridge also behind terrain edges far from the crest. Below 2800 m, mostly small sliding snow avalanches can occur spontaneously.",
+        "highlights": "Drift snow problem due to south foehn"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "939695dd-c7e0-4ce2-8917-98a7d69829d4",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-11",
+          "name": "Venedigergruppe North"
+        },
+        {
+          "regionID": "AT-05-10",
+          "name": "Glocknergruppe North"
+        },
+        {
+          "regionID": "AT-05-07",
+          "name": "Gro\u00dfvenedigergruppe Central"
+        },
+        {
+          "regionID": "AT-05-06",
+          "name": "Glocknergruppe Central"
+        },
+        {
+          "regionID": "AT-05-05",
+          "name": "Goldberggruppe Central"
+        },
+        {
+          "regionID": "AT-05-03",
+          "name": "Weisseck, Muhr"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Some brisk southerly winds have worked the snow surface at high altitudes and formed drift snow on a small scale. Away from the influence of the wind, the snow surface is often loose on the shaded side. Overblown, loose snow and angular crystals in the old snow are possible fracture surfaces. On the sunny side, the snow cover has settled a long way up and may have hardened in the morning. In the very steep grassy terrain, it sometimes slides along the ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The unproductive snowfall on Friday night does not change the situation significantly.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-04T16:00:00+00:00",
+            "endTime": "2025-12-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-03T16:00:00+00:00",
+        "endTime": "2025-12-04T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Thursday, extensive and sometimes quite dense cloud fields will pass through. Visibility will be adequate, but the light may be very diffuse. There will only be a few sunny spells in between. A brisk southerly wind will blow in the foehn corridors of the Tauern, otherwise windy conditions will prevail. At 2000 metres between -2 and +1 degrees, at 3000 metres around -5 degrees."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is low, the main danger is drifting snow.\nSmall slab avalanches can be triggered in very few places in steep west to north to east exposures at high altitudes.",
+        "highlights": "Little snow, small drift snow problem"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "E",
+            "NW",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "3eb2f9cb-41eb-462a-839d-03fe66ac13f4",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-01",
+          "name": "Nockberge"
+        },
+        {
+          "regionID": "AT-05-02",
+          "name": "Niedere Tauern South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface is wind-treated in exposed areas. In the upper part of the snow cover, overblown fresh snow can form a weak layer. Overall, there is still little snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-04T16:00:00+00:00",
+            "endTime": "2025-12-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-03T16:00:00+00:00",
+        "endTime": "2025-12-04T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Thursday, extensive and sometimes quite dense cloud fields will pass through. Visibility will mostly be adequate, but the light may be very diffuse. There will only be a few sunny spells in between. The wind is usually weak. At 2000 metres it will be between -3 and 0 degrees."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is low. The main problem is the sliding snow on slopes with exposures from east to south to west. Small sliding snow avalanches can occur spontaneously up to the summits. There are localised danger spots for mostly small slab avalanches (drift snow problem), particularly in the Tauern region and in the high altitudes of the northern Alps.",
+        "highlights": "Avoid terrain under sliding snow cracks and small-scale drift snow areas"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "E",
+            "SW",
+            "S",
+            "SE",
+            "W"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "3956b5b6-4882-4964-baad-6ce3c6fe6a79",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-09",
+          "name": "Goldberggruppe North"
+        },
+        {
+          "regionID": "AT-05-08",
+          "name": "Niedere Tauern North"
+        },
+        {
+          "regionID": "AT-05-19",
+          "name": "Osterhorngruppe, Gamsfeldgruppe"
+        },
+        {
+          "regionID": "AT-05-18",
+          "name": "Loferer and Leoganger Steinberge"
+        },
+        {
+          "regionID": "AT-05-17",
+          "name": "Steinernes Meer, Hochk\u00f6nig, Hagengebirge, G\u00f6llstock"
+        },
+        {
+          "regionID": "AT-05-16",
+          "name": "Tennengebirge, Gosaukamm"
+        },
+        {
+          "regionID": "AT-05-15",
+          "name": "Kitzb\u00fchel Alps Oberpinzgau"
+        },
+        {
+          "regionID": "AT-05-04",
+          "name": "Niedere Tauern Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-14",
+          "name": "Kitzb\u00fchel Alps Glemmtal"
+        },
+        {
+          "regionID": "AT-05-13",
+          "name": "Dientner Grasberge"
+        },
+        {
+          "regionID": "AT-05-12",
+          "name": "Pongauer Grasberge"
+        },
+        {
+          "regionID": "AT-05-21",
+          "name": "Chiemgau Alps South"
+        },
+        {
+          "regionID": "AT-05-20",
+          "name": "Untersbergstock"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface is often loose and angular on the shaded side. In the high altitudes of the Tauern and Northern Alps, there are also small-scale drifts on the shaded side, which can be disturbed on the loose base. On the sunny side, the snow cover has settled a long way up and may have hardened in the morning. Snow sliding is observed on steep grass mats."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change. The unproductive snowfall on Friday night does not change the situation significantly.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-04T16:00:00+00:00",
+            "endTime": "2025-12-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-03T16:00:00+00:00",
+        "endTime": "2025-12-04T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Thursday, extensive and sometimes quite dense cloud fields will pass through. Visibility will be adequate, but the light may be very diffuse. There will only be a few sunny spells in between. A brisk southerly wind will blow in the foehn corridors of the Tauern, otherwise windy conditions will prevail. At 2000 metres between -2 and +1 degrees, at 3000 metres around -5 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Pay attention to fresh drift snow and be careful in areas of sliding snow"
+    }
+  }
+}
