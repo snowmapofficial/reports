@@ -1,0 +1,137 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is low. Smaller, spontaneous sliding snow avalanches are the main problem. They are primarily possible below 2200 m in the east to south to west slope directions. Very steep slopes with slippery ground such as very steep meadows, forest aisles and rock slabs are affected. Areas below sliding snow cracks should be avoided.\n\nAt high altitudes, drifting snow can also be problematic, especially on very steep slopes close to the crest with exposures from west to north to east. Small slab avalanches can occasionally be triggered there with a small additional load. The risk of falling must be taken into account.",
+        "highlights": "Watch out for small-scale drift snow at high altitudes and avoid it. Often only a little snow."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "77ee0a10-bda4-4038-98b6-33cbeaca7684",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "At medium elevations, the snow cover is moist and compact, often wet at the base. In many places, a snow cover forms overnight. At higher altitudes, the snow cover is mostly dry. With winds from southerly directions, small accumulations of drifting snow could form near the crests, especially in the Allg\u00e4u and Werdenfels. On shady slopes, layers of angular crystals have been preserved in places in the old snow at high altitudes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change in avalanche danger.",
+          "validTime": {
+            "startTime": "2025-12-04T16:00:00+00:00",
+            "endTime": "2025-12-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-03T16:00:00+00:00",
+        "endTime": "2025-12-04T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Minor sliding snow problem, small areas of drift snow possible at high altitudes."
+    }
+  }
+}
