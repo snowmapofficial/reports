@@ -1,0 +1,143 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "A small additional load can trigger a small to medium-sized avalanche above the tree line, especially where there are transitions between thin and thicker snow cover. Caution should also be exercised in areas of blowing snow.",
+        "highlights": "Above the tree line, weak layers may be present in the snow cover."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "SE",
+            "N",
+            "E",
+            "NW",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "92bc7dcc-d9a3-4205-b53a-6c9275addf0e",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In recent days, the snow cover has been colliding, which could weaken the coherence of the snow cover in some areas, particularly on arid slopes. In sloping areas, the snow cover has started to transform more rapidly as the weather has warmed up, forming a crust. Snow is relatively scarce in the mountains. Due to the past influence of wind, the height of the snow cover is uneven and the surface of the snow cover has been reshaped. A few centimetres of light snow have fallen above an altitude of about 1500 m."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "There will be light to moderate snow in the evening and overnight on Friday, but the amount of new snow is not expected to be significant. The risk of avalanches is unlikely to increase.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-04T16:00:00+00:00",
+            "endTime": "2025-12-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-03T16:00:00+00:00",
+        "endTime": "2025-12-04T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather forecast for the mountain world is available at: https://meteo.arso.gov.si/met/sl/weather/bulletin/mountain/"
+      }
+    }
+  ]
+}
