@@ -1,0 +1,270 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche et soufflée, prudence surtout à moyenne et haute altitude dans les régions concernées par les précipitations principales.",
+      "comment" : "Dans les derniers deux jours il est tombé au-dessus d'environ 1200 m en général de 30 à 40 cm de neige. La neige fraîche et la neige soufflée des deux derniers jours peuvent être déclenchées facilement ou glisser spontanément au-dessus d'environ 1800 m. Des avalanches de petite et moyenne taille sont possibles sur les pentes très raides. <br/> Les accumulations plus anciennes de neige soufflée sont recouvertes de neige fraîche et donc difficilement identifiables. Les endroits dangereux se situent surtout sur les pentes raides à l'ombre à haute altitude et en haute montagne ainsi que dans les combes, couloirs et derrière les ruptures de terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis mercredi il est tombé en général au-dessus d'environ 1200 m 40 cm de neige, localement plus. La neige fraîche repose sur une surface croûtée sur les pentes ensoleillées et à basse et moyenne altitude. Au-dessus de la limite de la forêt: Les accumulations plus anciennes de neige soufflée sont recouvertes de neige fraîche et donc difficilement identifiables. Le vent parfois modéré transporte la neige fraîche."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le danger d'avalanches sèches ne diminue pas encore.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    } ],
+    "bulletinID" : "2922de31-0d55-4aa2-919f-8e814a423d49",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne constituent le danger principal.",
+      "comment" : "Depuis mercredi il est tombé un peu de neige. Les accumulations de neige soufflée de la semaine écoulée doivent être évaluées avec précaution surtout sur les pentes très raides exposées au nord et à l'est au-dessus d'environ 2500 m, surtout aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs. <br/> Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée et généralement avec une surcharge importante, surtout sur les pentes raides peu fréquentées à l'ombre. <br/> <br/> Attention aux nombreux rochers cachés par le peu de neige récente."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il y a en général trop peu de neige pour les sports d'hiver, notamment à basse et moyenne altitude. <br/> Les accumulations de neige soufflée anciennes reposent sur des couches défavorables surtout sur les pentes à l'ombre. La partie inférieure du manteau neigeux a subi une métamorphose constructive."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "eb15becc-61d0-493c-a51b-1d6ab4fd2563",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les endroits dangereux se situent surtout à proximité des crêtes, dans les combes et couloirs.",
+      "comment" : "Depuis mercredi il est tombé au-dessus d'environ 1200 m en général de 10 à 20 cm de neige. Quelques endroits dangereux se situent surtout sur les pentes raides à l'ombre à haute altitude et en haute montagne ainsi que près des crêtes, combes et couloirs, là où Les accumulations de neige soufflée partiellement recouvertes de neige fraîche reposent sur des couches fragiles. <br/> En dessous d'environ 2200 m il y a trop peu de neige pour les sports d'hiver. <br/> <br/> Attention aux nombreux rochers cachés par le peu de neige récente."
+    },
+    "snowpackStructure" : {
+      "comment" : "À toutes les expositions il y a encore peu de neige à toutes les altitudes. La partie inférieure du manteau neigeux a subi une métamorphose constructive, notamment sur les pentes à l'ombre. La neige fraîche repose sur des couches meubles surtout sur les pentes à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    } ],
+    "bulletinID" : "4a997ba7-8436-4816-acb4-6359de84daab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Dans ces régions il n'y a que peu de neige.",
+      "comment" : "Depuis mercredi il est tombé au-dessus d'environ 1200 m de 10 à 15 cm de neige. À toutes les altitudes il y a en général trop peu de neige pour les sports d'hiver. <br/> <br/> Attention aux nombreux rochers cachés par le peu de neige récente."
+    },
+    "snowpackStructure" : {
+      "comment" : "À toutes les expositions il y a encore peu de neige à toutes les altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le danger d'avalanches subsiste.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "6c1215c1-8b89-4b68-adb0-a9f631499036",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    } ]
+  } ]
+}
