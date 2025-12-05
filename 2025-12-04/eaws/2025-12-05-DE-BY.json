@@ -1,0 +1,138 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. Small accumulations of drift snow on steep slopes close to the crest with exposures from south-west to north to east and in gullies and hollows can be problematic, especially at high altitudes. In places, they can be triggered as small slab avalanches with a small additional load.\n\nSmall, spontaneous sliding snow avalanches are also possible below 2200 metres. Very steep slopes with slippery ground such as very steep meadows, forest aisles and rock slabs are affected. Avoid areas below sliding snow cracks.",
+        "highlights": "Little snow overall. Small gliding and drifting snow problem."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "SW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "9d6e5ec5-33c2-4fc4-89de-8b8588b258da",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-04T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Some fresh snow is being transported by moderate winds from different directions. The drift snow is only slightly thick, but easy to disturb in places. It is mainly deposited on the shady side on an angularly built-up old snow surface or surface hoar frost. On shaded slopes at higher altitudes, layers of angular crystals are sometimes preserved deeper in the old snow. At the transition to the ground, the snowpack is often wet below 2200 metres."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slight increase in avalanche danger with precipitation and wind on Saturday.",
+          "validTime": {
+            "startTime": "2025-12-05T16:00:00+00:00",
+            "endTime": "2025-12-06T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-04T16:00:00+00:00",
+        "endTime": "2025-12-05T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Some fresh snow and wind can cause small-scale drifts. Be aware of the risk of falling."
+    }
+  }
+}
