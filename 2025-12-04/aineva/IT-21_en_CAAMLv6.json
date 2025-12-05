@@ -1,0 +1,270 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and wind slabs, in the regions exposed to heavier precipitation caution is to be exercised in particular at intermediate and high altitudes.",
+      "comment" : "Over a wide area 30 to 40 cm of snow fell in the last two days above approximately 1200 m. The new snow and wind slabs of the last two days can be released easily or naturally above approximately 1800 m. On very steep slopes small and medium-sized avalanches are possible. <br/> The older wind slabs are covered with new snow and therefore difficult to recognise. The avalanche prone locations are to be found in particular on steep shady slopes at high altitudes and in high Alpine regions and in gullies and bowls, and behind abrupt changes in the terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area 40 cm of snow, and even more in some localities, has fallen since Wednesday above approximately 1200 m. The new snow is lying on a crust on sunny slopes and at low and intermediate altitudes. Above the tree line: The older wind slabs are covered with new snow and therefore difficult to recognise. The sometimes moderate wind will transport the new snow."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The danger of dry avalanches will not decrease for the time being.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    } ],
+    "bulletinID" : "2922de31-0d55-4aa2-919f-8e814a423d49",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack represent the main danger.",
+      "comment" : "Some snow has fallen since Wednesday. The wind slabs of last week must be evaluated with care and prudence in particular on very steep north and east facing slopes above approximately 2500 m, in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. <br/> Weak layers in the old snowpack can be released in isolated cases and mostly by large additional loads in particular on steep, little used shady slopes. <br/> <br/> Watch out for the numerous rocks hidden by the recent snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "From a snow sport perspective, in most cases insufficient snow is lying, especially at low and intermediate altitudes. <br/> The old wind slabs are lying on unfavourable layers in particular on shady slopes. Towards its base, the snowpack consists of faceted crystals."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "eb15becc-61d0-493c-a51b-1d6ab4fd2563",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls.",
+      "comment" : "Over a wide area 10 to 20 cm of snow has fallen since Wednesday above approximately 1200 m. Individual avalanche prone locations are to be found in particular on steep shady slopes at high altitudes and in high Alpine regions and adjacent to ridgelines and in gullies and bowls, where The sometimes new snow-covered wind slabs are lying on weak layers. <br/> Below approximately 2200 m from a snow sport perspective, insufficient snow is lying. <br/> <br/> Watch out for the numerous rocks hidden by the recent snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "In all aspects thus far only a little snow is lying in all altitude zones. Towards its base, the snowpack consists of faceted crystals, especially on shady slopes. The new snow is lying on soft layers in particular on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    } ],
+    "bulletinID" : "4a997ba7-8436-4816-acb4-6359de84daab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "In these regions only a little snow is lying.",
+      "comment" : "10 to 15 cm of snow has fallen since Wednesday above approximately 1200 m. In all altitude zones from a snow sport perspective, in most cases insufficient snow is lying. <br/> <br/> Watch out for the numerous rocks hidden by the recent snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "In all aspects thus far only a little snow is lying in all altitude zones."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger will persist.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "6c1215c1-8b89-4b68-adb0-a9f631499036",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    } ]
+  } ]
+}
