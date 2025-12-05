@@ -1,0 +1,123 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches. Gliding avalanches are possible in isolated cases.",
+      "comment" : "In particular on steep slopes more mostly small moist and wet avalanches are possible as a consequence of warming. More mostly small gliding avalanches are possible above approximately 1800 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is fairly homogeneous. As a consequence of mild temperatures the snowpack will consolidate during the next few days."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NE", "N", "NW", "W" ]
+    } ],
+    "bulletinID" : "48bd5a1d-459a-44ab-b162-a321a452906a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-05T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-04T23:00:00Z",
+      "endTime" : "2025-12-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches.",
+      "comment" : "In particular on steep slopes more mostly small moist and wet avalanches are possible as a consequence of warming."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is fairly homogeneous. As a consequence of mild temperatures the snowpack will consolidate during the next few days."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-12-05T23:00:00Z",
+        "endTime" : "2025-12-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NE", "SE", "N", "NW", "SW", "W", "S" ]
+    } ],
+    "bulletinID" : "d299a597-9ea5-4f86-90d8-74d3ab99b541",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
