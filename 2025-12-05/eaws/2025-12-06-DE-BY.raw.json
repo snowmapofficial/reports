@@ -1,0 +1,179 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-05T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-05T16:00:00Z",
+      "endTime" : "2025-12-06T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Loose snow will be transported at higher altitudes.",
+      "comment" : "The avalanche danger is moderate above 1,800 metres and low below. Drift snow is the main problem. Danger spots are in steep terrain close to the crest with exposures from north-west to north to south-east as well as in gullies and hollows. The drifting snow can be triggered as a mostly small slab avalanche with a small additional load.\n\nSmall, spontaneous sliding snow avalanches are also possible below 2000 metres. Very steep slopes with smooth ground such as meadows, forest aisles and rock slabs are affected. Areas below sliding snow cracks should be avoided."
+    },
+    "snowpackStructure" : {
+      "comment" : "Loose snow and some fresh snow is being transported by strong winds from a south-westerly direction. Fresh and older drifting snow lies mainly on the shaded side on an angular old snow surface or surface hoar frost and is susceptible to disturbance. On shady slopes at higher altitudes, deeper layers of angular crystals can be found in the snowpack in places. At mid-altitudes, the snowpack at the transition to the ground is widely wet."
+    },
+    "tendency" : [ {
+      "highlights" : "Wet and sliding snow come to the fore with mild temperatures.",
+      "validTime" : {
+        "startTime" : "2025-12-06T16:00:00Z",
+        "endTime" : "2025-12-07T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SE", "E", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "a64e52cc-ce51-489a-8999-009b0bdb444c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-05T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-05T16:00:00Z",
+      "endTime" : "2025-12-06T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Drift snow can be problematic in places.",
+      "comment" : "The avalanche risk is low. Above the tree line, drifting snow can be problematic. The few danger spots are in the steep terrain close to the crest with exposures from north-west to north to south-east. The drifting snow can be triggered as a small slab avalanche with a small additional load.\n\nIn addition, small, spontaneous sliding snow avalanches are possible below 1800 m on very steep slopes with smooth ground. Areas below sliding snow cracks should be avoided."
+    },
+    "snowpackStructure" : {
+      "comment" : "Loose snow is transported by winds from the south-west. Fresh and older drift snow lies mainly on the shaded side on an angularly built-up old snow surface or on surface frost. Accumulations of drift snow remain small, but are prone to disturbance in places. On shady slopes at high altitudes, deeper layers of angular crystals can occasionally be found in the snowpack. At mid-altitudes, the snowpack at the transition to the ground is widely wet."
+    },
+    "tendency" : [ {
+      "highlights" : "Wet and sliding snow come to the fore with mild temperatures.",
+      "validTime" : {
+        "startTime" : "2025-12-06T16:00:00Z",
+        "endTime" : "2025-12-07T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SE", "E", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "371341e7-e98b-4fee-8454-08c7f3ba2689",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "The wind gets stronger as the day progresses: the number of danger spots increases."
+    }
+  }
+}
