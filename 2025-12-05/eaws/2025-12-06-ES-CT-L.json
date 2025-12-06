@@ -1,0 +1,147 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The fresh snow and in particular the sometimes deep wind slabs must be evaluated with care and prudence in all aspects above approximately 2400 m. These can as before be released very easily and reach medium size. Wind-loaded slopes where hard layers are lying on a weakly bonded old snowpack are especially dangerous. They are to be avoided in very steep terrain. <br/> <br/> As the moisture increases more frequent small and, in isolated cases, medium-sized moist snow slides and avalanches are to be expected. Individual gliding avalanches can also occur. <br/> <br/> Backcountry touring and other off-piste activities call for caution and restraint. Apart from the danger of being buried, restraint should be exercised as well in view of the danger of avalanches sweeping people along and giving rise to falls.",
+        "highlights": "Fresh wind slabs at high altitude. Moist snow slides and avalanches and gliding avalanches require caution."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "S",
+            "SE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "S",
+            "SE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "S",
+            "SE",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "ba0b9af1-dc1d-4459-8445-8aa9e0e526b1",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-06"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "The avalanche conditions remain dangerous.",
+      "lang": "en",
+      "publicationTime": "2025-12-05T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "15 to 20 cm of snow has fallen since yesterday. The northwesterly wind has transported the new snow significantly. The fresh snow and all the wind slabs are lying on soft layers in all aspects at intermediate and high altitudes. They remain for the foreseeable future prone to triggering at high altitude. The rain will give rise during the night to increasing moistening of the snowpack in all aspects in particular at low and intermediate altitudes. The surface of the snowpack will freeze very little and will soften quickly. <br/> <br/> At intermediate altitudes there are 30 to 50 cm of snow, and even more in some localities. At elevated altitudes snow depths vary greatly, depending on the infuence of the wind."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Sunday: Outgoing longwave radiation during the night will be quite good. Temporary decrease in danger of moist avalanches. The danger of dry avalanches will decrease gradually.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-12-06T16:00:00+00:00",
+            "endTime": "2025-12-07T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-05T16:00:00+00:00",
+        "endTime": "2025-12-06T16:00:00+00:00"
+      }
+    }
+  ]
+}
