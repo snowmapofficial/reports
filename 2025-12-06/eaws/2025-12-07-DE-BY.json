@@ -1,0 +1,221 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is moderate above 2000 metres and low below. Drift snow is the main problem. Danger spots are in steep terrain close to the crest with exposures from north-west to north to east as well as in gullies and hollows. The drifting snow can be triggered as a mostly small slab avalanche with a small additional load.\n\nSmall, spontaneous sliding snow avalanches are also possible below 2000 metres. Very steep slopes of all exposures with smooth ground such as meadows, forest aisles and rock slabs are affected. Areas below sliding snow cracks should be avoided.",
+        "highlights": "Above the snow line, small snow packs develop."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "N",
+            "SE",
+            "E",
+            "NW",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "be12eed6-991f-4321-95ff-d298a78eb505",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-07"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-06T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Some rain will fall up to medium altitudes, above which it will snow. Loose snow below the snow line will become moist and lose its firmness. At higher altitudes, dry snow will be carried by winds from the west. Fresh and occasionally older drift snow lies mainly on the shady side on softer layers and is susceptible to disruption. On shady slopes at high altitudes, deeper layers of angular crystals can occasionally be found in the snowpack. At mid-altitudes, the snowpack at the transition to the ground is widely wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The snow cover becomes increasingly damp with warm temperatures and rain. Wet snow becomes a problem.",
+          "validTime": {
+            "startTime": "2025-12-07T16:00:00+00:00",
+            "endTime": "2025-12-08T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-06T16:00:00+00:00",
+        "endTime": "2025-12-07T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is low. Sliding snow is the problem. Below 2000 m, small, spontaneous sliding snow avalanches are possible on very steep slopes of all exposures with smooth ground.\n\nAt the highest altitudes, isolated drift snow can be problematic. The few danger spots are in the steep terrain close to the crest in the northern exposures. The drifting snow can be triggered as a small slab avalanche with a small additional load.",
+        "highlights": "Avoid areas below sliding snow cracks."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "E",
+            "S",
+            "NW",
+            "NE",
+            "SW",
+            "N",
+            "SE",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "2570ca24-52be-4a1e-b0da-57515685d022",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-07"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-06T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Some rain falls, especially in the western regions. Loose snow will become moist and lose its firmness. In the shaded areas at the highest altitudes, fresh and older drift snow lies on softer layers and may be prone to disruption in isolated cases. Up to the middle elevations, the snow cover at the transition to the ground will be widely wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The snow cover becomes increasingly damp with warm temperatures and rain. Wet snow becomes a problem.",
+          "validTime": {
+            "startTime": "2025-12-07T16:00:00+00:00",
+            "endTime": "2025-12-08T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-06T16:00:00+00:00",
+        "endTime": "2025-12-07T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "It will be mild."
+    }
+  }
+}
