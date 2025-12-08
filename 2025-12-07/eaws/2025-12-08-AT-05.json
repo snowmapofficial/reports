@@ -1,0 +1,434 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is considerable above 2000 metres and moderate below. The risk of avalanches increases at all altitudes with rain and snowfall. Small to medium-sized snow slabs and loose snow avalanches can detach spontaneously during precipitation. Slab avalanches can also be triggered by individual winter sports enthusiasts with little additional pressure. Danger spots for this are located particularly on steep slopes with exposures from west to north to east, especially at the transitions from little to much snow as well as behind terrain edges and near ridges. Slab avalanches in fresh and older drift snow can become medium-sized when breaking through into deeper layers. Some of the danger spots are covered in snow and difficult to recognise!\nWith the rain, more small sliding snow avalanches are possible again. Areas under sliding snow avalanches should be avoided. In addition to the risk of burial, the risk of being swept away and falling should also be taken into account!",
+        "highlights": "Rain up to 2500 m leads to an increase in avalanche danger"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "N",
+            "SE",
+            "E",
+            "NW",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "411169fe-69c2-4c6d-ab76-4afc2ab01bcd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-07T16:28:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-11",
+          "name": "Venedigergruppe North"
+        },
+        {
+          "regionID": "AT-05-10",
+          "name": "Glocknergruppe North"
+        },
+        {
+          "regionID": "AT-05-07",
+          "name": "Gro\u00dfvenedigergruppe Central"
+        },
+        {
+          "regionID": "AT-05-06",
+          "name": "Glocknergruppe Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A warm front brings precipitation and it rains up to around 2500 metres. On the one hand, the precipitation puts additional stress on existing weak layers, on the other hand, the rain causes the snow slab to form better on the weak layer, making it more susceptible to disruption for winter sports enthusiasts. The old snow cover contains several layers of angular crystals, which are susceptible to disruption. These can be found in particular on the western, northern and eastern slopes above 2400 metres. In addition, there are fresh and older accumulations of drift snow on soft layers that are prone to disturbance. In the steep grass mat terrain, the entire snow cover slides off the ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in avalanche danger, weak layers in old snow remain susceptible to disruption.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-12-08T16:00:00+00:00",
+            "endTime": "2025-12-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-12-07T16:00:00+00:00",
+        "endTime": "2025-12-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Warm front lift. It rains and snows in the night to Monday. The snow line rises rapidly from 1500 m to 2500 m. Around 15 - 20 mm of precipitation will fall, mostly in the form of rain. Only above about 2500 m will the majority fall as snow (about 15 cm). Monday will then start with poor visibility. The precipitation will largely subside by midday and the clouds will begin to clear. Visibility will be mostly good in the afternoon and the sun may even make an appearance. The wind will blow briskly from the south to west at times, reaching speeds of around 50 km/h. The wind will weaken during the day. Temperatures will rise to +4 degrees at 2000 metres and to -1 degree at 3000 metres."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is moderate. With the arrival of rain, more small, wet loose snow avalanches spontaneously break loose from extremely steep terrain. Sliding snow avalanches occur more frequently in steep grassy terrain. The avalanches usually remain small, occasionally they can be medium-sized. Areas of terrain underneath snow pockets should be avoided.",
+        "highlights": "Small wet snow and sliding snow avalanches are the main danger"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "NE",
+            "SE",
+            "E",
+            "NW",
+            "SW"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "NE",
+            "SE",
+            "E",
+            "NW",
+            "SW"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "196f9d97-96df-402f-8245-f554d8f3ed16",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-07T16:28:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-12",
+          "name": "Pongauer Grasberge"
+        },
+        {
+          "regionID": "AT-05-21",
+          "name": "Chiemgau Alps South"
+        },
+        {
+          "regionID": "AT-05-20",
+          "name": "Untersbergstock"
+        },
+        {
+          "regionID": "AT-05-08",
+          "name": "Niedere Tauern North"
+        },
+        {
+          "regionID": "AT-05-19",
+          "name": "Osterhorngruppe, Gamsfeldgruppe"
+        },
+        {
+          "regionID": "AT-05-16",
+          "name": "Tennengebirge, Gosaukamm"
+        },
+        {
+          "regionID": "AT-05-15",
+          "name": "Kitzb\u00fchel Alps Oberpinzgau"
+        },
+        {
+          "regionID": "AT-05-14",
+          "name": "Kitzb\u00fchel Alps Glemmtal"
+        },
+        {
+          "regionID": "AT-05-13",
+          "name": "Dientner Grasberge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The rain up to the summit areas weakens the existing, mostly thin snow cover. The snow cover can slide off on steep grassy terrain."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "After the end of the precipitation, spontaneous loose snow avalanches quickly decrease again, while the sliding snow activity remains.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-12-08T16:00:00+00:00",
+            "endTime": "2025-12-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-12-07T16:00:00+00:00",
+        "endTime": "2025-12-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Warm front lift. It rains and snows in the night to Monday. The snow line rises rapidly from 1500 m to 2500 m. Around 15-20 mm of precipitation falls, mostly in the form of rain. Monday starts with poor visibility. The precipitation will largely subside by midday. In the afternoon, the sun may appear temporarily and visibility will improve somewhat. The wind will blow briskly from the south to west at times, reaching speeds of around 50 km/h. The wind will weaken during the day. At 2000 metres, temperatures will rise to +4 degrees."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate. During the main precipitation, small snow slabs and loose snow avalanches can occur spontaneously. Slab avalanches can also be triggered by individual winter sports enthusiasts with little additional pressure. Danger spots for this are located particularly on steep slopes with exposures from west to north to east, especially at the transitions from little to much snow as well as behind terrain edges and near ridges. Slab avalanches in fresh and older drift snow can occasionally become medium-sized when breaking through into deeper layers. Some of the danger spots are covered in snow and difficult to recognise!\n\nWith the rain, more small sliding snow avalanches are possible again. Areas under sliding snow avalanches should be avoided. In addition to the risk of burial, the risk of being swept away and falling should also be taken into account!",
+        "highlights": "Rain up to 2500 m leads to an increase in avalanche danger"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "E",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "S",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "2f8f155c-33f1-4669-99d1-b044db847d99",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-07T16:28:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-09",
+          "name": "Goldberggruppe North"
+        },
+        {
+          "regionID": "AT-05-18",
+          "name": "Loferer and Leoganger Steinberge"
+        },
+        {
+          "regionID": "AT-05-17",
+          "name": "Steinernes Meer, Hochk\u00f6nig, Hagengebirge, G\u00f6llstock"
+        },
+        {
+          "regionID": "AT-05-05",
+          "name": "Goldberggruppe Central"
+        },
+        {
+          "regionID": "AT-05-04",
+          "name": "Niedere Tauern Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-03",
+          "name": "Weisseck, Muhr"
+        },
+        {
+          "regionID": "AT-05-02",
+          "name": "Niedere Tauern South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A warm front brings precipitation and it rains up to around 2500 metres. On the one hand, the precipitation puts additional stress on existing weak layers, on the other hand, the snow slab forms better on the weak layer, making it more susceptible to disruption for winter sports enthusiasts. The old snow cover contains several layers of angular crystals, which are susceptible to disruption. These can be found in particular on the western, northern and eastern slopes above 2400 metres. In addition, there are fresh and older accumulations of drift snow on soft layers that are prone to disturbance. In the steep grass mat terrain, the entire snow cover slides off the ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in avalanche danger, weak layers in old snow remain susceptible to disruption.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-12-08T16:00:00+00:00",
+            "endTime": "2025-12-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-12-07T16:00:00+00:00",
+        "endTime": "2025-12-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Warm front lift. It rains and snows on Monday night. The snow line rises rapidly from 1500 m to 2500 m. Around 20 - 30 mm of precipitation will fall in the northern Alps and around 15 - 20 mm in the Tauern. The precipitation mostly falls in the form of rain. Monday will start with poor visibility. The precipitation will largely subside by midday. In the afternoon, the sun may appear temporarily and visibility will improve somewhat. The wind will blow briskly from the south to west at times, reaching speeds of around 50 km/h. The wind will weaken during the day. Temperatures will rise to +4 degrees at 2000 metres and to -1 degree at 3000 metres."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. With the warming and the rain, small loose and sliding snow slides occur, especially until the morning. In addition, small snow slabs can occasionally be triggered by winter sports enthusiasts on very and extremely steep, shaded terrain. The risk of injury and entrapment exceeds the risk of burial.",
+        "highlights": "Warming and rain bring a slight increase in avalanche danger"
+      },
+      "bulletinID": "d036eeba-0219-421e-b371-0038c2fd1c5a",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-07T16:28:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-01",
+          "name": "Nockberge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The rain weakens the existing snow cover, some of which loses its bond or can slide off the ground. In the shady high altitudes, drifting snow is lying in places on an unfavourably built-up old snow cover with soft layers of angular crystals, which are still prone to disruption in places. Overall, there is still little snow in the terrain."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-08T16:00:00+00:00",
+            "endTime": "2025-12-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2025-12-07T16:00:00+00:00",
+        "endTime": "2025-12-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "A warm front will bring unproductive precipitation on Monday night. The snow line rises quickly to around 2500 metres, causing most of the precipitation to fall as rain. Monday will then start with poor visibility. The precipitation will largely subside by midday and the sun may appear from time to time. The wind will blow partly briskly from westerly directions and reach speeds of around 50 km/h, weakening during the day. Temperatures will rise to +4 degrees at 2000 metres and to -1 degree at 3000 metres."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "A warm front brings rain up to 2500 metres and an increase in avalanche danger."
+    }
+  }
+}
