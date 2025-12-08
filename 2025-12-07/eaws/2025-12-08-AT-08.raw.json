@@ -1,0 +1,170 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-07T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-07T16:00:00Z",
+      "endTime" : "2025-12-08T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Nighttime hours: heavy rainfall and winds, the snowfall level ascending to nearly 2200m. Monday: initially still some residual clouds and final showers. During the course of the day, the sun will gain the upper hand. Temperature at 2000m: +5 degrees. High-altitude winds: moderate to brisk westerly winds."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh snowdrifts prone to triggering - Increasing wet-snow avalanches",
+      "comment" : "At high altitudes, fresh, trigger-sensitive snowdrifts are accumulating. Small-to-medium sized slab avalanches can be triggered by winter sports enthusiasts. In addition, slab avalanches can be unleashed in some places in the old snow by large additional loading. Caution urged on high-altitude, very steep shady slopes. Particularly in zones with rain impact, increasingly frequent wet slides and small, in isolated cases medium-sized glide-snow avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above 2200m there is 5-10 cm of fresh fallen snow. As a result of strong-velocity winds it is being transported and generating fresh snowdrift accumulations. These are prone to triggering. At high altitudes, particularly on shady slopes, faceted intermediate layers occur inside the snowpack. In places, they can be triggered. At low and intermediate altitudes the old snowpack is being increasingly weakened by rain impact."
+    },
+    "tendency" : [ {
+      "highlights" : "Very sunny, very mild. Therefore, increasingly frequent small-to-medium sized wet-snow and glide-snow avalanches possible.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-08T16:00:00Z",
+        "endTime" : "2025-12-09T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "S", "NE", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "N", "S", "W", "NE", "SE", "E", "NW", "SW" ]
+    } ],
+    "bulletinID" : "641aeac1-3dcb-44b6-89ab-4fd2e502b223",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Silvretta West",
+      "regionID" : "AT-08-06"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Lechtal Alps Vorarlberg",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Allgäu Alps West",
+      "regionID" : "AT-08-02"
+    }, {
+      "name" : "Verwall West",
+      "regionID" : "AT-08-04"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-07T16:08:40Z",
+    "validTime" : {
+      "startTime" : "2025-12-07T16:00:00Z",
+      "endTime" : "2025-12-08T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Nighttime hours: heavy rainfall and winds, the snowfall level ascending to nearly 2200m. Monday: initially still some residual clouds and final showers. During the course of the day, the sun will gain the upper hand. Temperature at 2000m: +5 degrees. High-altitude winds: moderate to brisk westerly winds."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Just a bit of rainfall, low avalanche danger",
+      "comment" : "Avalanche danger is low. As a result of the mild temperatures and slight rain impact, increasingly frequent wet-snow slides and glide-snow avalanches are possible. Due to the low snow depths, the avalanches will be small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Hardly any precipitation. Above 2000m, strong-velocity winds will initially transport the snow and generate small snowdrift accumulations. At low and intermediate altitudes, the shallow old snowpack is being increasingly weakened."
+    },
+    "tendency" : [ {
+      "highlights" : "Very sunny, very mild. Therefore, increasingly frequent small-to-medium sized wet-snow and glide-snow avalanches possible.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-08T16:00:00Z",
+        "endTime" : "2025-12-09T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "S", "NW", "NE", "SW", "N", "SE", "W" ]
+    } ],
+    "bulletinID" : "822c2d4a-5d56-46c9-9a15-db597f24258f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    }, {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Fresh snowdrifts prone to triggering - Frequent wet-snow avalanches"
+    }
+  }
+}
