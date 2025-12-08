@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-07T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-07T23:00:00Z",
+      "endTime" : "2025-12-08T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gleitschneelawinen sind vereinzelt möglich.",
+      "comment" : "Es sind oberhalb von rund 1800 m meist kleine Gleitschneelawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Wetterbedingungen führen unterhalb von rund 2000 m zu einer zunehmenden Anfeuchtung der Schneedecke. Mit milden Temperaturen verfestigt sich die Schneedecke in den nächsten Tagen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2025-12-08T23:00:00Z",
+        "endTime" : "2025-12-09T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "SE", "NW", "W", "S", "SW", "E", "NE" ]
+    } ],
+    "bulletinID" : "04748b9f-2cb3-40d2-90e3-3d24aa545f5e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
