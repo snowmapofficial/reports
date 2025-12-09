@@ -1,0 +1,129 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "On very steep grassy slopes gliding avalanches are possible at any time. Sometimes they are medium-sized. The avalanche prone locations are to be found in particular on sunny slopes and on shady slopes below approximately 2300 m. As a consequence of warming during the day and solar radiation small moist snow slides and avalanches are possible. They can be released by people or triggered naturally. <br/> <br/> Especially at the southern border of Aran small wind slabs will form. The fresh wind slabs can in some cases be released easily. <br/> In addition the old wind slabs of the last few days in the vicinity of peaks are capable of being triggered in very isolated cases still. <br/> <br/> Early morning: In steep terrain there is a danger of falling on the hard snow surface. During the day: Areas with glide cracks are to be avoided.",
+        "highlights": "Gliding avalanches and moist snow slides during the day require caution. Fresh wind slabs at the southern border of Aran."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "2400"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "1a74ec81-2eda-4dc1-b747-f53599cf6548",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-08T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Sunshine and high temperatures will give rise as the day progresses to increasing moistening of the snowpack on sunny slopes in all altitude zones. Shady slopes intermediate and high altitudes: The surface of the snowpack will hardly soften at all. In particular high altitudes: The southwesterly wind will transport the loosely bonded old snow. <br/> <br/> At intermediate altitudes there are 30 to 50 cm of snow, and even more in some localities. At elevated altitudes snow depths vary greatly, depending on the infuence of the wind."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Gradual decrease in danger of gliding avalanches and moist snow slides as the temperature drops.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-09T16:00:00+00:00",
+            "endTime": "2025-12-10T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-08T16:00:00+00:00",
+        "endTime": "2025-12-09T16:00:00+00:00"
+      }
+    }
+  ]
+}
