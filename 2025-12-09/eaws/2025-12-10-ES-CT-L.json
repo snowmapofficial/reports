@@ -1,0 +1,128 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "On very steep grassy slopes individual gliding avalanches are possible. They are medium-sized. The avalanche prone locations are to be found in particular on sunny slopes and on shady slopes below approximately 2300 m. Even during the day small moist snow slides are possible. They can be released by people. <br/> <br/> Especially at the southern border of Aran small wind slabs formed. The fresh wind slabs can in some cases be released easily. <br/> In addition the old wind slabs of recent weeks in the vicinity of peaks are capable of being triggered in very isolated cases still. <br/> <br/> During the day: Areas with glide cracks are to be avoided. In steep terrain there is a danger of falling on the hard snow surface.",
+        "highlights": "Gliding avalanches and moist snow slides require caution. Fresh wind slabs at the southern border of Aran."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "W"
+          ],
+          "avalancheSize": 2,
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "W"
+          ],
+          "avalancheSize": 1,
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "2300"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8ac2eb2d-db51-48a8-b915-e9153921b6e9",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-09T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In particular intermediate and high altitudes shady slopes: Towards its surface, the snowpack is weak in some cases; its surface consists of faceted crystals. <br/> Southern border of Aran, The southwesterly wind has transported the loosely bonded old snow. <br/> <br/> Wednesday: The weather will be partly cloudy over a wide area. <br/> <br/> At intermediate altitudes there are 30 to 50 cm of snow, and even more in some localities. At elevated altitudes snow depths vary greatly, depending on the infuence of the wind."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche danger will persist.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-10T16:00:00+00:00",
+            "endTime": "2025-12-11T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-09T16:00:00+00:00",
+        "endTime": "2025-12-10T16:00:00+00:00"
+      }
+    }
+  ]
+}
