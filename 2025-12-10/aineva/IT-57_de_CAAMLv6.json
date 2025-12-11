@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-10T23:00:00Z",
+      "endTime" : "2025-12-11T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nasse Rutsche und Lawinen und Gleitschneelawinen sind vereinzelt möglich.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind oberhalb von rund 1800 m einzelne meist kleine nasse Rutsche und Lawinen möglich. Zudem sind an allen Expositionen einzelne meist kleine Gleitschneelawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist unterhalb von rund 1800 m kleinräumig sehr unterschiedlich. Die Wetterbedingungen führen auch in hohen Lagen zu einer zunehmenden Durchnässung der Schneedecke. Die Schneeoberfläche gefriert nur knapp und ist schon am Morgen aufgeweicht."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-11T23:00:00Z",
+        "endTime" : "2025-12-12T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "N", "W", "SE", "NW", "S", "SW", "NE" ]
+    } ],
+    "bulletinID" : "01d49652-7490-4c08-b931-6a4b3acaf520",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
