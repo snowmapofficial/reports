@@ -1,0 +1,182 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Warm and sunny weather may still lead to spontaneous small avalanches of wet snow on steep slopes during the day. The probability of triggering will decrease rapidly in the evening.\nIn arid areas above the tree line, weak layers are present in the snow cover. In a few places, a small to medium sized avalanche may be triggered under higher loads.",
+        "highlights": "If the weather is sunny, the risk of avalanches on steep slopes will increase slightly during the day."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NE",
+            "E",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NE",
+            "E",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "35e33512-4f95-4d40-9863-56eeb6297c41",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-12"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-11T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In sunny weather, the crust strengthens at low altitudes and softens during the day. In shadier and sheltered areas, the snow cover remains more loose and dry. Mostly, however, it is increasingly transformed by wind and sun. In arid regions, weak layers may be present in the snow cover."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The weekend will continue with sunny weather, especially on Saturday, with some clouds in the sky, occasionally thickening and causing diffuse light. Temperatures will strengthen. During the day, snow cover will become more pronounced and slightly less stable on sloping terrain, while snow on sloping terrain will melt and slowly melt.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2025-12-12T16:00:00+00:00",
+            "endTime": "2025-12-13T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-11T16:00:00+00:00",
+        "endTime": "2025-12-12T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Mostly clear with a few clouds. The air will be dry, with zero isotherm at an altitude of around 2700 m. Winds will be mainly weak northeasterly."
+      }
+    }
+  ]
+}
