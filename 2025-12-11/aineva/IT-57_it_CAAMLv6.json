@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-11T23:00:00Z",
+      "endTime" : "2025-12-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Possibili a livello isolato colate e valanghe bagnate e valanghe per scivolamento di neve.",
+      "comment" : "Con il rialzo termico e l'irradiazione solare diurni, sono possibili isolate colate e valanghe bagnate per lo più di piccole dimensioni al di sopra dei 1800 m circa. Inoltre, a tutte le esposizioni, sono possibili isolate valanghe per scivolamento di neve per lo più di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è estremamente variabile a distanza di pochi metri al di sotto dei circa 1800 m. Le condizioni meteo causeranno anche ad alta quota un progressivo impregnamento del manto nevoso. La superficie del manto nevoso non riuscirà a rigelarsi bene e risulterà ammorbidita già al mattino."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-12T23:00:00Z",
+        "endTime" : "2025-12-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "NE", "N", "NW", "E", "S", "SE", "W" ]
+    } ],
+    "bulletinID" : "3825cf63-77d3-4a87-8767-19da688e85d0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
