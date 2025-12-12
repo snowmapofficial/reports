@@ -1,0 +1,167 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-11T16:00:00Z",
+      "endTime" : "2025-12-12T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Harsch, crampons or Grödel recommended",
+      "comment" : "The avalanche danger is moderate above 2200 metres and low below. Old snow is the main problem. Slab avalanches can be triggered at high altitudes on very steep slopes in the northern exposures, especially with high additional loads. More extensive break propagation and thus medium-sized avalanches are possible in wind-protected hollows. Otherwise, avalanches usually remain small and the risk of falling must be taken into account.\n  \nIndividual sliding snow avalanches can spontaneously slide down extremely steep slopes with smooth ground that have not yet been discharged. These are usually small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to a lack of radiation, the snow does not freeze through at lower altitudes; during the day, the snow cover softens, especially on the sunny side. At higher altitudes, the snow cover on open areas is hardened and icy. At the highest summits, the snow cover becomes thinner and is not stable everywhere on the shaded side. Here, the snow underneath the snow cover has an angular structure. In places, the upper half metre of snow still has a layer of rime that is prone to disruption. Sliding movements still occur occasionally on smooth ground. On the south side, the ground is increasingly pitting in the middle layers."
+    },
+    "tendency" : [ {
+      "highlights" : "The old snow problem is slowly becoming less acute.",
+      "validTime" : {
+        "startTime" : "2025-12-12T16:00:00Z",
+        "endTime" : "2025-12-13T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "W", "NE", "E", "N", "NW", "SE", "S", "SW" ]
+    } ],
+    "bulletinID" : "ff6e57ef-1eb6-4698-b6ad-daa36e026d66",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-11T16:00:00Z",
+      "endTime" : "2025-12-12T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Very compact, stable snow cover",
+      "comment" : "The avalanche danger is low. Individual small sliding snow avalanches can occur spontaneously on extremely steep, smooth meadow slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "On the shady side, the snow is compact, hardened and partly icy right up to the higher altitudes. During the day, the remaining snow cover softens on the surface with the sun. The base of the snowpack is often wet. At the highest altitudes, a layer of angular crystals has formed underneath the dominating snow cover. The snowpack is thin overall. The middle layers are increasingly thinning out on the sunny side."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger remains low.",
+      "validTime" : {
+        "startTime" : "2025-12-12T16:00:00Z",
+        "endTime" : "2025-12-13T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "W", "NW", "NE", "E", "SW", "N", "S", "SE" ]
+    } ],
+    "bulletinID" : "66618345-fd14-4720-bbdf-6285eac1764b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Old snow problem at altitude in places."
+    }
+  }
+}
