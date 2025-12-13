@@ -1,0 +1,72 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="7a3f1b2a-df6c-4ebc-a19f-62d31d3974a6" lang="fr">
+    <publicationTime>2025-12-12T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2025-12-12T23:00:00Z</startTime>
+      <endTime>2025-12-13T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>SE</aspect>
+      <aspect>W</aspect>
+      <aspect>SW</aspect>
+      <aspect>S</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>persistent_weak_layers</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>NW</aspect>
+      <aspect>N</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Des avalanches et coulées mouillées et des avalanches de plaque de neige sont possibles de manière isolée.</highlights>
+      <comment>Des avalanches et coulées mouillées isolées en général de petite taille sont possibles avec le réchauffement diurne et le rayonnement solaire au-dessus d'environ 1800 m. Des avalanches de plaque de neige en général de petite taille sont possibles surtout sur les pentes raides. Ceci sur les pentes à l'ombre. Aux transitions entre les endroits peu enneigés et les endroits très enneigés le danger d'avalanches est plus haut.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>En dessous d'environ 1800 m le manteau neigeux est très variable à petite échelle. Les conditions météorologiques entraînent aussi à haute altitude une saturation d'eau croissante du manteau neigeux. La surface de la neige regèle à peine et est déjà ramollie le matin.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2025-12-13T23:00:00Z</startTime>
+        <endTime>2025-12-14T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2025-12-13</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
