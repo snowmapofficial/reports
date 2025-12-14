@@ -1,0 +1,147 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Snow cover is mostly stable. With sunny weather and a relatively warm air mass at high altitudes, some small avalanches of wet snow may still spontaneously occur during the day on steep slopes, but avalanches are unlikely in most areas.\nIn arid areas above the tree line, weak layers are present in the snow cover. In a few places, a small, clustered avalanche may be triggered under higher loads.",
+        "highlights": "In sunny weather, a small avalanche of packed snow can still occur on steep slopes during the day."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NW",
+            "NE",
+            "E",
+            "N"
+          ],
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SE",
+            "S",
+            "SW"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NE",
+            "E",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "fab2b11d-8bce-4ec8-8bd2-f29c34b337fa",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-14"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-13T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow cover has already largely melted and stabilised, and a lot of snow has melted on the slopes. In sunny weather, the crust on the slopes strengthens and softens during the day. In the shadier and sheltered areas, especially in the high mountains, the snow cover remains soft and dry. In arid areas, weak layers may be present in the snow cover."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Clear weather will continue on Sunday with a temperature turn and dry air in the heights. Winds will be light on Sunday, strengthening slightly to the south-west on Monday. During the day, the snow cover will become heavier and less stable on the slopes, while the snow on the slopes will melt and melt slowly.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-14T16:00:00+00:00",
+            "endTime": "2025-12-15T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-13T16:00:00+00:00",
+        "endTime": "2025-12-14T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "It will be mostly clear. The air will be dry, with zero isotherm at an altitude of around 2500 m. There will be light winds from caye directions."
+      }
+    }
+  ]
+}
