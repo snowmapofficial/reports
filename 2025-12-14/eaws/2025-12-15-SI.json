@@ -1,0 +1,147 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Snow cover is mostly stable. With sunny weather and a relatively warm air mass at high altitudes, some small avalanches of wet snow may still spontaneously occur during the day on steep slopes, but avalanches are unlikely in most areas.\nIn arid areas above the tree line, weak layers are present in the snow cover. In a few places, a small, clustered avalanche may be triggered under higher loads.",
+        "highlights": "In sunny weather, a small avalanche of packed snow can still occur on steep slopes during the day."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NW",
+            "NE",
+            "E",
+            "N"
+          ],
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SE",
+            "S",
+            "SW"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "NE",
+            "E",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "9cba9fd5-9a07-429e-a3b8-75583fc032e7",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2025-12-15"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2025-12-14T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow cover has largely collapsed and stabilised, with significant snow melt on slopes. In sunny weather, the crust strengthens on the slopes and softens during the day. In the shadier and sheltered areas, especially in the high mountains, the snow cover remains soft and dry. In arid areas, weak layers may be present in the snow cover."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://vreme.arso.gov.si/plazovi"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Tuesday will be moderate to mostly cloudy, with the cloud base mostly high over the peaks. A moderate southwesterly wind will blow. It will cool slightly at high altitudes, with a weakening of the temperature turn. The zero isotherm will be around 2500 m above sea level, with temperatures around 3 \u00b0C at 1500 m. Snow will remain dry or frosty in the high mountains, and at lower altitudes the snow cover will not soften much due to increased cloud cover. On Wednesday, there will be light precipitation, mainly in the Julian Alps and the foothills. The snowline may drop to just below 2000 m above sea level. No more than up to 10 cm of new snow is expected higher up.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2025-12-15T16:00:00+00:00",
+            "endTime": "2025-12-16T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2025-12-14T16:00:00+00:00",
+        "endTime": "2025-12-15T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "It will be mostly clear. The air will be dry, with zero isotherm at an altitude of around 3000 m. A weak to moderate southwesterly wind will blow."
+      }
+    }
+  ]
+}
