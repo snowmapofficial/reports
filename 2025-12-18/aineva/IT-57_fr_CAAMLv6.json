@@ -1,0 +1,68 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-18T23:00:00Z",
+      "endTime" : "2025-12-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches et coulées mouillées sont possibles de manière isolée.",
+      "comment" : "Des avalanches mouillées en cours de journée isolées en général de petite taille sont possibles jusqu'à l'arrivée d'un refroidissement."
+    },
+    "snowpackStructure" : {
+      "comment" : "En dessous d'environ 1800 m le manteau neigeux est très variable à petite échelle. Les conditions météorologiques entraînent aussi à haute altitude une saturation d'eau croissante du manteau neigeux. La surface de la neige regèle à peine et est déjà ramollie le matin."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-19T23:00:00Z",
+        "endTime" : "2025-12-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "W", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "0879a6a9-8c3a-49ea-9237-509ff6c69bf2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
