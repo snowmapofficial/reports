@@ -1,0 +1,82 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-19T23:00:00Z",
+      "endTime" : "2025-12-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Les accumulations de neige soufflée constituent le danger principal. Des couches fragiles dans la neige ancienne demandent de la prudence.",
+      "comment" : "Avec la neige fraîche seulement de rares avalanches spontanées de petite taille sont possibles surtout sur les pentes extrêmement raides au soleil. <br/> Le vent a soufflé faiblement à modérément en général. Les accumulations déjà plus anciennes de neige soufflée sont détectables facilement et en partie fragiles. <br/> Samedi le vent souffle faiblement en général. Les accumulations de neige soufflée se développent encore dans ces régions. Celles-ci peuvent être déclenchées avec une surcharge faible, mais sont en général plutôt petites. Prudence surtout à proximité des crêtes comme dans les combes, couloirs et derrière les ruptures de terrain. <br/> Dans le manteau neigeux des couches fragiles délicates sont présentes sur les pentes à l'ombre. Des avalanches peuvent être déclenchées dans la neige ancienne fragile de manière isolée et atteindre parfois une taille moyenne. <br/> A côté du danger d'ensevelissement, il faut aussi penser au danger d'être emporté et de chuter. Les nombreux rochers cachés par la neige récente sont le danger principal."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans toutes les régions en dessous d'environ 2600 m il n'y a que peu de neige. Le manteau neigeux est très variable à petite échelle. La neige fraîche repose sur une couche fragile de neige ancienne sur les pentes à l'ombre au-dessus d'environ 2000 m. Dans le manteau neigeux des couches fragiles sont présentes sur les pentes raides à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-20T23:00:00Z",
+        "endTime" : "2025-12-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "W", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "SW", "E", "W", "NE", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "eeef4ec7-6cb0-4e3e-a9d5-57b6c586152e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
