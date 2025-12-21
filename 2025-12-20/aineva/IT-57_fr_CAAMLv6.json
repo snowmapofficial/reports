@@ -1,0 +1,68 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-20T23:00:00Z",
+      "endTime" : "2025-12-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches et coulées humides sont possibles de manière isolée.",
+      "comment" : "Des avalanches mouillées en cours de journée isolées en général de petite taille sont possibles jusqu'à l'arrivée d'un refroidissement."
+    },
+    "snowpackStructure" : {
+      "comment" : "En dessous d'environ 1800 m le manteau neigeux est très variable à petite échelle. La surface de la neige ne regèle assez pour être porteuse qu'en haute altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-21T23:00:00Z",
+        "endTime" : "2025-12-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "SE", "N", "E", "S", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "SE", "N", "E", "S", "W", "NE", "NW" ]
+    } ],
+    "bulletinID" : "0b04b1a7-579d-4b4b-90c9-64a62bf5e37f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
