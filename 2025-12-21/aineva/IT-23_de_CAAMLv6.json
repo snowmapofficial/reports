@@ -1,0 +1,350 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Allmählicher Anstieg der Gefahr von trockenen und feuchten Lawinen.",
+      "comment" : "Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen im Tagesverlauf zu. Die verschiedenen Triebschneeansammlungen sind teilweise schlecht verbunden. <br/> An allen Expositionen sind mehrere mittlere und vereinzelt große Rutsche und Lawinen möglich. Die Lawinen sind meist oberflächlich aber schon von einzelnen Wintersportlern auslösbar, besonders an steilen Hängen. <br/> Die frischen und älteren Triebschneeansammlungen liegen v.a. an sehr steilen Schattenhängen oberhalb von rund 2500 m auf einer ungünstigen Altschneeoberfläche. Die Lawinen können stellenweise im kantig aufgebauten Altschnee ausgelöst werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Am Sonntag fielen oberhalb von rund 1800 m 10 bis 15 cm Schnee, lokal auch mehr. Am Montag fallen oberhalb von rund 1500 m 10 bis 20 cm Schnee. Mäßiger Südostwind. <br/> In der Altschneedecke sind an Schattenhängen grobkörnige Schwachschichten vorhanden. In allen Höhenlagen liegt an Südhängen wenig Schnee. In mittleren und hohen Lagen liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. Die Hauptgefahr sind die zahlreichen hervorstehenden Felsbrocken, die vom frischen Schnee verdeckt sind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind und Neuschnee: Am Dienstag fallen oberhalb von rund 1200 m 10 bis 20 cm Schnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "SE", "S", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "76feb0a7-a810-4811-9372-38e1bea2f553",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahrenstellen liegen v.a. an steilen Schattenhängen oberhalb von rund 2300 m.",
+      "comment" : "Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen im Tagesverlauf zu. Die verschiedenen Triebschneeansammlungen sind teilweise schlecht verbunden. <br/> An allen Expositionen sind mehrere meist kleine Rutsche und Lawinen möglich. Die Lawinen sind oft oberflächlich aber schon von einzelnen Wintersportlern auslösbar, v.a. an steilen Hängen. <br/> Die frischen und älteren Triebschneeansammlungen liegen an sehr steilen Schattenhängen oberhalb von rund 2300 m auf einer ungünstigen Altschneeoberfläche. Die Lawinen können im kantig aufgebauten Altschnee ausgelöst werden und vereinzelt mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Am Sonntag fielen oberhalb von rund 1800 m 2 bis 10 cm Schnee. Am Montag fallen oberhalb von rund 1500 m 2 bis 10 cm Schnee. Mäßiger Südostwind. <br/> In der Altschneedecke sind an Schattenhängen Schwachschichten vorhanden. <br/> In mittleren und hohen Lagen liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. Die Hauptgefahr sind die zahlreichen hervorstehenden Felsbrocken, die vom frischen Schnee verdeckt sind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind und Neuschnee: Am Dienstag fallen oberhalb von rund 1200 m 2 bis 10 cm Schnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "34e53e0c-0744-4d84-987b-ee0a7306c230",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Allmählicher Anstieg der Gefahr von trockenen und feuchten Lawinen.",
+      "comment" : "Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen im Tagesverlauf zu. Die Triebschneeansammlungen sind teilweise schlecht verbunden. <br/> An allen Expositionen sind mehrere kleine und mittlere Rutsche und Lawinen möglich. Die Lawinen sind meist oberflächlich aber schon von einzelnen Wintersportlern auslösbar, v.a. an steilen Hängen. <br/> Die frischen und älteren Triebschneeansammlungen liegen v.a. an sehr steilen Schattenhängen oberhalb von rund 2500 m auf einer ungünstigen Altschneeoberfläche. Die Lawinen können stellenweise im kantig aufgebauten Altschnee ausgelöst werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Am Sonntag fielen oberhalb von rund 1800 m 5 bis 15 cm Schnee. Am Montag fallen oberhalb von rund 1500 m 5 bis 15 cm Schnee. Mäßiger Südostwind. <br/> In der Altschneedecke sind an Schattenhängen grobkörnige Schwachschichten vorhanden. In allen Höhenlagen liegt an Südhängen wenig Schnee. In mittleren und hohen Lagen liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. Die Hauptgefahr sind die zahlreichen hervorstehenden Felsbrocken, die vom frischen Schnee verdeckt sind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind und Neuschnee: Am Dienstag fallen oberhalb von rund 1200 m 5 bis 15 cm Schnee.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    } ],
+    "bulletinID" : "f195e10a-959c-4b02-bfdf-276521197bd4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
