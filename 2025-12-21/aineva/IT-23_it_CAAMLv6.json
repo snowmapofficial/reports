@@ -1,0 +1,350 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Progressivo aumento del pericolo di valanghe asciutte e umide.",
+      "comment" : "Con neve fresca e vento, nel corso della giornata il numero e le dimensioni dei punti pericolosi aumenteranno. Il legame de(-) i vari accumuli di neve ventata è in parte sfavorevole. <br/> A tutte le esposizioni, sono possibili alcune colate e valanghe di medie e, a livello isolato, di grandi dimensioni. Le valanghe sono per lo più superficiali ma già distaccabili da un singolo appassionato di sport invernali, soprattutto sui pendii ripidi. <br/> Gli accumuli di neve ventata nuovi e meno recenti poggiano su una sfavorevole superficie del manto di neve vecchia specialmente sui pendii molto ripidi ombreggiati al di sopra dei 2500 m circa. In alcuni punti le valanghe possono subire un distacco nella neve vecchia a cristalli angolari."
+    },
+    "snowpackStructure" : {
+      "comment" : "Domenica sono caduti da 10 a 15 cm di neve al di sopra dei 1800 m circa, localmente anche di più. Lunedì cadranno da 10 a 20 cm di neve al di sopra dei 1500 m circa. Vento proveniente da sud est di moderata intensità. <br/> Sui pendii ombreggiati, all'interno del manto di neve vecchia si trovano strati fragili a grani grossi. A tutte le altitudini è presente poca neve sui pendii esposti a sud. Alle quote medie e alte l'innevamento è estremamente variabile a seconda dell'azione del vento. Attenzione ai numerosi sassi affioranti."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Vento e neve fresca: Martedì cadranno da 10 a 20 cm di neve al di sopra dei 1200 m circa.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "SE", "S", "SW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "76feb0a7-a810-4811-9372-38e1bea2f553",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "I punti pericolosi si trovano specialmente sui pendii ombreggiati ripidi al di sopra dei 2300 m circa.",
+      "comment" : "Con neve fresca e vento, nel corso della giornata il numero e le dimensioni dei punti pericolosi aumenteranno. Il legame de(-) i vari accumuli di neve ventata è in parte sfavorevole. <br/> A tutte le esposizioni, sono possibili alcune colate e valanghe per lo più di piccole dimensioni. Le valanghe sono sovente superficiali ma già distaccabili da un singolo appassionato di sport invernali, principalmente sui pendii ripidi. <br/> Gli accumuli di neve ventata nuovi e meno recenti poggiano su una sfavorevole superficie del manto di neve vecchia sui pendii molto ripidi ombreggiati al di sopra dei 2300 m circa. Le valanghe possono subire un distacco nella neve vecchia a cristalli angolari e, a livello isolato raggiungere dimensioni medie."
+    },
+    "snowpackStructure" : {
+      "comment" : "Domenica sono caduti da 2 a 10 cm di neve al di sopra dei 1800 m circa. Lunedì cadranno da 2 a 10 cm di neve al di sopra dei 1500 m circa. Vento proveniente da sud est di moderata intensità. <br/> Sui pendii ombreggiati, all'interno del manto di neve vecchia si trovano strati fragili. <br/> Alle quote medie e alte l'innevamento è estremamente variabile a seconda dell'azione del vento. Attenzione ai sassi affioranti."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Vento e neve fresca: Martedì cadranno da 2 a 10 cm di neve al di sopra dei 1200 m circa.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "NE" ]
+    } ],
+    "bulletinID" : "34e53e0c-0744-4d84-987b-ee0a7306c230",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    } ]
+  }, {
+    "publicationTime" : "2025-12-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-21T23:00:00Z",
+      "endTime" : "2025-12-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Progressivo aumento del pericolo di valanghe asciutte e umide.",
+      "comment" : "Con neve fresca e vento, nel corso della giornata il numero e le dimensioni dei punti pericolosi aumenteranno. Il legame de(-) gli accumuli di neve ventata è in parte sfavorevole. <br/> A tutte le esposizioni, sono possibili alcune colate e valanghe di piccole e medie dimensioni. Le valanghe sono per lo più superficiali ma già distaccabili da un singolo appassionato di sport invernali, principalmente sui pendii ripidi. <br/> Gli accumuli di neve ventata nuovi e meno recenti poggiano su una sfavorevole superficie del manto di neve vecchia specialmente sui pendii molto ripidi ombreggiati al di sopra dei 2500 m circa. In alcuni punti le valanghe possono subire un distacco nella neve vecchia a cristalli angolari."
+    },
+    "snowpackStructure" : {
+      "comment" : "Domenica sono caduti da 5 a 15 cm di neve al di sopra dei 1800 m circa. Lunedì cadranno da 5 a 15 cm di neve al di sopra dei 1500 m circa. Vento proveniente da sud est di moderata intensità. <br/> Sui pendii ombreggiati, all'interno del manto di neve vecchia si trovano strati fragili a grani grossi. A tutte le altitudini è presente poca neve sui pendii esposti a sud. Alle quote medie e alte l'innevamento è estremamente variabile a seconda dell'azione del vento. Attenzione ai numerosi sassi affioranti."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Vento e neve fresca: Martedì cadranno da 5 a 15 cm di neve al di sopra dei 1200 m circa.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-22T23:00:00Z",
+        "endTime" : "2025-12-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NW", "S", "SE", "SW", "NE", "W", "E" ]
+    } ],
+    "bulletinID" : "f195e10a-959c-4b02-bfdf-276521197bd4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
