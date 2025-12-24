@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-23T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-23T23:00:00Z",
+      "endTime" : "2025-12-24T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schwacher Altschnee oberhalb von rund 2000 m.",
+      "comment" : "Auf der harten Schneeoberfläche besteht Absturzgefahr."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist gut verfestigt. Die Schneeoberfläche ist tragfähig gefroren. Es fallen oberhalb von rund 1600 m 5 bis 10 cm Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-24T23:00:00Z",
+        "endTime" : "2025-12-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "S", "SE", "NE", "W", "SW", "N", "NW" ]
+    } ],
+    "bulletinID" : "947b192d-54cf-4584-b6bd-726c1bf1bbed",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
