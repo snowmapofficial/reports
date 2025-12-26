@@ -1,0 +1,58 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-25T23:00:00Z",
+      "endTime" : "2025-12-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Debole manto di neve vecchia al di sopra dei 2000 m circa.",
+      "comment" : "Sulla dura superficie del manto nevoso sussiste un pericolo di caduta."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è ben consolidato. La superficie del manto nevoso si è rigelata ed è portante. Cadranno da 5 a 10 cm di neve al di sopra dei 1600 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-26T23:00:00Z",
+        "endTime" : "2025-12-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "SW", "N", "S", "SE", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "dfab103a-16b1-4503-877c-a914dfb0aa51",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
