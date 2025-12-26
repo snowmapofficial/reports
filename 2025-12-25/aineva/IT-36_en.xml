@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-12-25T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="e0aa6897-d3a0-46e8-9e50-163c7b95a5fc" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-12-25T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-12-25T23:00:00Z</beginPosition>
+          <endPosition>2025-12-26T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-12-26T23:00:00Z</beginPosition>
+                <endPosition>2025-12-27T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Low avalanche danger will prevail. In the regions exposed to heavier precipitation the avalanche prone locations are more prevalent.</avActivityHighlights>
+          <avActivityComment>Some snow has fallen over a wide area. The wind was moderate to strong at times. The wind slabs are bonding poorly with the old snowpack in particular on steep shady slopes. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls and at transitions from a shallow to a deep snowpack. Snow slides and dry avalanches are possible.</avActivityComment>
+          <snowpackStructureComment>Over a wide area only a little snow is lying. &lt;br/&gt; The snowpack will be subject to considerable local variations. Weak layers exist in the old snowpack. They are to be found in particular on steep shady slopes.</snowpackStructureComment>
+          <tendencyComment>The weather will be mostly sunny. Significant warming.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
