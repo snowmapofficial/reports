@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2025-12-29T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="4f625c1e-711b-4061-a598-f4b2f473a4a0" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2025-12-29T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2025-12-29T23:00:00Z</beginPosition>
+          <endPosition>2025-12-30T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2025-12-30T23:00:00Z</beginPosition>
+                <endPosition>2025-12-31T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Danger d'avalanches faible. Dans les régions concernées par les précipitations principales les endroits dangereux sont plus fréquents.</avActivityHighlights>
+          <avActivityComment>⚠ Error: Incomplete joker sentence</avActivityComment>
+          <snowpackStructureComment>En général il n'y a que peu de neige. &lt;br/&gt; Le manteau neigeux est très variable à petite échelle. Dans le manteau neigeux ancien des couches fragiles sont présentes. Ils se situent surtout sur les pentes raides à l'ombre.</snowpackStructureComment>
+          <tendencyComment>Il fait froid. Le vent souffle à proximité des crêtes modérément.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
