@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-29T16:00:00Z",
+      "endTime" : "2025-12-30T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Tuesday morning will often bring poor visibility and snow showers in the mountains, with brisk to strong north-westerly winds. The weather will improve in the afternoon, the snow showers will subside and the clouds will soften a little. At 1500 metres it will be around -9 degrees, at 2000 metres around -14 degrees, making it much colder than recently.\nWednesday will be sunny at first, very windy, cold and snow showers from the afternoon/evening. From around midday, clouds will predominate, the westerly wind will blow strongly and it will snow at times. At an altitude of 1500 metres it will be -10 degrees, at 2000 metres -12 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Due to new fallen snow and strong winds there is fresh wind slab!",
+      "comment" : "This is particularly important where the fresh wind slab lies on a hardness of old snowpack. In steep terrain, small to rarely medium slab avalanches can be triggered by even a small additional load. Avalanche prone locations are usually easy to recognise and should be avoided. Be aware of the risk of falling on the hard old snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "Around 10 cm of new fallen snow is expected. Fresh snowdrift accumulations are forming due to strong north-westerly winds. Where the drifts lie on a hardness of old snowpack, the binding is not sufficient. The thin snow base, fundament contains faceted crystals that have been transformed by building up. Surface hoar can be covered. The snow depths are very below average, even at high altitudes. Below this, the new fallen snow comes to rest on bare ground."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in the snow and avalanche situation. There will be some new fallen snow from Wednesday evening.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2025-12-30T16:00:00Z",
+        "endTime" : "2025-12-31T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2025-12-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "abcf7d43-524d-4de6-962d-61670958c7b2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Pay attention to avalanche prone locations in the high altitudes due to fresh wind slab!"
+    }
+  }
+}
