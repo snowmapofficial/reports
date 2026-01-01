@@ -1,0 +1,74 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2025-12-31T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2025-12-31T23:00:00Z",
+      "endTime" : "2026-01-01T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Debole pericolo di valanghe. Sui pendii dove l'innevamento è maggiore e dove il vento è stato più intenso i punti pericolosi sono più numerosi.         Buon anno nuovo a tutti!",
+      "comment" : "Gli accumuli di neve ventata non si legheranno bene con la neve vecchia soprattutto sui pendii ripidi ombreggiati. I punti pericolosi si trovano soprattutto nelle zone in prossimità delle creste, nelle conche e nei canaloni come pure nelle zone di passaggio da poca a molta neve. Attenzione alle pietre nascoste dalla poca neve."
+    },
+    "snowpackStructure" : {
+      "comment" : "In molti punti è presente solo poca neve. <br/> Il manto nevoso è estremamente variabile a distanza di pochi metri. All'interno del manto di neve vecchia si trovano strati fragili. Essi si trovano soprattutto sui pendii ripidi ombreggiati. Le basse temperature e gli esigui spessori del manto nevoso favoriranno un metamorfismo costruttivo."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tempo sarà freddo.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-01T23:00:00Z",
+        "endTime" : "2026-01-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "c9f6bd09-9c16-4f12-8ce3-29ae00a1a0df",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
