@@ -1,0 +1,87 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-01T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-01T16:00:00Z",
+      "endTime" : "2026-01-02T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Friday, the clouds will usually be thick from the start and visibility will be limited at higher altitudes. It may snow a little in the afternoon. The westerly wind will be strong with gusts of around 80 km/h, sometimes even stronger in exposed areas. Temperatures will drop again slightly at all altitudes, to -6 degrees at 1500 metres and -10 degrees at 2000 metres.\nOn Saturday, there will be a mixture of clouds and sunshine throughout the day. A few snow showers may appear, especially in the morning. The westerly wind will no longer be as strong as the day before, but it will still be noticeable. At an altitude of 1500 metres it will be around -7 degrees, at 2000 metres around -11 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Watch out for wind slab in the steep terrain at high altitudes!",
+      "comment" : "Moderate avalanche danger in the higher elevations due to the wind slab snow of the last few days. Prone to triggering snowdrift accumulations have formed due to persistent strong to stormy winds from westerly directions and occasional snowfall. There are avalanche prone locations mainly in areas adjacent to the ridgelines, bowls, gullies and in places also distant from ridgelines. The triggering of small to rarely medium slab avalanches is possible due to low additional loads. The mostly easily recognisable avalanche prone locations should be avoided. Be aware of the risk of falling on the hard old snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to the strong to stormy winds of the last few days and some new fallen snow, unstable snowdrift accumulations have formed, which do not bind sufficiently with the hardness of the old snowpack and can contain thin intermediate layers. The thin old snowpack contains faceted crystals that have been transformed by building up. The snow depths are very below average, even at high altitudes."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in the snow and avalanche situation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-02T16:00:00Z",
+        "endTime" : "2026-01-03T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "8293987b-6a22-4ac6-aaaf-99c5760f033b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Local wind slab problem in the high altitudes!"
+    }
+  }
+}
