@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-03T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-03T23:00:00Z",
+      "endTime" : "2026-01-04T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow represents the main danger.",
+      "comment" : "In particular on very steep slopes and above approximately 1600 m small and medium-sized loose snow avalanches are possible as a consequence of the new snow. Dry avalanches can additionally be released in near-surface layers, even by small loads in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The old snowpack remains generally favourable. Faceted weak layers exist in the top section of the old snowpack especially at high altitude. Weak layers in the old snowpack necessitate caution. Over a wide area 30 to 40 cm of snow will fall on Sunday above approximately 1600 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-04T23:00:00Z",
+        "endTime" : "2026-01-05T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "SW", "NE", "N", "SE", "E", "NW" ]
+    } ],
+    "bulletinID" : "39e32c37-2e14-40fb-a9eb-8adcfc9a63b6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-03T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-03T23:00:00Z",
+      "endTime" : "2026-01-04T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow requires caution.",
+      "comment" : "On very steep slopes individual dry loose snow avalanches are possible, but they will be mostly small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Some new snow above approximately 1000 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-01-04T23:00:00Z",
+        "endTime" : "2026-01-05T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "W", "SW", "NE", "N", "SE", "E", "NW" ]
+    } ],
+    "bulletinID" : "de4ebe8f-0588-4788-8b64-dc6cf31085ab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
