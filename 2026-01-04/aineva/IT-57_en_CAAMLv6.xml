@@ -1,0 +1,125 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="44f175d3-da34-469f-904c-4103cf19d165" lang="en">
+    <publicationTime>2026-01-04T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-01-04T23:00:00Z</startTime>
+      <endTime>2026-01-05T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1600</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1600</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1600</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>N</aspect>
+      <aspect>E</aspect>
+      <aspect>NW</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>New snow represents the main danger.</highlights>
+      <comment>In particular on very steep slopes and above approximately 1600 m small and medium-sized loose snow avalanches are possible as a consequence of the new snow. Dry avalanches can additionally be released in near-surface layers, even by small loads in isolated cases.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>The old snowpack remains generally favourable. Faceted weak layers exist in the top section of the old snowpack especially at high altitude. Weak layers in the old snowpack necessitate caution. New snow above approximately 1600 m.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2026-01-05T23:00:00Z</startTime>
+        <endTime>2026-01-06T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-01-05</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+  <bulletin bulletinID="1336eefd-ad76-40b0-b36f-e0489242e3d0" lang="en">
+    <publicationTime>2026-01-04T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-01-04T23:00:00Z</startTime>
+      <endTime>2026-01-05T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-MC-02">
+      <name>IT-57-MC-02</name>
+    </region>
+    <region regionID="IT-57-PU-01">
+      <name>Appennino Pesarese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m"/>
+      <aspect>NE</aspect>
+      <aspect>N</aspect>
+      <aspect>E</aspect>
+      <aspect>NW</aspect>
+      <aspect>S</aspect>
+      <aspect>SW</aspect>
+      <aspect>W</aspect>
+      <aspect>SE</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>New snow requires caution.</highlights>
+      <comment>On very steep slopes individual dry loose snow avalanches are possible, but they will be mostly small.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Some new snow above approximately 1400 m.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <validTime>
+        <startTime>2026-01-05T23:00:00Z</startTime>
+        <endTime>2026-01-06T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-01-05</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
