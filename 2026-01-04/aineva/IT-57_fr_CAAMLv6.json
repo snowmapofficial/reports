@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-04T23:00:00Z",
+      "endTime" : "2026-01-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche constituant le danger principal.",
+      "comment" : "Avec la neige fraîche des avalanches de neige meuble de petite et moyenne taille sont possibles surtout sur les pentes très raides et au-dessus d'environ 1600 m. Des avalanches sèches peuvent aussi être déclenchées déjà de manière isolée avec une surcharge faible dans les couches proches de la surface."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le manteau neigeux ancien reste généralement favorable. Dans la partie supérieure du manteau neigeux ancien des couches fragiles ayant subi une métamorphose constructive à grains anguleux sont présentes, spécialement à haute altitude. Des couches fragiles dans la neige ancienne demandent de la prudence. Neige fraîche au-dessus d'environ 1600 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-05T23:00:00Z",
+        "endTime" : "2026-01-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "E", "NW", "S", "SW", "W", "SE" ]
+    } ],
+    "bulletinID" : "44f175d3-da34-469f-904c-4103cf19d165",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-04T23:00:00Z",
+      "endTime" : "2026-01-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attention à la neige fraîche.",
+      "comment" : "Sur les pentes très raides des avalanches de neige meuble sèche isolées sont possibles, mais en général uniquement de petite taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Neige fraîche peu épaisse au-dessus d'environ 1400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-01-05T23:00:00Z",
+        "endTime" : "2026-01-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "N", "E", "NW", "S", "SW", "W", "SE" ]
+    } ],
+    "bulletinID" : "1336eefd-ad76-40b0-b36f-e0489242e3d0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
