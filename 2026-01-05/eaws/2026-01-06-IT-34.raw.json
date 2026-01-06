@@ -1,0 +1,95 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-05T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-05T23:00:00Z",
+      "endTime" : "2026-01-06T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The wind slabs represent the main danger. Weak layers in the old snowpack necessitate caution and restraint.",
+      "comment" : "<br/> Adjacent to ridgelines as well as at high altitude further wind slabs formed. In some cases the various wind slabs have bonded poorly together. The fresh and older wind slabs are mostly rather small but prone to triggering. The more recent wind slabs can be released by a single winter sport participant in isolated cases on extremely steep shady slopes. Caution is to be exercised in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example in particular above approximately 1800 m, as well as on extremely steep shady slopes. <br/> Precarious weak layers exist in the snowpack on shady slopes. Whumpfing sounds serve as an alarm indicating the danger. Avalanches can in isolated cases be triggered in the old snowpack and reach medium size in particular on extremely steep shady slopes. Avalanches can additionally be released, even by small loads in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above the tree line snow depths vary greatly, depending on the infuence of the wind. Over a wide area only a little snow is lying. <br/> Weak layers exist in the old snowpack on shady slopes. Towards its base, the snowpack is faceted and weak and its surface has a crust that is strong in many cases. <br/> The numerous rocks hidden by the recent snow are the main danger."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-06T23:00:00Z",
+        "endTime" : "2026-01-07T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "NW", "N", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "71bb8010-7d2a-4db5-969e-92e4ffd17af5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
