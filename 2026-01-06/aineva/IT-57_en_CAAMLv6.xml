@@ -1,0 +1,125 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="d6d6a837-3425-4383-a32b-f10383d86cd9" lang="en">
+    <publicationTime>2026-01-06T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-01-06T23:00:00Z</startTime>
+      <endTime>2026-01-07T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1500</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1500</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1500</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>S</aspect>
+      <aspect>SE</aspect>
+      <aspect>E</aspect>
+      <aspect>N</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>New snow represents the main danger.</highlights>
+      <comment>In particular on very steep slopes and above approximately 1600 m small and medium-sized loose snow avalanches are possible as a consequence of the new snow. Dry avalanches can additionally be released in near-ground layers, even by small loads in isolated cases.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>New snow above approximately 1300 m. The new snow and wind slabs of the last few days are lying on a crust in all aspects above approximately 1700 m. The old snowpack remains unfavourable in some places. In very isolated cases weak layers exist deeper in the old snowpack especially at high altitude. The weather conditions will facilitate a rapid stabilisation of the near-surface layers towards the evening.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2026-01-07T23:00:00Z</startTime>
+        <endTime>2026-01-08T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-01-07</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+  <bulletin bulletinID="161e5efd-e4a2-469c-942e-d6a08a2e39b6" lang="en">
+    <publicationTime>2026-01-06T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-01-06T23:00:00Z</startTime>
+      <endTime>2026-01-07T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-MC-02">
+      <name>IT-57-MC-02</name>
+    </region>
+    <region regionID="IT-57-PU-01">
+      <name>Appennino Pesarese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wind_slab</problemType>
+      <elevation uom="m"/>
+      <aspect>NE</aspect>
+      <aspect>S</aspect>
+      <aspect>SE</aspect>
+      <aspect>E</aspect>
+      <aspect>N</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>The wind slabs represent the main danger.</highlights>
+      <comment>As the temperature drops individual slab avalanches are possible, but they will be mostly small.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>New snow above approximately 800 m. The weather conditions will facilitate a rapid strengthening of the near-surface layers towards the evening.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <validTime>
+        <startTime>2026-01-07T23:00:00Z</startTime>
+        <endTime>2026-01-08T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-01-07</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
