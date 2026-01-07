@@ -1,0 +1,150 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-06T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-06T23:00:00Z",
+      "endTime" : "2026-01-07T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo. Sulla dura superficie del manto nevoso sussiste un pericolo di caduta.",
+      "comment" : "Con vento forte proveniente dai quadranti occidentali nelle conche, nei canaloni e dietro ai cambi di pendenza si sono formati accumuli di neve ventata ben visibili. Essi possono subire un distacco soprattutto in caso di forte sovraccarico a tutte le esposizioni al di sopra del limite del bosco. <br/> Questo soprattutto nei settori occidentale e meridionale della regione, al confine rispettivamente con Francia e Piemonte. <br/> Particolarmente sfavorevoli sono i pendii carichi di neve ventata, dove nel manto di neve vecchia sono presenti strati deboli. Sui pendii ombreggiati ripidi e poco frequentati le valanghe possono subire un distacco negli strati più profondi del manto nevoso. <br/> Le valanghe sono per lo più di dimensioni medie."
+    },
+    "snowpackStructure" : {
+      "comment" : "Gli accumuli di neve ventata dell'ultima settimana poggiano su strati sfavorevoli soprattutto sui pendii ripidi ombreggiati al di sopra dei 2300 m circa. Al di sopra del limite del bosco l'innevamento è estremamente variabile a seconda dell'azione del vento. Inoltre è presente poca neve rispetto alla media stagionale a tutte le altitudini. In superficie si trova ogni tipo di neve: a debole coesione nelle zone ombreggiate e riparate, compattata dal vento con accumuli via via più duri salendo di quota, sastrugi, tracce rigelate, zone erose, croste dure sui pendii soleggiati ed alle quote più basse. <br/> Sulla dura superficie del manto nevoso sussiste un pericolo di caduta nelle zone ripide. Si consiglia di avere con se ranpant o ramponi."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gli ultimi accumuli di neve ventata rimangono in parte instabili. Con neve fresca e forte vento, il pericolo di valanghe aumenterà progressivamente.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-07T23:00:00Z",
+        "endTime" : "2026-01-08T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "S", "SE", "E", "N", "SW", "NW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    } ],
+    "bulletinID" : "6a4e0159-2dc6-452b-b987-1bd1ff08ced5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
