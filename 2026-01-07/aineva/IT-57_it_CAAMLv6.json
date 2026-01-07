@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-07T14:39:40Z",
+    "validTime" : {
+      "startTime" : "2026-01-06T23:00:00Z",
+      "endTime" : "2026-01-07T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve fresca è la principale fonte di pericolo.",
+      "comment" : "Con la neve fresca, soprattutto sui pendii molto ripidi e al di sopra dei 1600 m circa sono possibili valanghe di neve a debole coesione di piccole e medie dimensioni. Inoltre, le valanghe asciutte possono subire un distacco negli strati basali del manto nevoso a livello isolato già con un debole sovraccarico."
+    },
+    "snowpackStructure" : {
+      "comment" : "Neve fresca al di sopra dei 1300 m circa. La neve fresca e la neve ventata degli ultimi giorni poggiano su una crosta a tutte le esposizioni al di sopra dei 1700 m circa. Il manto di neve vecchia rimane sfavorevole in alcuni punti. Principalmente ad alta quota, negli strati più profondi del manto di neve vecchia si trovano, a livello molto isolato, strati fragili. Le condizioni meteo consentiranno verso sera una veloce stabilizzazione degli strati di neve superficiali."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-07T23:00:00Z",
+        "endTime" : "2026-01-08T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "S", "SE", "E", "N", "SW", "NW", "W" ]
+    } ],
+    "bulletinID" : "d6d6a837-3425-4383-a32b-f10383d86cd9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-07T14:39:40Z",
+    "validTime" : {
+      "startTime" : "2026-01-06T23:00:00Z",
+      "endTime" : "2026-01-07T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli accumuli di neve ventata rappresentano la principale fonte di pericolo.",
+      "comment" : "Con il raffreddamento, sono possibili isolate valanghe di neve a lastroni, ma per lo più solo di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Neve fresca al di sopra dei 800 m circa. Le condizioni meteo consentiranno verso sera un veloce consolidamento degli strati di neve superficiali."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-01-07T23:00:00Z",
+        "endTime" : "2026-01-08T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "S", "SE", "E", "N", "SW", "NW", "W" ]
+    } ],
+    "bulletinID" : "161e5efd-e4a2-469c-942e-d6a08a2e39b6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
