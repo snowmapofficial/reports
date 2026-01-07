@@ -1,0 +1,72 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-06T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-06T16:00:00Z",
+      "endTime" : "2026-01-07T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Lower Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "During the night to Wednesday, moderate to brisk north-westerly winds will blow in exposed areas and it will be cold. A few snowflakes will also fall. No significant amounts of new snow are expected. During the day, the mountains will mostly be shrouded in dense cloud and it may snow a little at times, especially in the Ybbstal and Türnitz Alps. The wind at high altitudes will blow moderately from the north-west, and even briskly on the eastern edge of the Alps. The temperature at 2000 metres is around -15 degrees, at 1500 metres around -12 degrees. The wind will be brisk with gusts of around 60 km/h from the north."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Beware of prone to triggering snowdrift accumulations",
+      "comment" : "The avalanche risk is low. Nevertheless, there are isolated danger spots at higher altitudes in the form of snowdrift accumulations, which can be triggered in places by a small additional load as a small snow slab. They are located especially in areas adjacent to the ridgeline, crest or summit as well as in gullies and bowls that have been blown in. If visibility is good enough, the danger zones are usually easy to recognise. The risk of being swept away and falling is greater than the risk of burial."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow cover, snowpack is characterised by strong winds. Hardness, blown-off areas alternate with older and fresh snowdrift accumulations in a confined space. Graupel often intersperses the snow cover. Weak layers for slab avalanches are preserved by the cold temperatures and are located in the drift snow packs themselves or at the transition to the crusted old snowpack. The snow depth is still well below average at all altitudes."
+    },
+    "tendency" : [ {
+      "highlights" : "Thursday will be cloudy and windy, with a few snowflakes falling in the morning. On Friday, a warm front will temporarily bring significant warming with snow and rain showers and strong west to north-westerly winds. No significant change in the avalanche situation until Friday for the time being.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-07T16:00:00Z",
+        "endTime" : "2026-01-08T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "f09df12c-07a4-4203-88ed-4172c81dc349",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Little snow - beware of isolated avalanche prone locations in the wind slab"
+    }
+  }
+}
