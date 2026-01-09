@@ -1,0 +1,139 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Places with blowing snow are particularly dangerous, as even a heavy load can trigger a small to medium-sized avalanche.",
+        "highlights": "Places with blowing snow are more dangerous"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "W",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "W",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "7db6e4a0-37f0-4e48-aaac-200ad64eb11f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-08T16:01:40+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "There is relatively little snow. The snow base is uneven due to the influence of the wind. There is some light snow in the lee, but the snow base is mostly hard and Crust. More caution is needed, especially in places where the wind has created new snow layers."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Relatively strong winds will carry small amounts of snow, especially in the High alpine regions. On Friday, there will be occasional snow. Around 5 cm of snow is expected.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-01-09T16:00:00+00:00",
+            "endTime": "2026-01-10T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-01-08T16:00:00+00:00",
+        "endTime": "2026-01-09T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Friday, clouds will increase, with peaks more and more often in the clouds. There is possible occasional light snow showers and snow showers. There will be moderate westerly winds, possibly strong in the high alpine regions. Temperatures will be around -2 \u00b0C at 1500 m and -6 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
