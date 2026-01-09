@@ -1,0 +1,101 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-08T16:01:40Z",
+    "validTime" : {
+      "startTime" : "2026-01-08T16:00:00Z",
+      "endTime" : "2026-01-09T16:00:00Z"
+    },
+    "unscheduled" : true,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "There is still little snow away from the snow-covered pistes.",
+      "comment" : "The avalanche risk is moderate above the tree line and low below it. Wind slabs can be triggered as small or medium slab avalanches by a small additional load. Avalanche prone locations are located adjacent to the ridgeline, crest or summit and distant from ridgelines in steep terrain with aspects from north to east to south as well as in gullies and bowls. In addition to the risk of burial, the risk of being swept away and falling must be taken into account."
+    },
+    "snowpackStructure" : {
+      "comment" : "Fresh snowdrift accumulations develop with stormy westerly winds. Some fresh and older wind slab lies prone to triggering on soft layers or surface hoar. Below a melt-freeze crust close to the surface, faceted crystals can often be found right down to the ground, especially at higher altitudes. Overall, there is little snow, especially in windward and south-facing areas."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche risk continues to increase with stormy winds and new fallen snow.",
+      "validTime" : {
+        "startTime" : "2026-01-09T16:00:00Z",
+        "endTime" : "2026-01-10T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "28ee6841-640a-4d8a-b6e7-d2940a5d5d53",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Storm: wind slab problem"
+    }
+  }
+}
