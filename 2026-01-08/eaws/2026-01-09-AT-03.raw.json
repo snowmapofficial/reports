@@ -1,0 +1,78 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-08T16:00:00Z",
+      "endTime" : "2026-01-09T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Lower Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Friday night it will be cloudy in places, with clear spells most likely in the eastern regions. It will start to snow a little from the west, especially in the morning. By midday, the snowfall level will rise to around 1000 metres and the precipitation will partly change to sleet. Temperatures at 2000 metres will be between -3 and -6 degrees, at 1500 metres between -3 and 0 degrees. The wind will blow moderately to strongly from the west at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Older and fresh snowdrift accumulations are still prone to failure!",
+      "comment" : "The avalanche risk is low.  Nevertheless, older snowdrift accumulations at higher altitudes and those freshly formed by the westerly wind are prone to triggering. The avalanche prone locations are located in particular in the steep terrain adjacent to the ridgeline, as well as in gullies and bowls. In places, they can be triggered as a small snow slab by even a small additional load. Due to the limited visibility, the avalanche prone locations are difficult to recognise. Furthermore, the risk of being swept away and falling is greater than the risk of burial."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow cover, snowpack is very variable and has been strongly influenced by the wind in recent weeks. Hardness, blown-off areas alternate with snowdrift accumulations in a confined space. With strong winds and some new fallen snow, fresh drift snow areas are occasionally created. The snow cover is often interspersed with graupel. There are weak layers, especially at the transition to the crusted old snowpack. The snow depth remains well below average."
+    },
+    "tendency" : [ {
+      "highlights" : "The mountain weather will be cloudy throughout the weekend. Temperatures will drop sharply again on Saturday and there may be some snow on and off. The snowfall will intensify in the night to Sunday. The avalanche risk will only increase slightly until Saturday. On Sunday, depending on the amount of new snow, an increase in avalanche danger is expected, especially in the western regions.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-09T16:00:00Z",
+        "endTime" : "2026-01-10T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "486afc55-865f-4709-8813-22f331c88302",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gippel - Göllergebiet",
+      "regionID" : "AT-03-06"
+    }, {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Türnitzer Alpen",
+      "regionID" : "AT-03-02"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Wind, little new fallen snow and a little milder for a short time - watch out for isolated avalanche prone locations in the wind slab!"
+    }
+  }
+}
