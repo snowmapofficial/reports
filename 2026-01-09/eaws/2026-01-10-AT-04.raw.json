@@ -1,0 +1,99 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-09T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-09T16:00:00Z",
+      "endTime" : "2026-01-10T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Saturday, visibility will often be limited by dense clouds. In addition, light to moderate snowfall will become more frequent during the daytime changes (a total of 15 - 20cm is expected). Brisk to strong winds from westerly directions, peaking at around 70 km/h at exposed high altitudes. Temperatures at 1500 m around -6 degrees, at 2000 m around -10 degrees.\n\nOn Sunday, the mountains will be covered in clouds and it may snow a little in the morning. Visibility will improve in the afternoon and clear up in the evening. Brisk westerly wind. At 1500 m around -13 degrees, at 2000 m around -15 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Pay attention to fresh wind slab!",
+      "comment" : "The avalanche danger is classified as moderate above the tree line. Particular attention should be paid to the eastern sector and south-facing areas adjacent to the ridgeline as well as filled steep bowls and gullies. Medium slab avalanches could be triggered here by even a small additional load. Avoid and pay attention to these avalanche prone locations."
+    },
+    "snowpackStructure" : {
+      "comment" : "The recently fallen new snow and further snowfall is being transported by predominantly strong winds from the west to north-west and binds poorly with the cold, superficially soft or icy old snowpack or older windslab snow. The sometimes more extensive snowdrift accumulations are very prone to disturbance and older ones can contain thin intermediate layers such as angular shapes. The snow depths vary greatly, alternating between blown and wind-slabbed areas."
+    },
+    "tendency" : [ {
+      "highlights" : "The wind slab remains prone to triggering.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-10T16:00:00Z",
+        "endTime" : "2026-01-11T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "S", "E", "NE" ]
+    } ],
+    "bulletinID" : "f57404c8-9269-4c21-b2ba-c5ad9ed49cc7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Due to snowfall and wind - moderate danger of slipping snow - partly already from the tree line!"
+    }
+  }
+}
