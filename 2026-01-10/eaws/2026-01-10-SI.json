@@ -1,0 +1,139 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Places with blowing snow are particularly dangerous, as even a heavy load can trigger a small to medium-sized avalanche. Greater caution is needed in ravines and gullies, where there may be large amounts of blowing snow.",
+        "highlights": "Places with blowing snow are more dangerous"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "W",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "W",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "94312945-87f3-49b0-908f-07999d5eb1e2",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-10T07:25:37+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "There is relatively little snow. The snow base is uneven due to the influence of the wind. There is some light snow in the lee, but the snow base is mostly hard and Crust. More caution is needed, especially in places where the wind has created new snow layers."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Snow showers will occur during the night and into Saturday morning. Snowfall is expected to range from 5 to 20 cm. The amount of precipitation is still uncertain. The danger of Avalanche will increase slightly with heavier precipitation. This is particularly the case on Saturday and Sunday, when a stronger northerly wind will carry fresh snow and build new drifts.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-01-10T16:00:00+00:00",
+            "endTime": "2026-01-11T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-01-09T16:00:00+00:00",
+        "endTime": "2026-01-10T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Snow showers will occur overnight on Saturday. Saturday will be mainly cloudy, with occasional cloudy tops. Some snow showers will still be possible. A weak to moderate northerly breeze will blow at first, strengthening a little in the afternoon. It will be slightly colder. Temperatures will be around -4 \u00b0C at 1500 m and -11 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
