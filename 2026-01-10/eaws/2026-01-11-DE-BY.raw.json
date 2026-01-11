@@ -1,0 +1,184 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-10T16:00:00Z",
+      "endTime" : "2026-01-11T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avalanches can become dangerously large.",
+      "comment" : "The avalanche risk is high above the tree line and considerable below it. The main problem at all altitudes is wind slab avalanches. Slab avalanches can easily be triggered in blown-in areas, especially on steep slopes with aspects from north to east to south and in gullies and bowls with little additional load. Avalanche prone locations are numerous and can also be found in forest transition areas as well as in forest aisles and clearings. Avalanches can become large.\n\nIn addition, the new fallen snow is released from the rocky steep terrain in the form of loose snow avalanches, especially when the sun is shining. Deeper weak layers can be disturbed by the additional load and the self-triggering of larger slab avalanches is then possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow layering is unfavourable. In the leeward areas of the eastern aspects and in gullies, bowls and forest gaps, large drift snow packs have been deposited. These lie on soft layers or surface hoar and are interspersed with weak layers that have formed during breaks in precipitation. Soft new fallen snow falls on the varying thicknesses of snow cover, making avalanche prone locations difficult to recognise. The snow crystals lose their bond, especially when exposed to sunlight, and the soft new fallen snow becomes unstable. At high altitudes, the base of the snowpack often consists of faceted crystals."
+    },
+    "tendency" : [ {
+      "highlights" : "At the start of the week, warmer temperatures and rain will bring the wet snow problem to the fore. The danger of dry avalanches will slowly decrease.",
+      "validTime" : {
+        "startTime" : "2026-01-11T16:00:00Z",
+        "endTime" : "2026-01-12T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "S", "E", "NE", "N", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "E", "NE", "N", "SE", "SW", "W" ]
+    } ],
+    "bulletinID" : "321c9aa8-7b97-4bb9-aa76-9691c6bbcb37",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-10T16:00:00Z",
+      "endTime" : "2026-01-11T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs lie on weak layers and can be easily triggered.",
+      "comment" : "The avalanche danger is considerable above 1500 metres and moderate below that. The main problem at all altitudes is wind slab avalanches. Slab avalanches can be triggered in blown-in areas, especially on steep slopes with aspects from north to east to south and in gullies and bowls with little additional load. Avalanche prone locations can also be found in forest transition areas as well as in forest aisles and clearings. Avalanches reach medium size.\n\nIn addition, the new fallen snow is released from the rocky steep terrain in the form of loose snow avalanches, especially when exposed to sunlight. Deeper weak layers can be disturbed by the additional load and the self-triggering of slab avalanches is then possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The new fallen snow is first transported before it comes to rest softly on a snow cover, snowpack of varying thickness. The snow crystals lose their bond, especially when exposed to sunlight, and the soft new fallen snow becomes unstable. In the leeward areas of the eastern aspects and in gullies, bowls and gaps in the forest, there are thick drift snow packs. These lie on soft layers or surface hoar and are interspersed with weak layers that have formed during breaks in precipitation. At high altitudes, the snowpack base often consists of faceted crystals."
+    },
+    "tendency" : [ {
+      "highlights" : "At the start of the week, warmer temperatures and rain bring the wet snow problem and naturally triggered avalanches to the fore.",
+      "validTime" : {
+        "startTime" : "2026-01-11T16:00:00Z",
+        "endTime" : "2026-01-12T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "S", "E", "NE", "N", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "E", "NE", "N", "SE", "SW", "W" ]
+    } ],
+    "bulletinID" : "27cde8de-8257-48dc-8c92-009082e767ff",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "High avalanche danger in some areas, be defensive when travelling!"
+    }
+  }
+}
