@@ -1,0 +1,138 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Places with blowing snow are particularly dangerous, as even a heavy load can trigger a small to medium-sized avalanche. Greater caution is needed in ravines and gullies, where there may be large amounts of blowing snow.",
+        "highlights": "Places with blowing snow are more dangerous"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N",
+            "W",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "136acfd6-d14a-4993-9fda-814dc968c2fd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-12"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-12T07:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Yesterday there was a moderate to strong northerly wind carrying fresh snow. The snow surface is uneven due to the wind. There is some light snow in sheltered areas, but the snow base is mostly hard and covered with a crust. Greater caution is needed, especially in places where wind has created new snow layers."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "It's getting warmer. Individual avalanches of southern snow will be possible from Tuesday onwards, especially in the central mountains. Above the forest line, there will still be dangerous spots of blowing snow.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-01-12T16:00:00+00:00",
+            "endTime": "2026-01-13T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-01-11T16:00:00+00:00",
+        "endTime": "2026-01-12T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Monday, after a fairly clear morning, clouds will increase but visibility will be relatively good. It will still be quite windy. There will be moderate westerly to north-westerly winds. It will gradually warm up. Temperatures will be around -4 \u00b0C at 1500 m and -7 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
