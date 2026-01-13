@@ -1,0 +1,128 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Moderate avalanche danger (2nd degree of the 5-point scale) is valid in all mountains of Slovakia above the forest border. Significant snowfalls were often blown by strong winds up to the forest zone. However, on the leeward sides of the mountains (especially SE and E), winds have locally created snow pillows and slabs that may be of low stability, especially on steep to very steep slopes. Avalanches can be released locally, especially by large additional loads. On the S side of the mountains, especially in steep and narrow couloirs where more snow is piled up, there is still a permanently weak layer of square-grained snow in the snow profile, which has not stabilised due to severe frosts. Small spontaneous avalanches may occur sporadically during the day, mostly from new snow.",
+        "highlights": "Watch out for snow pillows on the leeward sides of mountains."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "E",
+            "S",
+            "SE",
+            "SW"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "W",
+            "E",
+            "S",
+            "SE",
+            "NW",
+            "N",
+            "NE",
+            "SW"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "f828fe88-683e-484c-b710-118ddfcfccf2",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-12T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A warm front will influence the weather in the mountains during Tuesday. It will bring gradual warming and snowfalls. Strong northwesterly winds will persist, transporting snowfall to the southeast and east sides of the mountains. The windward sides of the mountains will be blown onto a hard underlying firn layer or to the ground surface. Snow is very unevenly distributed in the terrain. The snowfall period of the last few days (Saturday-Sunday), which took place in very cold conditions, brought dry powdery snow which is continuously blown by the wind. As the snow came from the north-west, the most snow fell in the Lesser Fatra region (+40 cm). The overall snow cover is still below average, conditions at low altitudes have improved, but due to the powdery nature of the snow it is not yet load-bearing."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "<br><br><font size=\"3\"> BL </font>",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-01-12T23:00:00+00:00",
+        "endTime": "2026-01-13T23:00:00+00:00"
+      }
+    }
+  ]
+}
