@@ -1,0 +1,148 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is considerable above 1600 metres and moderate below. The main problem at higher altitudes is the wind slab. Slab avalanches can be triggered in blown-in areas, especially on steep slopes with north-west to east to south aspects and in gullies and bowls with low additional load. The number of avalanche prone locations increases with altitude and avalanches can become large in places at higher altitudes in areas with more snow.\n\nIn addition, damp and wet avalanches of medium size can detach themselves. Very steep slopes of all aspects below 2000 metres are affected, especially sunny slopes at higher altitudes. Exposed hiking and transport routes may be affected.",
+        "highlights": "Self-triggering of wet snow avalanches. Wind slab problem at altitude persists."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "E",
+            "S",
+            "NE",
+            "N",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SW",
+            "W",
+            "S",
+            "NE",
+            "N",
+            "SE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8fad0eda-ee23-49a0-9721-700a97874281",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-12T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Especially in the higher elevations, thick drifting snow packs are lying on soft layers or surface hoar and are interspersed with weak layers. Rain on Tuesday night will soak the snow at low and medium elevations. The warm temperatures and sunshine are also moistening the snow cover, snowpack is losing its binding properties. In addition, weak layers can collapse when exposed to moisture. At high altitudes, the base of the snowpack often consists of faceted crystals."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in avalanche danger.",
+          "validTime": {
+            "startTime": "2026-01-13T16:00:00+00:00",
+            "endTime": "2026-01-14T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-01-12T16:00:00+00:00",
+        "endTime": "2026-01-13T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Significant avalanche danger with drift and wet snow problem"
+    }
+  }
+}
