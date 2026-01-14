@@ -1,0 +1,160 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The most dangerous places are those with blown snow, where a heavy load can trigger a small to medium-sized Avalanche. Greater caution is needed in ravines and gullys, where there may be large amounts of blowing snow. As the weather warms up, the snowpack is more transformed and softened in the mid-mountains - wet snow creeps can be triggered during the day.",
+        "highlights": "High alpine regions can be dangerous places with blowing snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "NW",
+            "NE",
+            "E",
+            "S",
+            "SW",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "NE",
+            "E",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "a64de0ab-88fb-4ecf-a254-d5d8396a7a17",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-14"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-14T07:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow base is uneven due to the influence of wind. There is some light snow in the sheltered areas of the high alpine regions, but for the most part the snow base is hard and covered with a Crust. Greater caution is needed, especially in places where wind has created new snow layers.  The thawing of the snowpack in the mid-mountains has softened and transformed the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "It will remain relatively warm, with similar danger of avalanches. There will still be dangerous spots of blowing snow above the tree line.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-01-14T16:00:00+00:00",
+            "endTime": "2026-01-15T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-01-13T16:00:00+00:00",
+        "endTime": "2026-01-14T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "It will be quite sunny in the Alps, with fog only in the western Julian Mountains up to about 1300 metres. In the Karavanke Mountains, winds will be mostly light, with moderate to strong westerly winds elsewhere. Temperatures at 1500 m will range from 1 \u00b0C in the west to 6 \u00b0C in the east and around 0 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
