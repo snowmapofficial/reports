@@ -1,0 +1,120 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-13T23:00:00Z",
+      "endTime" : "2026-01-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Triebschnee oberhalb von rund 1800 m. Schneebrettlawinen sind möglich.",
+      "comment" : "Der teilweise starke Wind hat Schnee verfrachtet. Mit mäßigem bis starkem Wind entstanden vor allem in Rinnen, Mulden und hinter Geländekanten Triebschneeansammlungen. Die Triebschneeansammlungen müssen vorsichtig beurteilt werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Triebschneeansammlungen verbinden sich nur langsam mit dem Altschnee. Die Triebschneeansammlungen sind für Geübte gut erkennbar."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-14T23:00:00Z",
+        "endTime" : "2026-01-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "S", "NW", "SE", "N", "E", "NE", "W" ]
+    } ],
+    "bulletinID" : "ba09754f-ad2f-4445-9aab-094bd1410eb8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-13T23:00:00Z",
+      "endTime" : "2026-01-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die meist kleinen Triebschneeansammlungen bilden die Hauptgefahr.",
+      "comment" : "Der Wind hat Schnee verfrachtet. Die Gefahrenstellen sind sehr selten."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mit teils mäßigem Wind entstanden Triebschneeansammlungen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-14T23:00:00Z",
+        "endTime" : "2026-01-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "S", "NW", "SE", "N", "E", "NE", "W" ]
+    } ],
+    "bulletinID" : "62cb0559-4d2b-4ee2-a0ad-9016547367f4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
