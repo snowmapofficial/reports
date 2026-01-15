@@ -1,0 +1,111 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-14T16:00:00Z",
+      "endTime" : "2026-01-15T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Thursday, some medium-high cloud fields will move across the sky, but the peaks should remain clear, even if the sunshine remains in the background. From midday, the clouds will move eastwards and the sun will increasingly make an appearance; in the Dachstein region, it should already be friendly in the afternoon. There will be no precipitation and hardly any wind. At 1500 m around 4 degrees, at 2000 m around 2 degrees.\nOn Friday, sunshine will predominate alongside high, thin clouds moving through. The wind will be weak. At 1500 m around 5 degrees, at 2000 m around 3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Slab avalanches can still be triggered locally!",
+      "comment" : "The avalanche danger is categorised as moderate, mainly at high altitudes. In very to extremely steep terrain, there are avalanche prone locations where medium-sized slab avalanches can be triggered by low additional loads. There are avalanche prone locations particularly in areas adjacent to the ridgeline and in steep, filled-in bowls and gullies. Sporadic spontaneous loose snow or wet snow avalanches are possible from steep, undischarged slopes at low and partly medium altitudes where there is a sufficiently thick snow cover, snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow cover, snowpack has already settled significantly. However, there are still weak layers in the old snowpack at higher altitudes and the snow base, fundament is weakened by crystalline forms that have been transformed by building up. Depending on the hardness and aspect, the snow surface varies in hardness, sometimes crust can form and can soften somewhat, especially on sunny slopes. With the mild temperatures, the snow cover, snowpack in the low and partly medium altitudes varies from moist to wet depending on altitude and aspect."
+    },
+    "tendency" : [ {
+      "highlights" : "The danger of slipping snow continues to decrease.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-01-15T16:00:00Z",
+        "endTime" : "2026-01-16T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "NW", "NE", "E", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "NW", "NE", "E", "N", "S", "SW" ]
+    } ],
+    "bulletinID" : "552dd69a-0bb8-4cea-8237-d595f9440761",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Moderate avalanche danger - watch out for older wind slabs at higher altitudes!"
+    }
+  }
+}
