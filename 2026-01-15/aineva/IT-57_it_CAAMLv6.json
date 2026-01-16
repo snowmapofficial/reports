@@ -1,0 +1,120 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-15T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-15T23:00:00Z",
+      "endTime" : "2026-01-16T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Possibili valanghe di fondo e valanghe per scivolamento di neve e colate.",
+      "comment" : "Le valanghe per scivolamento di neve possono distaccarsi anche al mattino. Con il rialzo termico e l'irradiazione solare diurni, la probabilità di distacco di valanghe per scivolamento di neve aumenterà a tutte le esposizioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il sole e il calore hanno causato a tutte le esposizioni al di sotto dei 2200 m circa un progressivo inumidimento del manto nevoso. Queste condizioni causeranno un indebolimento del manto nevoso. Ciò soprattutto sui pendii soleggiati ripidi al di sopra del limite del bosco. La superficie del manto nevoso si ammorbidirà nel corso della giornata."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-16T23:00:00Z",
+        "endTime" : "2026-01-17T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "N", "E", "SW", "NW", "NE", "SE", "W" ]
+    } ],
+    "bulletinID" : "da9fbd4c-eda8-4277-a061-2a7757ef22a9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-15T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-15T23:00:00Z",
+      "endTime" : "2026-01-16T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Possibili a livello isolato colate umide e bagnate.",
+      "comment" : "A livello molto isolato sono possibili valanghe spontanee per lo più di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il sole e il calore hanno causato un impregnamento del manto nevoso. Queste condizioni causeranno un indebolimento molto veloce del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-16T23:00:00Z",
+        "endTime" : "2026-01-17T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "N", "E", "SW", "NW", "NE", "SE", "W" ]
+    } ],
+    "bulletinID" : "97ab09ea-9bd4-4ead-b3cf-1709e3fc617f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
