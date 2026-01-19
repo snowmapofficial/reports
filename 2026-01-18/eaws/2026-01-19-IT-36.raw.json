@@ -1,0 +1,143 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-18T23:00:00Z",
+      "endTime" : "2026-01-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moderate avalanche danger will prevail.",
+      "comment" : "The wind slabs are lying on unfavourable layers in particular on steep shady slopes. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls and at transitions from a shallow to a deep snowpack. A causa dei ridotti spessori del manto nevoso fate attenzione alle pietre nascoste."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area only a little snow is lying. The snowpack will be subject to considerable local variations. In some places wind slabs are lying on a weakly bonded old snowpack. Weak layers exist in the old snowpack. They are to be found in particular on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be clear.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-01-19T23:00:00Z",
+        "endTime" : "2026-01-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "NW", "NE", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "NW", "NE", "W" ]
+    } ],
+    "bulletinID" : "251f0306-6175-4422-b229-34b18ccc7807",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-18T23:00:00Z",
+      "endTime" : "2026-01-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "⚠ Error: Incomplete joker sentence",
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area only a little snow is lying. The snowpack will be subject to considerable local variations. Weak layers exist in the old snowpack. They are to be found in particular on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be clear.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-19T23:00:00Z",
+        "endTime" : "2026-01-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "N", "NW", "NE", "W" ]
+    } ],
+    "bulletinID" : "172dcf33-b6b2-4678-ab0a-0f2d2681b4f2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
