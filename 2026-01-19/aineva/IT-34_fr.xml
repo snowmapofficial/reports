@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-01-19T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="08d8be60-3244-48ba-bd23-aa9550225505" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-19T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-19T23:00:00Z</beginPosition>
+          <endPosition>2026-01-20T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-20T23:00:00Z</beginPosition>
+                <endPosition>2026-01-21T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neige soufflée à surveiller. Quelques endroits dangereux se situent surtout sur les pentes très raides à l'ombre.</avActivityHighlights>
+          <avActivityComment>Les accumulations de neige soufflée peuvent de manière isolée être déclenchées. Prudence surtout sur les pentes très raides à l'ombre comme à proximité des crêtes, dans les combes et couloirs. Les avalanches sont petites. &lt;br/&gt; A côté du danger d'ensevelissement, il faut aussi penser au danger d'être emporté et de chuter.</avActivityComment>
+          <snowpackStructureComment>Il est tombé localement de 0 à 2 cm de neige. Les accumulations de neige soufflée reposent sur des couches fragiles. &lt;br/&gt; Le manteau neigeux est généralement très variable à petite échelle. En général il y a peu de neige.</snowpackStructureComment>
+          <tendencyComment>Danger d'avalanches faible.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
