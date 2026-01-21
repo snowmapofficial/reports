@@ -1,0 +1,99 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-20T16:00:00Z",
+      "endTime" : "2026-01-21T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "The consistently sunny mountain weather with good visibility will continue on Wednesday. The south-easterly wind will calm down during the day. The temperature at 1500 metres will be around 2 degrees and at 2000 metres around -2 degrees.\nOn Thursday, the weather on the mountains will be sunny throughout. The wind will be mostly weak to moderately strong. At 1500 metres the temperature will be around 2 degrees, at 2000 metres around -3 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Persistent weak layer problem - moderate avalanche danger!",
+      "comment" : "The avalanche risk remains moderate in some areas above the tree line. Attention must still be paid to steep slopes adjacent to the ridgeline, transitions, terrain edges and steep bowls and gullies, especially in the northern and eastern sectors. Slab avalanches of up to medium size can still be triggered here in places even with low additional loads. Avoid small-scale fresh drifts caused by southerly winds, especially at higher elevations."
+    },
+    "snowpackStructure" : {
+      "comment" : "Local wind slabs and bonded snow lie on an unstable old snowpack that has been transformed by building up. Easily accessible weak layers are present in the form of faceted crystals and/or floating snow. At higher elevations, fresh, small-scale but easily disturbed drifts may be present. In general, there is little snow and the snow cover, snowpack is very unevenly distributed. In addition to completely blown away areas, there are also well-filled areas."
+    },
+    "tendency" : [ {
+      "highlights" : "Still no significant change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-21T16:00:00Z",
+        "endTime" : "2026-01-22T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NE", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "11a735a0-7270-49b5-b0af-9669c64c2629",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Still sunny, less windy - watch out for persistent weak layer problems!"
+    }
+  }
+}
