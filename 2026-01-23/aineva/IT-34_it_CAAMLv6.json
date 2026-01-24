@@ -1,0 +1,99 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-23T16:01:07Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve fresca e a quella ventata.",
+      "comment" : "La neve fresca e la neve ventata possono a volte distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. Attenzione soprattutto sui pendii ombreggiati molto ripidi, come pure nelle zone in prossimità delle creste, nelle conche e nei canaloni. Con neve fresca e vento, a partire dalla mattinata i punti pericolosi aumenteranno. <br/> Oltre al pericolo di seppellimento, occorre fare attenzione anche al pericolo di trascinamento e caduta."
+    },
+    "snowpackStructure" : {
+      "comment" : "A livello locale cadranno localmente sino a 15 cm di neve al di sopra dei 1000 m circa. Gli accumuli di neve ventata poggiano su strati fragili. <br/> Il manto nevoso è estremamente variabile a distanza di pochi metri a livello generale. È presente poca neve rispetto alla media stagionale."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "A livello locale cadranno sino a 15 cm di neve al di sopra dei 1000 m circa.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NW", "S", "SW", "SE", "NE", "W", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NW", "S", "SW", "SE", "NE", "W", "N" ]
+    } ],
+    "bulletinID" : "719ac19c-1835-42b8-af25-f3dce2a5e17d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
