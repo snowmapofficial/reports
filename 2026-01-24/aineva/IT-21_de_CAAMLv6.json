@@ -1,0 +1,355 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-24T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fällt Schnee bis in tiefe Lagen. Weiterer Anstieg der Lawinengefahr in den Hauptniederschlagsgebieten.",
+      "comment" : "Mit Schneefall und Nordostwind entstehen in den nächsten Tagen frische Triebschneeansammlungen. Diese können von einzelnen Wintersportlern ausgelöst werden und vereinzelt groß werden. Dies vor allem an steilen Hängen auch im Bereich der Waldgrenze sowie in Rinnen, Mulden und hinter Geländekanten oberhalb der Waldgrenze. <br/> <br/> Trockene Lockerschneelawinen und Schneebrettlawinen sind schon am Morgen möglich. Die frischen und schon etwas älteren Triebschneeansammlungen werden überschneit und damit schwierig zu erkennen. <br/> <br/> In der Schneedecke sind vor allem an steilen Schattenhängen störanfällige Schwachschichten vorhanden. Diese können stellenweise mit geringer Belastung ausgelöst werden und vereinzelt groß werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Stabilitätstests und Schneeprofile zeigen den an steilen Schattenhängen ungünstigen Schneedeckenaufbau. Im unteren Teil der Schneedecke sind vor allem an Schattenhängen heikle Schwachschichten vorhanden. <br/> <br/> Bis Sonntag fallen oberhalb von rund 1200 m 30 bis 40 cm Schnee. Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Der Wetterbericht und damit auch die Entwicklung der Lawinengefahr sind unsicher. Die Lawinengefahr sollte vor Ort besonders gründlich überprüft werden. <br/> <br/> Sonntag: Bis am Vormittag fällt Schnee bis in tiefe Lagen. Tagesverlauf: Mäßiger Westwind. Anzahl und Größe der Gefahrenstellen nehmen am Nachmittag zu.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP8" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "4e006725-dd0a-4158-9bbd-2ba2313842ed",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-24T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fällt gebietsweise Schnee bis in tiefe Lagen. Die frischeren Triebschneeansammlungen überlagern eine schwache Altschneedecke.",
+      "comment" : "Es fällt gebietsweise etwas Schnee. <br/> <br/> V.a. an steilen Hängen sind mit Neuschnee und Wind Schneebrettlawinen möglich, besonders an Triebschneehängen in mittleren und hohen Lagen. Die störanfälligen Triebschneeansammlungen der letzten Tage werden überschneit und damit schwierig zu erkennen. <br/> <br/> Die Lawinen können v.a. an sehr steilen Schattenhängen in tiefen Schichten anreißen und groß werden. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind deutliche Zeichen eines schwachen Schneedeckenaufbaus. Fernauslösungen und spontane Lawinen sind möglich. Trockene Lockerschneelawinen und Schneebrettlawinen sind schon am Morgen möglich. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Bis Sonntag fallen oberhalb von rund 1200 m 10 bis 30 cm Schnee, lokal auch mehr. <br/> Mittlere und hohe Lagen: In der Schneedecke sind an steilen Schattenhängen grobkörnige Schwachschichten vorhanden. Schwachschichten im Altschnee erfordern eine defensive Routenwahl. <br/> <br/> In allen Höhenlagen liegt für die Jahreszeit wenig Schnee. Stabilitätstests und Schneeprofile zeigen den an steilen Schattenhängen ungünstigen Schneedeckenaufbau. <br/> Der Neuschnee liegt stellenweise auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Der Wetterbericht und damit auch die Entwicklung der Lawinengefahr sind unsicher. Die Lawinengefahr sollte vor Ort besonders gründlich überprüft werden. <br/> <br/> Sonntag: Bis am Vormittag fällt Schnee bis in tiefe Lagen. Tagesverlauf: V.a. entlang der Grenze zu Frankreich und entlang der Grenze zur Schweiz mäßiger Westwind. Anzahl und Größe der Gefahrenstellen nehmen am Nachmittag zu.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    } ],
+    "bulletinID" : "d31d3a7d-9321-42be-a808-372ec19365ee",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-24T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fällt Schnee bis in tiefe Lagen. Die frischen und älteren Triebschneeansammlungen müssen an allen Expositionen und allgemein im Bereich der Waldgrenze vorsichtig beurteilt werden.",
+      "comment" : "V.a. an steilen Hängen und in Rinnen, Mulden und hinter Geländekanten sind mit Neuschnee und Wind Schneebrettlawinen möglich, besonders vor allem in mittleren Lagen. <br/> <br/> Die teils störanfälligen Triebschneeansammlungen werden überschneit und damit schwierig zu erkennen. Diese können meist von einzelnen Wintersportlern ausgelöst werden. <br/> Die Lawinen können v.a. an sehr steilen Schattenhängen in tiefen Schichten anreißen und groß werden. Trockene Lockerschneelawinen und Schneebrettlawinen sind schon am Morgen möglich. <br/> <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Schneedecke sind an steilen Schattenhängen heikle Schwachschichten vorhanden. <br/> <br/> Stabilitätstests und Schneeprofile zeigen den an steilen Schattenhängen ungünstigen Schneedeckenaufbau. Bis Sonntag fallen oberhalb von rund 1200 m 15 bis 30 cm Schnee. <br/> <br/> Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin. <br/> <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Der Wetterbericht und damit auch die Entwicklung der Lawinengefahr sind unsicher. Die Lawinengefahr sollte vor Ort besonders gründlich überprüft werden. <br/> <br/> Sonntag: Bis am Vormittag fällt Schnee bis in tiefe Lagen. Tagesverlauf: Mäßiger Westwind. Anzahl und Größe der Gefahrenstellen nehmen am Nachmittag zu.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    } ],
+    "bulletinID" : "02874200-7346-4e6a-8c24-97c87502cace",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    } ]
+  } ]
+}
