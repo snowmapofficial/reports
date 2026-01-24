@@ -1,0 +1,216 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-23T16:01:07Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "I nuovi accumuli di neve ventata e quelli meno recenti rappresentano la principale fonte di pericolo. Possibili valanghe di neve asciutta a lastroni. Un po' di neve fresca in alcune regioni sino al di sopra dei 800 m.",
+      "comment" : "La neve ventata poggia su un manto di neve vecchia a grani grossi. Attenzione sui pendii carichi di neve ventata nelle zone in prossimità delle creste, nelle conche e nei canaloni. <br/> Le valanghe sono in parte di dimensioni medie e già distaccabili da un singolo appassionato di sport invernali."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il forte vento causerà il trasporto della neve fresca. Gli accumuli di neve ventata instabili poggiano su strati fragili soprattutto sui pendii riparati dal vento ombreggiati al di sopra dei 2200 m circa. Le valanghe possono subire un distacco con un debole sovraccarico. <br/> Il manto nevoso è estremamente variabile a distanza di pochi metri a livello generale. Alle quote di bassa e media montagna è presente troppo poca neve per la pratica degli sport invernali. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "In alcune regioni, cadrà neve al di sopra dei 800 m circa. Attenzione alle valanghe di neve a debole coesione.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "S", "SW", "SE", "NE", "N", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "S", "SW", "SE", "NE", "N", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NW", "NE", "N", "W" ]
+    } ],
+    "bulletinID" : "e51e3632-6afd-4874-8ac6-d4fc58a8fb1a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "IT-25-SO-04",
+      "regionID" : "IT-25-SO-04"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-23T16:01:07Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo.",
+      "comment" : "Nelle zone ombreggiate e riparate dal vento e sui pendii molto ripidi, sono possibili isolate valanghe di neve a lastroni, ma per lo più solo di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Principalmente sui pendii ombreggiati, all'interno del manto nevoso si trovano, a livello isolato, strati fragili instabili. Gli accumuli di neve ventata poggiano su strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "0e7f5090-cf0d-4b5e-b847-d11ad383dad1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-25-PV-01",
+      "regionID" : "IT-25-PV-01"
+    }, {
+      "name" : "PREALPI OCCIDENTALI",
+      "regionID" : "IT-25-VA-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-23T16:01:07Z",
+    "validTime" : {
+      "startTime" : "2026-01-23T23:00:00Z",
+      "endTime" : "2026-01-24T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata recente è la principale fonte di pericolo. Principalmente sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili a cristalli angolari.",
+      "comment" : "Principalmente sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili a cristalli angolari. Le valanghe sono per lo più di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Isolati punti pericolosi si trovano nelle zone ombreggiate e riparate dal vento. È generalmente presente troppo poca neve per la pratica degli sport invernali."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-24T23:00:00Z",
+        "endTime" : "2026-01-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "c892b74e-7413-4a96-ab48-3b3704c744b5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-25-CO-01",
+      "regionID" : "IT-25-CO-01"
+    }, {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  } ]
+}
