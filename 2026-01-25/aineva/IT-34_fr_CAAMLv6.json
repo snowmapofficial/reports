@@ -1,0 +1,128 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-25T06:24:17Z",
+    "validTime" : {
+      "startTime" : "2026-01-24T23:00:00Z",
+      "endTime" : "2026-01-25T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "En matinée dans les régions concernées par les précipitations principales éventuellement le degré de danger 3, \"marqué\" sera atteint.",
+      "comment" : "La neige fraîche et la neige soufflée peuvent être déclenchées par un seul amateur de sports d'hiver et atteindre une grande taille de manière isolée. Ceci surtout à proximité des crêtes et des cols au-dessus de la limite de la forêt et dans les combes, couloirs et derrière les ruptures de terrain. <br/> Des avalanches spontanées de moyenne taille sont possibles. <br/> Dans le manteau neigeux des couches fragiles susceptibles d'être déclenchées sont présentes, surtout sur les pentes raides à l'ombre. Celles-ci peuvent par endroits être déclenchées avec une surcharge faible et atteindre une grande taille de manière isolée. Des couches fragiles dans la neige ancienne demandent un choix d'itinéraire prudent. Des bruits sourds et des fissures lors du passage sur le manteau neigeux ainsi que des départs spontanés d'avalanches sont des signes d'alarme."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il est tombé dans certaines régions de 10 à 20 cm de neige. Il tombe en général jusqu'à 40 cm de neige. <br/> Les accumulations de neige soufflée se développent avec la neige fraîche et le vent. Les accumulations de neige soufflée reposent sur des couches défavorables. <br/> Dans le manteau neigeux ancien des couches fragiles délicates sont présentes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tombe localement jusqu'à 10 cm de neige.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-25T23:00:00Z",
+        "endTime" : "2026-01-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "NE", "NW", "S", "E", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SE", "NE", "S", "NW", "E", "SW", "W" ]
+    } ],
+    "bulletinID" : "0ef449b7-5bc4-457f-8fdc-d65e012da89d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
