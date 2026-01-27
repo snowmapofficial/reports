@@ -1,0 +1,150 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-26T23:00:00Z",
+      "endTime" : "2026-01-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weiche Triebschneeansammlungen überlagern eine schwache Altschneedecke.",
+      "comment" : "Mit Neuschnee und mäßigem Wind aus wechselnden Richtungen entstanden in den letzten drei Tagen an allen Expositionen weiche Triebschneeansammlungen, besonders oberhalb der Waldgrenze. Sie überlagern an allen Expositionen eine schwache Altschneedecke. Schon einzelne Wintersportler können Lawinen auslösen, auch solche mittlerer Größe. <br/> Die Lawinen können besonders an Schattenhängen in tiefen Schichten ausgelöst werden und vereinzelt groß werden. <br/> Mit der Verschlechterung des Wetters werden gefährliche Stellen schwer zu erkennen sein. <br/> Touren und Variantenabfahrten erfordern eine überlegte Routenwahl."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten Tagen fielen oberhalb von rund 2000 m 10 bis 30 cm Schnee, lokal auch mehr. <br/> Der mäßige Wind hat den Neuschnee verfrachtet. <br/> Bis Mittwoch fallen verbreitet 10 bis 25 cm Schnee, lokal bis zu 30 cm. <br/> In der Altschneedecke sind vor allem an Nord-, Ost- und Westhängen kantig aufgebaute Schwachschichten vorhanden. <br/> Es wird auf Oberflächenreif in verschiedenen Lagen und Höhenlagen hingewiesen, der nun unter Neuschnee begraben ist. <br/> Am Sonntag wurden an steilen Hängen kleine und mittlere Lawinen gemeldet."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Mittwoch: Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen in der Nacht zu. Die Bedingungen verursachen eine allmähliche Zunahme der Lawinengefahr.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-01-27T23:00:00Z",
+        "endTime" : "2026-01-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP8" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "N", "W", "NW", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "SE", "NE", "N", "W", "NW", "E", "S" ]
+    } ],
+    "bulletinID" : "b1053acd-4248-400b-aa8a-82f06e571ab2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
