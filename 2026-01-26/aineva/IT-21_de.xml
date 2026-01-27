@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-01-26T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="7ade3782-66b4-4571-9c90-944a6fd547f8" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-26T23:00:00Z</beginPosition>
+          <endPosition>2026-01-27T11:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP8</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-27T23:00:00Z</beginPosition>
+                <endPosition>2026-01-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Nachmittag: Es fällt Schnee bis in tiefe Lagen. Neu- und Triebschnee beachten.</avActivityHighlights>
+          <avActivityComment>Mit mäßigem bis starkem Westwind entstanden frische Triebschneeansammlungen. Diese können stellenweise von einzelnen Wintersportlern ausgelöst werden und vereinzelt groß werden. Dies vor allem an steilen Hängen auch im Bereich der Waldgrenze sowie in Rinnen, Mulden und hinter Geländekanten oberhalb der Waldgrenze. &lt;br/&gt; &lt;br/&gt; In der Schneedecke sind vor allem an steilen Schattenhängen störanfällige Schwachschichten vorhanden. Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl. &lt;br/&gt; &lt;br/&gt; Nachmittag: Markanter Anstieg der Gefahr von trockenen Lawinen mit dem Schneefall.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin. &lt;br/&gt; &lt;br/&gt; Mittlere und hohe Lagen: Im unteren Teil der Schneedecke sind vor allem an sehr steilen Schattenhängen einzelne Schwachschichten vorhanden. &lt;br/&gt; &lt;br/&gt; Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und Vorsicht.</snowpackStructureComment>
+          <tendencyComment>Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="7ade3782-66b4-4571-9c90-944a6fd547f8_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-27T11:00:00Z</beginPosition>
+          <endPosition>2026-01-27T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP8</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-27T23:00:00Z</beginPosition>
+                <endPosition>2026-01-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Nachmittag: Es fällt Schnee bis in tiefe Lagen. Neu- und Triebschnee beachten.</avActivityHighlights>
+          <avActivityComment>Mit mäßigem bis starkem Westwind entstanden frische Triebschneeansammlungen. Diese können stellenweise von einzelnen Wintersportlern ausgelöst werden und vereinzelt groß werden. Dies vor allem an steilen Hängen auch im Bereich der Waldgrenze sowie in Rinnen, Mulden und hinter Geländekanten oberhalb der Waldgrenze. &lt;br/&gt; &lt;br/&gt; In der Schneedecke sind vor allem an steilen Schattenhängen störanfällige Schwachschichten vorhanden. Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und eine vorsichtige Routenwahl. &lt;br/&gt; &lt;br/&gt; Nachmittag: Markanter Anstieg der Gefahr von trockenen Lawinen mit dem Schneefall.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin. &lt;br/&gt; &lt;br/&gt; Mittlere und hohe Lagen: Im unteren Teil der Schneedecke sind vor allem an sehr steilen Schattenhängen einzelne Schwachschichten vorhanden. &lt;br/&gt; &lt;br/&gt; Die aktuelle Lawinensituation erfordert Erfahrung in der Beurteilung der Lawinengefahr und Vorsicht.</snowpackStructureComment>
+          <tendencyComment>Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="27f31e48-8cbd-4ec5-9bd2-9ec207440cc3" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-26T23:00:00Z</beginPosition>
+          <endPosition>2026-01-27T11:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP1</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-27T23:00:00Z</beginPosition>
+                <endPosition>2026-01-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die frischen und älteren Triebschneeansammlungen müssen an allen Expositionen und allgemein oberhalb der Waldgrenze vorsichtig beurteilt werden.</avActivityHighlights>
+          <avActivityComment>V.a. an steilen Hängen und in Kamm- und Passlagen sind mit dem mäßigen bis starken Westwind mittlere und vereinzelt große Schneebrettlawinen möglich. &lt;br/&gt; &lt;br/&gt; Die teils großen Triebschneeansammlungen können teilweise von einzelnen Wintersportlern ausgelöst werden. &lt;br/&gt; &lt;br/&gt; Die Lawinen können v.a. an sehr steilen Schattenhängen in tiefen Schichten anreißen und groß werden. &lt;br/&gt; &lt;br/&gt; Nachmittag: Allmählicher Anstieg der Gefahr von trockenen Lawinen mit dem Schneefall.</avActivityComment>
+          <snowpackStructureComment>Die teils großen Triebschneeansammlungen liegen auf ungünstigen Schichten. In der Schneedecke sind an steilen Schattenhängen heikle Schwachschichten vorhanden. &lt;br/&gt; &lt;br/&gt; Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin.</snowpackStructureComment>
+          <tendencyComment>Verbreitet gebundener Neuschnee bis in tiefe Lagen. Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="27f31e48-8cbd-4ec5-9bd2-9ec207440cc3_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-27T11:00:00Z</beginPosition>
+          <endPosition>2026-01-27T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP1</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-27T23:00:00Z</beginPosition>
+                <endPosition>2026-01-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die frischen und älteren Triebschneeansammlungen müssen an allen Expositionen und allgemein oberhalb der Waldgrenze vorsichtig beurteilt werden.</avActivityHighlights>
+          <avActivityComment>V.a. an steilen Hängen und in Kamm- und Passlagen sind mit dem mäßigen bis starken Westwind mittlere und vereinzelt große Schneebrettlawinen möglich. &lt;br/&gt; &lt;br/&gt; Die teils großen Triebschneeansammlungen können teilweise von einzelnen Wintersportlern ausgelöst werden. &lt;br/&gt; &lt;br/&gt; Die Lawinen können v.a. an sehr steilen Schattenhängen in tiefen Schichten anreißen und groß werden. &lt;br/&gt; &lt;br/&gt; Nachmittag: Allmählicher Anstieg der Gefahr von trockenen Lawinen mit dem Schneefall.</avActivityComment>
+          <snowpackStructureComment>Die teils großen Triebschneeansammlungen liegen auf ungünstigen Schichten. In der Schneedecke sind an steilen Schattenhängen heikle Schwachschichten vorhanden. &lt;br/&gt; &lt;br/&gt; Der Neuschnee liegt verbreitet auf Oberflächenreif. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen und weisen auf die Gefahr hin.</snowpackStructureComment>
+          <tendencyComment>Verbreitet gebundener Neuschnee bis in tiefe Lagen. Mit Neuschnee und Wind nehmen Anzahl und Größe der Gefahrenstellen in der Nacht zu.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
