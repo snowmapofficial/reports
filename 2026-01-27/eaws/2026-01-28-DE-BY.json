@@ -1,0 +1,207 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above 1800 metres and low below that. The main problem is wind slab avalanches. Slab avalanches can be triggered by small additional loads in steep terrain adjacent to ridgelines in the north-west to north to east aspect as well as in gullies and bowls. Avalanches can reach medium size in the Allg\u00e4u and when deeper weak layers in the persistent weak layer are disturbed.",
+        "highlights": "Carefully assess wind slab with increasing height."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "E",
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "NW",
+            "N",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8f49d9d4-0abb-414e-b2cc-4644d4861480",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-28"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-27T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On a small scale, windslab snow lies partly on soft snow at high altitudes, otherwise on variously crusted can form snow surfaces. A weak layer of angular snow crystals has formed underneath these layers of harsh snow. In the middle layers, this layer slowly stabilises with mild temperatures and a lack of outgoing longwave radiation. The base of the snowpack often consists of gritty floating snow. There is little to no snow on the south side."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slight increase in avalanche danger with new fallen snow and wind.",
+          "validTime": {
+            "startTime": "2026-01-28T16:00:00+00:00",
+            "endTime": "2026-01-29T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-01-27T16:00:00+00:00",
+        "endTime": "2026-01-28T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. Small avalanches can be triggered, especially with large additional loads. The few avalanche prone locations are found on very steep slopes in the northern and eastern aspects, especially when entering gullies and bowls. Particularly in the Allg\u00e4u and in the highest areas of the Berchtesgaden Alps also in the area of small-scale wind slab.",
+        "highlights": "Usually too little snow for ski tours."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "E",
+            "NE",
+            "NW"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "aa5e0948-8d91-4431-b548-808f3fa405b7",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-28"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-27T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "At higher altitudes, bonded snow lies on angular snow layers in places. Crack propagation over larger areas is not to be expected. Small snowdrift accumulations could develop, especially in the Allg\u00e4u and at the highest elevations of the Berchtesgaden Alps. Overall, there is little snow and ground contact is to be expected."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slight increase in avalanche danger with new fallen snow and wind.",
+          "validTime": {
+            "startTime": "2026-01-28T16:00:00+00:00",
+            "endTime": "2026-01-29T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-01-27T16:00:00+00:00",
+        "endTime": "2026-01-28T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Snowfall and wind, centre of gravity in the west."
+    }
+  }
+}
