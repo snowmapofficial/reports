@@ -1,0 +1,152 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a light to moderate wind from westerly directions, extensive wind slabs will form during the course of the night especially at intermediate and high altitudes. The fresh and somewhat older wind slabs can be released very easily in all aspects above approximately 2000 m. In many cases avalanches are medium-sized. <br/> <br/> The new snow can be released easily or naturally in all aspects above approximately 2000 m. Dry snow slides and avalanches are possible, but they will be mostly small. <br/> Dry avalanches can also be triggered in the old snowpack and reach large size in isolated cases. <br/> All aspects: Gliding avalanches can be released at any time of day or night. In isolated cases Explanation: \"these\" may only stand for \"these avalanches\" are medium-sized. <br/> <br/> Backcountry touring and other off-piste activities call for experience in the assessment of avalanche danger.",
+        "highlights": "New snow and wind slabs at intermediate and high altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "many",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8340e8ee-c6b4-4d6b-a859-d81d79774107",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-01-28"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-01-27T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "15 to 20 cm of snow will fall until late morning above approximately 1500 m. <br/> The sometimes moderate wind will transport the new snow. <br/> <br/> Large-grained weak layers exist in the bottom section of the old snowpack in particular on rather lightly snow-covered west, north and east facing slopes. <br/> <br/> At intermediate altitudes there are 120 to 160 cm of snow, and even more in some localities."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Thursday: The weather will be sunny at times. The avalanche danger will not decrease for the time being.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-01-28T16:00:00+00:00",
+            "endTime": "2026-01-29T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-01-27T16:00:00+00:00",
+        "endTime": "2026-01-28T16:00:00+00:00"
+      }
+    }
+  ]
+}
