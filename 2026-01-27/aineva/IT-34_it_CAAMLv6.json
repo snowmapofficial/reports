@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-27T23:00:00Z",
+      "endTime" : "2026-01-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve fresca, neve ventata e neve vecchia sono la principale fonte di pericolo.",
+      "comment" : "In molte regioni, mercoledì cadrà neve al di sopra dei 800 m circa. In molte regioni cadranno sino a 25 cm di neve al di sopra dei 1500 m circa, localmente anche di più. La neve fresca si depositerà in parte su brina superficiale al di sopra dei 1800 m circa. Sono possibili valanghe spontanee di medie e, a livello isolato, di grandi dimensioni. Soprattutto nelle zone in prossimità delle creste, negli ultimi due giorni gli accumuli di neve ventata sono cresciuti. La neve fresca e gli accumuli di neve ventata ricoprono un debole manto di neve vecchia sui pendii esposti a ovest, nord ed est al di sopra del limite del bosco. Principalmente qui le valanghe possono subire un distacco nella neve vecchia a cristalli angolari. Ciò già in seguito a un debole sovraccarico. I punti pericolosi sono molto diffusi e appena individuabili. Le valanghe sono per lo più di dimensioni medie. Sono possibili distacchi a distanza. Il numero e le dimensioni dei punti pericolosi aumenteranno con l'altitudine. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve così come i distacchi spontanei di valanghe sono campanelli di allarme. Gli strati deboli presenti nella neve vecchia richiedono una prudente scelta dell'itinerario. Soprattutto nelle regioni più colpite dalle precipitazioni, i punti pericolosi sono più frequenti e il pericolo superiore."
+    },
+    "snowpackStructure" : {
+      "comment" : "Da sabato sono caduti da 30 a 60 cm di neve. Con vento a raffiche proveniente dai quadranti meridionali si sono formati accumuli di neve ventata soffici. Questi ultimi ricoprono un debole manto di neve vecchia al di sopra del limite del bosco. La neve vecchia ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Ciò specialmente nelle zone ombreggiate e riparate dal vento. Il manto di neve vecchia è estremamente variabile a distanza di pochi metri."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La neve fresca e gli accumuli di neve ventata rimangono instabili.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-28T23:00:00Z",
+        "endTime" : "2026-01-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "SE", "W", "S", "NW", "SW", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "E", "SE", "W", "S", "NW", "SW", "NE" ]
+    } ],
+    "bulletinID" : "aed5545b-a16d-4556-85d9-fe713b1478bc",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
