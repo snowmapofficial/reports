@@ -1,0 +1,135 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-28T23:00:00Z",
+      "endTime" : "2026-01-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neuschnee und schwacher Altschnee sind die Hauptgefahr.",
+      "comment" : "Es fielen verbreitet oberhalb von rund 1200 m 15 bis 30 cm Schnee, lokal auch mehr. <br/> <br/> Der Neuschnee und die Triebschneeansammlungen überlagern an Schattenhängen oberhalb der Waldgrenze eine schwache Altschneedecke. Lawinen können besonders dort im kantig aufgebauten Altschnee ausgelöst werden. Dies bereits mit kleiner Belastung. Die Gefahrenstellen sind weit verbreitet und kaum zu erkennen. <br/> <br/> Mittlere und vereinzelt große Lawinen sind möglich. Fernauslösungen sind möglich. Anzahl und Größe der Gefahrenstellen nehmen mit der Höhe zu. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen. Schwachschichten im Altschnee erfordern eine defensive Routenwahl."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit gestern fielen oberhalb von rund 1200 m 15 bis 30 cm Schnee, lokal auch mehr. Mit starkem Wind aus südlichen Richtungen entstanden weiche Triebschneeansammlungen. Diese überlagern oberhalb der Waldgrenze eine schwache Altschneedecke. Die Altschneedecke ist kantig aufgebaut und schwach. Dies besonders in schattigen, windgeschützten Lagen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es ist stark bewölkt. Gebietsweise leichter Schneefall oberhalb von rund 1200 m.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-29T23:00:00Z",
+        "endTime" : "2026-01-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "N", "NW", "E", "W" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "S", "N", "NW", "E", "SE", "W", "SW" ]
+    } ],
+    "bulletinID" : "f5220a53-ea19-441d-b3b8-13b62c51aafc",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Südlicher Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Prealpi",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Nördliche Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Cimberntal",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Vallarse",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Bondone und Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Folgaria - Lavarone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Westliche Nonsberger Alpen",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Südliche Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Fassatal",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Südliche Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Sole, Pejo und Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Nördliche Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Ledrotal",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Fersental",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
