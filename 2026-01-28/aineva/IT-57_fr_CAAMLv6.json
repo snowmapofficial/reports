@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-28T23:00:00Z",
+      "endTime" : "2026-01-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche et soufflée au-dessus d'environ 1800 m. En dessous d'environ 1800 m des avalanches humides et mouillées en général de petite taille sont possibles.",
+      "comment" : "La neige fraîche et la neige soufflée des deux derniers jours devraient être évaluées avec prudence surtout sur les pentes raides à l'ombre au-dessus d'environ 1800 m. En dessous d'environ 1800 m des avalanches humides et mouillées en général de petite taille sont possibles."
+    },
+    "snowpackStructure" : {
+      "comment" : "Avec le vent fort, de nouvelles accumulations de neige soufflée se sont formées. Les accumulations de neige soufflée sont liées avec la neige ancienne. Elles sont à évaluer prudemment. En outre des accumulations de neige soufflée supplémentaires se sont formées dans les combes, couloirs et derrière les ruptures de terrain. Des couches fragiles dans la neige ancienne sont des indices signifiants pour la stabilité très variable du manteau neigeux à petite échelle."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-29T23:00:00Z",
+        "endTime" : "2026-01-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "S", "N", "NW", "E", "SE", "W", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "S", "N", "NW", "E", "SE", "W", "SW" ]
+    } ],
+    "bulletinID" : "6f203140-ee7e-4a36-8a40-c2853a12c000",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-01-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-28T23:00:00Z",
+      "endTime" : "2026-01-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "⚠ Error: Incomplete joker sentence"
+    },
+    "snowpackStructure" : {
+      "comment" : "Neige fraîche peu épaisse à moyenne altitude. Les conditions météorologiques ont entraîné un tassement net du manteau neigeux ancien."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-29T23:00:00Z",
+        "endTime" : "2026-01-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "S", "N", "NW", "E", "SE", "W", "SW" ]
+    } ],
+    "bulletinID" : "38935427-9b2b-4764-80c5-4203b55420cf",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
