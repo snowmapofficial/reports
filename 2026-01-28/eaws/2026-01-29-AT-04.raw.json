@@ -1,0 +1,90 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-28T16:00:00Z",
+      "endTime" : "2026-01-29T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Wednesday, a few compact high cloud fields will repeatedly pass above the peaks, but it will remain dry. Intermittent sunny spells are possible and visibility will be quite good except for occasional slightly diffuse light. The wind will be mostly moderate to brisk from east to south at low altitudes, with strong, sometimes stormy southerly winds to be expected in the high alpine regions above the tree line. This will weaken a little in the afternoon. At 1500 metres around 4 degrees, at 2000 metres around 2 degrees.\nIt will start to snow in the night to Thursday. The snowfall level will be around 500 metres. Thursday will start wintry and there will be widespread new fallen snow. From around midday, it will become increasingly dry and it may clear up in places with some sunshine. The wind will be moderate from the west. It will be -4 degrees at 1500 metres and -6 degrees at 2000 metres."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Only adjacent to ridgelines and at higher elevations is some fresh drift snow possible and local persistent weak layer problems!",
+      "comment" : "Due to some new fallen snow and depending on the wind influence around the west, there may be some fresh wind slab, which can be prone to triggering in steep terrain. Avalanche prone locations are mainly adjacent to ridgelines and behind terrain edges. In the north-facing high altitudes, the local persistent weak layer problem must still be taken into account in steep terrain. Slab avalanches can be triggered here in particular by large additional loads."
+    },
+    "snowpackStructure" : {
+      "comment" : "Around 10 cm of new fallen snow is expected by Thursday lunchtime, which may also be transported a little, especially windward. In the shady and north-facing high altitudes, the old snowpack is weakened by layers that have been transformed by building up and some floating snow. The old snow surface is often hard to partly icy. In general, there is only a little snow, which is very unevenly distributed. Before the snowfall, there are many pale and completely blown-off areas."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-29T16:00:00Z",
+        "endTime" : "2026-01-30T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "E", "NW", "NE" ]
+    } ],
+    "bulletinID" : "edb256c5-bd58-4c3f-ac26-274219a74fbe",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Some new fallen snow - only very exposed fresh wind slab!"
+    }
+  }
+}
