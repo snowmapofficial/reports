@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-29T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-29T23:00:00Z",
+      "endTime" : "2026-01-30T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "New snow and weakly bonded old snow represent the main danger.",
+      "comment" : "Over a wide area 30 to 50 cm of snow, and even more in some localities, fell in the last two days above approximately 1500 m. Medium-sized and, in isolated cases, large dry avalanches have been released as a consequence of the new snow. Medium-sized and, in isolated cases, large natural avalanches are still even now possible. The fresh snow and the wind slabs are lying on top of a weakly bonded old snowpack on west, north and east facing slopes above the tree line. Especially here avalanches can be triggered in the faceted old snow. This applies even in case of a small load. The avalanche prone locations are widespread and are barely recognisable. Remotely triggered avalanches are possible. The number and size of avalanche prone locations will increase with altitude. Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack and natural avalanches serve as an alarm sign. Weak layers in the old snowpack necessitate defensive route selection. In particular in regions exposed to heavier precipitation the avalanche prone locations are more prevalent and the danger is greater. The snow sport conditions outside marked and open pistes are dangerous. Safety measures may be necessary."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack will be in most cases prone to triggering. Over a wide area new snow is lying on old snow containing large grains. This applies especially in shady places that are protected from the wind. The old snowpack will be subject to considerable local variations."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Hardly any decrease in avalanche danger. The current avalanche situation calls for caution and restraint.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-30T23:00:00Z",
+        "endTime" : "2026-01-31T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "W", "NW", "N", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "W", "NW", "S", "N", "SW", "NE", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "W", "NW", "S", "N", "SW", "NE", "SE" ]
+    } ],
+    "bulletinID" : "e80d6e1e-c4a1-48f0-a582-60e2853d08d5",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
