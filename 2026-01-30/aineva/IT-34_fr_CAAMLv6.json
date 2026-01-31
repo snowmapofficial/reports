@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-30T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-30T23:00:00Z",
+      "endTime" : "2026-01-31T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche et neige ancienne fragile constituant le danger principal.",
+      "comment" : "Des avalanches sèches de moyenne et rarement grande taille sont parties dans les derniers jours. Des avalanches spontanées de moyenne et rarement grande taille sont encore toujours possibles. La neige fraîche et les accumulations de neige soufflée reposent sur une couche fragile de neige ancienne sur les pentes exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt. Des avalanches peuvent être déclenchées dans la neige ancienne ayant subi une métamorphose constructive à grain anguleux spécialement dans ces endroits. Ceci dès une faible surcharge. Des accumulations de neige soufflée sont recouvertes de neige fraîche et donc difficilement identifiables. Les endroits dangereux sont largement répandus et à peine identifiables. Des déclenchements à distance sont possibles. Le nombre et la taille des endroits dangereux augmentent avec l'altitude. Des bruits sourds et des fissures lors du passage sur le manteau neigeux ainsi que des départs spontanés d'avalanches sont des signes d'alarme. Des couches fragiles dans la neige ancienne demandent un choix d'itinéraire prudent. Surtout dans les régions concernées par les précipitations principales les endroits dangereux sont plus fréquents et le danger plus élevé. Les conditions pour les sports de neige en dehors des pistes sécurisées sont dangereuses."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le manteau neigeux est généralement fragile. La neige fraîche repose en général sur une neige ancienne à gros grains. Ceci particulièrement aux endroits à l'ombre et abrités du vent. Le manteau neigeux ancien est très variable à petite échelle."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Diminution à peine marquée du danger d'avalanches. La situation avalancheuse actuelle demande prudence et retenue.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-31T23:00:00Z",
+        "endTime" : "2026-02-01T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "E", "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    } ],
+    "bulletinID" : "d32c11c1-f2cf-45d9-aed0-fcbb24dab2a6",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
