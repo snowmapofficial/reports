@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-30T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-30T23:00:00Z",
+      "endTime" : "2026-01-31T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neuschnee und schwacher Altschnee sind die Hauptgefahr.",
+      "comment" : "In den letzten Tagen sind mittlere und vereinzelt große trockene Lawinen abgegangen. Mittlere und vereinzelt große spontane Lawinen sind immer noch möglich. Der Neuschnee und die Triebschneeansammlungen überlagern an West-, Nord- und Osthängen oberhalb der Waldgrenze eine schwache Altschneedecke. Lawinen können besonders dort im kantig aufgebauten Altschnee ausgelöst werden. Dies bereits mit kleiner Belastung. Triebschneeansammlungen sind überschneit und damit nur schwierig erkennbar. Die Gefahrenstellen sind weit verbreitet und kaum zu erkennen. Fernauslösungen sind möglich. Anzahl und Größe der Gefahrenstellen nehmen mit der Höhe zu. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen. Schwachschichten im Altschnee erfordern eine defensive Routenwahl. Vor allem in den Hauptniederschlagsgebieten sind die Gefahrenstellen häufiger und die Gefahr höher. Die Verhältnisse für Schneesport abseits gesicherter Pisten sind gefährlich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist meist störanfällig. Der Neuschnee liegt verbreitet auf grobkörnigem Altschnee. Dies besonders in schattigen, windgeschützten Lagen. Die Altschneedecke ist kleinräumig sehr unterschiedlich."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Kaum Rückgang der Lawinengefahr. Die aktuelle Lawinensituation erfordert Vorsicht und Zurückhaltung.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-31T23:00:00Z",
+        "endTime" : "2026-02-01T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "E", "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    } ],
+    "bulletinID" : "d32c11c1-f2cf-45d9-aed0-fcbb24dab2a6",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
