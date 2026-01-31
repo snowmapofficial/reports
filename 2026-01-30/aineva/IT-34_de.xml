@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-01-30T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="d32c11c1-f2cf-45d9-aed0-fcbb24dab2a6" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-01-30T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-30T23:00:00Z</beginPosition>
+          <endPosition>2026-01-31T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP5</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-01-31T23:00:00Z</beginPosition>
+                <endPosition>2026-02-01T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neuschnee und schwacher Altschnee sind die Hauptgefahr.</avActivityHighlights>
+          <avActivityComment>In den letzten Tagen sind mittlere und vereinzelt große trockene Lawinen abgegangen. Mittlere und vereinzelt große spontane Lawinen sind immer noch möglich. Der Neuschnee und die Triebschneeansammlungen überlagern an West-, Nord- und Osthängen oberhalb der Waldgrenze eine schwache Altschneedecke. Lawinen können besonders dort im kantig aufgebauten Altschnee ausgelöst werden. Dies bereits mit kleiner Belastung. Triebschneeansammlungen sind überschneit und damit nur schwierig erkennbar. Die Gefahrenstellen sind weit verbreitet und kaum zu erkennen. Fernauslösungen sind möglich. Anzahl und Größe der Gefahrenstellen nehmen mit der Höhe zu. Wummgeräusche und Risse beim Betreten der Schneedecke sowie spontane Lawinenabgänge sind Alarmzeichen. Schwachschichten im Altschnee erfordern eine defensive Routenwahl. Vor allem in den Hauptniederschlagsgebieten sind die Gefahrenstellen häufiger und die Gefahr höher. Die Verhältnisse für Schneesport abseits gesicherter Pisten sind gefährlich.</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist meist störanfällig. Der Neuschnee liegt verbreitet auf grobkörnigem Altschnee. Dies besonders in schattigen, windgeschützten Lagen. Die Altschneedecke ist kleinräumig sehr unterschiedlich.</snowpackStructureComment>
+          <tendencyComment>Kaum Rückgang der Lawinengefahr. Die aktuelle Lawinensituation erfordert Vorsicht und Zurückhaltung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
