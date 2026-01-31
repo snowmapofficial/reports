@@ -1,0 +1,113 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-01-30T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-30T23:00:00Z",
+      "endTime" : "2026-01-31T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Marcato pericolo di valanghe. <br/> Soprattutto nelle regioni più colpite dalle precipitazioni, i punti pericolosi sono più diffusi.",
+      "comment" : "I punti pericolosi si trovano soprattutto nelle basi di pareti rocciose come pure nelle zone in prossimità delle creste, nei canaloni e nelle conche. Le valanghe possono coinvolgere gli strati più profondi del manto nevoso. Esse possono in molti punti distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. Le fessure che si formano quando si calpesta la coltre di neve così come i rumori di \"whum\" sono possibili segnali di pericolo. Sono pervenute segnalazioni che alcune aree boschive sono state interessate da fenomeni valanghivi e possono anche presentare situazioni di instabilità sui pendii ripidi. Sono necessarie una grande attenzione e la massima prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso rimane instabile a livello generale. <br/> In molti punti si sono formati insidiosi accumuli di neve ventata. Soprattutto sui pendii ombreggiati, all'interno del manto di neve vecchia si trovano molti strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tempo sarà in parte nuvoloso.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-01-31T23:00:00Z",
+        "endTime" : "2026-02-01T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-01-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "E", "N", "NW", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "W", "E", "S", "N", "NW", "NE", "SW" ]
+    } ],
+    "bulletinID" : "cff12b7f-975a-47eb-9e71-3e9befd9a524",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
