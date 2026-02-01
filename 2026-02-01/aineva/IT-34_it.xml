@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-02-01T07:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="b1506371-4c8f-485e-8207-37e8d9053960" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-02-01T07:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-01-31T23:00:00Z</beginPosition>
+          <endPosition>2026-02-01T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP5</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-02-01T23:00:00Z</beginPosition>
+                <endPosition>2026-02-02T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Neve fresca e neve vecchia a debole coesione sono la principale fonte di pericolo.</avActivityHighlights>
+          <avActivityComment>Negli ultimi giorni sono cadute valanghe asciutte di medie e, a livello isolato, di grandi dimensioni. Tuttora sono possibili valanghe spontanee. La neve fresca e gli accumuli di neve ventata ricoprono un debole manto di neve vecchia sui pendii esposti a ovest, nord ed est al di sopra del limite del bosco. Principalmente qui le valanghe possono subire un distacco nella neve vecchia a cristalli angolari. Ciò già in seguito a un debole sovraccarico. Gli accumuli di neve ventata sono stati innevati e quindi difficilmente individuabili. I punti pericolosi sono molto diffusi e appena individuabili. Sono possibili distacchi a distanza. Il numero e le dimensioni dei punti pericolosi aumenteranno con l'altitudine. I rumori di "whum" e la formazione di fessure quando si calpesta la coltre di neve così come i distacchi spontanei di valanghe sono campanelli di allarme. Gli strati deboli presenti nella neve vecchia richiedono una prudente scelta dell'itinerario. Soprattutto nelle regioni più colpite dalle precipitazioni, i punti pericolosi sono più frequenti e il pericolo superiore. Le condizioni per gli sport invernali al di fuori delle piste assicurate sono pericolose.</avActivityComment>
+          <snowpackStructureComment>Il manto nevoso è instabile a livello generale. In molti punti la neve fresca poggia su un manto di neve vecchia a grani grossi. Ciò specialmente nelle zone ombreggiate e riparate dal vento. Il manto di neve vecchia è estremamente variabile a distanza di pochi metri.</snowpackStructureComment>
+          <tendencyComment>Scarso calo del pericolo di valanghe. L'attuale situazione valanghiva richiede attenzione e prudenza.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
