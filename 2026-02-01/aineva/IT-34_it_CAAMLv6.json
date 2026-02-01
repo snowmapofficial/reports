@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-01T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-01-31T23:00:00Z",
+      "endTime" : "2026-02-01T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve fresca e neve vecchia a debole coesione sono la principale fonte di pericolo.",
+      "comment" : "Negli ultimi giorni sono cadute valanghe asciutte di medie e, a livello isolato, di grandi dimensioni. Tuttora sono possibili valanghe spontanee. La neve fresca e gli accumuli di neve ventata ricoprono un debole manto di neve vecchia sui pendii esposti a ovest, nord ed est al di sopra del limite del bosco. Principalmente qui le valanghe possono subire un distacco nella neve vecchia a cristalli angolari. Ciò già in seguito a un debole sovraccarico. Gli accumuli di neve ventata sono stati innevati e quindi difficilmente individuabili. I punti pericolosi sono molto diffusi e appena individuabili. Sono possibili distacchi a distanza. Il numero e le dimensioni dei punti pericolosi aumenteranno con l'altitudine. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve così come i distacchi spontanei di valanghe sono campanelli di allarme. Gli strati deboli presenti nella neve vecchia richiedono una prudente scelta dell'itinerario. Soprattutto nelle regioni più colpite dalle precipitazioni, i punti pericolosi sono più frequenti e il pericolo superiore. Le condizioni per gli sport invernali al di fuori delle piste assicurate sono pericolose."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è instabile a livello generale. In molti punti la neve fresca poggia su un manto di neve vecchia a grani grossi. Ciò specialmente nelle zone ombreggiate e riparate dal vento. Il manto di neve vecchia è estremamente variabile a distanza di pochi metri."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Scarso calo del pericolo di valanghe. L'attuale situazione valanghiva richiede attenzione e prudenza.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-01T23:00:00Z",
+        "endTime" : "2026-02-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP5", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "N", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "SE", "E", "N", "W", "S", "NE", "NW" ]
+    } ],
+    "bulletinID" : "b1506371-4c8f-485e-8207-37e8d9053960",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
