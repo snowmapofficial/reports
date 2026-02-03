@@ -1,0 +1,163 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "New fallen snow has put additional load on the weak layers in the old snow cover. Places with blown snow and shady areas where there is a weak layer deep in the snowpack are more dangerous. In particular, at low loads, medium-sized avalanches of packed snow are possible.\nSnow will fall during the day, with wind blowing New fallen snow and building snowdrift accumulations. If it snows during the day, the danger of avalanches will increase! In the mid-mountains, it will rain below about 1500 m, where wet snow avalanches and gliding avalanches may occur.",
+        "highlights": "New fallen snow, blowing snow and weak layers in the snowpack in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "W",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "NE",
+            "SE",
+            "E",
+            "W",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "a6403db0-bfa3-4231-acbb-383eefdaa0c5",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "The current snowpack pattern is uncommon and requires special attention and caution!",
+      "lang": "en",
+      "publicationTime": "2026-02-02T16:38:30+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Previous snowfalls have brought more snow on top of a weak snowpack. This bonded snow has adhered slightly better to the ground in the mid-mountains, where rain or wet snow has fallen in between. During the day, up to 20 cm of New fallen snow will fall above 1500 m, possibly locally up to 30 cm. The south-westerly wind, which will strengthen during the day, will build new drifts on the leeward sides of ridges. Deep and persistent weak layers are present in the old snow cover. The snowpack is unstable in many places."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "It will snow on Wednesday, with 20 cm to 30 cm of New fallen snow. In the high alpine regions, moderate winds will carry the snow and build up new drifts. The danger of avalanches will increase.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-02-03T16:00:00+00:00",
+            "endTime": "2026-02-04T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-02T16:00:00+00:00",
+        "endTime": "2026-02-03T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Cloudy and foggy with showers, more pronounced in the western mountains. The snowfall level will increase during the day and will be around 1500 m by mid-day. A moderate to strong south-westerly wind will blow, strengthening slightly during the day and gradually weakening overnight on Wednesday. Temperatures will be -1 \u00b0C to 1 \u00b0C at 1500 m and around -4 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
