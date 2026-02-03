@@ -1,0 +1,325 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-02T16:00:00Z",
+      "endTime" : "2026-02-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Strong Föhn! Strong southerly winds will blow from the start, especially in the high alpine areas of the Tauern, which may soon reach the valleys and reach its maximum around midday. South wind gusts with hurricane force winds of 100 to 120 km/h are to be expected at high altitudes. Visibility will often be limited on the main Alpine ridge, with a few snowflakes possible in the afternoon. Temperatures at 2000 m around -2 degrees, at 3000 m around -6 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slab forms snow slab on weak old snowpack",
+      "comment" : "The avalanche risk increases rapidly with altitude and is considerable above around 2000 metres and low below. A soft snow surface and surface hoar are overlaid by gale-force southerly foehn winds with fresh wind slabs. Medium-sized slab avalanches can easily be triggered by individuals in some places, especially from north to east, but also in a few places in the west and south sectors. If fresh wind slabs are disturbed, there is a high likelihood of avalanches breaking through into deeper layers. The old snowpack is poorly structured across the board; if fractures are provoked, they tend to propagate. Avalanche prone locations in the persistent weak layer are barely recognisable and should be assessed defensively. Caution should be exercised in particular near transitions from a little to a lot of snow and in the blown-in entrance areas to steep gullies. Remote triggering is possible in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is highly variable and areas with little snow alternate with considerable snowdrift accumulations. In general, fresh drift snow layers lie on top of older, often hardness drift snow packs, which are in the initial stages of kinetic metamorphism. Breaks usually occur near the crust, which forms the transition to the completely angular old snowpack. Under this crust, the old snowpack consists mainly of deep rime and angular forms, which are interspersed with other crusts in areas with more snow. On the ground, snow from early winter can sometimes be found in the form of a hard melt-freeze crust."
+    },
+    "tendency" : [ {
+      "highlights" : "The wind slab problem is slowly improving, but the persistent weak layer problem remains.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-03T16:00:00Z",
+        "endTime" : "2026-02-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "W", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "SE", "E", "W", "NW" ]
+    } ],
+    "bulletinID" : "05cc1415-d68c-4e0a-b484-78a0e4212458",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Großvenedigergruppe Central",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Central",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Central",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Weisseck, Muhr",
+      "regionID" : "AT-05-03"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-02T16:00:00Z",
+      "endTime" : "2026-02-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Strong foehn! Lively to strong southerly winds may soon reach the valleys and reach their maximum around midday. In the high alpine terrain of the northern Alps and in the typical foehn corridors, wind speeds of 60 to 80 km/h will be reached. Visibility is often limited only on the main Alpine ridge and in the Nockberge mountains, where a few snowflakes are possible in the afternoon. Temperatures at 2000 m from south to north between -2 and 2 degrees, at 3000 m around -6 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slab forms snow slab on weak old snowpack",
+      "comment" : "The avalanche risk increases rapidly with altitude and is moderate above around 2000 metres and low below. A soft snow surface and surface hoar are overlaid by strong southerly foehn with fresh wind slabs. Medium-sized slab avalanches can be triggered by individuals in some places, especially from north to east, but also in a few places in the west and south sectors. Fractures in the fresh wind slab can tear through the persistent weak layer and tend to propagate. Avalanche prone locations in the persistent weak layer are hardly recognisable and should be assessed defensively. Take particular care near transitions from a little to a lot of snow and in the blown-in entrance areas to steep gullies."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is highly variable and areas with little snow alternate with considerable snowdrift accumulations. In general, there are a few centimetres of fresh wind slab snow on top of older, often hardness wind slabs, which are in the initial stages of kinetic metamorphism. Breaks usually occur near the crust, which forms the transition to the completely angular old snowpack. Under this crust, the old snowpack consists of deep rime and angular forms, which are interspersed with further crusts in areas with more snow. The overall snow depth is well below average."
+    },
+    "tendency" : [ {
+      "highlights" : "The wind slab problem is slowly improving, but the persistent weak layer problem remains.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-03T16:00:00Z",
+        "endTime" : "2026-02-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "W", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "W", "NW" ]
+    } ],
+    "bulletinID" : "40286834-5911-41b8-b182-16509932df9e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    }, {
+      "name" : "Venedigergruppe North",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe North",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Goldberggruppe North",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Niedere Tauern North",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Kitzbühel Alps Oberpinzgau",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Niedere Tauern South",
+      "regionID" : "AT-05-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-02T16:00:00Z",
+      "endTime" : "2026-02-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Brisk to strong winds blow in the mountains, with maximum speeds of 60 to 80 km/h in the high altitudes of the northern Alps. Visibility is often good, mostly clouds over the peaks. Temperatures at 2000 m around 2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Small drift snow accumulations on weak old snowpack",
+      "comment" : "The avalanche risk is low. In the extended northern and eastern exposures above around 2200 m, small slab avalanches can still be triggered by individuals in a few places. Danger areas are located at the transition from little to more snow and generally next to blown-off areas. Some of the avalanche prone locations are difficult to recognise. The risk of falling and injury generally outweighs the risk of burial."
+    },
+    "snowpackStructure" : {
+      "comment" : "A few centimetres of new and wind-slab snow cover previously loose ground or a hardness, sometimes icy surface of old snow. On shady slopes in particular, small snowdrift accumulations usually overlay a weak old snowpack, which now consists mainly of faceted crystals or deep rime."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in avalanche danger.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-03T16:00:00Z",
+        "endTime" : "2026-02-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "W", "NW", "N", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "0e5062eb-d28f-49d1-8e7a-93119da49662",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Loferer and Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Kitzbühel Alps Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-02T16:00:00Z",
+      "endTime" : "2026-02-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Brisk to strong southerly winds blow in the mountains. Visibility is often good, mostly clouds over the peaks. Temperatures at 2000 metres around 2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger and lack of snow",
+      "comment" : "The avalanche risk is low. There is very little snow, only in the entrance areas to steep, on shady slopes can there be pillows of wind drifted snow. Otherwise, the danger of injury from stones and falling on icy surfaces outweighs the risk of burial."
+    },
+    "snowpackStructure" : {
+      "comment" : "On shady slopes and flat ground, traces of settled new fallen snow or thin wind slabs cover the previously apery meadows or icy old snow surface. Edged persistent weak layers weaken the thin snow base, fundament if present."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in avalanche danger.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-03T16:00:00Z",
+        "endTime" : "2026-02-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "7631f9b1-587b-4f3e-8e12-d3f52e165fc2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps South",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Tricky combination of prone to triggering and persistent weak layer"
+    }
+  }
+}
