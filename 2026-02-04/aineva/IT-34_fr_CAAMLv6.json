@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-04T23:00:00Z",
+      "endTime" : "2026-02-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "La neige fraîche constitue le danger principal.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neige fraîche doit être évaluée avec précaution à toutes les expositions.",
+      "comment" : "Il est tombé en général au-dessus d'environ 1500 m en général de 40 à 70 cm de neige. La neige fraîche peut facilement être déclenchée, ou glisser spontanément à toutes les expositions. Avec l'intensification des chutes de neige des avalanches sèches de moyenne taille sont à attendre surtout dans les régions concernées par les précipitations principales. Les conditions en dehors des pistes sont dangereuses."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neige fraîche repose sur du givre de surface au-dessus de la limite de la forêt. Les profils de neige et les tests de stabilité ont confirmé la structure défavorable du manteau neigeux. Des couches fragiles profondes dans le manteau neigeux ne sont que difficilement identifiables. La partie inférieure du manteau neigeux a subi une métamorphose constructive à grains anguleux et est fragile. Des avalanches peuvent être déclenchées très facilement dans les couches plus profondes du manteau neigeux. Des avalanches de glissement isolées peuvent également se déclencher pendant la nuit ou le matin."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-05T23:00:00Z",
+        "endTime" : "2026-02-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "SW", "SE", "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "SW", "SE", "N", "NE", "NW", "E", "W" ]
+    } ],
+    "bulletinID" : "c06e1068-43fb-40f6-9d5a-126c9f7b347a",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
