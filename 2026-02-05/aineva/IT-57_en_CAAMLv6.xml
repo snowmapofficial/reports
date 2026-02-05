@@ -1,0 +1,66 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="623dea62-160a-4c91-8a86-8534433d88a4" lang="en">
+    <publicationTime>2026-02-05T05:58:06Z</publicationTime>
+    <validTime>
+      <startTime>2026-02-04T23:00:00Z</startTime>
+      <endTime>2026-02-05T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>true</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1800</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wind_slab</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>N</aspect>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Wind slabs represent the main danger.</highlights>
+      <comment>As a consequence of a moderate wind from westerly directions, wind slabs will form since Wednesday. In the course of the day the previously small wind slabs will increase in size once again. The avalanche prone locations are to be found in particular on northwest to north to northeast facing wind-loaded slopes above approximately 2000 m.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>In some cases the wind slabs have bonded poorly with each other and the old snowpack. They are to be assessed critically.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>increasing</tendencyType>
+      <validTime>
+        <startTime>2026-02-05T23:00:00Z</startTime>
+        <endTime>2026-02-06T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-02-05</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
