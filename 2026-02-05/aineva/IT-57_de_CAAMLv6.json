@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-05T05:58:06Z",
+    "validTime" : {
+      "startTime" : "2026-02-04T23:00:00Z",
+      "endTime" : "2026-02-05T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Triebschnee ist die Hauptgefahr.",
+      "comment" : "Mit mäßigem Wind aus westlichen Richtungen entstehen seit Mittwoch Triebschneeansammlungen. Im Tagesverlauf wachsen die zuvor kleinen Triebschneeansammlungen nochmals an. Die Gefahrenstellen liegen vor allem an Triebschneehängen der Expositionen Nordwest über Nord bis Nordost oberhalb von rund 2000 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Triebschneeansammlungen sind teilweise schlecht miteinander und mit dem Altschnee verbunden. Sie sind kritisch zu beurteilen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-02-05T23:00:00Z",
+        "endTime" : "2026-02-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "NE", "E" ]
+    } ],
+    "bulletinID" : "623dea62-160a-4c91-8a86-8534433d88a4",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
