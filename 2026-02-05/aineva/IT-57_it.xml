@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-02-05T05:58:06Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="623dea62-160a-4c91-8a86-8534433d88a4" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-02-05T05:58:06Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-02-04T23:00:00Z</beginPosition>
+          <endPosition>2026-02-05T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-57-AP-01"/>
+      <locRef xlink:href="IT-57-MC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-02-05T23:00:00Z</beginPosition>
+                <endPosition>2026-02-06T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>La neve ventata è la principale fonte di pericolo.</avActivityHighlights>
+          <avActivityComment>Con vento moderato proveniente dai quadranti occidentali da mercoledì si formeranno accumuli di neve ventata. Nel corso della giornata gli accumuli di neve ventata, prima piccoli, cresceranno ulteriormente. I punti pericolosi si trovano soprattutto sui pendii carichi di neve ventata esposti da nord ovest a nord sino a nord est al di sopra dei 2000 m circa.</avActivityComment>
+          <snowpackStructureComment>Il legame tra i vari accumuli di neve ventata e quello tra gli accumuli di neve ventata e la neve vecchia è in parte sfavorevole. Essi devono essere valutati con spirito critico.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
