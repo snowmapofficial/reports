@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-04T23:00:00Z",
+      "endTime" : "2026-02-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "La neve fresca rappresenta la principale fonte di pericolo.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve fresca deve essere valutata con attenzione a tutte le esposizioni.",
+      "comment" : "In molte regioni sono caduti diffusamente da 40 a 70 cm di neve al di sopra dei 1500 m circa. La neve fresca può facilmente subire un distacco provocato o spontaneo a tutte le esposizioni. Con l'intensificarsi delle nevicate, soprattutto nelle regioni più colpite dalle precipitazioni sono previste valanghe asciutte di medie dimensioni. Le condizioni al di fuori delle piste sono pericolose."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neve fresca poggia su brina superficiale al di sopra del limite del bosco. I profili stratigrafici e i test di stabilità hanno confermato la sfavorevole struttura del manto nevoso. Gli strati deboli presenti nella profondità del manto nevoso sono individuabili solo con difficoltà. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Le valanghe possono subire un distacco molto facilmente negli strati più profondi del manto nevoso. Isolate valanghe per scivolamento di neve possono distaccarsi anche durante la notte o al mattino."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-05T23:00:00Z",
+        "endTime" : "2026-02-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "SW", "SE", "N", "NE", "NW", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "SW", "SE", "N", "NE", "NW", "E", "W" ]
+    } ],
+    "bulletinID" : "c06e1068-43fb-40f6-9d5a-126c9f7b347a",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
