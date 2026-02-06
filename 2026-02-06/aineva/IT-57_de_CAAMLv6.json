@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-06T13:52:57Z",
+    "validTime" : {
+      "startTime" : "2026-02-05T23:00:00Z",
+      "endTime" : "2026-02-06T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Feuchte Schneebrettlawinen sind ab dem Vormittag möglich. Zudem sind an Südost-, Süd- und Westhängen einige kleine und mittlere Schneebrettlawinen möglich. Besonders ungünstig sind eher schneearme Stellen, wo Schwachstellen im Altschnee vorhanden sind.",
+      "comment" : "Mit dem Auffrischen des Windes steigt die Auslösebereitschaft von feuchten Schneebrettlawinen vor allem an sehr steilen Hängen oberhalb von rund 1900 m rasch an. Die Schneeoberfläche kühlt in der bedeckten Nacht kaum ab und weicht schon am Vormittag auf. An sehr steilen Nordwest-, Nord- und Osthängen und oberhalb von rund 1900 m sind mit dem starken Westwind einzelne kleine und vereinzelt mittlere feuchte Schneebrettlawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Altschneedecke ist abbauend umgewandelt. Die Wetterbedingungen führten an allen Expositionen unterhalb von rund 1800 m zu einer deutlichen Aufweichung der Schneedecke. Diese Bedingungen verursachen vor allem oberhalb von rund 1800 m eine sehr schnelle Zunahme der Gefahr von feuchten Lawinen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-06T23:00:00Z",
+        "endTime" : "2026-02-07T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "E", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SW", "SE", "S" ]
+    } ],
+    "bulletinID" : "788df3e6-9517-4835-b858-ebfba5127f45",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
