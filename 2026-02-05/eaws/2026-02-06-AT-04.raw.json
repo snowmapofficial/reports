@@ -1,0 +1,90 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-05T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-05T16:00:00Z",
+      "endTime" : "2026-02-06T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Tuesday will bring foehn and dry weather with some high clouds moving through. However, visibility is often quite good. In addition, there is usually a lively south-foehn wind, blowing quite strongly to gale force, especially in the high alpine locations of the Dachstein and Totem Mountains. However, the wind will slowly die down during the afternoon. Temperatures at 1500 m around 5 degrees, at 2000 m around 1 degree.\nOn Wednesday, there will often be a few high cloud fields, which will only allow the sun to shine through temporarily in the morning. Mostly it will remain dry, visibility will often be diffuse. At 1500 m around 2 degrees, at 2000 m around -1 degree."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Persistent weak layer problem in the high altitudes!",
+      "comment" : "The avalanche risk is low. There are still avalanche prone locations due to the constant problem of old snow, especially in the high areas on the north and shady slopes. In places, slab avalanches can be triggered by just one person in steep terrain. Avalanche prone locations are mainly adjacent to ridgelines and behind terrain edges. These are somewhat covered and therefore difficult to recognise."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow base, fundament contains faceted crystals without bonds, which are mainly transformed on the north and on shady slopes. The old snowpack, weakened as a result, is often hard on the surface and covered by a thin settled layer. Only in very exposed areas could there be some older wind slab on a small scale. In general, there is little snow, which is very unevenly distributed."
+    },
+    "tendency" : [ {
+      "highlights" : "No change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-06T16:00:00Z",
+        "endTime" : "2026-02-07T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "E", "NW", "NE" ]
+    } ],
+    "bulletinID" : "274dc236-4b92-43c5-a756-874d919efa2e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "The persistent weak layer problem must still be taken into account!"
+    }
+  }
+}
