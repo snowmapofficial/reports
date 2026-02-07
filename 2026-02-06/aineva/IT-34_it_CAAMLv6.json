@@ -1,0 +1,104 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-06T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-06T23:00:00Z",
+      "endTime" : "2026-02-07T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli accumuli di neve ventata dell'ultima settimana rappresentano la principale fonte di pericolo.",
+      "comment" : "In molti punti si sono formati accumuli di neve ventata facilmente distaccabili. Gli accumuli di neve ventata si trovano soprattutto nelle zone in prossimità delle creste, nelle conche e nei canaloni. I punti pericolosi si trovano soprattutto sui pendii carichi di neve soffiata esposti in tutte le direzioni al di sopra dei 1900 m circa come pure nelle zone di passaggio da poca a molta neve."
+    },
+    "snowpackStructure" : {
+      "comment" : "La neve fresca dell'ultima settimana poggia su brina superficiale al di sopra del limite del bosco. I profili stratigrafici e i test di stabilità hanno confermato la sfavorevole struttura del manto nevoso. Gli strati deboli presenti nella profondità del manto nevoso sono individuabili solo con difficoltà. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Le valanghe possono subire un distacco molto facilmente negli strati più profondi del manto nevoso. Isolate valanghe per scivolamento di neve possono distaccarsi anche durante la notte o al mattino."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-07T23:00:00Z",
+        "endTime" : "2026-02-08T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "N", "E", "S", "NE", "W", "NW", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "N", "E", "S", "NE", "W", "NW", "SE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "E", "S", "W", "SE" ]
+    } ],
+    "bulletinID" : "a59bae5b-d138-40cc-8acd-128f23a52f8f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
