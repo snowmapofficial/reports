@@ -1,0 +1,352 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In the mountains, the last snow episode saw a significant amount of new snow. Wetter snow fell below about 1800 m, while lower down it snowed partly and rained partly. More dangerous are places where southerly winds have built up large snow drifts. In these places, we can trigger snowdrifts with a light load in particular. In shaded areas, there is a weak layer deep in the snowpack which can be a danger, especially on the axial sides.\nIn the mountains, there will be more clear weather, with a relatively high zero isotherm at around 1600 m. At altitudes below about 1800 m, the danger of wet snow avalanches will increase during the day on the Sunny slopes. Danger also exists from steep cliffs and on steep grassy slopes, gliding avalanches are possible.",
+        "highlights": "New fallen snow in the high alpine regions; wet snow avalanches in clearer weather."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "NE",
+            "E",
+            "NW",
+            "SE",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "E",
+            "NW",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "NE",
+            "E",
+            "NW",
+            "SE",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "E",
+            "NW",
+            "W",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "d05af614-e977-4bad-88ba-5b9f090b11be",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "highlights": "The current snowpack pattern is uncommon and requires special attention and caution!",
+      "lang": "en",
+      "publicationTime": "2026-02-07T16:29:50+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The last two-day snow episode has seen a lot of New fallen snow in the high alpine regions, with up to 10 cm of New fallen snow expected by morning. Below about 1800 m, the snow is moist and well bonded throughout the snowpack. Higher up, the snow is drier. South winds have built up new large drifts on the leeward sides of the ridges. There is a weak layer deep below the surface in the Old snow cover, which can be a problem in high alpine regions on the axial sides."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The snowpack in the high alpine regions is only slowly transforming, while in the mid-mountains it is transforming faster. Mostly cloudy weather with occasional showers will continue early next week.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2026-02-08T16:00:00+00:00",
+            "endTime": "2026-02-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-07T16:00:00+00:00",
+        "endTime": "2026-02-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Mostly cloudy and partly foggy. Light showers, partly showers. The snowfall level will be between 1200 and 1400 m above altitudes. Winds will be mainly from the north. Temperatures will be around 1 \u00b0C at 1500 m and -6 \u00b0C at 2500 m."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "In the mountains, the last two-day snow episode has seen a significant amount of new snow above about 1500 m. Lower down, it snowed partly (wetter snow) and rained partly.  Winds from the south and south-east have built up snow drifts on the leeward sides, which can be a danger.",
+        "highlights": "More new fallen snow in the highest parts of the Central Mountains"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "S",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "0811f4a8-2722-4a76-a226-d141067f6ef2",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-08"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "Increased amount of new snow in the highest parts of the mid-mountains, snowdrift accumulations",
+      "lang": "en",
+      "publicationTime": "2026-02-07T16:29:50+00:00",
+      "regions": [
+        {
+          "regionID": "SI-9",
+          "name": "Southern Julian Prealps"
+        },
+        {
+          "regionID": "SI-11",
+          "name": "Eastern Julian Prealps"
+        },
+        {
+          "regionID": "SI-16",
+          "name": "Javornik Hills and Sne\u017enik Plateau"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snow cover, which was mostly sparse, received 50-60 cm of new fallen snow above an altitude of around 1500 m, and more locally, especially in the south of the country.  The snow is moist throughout the snowpack and is already fairly well bonded to each other. Winds from the south and south-east have built up on the leeward sides of the ridges.\nThere will be more clear weather in the mountains, with the zero isotherm at the level of the highest mountains. On sunny grassy slopes, the danger of wet snow avalanches will increase during the day, and gliding avalanches are possible."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The snowpack is stabilized and the danger of avalanches will be reduced.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2026-02-08T16:00:00+00:00",
+            "endTime": "2026-02-09T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-07T16:00:00+00:00",
+        "endTime": "2026-02-08T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Cloudy and foggy in parts, breaking in the high alpine regions. Mostly dry. Moderate south-westerly winds in the morning, weakening during the day. Temperatures will be around 1 \u00b0C at 1500 m and -4 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
