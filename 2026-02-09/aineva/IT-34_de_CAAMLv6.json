@@ -1,0 +1,94 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-09T18:09:36Z",
+    "validTime" : {
+      "startTime" : "2026-02-09T23:00:00Z",
+      "endTime" : "2026-02-10T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Triebschneeansammlungen der letzten Woche bilden die Hauptgefahr.",
+      "comment" : "Verbreitet entstanden leicht auslösbare Triebschneeansammlungen. Die Triebschneeansammlungen liegen vor allem in Kammlagen, Rinnen und Mulden. Die Gefahrenstellen liegen vor allem an Triebschneehängen aller Expositionen oberhalb von rund 1900 m sowie an Übergängen von wenig zu viel Schnee."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Neuschnee der letzten Woche liegt oberhalb der Waldgrenze auf Oberflächenreif. Schwachschichten tief in der Schneedecke sind nur schwer erkennbar. Der untere Teil der Schneedecke ist kantig aufgebaut und schwach. Lawinen können auch in tieferen Schichten ausgelöst werden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-10T23:00:00Z",
+        "endTime" : "2026-02-11T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "SE", "N", "NW", "NE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "SE", "N", "NW", "NE", "S", "SW", "W" ]
+    } ],
+    "bulletinID" : "b9f6fe06-c2c9-4a80-bb8e-38126a6cc6c1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
