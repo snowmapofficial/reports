@@ -1,0 +1,142 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As the penetration by moisture increases medium-sized and, in isolated cases, large gliding avalanches are to be expected below approximately 2500 m. <br/> Low altitudes and steep sunny slopes: Even during the day small to medium-sized moist snow slides are possible. In particular very steep shady slopes areas where the snow cover is rather shallow: Moist avalanches can in isolated cases be triggered in the old snowpack. <br/> <br/> High altitudes: As a consequence of new snow and a light to moderate westerly wind, precarious wind slabs formed adjacent to ridgelines and in pass areas. Some small and medium-sized avalanches are to be expected. They can be released by people or triggered naturally.",
+        "highlights": "Gliding avalanches and moist snow slides. Wind slabs at elevated altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "upperBound": "2500"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2500"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "S",
+            "W",
+            "SW",
+            "NW",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2500"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "61dfce12-9c4c-4272-8552-0948a8c72363",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-11"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-11T07:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Tuesday: Medium-sized and, in isolated cases, large moist avalanches have been released as the moisture increases. <br/> <br/> Wednesday: The weather will be partly cloudy. The surface of the snowpack will only just freeze and will soften during the day. High altitudes: The wind will transport only a little snow. <br/> <br/> Large-grained weak layers exist in the bottom section of the old snowpack in particular on shady slopes. At intermediate altitudes there are 120 to 200 cm of snow, and even more in some localities."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Thursday: Slight increase in danger of dry and moist avalanches as a consequence of the precipitation.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-11T16:00:00+00:00",
+            "endTime": "2026-02-12T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-10T16:00:00+00:00",
+        "endTime": "2026-02-11T16:00:00+00:00"
+      }
+    }
+  ]
+}
