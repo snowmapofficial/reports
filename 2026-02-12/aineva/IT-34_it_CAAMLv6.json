@@ -1,0 +1,95 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-12T23:00:00Z",
+      "endTime" : "2026-02-13T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli strati deboli molto pronunciati presenti nella neve vecchia rappresentano la principale fonte di pericolo. La neve ventata richiede attenzione.",
+      "comment" : "Gli strati deboli presenti nella neve vecchia sono insidiosi. In alcuni punti le valanghe possono subire un distacco negli strati più profondi del manto nevoso e raggiungere dimensioni medie. Esse possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve sono campanelli di allarme. I punti pericolosi sono piuttosto frequenti e difficilmente individuabili anche da parte dell'escursionista esperto. <br/> In molti punti si sono formati accumuli di neve ventata facilmente distaccabili. Gli accumuli di neve ventata si trovano soprattutto nelle zone in prossimità delle creste, nelle conche e nei canaloni. I punti pericolosi si trovano soprattutto sui pendii carichi di neve soffiata esposti in tutte le direzioni al di sopra dei 1900 m circa come pure nelle zone di passaggio da poca a molta neve. Soprattutto sui pendii molto ripidi e nelle conche e nei canaloni sono possibili valanghe di medie dimensioni. <br/> In molte regioni nelle ultime ore sono caduti sino a 5 cm di neve al di sopra dei 1500 m circa, localmente anche di più. <br/> Si raccomandano distanze di scarico e discese singole. Sono necessarie esperienza e prudenza. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "La neve fresca dell'ultima settimana poggia su brina superficiale al di sopra del limite del bosco. Gli strati deboli presenti nella profondità del manto nevoso sono individuabili solo con difficoltà. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Le valanghe possono subire un distacco anche negli strati più profondi del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-13T23:00:00Z",
+        "endTime" : "2026-02-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "W", "E", "NE", "SW", "NW", "S" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SE", "W", "E", "NE", "SW", "NW", "S" ]
+    } ],
+    "bulletinID" : "014355e3-8c6e-4cd3-a07a-96361fe64c56",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
