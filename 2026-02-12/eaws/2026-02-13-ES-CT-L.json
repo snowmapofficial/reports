@@ -1,0 +1,127 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Today the wind was strong to storm force over a wide area. The northwesterly wind has transported the new snow significantly. As a consequence of a light to moderate wind from southerly directions, further wind slabs will form from late morning adjacent to ridgelines and in pass areas as well as above the tree line. Fresh and somewhat older wind slabs are to recognise and can be released easily. In particular at high altitudes and in high Alpine regions the avalanches are in many cases medium-sized. Very steep shady slopes areas where the snow cover is rather shallow: Additionally avalanches can be released in the old snowpack and reach large size. <br/> In addition a latent danger of gliding avalanches exists.",
+        "highlights": "The wind slabs represent the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "NW",
+            "S",
+            "SW",
+            "W",
+            "E",
+            "N",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "NW",
+            "S",
+            "SW",
+            "E",
+            "W",
+            "N",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2300"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "b742826d-b78a-48a6-a7ac-f73464695849",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-12T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "ES-CT-L-02",
+          "name": "Southern limit of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-03",
+          "name": "South slope of Aran"
+        },
+        {
+          "regionID": "ES-CT-L-01",
+          "name": "North and center of Aran"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Some snow will fall on Friday especially at the southern border of Aran. The weather will be cloudy over a wide area. The southerly wind will transport the snow. <br/> <br/> Over a wide area wind slabs are lying on an icy crust. Large-grained weak layers exist in the bottom section of the old snowpack in particular on shady slopes. At intermediate altitudes there are 100 to 180 cm of snow, and even more in some localities."
+      },
+      "source": {
+        "provider": {
+          "name": "CLA",
+          "website": "https://lauegi.report/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Saturday: Gradual increase in danger of dry avalanches as a consequence of new snow and strong wind.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-02-13T16:00:00+00:00",
+            "endTime": "2026-02-14T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-12T16:00:00+00:00",
+        "endTime": "2026-02-13T16:00:00+00:00"
+      }
+    }
+  ]
+}
