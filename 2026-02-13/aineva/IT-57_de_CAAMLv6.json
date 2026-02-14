@@ -1,0 +1,128 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-13T23:00:00Z",
+      "endTime" : "2026-02-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schneebrettlawinen sind die Hauptgefahr.",
+      "comment" : "Besonders ungünstig sind Triebschneehänge, wo Schwachstellen im Altschnee vorhanden sind. Lawinen können vor allem mit großer Belastung ausgelöst werden. In Kammlagen, Rinnen und Mulden sind kleine und mittlere Schneebrettlawinen möglich. Heimtückisch sind vor allem Übergänge von wenig zu viel Schnee."
+    },
+    "snowpackStructure" : {
+      "comment" : "Unterhalb von rund 1800 m liegt nur wenig Schnee. In Rinnen und Mulden oberhalb von rund 1800 m liegt viel Schnee. In den letzten Tagen entstanden vor allem in Rinnen, Mulden und hinter Geländekanten teils dicke Triebschneeansammlungen. Der Triebschnee liegt stellenweise auf einer harten Kruste. Leichter Schneefall oberhalb von rund 1600 m: Im Tagesverlauf entstehen v.a. in Kammlagen, Rinnen und Mulden weitere Triebschneeansammlungen. Diese sind meist klein."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-14T23:00:00Z",
+        "endTime" : "2026-02-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    } ],
+    "bulletinID" : "4ffc7424-6ef9-43a0-935f-69db0522d897",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-13T23:00:00Z",
+      "endTime" : "2026-02-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neuschnee in hohen Lagen.",
+      "comment" : "An sehr steilen Hängen sind kaum Lockerschneelawinen möglich, aber meist nur kleine."
+    },
+    "snowpackStructure" : {
+      "comment" : "Wenig Neuschnee oberhalb von rund 1500 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-14T23:00:00Z",
+        "endTime" : "2026-02-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    } ],
+    "bulletinID" : "09cddfd9-86e8-48ba-b0d4-e9777f7b5572",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
