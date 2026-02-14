@@ -1,0 +1,128 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-13T23:00:00Z",
+      "endTime" : "2026-02-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches de plaque de neige sont le danger principal.",
+      "comment" : "Ce sont les pentes où la neige soufflée s'est accumulée où des endroits fragiles sont présents dans la neige ancienne qui sont particulièrement défavorables. Des avalanches peuvent être déclenchées surtout avec une surcharge importante. Des avalanches de plaque de neige de petite et moyenne taille sont possibles à proximité des crêtes, dans les combes et couloirs. Ce sont surtout les transitions entre les endroits peu enneigés et les endroits très enneigés qui sont traîtres."
+    },
+    "snowpackStructure" : {
+      "comment" : "En dessous d'environ 1800 m il n'y a que peu de neige. Dans les combes et couloirs au-dessus d'environ 1800 m il y a beaucoup de neige. Des accumulations de neige soufflée en partie épaisses se sont formées dans les derniers jours surtout dans les combes, couloirs et derrière les ruptures de terrain. La neige soufflée repose par endroits sur une croûte dure. Chutes de neige légères au-dessus d'environ 1600 m: Des accumulations de neige soufflée supplémentaires se forment en cours de journée surtout à proximité des crêtes, dans les combes et couloirs. Celles-ci sont généralement petites."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-14T23:00:00Z",
+        "endTime" : "2026-02-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    } ],
+    "bulletinID" : "4ffc7424-6ef9-43a0-935f-69db0522d897",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-13T23:00:00Z",
+      "endTime" : "2026-02-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige fraîche à haute altitude.",
+      "comment" : "Sur les pentes très raides des avalanches de neige meuble ne sont presque pas possibles, mais en général uniquement de petite taille."
+    },
+    "snowpackStructure" : {
+      "comment" : "Neige fraîche très peu épaisse au-dessus d'environ 1500 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-02-14T23:00:00Z",
+        "endTime" : "2026-02-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "SE", "SW", "W", "S", "NW", "E", "N" ]
+    } ],
+    "bulletinID" : "09cddfd9-86e8-48ba-b0d4-e9777f7b5572",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
