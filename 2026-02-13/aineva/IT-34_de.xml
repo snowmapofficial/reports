@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-02-13T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="95a239c2-75c1-4ab4-baa6-a11c368687b1" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-02-13T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-02-13T23:00:00Z</beginPosition>
+          <endPosition>2026-02-14T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-02-14T23:00:00Z</beginPosition>
+                <endPosition>2026-02-15T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Ausgeprägte Schwachschichten im Altschnee sind die Hauptgefahr. Triebschnee beachten.</avActivityHighlights>
+          <avActivityComment>Am Samstag fallen verbreitet oberhalb von rund 1800 m 10 bis 20 cm Schnee, lokal auch mehr. Einige meist kleine spontane Lawinen sind nicht ausgeschlossen. Der Wind bläst verbreitet stark. Verbreitet entstehen flächige Triebschneeansammlungen. Diese entstehen vor allem in Kammlagen, Rinnen und Mulden. Die Gefahrenstellen liegen vor allem an Triebschneehängen aller Expositionen oberhalb von rund 1900 m sowie an Übergängen von wenig zu viel Schnee. &lt;br/&gt; Schwachschichten im Altschnee sind heimtückisch. Die Lawinen können stellenweise in tiefen Schichten ausgelöst werden und mittlere Größe erreichen. Sie können schon von einzelnen Wintersportlern ausgelöst werden. Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen. Die Gefahrenstellen sind recht häufig und auch für Geübte kaum zu erkennen. Vor allem an sehr steilen Schattenhängen sind mittlere und vereinzelt große Lawinen möglich. &lt;br/&gt; Vor allem an sehr steilen Hängen und in Rinnen und Mulden sind mittlere Lawinen möglich. &lt;br/&gt; Entlastungsabstände und Einzelabfahrten werden empfohlen. Erfahrung und Zurückhaltung sind nötig.</avActivityComment>
+          <snowpackStructureComment>Der Neuschnee der letzten Woche liegt oberhalb der Waldgrenze auf Oberflächenreif. Schwachschichten tief in der Schneedecke sind nur schwer erkennbar. Der untere Teil der Schneedecke ist kantig aufgebaut und schwach. Lawinen können auch in tieferen Schichten ausgelöst werden.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
