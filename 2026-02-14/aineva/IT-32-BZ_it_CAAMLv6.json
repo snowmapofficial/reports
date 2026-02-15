@@ -1,0 +1,218 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-14T23:00:00Z",
+      "endTime" : "2026-02-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve ventata e alla neve vecchia con strati deboli persistenti.",
+      "comment" : "Principalmente nelle zone poco frequentate, gli strati deboli molto pronunciati presenti nella neve vecchia possono distaccarsi facilmente in seguito al passaggio di un singolo appassionato di sport invernali. Sono possibili distacchi a distanza. I pendii ombreggiati ripidi e poco frequentati dovrebbero essere possibilmente evitati. Le valanghe sono per lo più di dimensioni medie. Attenzione soprattutto sui pendii ripidi esposti a ovest, nord ed est al di sopra del limite del bosco. I punti pericolosi sono difficili da individuare. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve così come nuove valanghe sono campanelli di allarme che rimandano a questo pericolo. <br/> <br/> I nuovi accumuli di neve ventata e quelli meno recenti sono instabili, principalmente nelle conche, nei canaloni e dietro ai cambi di pendenza al di sopra dei 2200 m circa. Essi sono ben individuabili dall'escursionista esperto. <br/> <br/> È consigliata prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "Durante la notte cadrà un po' di neve. Con vento forte proveniente dai quadranti settentrionali principalmente nelle conche e nei canaloni si formeranno accumuli di neve ventata instabili. Gli accumuli di neve ventata meno recenti poggiano in parte su brina di superficie. <br/> <br/> Al di sopra del limite del bosco: Il manto nevoso è instabile. All'interno del manto di neve vecchia si trovano pronunciati strati fragili. Ciò soprattutto sui pendii esposti a ovest, nord ed est."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Gli strati deboli presenti nella neve vecchia rappresentano la principale fonte di pericolo. È opportuna prudenza. <br/> <br/> Con neve fresca e vento, aumento del pericolo di valanghe, soprattutto nelle aree nord occidentali. Soprattutto nelle aree settentrionali e nelle aree nord occidentali lunedì cadranno da 10 a 20 cm di neve. Gli accumuli di neve ventata per lo più di piccole dimensioni degli ultimi giorni verranno in parte innevati e saranno quindi difficilmente individuabili.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-15T23:00:00Z",
+        "endTime" : "2026-02-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP8" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "W", "N", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "NW", "E", "W", "SE", "N", "S", "NE" ]
+    } ],
+    "bulletinID" : "8ec06ffa-01a9-43ab-b114-2d6c552be340",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Dolomiti di Gardena",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Dolomiti di Sesto",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Alta Valle Aurina",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Alpi della Zillertal meridionali",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Val di Vizze",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Gruppo Sesvenna meridionale",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Cresta di Senales",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Gruppo Sesvenna settentrionale",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Gruppo Saldura-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Gruppo della Punta Cervina",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Monti di Fundres occidentali",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Gruppo della Cima San Giacomo",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Monti di Fundres orientali",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Racines",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Gruppo della Cima Dura",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Vallelunga",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Catena delle Vedrette di Ries",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpi dello Stubai meridionali",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Alpi del Defereggen occidentali",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Gruppo dell'Ortles",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Val d'Ultimo",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Monti di Pianol",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Dolomiti di Braies",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Alta Val Passiria",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Gruppo Tessa",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-14T23:00:00Z",
+      "endTime" : "2026-02-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata e la neve vecchia con strati deboli persistenti richiedono attenzione.",
+      "comment" : "Le valanghe possono distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali. Ciò specialmente sui pendii ombreggiati ripidi nelle zone in prossimità delle creste, nelle conche e nei canaloni al di sopra del limite del bosco. <br/> Con il vento a tratti forte proveniente da nord, si formeranno nuovi accumuli di neve ventata. Questi ultimi sono in parte instabili. Le valanghe sono in parte di dimensioni medie. <br/> <br/> Oltre al pericolo di seppellimento, occorre fare attenzione soprattutto al pericolo di trascinamento e caduta. Le escursioni richiedono una grande attenzione e la massima prudenza. È presente poca neve rispetto alla media stagionale."
+    },
+    "snowpackStructure" : {
+      "comment" : "All'interno del manto di neve vecchia si trovano strati fragili a cristalli sfaccettati. Gli accumuli di neve ventata nuovi e meno recenti poggiano su una sfavorevole superficie del manto di neve vecchia in quota. <br/> <br/> Alle quote di bassa e media montagna: Il manto nevoso è umido, con una crosta da rigelo a malapena portante in superficie."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Moderato pericolo di valanghe.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-15T23:00:00Z",
+        "endTime" : "2026-02-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "E", "N", "NE" ]
+    } ],
+    "bulletinID" : "2181fe88-43e6-4488-95e6-10d8ec084a73",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpi Sarentine meridionali",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Costiera di Luson",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Alpi della Val di Non orientali",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomiti di Fiemme settentrionali",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
