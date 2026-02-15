@@ -1,0 +1,218 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-14T23:00:00Z",
+      "endTime" : "2026-02-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Triebschnee und schwachem Altschnee.",
+      "comment" : "Ausgeprägte Schwachschichten im Altschnee können besonders im selten befahrenen Gelände von einzelnen Wintersportlern leicht ausgelöst werden. Fernauslösungen sind möglich. Steile, wenig befahrene Schattenhänge sollten möglichst umgangen werden. Lawinen sind meist mittelgroß. Vorsicht vor allem an steilen West-, Nord- und Osthängen oberhalb der Waldgrenze. Die Gefahrenstellen sind schwer zu erkennen. Wummgeräusche und Risse beim Betreten der Schneedecke sowie frische Lawinen sind Alarmzeichen und weisen auf die Gefahr hin. <br/> <br/> Frische und schon etwas ältere Triebschneeansammlungen sind störanfällig, v.a. in Rinnen, Mulden und hinter Geländekanten oberhalb von rund 2200 m. Sie sind für Geübte gut erkennbar. <br/> <br/> Zurückhaltung ist angebracht."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Nacht fällt etwas Schnee. Mit starkem Wind aus nördlichen Richtungen entstehen besonders in Rinnen und Mulden störanfällige Triebschneeansammlungen. Schon etwas ältere Triebschneeansammlungen liegen teilweise auf Oberflächenreif. <br/> <br/> Oberhalb der Waldgrenze: Die Schneedecke ist störanfällig. In der Altschneedecke sind ausgeprägte Schwachschichten vorhanden. Dies vor allem an West-, Nord- und Osthängen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Schwachschichten im Altschnee sind die Hauptgefahr. Zurückhaltung ist sinnvoll. <br/> <br/> Anstieg der Lawinengefahr mit Neuschnee und Wind, besonders im Nordwesten. Am Montag fallen vor allem im Norden und im Nordwesten 10 bis 20 cm Schnee. Die meist kleinen Triebschneeansammlungen der letzten Tage werden teils überschneit und damit schwierig zu erkennen.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-15T23:00:00Z",
+        "endTime" : "2026-02-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP8" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "E", "W", "N", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "NW", "E", "W", "SE", "N", "S", "NE" ]
+    } ],
+    "bulletinID" : "8ec06ffa-01a9-43ab-b114-2d6c552be340",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-14T23:00:00Z",
+      "endTime" : "2026-02-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Triebschnee und schwachen Altschnee beachten.",
+      "comment" : "Lawinen können von einzelnen Wintersportlern ausgelöst werden. Dies besonders an steilen Schattenhängen in Kammlagen, Rinnen und Mulden oberhalb der Waldgrenze. <br/> Mit teils starkem Nordwind entstehen frische Triebschneeansammlungen. Diese sind teils störanfällig. Lawinen sind teilweise mittelgroß. <br/> <br/> Nebst der Verschüttungsgefahr sollte vor allem die Mitreiß- und Absturzgefahr beachtet werden. Touren erfordern große Vorsicht und Zurückhaltung. Es liegt für die Jahreszeit wenig Schnee."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Altschneedecke sind kantig aufgebaute Schwachschichten vorhanden. Die frischen und älteren Triebschneeansammlungen liegen in der Höhe auf einer ungünstigen Altschneeoberfläche. <br/> <br/> Tiefe und mittlere Lagen: Die Schneedecke ist feucht, mit einer kaum tragfähigen Schmelzharschkruste an der Oberfläche."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Mäßige Lawinengefahr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-15T23:00:00Z",
+        "endTime" : "2026-02-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "E", "N", "NE" ]
+    } ],
+    "bulletinID" : "2181fe88-43e6-4488-95e6-10d8ec084a73",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
