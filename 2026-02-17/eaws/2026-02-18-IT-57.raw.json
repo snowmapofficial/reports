@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-17T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-17T23:00:00Z",
+      "endTime" : "2026-02-18T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Slab avalanches are the main danger.",
+      "comment" : "Wind-loaded slopes where weaknesses exist in the old snowpack are especially unfavourable. Avalanches can be released, even by a single winter sport participant. Adjacent to ridgelines and in gullies and bowls medium-sized and, in isolated cases, large slab avalanches are possible. Mostly small natural avalanches are possible below approximately 1800 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Below approximately 1800 m only a little snow is lying. In gullies and bowls above approximately 1800 m a lot of snow is lying. In the last few days sometimes deep wind slabs formed in particular in gullies and bowls and behind abrupt changes in the terrain. In some places wind slabs are lying on a hard crust."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-18T23:00:00Z",
+        "endTime" : "2026-02-19T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "N", "NE", "E", "SW", "NW", "W", "S" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "N", "NE", "E", "SW", "NW", "W", "S" ]
+    } ],
+    "bulletinID" : "ad25ea1f-bcad-4792-b987-512518dbdf63",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
