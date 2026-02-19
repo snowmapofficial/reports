@@ -1,0 +1,111 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T16:00:00Z",
+      "endTime" : "2026-02-19T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Thursday, widespread clouds will increasingly limit the sunshine and visibility. It may also snow a little at times. It will cool down, in 1500 metres the temperature will drop from 1 degree to -3 degrees from morning to evening, in 2000 metres from 0 degrees to around -4 degrees. In the open high-altitude areas, southerly winds will blow at around 40 km/h.\nUp to 20 cm of new fallen snow is expected from Thursday evening until Friday morning!\nOn Friday, it will be cloudy at first and it may snow a little until midday. In the afternoon it will be mostly dry and it will soften up. At an altitude of 1500 metres it will be -7 degrees, at 2000 metres -10 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution - easily triggered loads!",
+      "comment" : "The avalanche risk is considerable above the tree line in some areas. In the eastern sector, on the south and north sides, there are prone-to-triggering avalanches in some areas, which can be triggered as medium slab avalanches in filled-in steep slopes, in blown-in steep bowls and gullies even with low additional loads. The hard-to-recognise individual avalanche prone locations due to the persistent weak layer problem in northern to eastern steep slopes remain unchanged. Here, snow slabs can also be triggered by individuals. This is the case both in drifts and in persistent weak layers. In areas with a lot of new fallen snow, naturally triggered avalanches are also possible in steep terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "With the strong, sometimes stormy and changing winds, older and fresh drifts that are prone to triggering are increasingly present at higher altitudes in many aspects and are poorly bonded to the old snowpack. In the higher elevations, this also contains largely unchanged faceted crystals close to the ground on the north and shady slopes, some of which are floating snow. The snowpack is still very unevenly distributed, even at higher altitudes there is only a little snow, often the last new fallen snow lies on bare ground."
+    },
+    "tendency" : [ {
+      "highlights" : "In the coming days, too, it is essential to watch out for wind slabs, some of which are covered, and the persistent weak layer problem.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-19T16:00:00Z",
+        "endTime" : "2026-02-20T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "SE", "E", "NW", "S", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "E", "NW", "NE" ]
+    } ],
+    "bulletinID" : "3cd39100-9b5d-4833-a53e-e07797825cc2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "More new fallen snow - watch out for wind slab and local persistent weak layer problems!"
+    }
+  }
+}
