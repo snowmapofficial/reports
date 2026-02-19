@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T23:00:00Z",
+      "endTime" : "2026-02-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fallen lokal bis zu 50 cm Schnee, lokal auch mehr. Im Tagesverlauf wird oberhalb von rund 1800 m die Gefahrenstufe 4, \"groß\" erreicht.",
+      "comment" : "Mit Neuschnee und teils starkem Wind entstehen an allen Expositionen flächige Triebschneeansammlungen. Mit dem Neuschnee nehmen Anzahl und Größe der Gefahrenstellen im Tagesverlauf zu. Der Neuschnee wird auf eine schwache Altschneedecke abgelagert. Die Gefahrenstellen liegen vor allem an Triebschneehängen aller Expositionen oberhalb von rund 1800 m sowie an Übergängen von wenig zu viel Schnee. <br/> Schwachschichten im Altschnee sind heimtückisch. Die Lawinen können stellenweise in tiefen Schichten ausgelöst werden und groß werden. Besonders an sehr steilen Schattenhängen sind teils große Lawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Am Donnerstag fallen lokal oberhalb von rund 1600 m bis zu 50 cm Schnee, lokal auch mehr. Der Neuschnee wird auf eine schwache Altschneedecke abgelagert. Mit Neuschnee und teils starkem Südwind entstehen an allen Expositionen störanfällige Triebschneeansammlungen. Beobachtungen im Gelände und Schwachschichten im Altschnee sind Hinweise für die vor allem in den Hauptniederschlagsgebieten schlechte Stabilität der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-19T23:00:00Z",
+        "endTime" : "2026-02-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 4,
+      "aspects" : [ "SW", "NE", "W", "E", "NW", "N", "SE", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "W", "E", "NW", "N", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "W", "E", "NW", "N", "SE", "S" ]
+    } ],
+    "bulletinID" : "df783347-a8e6-4866-9ecd-d8a8e7c0c877",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
