@@ -1,0 +1,347 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T16:00:00Z",
+      "endTime" : "2026-02-19T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "The drifting snow situation is still tricky.",
+      "comment" : "The avalanche risk is considerable above the tree line in the morning and increases to high during the daytime changes, below it it is moderate. The main problem is wind slab avalanches. Slab avalanches can easily be triggered by individual winter sports enthusiasts or detach themselves. Avalanche prone locations are adjacent to ridgelines and distant from ridgelines on steep slopes of all aspects, behind slope discontinuities and in gullies and bowls, as well as in forest aisles and clearings. They increase in number and size with altitude. Above 1800 m, avalanches on very steep shady slopes can also tear through to deeper weak layers in the old snowpack and become large, especially in the afternoon with the renewed snowfall. Cracks when stepping on the snowpack and booming noises indicate the danger.\n\nSmall to medium-sized, spontaneous loose snow avalanches are possible from the steep terrain interspersed with rocks. Individual gliding avalanches are also possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "There has been up to half a metre of new fallen snow in the last few days. The snow was transported by stormy winds from westerly directions and extensive snowdrift accumulations prone to triggering have formed. They lie on soft layers of snow, graupel or surface hoar. In the upper part of the old snowpack, prone to triggering layers are embedded in thin layers of harsh snow in places. Above 1800 m, on shady slopes, there are deeper weak layers of faceted crystals in the snowpack. The snow depths vary greatly across the terrain due to the strong winds."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche situation remains tense.",
+      "validTime" : {
+        "startTime" : "2026-02-19T16:00:00Z",
+        "endTime" : "2026-02-20T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "433f96bf-53c2-44b1-8b61-197a77bbfacd",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T16:00:00Z",
+      "endTime" : "2026-02-19T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avoid prone to triggering wind slab!",
+      "comment" : "The avalanche risk is considerable above the tree line and moderate below it. The main problem is wind slab. Slab avalanches can easily be triggered with little additional load. Avalanche prone locations are adjacent to ridgelines and distant from ridgelines on steep slopes of all aspects, behind slope discontinuities and in gullies and bowls, sometimes also in forest aisles and clearings. They increase in number and size with altitude. Avalanches reach medium size. Cracks when stepping on the snowpack indicate danger.\n\nAbove 1800 m, avalanches on very steep shady slopes can also occasionally tear through to deeper weak layers in the old snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "It has snowed around 30 centimetres in the last few days, even more in congested areas. The snow was transported extensively by stormy winds from westerly directions. The fresh and older snowdrift accumulations are prone to triggering. They lie on soft layers of snow, graupel or surface hoar. In the upper part of the old snowpack, layers prone to triggering are embedded in thin layers of harsh snow in places. Above 1800 m, on shady slopes, there are deeper weak layers of faceted crystals in the snowpack. The snow depths vary greatly across the terrain due to the strong winds."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche situation remains tense.",
+      "validTime" : {
+        "startTime" : "2026-02-19T16:00:00Z",
+        "endTime" : "2026-02-20T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "e46c13fe-f0fa-4c14-b4a2-fb82ae5352df",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T16:00:00Z",
+      "endTime" : "2026-02-19T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Snowdrift accumulations are easy to trigger.",
+      "comment" : "The avalanche risk is considerable above the tree line and low below it. The main problem is wind slab avalanches. Slab avalanches can be triggered even with a small additional load. Avalanche prone locations are adjacent to ridgelines and distant from ridgelines on steep slopes of all aspects, behind slope discontinuities and in gullies and bowls, but also occasionally in forest aisles and clearings. They increase in number and size with altitude. Avalanches reach medium size above the tree line. Cracks in the snowpack indicate the danger.\nAbove 1800 m, avalanches on very steep shady slopes can also tear through to deeper weak layers in the old snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "It has snowed around 10-20 centimetres in the last few days, even more in congested areas. The snow has been heavily transported by stormy winds from the west. The fresh and older snowdrift accumulations are prone to triggering. They lie on soft layers of snow or surface hoar. In the upper part of the old snowpack, layers prone to triggering are embedded in thin layers of harsh snow in places. Above 1800 m, on shady slopes, there are deeper weak layers of faceted crystals in the snowpack. The snow depths vary greatly across the terrain due to the strong winds."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche situation remains tense.",
+      "validTime" : {
+        "startTime" : "2026-02-19T16:00:00Z",
+        "endTime" : "2026-02-20T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "W", "SW", "S", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "16bc12a1-d24d-453f-a2dc-b78f68851aa7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Dangerous wind slabs at all altitudes"
+    }
+  }
+}
