@@ -1,0 +1,146 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-18T23:00:00Z",
+      "endTime" : "2026-02-19T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Ab dem Morgen fällt gebietsweise viel Schnee. Touren und Variantenabfahrten erfordern große Zurückhaltung.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neu- und Triebschnee bilden die Hauptgefahr. Abseits gesicherter Pisten verbreitet sehr heikle Lawinensituation.",
+      "comment" : "Es fallen lokal verbreitet 30 bis 50 cm Schnee, lokal auch mehr. Neu- und Triebschnee werden vor allem an steilen Schattenhängen oberhalb der Waldgrenze auf eine schwache Altschneedecke abgelagert. Der teilweise stürmische Wind verfrachtet den Neuschnee, besonders in mittleren und hohen Lagen sowie in Rinnen, Mulden und hinter Geländekanten in der Höhe. An sehr steilen Hängen muss mit spontanen Lawinen gerechnet werden. Die Lawinen sind meist mittelgroß und leicht auslösbar. Sie können mit geringer Belastung ausgelöst werden. Die Lawinen können stellenweise bis auf den Boden durchreißen und groß werden. Fernauslösungen sind möglich. Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen und weisen auf die Gefahr hin. Die Gefahrenstellen sind häufig und auch für Geübte kaum zu erkennen. Touren erfordern eine überlegte Routenwahl."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen verbreitet verbreitet 30 bis 50 cm Schnee, lokal auch mehr. <br/> Der teilweise stürmische Wind verfrachtet den Neuschnee. An allen Expositionen entstehen Triebschneeansammlungen. Neu- und Triebschnee überlagern eine schwache Altschneedecke. Im unteren Teil der Altschneedecke sind ausgeprägte Schwachschichten vorhanden. Dies vor allem an West-, Nord- und Osthängen oberhalb der Waldgrenze. <br/> Die Schneedecke bleibt allgemein störanfällig."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Schneedecke bleibt verbreitet instabil. Die Lawinengefahr bleibt bestehen.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-19T23:00:00Z",
+        "endTime" : "2026-02-20T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "NE", "W", "E", "NW", "N", "SE", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "W", "E", "NW", "N" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "W", "E", "NW", "N", "SE", "S" ]
+    } ],
+    "bulletinID" : "87b03daa-93c7-4859-8573-0a72f58c5417",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Südlicher Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Prealpi",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Nördliche Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Cimberntal",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone und Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarse",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Westliche Nonsberger Alpen",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Lavarone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Südliche Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Fassatal",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Südliche Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Sole, Pejo und Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Ledrotal",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Nördliche Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Fersental",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
