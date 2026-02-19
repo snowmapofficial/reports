@@ -1,0 +1,112 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Wind-loaded slopes where weaknesses exist in the old snowpack are especially unfavourable. Avalanches can be released, even by a single winter sport participant. Adjacent to ridgelines and in gullies and bowls medium-sized and, in isolated cases, large slab avalanches are possible. Mostly small natural avalanches are possible below approximately 1800 m.",
+        "highlights": "Slab avalanches are the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "5341bf25-37a9-4c80-9516-be9a89551157",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-19"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-18T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-57-AP-01",
+          "name": "Monti Sibillini Ovest"
+        },
+        {
+          "regionID": "IT-57-MC-01",
+          "name": "Appennino Fabrianese"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 20 cm of snow will fall above approximately 1500 m. The wind will be strong to storm force. In gullies and bowls above approximately 1800 m a lot of snow is lying. In the last few days sometimes deep wind slabs formed in particular in gullies and bowls and behind abrupt changes in the terrain. In some places wind slabs are lying on a hard crust."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA Marche",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-19T23:00:00+00:00",
+            "endTime": "2026-02-20T23:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-18T23:00:00+00:00",
+        "endTime": "2026-02-19T23:00:00+00:00"
+      }
+    }
+  ]
+}
