@@ -1,0 +1,123 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-19T16:00:00Z",
+      "endTime" : "2026-02-20T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Around 25 cm of new fallen snow is expected from Thursday evening until around midday on Friday,\nOn Friday afternoon, the clouds may break up a little and allow the sun to shine at times. The wind will continue to pick up during the daytime changes and will be strong to stormy at times. At midday it will be -7 degrees at 1500 metres and -9 degrees at 2000 metres.\nOn Saturday it will snow from early in the morning, at times heavily. The snowfall level will rise to around 1000 metres during the day changes. The wind will continue to pick up around the north-west and become stormy. At midday at 1500 m -2 degrees and at 2000 m -5 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution! Slab avalanches can easily be triggered!",
+      "comment" : "The avalanche risk is considerable above the tree line and moderate in places below.  Due to new fallen snow and increasing winds during the day changes, there will be more wind slabs. This means that almost all aspects are prone to triggering drift snow. The number of avalanche prone locations increases sharply above the tree line, and in places there are also some below. Medium-sized slab avalanches can be triggered by even a small additional load. There are also individual avalanche prone locations that are difficult to recognise due to the persistent weak layer problem in northern to eastern steep slopes. This means that slab avalanches can also tear through this weak layer (persistent weak layer problem). Steep terrain should be avoided. With the increase in new and wind slab snow, spontaneous slab avalanches and loose snow avalanches from steep terrain are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Around 25 cm of new fallen snow is expected by midday on Friday. In addition, the wind speed will increase during the daytime changes on Friday. This means there will be fresh wind slab again. The drift snow packs may contain weak layers (thin crusts), will not bond sufficiently with the old snowpack and will lie on a weak snow base, fundament. In the higher elevations, faceted crystals close to the ground and partly floating snow are embedded in the old snowpack, largely unchanged on the north and shady slopes."
+    },
+    "tendency" : [ {
+      "highlights" : "Tense avalanche situation at the weekend. There will be new fallen snow and stormy winds again on Saturday. More wind slab will be added.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-20T16:00:00Z",
+        "endTime" : "2026-02-21T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "E", "NW", "S", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "N", "E", "S", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "E", "NW", "NE" ]
+    } ],
+    "bulletinID" : "3a436c20-0dfe-4dbc-8f61-99dca42b35f7",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Significant risk of slipping - new fallen snow, increasing wind, more fresh wind slab!"
+    }
+  }
+}
