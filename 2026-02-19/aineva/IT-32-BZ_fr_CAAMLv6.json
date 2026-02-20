@@ -1,0 +1,317 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-19T23:00:00Z",
+      "endTime" : "2026-02-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Pour des sports d'hiver en dehors des pistes sécurisées les conditions sont très dangereuses. Des déclenchements à distance et des avalanches spontanées sont à attendre.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "En dehors des pistes sécurisées situation avalancheuse très dangereuse. Le danger concerne surtout les terrains alpins de sports d'hiver.",
+      "comment" : "Des accumulations de neige soufflée sont très fragiles à toutes les expositions au-dessus de la limite de la forêt, prudence également dans la zone de la limite de la forêt. Des avalanches peuvent être déclenchées dans les couches du manteau neigeux proches de la surface. <br/> En outre, des avalanches peuvent aussi se déclencher dans les couches du manteau neigeux proches du sol et sur les pentes exposées à l'ouest, au nord et à l'est atteindre une grande taille. Des bruits sourds et des fissures lors du passage sur le manteau neigeux ainsi que des avalanches récentes sont des signes d'alarme qui attirent l'attention sur le danger. Des déclenchements à distance sont possibles. <br/> <br/> Des avalanches spontanées sont toujours à attendre avec le foehn de nord fort à tempétueux. Ceci à partir des zones de départ très raides sous le vent, surtout au pied des parois rocheuses et derrière les ruptures de terrain. <br/> <br/> Des avalanches de neige meuble de petite et moyenne taille sont possibles sur les pentes très raides."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis jeudi il est tombé de 20 à 40 cm de neige. Vendredi le vent souffle fortement à tempétueusement. <br/> Le vent transporte la neige fraîche. Des accumulations de neige soufflée supplémentaires se forment. <br/> <br/> En général le manteau neigeux est fragile. La neige fraîche et la neige soufflée reposent sur une couche fragile de neige ancienne. Des accumulations déjà plus anciennes de neige soufflée reposent sur du givre de surface. Dans la partie inférieure du manteau neigeux ancien des couches fragiles importantes sont présentes. Ceci surtout sur les pentes exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Les conditions en dehors des pistes sont très dangereuses. Des couches fragiles dans la neige ancienne constituent le danger principal.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-20T23:00:00Z",
+        "endTime" : "2026-02-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NE", "E", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SW", "E", "S", "NW", "N", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SW", "E", "S", "NW", "N", "SE" ]
+    } ],
+    "bulletinID" : "fe7e93b2-67f5-48be-82ae-befa6466e21e",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-19T23:00:00Z",
+      "endTime" : "2026-02-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Il faut s'attendre à des avalanches spontanées.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Situation avalancheuse très dangereuse. Le danger concerne surtout les terrains alpins de sports d'hiver.",
+      "comment" : "La neige fraîche abondante et les accumulations de neige soufflée très larges se formant avec le vent d'ouest fort sont très fragiles à toutes les expositions au-dessus de la limite de la forêt. De tels endroits dangereux se situent aussi dans la zone de la limite de la forêt. <br/> <br/> Avec la neige fraîche et le vent jusque pendant la nuit des avalanches spontanées sont à attendre. Des avalanches peuvent parfois entraîner avec elles les couches plus profondes du manteau neigeux et atteindre une grande taille. Ceci sur les pentes exposées à l'ouest, au nord et à l'est. <br/> <br/> Avec la fin des chutes de neige l'activité des avalanches spontanées diminue lentement. Avec le vent de nord-ouest fort à tempétueux des avalanches spontanées sont toujours possibles surtout dans les régions concernées par le foehn. Prudence surtout dans les zones de départ sous le vent."
+    },
+    "snowpackStructure" : {
+      "comment" : "Jusqu'à la matinée il tombera dans certaines régions de 10 à 20 cm de neige. Le vent souffle modérément à fortement. Le vent souffle parfois tempétueusement surtout dans les Alpes de Zillertal méridionales et les Hohe Tauern et le long de la frontière avec le Haut-Adige. Le vent transporte la neige fraîche. Des accumulations de neige soufflée supplémentaires se forment. <br/> <br/> En général le manteau neigeux est fragile. La neige fraîche et la neige soufflée reposent sur une couche fragile de neige ancienne. Des accumulations déjà plus anciennes de neige soufflée reposent sur du givre de surface. Dans la partie inférieure du manteau neigeux ancien des couches fragiles importantes sont présentes. Ceci surtout sur les pentes exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tombe un peu de neige dans certaines régions. La pluie entraîne à basse et moyenne altitude un ramollissement du manteau neigeux. Des accumulations de neige soufflée supplémentaires se forment avec le vent de secteur ouest partiellement tempétueux samedi. <br/> Les conditions pour les sports de neige en dehors des pistes sécurisées restent très dangereuses. Des avalanches peuvent être déclenchées très facilement. Des avalanches spontanées sont toujours possibles.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-20T23:00:00Z",
+        "endTime" : "2026-02-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NE", "E", "NW", "N" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NE", "SW", "E", "S", "NW", "N", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SW", "E", "S", "NW", "N", "SE" ]
+    } ],
+    "bulletinID" : "c08f5347-251a-4c25-8317-a5363f3b2c7e",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-19T23:00:00Z",
+      "endTime" : "2026-02-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige récemment soufflée à évaluer de manière critique. Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée.",
+      "comment" : "Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée par des amateurs de sports d'hiver isolés, spécialement sur les itinéraires rarement fréquentés. Prudence surtout sur les pentes raides exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt. Les endroits dangereux sont difficilement identifiables. Des avalanches sont généralement de taille moyenne. <br/> <br/> En outre les accumulations de neige soufflée sont partiellement encore fragiles dans les combes, couloirs et derrière les ruptures de terrain. De tels endroits dangereux se situent sur les pentes exposées au nord, à l'est et au sud-est au-dessus de la limite de la forêt. <br/> <br/> Une certaine retenue est appropriée."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depuis jeudi il est tombé de 10 à 20 cm de neige, localement plus. Jusqu'à la matinée il tombera dans certaines régions de 10 à 20 cm de neige. Le vent souffle localement fortement à tempétueusement. <br/> Le vent parfois tempétueux transporte la neige fraîche. Des accumulations de neige soufflée en partie fragiles se forment. <br/> <br/> Le manteau neigeux est parfois fragile. La neige fraîche et la neige soufflée reposent sur une couche fragile de neige ancienne. Ceci surtout sur les pentes exposées à l'ouest, au nord et à l'est au-dessus de la limite de la forêt."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Des couches fragiles dans la neige ancienne constituent le danger principal.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-20T23:00:00Z",
+        "endTime" : "2026-02-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP8" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "E", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "NE", "SW", "E", "S", "SE", "NW", "N" ]
+    } ],
+    "bulletinID" : "0ec39f73-e6cc-4e2c-8947-6961fe526e81",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
