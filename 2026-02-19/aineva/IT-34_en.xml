@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-02-19T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="9ce57654-8abf-46d8-9691-05fb80fd1f0e" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-02-19T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-02-19T23:00:00Z</beginPosition>
+          <endPosition>2026-02-20T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>4</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>new snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>gliding snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validElevation xlink:href="ElevationRange_1600Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-02-20T23:00:00Z</beginPosition>
+                <endPosition>2026-02-21T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>In some localities up to 50 cm of snow has fallen. As a consequence of new snow and wind a high avalanche danger will prevail.</avActivityHighlights>
+          <avActivityComment>The new snow is lying on the unfavourable surface of an old snowpack. As a consequence of new snow and a sometimes strong wind, large surface-area wind slabs formed in all aspects. The avalanche prone locations are to be found in particular on wind-loaded slopes of all aspects above approximately 1800 m and at transitions from a shallow to a deep snowpack. &lt;br/&gt; Weak layers in the old snowpack are treacherous. In some places the avalanches can be triggered in deep layers of the snowpack and reach large size.</avActivityComment>
+          <snowpackStructureComment>New snow at low altitude. In some localities up to 50 cm of snow has fallen. In some regions up to 30 cm of snow has fallen above approximately 600 m. The new snow is lying on top of a weakly bonded old snowpack. As a consequence of new snow and a sometimes strong northwesterly wind, avalanche prone wind slabs will form in all aspects. Field observations and weak layers in the old snowpack indicate poor snowpack stability.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
