@@ -1,0 +1,375 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Thursday night and Friday will see more snow in the mountains, with the snow line decreasing. On Friday, snow will be heavier in the east of the Alps. Spontaneous avalanches will continue to occur in the high alpine regions. We advise against visiting the high alpine regions in the current conditions!\nModerate to strong winds from the north will build up larger snowdrift accumulations on the leeward sides. More dangerous are areas of blowing snow, where a major Avalanche may be triggered. New fallen snow will put additional load on the old snow cover. This may exceed the load-bearing capacity of the deeper Weak layers and trigger a deep and large avalanche. Such weak layers are abundant, especially in the axis above the forest, but are not excluded elsewhere.\nIn parts of the mid-mountains where it has rained, the rain has wetted the snowpack. Some new fallen snow will fall on top of this blanket as the weather cools.",
+        "highlights": "New fallen snow in the high alpine regions, weak layers in the old snow cover."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "E",
+            "N",
+            "SW",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "E",
+            "N",
+            "SW",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "84825073-4eff-4082-8b8a-189bae48555b",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-20"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "high",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "The current snowpack pattern is uncommon and requires special attention and caution!",
+      "lang": "en",
+      "publicationTime": "2026-02-19T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snow cover is made up of layers of bonded snow that are already somewhat compacted and mostly well connected. Deep below the surface, the old snow cover contains several weak layers of shredded and coarse grains.\nThis base will receive 50-80 cm of New fallen snow during this snowfall in the High alpine regions. The snow line was mostly between 1200 m and 1500 m on Thursday, and will be decreasing on Friday."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Snow conditions will remain challenging in the coming days.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-20T16:00:00+00:00",
+            "endTime": "2026-02-21T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-19T16:00:00+00:00",
+        "endTime": "2026-02-20T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Initially still cloudy and foggy with snow showers, which will taper off in the afternoon. Clouds will break up in the afternoon. There will be moderate to strong northerly winds. It will be colder. Temperatures will be around -5 \u00b0C at 1500 m and -9 \u00b0C at 2500 m."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Rain has been falling since Thursday, with rain outside the highest peaks. On Friday night, the precipitation will intensify again, the snow line will drop rapidly and snow will fall to the lowlands.",
+        "highlights": "New fallen snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "SE",
+            "E",
+            "S",
+            "SW",
+            "W",
+            "NW",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "c64e18e9-47c9-4da1-a7f3-2ff9bd1ba73c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-20"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-19T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-5",
+          "name": "Styrian Hills"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "There is little old snow cover, with snow only on the highest peaks. This snowfall will bring 20-40 cm of new fallen snow, possibly more than 50 cm at the top of Pohorje."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The danger of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-20T16:00:00+00:00",
+            "endTime": "2026-02-21T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-19T16:00:00+00:00",
+        "endTime": "2026-02-20T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Initially still cloudy and foggy with snow showers, which will taper off in the afternoon. Clouds will break up in the afternoon. There will be moderate to strong northerly winds. It will be colder. The temperature at 1500 m will be around -5 \u00b0C."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Precipitation has been falling since Thursday, outside the highest peaks in the form of rain, which has soaked the snowpack. As the snowfall level is high, only the highest peaks will be covered with snow.",
+        "highlights": "New fallen snow on the highest peaks"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "SE",
+            "E",
+            "SW",
+            "W",
+            "NW",
+            "S",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "cd975ec2-cfee-4a5f-b741-9e913bd52413",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-20"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1200"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "Increased amount of new snow in the highest parts of the mid-mountains, snowdrift accumulations",
+      "lang": "en",
+      "publicationTime": "2026-02-19T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-9",
+          "name": "Southern Julian Prealps"
+        },
+        {
+          "regionID": "SI-11",
+          "name": "Eastern Julian Prealps"
+        },
+        {
+          "regionID": "SI-16",
+          "name": "Javornik Hills and Sne\u017enik Plateau"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snow cover is made up of layers of bonded snow that are already somewhat compacted and mostly well connected. A depth hoar has formed at the interface between the snowpack and the ground."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The danger of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-20T16:00:00+00:00",
+            "endTime": "2026-02-21T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-19T16:00:00+00:00",
+        "endTime": "2026-02-20T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Initially still cloudy and foggy with snow showers, which will taper off in the afternoon. Clouds will break up in the afternoon. There will be moderate to strong northerly winds. It will be colder. The temperature at 1500 m will be around -5 \u00b0C."
+      }
+    }
+  ]
+}
