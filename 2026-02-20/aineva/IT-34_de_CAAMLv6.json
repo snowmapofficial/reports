@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-20T23:00:00Z",
+      "endTime" : "2026-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Triebschnee meiden. Ausgeprägte Schwachschichten im Altschnee erfordern eine defensive Routenwahl.",
+      "comment" : "Der Wind bläst verbreitet stark. Verbreitet entstehen flächige Triebschneeansammlungen. Die Gefahrenstellen liegen vor allem an Triebschneehängen aller Expositionen oberhalb von rund 1900 m sowie an Übergängen von wenig zu viel Schnee. <br/> Schwachschichten im Altschnee sind heimtückisch. Die Lawinen können stellenweise in tiefen Schichten ausgelöst werden und vereinzelt groß werden. Sie können schon von einzelnen Wintersportlern ausgelöst werden. Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen. Die Gefahrenstellen sind recht häufig und gut zu erkennen. Erfahrung und Zurückhaltung sind nötig. Mit der Sonneneinstrahlung steigt die Gefahr von feuchten Lawinen im Tagesverlauf an."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Neuschnee vom Donnerstag liegt oberhalb der Waldgrenze auf einer ungünstigen Altschneeoberfläche. Vor allem oberhalb von rund 1900 m entstanden teils große Triebschneeansammlungen. Der untere Teil der Schneedecke ist kantig aufgebaut und schwach. Lawinen können auch in tieferen Schichten ausgelöst werden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-21T23:00:00Z",
+        "endTime" : "2026-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "W", "N", "S", "E", "SE", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "E", "NE", "SE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "W", "N", "S", "E", "SE", "NE", "NW" ]
+    } ],
+    "bulletinID" : "64ab00b7-8c6a-4f24-98eb-64175a733d27",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
