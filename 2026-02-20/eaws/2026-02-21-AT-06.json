@@ -1,0 +1,533 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above the tree line and moderate below. Avalanche prone locations are snow-covered slopes of all aspects, in particular the east and south sectors. Particular caution is required behind terrain edges and in entrances to gullies and bowls. Medium-sized slab avalanches can be triggered by individuals in many places. Spontaneous loose snow avalanches can also occur at lower altitudes.",
+        "highlights": "Significant avalanche danger above the tree line! Avalanche prone locations difficult to recognise!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "E",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "E",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "970ac340-e294-4249-8d01-e1f59b4f05fb",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-21"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-20T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-02",
+          "name": "Totes Gebirge South"
+        },
+        {
+          "regionID": "AT-06-01",
+          "name": "Dachsteingebiet"
+        },
+        {
+          "regionID": "AT-06-11",
+          "name": "M\u00fcrzsteger Alpen"
+        },
+        {
+          "regionID": "AT-06-10",
+          "name": "Hochschwabgebiet"
+        },
+        {
+          "regionID": "AT-06-09",
+          "name": "Eisenerzer Alpen"
+        },
+        {
+          "regionID": "AT-06-08-01",
+          "name": "Triebener Tauern"
+        },
+        {
+          "regionID": "AT-06-06",
+          "name": "Rottenmanner Tauern"
+        },
+        {
+          "regionID": "AT-06-04-01",
+          "name": "Schladminger Tauern North"
+        },
+        {
+          "regionID": "AT-06-05",
+          "name": "W\u00f6lzer Tauern North"
+        },
+        {
+          "regionID": "AT-06-03",
+          "name": "Ennstaler Alpen"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 20 cm of new fallen snow was transported by winds from various directions. Fresh drifts will form in the east and south sectors over the course of Saturday. Weak layers are possible both in the fresh wind slabs and in the transition to persistent weak layers. The snow base, fundament is weakened by faceted crystals and floating snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Saturday and Sunday, a warm front will bring thick clouds and plenty of new fallen snow from the main ridge northwards. However, the snowfall level will gradually rise to between 1000 and 1400 metres above sea level.\nLarger, naturally triggered avalanches are also increasingly likely in the northern Alps.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-02-21T16:00:00+00:00",
+            "endTime": "2026-02-22T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-20T16:00:00+00:00",
+        "endTime": "2026-02-21T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The last snow showers will subside on Friday evening and the night will be largely dry. However, the clouds of the next disturbance move in from the north-west after midnight. This warm front will cause dense cloud cover on Saturday and the peaks will quickly become foggy again. Snow will start to fall in the morning and the precipitation will intensify somewhat during the afternoon. The snowfall level will rise from 600 metres to around 1000 metres during the day."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above the tree line and moderate below. Avalanche prone locations are snow-covered slopes of all aspects, in particular east and south. Particular caution is required behind terrain edges and in entrances to gullies and bowls. Medium-sized slab avalanches can be triggered by individuals in many places.",
+        "highlights": "Significant avalanche danger above the tree line! Avalanche prone locations difficult to recognise!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "N",
+            "W",
+            "SW",
+            "S",
+            "NE",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "SE",
+            "N",
+            "NE",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "N",
+            "W",
+            "SW",
+            "S",
+            "NE",
+            "E",
+            "NW"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "7269e478-c5c6-4fb9-a1bd-fe2163c595e3",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-21"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-20T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-08-02",
+          "name": "Gaaler Alpen"
+        },
+        {
+          "regionID": "AT-06-18",
+          "name": "Murberge, Gurktaler Alpen"
+        },
+        {
+          "regionID": "AT-06-07",
+          "name": "W\u00f6lzer Tauern South"
+        },
+        {
+          "regionID": "AT-06-04-02",
+          "name": "Schladminger Tauern South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 30 cm of new fallen snow was transported by winds from various directions. Fresh drifts will form in the east and south sectors over the course of Saturday. Weak layers are possible both in the fresh wind slabs and in the transition to persistent weak layers.  The snow base, fundament is weakened by faceted crystals and floating snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Saturday and Sunday, a warm front will bring thick clouds and plenty of new fallen snow from the main ridge northwards. However, the snowfall level will gradually rise to an altitude of 1000 to 1400 metres.\nIncreasing wet and sliding snow activity is expected from Sunday.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-21T16:00:00+00:00",
+            "endTime": "2026-02-22T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-20T16:00:00+00:00",
+        "endTime": "2026-02-21T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The last snow showers will subside on Friday evening and the night into Saturday will be largely dry. It will also soften up temporarily. During the course of the day, a warm front will cause increasing cloudiness again, but only a little precipitation in the form of isolated showers is expected south of the main Alpine ridge. The temperature at 2000 metres above sea level will rise from -6 to -3 degrees during the day and there will be strong winds from the northwest that will increase during the daytime changes."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above the tree line and moderate below. Avalanche prone locations are snow-covered slopes of all aspects, in particular east and south. Particular caution is required behind terrain edges and in entrances to gullies and bowls. Medium-sized slab avalanches can be triggered by individuals in many places. At lower altitudes, spontaneous gliding avalanches can occur on steep grassy slopes.",
+        "highlights": "Significant avalanche danger, wind slab problem!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "14209d06-158e-4d74-a4f6-7ac87ac2b596",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-21"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-20T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-17",
+          "name": "Seetaler Alpen"
+        },
+        {
+          "regionID": "AT-06-16",
+          "name": "Koralpe East"
+        },
+        {
+          "regionID": "AT-06-15",
+          "name": "Stub- und Gleinalpe"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 60 cm of new fallen snow was transported by winds from various directions. In the course of Saturday, fresh drifts will form in the east and south sectors. Weak layers are possible both in the fresh wind slabs and in the transition to persistent weak layers.  The snow base, fundament is weakened by faceted crystals and floating snow. On steep meadow slopes, the snow can begin to glide."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "validTime": {
+            "startTime": "2026-02-21T16:00:00+00:00",
+            "endTime": "2026-02-22T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-20T16:00:00+00:00",
+        "endTime": "2026-02-21T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The last snow showers will subside on Friday evening and the night into Saturday will be largely dry. It will also soften up temporarily. During the course of the day, a warm front will cause increasing cloudiness again, but only a little precipitation in the form of isolated showers is expected south of the main Alpine ridge. The temperature at 2000 metres above sea level will rise from -6 to -3 degrees during the day and there will be strong winds from the northwest that will increase during the daytime changes."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above the tree line and low below. Avalanche prone locations are snow-covered slopes of all aspects, in particular east and south. Take particular care behind terrain edges and in entrances to gullies and bowls. Medium-sized slab avalanches can be triggered by a single person in many places. At lower elevations, spontaneous gliding avalanches can occasionally occur on steep grassy slopes.",
+        "highlights": "Significant avalanche danger above the tree line!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "921ba788-3d87-4534-bba2-5f84c489eae8",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-21"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "highlights": "Little new fallen snow.",
+      "lang": "en",
+      "publicationTime": "2026-02-20T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-13",
+          "name": "Fischbach Alps East, Wechselgebiet"
+        },
+        {
+          "regionID": "AT-06-12",
+          "name": "M\u00fcrztaler Alpen"
+        },
+        {
+          "regionID": "AT-06-14",
+          "name": "Fischbach Alps West, Grazer Bergland"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Up to 40 cm of new fallen snow was transported by winds from various directions. In the course of Saturday, fresh drifts will form in the east and south sectors. Weak layers are possible both in the fresh wind slabs and in the transition to persistent weak layers. Where there is a snow base, fundament, it is crusted can form and hard.  On steep meadow slopes, the snow can begin to glide."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Saturday and Sunday, a warm front will bring thick clouds and plenty of new fallen snow from the main ridge northwards. However, the snowfall level will gradually rise to an altitude of 1000 to 1400 metres.\nIncreasing wet and sliding snow activity is expected from Sunday.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-21T16:00:00+00:00",
+            "endTime": "2026-02-22T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-20T16:00:00+00:00",
+        "endTime": "2026-02-21T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The last snow showers will subside on Friday evening and the night into Saturday will be largely dry. It will also soften up temporarily. During the course of the day, a warm front will cause increasing cloudiness again, but only a little precipitation in the form of isolated showers is expected south of the main Alpine ridge. The temperature at 2000 metres above sea level will rise from -6 to -3 degrees during the course of the day and there will be a stormy wind from the northwest."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "South-westerly wind during the day - in the afternoon the wind turns to the north-west!"
+    }
+  }
+}
