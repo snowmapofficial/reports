@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-20T23:00:00Z",
+      "endTime" : "2026-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs are to be avoided. Distinct weak layers in the old snowpack necessitate defensive route selection.",
+      "comment" : "The wind will be strong over a wide area. Over a wide area large surface-area wind slabs will form. The avalanche prone locations are to be found in particular on wind-loaded slopes of all aspects above approximately 1900 m and at transitions from a shallow to a deep snowpack. <br/> Weak layers in the old snowpack are treacherous. In some places the avalanches can be triggered in deep layers of the snowpack and reach large size in isolated cases. They can be released, even by a single winter sport participant. Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack serve as an alarm sign. The avalanche prone locations are quite prevalent and are easy to recognise. Experience and restraint are required. As the day progresses as a consequence of solar radiation there will be an increase in the danger of moist avalanches."
+    },
+    "snowpackStructure" : {
+      "comment" : "The new snow of Thursday is lying on the unfavourable surface of an old snowpack above the tree line. In particular above approximately 1900 m sometimes large wind slabs formed. Towards its base, the snowpack is faceted and weak. Avalanches can be released in deeper layers also."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-21T23:00:00Z",
+        "endTime" : "2026-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "W", "N", "S", "E", "SE", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "E", "NE", "SE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "W", "N", "S", "E", "SE", "NE", "NW" ]
+    } ],
+    "bulletinID" : "64ab00b7-8c6a-4f24-98eb-64175a733d27",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
