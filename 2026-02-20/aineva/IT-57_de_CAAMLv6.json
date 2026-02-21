@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-20T23:00:00Z",
+      "endTime" : "2026-02-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schneebrettlawinen sind die Hauptgefahr.",
+      "comment" : "Besonders ungünstig sind Rinnen und Mulden, wo Schwachstellen im Altschnee vorhanden sind. Lawinen können weiterhin vor allem mit großer Belastung ausgelöst werden und mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten Tagen entstanden vor allem in Rinnen, Mulden und hinter Geländekanten teils dicke Triebschneeansammlungen. In Rinnen und Mulden oberhalb von rund 1800 m liegt viel Schnee. Der Triebschnee liegt stellenweise auf einer harten Kruste."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-02-21T23:00:00Z",
+        "endTime" : "2026-02-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SW", "N", "S", "E", "NE", "SE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "SW", "N", "S", "E", "NE", "SE", "NW" ]
+    } ],
+    "bulletinID" : "18550a8d-28ef-40ba-9ebd-f920c66077c5",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
