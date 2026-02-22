@@ -1,0 +1,265 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-21T23:00:00Z",
+      "endTime" : "2026-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve ventata: la probabilità di provocare valanghe da parte di escursionisti rimane alta, in lieve calo il pericolo di valanghe spontanee. <br/> Temperature miti e favonio: l'attività di valanghe spontanee sia asciutte che bagnate aumenterà già durante la mattinata.",
+      "comment" : "Con vento da forte a tempestoso proveniente dai quadranti nord occidentali negli ultimi giorni si sono formati accumuli di neve ventata instabili. I bacini di alimentazione in quota si sono di nuovo caricati. Con il vento, sino a lunedì gli accumuli di neve ventata cresceranno ulteriormente. Essi possono facilmente subire un distacco provocato o, a livello isolato, spontaneo. Un singolo appassionato di sport invernali può facilmente provocare il distacco di valanghe, attenzione soprattutto nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni. Specialmente qui le valanghe possono coinvolgere la neve vecchia e raggiungere dimensioni piuttosto grandi. <br/> <br/> Con lo zero termico fino a 2800 associato al favonio e all'irradiazione solare, dalla mattinata sono previste valanghe umide e bagnate, a livello isolato anche di grandi dimensioni. Sui pendii soleggiati ripidi il pericolo aumenterà rapidamente. <br/> Per le escursioni e le discese fuori pista, le condizioni sono pericolose. È necessaria una prudente scelta dell'itinerario."
+    },
+    "snowpackStructure" : {
+      "comment" : "Negli ultimi due giorni sono caduti da 5 a 10 cm di neve al di sopra dei 2000 m circa, localmente sino a 20 cm, soprattutto lungo il confine con la Francia. <br/> In molte regioni, fino a lunedì il vento sarà forte. <br/> Il manto nevoso ha una stratificazione sfavorevole. <br/> In queste regioni alle quote medie e alte è presente molta più neve rispetto alla media stagionale. Nelle zone in prossimità delle creste e dei passi l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> Negli ultimi giorni sono cadute alcune valanghe nubiformi di grandi dimensioni e, a livello isolato, di dimensioni molto grandi. Negli ultimi due giorni sono state distaccate in seguito al passaggio di persone isolate valanghe di neve a lastroni di medie e, a livello isolato, di grandi dimensioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe umide e bagnate aumenterà nel corso della giornata.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-22T23:00:00Z",
+        "endTime" : "2026-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "NE", "E", "SE", "N", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 4,
+      "aspects" : [ "S", "NE", "E", "SE", "N", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "W", "SE", "SW" ]
+    } ],
+    "bulletinID" : "a562d3bc-7372-4d1c-8d75-8308e207b62b",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-21T23:00:00Z",
+      "endTime" : "2026-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La principale fonte di pericolo è costituita da valanghe di neve a lastroni. A partire dalla mattinata saranno possibili valanghe umide e bagnate.",
+      "comment" : "Con il favonio da forte a tempestoso proveniente da nord, negli ultimi giorni si sono formati nuovi accumuli di neve ventata. <br/> Attenzione sui pendii molto ripidi e nelle conche, nei canaloni e dietro ai cambi di pendenza. Le valanghe possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. <br/> Gli strati deboli presenti nella neve vecchia richiedono attenzione. Le valanghe possono subire un distacco nella neve vecchia e raggiungere dimensioni piuttosto grandi. Con il rialzo termico, la probabilità di distacco aumenterà. <br/> Sono possibili distacchi a distanza. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve sono campanelli di allarme. <br/> Con lo zero termico fino a 2800 associato al favonio e all'irradiazione solare, già dalla mattinata sono previste valanghe umide e bagnate, a livello isolato anche di grandi dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Negli ultimi giorni sono caduti da 5 a 10 cm di neve al di sopra dei 2000 m circa, localmente anche meno. <br/> Fino a lunedì il vento sarà da moderato a forte. Nelle zone in prossimità delle creste e dei passi l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> Il manto nevoso ha una stratificazione sfavorevole. <br/> Specialmente sui pendii esposti a ovest, nord ed est, all'interno del manto di neve vecchia si trovano strati fragili a cristalli angolari. <br/> Nella giornata di sabato sono state distaccate in seguito al passaggio di persone isolate valanghe di neve a lastroni di medie dimensioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe umide e bagnate aumenterà nel corso della giornata.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-22T23:00:00Z",
+        "endTime" : "2026-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "E", "SE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "W", "SE", "N", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "E", "SE", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "SE", "SW" ]
+    } ],
+    "bulletinID" : "e7a0ecfb-ef98-4525-a578-591ac931ba01",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
