@@ -1,0 +1,111 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-21T16:00:00Z",
+      "endTime" : "2026-02-22T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "The mountains will be mostly covered in clouds on Sunday and it will rain and snow frequently with snowfall levels between around 1400 m and 1700 m. There will be a moderately strong westerly wind, which can reach speeds of around 50 km/h at high altitudes. At 1500 m it will be 2 degrees, at 2000 m 0 degrees.\nOn Monday, there will be plenty of clouds throughout the day, bringing some rain showers and snow showers, especially in the morning. The snowfall level will be around 1400 metres. The showers will become less frequent in the afternoon and a few sunny spells will open up. The westerly wind will pick up noticeably and reach gusts of between 40 and 60 km/h. At 1500 m 1 degree, at 2000 m -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Caution! Snowfall, rain in places, poor visibility and easily triggered wind slab!",
+      "comment" : "The avalanche risk is still considerable above the tree line and moderate below. In all aspects, especially above the tree line, there are prone to triggering drift snow packs that have built up recently. More fresh wind slab snow is being added. Medium to rarely large slab avalanches can be triggered by even small additional loads. Steep terrain should still be avoided. Pay attention to remote triggering. Avalanche prone locations are difficult to recognise. In transitional areas with far too little snow, weak layers in the foundation (persistent weak layer problem) could be addressed. With the milder temperatures, rising snowfall level and thus rainfall, naturally triggered avalanches from the steep terrain must be taken into account."
+    },
+    "snowpackStructure" : {
+      "comment" : "There was and still is new fallen snow and at least strong winds at higher elevations. As a result, drift snow packs have built up that contain weak layers, are poorly bonded to the old snowpack and lie on a weak foundation. In the higher elevations, faceted crystals close to the ground, some of which are floating snow, are largely unchanged on the north and on shady slopes and are embedded in the old snowpack. With the milder temperatures and rain, moisture is being introduced into the snowpack below the snowfall level."
+    },
+    "tendency" : [ {
+      "highlights" : "Unstable weather again with snowfall, rain and wind. The avalanche situation remains precarious.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-22T16:00:00Z",
+        "endTime" : "2026-02-23T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "SW", "E", "NW", "S", "NE", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "SW", "E", "NW", "S", "NE", "N", "W" ]
+    } ],
+    "bulletinID" : "6bf5db5e-5cdc-4823-b57a-997ea65b8ed3",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Significant avalanche danger - easily triggered wind slabs and naturally triggered avalanches!"
+    }
+  }
+}
