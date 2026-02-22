@@ -1,0 +1,265 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-21T23:00:00Z",
+      "endTime" : "2026-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wehschnee: Die Wahrscheinlichkeit, dass Wanderer Lawinen auslösen, bleibt hoch, die Gefahr von spontanen Lawinen nimmt leicht ab. <br/> Milde Temperaturen und Föhn: Die Aktivität von trockenen und nassen Spontancheinbrüchen wird bereits im Laufe des Vormittags zunehmen.",
+      "comment" : "Mit starkem bis stürmischem Wind aus nordwestlichen Richtungen entstanden in den letzten Tagen störanfällige Triebschneeansammlungen. Hoch gelegene Einzugsgebiete wurden wieder aufgefüllt. Mit dem Wind wachsen die Triebschneeansammlungen bis am Montag nochmals an. Sie können leicht ausgelöst werden oder vereinzelt spontan abgleiten. Einzelne Wintersportler können leicht Lawinen auslösen, Vorsicht vor allem an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. Die Lawinen können v.a. dort im Altschnee anreißen und recht groß werden. <br/> <br/> Mit einer Nullgradgrenze bis auf 2800 Meter in Verbindung mit Föhn und Sonneneinstrahlung sind bereits ab dem Vormittag zahlreiche nasse und feuchte Lawinen zu erwarten, vereinzelt auch große. An steilen Sonnenhängen steigt die Gefahr rasch an. <br/> Für Touren und Variantenabfahrten sind die Verhältnisse gefährlich. Eine vorsichtige Routenwahl ist nötig."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten zwei Tagen fielen oberhalb von rund 2000 m 5 bis 10 cm Schnee, lokal bis zu 20 cm, besonders entlang der Grenze zu Frankreich. <br/> Bis Montag bläst der Wind verbreitet stark. <br/> Die Schneedecke ist ungünstig geschichtet. <br/> In diesen Gebieten in mittleren und hohen Lagen liegt für die Jahreszeit viel Schnee. In Kamm- und Passlagen liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. <br/> In den letzten Tagen sind einige große und vereinzelt sehr große Staublawinen abgegangen. In den letzten zwei Tagen wurden vereinzelt mittlere und vereinzelt große Schneebrettlawinen von Personen ausgelöst."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-22T23:00:00Z",
+        "endTime" : "2026-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "NE", "E", "SE", "N", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 4,
+      "aspects" : [ "S", "NE", "E", "SE", "N", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "S", "W", "SE", "SW" ]
+    } ],
+    "bulletinID" : "a562d3bc-7372-4d1c-8d75-8308e207b62b",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-21T23:00:00Z",
+      "endTime" : "2026-02-22T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schneebrettlawinen sind die Hauptgefahr. Feuchte und nasse Lawinen sind ab dem Vormittag möglich.",
+      "comment" : "Mit starkem bis stürmischem Nordföhn entstanden in den letzten Tagen frische Triebschneeansammlungen. <br/> Vorsicht an sehr steilen Hängen und in Rinnen, Mulden und hinter Geländekanten. Lawinen können schon von einzelnen Wintersportlern ausgelöst werden. <br/> Schwachschichten im Altschnee erfordern Vorsicht. Die Lawinen können im Altschnee ausgelöst werden und recht groß werden. Mit der Erwärmung steigt die Auslösebereitschaft an. <br/> Fernauslösungen sind möglich. Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen. <br/> Mit einer Nullgradgrenze bis auf 2800 Meter in Verbindung mit Föhn und Sonneneinstrahlung sind bereits ab dem Morgen feuchte und nasse Lawinen zu erwarten, vereinzelt auch von großem Ausmass."
+    },
+    "snowpackStructure" : {
+      "comment" : "In den letzten Tagen fielen oberhalb von rund 2000 m 5 bis 10 cm Schnee, lokal auch weniger. <br/> Bis Montag bläst der Wind mäßig bis stark. In Kamm- und Passlagen liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. <br/> Die Schneedecke ist ungünstig geschichtet. <br/> In der Altschneedecke sind v.a. an West-, Nord- und Osthängen kantig aufgebaute Schwachschichten vorhanden. <br/> Am Samstag wurden vereinzelt mittlere Schneebrettlawinen von Personen ausgelöst."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-22T23:00:00Z",
+        "endTime" : "2026-02-23T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "E", "SE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "W", "SE", "N", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "E", "SE", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "SE", "SW" ]
+    } ],
+    "bulletinID" : "e7a0ecfb-ef98-4525-a578-591ac931ba01",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
