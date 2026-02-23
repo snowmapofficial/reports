@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-22T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-22T23:00:00Z",
+      "endTime" : "2026-02-23T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata deve essere valutata con attenzione. Con il rialzo termico diurno, nel corso della giornata il pericolo di valanghe umide aumenterà. Gli strati deboli molto pronunciati presenti nella neve vecchia richiedono una prudente scelta dell'itinerario.",
+      "comment" : "A livello locale, il vento sarà a tratti da moderato a forte. Principalmente nelle zone in prossimità delle creste, nelle conche e nei canaloni si sono formati estesi accumuli di neve ventata. I punti pericolosi si trovano soprattutto sui pendii carichi di neve soffiata esposti in tutte le direzioni al di sopra dei 1900 m circa come pure nelle zone di passaggio da poca a molta neve. I punti pericolosi sono facili da individuare. <br/> Gli strati deboli presenti nella neve vecchia richiedono una prudente scelta dell'itinerario. In alcuni punti le valanghe possono subire un distacco negli strati più profondi del manto nevoso e raggiungere dimensioni piuttosto grandi. Esse possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve sono campanelli di allarme. Sono necessarie esperienza e prudenza. Con l'irradiazione solare, nel corso della giornata il pericolo di valanghe umide aumenterà."
+    },
+    "snowpackStructure" : {
+      "comment" : "Soprattutto al di sopra dei 1900 m circa si sono formati accumuli di neve ventata ben visibili. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Le valanghe possono subire un distacco anche negli strati più profondi del manto nevoso. Il sole e il calore causeranno nel corso della giornata soprattutto sui pendii soleggiati molto ripidi al di sotto dei 2300 m circa un inumidimento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-23T23:00:00Z",
+        "endTime" : "2026-02-24T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "SW", "NE", "S", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "W", "SE", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "S", "W", "SE", "E" ]
+    } ],
+    "bulletinID" : "8b45dbc6-a51a-42b3-a2ac-6d4a086fd9d4",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
