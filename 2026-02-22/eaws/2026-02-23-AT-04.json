@@ -1,0 +1,149 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Above the tree line there is still a considerable avalanche risk, below it is moderate. Above the tree line in particular, there are prone-to-triggering drift snow packs that can occur in all aspects. Medium to sometimes large slab avalanches can be triggered by even a small additional load. Steep terrain should therefore be avoided. Avalanche prone locations are mainly adjacent to ridgelines, but also distant from ridgelines, at terrain transitions and in the entrance areas of bowls and gullies. Remote triggering cannot be ruled out. In transition areas where there is too little snow, weak layers in foundations (persistent weak layer problem) could be addressed. Below the snowfall level, spontaneous damp to wet small to medium loose snow avalanches from undischarged steep terrain are to be expected.",
+        "highlights": "Avalanche prone locations due to easily triggered wind slabs and naturally triggered avalanches!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "SW",
+            "E",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "E",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "bc70beb1-6e21-40fe-bdbf-2ecbe6e19e2c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-23"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-22T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengebirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge North"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "With the unstable weather, snowfall of varying intensity and strong to stormy winds from changing directions, extensive snowdrift accumulations have formed, which contain weak layers, do not bond well with the old snowpack and lie on a weak foundation. At high altitudes, the snow base, fundament still contains faceted crystals without binding, especially on the north and shady slopes, and partly floating snow. Up to the middle elevations, the snowpack was at least superficially moist due to rain, below that it is soaked to wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Snowfall again with strong to stormy winds, fresh wind slab above the tree line and rain in some places up to mid-altitude. The avalanche situation remains precarious.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-23T16:00:00+00:00",
+            "endTime": "2026-02-24T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-22T16:00:00+00:00",
+        "endTime": "2026-02-23T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The mountain weather will be windy and changeable on Monday. At first it will rain and snow from dense clouds with snowfall levels around 1700 metres. As the day progresses, the clouds will soften at times with the westerly wind and a few rain and snow showers will pass through from time to time. At high altitudes, the wind will reach speeds of around 70 km/h. Temperatures at 1500 metres will be around 2 degrees, at 2000 metres around -2 degrees.\nIn the second half of Tuesday until midday on Tuesday, there will be snowfall again (around 20 cm, significantly more at higher altitudes) and rain with a snowfall level of around 1200 metres. The precipitation will subside in the afternoon and the initially strong to stormy westerly/north-westerly winds will ease. At 1500 m around -1 degrees and at 2000 m around -4 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "The considerable avalanche risk is still to be observed!"
+    }
+  }
+}
