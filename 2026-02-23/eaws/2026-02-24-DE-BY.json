@@ -1,0 +1,269 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is high above 2000 metres and considerable below that. The main problem is the predicted new fallen snow. Many self-triggering dry slab avalanches are to be expected due to the additional load of the new fallen snow. These can become large at high altitudes. In addition, individual winter sports enthusiasts can trigger avalanches, especially on steep slopes where the snow is bonded by wind. From extremely steep, rocky terrain, the new fallen snow is released in the form of loose snow avalanches.\n\nWet snow is also problematic. Due to the rainfall, gliding avalanches can be expected from very steep terrain with a smooth surface at medium altitudes and wet loose snow avalanches from steep terrain interspersed with rocks. Wet snow avalanches are to be expected on all slopes that have not yet been discharged up to approx. 1800 m and can reach medium size. Open snow mouths indicate avalanche prone locations. Exposed transportation routes can be hit by wet avalanches.",
+        "highlights": "Avalanches release themselves."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "E",
+            "N",
+            "SW",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "E",
+            "N",
+            "SW",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "S",
+            "E",
+            "N",
+            "SW",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "b5adc1e1-43c5-4bd3-90cc-1b5409d0fa23",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-24"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "high",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-23T16:10:09+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snowdrift accumulations can be found in all aspects. At higher altitudes, they often lie on graupel, old surface hoar, soft intermediate layers or in the area of thin crusts on faceted crystals. Above 1800 m, there are weak layers of faceted crystals in the snowpack on shady slopes. Up to around 1800 m, the snowpack becomes soaked through rainfall. At medium altitudes, the base of the snowpack is usually wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche situation remains tense.",
+          "validTime": {
+            "startTime": "2026-02-24T16:00:00+00:00",
+            "endTime": "2026-02-25T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-23T16:00:00+00:00",
+        "endTime": "2026-02-24T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable. The main problem is wet snow. Below 1800 m, gliding avalanches on steep slopes with smooth ground, such as on mountain meadows, in gappy deciduous forests or on rock slabs, release themselves. Staying in areas below glide cracks should be avoided. Wet loose snow avalanches release on slopes that have not yet been discharged, especially in extremely steep terrain. Wet avalanches can reach medium size and hit exposed transportation routes.\n\nIn addition, wind slabs above 1600 m must be taken into account. Medium-sized slab avalanches can be triggered on steep slopes of all aspects by low additional loads.",
+        "highlights": "Wet snow problem at the bottom, wind slab problem at the top"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "SW",
+            "NW",
+            "S",
+            "NE",
+            "N",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "c26eb800-44c9-4128-bf7f-8604a68504c1",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-24"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-23T16:10:09+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Snow falls at higher altitudes with a changing snow line. At medium altitudes, it mainly rains. Here the snowpack is particularly moist on the south side and in the forest down to the ground, below 1500 metres it is completely soaked. With strong westerly winds, the new fallen snow at higher elevations will be extensively transported and will be deposited prone to triggering on the already thick drift snow packs of the last few days. In places, these are lying on graupel or old surface hoar. Above 1800 m, weak layers of faceted crystals can be found on shady slopes at the base of the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche situation remains tense.",
+          "validTime": {
+            "startTime": "2026-02-24T16:00:00+00:00",
+            "endTime": "2026-02-25T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-02-23T16:00:00+00:00",
+        "endTime": "2026-02-24T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "The gliding snow activity increases significantly at medium altitudes!"
+    }
+  }
+}
