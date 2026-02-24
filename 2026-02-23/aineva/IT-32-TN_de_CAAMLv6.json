@@ -1,0 +1,223 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-23T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-23T23:00:00Z",
+      "endTime" : "2026-02-24T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Touren und Variantenabfahrten erfordern große Zurückhaltung.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neu- und Triebschnee bilden die Hauptgefahr. Abseits gesicherter Pisten verbreitet sehr heikle Lawinensituation. Sehr steile Sonnenhänge: Anstieg der Gefahr von nassen Lawinen mit der Erwärmung.",
+      "comment" : "Der teilweise stürmische Wind hat viel Schnee verfrachtet. Oberhalb der Waldgrenze entstanden störanfällige Triebschneeansammlungen, besonders in Kamm- und Passlagen in allen Höhenlagen sowie in Rinnen, Mulden und hinter Geländekanten in der Höhe. <br/> An sehr steilen Sonnenhängen muss mit spontanen mittelgroßen Lawinen gerechnet werden. Die Lawinen können stellenweise bis auf den Boden durchreißen und groß werden. Die trockenen Lawinen sind meist mittelgroß und von einzelnen Wintersportlern auslösbar. <br/> Fernauslösungen sind möglich. Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen und weisen auf die Gefahr hin. <br/> Die Gefahrenstellen sind häufig und auch für Geübte kaum zu erkennen. Touren erfordern eine überlegte Routenwahl."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Donnerstag fielen verbreitet verbreitet 20 bis 40 cm Schnee, lokal bis zu 50 cm. Neu- und Triebschnee überlagern vor allem an steilen Schattenhängen oberhalb der Waldgrenze eine schwache Altschneedecke. Im unteren Teil der Altschneedecke sind ausgeprägte Schwachschichten vorhanden. Die meteorologischen Bedingungen begünstigen an Sonnenhängen eine allmähliche Schwächung der Schneedecke. <br/> Die Schneedecke bleibt verbreitet instabil, besonders in Kamm- und Passlagen in allen Höhenlagen sowie in Rinnen, Mulden und hinter Geländekanten in der Höhe."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Schneedecke bleibt verbreitet störanfällig. Die Lawinengefahr bleibt bestehen. Die Aktivität von nassen Lawinen nimmt allmählich zu.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-24T23:00:00Z",
+        "endTime" : "2026-02-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "E", "SW", "NW", "S", "N", "NE", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NW", "N", "NE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "SW", "S", "W" ]
+    } ],
+    "bulletinID" : "dc3e2752-81bf-4d1b-bc83-a54c672aded7",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Südlicher Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Prealpi",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Nördliche Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Vallarse",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Folgaria - Lavarone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Westliche Nonsberger Alpen",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Südliche Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Fassatal",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo und Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Südliche Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Nördliche Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Ledrotal",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Fersental",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-23T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-23T23:00:00Z",
+      "endTime" : "2026-02-24T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Frischen Triebschnee kritisch beurteilen. Schwachschichten im Altschnee können vereinzelt ausgelöst werden.",
+      "comment" : "Schwachschichten im Altschnee können besonders im selten befahrenen Gelände vereinzelt von einzelnen Wintersportlern ausgelöst werden. Vorsicht vor allem an steilen West-, Nord- und Osthängen oberhalb der Waldgrenze. Die Gefahrenstellen sind schwer zu erkennen. Lawinen sind meist mittelgroß. <br/> <br/> Zudem sind die Triebschneeansammlungen in Rinnen, Mulden und hinter Geländekanten teils noch störanfällig. Solche Gefahrenstellen liegen an Nord-, Ost- und Südosthängen oberhalb der Waldgrenze. <br/> <br/> Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind kleine und mittlere nasse Lawinen möglich. Dies vor allem an sehr steilen Sonnenhängen unterhalb von rund 2200 m. <br/> Zurückhaltung ist angebracht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der teilweise stürmische Wind hat Schnee verfrachtet. Es entstanden teils störanfällige Triebschneeansammlungen. <br/> <br/> Die Schneedecke ist teilweise störanfällig. Neu- und Triebschnee überlagern eine schwache Altschneedecke. Dies vor allem an West-, Nord- und Osthängen oberhalb der Waldgrenze. <br/> Die meteorologischen Bedingungen begünstigen an Sonnenhängen eine allmähliche Schwächung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Schwachschichten im Altschnee sind die Hauptgefahr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-24T23:00:00Z",
+        "endTime" : "2026-02-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "N", "NE", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "N", "NE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "E", "SW", "NW", "S", "N", "NE", "W" ]
+    } ],
+    "bulletinID" : "3d2b8c09-2d1c-4a5f-ab75-a7f16c92cbcf",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Cimberntal",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone und Stivo",
+      "regionID" : "IT-32-TN-03"
+    } ]
+  } ]
+}
