@@ -1,0 +1,287 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-24T16:00:00Z",
+      "endTime" : "2026-02-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avalanches release themselves.",
+      "comment" : "The avalanche risk is high above 1500 metres and considerable below that. The main problem is new fallen snow. Avalanches release themselves and can also become large on snowy slopes at higher altitudes. Self-triggering slab and loose snow avalanches are to be expected at higher altitudes, especially on sunny slopes.\n\nWet snow is also a problem. Many wet avalanches occur at medium altitudes. Gliding avalanches are triggered on steep slopes with smooth ground such as rock slabs, meadows or in deciduous forests. Loose snow avalanches occur on extremely steep terrain.\n\nAvalanches can hit exposed infrastructure."
+    },
+    "snowpackStructure" : {
+      "comment" : "Up to one metre of new fallen snow has fallen in the past 24 hours. At higher altitudes, it lies on a prone-to-triggering old snowpack with embedded graupel, old surface hoar and faceted crystals. Mild temperatures and solar radiation destabilise the snowpack. At medium altitudes, the old snowpack is often damp, below 1500 metres it is completely soaked."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger is slowly decreasing in calm, high-pressure weather.",
+      "validTime" : {
+        "startTime" : "2026-02-25T16:00:00Z",
+        "endTime" : "2026-02-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "E", "SW", "NW", "S", "NE", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "SW", "E", "NW", "S", "NE", "N", "W" ]
+    } ],
+    "bulletinID" : "07ce0cd6-92bd-4a78-916f-f2669c0b4016",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-24T16:00:00Z",
+      "endTime" : "2026-02-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Slab avalanches are easy to trigger!",
+      "comment" : "The avalanche risk is high above 2000 metres and considerable below that. The main problem at this altitude is the large amount of new fallen snow in recent days. Slab avalanches can be triggered by even a small additional load and can become large at higher altitudes. Especially in the sun, avalanches can also release themselves at high altitudes.\n\nWet avalanches are to be expected at medium altitudes in all aspects. Gliding avalanches occur on steep slopes with smooth surfaces such as rock slabs, meadows or in deciduous forests. Loose snow avalanches are more likely to occur on extremely steep, sun-exposed terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Fresh wind slab snow lies on top of the already thick wind slab packs of the last few days. At higher altitudes, these often lie on graupel, old surface hoar or faceted crystals. Mild temperatures and sunlight destabilise the snowpack. At medium altitudes, the snowpack is often damp, below 1500 metres it is completely soaked."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger is slowly decreasing in calm, high-pressure weather.",
+      "validTime" : {
+        "startTime" : "2026-02-25T16:00:00Z",
+        "endTime" : "2026-02-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    } ],
+    "bulletinID" : "fc9acf59-7cd6-4688-8040-b220611ef278",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-24T16:00:00Z",
+      "endTime" : "2026-02-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow problem in all locations.",
+      "comment" : "The avalanche risk is considerable above 1500 metres and moderate below that. The main problem is wet snow. Gliding avalanches detach themselves on steep slopes with smooth ground such as on mountain meadows, in gappy deciduous forest or on rock slabs. Avoid staying in areas below glide cracks. Wet loose snow avalanches detach themselves, especially on south-facing, very steep, extreme terrain.\n\nAttention should also be paid to wind slabs above 1800 metres. Medium-sized slab avalanches can be triggered on steep slopes of all aspects by low additional loads."
+    },
+    "snowpackStructure" : {
+      "comment" : "Fresh wind slab snow lies on top of the already thick wind slab packs of the last few days. In places, these lie on graupel or old surface hoar. Mild temperatures and sunshine are destabilising the snowpack. Above 1800 m, weak layers of faceted crystals can be found on shady slopes at the base of the snowpack. At medium altitudes, the snowpack is often damp, below 1500 m it is completely soaked."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger is slowly decreasing in calm, high-pressure weather.",
+      "validTime" : {
+        "startTime" : "2026-02-25T16:00:00Z",
+        "endTime" : "2026-02-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "S", "E", "N", "SW", "NE", "NW" ]
+    } ],
+    "bulletinID" : "c6e1849e-8ce3-40a0-be78-bfbe4e099b57",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Regional high avalanche danger."
+    }
+  }
+}
