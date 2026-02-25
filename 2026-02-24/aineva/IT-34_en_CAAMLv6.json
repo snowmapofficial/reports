@@ -1,0 +1,107 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-24T23:00:00Z",
+      "endTime" : "2026-02-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Backcountry touring calls for experience in the assessment of avalanche danger.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs and weakly bonded old snow require caution. Very steep sunny slopes: Increase in danger of wet avalanches as a consequence of warming during the day and solar radiation.",
+      "comment" : "Especially adjacent to ridgelines and in gullies and bowls large surface-area wind slabs formed. The avalanche prone locations are to be found in particular on wind-loaded slopes of all aspects above approximately 1900 m and at transitions from a shallow to a deep snowpack. <br/> On steep shady slopes the avalanches can be triggered in deep layers of the snowpack and reach quite a large size. This applies in case of a single winter sport participant. In their paths avalanches can entrain the wet snow. Remotely triggered avalanches are possible. Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack serve as an alarm sign. <br/> As the day progresses as a consequence of warming during the day there will be an increase in the danger of moist and wet avalanches. Backcountry tours should be concluded timely."
+    },
+    "snowpackStructure" : {
+      "comment" : "In particular above approximately 1900 m clearly visible wind slabs formed. <br/> Weak layers exist in the old snowpack in particular on steep north, east and west facing slopes. <br/> Outgoing longwave radiation during the night will be reduced at times. Sunshine and high temperatures will give rise as the day progresses to rapid moistening of the snowpack in particular on very steep sunny slopes below approximately 2400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The danger of moist and wet avalanches will increase.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-25T23:00:00Z",
+        "endTime" : "2026-02-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "E", "NW", "N", "S", "SE", "NE", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "N", "NE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "SW", "S", "SE" ]
+    } ],
+    "bulletinID" : "244469ca-0fa9-43b8-b337-03f8b7868fbd",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
