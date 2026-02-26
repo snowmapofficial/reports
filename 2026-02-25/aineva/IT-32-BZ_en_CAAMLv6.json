@@ -1,0 +1,239 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T23:00:00Z",
+      "endTime" : "2026-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weakly bonded old snow requires caution. The danger of wet avalanches will increase significantly during the day.",
+      "comment" : "Avalanches can be released in the old snowpack and reach large size in isolated cases. This applies even in case of a single winter sport participant. The avalanche prone locations are to be found in particular on steep west, north and east facing slopes above approximately 2000 m. Individual avalanche prone locations are to be found also on steep sunny slopes above approximately 2400 m. Caution is to be exercised in particular in little used terrain, as well as at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. <br/> In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances. Remotely triggered avalanches are possible in isolated cases. <br/> <br/> The no longer entirely fresh wind slabs remain for the foreseeable future prone to triggering in particular on steep west, north and east facing slopes above approximately 2600 m. <br/> <br/> As a consequence of warming during the day and solar radiation wet avalanches are to be expected. This applies in particular on very steep sunny slopes, and at the base of rock walls. The runout zones are to be treated with caution."
+    },
+    "snowpackStructure" : {
+      "comment" : "Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes. <br/> <br/> Outgoing longwave radiation during the night will be good over a wide area. Sunshine and high temperatures will give rise as the day progresses to rapid and thorough wetting of the snowpack. This applies especially on steep sunny slopes below approximately 2400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Steep shady slopes high altitudes and the high Alpine regions: Wind slabs and weakly bonded old snow require caution. <br/> Steep sunny slopes intermediate and high altitudes: The danger of wet avalanches will increase during the day.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-26T23:00:00Z",
+        "endTime" : "2026-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "SW", "SE" ]
+    } ],
+    "bulletinID" : "3c17c09c-328b-4f00-a6fa-277955c2a3c1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T23:00:00Z",
+      "endTime" : "2026-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack can be released in isolated cases. The danger of wet avalanches will increase during the day.",
+      "comment" : "Avalanches can in isolated cases be released in the old snowpack and reach medium size on west, north and east facing slopes. This applies in case of a single winter sport participant. In their paths avalanches can entrain the wet snow. <br/> <br/> As a consequence of warming during the day and solar radiation individual small and medium-sized wet avalanches are to be expected."
+    },
+    "snowpackStructure" : {
+      "comment" : "Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes. <br/> <br/> Outgoing longwave radiation during the night will be good over a wide area. Sunshine and high temperatures will give rise as the day progresses to rapid and thorough wetting of the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Weakly bonded old snow and wet snow require caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-26T23:00:00Z",
+        "endTime" : "2026-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "N", "W", "SW", "E", "SE", "NW", "NE" ]
+    } ],
+    "bulletinID" : "a2e85be8-ab15-43a7-8d1b-26ad58da3fe7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
