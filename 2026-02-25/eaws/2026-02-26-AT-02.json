@@ -1,0 +1,780 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The new snow and wind slabs are lying on top of a weakly bonded old snowpack. Winter sport participants can release avalanches in some places. These can penetrate deep layers and reach large size, especially on west, north and east facing slopes. The avalanche prone locations are to be found on slopes above approximately 1800 m. Individual avalanche prone locations are to be found also on southeast, south and southwest facing slopes above approximately 2800 m. Caution is to be exercised in particular in little used terrain, as well as at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. Remotely triggered avalanches are possible. Whumpfing sounds serve as an alarm indicating the danger. In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances. <br/> <br/> As a consequence of warming during the day and solar radiation more wet avalanches are to be expected as the day progresses. This applies in particular on steep sunny slopes below approximately 2400 m. In particular on steep, rather lightly snow-covered east and west facing slopes the wet avalanches can penetrate even deep layers and reach large size in isolated cases. <br/> <br/> In addition gliding avalanches are possible. This applies especially on cut and grassy slopes below approximately 2400 m.",
+        "highlights": "Weakly bonded old snow and wet snow represent the main danger."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "W",
+            "N",
+            "NW",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "NW",
+            "W",
+            "N",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SE",
+            "W",
+            "S",
+            "SW"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "1cc8a0aa-9a4e-4f97-916f-da82a421d6df",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-02-01-01",
+          "name": "Glockner Group Pasterze"
+        },
+        {
+          "regionID": "AT-07-15",
+          "name": "Tuxer Alps West"
+        },
+        {
+          "regionID": "AT-07-16",
+          "name": "Tuxer Alps East"
+        },
+        {
+          "regionID": "AT-07-23-02",
+          "name": "Zillertal Alps Northeast"
+        },
+        {
+          "regionID": "AT-07-23-01",
+          "name": "Zillertal Alps Northwest"
+        },
+        {
+          "regionID": "AT-07-17-02",
+          "name": "Kitzb\u00fchel Alps Wildsch\u00f6nau"
+        },
+        {
+          "regionID": "AT-07-26-01",
+          "name": "Glockner Group South"
+        },
+        {
+          "regionID": "AT-07-17-01",
+          "name": "Kitzb\u00fchel Alps Brixental"
+        },
+        {
+          "regionID": "AT-07-24",
+          "name": "Venediger Group South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On Thursday it will be very mild over a wide area. <br/> The surface of the snowpack will freeze to form a strong crust and will soften during the day. Sunshine and high temperatures will give rise as the day progresses to extreme and thorough wetting of the snowpack in particular on steep sunny slopes below approximately 2200 m. <br/> <br/> Shady slopes: The snowpack remains prone to triggering in some places. Large quantities of fresh snow and the wind-drifted snow of the last few days are bonding only slowly with the old snowpack. As a consequence of mild temperatures the snow drift accumulations stabilised. Avalanche prone weak layers exist in the bottom section of the snowpack on west, north and east facing slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD K\u00e4rnten",
+          "website": "https://lawinenwarndienst.ktn.gv.at/?lang=en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "As a consequence of warming and solar radiation, the activity of wet avalanches will increase. Weakly bonded old snow is to be evaluated critically.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-26T16:00:00+00:00",
+            "endTime": "2026-02-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-25T16:00:00+00:00",
+        "endTime": "2026-02-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanches can be released in the old snowpack and reach large size in isolated cases on west, north and east facing slopes. This applies even in case of a single winter sport participant in some cases. The avalanche prone locations are to be found in particular above approximately 2000 m. In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances. <br/> <br/> As a consequence of warming during the day and solar radiation wet avalanches are to be expected. This applies in particular on very steep sunny slopes, and at the base of rock walls. The runout zones are to be treated with caution.",
+        "highlights": "Weakly bonded old snow requires caution. In particular, however, the danger of wet avalanches will increase as the day progresses."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "W",
+            "N",
+            "NW",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "NW",
+            "W",
+            "N",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "W",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "5d6fc13e-8580-4036-9373-a71c382ccbc3",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-02-09",
+          "name": "Kreuzeck Group"
+        },
+        {
+          "regionID": "AT-02-14",
+          "name": "Carnic Alps Lesachtal"
+        },
+        {
+          "regionID": "AT-02-10",
+          "name": "Gailtal Alps West"
+        },
+        {
+          "regionID": "AT-02-15-01",
+          "name": "Carnic Alps Pl\u00f6ckenpass"
+        },
+        {
+          "regionID": "AT-07-29-02",
+          "name": "Lienz Dolomites"
+        },
+        {
+          "regionID": "AT-07-29-03",
+          "name": "Kreuzeck Group East Tirol"
+        },
+        {
+          "regionID": "AT-07-29-01",
+          "name": "Carnic Alps East Tirol"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes. <br/> <br/> Outgoing longwave radiation during the night will be good. Sunshine and high temperatures will give rise as the day progresses to thorough wetting of the snowpack. This applies especially on very steep sunny slopes below approximately 2400 m."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD K\u00e4rnten",
+          "website": "https://lawinenwarndienst.ktn.gv.at/?lang=en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "In the course of the day the activity of wet avalanches will increase.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-26T16:00:00+00:00",
+            "endTime": "2026-02-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-25T16:00:00+00:00",
+        "endTime": "2026-02-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanches can be released in the old snowpack and reach large size in particular on west, north and east facing slopes. This applies even in case of a single winter sport participant. The avalanche prone locations are to be found especially above approximately 2000 m and in all aspects at elevated altitudes. Remotely triggered avalanches are possible in isolated cases. As a consequence of warming natural avalanches are possible. In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances. <br/> <br/> As a consequence of warming during the day and solar radiation wet avalanches are to be expected. This applies in particular on very steep sunny slopes below approximately 2400 m, as well as at the base of rock walls. In addition a latent danger of gliding avalanches exists. This applies in particular on cut and grassy slopes.",
+        "highlights": "Weakly bonded old snow requires caution. Increase in danger of wet avalanches in the course of the day."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "W",
+            "N",
+            "NW",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "E",
+            "NW",
+            "W",
+            "N",
+            "NE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "SW",
+            "W",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "upperBound": "2400"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "edf76034-8eed-45c1-9037-e084edacb308",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-02-03-01-02",
+          "name": "Reisseck Group"
+        },
+        {
+          "regionID": "AT-02-03-01-01",
+          "name": "Ankogel-Hochalm Group"
+        },
+        {
+          "regionID": "AT-02-03-02",
+          "name": "Hafner Group"
+        },
+        {
+          "regionID": "AT-02-01-02-01",
+          "name": "Goldberg Group South"
+        },
+        {
+          "regionID": "AT-02-01-02-02",
+          "name": "Sadnig Group"
+        },
+        {
+          "regionID": "AT-02-02",
+          "name": "Schober Group East"
+        },
+        {
+          "regionID": "AT-07-27",
+          "name": "Deferegger Alps East"
+        },
+        {
+          "regionID": "AT-07-28",
+          "name": "Schober Group West"
+        },
+        {
+          "regionID": "AT-07-26-02",
+          "name": "Goldried"
+        },
+        {
+          "regionID": "AT-07-25",
+          "name": "Las\u00f6rling Group"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes. <br/> <br/> Outgoing longwave radiation during the night will be good. Sunshine and high temperatures will give rise as the day progresses to thorough wetting of the snowpack. This applies especially on very steep sunny slopes below approximately 2400 m."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD K\u00e4rnten",
+          "website": "https://lawinenwarndienst.ktn.gv.at/?lang=en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "In the course of the day the activity of wet avalanches will increase.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-26T16:00:00+00:00",
+            "endTime": "2026-02-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-25T16:00:00+00:00",
+        "endTime": "2026-02-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of warming during the day and solar radiation wet avalanches are to be expected. This applies especially on very steep sunny slopes, and at the base of rock walls. The runout zones are to be treated with caution. <br/> <br/> Additionally avalanches can also be released in the old snowpack and reach medium size. This applies even in case of a single winter sport participant in isolated cases, especially at elevated altitudes on northwest, north and northeast facing slopes. In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances.",
+        "highlights": "Increase in danger of wet avalanches in the course of the day."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SE",
+            "SW",
+            "W",
+            "S"
+          ],
+          "avalancheSize": 2,
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "cd749a3f-3511-43e5-a8c7-f9926e55669d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10",
+            "DP1"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-02-04-01",
+          "name": "Nockberge Central"
+        },
+        {
+          "regionID": "AT-02-05-01",
+          "name": "Gurktal Alps Central"
+        },
+        {
+          "regionID": "AT-02-04-02",
+          "name": "Nockberge South"
+        },
+        {
+          "regionID": "AT-02-19",
+          "name": "Karawanks East"
+        },
+        {
+          "regionID": "AT-02-18",
+          "name": "Karawanks Central"
+        },
+        {
+          "regionID": "AT-02-12-02",
+          "name": "Goldeck Group"
+        },
+        {
+          "regionID": "AT-02-12-01",
+          "name": "Gailtal Alps East"
+        },
+        {
+          "regionID": "AT-02-17",
+          "name": "Karawanks West"
+        },
+        {
+          "regionID": "AT-02-16",
+          "name": "Carnic Alps Oistnering"
+        },
+        {
+          "regionID": "AT-02-11",
+          "name": "Gailtal Alps Central"
+        },
+        {
+          "regionID": "AT-02-15-02",
+          "name": "Carnic Alps Nassfeld"
+        },
+        {
+          "regionID": "AT-02-13",
+          "name": "Villach Alps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Outgoing longwave radiation during the night will be good. Sunshine and high temperatures will give rise as the day progresses to thorough wetting of the snowpack. This applies especially on very steep sunny slopes. <br/> <br/> Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD K\u00e4rnten",
+          "website": "https://lawinenwarndienst.ktn.gv.at/?lang=en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "In the course of the day the activity of wet avalanches will increase.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-26T16:00:00+00:00",
+            "endTime": "2026-02-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-25T16:00:00+00:00",
+        "endTime": "2026-02-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of warming during the day and solar radiation small to medium-sized wet avalanches are to be expected. This applies especially on very steep sunny slopes. The runout zones are to be treated with caution.",
+        "highlights": "Wet snow requires caution."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SW",
+            "W",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "72ea3915-fbaf-424d-a3a7-3ae1ddd26c9f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10",
+            "DP1"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-02-05-02",
+          "name": "Gurktal Alps South"
+        },
+        {
+          "regionID": "AT-02-06-02",
+          "name": "Saualpe South"
+        },
+        {
+          "regionID": "AT-02-08",
+          "name": "Koralpe West"
+        },
+        {
+          "regionID": "AT-02-07",
+          "name": "Packalpe"
+        },
+        {
+          "regionID": "AT-02-06-01",
+          "name": "Saualpe North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Outgoing longwave radiation during the night will be good. The weather conditions as the day progresses will give rise to thorough wetting of the snowpack. <br/> <br/> Weak layers exist in the old snowpack in particular on west, north and east facing slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD K\u00e4rnten",
+          "website": "https://lawinenwarndienst.ktn.gv.at/?lang=en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "In the course of the day the activity of wet avalanches will increase.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-26T16:00:00+00:00",
+            "endTime": "2026-02-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-25T16:00:00+00:00",
+        "endTime": "2026-02-26T16:00:00+00:00"
+      }
+    }
+  ]
+}
