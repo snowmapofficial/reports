@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T23:00:00Z",
+      "endTime" : "2026-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gleitschneelawinen und nasse Rutsche sind die Hauptgefahr.",
+      "comment" : "Vorsicht in Hängen mit Gleitschneerissen. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Auslösebereitschaft von Gleitschneelawinen vor allem an steilen Hängen in mittleren und hohen Lagen rasch an. Es sind jederzeit Gleitschneelawinen möglich, vereinzelt auch große. Sie können auch am Morgen abgehen. Zudem sind an Nordwest-, Nord- und Nordosthängen sehr vereinzelt mittlere Schneebrettlawinen möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "In Rinnen und Mulden oberhalb von rund 1800 m liegt viel Schnee. Die frühlingshaften Wetterbedingungen führten zu einer zunehmenden Anfeuchtung der Schneedecke. Diese Bedingungen verursachen eine allmähliche Schwächung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-26T23:00:00Z",
+        "endTime" : "2026-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "N", "W", "SW", "E", "SE", "NE", "NW" ]
+    } ],
+    "bulletinID" : "eb959c76-c975-4698-8c25-2d7d7553e6f6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
