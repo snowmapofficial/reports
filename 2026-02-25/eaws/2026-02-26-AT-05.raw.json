@@ -1,0 +1,370 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T16:00:00Z",
+      "endTime" : "2026-02-26T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is dry and starry, and the wind should not be an issue. Excellent visibility and plenty of sunshine on Thursday, with a few high clouds appearing from time to time. The wind will be rather weak and mostly below freight strength. At 2000 metres it will be quite mild with temperatures between 4 and 6 degrees, at 3000 metres around -1 or 0 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Moisture penetrates into poor persistent weak layers",
+      "comment" : "The avalanche risk is low at low altitudes in the morning and rises rapidly to level 3 everywhere due to heat and radiation. In addition, from the tree line onwards, especially medium, but sometimes also large dry slab avalanches can easily be triggered by individuals in some places (even from a distance). All aspects are affected, but increasingly the north-east sector. Danger areas are difficult to recognise away from obvious pillows of wind drifted snow, which is why caution and a defensive choice of route is still advised. This applies in particular in the area of the tree line and in forest aisles. As the snowpack softens, spontaneous wet loose snow and gliding avalanches are to be expected on the sunny slopes, in low to medium altitudes also in the northern sector. It is also possible for skiers to release wet snow slabs. Loose snow slides can easily tear through the drift and persistent weak layer and reach dangerous sizes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The upper part of the snowpack is made up of several slab thicknesses of new fallen snow from the last week, which was influenced by the wind. Especially at the beginning, snow fell with less wind and at colder temperatures, which is why soft layers are also embedded. These overlay even older wind slab snow, which in turn lies on an unfavourable base of faceted crystals and deep rime. Fractures primarily occur between the last snow packs, but can also penetrate through to the old snow foundation, which is usually completely transformed. During the night, a mostly stable melt cover forms, which softens quickly during the day with the warmth. In places with little snow, the snowpack is already approaching isothermal conditions."
+    },
+    "tendency" : [ {
+      "highlights" : "Only a slow decline in the risk due to poor old snow cover.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-26T16:00:00Z",
+        "endTime" : "2026-02-27T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    } ],
+    "bulletinID" : "f6426c7a-cb15-4240-84c2-3459f531debd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Venedigergruppe North",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe North",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Goldberggruppe North",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Niedere Tauern North",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Großvenedigergruppe Central",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Central",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Central",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Kitzbühel Alps Oberpinzgau",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Kitzbühel Alps Glemmtal",
+      "regionID" : "AT-05-14"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T16:00:00Z",
+      "endTime" : "2026-02-26T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is dry and starry, and the wind should not be an issue. Excellent visibility and plenty of sunshine on Thursday, with a few high clouds making themselves felt from time to time. The wind will be rather weak and mostly below freight strength. At 2000 metres it will be quite mild with temperatures between 4 and 6 degrees, at 3000 metres around -1 or 0 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Moisture penetrates into poor persistent weak layers",
+      "comment" : "The avalanche risk is considerable above the tree line. Below this, it is low in the morning and quickly increases to moderate danger everywhere due to heat and radiation. Above the tree line, medium and sometimes large dry slab avalanches can easily be triggered by people in some places. All aspects are affected, but increasingly the north-east sector. Danger areas are difficult to recognise away from obvious pillows of wind drifted snow, which is why caution and a defensive choice of route is still advised. This applies in particular in the area of the tree line and in forest aisles. As the snowpack softens, spontaneous wet loose snow and gliding avalanches are to be expected on the sunny slopes, including in the northern sector at low to medium elevations. It is also possible for skiers to release wet snow slabs. Loose snow slides can easily tear through the drift and persistent weak layer and reach dangerous sizes."
+    },
+    "snowpackStructure" : {
+      "comment" : "The upper part of the snowpack is made up of several layers of new fallen snow from the last week, which was influenced by the wind. Where there was a significant old snowpack before the snowfall, the foundation has been completely transformed and is cohesionless. Fractures primarily occur between the last snow packs, but can penetrate through to this deep snow pack under greater load. During the night, a mostly stable melt cover forms, which softens quickly during the day with the heat. In some places, isothermal conditions are already reached."
+    },
+    "tendency" : [ {
+      "highlights" : "Only a slow decline in the risk due to poor old snow cover.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-26T16:00:00Z",
+        "endTime" : "2026-02-27T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    } ],
+    "bulletinID" : "2ce9061b-3fa2-440d-8bd9-27e307ef9d5d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    }, {
+      "name" : "Loferer and Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Weisseck, Muhr",
+      "regionID" : "AT-05-03"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    }, {
+      "name" : "Niedere Tauern South",
+      "regionID" : "AT-05-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T16:00:00Z",
+      "endTime" : "2026-02-26T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Light precipitation will set in after midnight on Monday night, with pure snowfall only above 2000 metres. The wind will blow from the west with gusts of around 40 km/h. During the day it will be windy and changeable. For the time being, it will rain and snow at times from dense clouds, with snowfall levels between 1600 and 1800 metres. In total, however, only a few cm of new fallen snow will fall, most of it in the Salzkammergut mountains and the Tennengebirge with up to 10 cm. At times the clouds will soften with the westerly wind. At high altitudes the wind will reach gusts of 40 to 60 km/h. At 2000 m around 0 degrees, at 3000 m around -7 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Moisture penetrates into poor persistent weak layers",
+      "comment" : "The avalanche risk is considerable from the tree line upwards and moderate below. At low and medium altitudes, warmth and rainfall put a strain on the snowpack, while fresh wind slab is formed at higher altitudes. Medium to large slab avalanches can be triggered by individuals in some places. Danger areas are located at the transition from little to more snow and generally next to blown-off areas as well as in the entrance areas to gullies and bowls filled with wind slabs. Caution should also be exercised at the edge of forests and in forest aisles. At low and medium elevations, small, wet loose snow and gliding avalanches are to be expected."
+    },
+    "snowpackStructure" : {
+      "comment" : "Around 20 - 30 cm of heavy new fallen snow lies on top of the previously moistened snowpack. At high altitudes, there is an inhomogeneous and prone to triggering sequence of drifting snow layers underneath due to changing wind speeds. Where present, the old snow foundation has been completely transformed. Fractures are possible mainly between the last layers of drift snow, but deeper-lying faceted layers in the persistent weak layer or the coarse-grained base of deep rime are also affected. At low elevations, the snowpack is completely soaked and in some places isothermal conditions are reached."
+    },
+    "tendency" : [ {
+      "highlights" : "Heavy precipitation sets in again, with intense rain at times up to around 2000 metres on Tuesday. Above that, there is heavy new fallen snow of 30 to 60 cm (mainly Steinberge/Hochkönig/Tennengebirge). The avalanche situation worsens again.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-26T16:00:00Z",
+        "endTime" : "2026-02-27T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N", "NW", "W" ]
+    } ],
+    "bulletinID" : "e374feb5-f986-4cbf-9996-b2dc65e1b3ef",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps South",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Remaining danger for winter sports in the event of a decline in naturally triggered avalanches"
+    }
+  }
+}
