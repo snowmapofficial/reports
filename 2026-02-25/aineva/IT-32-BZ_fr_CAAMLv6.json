@@ -1,0 +1,239 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T23:00:00Z",
+      "endTime" : "2026-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attention à la neige ancienne fragile. Le danger d'avalanches mouillées augmente de manière marquée en cours de journée.",
+      "comment" : "Des avalanches peuvent être déclenchées dans la neige ancienne et atteindre une grande taille de manière isolée. Ceci même par un seul adepte des sports d'hiver. Les endroits dangereux se situent surtout sur les pentes raides exposées à l'ouest, au nord et à l'est au-dessus d'environ 2000 m. Quelques endroits dangereux se situent aussi sur les pentes raides au soleil au-dessus d'environ 2400 m. Prudence surtout sur les terrains rarement fréquentés comme aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs. <br/> Dans leurs parcours, les avalanches peuvent entraîner la neige mouillée. Ceci prolonge les distances d'arrêt des avalanches. Des déclenchements à distance sont possibles de manière isolée. <br/> <br/> Les accumulations de neige soufflée plus entièrement fraîches restent pour l'instant fragiles surtout sur les pentes raides exposées à l'ouest, au nord et à l'est au-dessus d'environ 2600 m. <br/> <br/> Des avalanches mouillées sont à attendre avec le réchauffement diurne et le rayonnement solaire. Ceci surtout sur les pentes très raides ensoleillées et au pied des parois rocheuses. Les zones de dépôt doivent être prises en considération."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans le manteau neigeux ancien des couches fragiles importantes sont présentes, surtout sur les pentes exposées à l'ouest, au nord et à l'est. <br/> <br/> Le rayonnement nocturne est généralement bon. Le soleil et la chaleur entraînent en cours de journée une saturation d'eau rapide du manteau neigeux. Ceci particulièrement sur les pentes raides ensoleillées en dessous d'environ 2400 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sur les pentes raides à l'ombre à haute altitude et en haute montagne: Attention à la neige soufflée et neige ancienne fragile. <br/> Sur les pentes raides ensoleillées aux altitudes moyennes et élevées: Le danger d'avalanches mouillées augmente en cours de journée.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-26T23:00:00Z",
+        "endTime" : "2026-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "SW", "SE" ]
+    } ],
+    "bulletinID" : "3c17c09c-328b-4f00-a6fa-277955c2a3c1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-25T23:00:00Z",
+      "endTime" : "2026-02-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée. Le danger d'avalanches mouillées augmente en cours de journée.",
+      "comment" : "Des avalanches peuvent de manière isolée être déclenchées dans la neige ancienne et sur les pentes exposées à l'ouest, au nord et à l'est atteindre une taille moyenne. Ceci par un seul adepte des sports d'hiver. Dans leurs parcours, les avalanches peuvent entraîner la neige mouillée. <br/> <br/> Des avalanches mouillées isolées de petite et moyenne taille sont à attendre avec le réchauffement diurne et le rayonnement solaire."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans le manteau neigeux ancien des couches fragiles importantes sont présentes, surtout sur les pentes exposées à l'ouest, au nord et à l'est. <br/> <br/> Le rayonnement nocturne est généralement bon. Le soleil et la chaleur entraînent en cours de journée une saturation d'eau rapide du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige ancienne fragile et neige mouillée à surveiller.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-26T23:00:00Z",
+        "endTime" : "2026-02-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "N", "W", "SW", "E", "SE", "NW", "NE" ]
+    } ],
+    "bulletinID" : "a2e85be8-ab15-43a7-8d1b-26ad58da3fe7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
