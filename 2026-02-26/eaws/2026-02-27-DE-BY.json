@@ -1,0 +1,412 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger above 1500 m increases from moderate to considerable during the daytime changes. Below that, it is low. Until the morning, gliding snow is the main problem at medium altitudes. Small and medium-sized gliding avalanches will spontaneously release themselves on a few steep slopes with a smooth surface. Staying under glide cracks should be avoided.\n\nWhen the sun shines, the activity of sliding snow increases on sunny slopes and small and medium-sized, wet loose snow avalanches can be expected from extremely steep terrain that has not yet been discharged.\n\nIn addition, weak persistent layers above 1500 metres are problematic. With large additional loads, for example due to cornice breakage, large slab avalanches can also be triggered in isolated cases in the west, north and east aspects. Take particular care in transition areas from a little to a lot of snow.",
+        "highlights": "Danger of falling on a hard frozen snow surface!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "N",
+            "NE",
+            "E",
+            "NW",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "N",
+            "NE",
+            "E",
+            "NW",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "N",
+            "NE",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "N",
+            "NW",
+            "NE",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "5371abe6-42b7-4c92-b0da-a0fef880af75",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On the surface, the snowpack freezes overnight in many places and is capable of bearing loads; in the sun, it softens again during the day and soaking progresses. Up to high altitudes, the snowpack is slightly moist, in medium altitudes it is sometimes completely soaked to the ground. In shady slopes at higher altitudes, faceted crystals can be found deeper in the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in the wet snow problem - the persistent weak layer problem remains.",
+          "validTime": {
+            "startTime": "2026-02-27T16:00:00+00:00",
+            "endTime": "2026-02-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-26T16:00:00+00:00",
+        "endTime": "2026-02-27T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above 1500 metres and low below that. Gliding snow and wet snow will become the main problem during the daytime changes. Overnight and in the mornings, small and medium gliding avalanches occasionally detach themselves on steep slopes with smooth ground. Sliding snow activity increases with the sunlight and small and medium-sized, wet loose snow avalanches are then possible from extremely steep terrain.\n\nIn addition, weak persistent layers above 1500 metres are problematic. With large additional loads, for example due to cornice breakage, medium slab avalanches can be triggered in the west, north and east aspects. Take particular care in transition areas from a little to a lot of snow.",
+        "highlights": "Danger of falling on a hard frozen snow surface!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "W",
+            "N",
+            "NW",
+            "NE",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "2656b8c9-35ec-4bf7-b878-e1f9e81d4a5f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On the surface, the snowpack freezes overnight in many places and is capable of bearing loads; in the sun, it softens again during the day and soaking progresses. Up to high altitudes, the snowpack is slightly moist, in medium altitudes it is sometimes completely soaked to the ground. In shady slopes at higher altitudes, faceted crystals can be found deeper in the snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change.",
+          "validTime": {
+            "startTime": "2026-02-27T16:00:00+00:00",
+            "endTime": "2026-02-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-26T16:00:00+00:00",
+        "endTime": "2026-02-27T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Spring conditions with persistent weak layer problem and risk of cornice breakage"
+    }
+  }
+}
