@@ -1,0 +1,522 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low at low altitudes in the morning and increases rapidly everywhere to level 3, considerable, due to heat and radiation. Occasional large spontaneous wet snow avalanches and avalanches triggered by people can occur in all aspects during daytime changes as the snowpack softens. In addition, especially on shady slopes above the tree line, medium to large dry slab avalanches can be triggered in some places by individuals (even from a distance). Danger areas are difficult to recognise away from obvious pillows of wind drifted snow, which is why caution and a defensive choice of route is still advised. This applies in particular in the area of the tree line and in forest aisles. Loose snow slides can easily tear through the persistent weak layer and reach dangerous sizes. Sliding snow activity is increasing.",
+        "highlights": "Combined wet and persistent weak layer problem"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "a1f14626-b098-43a9-b7bc-a56e1f525e4b",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-11",
+          "name": "Venedigergruppe North"
+        },
+        {
+          "regionID": "AT-05-10",
+          "name": "Glocknergruppe North"
+        },
+        {
+          "regionID": "AT-05-09",
+          "name": "Goldberggruppe North"
+        },
+        {
+          "regionID": "AT-05-08",
+          "name": "Niedere Tauern North"
+        },
+        {
+          "regionID": "AT-05-07",
+          "name": "Gro\u00dfvenedigergruppe Central"
+        },
+        {
+          "regionID": "AT-05-06",
+          "name": "Glocknergruppe Central"
+        },
+        {
+          "regionID": "AT-05-05",
+          "name": "Goldberggruppe Central"
+        },
+        {
+          "regionID": "AT-05-04",
+          "name": "Niedere Tauern Alpenhauptkamm"
+        },
+        {
+          "regionID": "AT-05-15",
+          "name": "Kitzb\u00fchel Alps Oberpinzgau"
+        },
+        {
+          "regionID": "AT-05-14",
+          "name": "Kitzb\u00fchel Alps Glemmtal"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On the steep sunny slopes, a stable surface usually forms overnight, but this softens quickly and only allows a short firn phase. The upper part of the snowpack is then formed by several slabted layers of felt and wind slab of varying hardness (and therefore prone to triggering), which in turn lies on an unfavourable base of faceted crystals and deep rime. Fractures primarily occur between the last snow packs, but can also break through to the old snow foundation, which is usually completely transformed. In places with little snow and in deep or sunny slopes, the snowpack becomes isothermal during the day changes. The snow depth has now reached average values in some places."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The persistent weak layer problem in combination with moisture penetrating into ever higher and shadier areas continues to create a tense situation that is difficult to calculate in the terrain.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-27T16:00:00+00:00",
+            "endTime": "2026-02-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-26T16:00:00+00:00",
+        "endTime": "2026-02-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Friday night will be dry and clear with little wind. Above the lakes of cold air in the valleys, it will remain quite mild again with significant plus temperatures at low and medium altitudes. Few changes on Friday, the wind will remain light and visibility will be excellent. During the day, cloudless skies can often be expected, with only occasional fog in the valleys. At 2000 metres around 6 or 7 degrees, at 3000 metres just below 0 degrees."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Above the tree line, the avalanche risk is considerable. It is low in the morning at low altitudes but rises quickly to level 2, moderate, due to heat and radiation. Occasional, mainly medium, but occasionally also large spontaneous wet snow avalanches and those triggered by people can occur during daytime changes as the snowpack softens in all aspects. In addition, especially on shady slopes above the tree line, medium to large dry slab avalanches can be triggered in a few places by individuals (even from a distance). Danger areas are difficult to recognise away from obvious pillows of wind drifted snow, which is why caution and a defensive choice of route is still advised. This applies in particular in the area of the tree line and in forest aisles. Loose snow slides can easily tear through the persistent weak layer and reach dangerous sizes. Sliding snow activity is increasing.",
+        "highlights": "Combined wet and persistent weak layer problem"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "2600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "a39f585e-e1d7-4a7c-a8a2-15b90196f238",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-12",
+          "name": "Pongauer Grasberge"
+        },
+        {
+          "regionID": "AT-05-01",
+          "name": "Nockberge"
+        },
+        {
+          "regionID": "AT-05-18",
+          "name": "Loferer and Leoganger Steinberge"
+        },
+        {
+          "regionID": "AT-05-17",
+          "name": "Steinernes Meer, Hochk\u00f6nig, Hagengebirge, G\u00f6llstock"
+        },
+        {
+          "regionID": "AT-05-16",
+          "name": "Tennengebirge, Gosaukamm"
+        },
+        {
+          "regionID": "AT-05-03",
+          "name": "Weisseck, Muhr"
+        },
+        {
+          "regionID": "AT-05-13",
+          "name": "Dientner Grasberge"
+        },
+        {
+          "regionID": "AT-05-02",
+          "name": "Niedere Tauern South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On the steep sunny slopes, a stable surface usually forms overnight, but this softens quickly and only allows a short firn phase. The upper part of the snowpack is then formed by several slabted layers of felt and wind slab of varying hardness (and therefore prone to triggering), which in turn lies on an unfavourable base of faceted crystals and deep rime. Fractures primarily occur between the last snow packs, but can also break through to the old snow foundation, which is usually completely transformed. In places with little snow and in deep or sunny slopes, the snowpack becomes isothermal during the day changes. The snow depth has now reached average values in some places."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The persistent weak layer problem in combination with moisture penetrating to ever higher altitudes and more northerly aspects continues to create a tense situation that is difficult to calculate in the terrain.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-02-27T16:00:00+00:00",
+            "endTime": "2026-02-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-26T16:00:00+00:00",
+        "endTime": "2026-02-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Friday night will be dry and clear with little wind. Above the lakes of cold air in the valleys, it will remain quite mild again with significant plus temperatures at low and medium altitudes. Few changes on Friday, the wind will remain light and visibility will be excellent. During the day, cloudless skies can often be expected, with only occasional fog in the valleys. At 2000 metres around 6 or 7 degrees, at 3000 metres just below 0 degrees."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low in the morning and quickly increases to level 2, moderate, as the snowpack softens. Naturally triggered avalanches become possible with daytime changes. There is also a slight persistent weak layer problem from around 1600 metres where the old snowpack has survived. Be careful in the higher summit areas, where prone-to-triggering snowdrift accumulations still lie behind blown-off areas. The sliding snow activity is increasing.",
+        "highlights": "Combined wet and persistent weak layer problem"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "N",
+            "NW"
+          ],
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "E",
+            "N",
+            "NW",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "0b807b09-425b-4da4-8b25-6ff2739d63e6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-02-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-02-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-05-21",
+          "name": "Chiemgau Alps South"
+        },
+        {
+          "regionID": "AT-05-20",
+          "name": "Untersbergstock"
+        },
+        {
+          "regionID": "AT-05-19",
+          "name": "Osterhorngruppe, Gamsfeldgruppe"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The upper part of the snowpack is made up of several layers of new fallen snow from the last week, which was influenced by the wind. Where there was a significant old snowpack before the snowfall, the foundation has been completely transformed and is cohesionless. Fractures primarily occur between the last snow packs, but can penetrate through to this deep snow pack under greater load. During the night, a mostly stable melt cover forms, which softens quickly during the day with the warmth. During the daytime changes, the snowpack usually reaches isothermal conditions."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Salzburg",
+          "website": "https://lawine.salzburg.at/en"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Only a slow decline in avalanche danger due to melting snow.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2026-02-27T16:00:00+00:00",
+            "endTime": "2026-02-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-02-26T16:00:00+00:00",
+        "endTime": "2026-02-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Friday night will be dry and clear with little wind. Above the lakes of cold air in the valleys, it will remain quite mild again with significant plus temperatures at low and medium altitudes. Few changes on Friday, the wind will remain light and visibility will be excellent. During the day, cloudless skies can often be expected, with only occasional fog in the valleys. At 2000 metres around 6 or 7 degrees, at 3000 metres just below 0 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Spring situation! Warmth and poor old snowpack"
+    }
+  }
+}
