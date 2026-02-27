@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T23:00:00Z",
+      "endTime" : "2026-02-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des avalanches de glissement et coulées mouillées sont le danger principal.",
+      "comment" : "Prudence en présence de fissures de glissement. Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement d'avalanches de glissement augmente rapidement surtout sur les pentes raides à moyenne et haute altitude. À tout moment des avalanches de glissement sont possibles, de manière isolée, également de grande taille. Elles peuvent aussi se déclencher le matin. En outre sur les pentes exposées au nord-ouest, au nord et au nord-est, de très rares avalanches de plaque de neige de moyenne taille sont possibles."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans les combes et couloirs au-dessus d'environ 1800 m il y a beaucoup de neige. Les conditions météorologiques printanières ont entraîné une humidification croissante du manteau neigeux. Ces conditions provoquent une progressive fragilisation du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T23:00:00Z",
+        "endTime" : "2026-02-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "SE", "NE", "S", "SW", "NW" ]
+    } ],
+    "bulletinID" : "00ab39a3-c376-450d-8818-c842f0c230cc",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
