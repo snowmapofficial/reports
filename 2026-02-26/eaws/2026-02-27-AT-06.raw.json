@@ -1,0 +1,340 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T16:00:00Z",
+      "endTime" : "2026-02-27T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On the mountains, Friday night will be clear and mostly frost-free. During the day, sunshine will dominate with mostly cloudless skies. High fog may accumulate below 1000 metres in the morning only in the foothills. The wind will be light to moderate. Temperatures: at 2000 metres between +2 degrees in the morning and +6 degrees in the afternoon, at 1500 metres between 0 degrees in the morning and up to +11 degrees in the afternoon."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of spontaneous wet snow avalanches to considerable during the day - additional persistent weak layer problem in shady high areas!",
+      "comment" : "The avalanche danger is assessed as moderate (level 2) in the morning above 1800 metres. After a mild night, the avalanche danger will increase to considerable (level 3) during the day, especially on slopes with southern aspects. Wet loose snow avalanches can still occur spontaneously in isolated cases. In addition, triggering of wet slab avalanches is possible in some places, which can reach medium size. Triggering of dry slab avalanches is possible in very steep gullies and bowls on shady slopes with low additional load. The avalanches can tear through to the ground in the northern sector. Occasional gliding avalanches can still slide from grass mats."
+    },
+    "snowpackStructure" : {
+      "comment" : "The warming has already allowed the snowpack to settle a little. Due to the mild temperatures and solar radiation, the snowpack is rapidly losing its firmness. On the northern slopes, the kinetic metamorphism (cup crystals in the snow layer close to the ground!) continues to weaken the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "Continued high pressure weather with lots of sunshine. It will remain mild. Daytime changes in the avalanche risk are expected.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T16:00:00Z",
+        "endTime" : "2026-02-28T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE", "E" ]
+    } ],
+    "bulletinID" : "8e6e2d96-5adf-4b65-af32-a1fbaaa4f4fb",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Wölzer Tauern South",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Murberge, Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Wölzer Tauern North",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Koralpe East",
+      "regionID" : "AT-06-16"
+    }, {
+      "name" : "Stub- und Gleinalpe",
+      "regionID" : "AT-06-15"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge South",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Mürzsteger Alpen",
+      "regionID" : "AT-06-11"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Alpen",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T16:00:00Z",
+      "endTime" : "2026-02-27T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On the mountains, Friday night will be clear and mostly frost-free. During the day, sunshine will dominate under mostly cloudless skies. The wind will be light to moderate. Temperatures: at 2000 metres between +2 degrees in the morning and +6 degrees in the afternoon, at 1500 metres between 0 degrees in the morning and up to +11 degrees in the afternoon."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Mainly wet snow problems, isolated avalanche prone locations in persistent weak layers on shady slopes.",
+      "comment" : "The avalanche risk is moderate at higher altitudes. Wet loose snow avalanches can still occur occasionally in extremely steep terrain. Spontaneous avalanche activity increases slightly during the daytime changes with incoming radiation and warming."
+    },
+    "snowpackStructure" : {
+      "comment" : "The new and drifting snow cover has already settled and lost its proneness to triggering. In shady high altitudes, the old snowpack with crusts and embedded angular crystals is unfavourably structured and weakened in places. Depending on the aspect, the snow becomes damp or wet during the day changes up to high altitudes, leading to a decreasing firmness and destabilisation of the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "Still plenty of sunshine. Slight daytime changes in the avalanche risk are expected.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-02-27T16:00:00Z",
+        "endTime" : "2026-02-28T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "E", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "SW", "E", "W", "SE" ]
+    } ],
+    "bulletinID" : "8bf7d5b3-d6a5-4997-a6ab-f91690d51fe0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Fischbach Alps East, Wechselgebiet",
+      "regionID" : "AT-06-13"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T16:00:00Z",
+      "endTime" : "2026-02-27T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On the mountains, Friday night will be clear and mostly frost-free. During the day, sunshine will dominate with mostly cloudless skies. High fog may accumulate below 1000 metres in the morning only in the foothills. The wind will be light to moderate. Temperatures in 1500 between 0 degrees in the morning and up to +11 degrees in the afternoon."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow!",
+      "comment" : "The avalanche risk is rated as low. Occasional small wet slides are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is wet or soaked. The snow cover is progressing."
+    },
+    "tendency" : [ {
+      "highlights" : "Continued high pressure weather with a frost line at an altitude of 2700 metres. The avalanche danger remains low.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T16:00:00Z",
+        "endTime" : "2026-02-28T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "S", "SW", "SE" ]
+    } ],
+    "bulletinID" : "142f88fe-320c-4486-a8c4-93e5bb53c21a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Mürztaler Alpen",
+      "regionID" : "AT-06-12"
+    }, {
+      "name" : "Fischbach Alps West, Grazer Bergland",
+      "regionID" : "AT-06-14"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Increase in danger of spontaneous wet snow avalanches during the day!"
+    }
+  }
+}
