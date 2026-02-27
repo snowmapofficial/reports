@@ -1,0 +1,171 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T16:00:00Z",
+      "endTime" : "2026-02-27T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "The weather on the mountains is set to be quite sunny on Thursday, with excellent visibility. During the day, occasional high cloud fields will pass through. The wind will be mostly light. Up to 8 degrees at 1500 metres and 5 degrees at 2000 metres.\nFriday will be very sunny, mild and windless. At 1500 m 9 degrees, at 2000 m 6 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Slab avalanches can still be triggered easily and naturally triggered avalanches must be observed!",
+      "comment" : "The avalanche risk is considerable at higher altitudes and moderate below. In steep terrain, especially in the northern and shaded areas, slab avalanches can be triggered by even a small additional load. There are avalanche prone locations, for example at terrain transitions and transitions from more to less snow. Depending on the altitude and aspect, spontaneous slab avalanches or wet snow avalanches must be taken into account. They mainly reach medium size, but can also tear through to the ground and therefore become somewhat larger."
+    },
+    "snowpackStructure" : {
+      "comment" : "The very mild temperatures and strong incoming radiation have already allowed the snowpack to settle a little. However, there are still weak layers at high altitudes and especially on shady slopes. Furthermore, the snow base, fundament is high up and weakened on the shady slopes due to the kinetic metamorphism. Due to the mild temperatures and the strong incoming radiation, the snow surface is rapidly losing firmness."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in the avalanche situation.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T16:00:00Z",
+        "endTime" : "2026-02-28T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "N", "NE", "E", "NW", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "SE", "W", "N", "NE", "E", "NW", "S", "SW" ]
+    } ],
+    "bulletinID" : "7b60d1a1-0c76-4115-8493-b9b2bd77ddbe",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Still considerable avalanche danger!"
+    }
+  }
+}
