@@ -1,0 +1,279 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T23:00:00Z",
+      "endTime" : "2026-02-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "highlights" : "Les randonnées et descentes hors-piste demandent une grande retenue.",
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attention à la neige ancienne fragile et neige glissante. Surtout sur les pentes raides ensoleillées: Augmentation étendue du danger d'avalanches mouillées avec le réchauffement.",
+      "comment" : "Surtout sur les pentes très raides il faut compter avec des avalanches spontanées de taille moyenne. Les avalanches peuvent entraîner le manteau jusqu'au sol par endroits et atteindre une grande taille. <br/> Les avalanches sèches sont généralement de taille moyenne et déclenchables par un seul amateur de sports d'hiver. Des déclenchements à distance sont possibles. Des bruits sourds et des fissures lors du passage sur le manteau neigeux sont des signes d'alarme qui attirent l'attention sur le danger. <br/> Les endroits dangereux sont fréquents et à peine identifiables même pour un oeil exercé. Les randonnées demandent un choix réfléchi des itinéraires. Des avalanches peuvent être déclenchées dans la neige ancienne et atteindre une grande taille de manière isolée. Ceci même par un seul adepte des sports d'hiver. Prudence surtout sur les terrains rarement fréquentés comme aux transitions entre les endroits peu enneigés et les endroits très enneigés, notamment à l'entrée des combes et des couloirs. Dans leurs parcours, les avalanches peuvent entraîner la neige mouillée. Ceci prolonge les distances d'arrêt des avalanches. <br/> Les accumulations de neige soufflée plus entièrement fraîches restent pour l'instant fragiles surtout sur les pentes raides exposées à l'ouest, au nord et à l'est au-dessus d'environ 2400 m. <br/> Des avalanches mouillées sont à attendre avec le réchauffement diurne et le rayonnement solaire. Ceci surtout sur les pentes très raides ensoleillées et au pied des parois rocheuses. <br/> Les zones de dépôt doivent être prises en considération."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans la partie inférieure du manteau neigeux ancien des couches fragiles importantes sont présentes. Les conditions météorologiques favorisent une progressive fragilisation du manteau neigeux sur les pentes au soleil. <br/> En général le manteau neigeux reste instable, notamment à proximité des crêtes et des cols à toutes les altitudes comme dans les combes, couloirs et derrière les ruptures de terrain en altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "En général le manteau neigeux reste fragile. Le danger d'avalanches subsiste. L'activité des avalanches humides augmente progressivement.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T23:00:00Z",
+        "endTime" : "2026-02-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "SE", "NE", "S", "SW", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "SE", "NE", "S", "SW", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    } ],
+    "bulletinID" : "b78b659e-eee9-4ef8-986e-04d0f5da3ecf",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Adamello du sud",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Préalpes",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Brenta du nord - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Alpes occidentales du Nonsberg",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Brenta du sud",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Vallée de Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo et Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Lagorai du sud",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Lagorai du nord",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Vallée de Ledro",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Vallée de Mocheni",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  }, {
+    "publicationTime" : "2026-02-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-26T23:00:00Z",
+      "endTime" : "2026-02-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne peuvent être déclenchées de manière isolée. Le danger d'avalanches mouillées augmente en cours de journée.",
+      "comment" : "Des avalanches peuvent de manière isolée être déclenchées dans la neige ancienne et sur les pentes exposées à l'ouest, au nord et à l'est atteindre une taille moyenne. Ceci par un seul adepte des sports d'hiver. Dans leurs parcours, les avalanches peuvent entraîner la neige mouillée. <br/> <br/> Des avalanches mouillées isolées de petite et moyenne taille sont à attendre avec le réchauffement diurne et le rayonnement solaire."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans le manteau neigeux ancien des couches fragiles importantes sont présentes, surtout sur les pentes exposées à l'ouest, au nord et à l'est. <br/> <br/> Le rayonnement nocturne est généralement bon. Le soleil et la chaleur entraînent en cours de journée une saturation d'eau rapide du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige ancienne fragile et neige mouillée à surveiller.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-27T23:00:00Z",
+        "endTime" : "2026-02-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "E", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "N", "E", "SE", "NE", "S", "SW", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "E", "SE", "NE", "S", "SW", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "E", "NE", "NW" ]
+    } ],
+    "bulletinID" : "6d533431-534a-4303-9813-38ce0e69fbba",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Vallée de Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    } ]
+  } ]
+}
