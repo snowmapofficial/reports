@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-27T23:00:00Z",
+      "endTime" : "2026-02-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weakly bonded old snow and wet snow represent the main danger.",
+      "comment" : "As the day progresses as a consequence of warming during the day there will be a rapid increase in the danger of moist and wet avalanches. This applies in particular on very steep sunny slopes, and at the base of rock walls. The runout zones are to be treated with caution. Backcountry tours should be concluded timely. <br/> Avalanches can be released in the old snowpack and reach large size. This applies even in case of a single winter sport participant in some cases. Individual avalanche prone locations are to be found also on steep sunny slopes at elevated altitudes. <br/> Caution is to be exercised in particular in little used terrain, as well as at transitions from a shallow to a deep snowpack. In their paths avalanches can entrain the wet snow. This extends the avalanche runout distances. <br/> The no longer entirely fresh wind slabs remain for the foreseeable future prone to triggering in particular on steep east, north and west facing slopes above approximately 2500 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "On Saturday it will be very mild. The surface of the snowpack will freeze to form a strong crust and will soften during the day. Sunshine and high temperatures will give rise as the day progresses to rapid moistening of the snowpack in particular on very steep sunny slopes below approximately 2600 m. <br/> <br/> Shady slopes: The snowpack remains prone to triggering in some places. Distinct weak layers exist in the old snowpack in particular on west, north and east facing slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Steep shady slopes high altitudes: Wind slabs and weakly bonded old snow require caution. <br/> Outgoing longwave radiation during the night will be reduced. Steep sunny slopes intermediate and high altitudes: The danger of wet avalanches will already exist in the early morning.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-02-28T23:00:00Z",
+        "endTime" : "2026-03-01T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SW", "E", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "W", "NW", "NE", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "NW", "NE", "E" ]
+    } ],
+    "bulletinID" : "86712355-43c9-4903-a71a-323a8e4d133f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
