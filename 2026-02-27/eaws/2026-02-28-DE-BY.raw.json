@@ -1,0 +1,125 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-27T16:00:00Z",
+      "endTime" : "2026-02-28T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Pay attention to the sinking depth and end activities in good time!",
+      "comment" : "The avalanche risk is moderate above 1500 metres and low below that. Persistent weak layer is a persistent weak layer. With large additional loads, large slab avalanches can be triggered on steep slopes in the west, north and east aspects. Take particular care at high altitudes in transition areas from little to much snow and where the sinking depths are greater.\n\nWet snow avalanche activity increases during the day with the sunshine. Wet loose snow avalanches are then possible on extremely steep terrain that has not yet been discharged, and gliding avalanches on slopes with a smooth surface. Gliding avalanches can also occur occasionally on shady slopes and at any time of day or night. Wet snow avalanches reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack has clearly settled and stabilised. On the surface, it freezes overnight in many places and softens again in the sun during the day. On the south side, firn conditions are already developing where there is still enough snow. Up to high altitudes, the snowpack is slightly damp, in medium altitudes it is partly wet to the ground. In shady slopes at higher altitudes, faceted crystals can be found deeper in the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "Slow decline in the wet snow problem - the persistent weak layer problem remains.",
+      "validTime" : {
+        "startTime" : "2026-02-28T16:00:00Z",
+        "endTime" : "2026-03-01T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-02-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "E", "W", "NW", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "W", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "W", "SW" ]
+    } ],
+    "bulletinID" : "45bcfda2-c052-4dd7-b9b1-d2b925e489ad",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Old snow problem on the north side, wet snow problem on the south side"
+    }
+  }
+}
