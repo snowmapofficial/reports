@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-28T23:00:00Z",
+      "endTime" : "2026-03-01T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schwacher Altschnee und Nassschnee sind die Hauptgefahr.",
+      "comment" : "Mit der tageszeitlichen Erwärmung steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf rasch an. Dies vor allem an sehr steilen Sonnenhängen und an Felswandfüßen. Die Auslaufbereiche sollten beachtet werden. Touren sollten rechtzeitig beendet werden. <br/> Lawinen können im Altschnee ausgelöst werden und groß werden. Dies teilweise schon durch einzelne Wintersportler. Einzelne Gefahrenstellen liegen auch an steilen Sonnenhängen in der Höhe. <br/> Vorsicht vor allem im selten befahrenen Gelände sowie an Übergängen von wenig zu viel Schnee. In der Sturzbahn können Lawinen den nassen Schnee mitreißen. Dies verlängert die Auslaufstrecken der Lawinen. <br/> Die nicht mehr ganz frischen Triebschneeansammlungen bleiben bis auf weiteres störanfällig."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Altschneedecke ist stellenweise störanfällig. Der untere Teil der Schneedecke ist kantig aufgebaut und schwach. Dies vor allem an steilen Schattenhängen oberhalb von rund 2000 m. Fernauslösungen sind vereinzelt möglich. <br/> Der obere Teil der Schneedecke ist ungünstig geschichtet, mit einer kaum tragfähigen Schmelzharschkruste an der Oberfläche."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Steile Schattenhänge hohe Lagen: Vorsicht vor Triebschnee und schwachem Altschnee. <br/> Die nächtliche Abstrahlung ist reduziert. Steile Sonnenhänge mittlere und hohe Lagen: Die Gefahr von nassen Lawinen besteht schon am Morgen.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-01T23:00:00Z",
+        "endTime" : "2026-03-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "NE", "SW", "E", "SE", "S", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SW", "E", "SE", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "cd8941a1-8471-4f4e-920d-f59bcd42a40b",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
