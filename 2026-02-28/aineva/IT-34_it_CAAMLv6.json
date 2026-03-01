@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-02-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-28T23:00:00Z",
+      "endTime" : "2026-03-01T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neve vecchia a debole coesione e neve bagnata sono la principale fonte di pericolo.",
+      "comment" : "Con il rialzo termico diurno, nel corso della giornata il pericolo di valanghe umide e bagnate aumenterà rapidamente. Ciò soprattutto sui pendii soleggiati molto ripidi e alle basi di pareti rocciose. Fare attenzione alle zone di deposito. Le escursioni dovrebbero terminare in tempo. <br/> Le valanghe possono subire un distacco nella neve vecchia e raggiungere grandi dimensioni. Ciò in alcuni punti già da parte di un singolo appassionato di sport invernali. Isolati punti pericolosi si trovano anche sui pendii soleggiati ripidi in quota. <br/> Attenzione soprattutto nelle zone poco frequentate, come pure nelle zone di passaggio da poca a molta neve. Nella zona di scorrimento le valanghe possono trascinare la neve bagnata. Ciò allunga la distanza d'arresto delle valanghe. <br/> Gli accumuli di neve ventata non più proprio freschi rimangono ancora instabili."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto di neve vecchia è instabile in alcuni punti. La parte basale del manto nevoso ha subito un metamorfismo costruttivo a cristalli sfaccettati ed è debole. Ciò soprattutto sui pendii ombreggiati ripidi al di sopra dei 2000 m circa. A livello isolato sono possibili distacchi a distanza. <br/> La parte superiore del manto nevoso ha una stratificazione sfavorevole, con una crosta da rigelo a malapena portante in superficie."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sui pendii ripidi ombreggiati ad alta quota: Attenzione alla neve ventata e alla neve vecchia a debole coesione. <br/> L'irraggiamento notturno sarà ridotto. Sui pendii ripidi esposti al sole alle quote medie e alte: Il pericolo di valanghe bagnate sussiste già al mattino.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-01T23:00:00Z",
+        "endTime" : "2026-03-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "NE", "SW", "E", "SE", "S", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SW", "E", "SE", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "N", "NE", "E", "NW" ]
+    } ],
+    "bulletinID" : "cd8941a1-8471-4f4e-920d-f59bcd42a40b",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
