@@ -1,0 +1,129 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-01T07:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-02-28T23:00:00Z",
+      "endTime" : "2026-03-01T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige ancienne fragile et neige mouillée constituant le danger principal.",
+      "comment" : "Avec le réchauffement diurne le danger d'avalanches humides et mouillées augmente rapidement en cours de journée. Ceci surtout sur les pentes très raides ensoleillées et au pied des parois rocheuses. Les zones de dépôt doivent être prises en considération. Les randonnées devraient être terminées à temps. <br/> Des avalanches peuvent être déclenchées dans la neige ancienne et atteindre une grande taille. Ceci parfois déjà par un seul adepte des sports d'hiver. Quelques endroits dangereux se situent aussi sur les pentes raides au soleil en altitude. <br/> Prudence surtout sur les terrains rarement fréquentés comme aux transitions entre les endroits peu enneigés et les endroits très enneigés. Dans leurs parcours, les avalanches peuvent entraîner la neige mouillée. Ceci prolonge les distances d'arrêt des avalanches. <br/> Les accumulations de neige soufflée plus entièrement fraîches restent pour l'instant fragiles."
+    },
+    "snowpackStructure" : {
+      "comment" : "Par endroits le manteau neigeux ancien est fragile. La partie inférieure du manteau neigeux a subi une métamorphose constructive à grains anguleux et est fragile. Ceci surtout sur les pentes raides à l'ombre au-dessus d'environ 2000 m. Des déclenchements à distance sont possibles de manière isolée. <br/> La partie supérieure du manteau neigeux présente une structure défavorable, avec une croûte de regel à peine porteuse à la surface."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Sur les pentes raides à l'ombre à haute altitude: Attention à la neige soufflée et neige ancienne fragile. <br/> Le rayonnement nocturne est réduit. Sur les pentes raides ensoleillées aux altitudes moyennes et élevées: Le danger d'avalanches mouillées est présent dès le matin.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-01T23:00:00Z",
+        "endTime" : "2026-03-02T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "N", "NW", "SW", "E", "W", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "SW", "E", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    } ],
+    "bulletinID" : "cd8941a1-8471-4f4e-920d-f59bcd42a40b",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
