@@ -1,0 +1,150 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above 1600 metres and low below that. Persistent weak layer is a persistent weak layer. With large additional loads, medium slab avalanches can be triggered on steep slopes in the west, north and east aspects. Take particular care at high altitudes in transition areas from little to much snow, for example when entering gullies and bowls.\n\nAt medium altitudes, isolated gliding avalanches are possible on slopes with a smooth surface. Gliding avalanches can also occur on shady slopes and at any time of day or night. They can be small to medium in size.",
+        "highlights": "Be aware of the persistent weak layer problem at higher altitudes!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "W",
+            "E",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "NW",
+            "W",
+            "S",
+            "N",
+            "E",
+            "NE",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "da908ce0-23fe-4a7c-b178-73a49957007a",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-02"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-01T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In shady slopes at higher altitudes, weak layers consisting of faceted crystals can be found deeper in the snowpack. These are usually covered by compact or crusted can form layers of snow. Outgoing longwave radiation is reduced by clouds at night and moisture remains in the snowpack at medium altitudes. Towards the ground, the snowpack is partly wet and gliding snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in the wet snow problem - the persistent weak layer problem remains.",
+          "validTime": {
+            "startTime": "2026-03-02T16:00:00+00:00",
+            "endTime": "2026-03-03T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-01T16:00:00+00:00",
+        "endTime": "2026-03-02T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Little outgoing longwave radiation and soft snowpack"
+    }
+  }
+}
