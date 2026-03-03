@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-03-02T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="4a1ce6bf-607a-4e60-a707-49f2a7a71afb" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-03-02T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-03-02T23:00:00Z</beginPosition>
+          <endPosition>2026-03-03T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-03-03T23:00:00Z</beginPosition>
+                <endPosition>2026-03-04T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Danger d'avalanches limité. Les endroits dangereux augmentent en cours de journée.</avActivityHighlights>
+          <avActivityComment>The dangerous spots are found on steep slopes, especially grassy ones, as well as in areas near the ridges and at the base of rock walls, also due to the possibility of debris falling from above. En cours de journée la probabilité de déclenchement d'avalanches humides augmente progressivement surtout sur les pentes au soleil. En outre, des avalanches de glissement sont possibles. Les accumulations de neige soufflée sont de manière isolée fragiles. Les randonnées demandent un choix très prudent d'itinéraires.</avActivityComment>
+          <snowpackStructureComment>Le rayonnement nocturne est généralement réduit. Les conditions météorologiques entraînent en cours de journée un ramollissement du manteau neigeux. La partie supérieure du manteau neigeux est humide, avec une croûte non porteuse à la surface, surtout à basse et moyenne altitude. &lt;br/&gt; Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes à l'ombre.</snowpackStructureComment>
+          <tendencyComment>Il fait un temps partiellement nuageux. Réchauffement léger.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
