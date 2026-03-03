@@ -1,0 +1,113 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-02T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-02T16:00:00Z",
+      "endTime" : "2026-03-03T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "There is a risk of falling on hard snow surfaces.",
+      "comment" : "The avalanche risk is moderate above 1700 metres and low below that. Persistent weak layer is a persistent weak layer. With large additional loads, medium slab avalanches can be triggered on shady slopes. Take particular care at high altitudes in transition areas from little to much snow, for example when entering gullies and bowls.\n\nAt medium altitudes, gliding avalanches are possible on slopes with a smooth surface. Gliding avalanches can also occur on shady slopes and at any time of day or night. They can be small to medium in size."
+    },
+    "snowpackStructure" : {
+      "comment" : "In shady slopes at higher altitudes, weak layers consisting of faceted crystals can be found deep in the snowpack. These are usually covered by compact or crusted can form layers of snow. Early in the morning, the snowpack at medium altitudes is frozen hard and firns in the sun during the day. Towards the ground, the snowpack is partly wet and can glide snow. In the foothills, the ground is increasingly pitting on the south side."
+    },
+    "tendency" : [ {
+      "highlights" : "Slow decline in the wet snow problem - the persistent weak layer problem remains.",
+      "validTime" : {
+        "startTime" : "2026-03-03T16:00:00Z",
+        "endTime" : "2026-03-04T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "SW", "NW", "W", "S", "N", "E", "NE", "SE" ]
+    } ],
+    "bulletinID" : "f3917c60-b473-4916-aab0-dcdd291d6943",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Avoid large additional loads on the snowpack."
+    }
+  }
+}
