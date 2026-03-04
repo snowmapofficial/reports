@@ -1,0 +1,156 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "With a slight cooling and cloudy weather, the danger of wet snow avalanches has decreased.\n\nHowever, there are still some places in the high alpine regions with blown snow where a heavy load can trigger avalanches. Weak layers in the snowpack are also a problem. If the load exceeds the load-bearing capacity of the deeper Weak layers, a deep and large avalanche can be triggered. There are many such weak layers, especially on axis above the forest.",
+        "highlights": "Avalanche danger in high alpine regions is moderate"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "W",
+            "S",
+            "E",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "75f6bfc4-11e4-4165-9608-3bf6db19b399",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1",
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-03T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack freezes at night, but becomes harder during the day, especially on Sunny slopes. The old snow cover is made up of layers of bonded snow that have already melted a little, and which are mostly well connected to each other. Deep below the surface, several weak layers of faceted snow crystals and abraded grains occur in the old snow cover."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "It will clear up on Tuesday. Faster in the high alpine regions than in the mid mountains. There will be no major warming. The danger of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-04T16:00:00+00:00",
+            "endTime": "2026-03-05T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-03T16:00:00+00:00",
+        "endTime": "2026-03-04T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Mostly clear at first, with clouds developing during the day and a few local showers. Winds will be mainly from the west. Temperatures will be around 4 \u00b0C at 1500 m and -4 \u00b0C at 2500 m in the middle of the day."
+      }
+    }
+  ]
+}
