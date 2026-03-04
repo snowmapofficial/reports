@@ -1,0 +1,101 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-03T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-03T23:00:00Z",
+      "endTime" : "2026-03-04T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Soprattutto sui pendii ombreggiati ripidi, gli strati deboli presenti nella parte basale del manto nevoso possono distaccarsi a livello isolato già in seguito al passaggio di un singolo appassionato di sport invernali. Ciò soprattutto nelle zone poco frequentate, come pure nelle zone scarsamente innevate al di sopra del limite del bosco. Le valanghe possono coinvolgere gli strati più profondi e raggiungere dimensioni pericolose. Gli strati deboli molto pronunciati presenti nella neve vecchia richiedono una prudente scelta dell'itinerario."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso non ha una stratificazione pronunciata, con una crosta da rigelo spesso portante in superficie. La superficie del manto nevoso si ammorbidirà nel corso della giornata. <br/> Il sole e il calore causeranno nel corso della giornata specialmente sui pendii soleggiati molto ripidi in alcuni punti una sturttura sfavorevole del manto nevoso. Con le forti oscillazioni di temperatura e l'irradiazione solare, si formerà una situazione valanghiva insidiosa. Queste condizioni causeranno un indebolimento del manto nevoso nelle conche, nei canaloni e dietro ai cambi di pendenza. Ciò soprattutto sui pendii ripidi esposti a sud, sud ovest e ovest al di sopra del limite del bosco."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-04T23:00:00Z",
+        "endTime" : "2026-03-05T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "W", "SE", "S", "N", "E", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "W", "SE", "S", "N", "E", "SW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "SE", "S", "E", "SW" ]
+    } ],
+    "bulletinID" : "af6bd6db-3a21-4fc5-a990-f264ee9e5b3d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
