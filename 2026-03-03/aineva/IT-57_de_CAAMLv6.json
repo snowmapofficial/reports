@@ -1,0 +1,66 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-03T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-03T23:00:00Z",
+      "endTime" : "2026-03-04T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nass- und Gleitschneelawinen sind die Hauptgefahr.",
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "snowpackStructure" : {
+      "comment" : "In Rinnen und Mulden oberhalb von rund 1800 m liegt viel Schnee. Die frühlingshaften Wetterbedingungen führten zu einer zunehmenden Anfeuchtung der Schneedecke. Diese Bedingungen verursachen auch in mittleren und hohen Lagen eine allmähliche Schwächung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-04T23:00:00Z",
+        "endTime" : "2026-03-05T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "W", "SE", "S", "N", "E", "SW" ]
+    } ],
+    "bulletinID" : "1865d119-f352-4c5b-b707-32e472ed9652",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
