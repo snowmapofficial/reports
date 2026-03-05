@@ -1,0 +1,66 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-04T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-04T23:00:00Z",
+      "endTime" : "2026-03-05T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding avalanches are the main danger.",
+      "comment" : "⚠ Error: Incomplete joker sentence"
+    },
+    "snowpackStructure" : {
+      "comment" : "In gullies and bowls above approximately 1800 m a lot of snow is lying. The spring-like weather conditions gave rise to increasing moistening of the snowpack. These conditions will cause a gradual weakening of the snowpack also at intermediate and high altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-05T23:00:00Z",
+        "endTime" : "2026-03-06T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "N", "NW", "SW", "SE", "NE", "W", "E" ]
+    } ],
+    "bulletinID" : "a9eb9d4f-989c-4e0e-b926-240b04919793",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
