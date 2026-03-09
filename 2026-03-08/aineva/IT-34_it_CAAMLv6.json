@@ -1,0 +1,101 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-08T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-08T23:00:00Z",
+      "endTime" : "2026-03-09T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Con il rialzo termico, sono possibili valanghe bagnate di neve a debole coesione. <br/> Gli accumuli di neve ventata in alcuni punti possono facilmente subire un distacco soprattutto sui pendii ripidi ombreggiati. Gli strati deboli presenti nella neve vecchia richiedono attenzione e prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "<br/> Le condizioni meteo primaverili causeranno sui pendii soleggiati molto ripidi in parte una sturttura sfavorevole del manto nevoso. Con le forti oscillazioni di temperatura e l'irradiazione solare, si formerà una situazione valanghiva insidiosa. Queste condizioni causeranno un indebolimento del manto nevoso nelle conche, nei canaloni e dietro ai cambi di pendenza. Ciò soprattutto sui pendii ripidi esposti a sud, sud ovest e ovest al di sopra del limite del bosco."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-09T23:00:00Z",
+        "endTime" : "2026-03-10T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "NW", "SW", "E", "N", "SE", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "NW", "SW", "E", "N", "SE", "NE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "S", "SW", "E", "SE" ]
+    } ],
+    "bulletinID" : "83fa4a0a-2c1d-4ff6-a737-6b08124bc052",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
