@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-03-10T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="c652651e-2df3-4707-9d2f-d646349d1e6f" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-03-10T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-03-10T23:00:00Z</beginPosition>
+          <endPosition>2026-03-11T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1900Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validElevation xlink:href="ElevationRange_1900Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-03-11T23:00:00Z</beginPosition>
+                <endPosition>2026-03-12T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Moderato pericolo di valanghe.</avActivityHighlights>
+          <avActivityComment>Nel corso della giornata la probabilità di distacco di valanghe umide di piccole e medie dimensioni aumenterà soprattutto sui pendii ripidi. I punti pericolosi si trovano soprattutto nelle basi di pareti rocciose, come pure nelle zone in prossimità delle creste, nei canaloni e nelle conche. Gli accumuli di neve ventata sono, a livello isolato, instabili. Le valanghe possono distaccarsi per lo più con un forte sovraccarico. Sulla dura superficie del manto nevoso sussiste un pericolo di caduta in molti punti.</avActivityComment>
+          <snowpackStructureComment>Le condizioni meteo hanno causato, in generale, un'attenuazione del pericolo valanghivo per i ripetuti cicli di fusione e rigelo; ciò nonostante, il raffreddamento sta favorendo all'interno del manto nevoso una ripresa dei processi di metamorfismo costruttivo che portano alla formazione degli strati deboli persistenti che il rialzo delle temperature aveva interrotto. Tale processo sta avvenendo soprattutto dove il manto nevoso ha minore spessore. Nel corso della giornata le condizioni meteo causeranno un inumidimento del manto nevoso, principalmente alle quote di bassa e media montagna. Soprattutto sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili.</snowpackStructureComment>
+          <tendencyComment>Precipitazioni in molte regioni.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
