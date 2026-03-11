@@ -1,0 +1,190 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-10T23:00:00Z",
+      "endTime" : "2026-03-11T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schwachen Altschnee beachten. Leichter Anstieg der Gefahr von feuchten Lawinen im Tagesverlauf.",
+      "comment" : "Wintersportler können vereinzelt Lawinen auslösen. Diese können groß werden. Die Gefahrenstellen für trockene Lawinen liegen vor allem an sehr steilen Nordwest-, Nord- und Nordosthängen oberhalb von rund 2000 m sowie an sehr steilen West- und Osthängen oberhalb von rund 2200 m. Vorsicht vor allem an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. <br/> <br/> Im Tagesverlauf steigt die Auslösebereitschaft von feuchten Schneebrettlawinen an sehr steilen West- und Osthängen unterhalb von rund 2200 m an. Vorsicht vor allem an eher schneearmen Stellen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Im unteren Teil der Schneedecke sind an West-, Nord- und Osthängen ausgeprägte Schwachschichten vorhanden, vor allem oberhalb von rund 2000 m. <br/> <br/> Der obere Teil der Schneedecke ist aufbauend umgewandelt, besonders an Schattenhängen in der Höhe. <br/> <br/> Die nächtliche Abstrahlung ist stark eingeschränkt. Mit hoher Luftfeuchtigkeit kann sich die Schneedecke nicht verfestigen, besonders unterhalb von rund 2200 m. <br/> <br/> Auf der harten Schneeoberfläche besteht im Steilgelände Absturzgefahr. Dies in hohen Lagen."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Schwachen Altschnee beachten. Allmählicher Anstieg der Gefahr von nassen Lawinen im Tagesverlauf.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-11T23:00:00Z",
+        "endTime" : "2026-03-12T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP7", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "NW", "E", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "S", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "b4983ddd-055f-40ae-b868-7009cd2fb196",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-10T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-10T23:00:00Z",
+      "endTime" : "2026-03-11T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Geringe Lawinengefahr.",
+      "comment" : "Mit der tageszeitlichen Erwärmung sind nur noch vereinzelt nasse Lawinen möglich. <br/> <br/> Es sind nur noch vereinzelt trockene Lawinen möglich. Sie können vor allem mit großer Belastung ausgelöst werden, sind aber meist klein. Einzelne Gefahrenstellen liegen an steilen Schattenhängen in hohen Lagen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Schattenhänge: In der Altschneedecke sind v.a. an Nordwest-, Nord- und Nordosthängen störanfällige Schwachschichten vorhanden. <br/> <br/> Die nächtliche Abstrahlung ist stark eingeschränkt. Mit hoher Luftfeuchtigkeit kann sich die Schneedecke nicht verfestigen. Sonnenhänge: Die Wetterbedingungen führten zu einer Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Geringe Lawinengefahr.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-11T23:00:00Z",
+        "endTime" : "2026-03-12T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-11"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "b6266451-dd9f-4158-9cba-52054ae6bf1b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
