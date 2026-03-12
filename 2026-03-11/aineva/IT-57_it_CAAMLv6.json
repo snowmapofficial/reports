@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-11T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-11T23:00:00Z",
+      "endTime" : "2026-03-12T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La principale fonte di pericolo è costituita da valanghe bagnate e per scivolamento di neve.",
+      "comment" : "Soprattutto sui pendii ripidi e alle quote medie e alte sono possibili valanghe bagnate e per scivolamento di neve di medie e, a livello isolato, di grandi dimensioni. Attenzione in caso di rotture da scivolamento. Attenzione alle cornici ancora presenti e aggettanti nei versanti sottovento."
+    },
+    "snowpackStructure" : {
+      "comment" : "Nelle conche e nei canaloni al di sopra dei 1800 m circa è presente molta neve. Le condizioni meteo primaverili hanno causato un inumidimento del manto nevoso. Queste condizioni hanno provocato un graduale indebolimento del manto nevoso anche alle quote medie e alte. Un po' di neve fresca al di sopra dei 1800 m circa. Le escursioni, le discese fuori pista e le salite ai rifugi dovrebbero iniziare e terminare molto presto."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-12T23:00:00Z",
+        "endTime" : "2026-03-13T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "W", "SW", "N", "E", "NW", "SE" ]
+    } ],
+    "bulletinID" : "3508f0c2-d351-4d73-93dc-d46e2b9a0f29",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
