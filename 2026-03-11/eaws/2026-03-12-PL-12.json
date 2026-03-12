@@ -1,0 +1,97 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "W wysokich partiach g\u00f3r uwa\u017ca\u0107 trzeba na ewentualne depozyty powsta\u0142e w wyniku dzia\u0142ania wiatru, pami\u0119taj\u0105c te\u017c o s\u0142abych warstwach w \"starym\" \u015bniegu. G\u0142\u00f3wnie w ni\u017cszych partiach, ale de facto w ca\u0142ym profilu zwraca\u0107 te\u017c trzeba uwag\u0119 na \u015bniegi przemoczone: s\u0142o\u0144cem, deszczem, lub og\u00f3lnym wzrostem temperatury. prognozowany na jutro opad deszczu/\u015bniegu pogorszy sytuacj\u0119"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "0"
+          }
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "NE",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          }
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          }
+        }
+      ],
+      "bulletinID": "PL-12_2026-03-12 20:00",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-12"
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "lowerBound": "0"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "publicationTime": "2026-03-11T17:48:00",
+      "regions": [
+        {
+          "regionID": "PL-12"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Pokrywa \u015bnie\u017cna jest na og\u00f3\u0142 dobrze zwi\u0105zana i stabilna. Wyzwolenie lawiny jest na og\u00f3\u0142 mo\u017cliwe jedynie przy du\u017cym obci\u0105\u017ceniu dodatkowym w nielicznych miejscach na bardzo stromych lub ekstremalnych stokach. Mo\u017cliwe jest samoistne schodzenie ma\u0142ych i \u015brednich lawin."
+      },
+      "source": {
+        "provider": {
+          "name": "Tatra\u0144skie OPR",
+          "website": "https://lawiny.topr.pl/"
+        }
+      },
+      "travelAdvisory": {
+        "comment": "Na og\u00f3\u0142 dogodne warunki. Nale\u017cy zachowa\u0107 szczeg\u00f3ln\u0105 ostro\u017cno\u015b\u0107 na stokach bardzo stromych lub ekstremalnych."
+      },
+      "validTime": {
+        "startTime": "2026-03-11T17:48:00",
+        "endTime": "2026-03-12T20:00:00"
+      }
+    }
+  ]
+}
