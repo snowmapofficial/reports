@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-12T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-12T23:00:00Z",
+      "endTime" : "2026-03-13T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack necessitate caution and restraint.",
+      "comment" : "As a consequence of warming during the day moist avalanches are possible, but they will be mostly small. The natural activity of small avalanches will only slowly increase. Distinct weak layers in the old snowpack necessitate caution. Weak layers in the lower part of the snowpack can be released even by individual winter sport participants in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. This applies in particular on northeast, north and northwest facing slopes above the tree line. The avalanches can be released in deep layers of the snowpack and reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack remains generally subject to considerable local variations. The rain gave rise to gradual moistening of the snowpack below approximately 1700 m. Above approximately 2000 m northwest, north and northeast facing slopes: Distinct weak layers in the old snowpack represent the main danger."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-13T23:00:00Z",
+        "endTime" : "2026-03-14T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "W", "N", "NW", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "E", "SE", "W", "NW", "N", "SW", "NE" ]
+    } ],
+    "bulletinID" : "044ee74a-c1e0-4b90-bf9c-62a3b6fe87f7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
