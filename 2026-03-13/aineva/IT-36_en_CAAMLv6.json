@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-13T23:00:00Z",
+      "endTime" : "2026-03-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gradual increase in avalanche danger as a consequence of the precipitation. Towards the evening danger level 3 (considerable) will be reached.",
+      "comment" : "15 to 30 cm of snow will fall above approximately 1400 m. This applies in particular towards the evening. The wind will be moderate. As a consequence of the precipitation the prevalence and size of the avalanche prone locations will increase. Moist and wet avalanches require caution. The avalanche prone locations are to be found in particular at the base of rock walls, and adjacent to ridgelines and in gullies and bowls. The wind slabs are bonding poorly with the old snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "Over a wide area wind and new snow: Over a wide area the wind slabs will increase in size. <br/> Weak layers exist in the snowpack in particular on shady slopes. The weather conditions will give rise to moistening of the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "10 to 50 cm of snow will fall above approximately 1400 m.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-14T23:00:00Z",
+        "endTime" : "2026-03-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "S", "N", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N", "W", "E" ]
+    } ],
+    "bulletinID" : "769b6f2d-0649-4a79-9805-cb96b865c207",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
