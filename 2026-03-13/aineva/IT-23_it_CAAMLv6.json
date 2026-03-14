@@ -1,0 +1,263 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-13T23:00:00Z",
+      "endTime" : "2026-03-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con l'intensificarsi delle precipitazioni, a partire da mezzogiorno il pericolo di valanghe aumenterà progressivamente al grado 4 \"forte\". Le condizioni per le escursioni sono insidiose.",
+      "comment" : "Sabato: Cadrà molta neve. Con l'intensificarsi delle nevicate, a partire da mezzogiorno il numero e le dimensioni dei punti pericolosi aumenteranno. Il vento a tratti forte rimaneggerà intensamente la neve fresca. La neve fresca di sabato non si legherà bene con la neve vecchia. <br/> Soprattutto dai bacini di alimentazione in quota, specialmente sui pendii ombreggiati ripidi sono previste sempre più numerose valanghe in parte di grandi dimensioni. Nelle regioni più colpite dalle precipitazioni, lungo i percorsi abituali le valanghe asciutte possono in parte avanzare sino a fondovalle. <br/> Le escursioni con gli sci o le racchette da neve, così come le discese fuori pista sono sconsigliate."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sabato cadranno da 40 a 100 cm di neve al di sopra dei 1600 m circa, localmente anche di più. La parte superiore del manto nevoso ha una stratificazione sfavorevole. La neve fresca di sabato non si legherà bene con la neve vecchia. <br/> In alcune regioni giovedì sono caduti da 5 a 10 cm di neve al di sopra dei 2200 m circa. <br/> La parte superiore del manto nevoso è per lo più stabile, con una crosta da rigelo spesso portante in superficie. <br/> Principalmente sui pendii ripidi ombreggiati ad alta quota e in alta montagna: Neve superficialmente molto compattata e stabilizzata dai venti tempestosi di fine febbraio o composta da cristalli sfaccettati e localmente da neve a debole coesione e brina di superficie. Qui, all'interno del manto di neve vecchia si trovano strati fragili. <br/> Nelle zone in prossimità delle creste e dei passi così come ad alta quota l'innevamento è estremamente variabile a seconda dell'azione del vento."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neve fresca in molte regioni: La neve fresca così come gli accumuli di neve ventata che si formeranno in molti punti e in alcuni punti di grandi dmensioni rappresentano la principale fonte di pericolo.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-14T23:00:00Z",
+        "endTime" : "2026-03-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N", "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "N", "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N", "S", "SW", "W", "E", "SE" ]
+    } ],
+    "bulletinID" : "dd0ce35c-2e49-46bc-979d-e18a6b7558a7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-13T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-13T23:00:00Z",
+      "endTime" : "2026-03-14T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con l'intensificarsi delle precipitazioni, a partire da mezzogiorno il pericolo di valanghe aumenterà progressivamente. Le condizioni per le escursioni sono parzialmente insidiose.",
+      "comment" : "Sabato: Con l'intensificarsi delle nevicate, a partire da mezzogiorno il numero e le dimensioni dei punti pericolosi aumenteranno. Il vento moderato causerà il trasporto della neve fresca. La neve fresca di sabato non si legherà bene con la neve vecchia. <br/> Soprattutto dai bacini di alimentazione in quota, principalmente sui pendii ombreggiati ripidi sono previste sempre più numerose valanghe di dimensioni medio-grandi. Lungo i percorsi abituali le valanghe asciutte possono in parte avanzare sino alle quote di media montagna. <br/> Le escursioni con gli sci e le racchette da neve, così come le discese fuori pista richiedono attenzione e prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sabato cadranno da 30 a 60 cm di neve al di sopra dei 1600 m circa, localmente anche di più. La parte superiore del manto nevoso ha una stratificazione sfavorevole. La neve fresca di sabato in alcuni punti non si legherà bene con la neve vecchia. <br/> In alcune regioni giovedì sono caduti da 5 a 10 cm di neve al di sopra dei 2200 m circa. <br/> La parte superiore del manto nevoso è per lo più stabile, con una crosta da rigelo spesso portante in superficie. <br/> Principalmente sui pendii ripidi ombreggiati ad alta quota e in alta montagna: Neve superficialmente molto compattata e stabilizzata dai venti tempestosi di fine febbraio o composta da cristalli sfaccettati e localmente da neve a debole coesione e brina di superficie. Qui, all'interno del manto di neve vecchia si trovano strati fragili. <br/> Nelle zone in prossimità delle creste e dei passi così come ad alta quota l'innevamento è estremamente variabile a seconda dell'azione del vento."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neve fresca: La neve fresca così come gli accumuli di neve ventata che si formeranno in molti punti rappresentano la principale fonte di pericolo.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-14T23:00:00Z",
+        "endTime" : "2026-03-15T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N", "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N", "S", "SW", "W", "E", "SE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "S", "N", "SW", "W", "E", "SE" ]
+    } ],
+    "bulletinID" : "c4c04839-7ca5-4fb0-9441-22e40e0572da",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
