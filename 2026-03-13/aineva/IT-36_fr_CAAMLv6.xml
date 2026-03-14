@@ -1,0 +1,101 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="769b6f2d-0649-4a79-9805-cb96b865c207" lang="fr">
+    <publicationTime>2026-03-13T16:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-03-13T23:00:00Z</startTime>
+      <endTime>2026-03-14T23:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-36-PN-02">
+      <name>PRALPI CARNICHE ORIENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-05">
+      <name>PREALPI GIULIE</name>
+    </region>
+    <region regionID="IT-36-PN-01">
+      <name>PREALPI CARNICHE OCCIDENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-04">
+      <name>CANIN</name>
+    </region>
+    <region regionID="IT-36-UD-03">
+      <name>ALPI GIULIE SENZA CANIN</name>
+    </region>
+    <region regionID="IT-36-UD-02">
+      <name>ALPI CARNICHE ORIENTALI</name>
+    </region>
+    <region regionID="IT-36-UD-01">
+      <name>ALPI CARNICHE OCCIDENTALI</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1400</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1400</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>new_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1400</lowerBound>
+      </elevation>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>S</aspect>
+      <aspect>N</aspect>
+      <aspect>SW</aspect>
+      <aspect>W</aspect>
+      <aspect>E</aspect>
+      <aspect>SE</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>fair</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>persistent_weak_layers</problemType>
+      <elevation uom="m">
+        <lowerBound>1900</lowerBound>
+      </elevation>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <aspect>E</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>poor</snowpackStability>
+      <frequency>some</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Augmentation progressive du danger d'avalanches avec les précipitations. En soirée le degré de danger 3, "marqué" sera atteint.</highlights>
+      <comment>Il tombe au-dessus d'environ 1400 m de 15 à 30 cm de neige. Ceci surtout en soirée. Le vent souffle modérément. Avec les précipitations le nombre et l'étendue des endroits dangereux augmentent. Des avalanches humides et mouillées sont à prendre en considération. Les endroits dangereux se situent surtout au pied des parois rocheuses, ainsi que près des crêtes, combes et couloirs. Les accumulations de neige soufflée se lient mal avec la neige ancienne.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>En général vent et neige fraîche: Les accumulations de neige soufflée se développent en général. &lt;br/> Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes à l'ombre. Les conditions météorologiques entraînent une humidification du manteau neigeux.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <highlights>Il tombe au-dessus d'environ 1400 m de 10 à 50 cm de neige.</highlights>
+      <tendencyType>increasing</tendencyType>
+      <validTime>
+        <startTime>2026-03-14T23:00:00Z</startTime>
+        <endTime>2026-03-15T23:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-03-14</mainDate>
+      </ALBINA>
+      <LWD_Tyrol/>
+    </customData>
+  </bulletin>
+</bulletins>
