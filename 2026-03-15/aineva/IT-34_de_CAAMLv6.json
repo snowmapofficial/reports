@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-15T06:48:02Z",
+    "validTime" : {
+      "startTime" : "2026-03-14T23:00:00Z",
+      "endTime" : "2026-03-15T23:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fallen lokal oberhalb von rund 2000 m bis zu 40 cm Schnee, lokal auch mehr. Markanter Anstieg der Lawinengefahr in den Hauptniederschlagsgebieten.",
+      "comment" : "Die spontane Aktivität von Lawinen nimmt rasch zu. Die Lawinen können in tiefen Schichten anreißen und recht groß werden. An steilen Schattenhängen sind die Gefahrenstellen häufiger. Ausgeprägte Schwachschichten im Altschnee erfordern Vorsicht. Schwachschichten im unteren Teil der Schneedecke können v.a. an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden auch von einzelnen Wintersportlern ausgelöst werden. Dies vor allem an Nordost-, Nord- und Nordwesthängen oberhalb der Waldgrenze. Der Regen führt unterhalb von rund 1700 m zu einer allmählichen Durchnässung der Schneedecke. Im Tagesverlauf sind Nass- und Gleitschneelawinen möglich. In den Gebieten wo mehr als 40 cm Schnee fallen wird im Tagesverlauf die Gefahrenstufe 4, \"groß\" erreicht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fallen lokal oberhalb von rund 2000 m bis zu 40 cm Schnee, lokal auch mehr. Der Regen führt unterhalb von rund 1700 m zu einer allmählichen Anfeuchtung der Schneedecke. Die Schneedecke wird in den Voralpen feucht. Oberhalb von rund 2000 m Nordwest-, Nord- und Nordosthänge: Ausgeprägte Schwachschichten im Altschnee sind heimtückisch."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-15T23:00:00Z",
+        "endTime" : "2026-03-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NE", "S", "SE", "NW", "N", "SW", "W" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "S", "SE", "NW", "N", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NE", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "6e4b2d91-cd49-4b6c-8ab2-c99c5d5e2b87",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
