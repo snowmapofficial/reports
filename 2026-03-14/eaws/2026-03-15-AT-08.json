@@ -1,0 +1,256 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As a result of fresh snow and wind, avalanche danger will increase. Freshly generated snowdrift accumulations can trigger a medium-sized slab avalanche even by minimum additional loading. Danger zones occur most of all in steep ridgeline terrain and in wind-loaded gullies and bowls. In addition, avalanches can fracture down to weak layers inside the snowpack on shady slopes and in isolated cases grow to large size. Such avalanche prone locations are found mostly in spots of shallow snow and in transitions from shallow to deep snow. Particularly when there is strong solar radiation, small-to-medium loose-snow avalanches are possible in steep rocky terrain.",
+        "highlights": "Beware snowdrifts and weak layers on shady slopes: prone to triggering"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "E",
+            "NW",
+            "NE",
+            "W",
+            "SE",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "E",
+            "NW",
+            "NE",
+            "W",
+            "SE",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "E",
+            "NW",
+            "NE",
+            "W"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "3421d754-f718-45c4-8138-d09eefdc1f70",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-15"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-14T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-08-05-01",
+          "name": "R\u00e4tikon East"
+        },
+        {
+          "regionID": "AT-08-05-02",
+          "name": "R\u00e4tikon West"
+        },
+        {
+          "regionID": "AT-08-06",
+          "name": "Silvretta West"
+        },
+        {
+          "regionID": "AT-08-03-02",
+          "name": "Lechquellen Mountains"
+        },
+        {
+          "regionID": "AT-08-03-01",
+          "name": "Lechtal Alps Vorarlberg"
+        },
+        {
+          "regionID": "AT-08-04",
+          "name": "Verwall West"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "By Sunday morning above 600-800m, about 20cm of snowfall is anticipated in Verwall, in the Arlberg region 25-30cm, in Silvretta 25-35cm. As a result of NW winds, fresh snowdrift accumulations will be generated. They will be deposited often atop a loosely-packed old snowpack surface or atop surface hoar and are prone to triggering. The mid-level part of the snowpack consists widespread of well settled, compact layers which on shady slopes at higher altitudes blanket a poorly structured old fundament."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Vorarlberg",
+          "website": "https://warnung.vorarlberg.at/vtgdb/dist/index.html#//lwd_lagebericht_en.html"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Monday, snow showers will repeatedly pass through starting at midday, often accompanied by strong-velocity westerly winds. Fresh trigger-sensitive snowdrift accumulations will be generated.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-15T16:00:00+00:00",
+            "endTime": "2026-03-16T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-14T16:00:00+00:00",
+        "endTime": "2026-03-15T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Low-pressure front conditions. Nighttime snowfall will presently taper off, clouds and fog will be persistent all day long. Bright intervals can best be expected in the Central Alps during daytime hours. Temperature at 2000m: -5 degrees; at 3000m: -9 degrees. Moderate-velocity SW winds at high altitudes."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "Avalanche danger above the timberline is moderate, below that altitude danger is low. Freshly generated snowdrift accumulations can trigger a medium-sized slab avalanche even by minimum additional loading. Danger zones occur most of all in steep ridgeline terrain and in wind-loaded gullies and bowls. In addition, avalanches can fracture down to weak layers inside the snowpack on shady slopes and in isolated cases grow to medium size. Apart from the risks of being buried in snow masses, the danger of being swept along and forced to take a fall require high attentiveness.",
+        "highlights": "Beware snowdrifts: prone to triggering"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "NW",
+            "W",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "85b31fce-3995-42fa-9866-09459332123d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-15"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-14T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-08-07",
+          "name": "Pre Alps"
+        },
+        {
+          "regionID": "AT-08-01",
+          "name": "Bregenzerwald Mountains"
+        },
+        {
+          "regionID": "AT-08-02",
+          "name": "Allg\u00e4u Alps West"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "By Sunday morning above 600-800m, about 20cm of snowfall is anticipated in Verwall, in the Arlberg region 25-30cm, in Silvretta 25-35cm. As a result of NW winds, fresh snowdrift accumulations will be generated. They will be deposited often atop a loosely-packed old snowpack surface or atop surface hoar and are prone to triggering. The mid-level part of the snowpack consists widespread of well settled, compact layers which on shady slopes at higher altitudes blanket a poorly structured old fundament."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Vorarlberg",
+          "website": "https://warnung.vorarlberg.at/vtgdb/dist/index.html#//lwd_lagebericht_en.html"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Monday, snow showers will repeatedly pass through starting at midday, often accompanied by strong-velocity westerly winds. Fresh trigger-sensitive snowdrift accumulations will be generated.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-15T16:00:00+00:00",
+            "endTime": "2026-03-16T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-14T16:00:00+00:00",
+        "endTime": "2026-03-15T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Low-pressure front conditions. Nighttime snowfall will presently taper off, clouds and fog will be persistent all day long. Bright intervals can best be expected in the Central Alps during daytime hours. Temperature at 2000m: -5 degrees; at 3000m: -9 degrees. Moderate-velocity SW winds at high altitudes."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Beware snowdrifts and weak layers on shady slopes: prone to triggering"
+    }
+  }
+}
