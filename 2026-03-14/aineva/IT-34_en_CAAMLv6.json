@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-14T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-14T23:00:00Z",
+      "endTime" : "2026-03-15T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "In some localities up to 40 cm of snow, and even more in some localities, will fall above approximately 2000 m. Significant increase in avalanche danger in the regions exposed to heavier precipitation.",
+      "comment" : "The natural activity of avalanches will rapidly increase. The avalanches can be released in deep layers of the snowpack and reach quite a large size. On steep shady slopes the avalanche prone locations are more prevalent. Distinct weak layers in the old snowpack necessitate caution. Weak layers in the lower part of the snowpack can be released even by individual winter sport participants in particular at transitions from a shallow to a deep snowpack, when entering gullies and bowls for example. This applies in particular on northeast, north and northwest facing slopes above the tree line. The rain will give rise to gradual and thorough wetting of the snowpack below approximately 1700 m. As the day progresses, wet and gliding avalanches are possible. In the regions where more than 40 cm of snow falls danger level 4 (high) will be reached in the course of the day."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some localities up to 40 cm of snow, and even more in some localities, will fall above approximately 2000 m. The rain will give rise to gradual moistening of the snowpack below approximately 1700 m. The snowpack will become moist in the Prealps. Above approximately 2000 m northwest, north and northeast facing slopes: Distinct weak layers in the old snowpack are treacherous."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-15T23:00:00Z",
+        "endTime" : "2026-03-16T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NE", "S", "SE", "NW", "N", "SW", "W" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "S", "SE", "NW", "N", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NE", "NW", "N", "W" ]
+    } ],
+    "bulletinID" : "6e4b2d91-cd49-4b6c-8ab2-c99c5d5e2b87",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
