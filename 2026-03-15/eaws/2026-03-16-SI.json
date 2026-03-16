@@ -1,0 +1,180 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Since Saturday, 10-20 cm of New fallen snow has fallen above altitudes of around 1600 m. It snowed with a moderate south-westerly wind, which built up small snowdrift accumulations on the leeward sides. In addition to the new fallen snow, weak layers in the snowpack deeper in the snowpack are a problem. These weak layers are more numerous in the axis above the forest. In particular, a large avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.\nPrecipitation will occur in the second half of the day on Monday. The snowfall level will be at an altitude of around 1500 m and 20-30 cm of New fallen snow is expected to fall. The danger of avalanches will increase due to new fallen snow in the high alpine regions. Initially, it will rain in the mid-mountains. The rain will stabilise the snowpack and wet snow avalanches may occur.",
+        "highlights": "New fallen snow, weak layers still deep in the snowpack"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "N",
+            "E",
+            "SE",
+            "SW",
+            "NW",
+            "NE",
+            "W",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "N",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "N",
+            "E",
+            "SE",
+            "SW",
+            "NW",
+            "NE",
+            "W",
+            "S"
+          ],
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "bf1652a6-061e-4669-8ead-a7a6ed777749",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-16"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP1"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-15T18:17:08+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In an old snow cover, the layers of snow are mostly well connected, with a Crust on top that mostly supports the skier's weight. Deep below the surface, there are several weak layers of shreds and sheared grains.\nSince Saturday, 10-20 cm of new fallen snow has fallen on top of the old snow cover above altitudes of about 1600 m. During the snowfall, some localised freshet may also have fallen, which represents a new Weak layer. On Monday, a further 20-30 cm of New fallen snow is expected to fall in the second half of the day."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The danger of avalanches will remain the same.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-16T16:00:00+00:00",
+            "endTime": "2026-03-17T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-15T16:00:00+00:00",
+        "endTime": "2026-03-16T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "There will be some clearing at first, with clouds starting in the morning. In the afternoon it will be cloudy and foggy with showers. The snowfall level will initially be around 1500 m above altitudes, but will start to decrease in the evening. Winds will be light and variable at first, with light to moderate north-easterly winds in the evening. The temperature at 1500 m will be around 2 \u00b0C mid-day and at 2500 m around -4 \u00b0C."
+      }
+    }
+  ]
+}
