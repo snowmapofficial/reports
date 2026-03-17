@@ -1,0 +1,145 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above the tree line and low below. Fresh wind slab is the main problem. In places, small to medium slab avalanches can be triggered with a small additional load. This is possible above all in steep terrain adjacent to ridgelines in the north, east and south aspects as well as in gullies and bowls. The number and extent of avalanche prone locations increase with altitude. On shady slopes at high altitudes, avalanches can also penetrate to deep layers in persistent weak layers.\n\nThe new fallen snow can detach itself from the steep terrain interspersed with rocks as a small loose snow avalanche and slide down on the crusted old snowpack.",
+        "highlights": "At high altitudes, there is a slight danger from weak layers in the persistent weak layer in addition to the wind slab."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "E",
+            "NE",
+            "S",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "08fd7dee-97d4-411d-8c7e-dd4d7b68327c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-16T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "It will snow in the night to Tuesday, accompanied by stormy winds from the north-west, especially east of the Lech. The snow will be transported and fresh, prone-to-triggering snowdrift accumulations will form. At higher altitudes, these are partly on soft layers of snow or older wind slabs. On shady slopes at higher altitudes, weak layers of faceted crystals can be found deep in the otherwise compact old snowpack. At low altitudes and on the southern sides of the middle elevations, the new fallen snow falls widely on the apery ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Slow decline in the drifting snow problem over the next few days.",
+          "validTime": {
+            "startTime": "2026-03-17T16:00:00+00:00",
+            "endTime": "2026-03-18T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-16T16:00:00+00:00",
+        "endTime": "2026-03-17T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Fresh wind slab forms with winds from the northwest."
+    }
+  }
+}
