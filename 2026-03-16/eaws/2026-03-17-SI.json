@@ -1,0 +1,159 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "A cold front with precipitation and north-easterly winds moved through the mountains on Monday evening. A total of 5 to 20 cm of dry snow is expected to fall by Monday morning. At the same time, a strong north to north-easterly wind will blow, building up snow accumulations on the southern sides. New fallen snow will be less able to adhere to the older snow base. The danger will be higher especially on sloping terrain and in gullies, where the new fallen snow will be higher due to snow accumulations.\n\nIn addition to new fallen snow, weak layers in the snowpack deeper in the snowpack are a problem. These weak layers are more prevalent in the axis above the forest. In particular, a large avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.",
+        "highlights": "New fallen snow with wind"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "N",
+            "E",
+            "NW",
+            "S",
+            "NE",
+            "W",
+            "SE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "b34006b3-1d15-4381-a982-62f3ef447b11",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-16T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Showers occurred at the end of the week. Snowfall ranged from 5 to 20 cm, which in many places became slushy. During the snowfall, there was also some local fall of graupel, which can form a new weak layer. As the weather cools, the older snow base will freeze. By Monday morning, 5 to 20 cm of dry snow will have fallen on hard ground.\n\nIn the old snow cover, the layers of snow are mostly well connected, with a Crust at the top that can mostly support the skier's weight. Deep below the surface, there are several weak layers of shreds and sheared grains."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Wednesday will be very windy and cold. The wind will carry snow and build up snowdrifts. On Thursday it will clear, with only a slight decrease in wind.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-03-17T16:00:00+00:00",
+            "endTime": "2026-03-18T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-16T16:00:00+00:00",
+        "endTime": "2026-03-17T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "It will clear up quickly on Tuesday morning. Variable cumulus cloud will form during the day, with occasional fog on peaks and slopes. Brief snow showers will occur during the mid-day and afternoon. There will be moderate winds from the north to north-east, possibly strong in exposed areas. Temperatures will be around -3 \u00b0C at 1500 m and -10 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
