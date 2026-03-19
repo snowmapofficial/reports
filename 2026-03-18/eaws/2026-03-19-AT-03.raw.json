@@ -1,0 +1,75 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-18T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-18T16:00:00Z",
+      "endTime" : "2026-03-19T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Lower Austria"
+      }
+    },
+    "highlights" : "Beware of fresh wind slab, watch out for persistent weak layer problems in shady high altitudes.",
+    "weatherForecast" : {
+      "comment" : "Thursday night will be mostly partly cloudy in the mountains of Lower Austria, with only localised low cloud. The easterly wind will ease considerably.\nThursday will be mostly sunny, with only a few harmless clouds passing through. In the afternoon, the clouds will increase slightly towards the east.\nThe temperature at 1500 m will be between -2 and +2 °C."
+    },
+    "avalancheActivity" : {
+      "comment" : "The avalanche risk is still low.\n\nAvalanche prone locations are mainly limited to fresh snowdrift accumulations in gullies and bowls as well as in steep terrain adjacent to ridgelines. These are small in scale and irregularly distributed due to the changing wind. They can be triggered as small slab avalanches by individual winter sports enthusiasts.\n\nIn addition, the persistent weak layer problem must still be taken into account in shady high altitudes. Weak layers in the lower snow layering can be prone to triggering locally."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is mostly stable. There is a well-developed melt-freeze crust on which the fresh snow has deposited as wind slab. Due to wind transport, compact drift snow packs have formed locally, which are prone to triggering on a small scale.\n\nIn shady high altitudes, large, faceted crystals are still present in the persistent weak layer in places, weakening the foundation of the snowpack.\n\nBelow around 1400 m, and on south-facing slopes below around 1600 m, there is only a little snow."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche risk remains the same. On Friday, the clouds will increase from the north and on Saturday it may snow a little from the low mountain range upwards.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-19T16:00:00Z",
+        "endTime" : "2026-03-20T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "NW", "W", "SW", "E", "S", "NE", "N" ]
+    } ],
+    "bulletinID" : "a0371427-8e77-40b0-9bf9-770e6622985c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gippel - Göllergebiet",
+      "regionID" : "AT-03-06"
+    }, {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Still low avalanche danger, note fresh wind slab"
+    }
+  }
+}
