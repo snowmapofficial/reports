@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-19T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-19T23:00:00Z",
+      "endTime" : "2026-03-20T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "En altitude les endroits dangereux sont plus fréquents et plus étendus.",
+      "comment" : "The wind, which has been blowing quite strongly in recent days, has reshaped the snowpack, especially at higher elevations, leading to the formation of cornices and new drifts of wind-blown snow that will bond only slowly with the old snow. Elles doivent être évaluées avec précaution. Les endroits dangereux se situent surtout au pied des parois rocheuses, ainsi que près des crêtes, combes et couloirs. Des avalanches peuvent en de nombreux endroits être déclenchées avec en général une surcharge importante. Les randonnées demandent de l' expérience dans l'évaluation du danger d'avalanche et un choix prudent des itinéraires. A côté du danger d'ensevelissement, il faut aussi penser au danger d'être emporté et de chuter."
+    },
+    "snowpackStructure" : {
+      "comment" : "Les accumulations de neige soufflée se sont développées avec le vent. <br/> Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes à l'ombre. At mid- and low-mountain elevations, the alternating cycles of melting and refreezing have led to the formation of a hard, load-bearing surface crust in many places, which may become saturated with moisture during the day, especially on sunny slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il fait un temps nuageux.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-20T23:00:00Z",
+        "endTime" : "2026-03-21T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "W", "SW", "S", "N", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "E", "W", "N" ]
+    } ],
+    "bulletinID" : "99c09ab9-0b30-466e-a1d1-9738de804e7d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
