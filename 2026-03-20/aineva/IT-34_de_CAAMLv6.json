@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-20T23:00:00Z",
+      "endTime" : "2026-03-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Triebschneeansammlungen bilden die Hauptgefahr. Schwachschichten im Altschnee erfordern Vorsicht und Zurückhaltung.",
+      "comment" : "Mit starkem Wind aus östlichen Richtungen entstanden in den letzten zwei Tagen teils dicke Triebschneeansammlungen. Diese liegen in Kammlagen, Rinnen und Mulden und allgemein in der Höhe. Lawinen können stellenweise schon von einzelnen Wintersportlern ausgelöst werden. Sie sind meist mittelgroß. <br/> Ab dem Mittag fallen oberhalb von rund 1500 m bis zu 10 cm Schnee, lokal auch mehr. Die Triebschneeansammlungen werden überschneit und damit schwierig zu erkennen. In den Niederschlagsgebieten sind meist kleine spontane Lawinen möglich. <br/> Tief in der Schneedecke sind an Schattenhängen ausgeprägte Schwachschichten vorhanden. Schwachschichten im Altschnee können besonders dort stellenweise von einzelnen Wintersportlern ausgelöst werden. Wummgeräusche sind Alarmzeichen und weisen auf die Gefahr hin. Lawinen können sehr vereinzelt im Altschnee anbrechen und recht groß werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Wetterbedingungen erlaubten eine allmähliche Setzung der Schneedecke. <br/> Besonders Kammlagen aller Expositionen: Der teilweise starke Wind hat den Neuschnee verfrachtet. Dort liegen je nach Windeinfluss sehr unterschiedliche Schneehöhen. <br/> Tief in der Schneedecke sind an Schattenhängen ausgeprägte Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "In der Nacht fallen bis zu 5 cm Schnee, lokal auch mehr. Triebschnee und schwachen Altschnee beachten.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-21T23:00:00Z",
+        "endTime" : "2026-03-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "N", "NW", "E", "W", "SW", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "37ba5945-eccf-4bb3-88a8-fb223d64011a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
