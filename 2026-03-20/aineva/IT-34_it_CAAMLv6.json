@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-20T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-20T23:00:00Z",
+      "endTime" : "2026-03-21T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli accumuli di neve ventata rappresentano la principale fonte di pericolo. Gli strati deboli presenti nella neve vecchia richiedono attenzione e prudenza.",
+      "comment" : "Con vento forte proveniente dai quadranti orientali negli ultimi due giorni si sono formati accumuli di neve ventata in parte spessi. Questi ultimi si trovano nelle zone in prossimità delle creste, nelle conche e nei canaloni e generalmente in quota. Le valanghe possono in alcuni punti distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali. Esse sono per lo più di dimensioni medie. <br/> A partire da mezzogiorno cadranno sino a 10 cm di neve al di sopra dei 1500 m circa, localmente anche di più. Gli accumuli di neve ventata verranno innevati e saranno quindi difficilmente individuabili. Nelle regioni colpite dalle precipitazioni sono possibili valanghe spontanee per lo più di piccole dimensioni. <br/> Sui pendii ombreggiati, negli strati profondi del manto nevoso si trovano pronunciati strati fragili. Principalmente qui, gli strati deboli presenti nella neve vecchia possono distaccarsi in alcuni punti in seguito al passaggio di un singolo appassionato di sport invernali. I rumori di \"whum\" sono campanelli di allarme che rimandano a questo pericolo. Le valanghe possono a livello molto isolato coinvolgere il manto di neve vecchia e raggiungere dimensioni piuttosto grandi."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le condizioni meteo hanno consentito un graduale assestamento del manto nevoso. <br/> Principalmente nelle zone in prossimità delle creste esposte in tutte le direzioni: Il vento a tratti forte ha causato il trasporto della neve fresca. Qui l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> Sui pendii ombreggiati, negli strati profondi del manto nevoso si trovano pronunciati strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Durante la notte cadranno sino a 5 cm di neve, localmente anche di più. La neve ventata e la neve vecchia a debole coesione richiedono attenzione.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-21T23:00:00Z",
+        "endTime" : "2026-03-22T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-21"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "N", "NW", "E", "W", "SW", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "37ba5945-eccf-4bb3-88a8-fb223d64011a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
