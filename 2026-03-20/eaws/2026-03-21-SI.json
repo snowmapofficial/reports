@@ -1,0 +1,137 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Snowfall in the mountains has ranged from 5 to 15 cm in recent days, with slightly more in the Kamnik-Savinja Alps and the Karavanke Mountains. At the same time, a strong north-easterly wind is blowing, carrying fresh snow and building up new snow layers in the south and west. The new fallen snow is less able to adhere to the older snow base. The danger is higher especially on slopes and in gullies where the height of the New fallen snow is greater due to the snow layers.\n\nIn addition to new fallen snow, weak layers in the snowpack deeper in the snowpack are a problem. These weak layers are more numerous in the axis above the forest. In particular, a large avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.",
+        "highlights": "Freshly blown snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "W",
+            "SW",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "df7410f4-7730-42fa-87c5-012cd6ec95ff",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-21"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1600"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-20T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "As the weather cooled, the older snow base froze. Dry and light snow has fallen on harder ground and is now carried by the wind. During the snowfall, the local fall of graupel may also have provided a new weak layer. The snow will have already become somewhat thinner on sunny slopes due to the influence of the sun.\n\nIn the old snow cover, the layers of snow are mostly well connected, with a Crust on top, which mostly supports the skier's weight. Deep below the surface, there are several weak layers of faceted snow crystals and sheared grains."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Sunday will be mainly cloudy, with light showers possible at first. It will remain relatively cool and windy. The danger of avalanches will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-21T16:00:00+00:00",
+            "endTime": "2026-03-22T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-20T16:00:00+00:00",
+        "endTime": "2026-03-21T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Saturday will be mostly cloudy and foggy in many places. There will be light snow at times and light rain below altitudes of around 1200 m. Rainfall amounts will be light. Light to moderate easterly winds. Temperatures will be around -1 \u00b0C at 1500 m and -8 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
