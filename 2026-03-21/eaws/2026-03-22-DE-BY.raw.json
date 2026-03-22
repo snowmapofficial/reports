@@ -1,0 +1,143 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-21T16:00:00Z",
+      "endTime" : "2026-03-22T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Be careful, especially on shady slopes and extremely steep terrain!",
+      "comment" : "The avalanche risk is moderate above 2000 metres and low below that. Persistent weak layers are problematic. Avalanche prone locations are in very steep terrain with aspects from west to north to east. Slab avalanches can occasionally be triggered there with little additional load. They usually remain small, so the danger of being swept away is greater than the danger of being buried. On very steep, shady slopes, slab avalanches can be triggered in rare cases with a large additional load, for example by a small, superficial avalanche in deep-lying weak layers, and then reach medium size.\n\nSunlight can trigger small, wet loose snow avalanches from extremely steep terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "On the western, northern and eastern slopes at higher altitudes, weak layers can be found under older wind slabs near the surface in some places. On shady slopes at higher altitudes, weak layers of large, faceted crystals are preserved deep in the compact old snowpack. On the northern sides of the higher elevations, the snow is still powdery on the surface in areas sheltered from the wind. Overall there is little snow, the southern sides are thinning out more and more."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger hardly changes.",
+      "validTime" : {
+        "startTime" : "2026-03-22T16:00:00Z",
+        "endTime" : "2026-03-23T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "W", "E", "NE", "N" ]
+    } ],
+    "bulletinID" : "8102c1e4-2f94-4a3a-8f4e-316688b720e2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-21T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-21T16:00:00Z",
+      "endTime" : "2026-03-22T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "The southern sides are largely covered in snow.",
+      "comment" : "The avalanche risk is low. On the northern sides of the highest peaks and areas adjacent to the summit and ridge, older snowdrift accumulations with low additional loads can be triggered as small slab avalanches."
+    },
+    "snowpackStructure" : {
+      "comment" : "Older wind slab snow has usually bonded well with the old snow surface. In the highest areas adjacent to the ridgeline, crest or summit, it can still be prone to triggering on shady slopes. The snowpack is generally well stabilised and slightly moist. The snow is still powdery on the surface on steep north-facing slopes at higher altitudes. Overall there is little snow, the south-facing slopes are largely snowed out."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger does not change.",
+      "validTime" : {
+        "startTime" : "2026-03-22T16:00:00Z",
+        "endTime" : "2026-03-23T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "beea9ed7-04d2-462b-a061-900641524e93",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "On shady slopes, there is still a risk of slab avalanches at high altitudes."
+    }
+  }
+}
