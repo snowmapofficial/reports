@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-23T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-23T23:00:00Z",
+      "endTime" : "2026-03-24T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve ventata e alla neve vecchia a debole coesione.",
+      "comment" : "Gli ultimi accumuli di neve ventata possono subire un distacco già in seguito al passaggio di un singolo appassionato di sport invernali a tutte le esposizioni al di sopra dei 2200 m circa. Questi ultimi si trovano nelle zone in prossimità delle creste, nelle conche e nei canaloni. Le valanghe sono per lo più di dimensioni medie. Gli accumuli di neve ventata sono stati innevati e quindi difficilmente individuabili. <br/> <br/> Sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili. Principalmente qui, gli strati deboli presenti nella neve vecchia possono distaccarsi in alcuni punti in seguito al passaggio di un singolo appassionato di sport invernali. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--). Le valanghe possono a livello molto isolato coinvolgere il manto di neve vecchia e raggiungere dimensioni piuttosto grandi. <br/> <br/> Con il rialzo termico e l'irradiazione solare diurni, la probabilità di distacco di valanghe umide aumenterà leggermente sui pendii soleggiati molto ripidi."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sui pendii ombreggiati, negli strati profondi del manto nevoso si trovano pronunciati strati fragili. Gli accumuli di neve ventata meno recenti poggiano su una sfavorevole superficie del manto di neve vecchia, soprattutto sui pendii molto ripidi esposti a nord ovest, nord e nord est al di sopra dei 2200 m circa. <br/> <br/> Sui pendii ripidi esposti al sole: Il sole e il calore causeranno un inumidimento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La neve ventata e la neve vecchia a debole coesione richiedono attenzione. <br/> <br/> Mercoledì: Verso sera aumento del pericolo di valanghe. Vento e neve fresca.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-24T23:00:00Z",
+        "endTime" : "2026-03-25T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP7" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "SE", "S", "E", "W", "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "44d6c027-5486-45dc-adda-dec5c73fcd7c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
