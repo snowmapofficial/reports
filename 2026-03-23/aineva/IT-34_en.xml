@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-03-23T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="44d6c027-5486-45dc-adda-dec5c73fcd7c" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-03-23T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-03-23T23:00:00Z</beginPosition>
+          <endPosition>2026-03-24T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP7</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2200Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>increasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-03-24T23:00:00Z</beginPosition>
+                <endPosition>2026-03-25T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Wind slabs and weakly bonded old snow require caution.</avActivityHighlights>
+          <avActivityComment>The more recent wind slabs can be released even by a single winter sport participant in all aspects above approximately 2200 m. These are to be found adjacent to ridgelines and in gullies and bowls. Mostly the avalanches are medium-sized. The wind slabs are covered with new snow and therefore difficult to recognise. &lt;br/&gt; &lt;br/&gt; Weak layers exist in the snowpack on shady slopes. Weak layers in the old snowpack can be released in some places by individual winter sport participants especially here. Especially transitions from a shallow to a deep snowpack are unfavourable. Avalanches can in very isolated cases be triggered in the old snowpack and reach quite a large size. &lt;br/&gt; &lt;br/&gt; As a consequence of warming during the day and the solar radiation, the likelihood of moist avalanches being released will increase a little on very steep sunny slopes.</avActivityComment>
+          <snowpackStructureComment>Distinct weak layers exist deep in the snowpack on shady slopes. Somewhat older wind slabs are lying on the unfavourable surface of an old snowpack, especially on very steep northwest, north and northeast facing slopes above approximately 2200 m. &lt;br/&gt; &lt;br/&gt; Steep sunny slopes: Sunshine and high temperatures will give rise to moistening of the snowpack.</snowpackStructureComment>
+          <tendencyComment>Wind slabs and weakly bonded old snow require caution. &lt;br/&gt; &lt;br/&gt; Wednesday: Increase in avalanche danger towards the evening. Wind and new snow.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
