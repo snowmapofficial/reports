@@ -1,0 +1,273 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation progressive du danger d'avalanches sèches avec le vent fort.",
+      "comment" : "L'après-midi: Spécialement à proximité des crêtes, dans les combes et couloirs: La neige fraîche de dimanche ainsi que les accumulations de neige soufflée parfois épaisses peuvent être déclenchées par un seul amateur de sports d'hiver. Ceci surtout sur les pentes très raides. Elles sont souvent de taille moyenne. <br/> Avec le rayonnement solaire de rares avalanches mouillées en général de petite taille sont possibles surtout sur les pentes rocheuses raides et sur les pentes ensoleillées. L'après-midi: Avec le refroidissement marqué et le vent de nord-ouest fort à tempétueux, une situation avalancheuse traître apparaît dans les deux prochains jours. Ces conditions entraînent à partir de midi une progressive augmentation du danger d'avalanches sèches. Des avalanches de plaque de neige sèche de moyenne et rarement grande taille sont possibles à proximité des crêtes et des cols et loin des crêtes. <br/> Les randonnées demandent prudence et retenue."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mercredi il tombera à toutes les altitudes de 2 à 5 cm de neige, localement plus. La partie supérieure du manteau neigeux est meuble, avec une surface meuble. Le vent transporte la neige fraîche et ancienne. <br/> Dimanche il est tombé de 10 à 30 cm de neige, localement jusqu'à 50 cm. Notamment dans les régions bordant le Piémont. Là où la situation se stabilise progressivement. Le vent a soufflé à proximité des crêtes faiblement à modérément. <br/> La neige fraîche repose par endroits sur la surface meuble de la neige ancienne. Ou sur des croûtes <br/> Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes raides à l'ombre. <br/> Spécialement à proximité des crêtes à toutes les expositions: En général on trouve suivant l'influence du vent des hauteurs de neiges très différentes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il fait froid. En général vent du nord tempétueux: Le danger d'avalanches augmente au sein du degré de danger. Au-dessus de la limite de la forêt les endroits dangereux sont plus fréquents.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "fa8febe0-04fa-452b-a2a3-8854c123f0b7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation marquée du danger d'avalanches sèches avec la neige fraîche et la tempête.",
+      "comment" : "L'après-midi: Spécialement à proximité des crêtes, dans les combes et couloirs: La neige fraîche de dimanche ainsi que les accumulations de neige soufflée parfois épaisses peuvent être déclenchées par un seul amateur de sports d'hiver. Ceci surtout sur les pentes très raides. Elles sont de manière isolée de taille moyenne. <br/> Avec le rayonnement solaire de rares avalanches mouillées en général de petite taille sont possibles surtout sur les pentes rocheuses raides et sur les pentes ensoleillées. <br/> L'après-midi: Avec le refroidissement marqué et le vent de nord-ouest fort à tempétueux, une situation avalancheuse traître apparaît. Les endroits dangereux augmentent. Ces conditions entraînent à partir de midi une augmentation du danger d'avalanches sèches. Des avalanches de plaque de neige sèche de moyenne et rarement grande taille sont possibles à proximité des crêtes et des cols et loin des crêtes. <br/> Les randonnées demandent prudence et retenue."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mercredi il tombera à toutes les altitudes de 10 à 30 cm de neige, localement plus. La partie supérieure du manteau neigeux est meuble, avec une surface meuble. Le vent transporte intensivement la neige fraîche. <br/> Dimanche il est tombé de 10 à 30 cm de neige. Notamment dans les régions bordant le Piémont. Là où la situation se stabilise progressivement. Le vent a soufflé à proximité des crêtes faiblement à modérément. <br/> La neige fraîche repose par endroits sur la surface meuble de la neige ancienne. Ou sur des croûtes <br/> Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes raides à l'ombre. <br/> Spécialement à proximité des crêtes à toutes les expositions: En général on trouve suivant l'influence du vent des hauteurs de neiges très différentes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il fait froid. En général vent du nord tempétueux: Le danger d'avalanches augmente au sein du degré de danger. Le long de la frontière française les endroits dangereux sont plus fréquents et le danger plus élevé.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "SW", "S", "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "b956acaf-6adb-47df-ae5d-b2277f02deab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
