@@ -1,0 +1,230 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T16:00:00Z",
+      "endTime" : "2026-03-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Few, invisible avalanche prone locations",
+      "comment" : "The avalanche risk is moderate above 2200 metres and low below that. Persistent weak layers are problematic. The few avalanche prone locations are in very steep terrain in the north-west to north to north-east aspects. Slab avalanches can be triggered with little additional load and usually remain small. In rare cases, slabs can be triggered with a large additional load in deep-lying weak layers and reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "At high altitudes, weak layers of faceted crystals have formed near the surface. Snow on the surface is only soft in leeward and shady areas. There is hardly any snow in the Berchtesgaden Alps during the forecast period. Layers close to the ground at high altitudes consist of larger, angular, soft crystals. The overlying old snowpack is well stabilised."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche risk increases with new fallen snow and wind.",
+      "validTime" : {
+        "startTime" : "2026-03-25T16:00:00Z",
+        "endTime" : "2026-03-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "ded69ad7-35c9-462c-88f1-dcffba4584f8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T16:00:00Z",
+      "endTime" : "2026-03-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "In the second half of the day, the wind slab problem comes to the fore in places.",
+      "comment" : "The avalanche risk is moderate above 2000 metres and low below that. Persistent weak layers are problematic. The few avalanche prone locations are in very steep terrain in the north-west to north to north-east aspects. Slab avalanches can be triggered with little additional load. They usually remain small. In rare cases, slab avalanches can be triggered with a large additional load in deep-lying weak layers and reach medium size.\n\nDuring the daytime changes, wind slabs become a problem above the tree line. Avalanche prone locations are in the steep terrain adjacent to ridgelines in the north-west, north to south-east aspects as well as in gullies and bowls. Small snow slabs can be triggered with little additional load."
+    },
+    "snowpackStructure" : {
+      "comment" : "In the higher elevations, weak layers of faceted crystals have formed near the surface. The snow on the surface is only soft in leeward and shady areas. In the second half of the day, it will start to snow with gale-force winds in places. In some places, fresh wind slab comes to rest on soft snow and is prone to triggering. Layers close to the ground at high altitudes consist of larger, soft crystals. The overlying old snowpack is well stabilised. At medium elevations, the new fallen snow falls mainly on the south-facing side of the apery ground, otherwise on a predominantly moist old snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "The wind slab problem is increasing. The risk of avalanches is increasing.",
+      "validTime" : {
+        "startTime" : "2026-03-25T16:00:00Z",
+        "endTime" : "2026-03-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "E", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "E", "SE", "NW" ]
+    } ],
+    "bulletinID" : "31b4be23-e6e0-4402-a082-f3d902f512e9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T16:00:00Z",
+      "endTime" : "2026-03-25T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avalanche prone locations are more common in the western regions.",
+      "comment" : "The avalanche risk is low. Wind slabs above the tree line can be problematic, especially during the daytime changes. The few avalanche prone locations are in the steep terrain adjacent to ridgelines in the north-west, north to south-east aspects as well as in gullies and bowls. Small snow slabs can be triggered with little additional load."
+    },
+    "snowpackStructure" : {
+      "comment" : "The old snowpack is generally well stabilised and slightly damp. In particular in the western regions, it will start to snow during the day with stormy winds. Fresh wind slab snow will come to rest on soft snow on the northern sides of higher elevations and is prone to triggering in places. Otherwise, the new fallen snow will mainly fall on the bare ground."
+    },
+    "tendency" : [ {
+      "highlights" : "The risk of avalanches is increasing with the forecast fresh snowfall.",
+      "validTime" : {
+        "startTime" : "2026-03-25T16:00:00Z",
+        "endTime" : "2026-03-26T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "E", "SE", "NW" ]
+    } ],
+    "bulletinID" : "040546e3-2019-42ec-af26-c2421f2673fa",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "The weather changes at lunchtime."
+    }
+  }
+}
