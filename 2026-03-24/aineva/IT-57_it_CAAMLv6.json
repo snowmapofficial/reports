@@ -1,0 +1,119 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "In alcuni punti gli strati più duri di neve poggiano su un manto di neve vecchia umida. Il legame de(-) gli accumuli di neve ventata è in parte ancora sfavorevole. Al di sotto dei 1800 m circa sono possibili valanghe bagnate e per scivolamento di neve di medie e, a livello isolato, di grandi dimensioni.",
+      "comment" : "A tutte le esposizioni, gli strati deboli presenti nella parte superficiale del manto nevoso possono distaccarsi ancora in alcuni punti. Ciò soprattutto sui pendii carichi di neve ventata al di sopra dei 1800 m circa a tutte le esposizioni. Soprattutto sui pendii ripidi le valanghe possono subire un distacco nei vari strati di neve ventata e raggiungere dimensioni medie. Gli strati deboli presenti nella parte superficiale del manto nevoso sono individuabili solo con difficoltà. Con il rialzo termico diurno, sono possibili isolate valanghe bagnate nel corso della giornata di medie e, a livello isolato, di grandi dimensioni al di sotto dei 1800 m circa."
+    },
+    "snowpackStructure" : {
+      "comment" : "La parte superiore del manto nevoso è dura. La parte basale del manto nevoso è umida. Le condizioni meteorologiche favoriranno un graduale consolidamento degli strati deboli in tutte le esposizioni."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "SW", "S", "E", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "SW", "S", "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "f0b3254d-86a9-45d5-81e2-f99e03b2e39f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il manto nevoso è umido.",
+      "comment" : "La superficie del manto nevoso non è praticamente quasi riuscita a rigelarsi e si ammorbidirà già al mattino."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è umido, con una crosta non portante in superficie. Ciò soprattutto sui pendii soleggiati. Con il rialzo termico, nei prossimi due giorni il manto nevoso si assesterà. Le condizioni meteo primaverili causeranno a tutte le esposizioni un rapido inumidimento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "W", "SE", "SW", "S", "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "b77f85f9-af9e-46e5-81b9-424489aa520b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
