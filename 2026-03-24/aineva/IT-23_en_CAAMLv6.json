@@ -1,0 +1,273 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gradual increase in danger of dry avalanches as a consequence of the strong wind.",
+      "comment" : "Late morning: Especially adjacent to ridgelines and in gullies and bowls: The fresh snow of Sunday as well as the sometimes deep wind slabs can be released by a single winter sport participant. This applies in particular on very steep slopes. In many cases they are medium-sized. <br/> In particular in steep rocky terrain and on sunny slopes individual mostly small wet avalanches are possible as a consequence of solar radiation. Afternoon: As a consequence of sharply falling temperatures and the strong to storm force northwesterly wind, a treacherous avalanche situation will develop during the next two days. These conditions will bring about a gradual rise in the danger of dry avalanches from midday. Adjacent to ridgelines and in pass areas and at a distance from ridgelines medium-sized and, in isolated cases, large dry slab avalanches are possible. <br/> Backcountry touring calls for caution and restraint."
+    },
+    "snowpackStructure" : {
+      "comment" : "2 to 5 cm of snow, and even more in some localities, will fall on Wednesday in all altitude zones. Towards its surface, the snowpack is soft and has a loosely bonded surface. The wind will transport the fresh and old snow. <br/> 10 to 30 cm of snow, and up to 50 cm in some localities, fell on Sunday. Especially in the areas bordering Piedmont. Where it is gradually settling down. The wind was light to moderate adjacent to ridgelines. <br/> In some places new snow is lying on the soft surface of an old snowpack. Or on crusts. <br/> Weak layers exist in the snowpack in particular on steep shady slopes. <br/> Especially adjacent to ridgelines in all aspects: Over a wide area snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be cold. Over a wide area storm force northerly wind: The avalanche danger will increase but remain within the current danger level. Above the tree line the avalanche prone locations are more prevalent.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "fa8febe0-04fa-452b-a2a3-8854c123f0b7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-24T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-24T23:00:00Z",
+      "endTime" : "2026-03-25T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Significant increase in danger of dry avalanches as a consequence of new snow and stormy weather.",
+      "comment" : "Late morning: Especially adjacent to ridgelines and in gullies and bowls: The fresh snow of Sunday as well as the sometimes deep wind slabs can be released by a single winter sport participant. This applies in particular on very steep slopes. In isolated cases they are medium-sized. <br/> In particular in steep rocky terrain and on sunny slopes individual mostly small wet avalanches are possible as a consequence of solar radiation. <br/> Afternoon: As a consequence of sharply falling temperatures and the strong to storm force northwesterly wind, a treacherous avalanche situation will develop. The prevalence of the avalanche prone locations will increase. These conditions will bring about a rise in the danger of dry avalanches from midday. Adjacent to ridgelines and in pass areas and at a distance from ridgelines medium-sized and, in isolated cases, large dry slab avalanches are possible. <br/> Backcountry touring calls for caution and restraint."
+    },
+    "snowpackStructure" : {
+      "comment" : "10 to 30 cm of snow, and even more in some localities, will fall on Wednesday in all altitude zones. Towards its surface, the snowpack is soft and has a loosely bonded surface. The wind will transport the new snow significantly. <br/> 10 to 30 cm of snow fell on Sunday. Especially in the areas bordering Piedmont. Where it is gradually settling down. The wind was light to moderate adjacent to ridgelines. <br/> In some places new snow is lying on the soft surface of an old snowpack. Or on crusts. <br/> Weak layers exist in the snowpack in particular on steep shady slopes. <br/> Especially adjacent to ridgelines in all aspects: Over a wide area snow depths vary greatly, depending on the infuence of the wind."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "The weather will be cold. Over a wide area storm force northerly wind: The avalanche danger will increase but remain within the current danger level. Along the border with France the avalanche prone locations are more prevalent and the danger is greater.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-25T23:00:00Z",
+        "endTime" : "2026-03-26T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "E", "NE" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "SE", "SW", "S", "E", "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "b956acaf-6adb-47df-ae5d-b2277f02deab",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2100"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
