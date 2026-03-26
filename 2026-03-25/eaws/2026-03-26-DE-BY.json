@@ -1,0 +1,352 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above the tree line and moderate below it. The main problem is new fallen snow. The avalanche prone locations are in steep terrain adjacent to ridgelines in all aspects, behind slope discontinuities and in gullies and bowls. Slab and loose snow avalanches can detach themselves and reach medium size. Occasionally, avalanches with a large additional load, for example from a superficial avalanche, can be triggered in deeper weak layers and become large.\n\nEspecially in the Allg\u00e4u, gliding avalanches can detach themselves on previously aperic, very steep meadow slopes. They can reach medium size.",
+        "highlights": "The number and extent of avalanche prone locations increase with altitude."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "SE",
+            "W",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "SE",
+            "W",
+            "E",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "SE"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "4f95b226-b92f-4d2a-a635-470822876c9d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Around 40 to 50 cm of new fallen snow with strong, sometimes stormy winds from a north-westerly direction. The new and drifting snow is lying on soft snow on the northern sides of higher elevations and is prone to triggering. Weak layers prone to triggering are also embedded within the wind slab. The snowdrift accumulations are becoming large and are partly covered by new fallen snow. In the higher elevations, weak layers of faceted crystals can be found near the surface. Otherwise, the underlying old snowpack is generally well stabilised.  On the southern slopes, the new fallen snow covers the previously apery ground and begins to glide snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "With wind, the wind slab can become a problem.",
+          "validTime": {
+            "startTime": "2026-03-26T16:00:00+00:00",
+            "endTime": "2026-03-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-25T16:00:00+00:00",
+        "endTime": "2026-03-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate. New fallen snow is the main problem. The avalanche prone locations are in steep terrain adjacent to ridgelines in all aspects, in gullies and bowls and behind slope discontinuities. Slab avalanches can be triggered with little additional load. They usually remain small, but can also reach medium size in heavily snow-covered areas.\n\nSmall gliding avalanches can release on their own on previously apery, very steep meadow slopes.",
+        "highlights": "Weak layers in new and wind slab snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "NE",
+            "W",
+            "SE",
+            "SW",
+            "NW",
+            "N",
+            "E",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "W",
+            "SE",
+            "SW",
+            "E",
+            "S"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "34a828f2-259a-4c2f-a603-8c7d423f2065",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Around 30 to 40 cm of new fallen snow with strong, sometimes stormy winds from a north-westerly direction. Where there is still snow, the new and wind-slab snow is lying on a slightly damp surface of old snow. On very steep north-facing slopes at higher altitudes, it is lying on soft snow. The snowdrift accumulations can become large in places and be covered by new fallen snow. Weak layers prone to triggering are embedded within the wind slab. The old snowpack is generally well stabilised and slightly moist. In many places, the new fallen snow covers the previously apery ground and starts gliding snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche danger can increase further with wind.",
+          "validTime": {
+            "startTime": "2026-03-26T16:00:00+00:00",
+            "endTime": "2026-03-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-25T16:00:00+00:00",
+        "endTime": "2026-03-26T16:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above the tree line and low below. Wind slabs are the main problem. The avalanche prone locations are in the steep terrain adjacent to ridgelines in the north to east aspects as well as in gullies and bowls. Slab avalanches can be triggered with little additional load and usually remain small.\n\nSmall gliding avalanches can release on their own on previously apery, very steep meadow slopes.",
+        "highlights": "Avalanche prone locations are mainly in the leeward areas."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "N",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "e15a2a03-750d-4060-a8f4-488c4aef1699",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-25T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Around 20 to 30 cm of new fallen snow with strong, sometimes stormy winds from a north-westerly direction. Where there is still snow, the new and wind-slab snow will lie on a slightly damp surface of old snow. Only on very steep north-facing slopes at higher altitudes is it occasionally lying on soft snow. Weak layers prone to triggering may be embedded within the wind slab. The old snowpack is generally well stabilised and slightly moist. Previously bare ground is covered by new fallen snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "It remains windy. The wind slab problem may get a little bigger.",
+          "validTime": {
+            "startTime": "2026-03-26T16:00:00+00:00",
+            "endTime": "2026-03-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-25T16:00:00+00:00",
+        "endTime": "2026-03-26T16:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "The avalanche prone locations are more frequent in high and congested areas."
+    }
+  }
+}
