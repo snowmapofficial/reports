@@ -1,0 +1,123 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-25T16:00:00Z",
+      "endTime" : "2026-03-26T16:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Around 20 - 25 cm of new fallen snow with wind influence will fall during the night on Thursday. On Thursday, the mountains of the Limestone Alps will be covered in thick clouds and it will snow heavily for a long time. A gale-force north-westerly wind is blowing in places. At 1500 metres it will be around -5 degrees, at 2000 metres around -9 degrees.\nFriday will also be cloudy and snowy at times. A stormy and cold north-westerly wind will blow at high altitudes. At 1500 metres it will be around -6 degrees, at 2000 metres around -10 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Pay attention to a lot of new fallen snow and fresh, more extensive loads!",
+      "comment" : "The avalanche risk is considerable above the tree line. Fresh, often extensive snowdrift accumulations due to a lot of new fallen snow and strong, sometimes stormy winds can be found in almost all aspects and can be triggered by even a small additional load (one person) in steep terrain, in filled bowls and gullies. These snow avalanches can also become large and must be taken into account. Naturally triggered avalanches and gliding avalanches below the tree line can also be expected in steep, blown-in areas with increasing amounts of new snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "Abundant snowfall with strong to stormy winds form prone to triggering extensive wind slab, which binds poorly with the old snowpack and puts additional pressure on the snowpack. Inside, the old snowpack is usually compact, but often moist up to high altitudes. However, the snow base, fundament is high up and partly weakened on shady slopes. At medium and low altitudes, the snow often falls on bare ground."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger is only slowly decreasing.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-26T16:00:00Z",
+        "endTime" : "2026-03-27T16:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "NE", "N", "SW", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "W", "E", "S", "NE", "N", "SW", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "1b04a575-3534-48b6-8945-559a6dd02b0f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Caution - considerable avalanche danger!"
+    }
+  }
+}
