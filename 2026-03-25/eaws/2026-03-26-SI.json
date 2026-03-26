@@ -1,0 +1,185 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "On Wednesday, showers will occur in the north overnight. The snowfall level will initially be around 1500 m and will descend rapidly. The snow will weaken by Thursday morning. By then, 20-40 cm of New fallen snow is expected to fall in the mountains. After the passage of the cold front, a strong northerly wind will blow, carrying New fallen snow and building up new snow layers on the southern flanks.\n\nNew fallen snow and blowing snow are the main dangers. Danger is increased especially in sloping terrain and in ravines where the height of New fallen snow is higher due to snow accumulations.\n\nIn addition to new fallen snow, weak layers in the snowpack deeper in the snowpack can be a local problem. These weak layers are more prevalent in the axis above the forest. In particular, a large avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.\n\nThe conditions are difficult and we advise against visiting the high alpine regions!",
+        "highlights": "New fallen snow - strong northerly winds in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "SE",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "99f79b08-d41c-4844-ab90-b14162d294ac",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-25T16:12:41+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "As the cold front passes, 20-40 cm of dry and light snow is expected to fall in the mountains, which will not adhere well to the old snow base. The previous snowfall has locally produced a potentially dangerous weak layer of Graupel. Locally, the layers of Graupel are 5-10 cm thick, possibly more.\n\nIn the old snow cover, the snow layers are mostly well connected. Deep below the surface, several weak layers of shreds and sheared grains occur, especially on the axial sides."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Avalanche and weather conditions will remain challenging. We can expect another 5-15 cm of new fallen snow on Friday. Strong northerly winds will continue to blow, building new snow drifts.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-26T16:00:00+00:00",
+            "endTime": "2026-03-27T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-25T16:00:00+00:00",
+        "endTime": "2026-03-26T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Cloudy and foggy with snow showers, heaviest in the morning and afternoon. Strong northerly winds with gusts of 70-100 km/h. It will cool down considerably. Temperatures will be around -4 \u00b0C at 1500 m and -10 \u00b0C at 2500 m. Combined with the low temperatures, the cold feeling in the mountains will be very pronounced!"
+      }
+    }
+  ]
+}
