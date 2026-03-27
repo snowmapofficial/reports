@@ -1,0 +1,166 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable from the tree line upwards. Extensive fresh snowdrift accumulations have been created by a lot of new fallen snow and strong to stormy winds. Slab avalanches can be triggered in all aspects by even small additional loads. Medium to sometimes large avalanches are possible. Avalanche prone locations are mainly in steep terrain adjacent to ridgelines, but also distant from ridgelines, in filled-in bowls and gullies and on slopes that are heavily snow-covered. Spontaneous slab or loose snow avalanches from steep terrain are possible. Gliding avalanches cannot be ruled out below the tree line.",
+        "highlights": "Caution - new fallen snow, stormy wind, easily triggered wind slab!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "N",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "969ab082-1fe4-4fc4-bbdf-c25977044992",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengebirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge North"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Heavy snowfall (up to 50 cm at high altitudes) and strong to stormy winds have caused extensive prone-to-triggering wind slab to form, which binds poorly with the old snowpack and puts additional pressure on the snowpack. Inside, the old snowpack is usually compact, but often moist up to high altitudes. The snow base, fundament is high up and partly weakened on shady slopes. In the middle and low altitudes, the fresh snow often lies on bare ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The considerable avalanche danger will remain for the weekend and then only slowly decrease.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-27T16:00:00+00:00",
+            "endTime": "2026-03-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-26T16:00:00+00:00",
+        "endTime": "2026-03-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Friday, the mountains will mostly be covered in dense cloud and it will snow a little at times. A stormy and cold north-westerly wind will blow at high altitudes. At 1500 m -7 degrees, at 2000 m -10 degrees.\nOn Saturday, sun and clouds will alternate. The wind from the north-west will ease and then be weak to moderate. At 1500 m the temperature will rise to -2 degrees, at 2000 m to -5 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Significant avalanche danger - slab avalanches can easily be triggered."
+    }
+  }
+}
