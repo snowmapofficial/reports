@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-03-26T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="708e52e3-94fd-404e-8fc1-5500b3be2180" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-03-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-03-26T23:00:00Z</beginPosition>
+          <endPosition>2026-03-27T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP1</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-03-27T23:00:00Z</beginPosition>
+                <endPosition>2026-03-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Mit starkem Wind wachsen die Triebschneeansammlungen weiter an.</avActivityHighlights>
+          <avActivityComment>Mit Neuschnee und stürmischem Nordwind entstanden an allen Expositionen teils große Triebschneeansammlungen. Zudem entstehen weitere Triebschneeansammlungen. In Kammlagen, Rinnen und Mulden sind trockene Schneebrettlawinen möglich, auch recht große. Lawinen können schon von einzelnen Wintersportlern ausgelöst werden oder spontan abgehen. Stellenweise können Lawinen vor allem an steilen West-, Nord- und Osthängen in tiefen Schichten ausgelöst werden. &lt;br/&gt; Zudem sind Lockerschneelawinen möglich. &lt;br/&gt; Touren erfordern Vorsicht und Zurückhaltung.</avActivityComment>
+          <snowpackStructureComment>Es fielen verbreitet 10 bis 25 cm Schnee. Der Wind blies zeitweise orkanartig. Der Wind verfrachtet den Neuschnee intensiv. &lt;br/&gt; Neu- und Triebschnee werden oberhalb der Waldgrenze auf eine ungünstige Altschneeoberfläche abgelagert. Die Altschneedecke ist schwach, besonders an West-, Nord- und Osthängen und an Südhängen in der Höhe.</snowpackStructureComment>
+          <tendencyComment>Weiterhin erhebliche Lawinengefahr. Die Lawinen können stellenweise leicht ausgelöst werden. An diesem ersten sonnigen Tag ist Zurückhaltung angebracht.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
