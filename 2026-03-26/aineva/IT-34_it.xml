@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="it" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-03-26T16:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Valanghe.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="708e52e3-94fd-404e-8fc1-5500b3be2180" xml:lang="it">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-03-26T16:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Valanghe.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-03-26T23:00:00Z</beginPosition>
+          <endPosition>2026-03-27T23:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-34-BL-05"/>
+      <locRef xlink:href="IT-34-BL-06"/>
+      <locRef xlink:href="IT-34-BL-03"/>
+      <locRef xlink:href="IT-34-BL-04"/>
+      <locRef xlink:href="IT-34-VR-01"/>
+      <locRef xlink:href="IT-34-BL-01"/>
+      <locRef xlink:href="IT-34-BL-02"/>
+      <locRef xlink:href="IT-34-VI-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_TreelineLw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP6</type>
+            </DangerPattern>
+            <DangerPattern>
+              <type>DP1</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>drifting snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validElevation xlink:href="ElevationRange_TreelineHi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>old snow</type>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-03-27T23:00:00Z</beginPosition>
+                <endPosition>2026-03-28T23:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Con il forte vento, gli accumuli di neve ventata cresceranno ulteriormente.</avActivityHighlights>
+          <avActivityComment>Con neve fresca e vento tempestoso proveniente da nord a tutte le esposizioni si sono formati accumuli di neve ventata in parte di grandi dimensioni. Inoltre si formeranno ulteriori accumuli di neve ventata. Nelle zone in prossimità delle creste, nelle conche e nei canaloni, sono possibili valanghe di neve asciutta a lastroni, anche di dimensioni piuttosto grandi. Le valanghe possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali oppure spontaneamente. In alcuni punti, le valanghe possono subire un distacco negli strati profondi del manto nevoso soprattutto sui pendii ripidi esposti a ovest, nord ed est. &lt;br/&gt; Inoltre sono possibili valanghe di neve a debole coesione. &lt;br/&gt; Le escursioni richiedono attenzione e prudenza.</avActivityComment>
+          <snowpackStructureComment>Sono caduti diffusamente da 10 a 25 cm di neve. Il vento è stato a tratti da uragano. Il vento rimaneggerà intensamente la neve fresca. &lt;br/&gt; La neve fresca e la neve ventata verranno depositate su una sfavorevole superficie del manto di neve vecchia al di sopra del limite del bosco. Il manto di neve vecchia è debole, soprattutto sui pendii esposti a ovest, nord ed est e sui pendii esposti a sud in quota.</snowpackStructureComment>
+          <tendencyComment>Ancora marcato pericolo di valanghe. Le valanghe possono in alcuni punti distaccarsi facilmente. In questa prima giornata soleggiata si raccomanda prudenza.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
