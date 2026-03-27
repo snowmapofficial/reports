@@ -1,0 +1,320 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "On Wednesday, precipitation started to fall in the north during the night. The snowfall level was initially at around 1500 m and quickly dropped. The snow weakened temporarily at midday on Thursday. After the passage of a cold front, a strong northerly wind blew, carrying New fallen snow and building up new snow layers on the southern flanks. Snow will continue on Friday, with more pronounced snow in the Kamnik-Savinja Alps and the eastern part of the Karavanke Mountains. A total of 20-30 cm of new fallen snow is expected to fall in the mountains.\n\nNew fallen snow and blowing snow are the main dangers. Danger is increased especially on slopes and in ravines, where the height of New fallen snow is higher due to snow accumulations.\n\nIn addition to new fallen snow, weak layers in the snowpack deeper in the snowpack can be a local problem. These weak layers are more prevalent in the axis above the forest. In particular, a large avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.\n\nThe situation is challenging, and strong winds can lead to windfalls below the forest boundary. Visiting the mountains is not recommended!",
+        "highlights": "New fallen snow - strong northerly winds in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "SE",
+            "S"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "S",
+            "NE",
+            "W",
+            "E",
+            "NW",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "fbc453b5-47c8-4525-87f9-c95ef3498830",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In the mountains, 20-30 cm of dry and light snow is expected. A strong northerly wind is blowing in the snow, which will blow the snow down to the old base in many places. The previous snowfall has produced local accumulations of Graupel, which is a potentially dangerous Weak layer. Locally, the layers of Graupel are 5-10 cm thick, possibly more.\n\nIn old snow cover, the snow layers are mostly well connected. Deep below the surface, several weak layers of shreds and sheared grains occur, especially on the axial sides."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Saturday will be partly clear with occasional moderate cloud. Winds will ease and it will be slightly warmer again. On the sunny slopes, the snow will melt during the day and freeze overnight.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-27T16:00:00+00:00",
+            "endTime": "2026-03-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-26T16:00:00+00:00",
+        "endTime": "2026-03-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Mostly cloudy, with occasional snow, especially in the eastern mountains. There will be strong northerly winds, gusting to over 100 km/h. The wind will gradually die down during the night on Saturday. Temperatures will be around -4 \u00b0C at 1500 m and -8 \u00b0C at 2500 m. The cold temperatures will combine to give a very distinct feeling of cold in the mountains!"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "It will snow until Friday, with a snowfall level around 700 m during the day. 30-50 cm of New fallen snow is expected to fall in the mountains. At the same time, strong northerly winds are carrying New fallen snow and building up new snow layers on the southern sides.\n\nNew fallen snow and blowing snow are the main dangers. Danger is increased especially in sloping terrain and in ravines where the height of the New fallen snow is higher due to snow accumulations. In the mountains, bonded snow will not adhere well to the old snow base.\n\nConditions are challenging, with strong winds that may cause windfalls below the tree line. We advise against visiting the mountains!",
+        "highlights": "New fallen snow - strong northerly winds in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SE",
+            "W",
+            "E",
+            "S",
+            "NE",
+            "N",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "78525df5-7687-4963-a363-3835793b1df2",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-27"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-26T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-14",
+          "name": "Inner Carniola and Ko\u010devje Region"
+        },
+        {
+          "regionID": "SI-16",
+          "name": "Javornik Hills and Sne\u017enik Plateau"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On Thursday and Friday, 30-50 cm of snow is expected to fall in the mountains, which will be dry above about 1000 m and wetter at lower altitudes. The snowfall will be accompanied by strong northerly winds, which will blow the snow to the old snow base or the ground in many places above the snow line. In previous snowfalls, there may have been some local drifting of Graupel, which is a potentially dangerous Weak layer. In the old snow cover, the snow layers are mostly well connected."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Saturday will be partly clear with occasional moderate cloud. Winds will ease and it will be slightly warmer again. On the sunny slopes, the snow will melt during the day and freeze overnight.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-27T16:00:00+00:00",
+            "endTime": "2026-03-28T16:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-26T16:00:00+00:00",
+        "endTime": "2026-03-27T16:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Cloudy and foggy with snow showers, heaviest in the morning and afternoon. Strong northerly winds with gusts of 70-100 km/h. It will cool down significantly. By mid-day, the temperature at 1500 m will be around -4 \u00b0C. Combined with the low temperatures, the feeling of cold in the mountains will be pronounced!"
+      }
+    }
+  ]
+}
