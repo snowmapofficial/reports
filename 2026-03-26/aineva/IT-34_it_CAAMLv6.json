@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-26T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-26T23:00:00Z",
+      "endTime" : "2026-03-27T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Con il forte vento, gli accumuli di neve ventata cresceranno ulteriormente.",
+      "comment" : "Con neve fresca e vento tempestoso proveniente da nord a tutte le esposizioni si sono formati accumuli di neve ventata in parte di grandi dimensioni. Inoltre si formeranno ulteriori accumuli di neve ventata. Nelle zone in prossimità delle creste, nelle conche e nei canaloni, sono possibili valanghe di neve asciutta a lastroni, anche di dimensioni piuttosto grandi. Le valanghe possono distaccarsi già in seguito al passaggio di un singolo appassionato di sport invernali oppure spontaneamente. In alcuni punti, le valanghe possono subire un distacco negli strati profondi del manto nevoso soprattutto sui pendii ripidi esposti a ovest, nord ed est. <br/> Inoltre sono possibili valanghe di neve a debole coesione. <br/> Le escursioni richiedono attenzione e prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sono caduti diffusamente da 10 a 25 cm di neve. Il vento è stato a tratti da uragano. Il vento rimaneggerà intensamente la neve fresca. <br/> La neve fresca e la neve ventata verranno depositate su una sfavorevole superficie del manto di neve vecchia al di sopra del limite del bosco. Il manto di neve vecchia è debole, soprattutto sui pendii esposti a ovest, nord ed est e sui pendii esposti a sud in quota."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Ancora marcato pericolo di valanghe. Le valanghe possono in alcuni punti distaccarsi facilmente. In questa prima giornata soleggiata si raccomanda prudenza.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-27T23:00:00Z",
+        "endTime" : "2026-03-28T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NE", "N", "S", "W", "NW", "SE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "NE", "N", "W", "NW" ]
+    } ],
+    "bulletinID" : "708e52e3-94fd-404e-8fc1-5500b3be2180",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
