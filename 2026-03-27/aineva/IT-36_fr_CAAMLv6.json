@@ -1,0 +1,103 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-27T23:00:00Z",
+      "endTime" : "2026-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The danger remains high, as new drifts of wind-blown snow have formed in many places and are prone to avalanches.",
+      "comment" : "Des accumulations de neige soufflée se sont formées avec la neige fraîche et le vent de secteur nord partiellement tempétueux dans les derniers deux jours à toutes les expositions. Elles ne se lient que lentement avec la neige ancienne. Les endroits dangereux se situent surtout au pied des parois rocheuses, ainsi que près des crêtes, combes et couloirs. Ce sont aussi les transitions entre les endroits peu enneigés et les endroits très enneigés qui sont particulièrement délicates. Les accumulations récentes de neige soufflée peuvent être déclenchées par un seul amateur de sports d'hiver. A côté du danger d'ensevelissement, il faut aussi penser au danger d'être emporté et de chuter."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le manteau neigeux est très variable à petite échelle. The wind has extensively reshaped the snowpack, causing the recent surface snow to be blown away and creating extensive eroded areas interspersed with areas of accumulation; in many areas, there are hard, icy surface crusts, some of which are hidden. Dans le manteau neigeux des couches fragiles sont présentes, surtout sur les pentes à l'ombre."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il fait un temps nuageux. <br/> Des accumulations de neige soufflée supplémentaires se forment avec le vent de secteur nord modéré.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-28T23:00:00Z",
+        "endTime" : "2026-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "SE", "E", "W", "SW", "S", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "SE", "E", "W", "SW", "S", "NE" ]
+    } ],
+    "bulletinID" : "79fe34a5-a2c2-45fc-ba32-6cffe5d8ef29",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
