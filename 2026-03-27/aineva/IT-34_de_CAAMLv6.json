@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-27T23:00:00Z",
+      "endTime" : "2026-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Abseits der Pisten verbreitet teils heikle Lawinensituation.",
+      "comment" : "Mit Neuschnee und stürmischem Nordwind entstanden an allen Expositionen teils große Triebschneeansammlungen. Diese können oberhalb der Waldgrenze sehr leicht ausgelöst werden. Lawinen können in oberflächennahen Schichten anreißen. Zudem können stellenweise Lawinen in bodennahe Schichten der Schneedecke durchreißen, besonders an West-, Nord- und Osthängen oberhalb von rund 1800 m. <br/> Wummgeräusche und Risse beim Betreten der Schneedecke sind Alarmzeichen und weisen auf die Gefahr hin. <br/> <br/> Zudem sind trockene Lockerschneelawinen möglich, besonders an sehr steilen Hängen bei Sonneneinstrahlung. <br/> <br/> An diesem ersten sonnigen Tag ist Zurückhaltung angebracht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Seit Mittwoch fielen 10 bis 25 cm Schnee, lokal auch mehr. <br/> Der Wind blies teils orkanartig. Der Wind hat Neu- und Altschnee intensiv verfrachtet. <br/> <br/> Neu- und Triebschnee liegen oberhalb der Waldgrenze auf einer ungünstigen Altschneeoberfläche. Die Altschneedecke ist schwach, besonders an West-, Nord- und Osthängen oberhalb von rund 1800 m und an Südhängen in der Höhe."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Weiterhin erhebliche Lawinengefahr. Die Lawinen können stellenweise leicht ausgelöst werden.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-28T23:00:00Z",
+        "endTime" : "2026-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "SE", "E", "W", "SW", "S", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    } ],
+    "bulletinID" : "71f363dc-da2c-4c2d-a9df-71d7bc14fa16",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
