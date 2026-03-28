@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-27T23:00:00Z",
+      "endTime" : "2026-03-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "For those venturing off piste a sometimes precarious avalanche situation will be encountered over a wide area.",
+      "comment" : "As a consequence of new snow and a storm force northerly wind, sometimes large wind slabs formed in all aspects. These can be released very easily above the tree line. Avalanches can be triggered in near-surface layers. Additionally in some places avalanches can penetrate near-ground layers of the snowpack, especially on west, north and east facing slopes above approximately 1800 m. <br/> Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack serve as an alarm indicating the danger. <br/> <br/> In addition dry loose snow avalanches are possible, in the event of solar radiation especially on very steep slopes. <br/> <br/> Restraint is advisable on this first sunny day."
+    },
+    "snowpackStructure" : {
+      "comment" : "10 to 25 cm of snow, and even more in some localities, has fallen since Wednesday. <br/> The wind was violent in some cases. The wind has transported the fresh and old snow significantly. <br/> <br/> The new snow and wind slabs are lying on the unfavourable surface of an old snowpack above the tree line. The old snowpack will be weakly bonded, especially on west, north and east facing slopes above approximately 1800 m, and on south facing slopes at elevated altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Considerable avalanche danger will persist. The avalanches can in some places be released easily.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-28T23:00:00Z",
+        "endTime" : "2026-03-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "SE", "E", "W", "SW", "S", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NW", "E", "W", "NE" ]
+    } ],
+    "bulletinID" : "71f363dc-da2c-4c2d-a9df-71d7bc14fa16",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
