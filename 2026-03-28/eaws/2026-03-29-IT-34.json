@@ -1,0 +1,137 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a storm force northerly wind, extensive wind slabs formed in all aspects. These can be released even by a single winter sport participant above the tree line, caution is to be exercised in particular at the base of rock walls and behind abrupt changes in the terrain, as well as adjacent to ridgelines and in gullies and bowls. Mostly avalanches are medium-sized. <br/> <br/> Additionally in some places avalanches can penetrate near-ground layers of the snowpack and reach large size in isolated cases, especially on west, north and east facing slopes above approximately 2200 m. <br/> <br/> Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack can indicate the danger.",
+        "highlights": "Wind slabs represent the main danger. Weakly bonded old snow is to be evaluated with care and prudence."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "SW",
+            "N",
+            "W",
+            "E",
+            "NW",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NE",
+            "W",
+            "N",
+            "E",
+            "NW"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "cfaac642-a875-4c50-8c98-5c49bdeda63f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-29"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP6",
+            "DP1"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-28T16:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "IT-34-BL-05",
+          "name": "Alpago - Cansiglio"
+        },
+        {
+          "regionID": "IT-34-BL-06",
+          "name": "Vette Feltrine, Visentin, Grappa"
+        },
+        {
+          "regionID": "IT-34-BL-03",
+          "name": "Ansiei - Comelico"
+        },
+        {
+          "regionID": "IT-34-BL-04",
+          "name": "Cadore"
+        },
+        {
+          "regionID": "IT-34-VR-01",
+          "name": "Baldo, Lessini"
+        },
+        {
+          "regionID": "IT-34-BL-01",
+          "name": "Agordino, Zoldano"
+        },
+        {
+          "regionID": "IT-34-BL-02",
+          "name": "Ampezzo - Cadore"
+        },
+        {
+          "regionID": "IT-34-VI-01",
+          "name": "Altopiano, Pasubio, Carega"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The sometimes storm force wind has transported the fresh and old snow significantly. In some cases the various wind slabs have bonded still only poorly together. <br/> <br/> The old snowpack will be weakly bonded in some places, especially on west, north and east facing slopes above approximately 2200 m, and on south facing slopes at elevated altitudes."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA Veneto",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Wind slabs are to be avoided. Weakly bonded old snow is to be evaluated with care and prudence.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-29T23:00:00+00:00",
+            "endTime": "2026-03-30T23:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-28T23:00:00+00:00",
+        "endTime": "2026-03-29T23:00:00+00:00"
+      }
+    }
+  ]
+}
