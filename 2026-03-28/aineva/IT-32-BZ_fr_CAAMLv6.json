@@ -1,0 +1,218 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-28T23:00:00Z",
+      "endTime" : "2026-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige soufflée constituant le danger principal. Neige ancienne fragile à évaluer avec précaution.",
+      "comment" : "Des accumulations de neige soufflée étendues se sont formées avec la neige fraîche et le vent de nord tempétueux à toutes les expositions. Celles-ci peuvent déjà être déclenchées par un seul amateur de sports d'hiver au-dessus de la limite de la forêt, prudence surtout au pied des parois rocheuses et derrière les ruptures de terrain comme à proximité des crêtes, dans les combes et couloirs. Des avalanches sont généralement de taille moyenne. <br/> <br/> Des avalanches peuvent aussi par endroits se déclencher dans les couches du manteau neigeux proches du sol et atteindre une grande taille de manière isolée, notamment sur les pentes exposées à l'ouest, au nord et à l'est au-dessus d'environ 2200 m. <br/> <br/> Des bruits sourds et des fissures lors du passage sur le manteau neigeux peuvent attirer l'attention sur le danger."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le vent parfois tempétueux a transporté intensivement la neige fraîche et la neige ancienne. Les différentes accumulations de neige soufflée sont parfois encore mal liées entre elles. <br/> <br/> Par endroits le manteau neigeux ancien est faible, notamment sur les pentes exposées à l'ouest, au nord et à l'est au-dessus d'environ 2200 m et sur les pentes exposées au sud en altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige soufflée à éviter. Neige ancienne fragile à évaluer avec précaution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-29T23:00:00Z",
+        "endTime" : "2026-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "SW", "N", "W", "E", "NW", "SE", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "N", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "6ff94465-25fc-4f93-bab3-253a8f69deb1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Dolomites de Gröden",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomites de Sexten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Crête de Schnals",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Crête de Saldurn-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Montagnes occidentales du Pfunders",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Montagnes orientales du Pfunders",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Chaîne de Durreck",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Alpes du sud du Stubai",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Montagnes occidentales du Rieserferner",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpes occidentales du Defereggen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Chaîne de Ortler",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Vallée d'Ulten",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Dolomites de Prags",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Montagnes Texel",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-28T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-28T23:00:00Z",
+      "endTime" : "2026-03-29T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige récemment soufflée à évaluer avec précaution.",
+      "comment" : "Des accumulations de neige soufflée sont partiellement fragiles surtout sur les pentes exposées à l'ouest à est en passant par le nord au-dessus de la limite de la forêt. Des avalanches peuvent de manière très isolée se déclencher dans les couches du manteau neigeux proches du sol et atteindre une taille moyenne."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le vent a soufflé partiellement tempétueusement. Le vent du nord-ouest a transporté de la neige. Des accumulations de neige soufflée susceptibles d'être déclenchées se sont formées."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige récemment soufflée à évaluer avec précaution.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-03-29T23:00:00Z",
+        "endTime" : "2026-03-30T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-29"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "W", "E", "NW" ]
+    } ],
+    "bulletinID" : "28b53aca-025b-4d65-8e58-be73f8720881",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Montagnes orientales du Nonsberg",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomites du nord du Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
