@@ -1,0 +1,234 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-29T21:42:04Z",
+    "validTime" : {
+      "startTime" : "2026-03-29T22:00:00Z",
+      "endTime" : "2026-03-30T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo. Il vento sarà forte.",
+      "comment" : "A livello locale a partire da mezzogiorno cadranno da 5 a 15 cm di neve al di sopra dei 1600 m circa. Il vento sarà forte. Con neve fresca e vento forte proveniente dai quadranti settentrionali anche nelle zone lontano dalle creste si formeranno ulteriori accumuli di neve ventata. In alcuni punti, nel corso della giornata gli accumuli di neve ventata cresceranno leggermente. Lungo il confine con la Francia e lungo il confine con la Svizzera, questi punti pericolosi sono più frequenti. Essi verranno in parte innevati e saranno quindi difficilmente individuabili. <br/> Gli ultimi accumuli di neve ventata possono subire un distacco provocato, attenzione nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni. I rumori di \"whum\" sono campanelli di allarme. <br/> Principalmente sui pendii carichi di neve ventata le valanghe asciutte possono coinvolgere i vari strati di neve ventata e raggiungere dimensioni medie. <br/> Le escursioni richiedono attenzione e prudenza."
+    },
+    "snowpackStructure" : {
+      "comment" : "A livello locale domenica sono caduti da 2 a 5 cm di neve al di sopra dei 2000 m circa, localmente anche di più. <br/> Giovedì sono caduti da 20 a 30 cm di neve al di sopra dei 2000 m circa, localmente anche meno. In molte regioni, il vento è stato da forte a tempestoso. Il vento ha rimaneggiato intensamente la neve fresca e la neve vecchia. In molti punti l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> La parte superiore del manto nevoso è dura, con una crosta spesso portante in superficie, principalmente nelle zone in prossimità delle creste e dei passi. <br/> La parte superiore del manto nevoso è soffice, con una superficie a debole coesione, soprattutto nelle zone al riparo dal vento. <br/> L'irradiazione solare ha causato un assestamento del manto nevoso. Sui pendii esposti a sud est e sud ovest al di sotto dei 2400 m circa la neve è umida. <br/> Specialmente sui pendii ombreggiati ripidi, all'interno del manto nevoso si trovano strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il vento sarà forte. I punti pericolosi si trovano sui pendii carichi di neve ventata in quota.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-30T22:00:00Z",
+        "endTime" : "2026-03-31T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "SW", "NE", "S", "NW", "W", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800",
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "NE", "S", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "SW", "NE", "S", "NW", "W", "SE" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800",
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "848af8a6-1555-4329-abe2-32e309c0fa9f",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-03-29T21:42:04Z",
+    "validTime" : {
+      "startTime" : "2026-03-29T22:00:00Z",
+      "endTime" : "2026-03-30T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo.",
+      "comment" : "A livello locale a partire da mezzogiorno cadranno da 5 a 10 cm di neve al di sopra dei 1600 m circa, localmente anche meno. Il vento sarà forte. In alcuni punti, nel corso della giornata gli accumuli di neve ventata cresceranno leggermente. Questi possono in alcuni punti distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali, attenzione nelle zone di passaggio da poca a molta neve come p.es. all'ingresso di conche e canaloni. <br/> Principalmente sui pendii carichi di neve ventata le valanghe asciutte possono coinvolgere i vari strati di neve ventata e raggiungere dimensioni medie. <br/> Le escursioni richiedono attenzione."
+    },
+    "snowpackStructure" : {
+      "comment" : "A livello locale domenica sono caduti da 2 a 5 cm di neve al di sopra dei 2000 m circa, localmente anche meno. <br/> Giovedì sono caduti da 5 a 10 cm di neve al di sopra dei 2000 m circa, localmente anche meno. <br/> In molte regioni, il vento è stato da forte a tempestoso. Il vento ha rimaneggiato intensamente la neve fresca e la neve vecchia. In molti punti l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> La parte superiore del manto nevoso è dura, con una crosta spesso portante in superficie, principalmente nelle zone in prossimità delle creste e dei passi. <br/> La parte superiore del manto nevoso è soffice, con una superficie a debole coesione, soprattutto nelle zone al riparo dal vento. <br/> L'irradiazione solare ha causato un assestamento del manto nevoso. Sui pendii esposti a sud est e sud ovest al di sotto dei 2400 m circa la neve è umida. <br/> Specialmente sui pendii ombreggiati ripidi, all'interno del manto nevoso si trovano strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il vento sarà forte. I punti pericolosi si trovano sui pendii carichi di neve ventata in quota.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-30T22:00:00Z",
+        "endTime" : "2026-03-31T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "N", "SW", "NE", "S", "NW", "W", "SE" ]
+    } ],
+    "bulletinID" : "57860d79-037c-460f-bf37-277b35743c76",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
