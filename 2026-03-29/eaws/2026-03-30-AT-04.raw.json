@@ -1,0 +1,111 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-29T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-29T15:00:00Z",
+      "endTime" : "2026-03-30T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Monday, dense clouds will move through in the morning, but the mountains will remain mostly clear. From midday, higher altitudes will often be covered in fog, and visibility will be limited by passing snow showers. Brisk to strong winds from the west to north-west, peaking at around 50 km/h at higher altitudes. Temperatures at 1500 m around -4, at 2000 m around -7 degrees.\nTuesday will be unsettled and cloudy. Snow and sleet showers from time to time, only some rain showers below 500 metres. The wind will be as strong as the day before. At 1500 metres around -5 degrees, at 2000 metres around -8 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slab snow on the east and south sides - watch out for the wind slab problem!",
+      "comment" : "The avalanche risk is moderate from the tree line. There is fresh wind slab on the east and south sides. Older drifts, some of which are also in the remaining aspects, have been covered and are therefore difficult to recognise. The fresh wind slab can already be triggered by low additional loads. Medium avalanches are possible. If weak layers in older exposures are triggered by large additional loads, they can rarely become large."
+    },
+    "snowpackStructure" : {
+      "comment" : "The extensive snowdrift accumulations from the last significant snowfall event were covered by some new fallen snow. Strong winds from the north-west formed fresh drifts that are not sufficiently binding. The old snowpack and older drifts may still contain weak layers and the foundation is partially weakened at very high altitudes and on shady slopes."
+    },
+    "tendency" : [ {
+      "highlights" : "Further new fallen snow and wind will increase the risk of avalanches.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-03-30T15:00:00Z",
+        "endTime" : "2026-03-31T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "S", "N", "W", "SE", "NE", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "69dde936-5044-436c-9fe6-5350641df25a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Wind around north-west and new fallen snow - avoid fresh wind slab!"
+    }
+  }
+}
