@@ -1,0 +1,187 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "As a consequence of new snow and a strong to storm force northeasterly wind, sometimes avalanche prone wind slabs will form in particular in places that are protected from the wind. In all aspects and above approximately 1800 m more medium-sized and, in isolated cases, large slab avalanches are possible. As a consequence of the snowfall more mostly small moist avalanches are possible below approximately 1800 m.",
+        "highlights": "New snow and wind slabs in all aspects. Above approximately 1900 m the wind slabs are larger. Wind slabs are to be evaluated with care and prudence."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "NE",
+            "N",
+            "S",
+            "NW",
+            "SE",
+            "W",
+            "E"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "NE",
+            "N",
+            "S",
+            "NW",
+            "SE",
+            "W",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "363cd3d8-441f-4d75-99c4-e94490054165",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-31"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-30T18:03:11+00:00",
+      "regions": [
+        {
+          "regionID": "IT-57-AP-01",
+          "name": "Monti Sibillini Ovest"
+        },
+        {
+          "regionID": "IT-57-MC-01",
+          "name": "Appennino Fabrianese"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "New snow and wind slabs are lying mostly on a moist old snowpack. The wind slabs must be evaluated with care and prudence."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA Marche",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-03-31T22:00:00+00:00",
+            "endTime": "2026-04-01T22:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-30T22:00:00+00:00",
+        "endTime": "2026-03-31T22:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "In particular on steep slopes more small avalanches are possible as a consequence of the snowfall.",
+        "highlights": "Individual natural avalanches are possible."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "NE",
+            "N",
+            "S",
+            "NW",
+            "SE",
+            "W",
+            "E"
+          ],
+          "avalancheSize": 1,
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "df0be771-e4c7-4b56-abd1-c424a9a6079c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-31"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-30T18:03:11+00:00",
+      "regions": [
+        {
+          "regionID": "IT-57-MC-02",
+          "name": "IT-57-MC-02"
+        },
+        {
+          "regionID": "IT-57-PU-01",
+          "name": "Appennino Pesarese"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "These spring-like weather conditions will give rise to slight settling of the snowpack. This applies in particular on steep sunny slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "AINEVA Marche",
+          "website": "https://bollettini-en.aineva.it"
+        }
+      },
+      "tendency": [
+        {
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-03-31T22:00:00+00:00",
+            "endTime": "2026-04-01T22:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-30T22:00:00+00:00",
+        "endTime": "2026-03-31T22:00:00+00:00"
+      }
+    }
+  ]
+}
