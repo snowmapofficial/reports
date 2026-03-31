@@ -1,0 +1,141 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable from the tree line upwards. New fallen snow and strong winds from the north-west cause fresh snowdrift accumulations to form, which can be triggered as slab avalanches on steep terrain by even a small additional load. Medium avalanches are possible. If deeper layers are also affected, they can very rarely become large. Older loads are covered. In places, they could still be disturbed by large additional loads. Only occasionally can avalanches occur spontaneously.",
+        "highlights": "Easily triggerable wind slab - considerable avalanche danger!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "E",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "N",
+            "NW",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "38da8561-5a67-4e95-bdea-d4948a94bcfe",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-03-31"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-30T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengebirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge North"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "20 - 40 cm of new fallen snow and strong winds from the north-west are expected. This will result in fresh snowdrift accumulations, some of which will be prone to triggering and have poor binding properties. In places, older snowdrift accumulations may still contain weak layers and the foundation is weakened at very high altitudes and on shady slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The wind slab problem must still be taken into account.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-03-31T15:00:00+00:00",
+            "endTime": "2026-04-01T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-03-30T15:00:00+00:00",
+        "endTime": "2026-03-31T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "From tonight until Tuesday evening, 20 to 40 cm of new fallen snow is expected.\nOn Tuesday, the mountains in the northern Alps will often be covered in clouds, with repeated snow showers. There will be brisk to strong north-westerly winds, peaking at around 50 km/h at high altitudes. At 1500 metres it will be -4 degrees, at 2000 metres -7 degrees.\nOn Wednesday, clouds will frequently cover the sky and the sun will only come through from time to time. However, it will only rain or snow a little at times. The snowfall level will still be at low altitude in the morning and then slowly rise towards 800 metres. The wind will be weak to moderate from north to north-east. At 1500 metres -3 degrees, at 2000 metres -5 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "New fallen snow and strong winds form fresh wind slabs!"
+    }
+  }
+}
