@@ -1,0 +1,145 @@
+{
+  "bulletins" : [ {
+    "avalancheActivity" : {
+      "comment" : "In the High, Low and West is declared an CONSIDERABLE avalanche danger, 3rd level. The main avalanche problem will be new snow up to 30 cm, especially on the northern side of the Tatras. The snowfall will be accompanied by wind, which may worsen the situation. Avalanche release is possible on steep slopes with only a small additional load. Spontaneous avalanches from new snow in steep terrain and rock walls may also occur.",
+      "highlights" : "Beware of snow slabs from new snow in steep terrain!"
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "W", "E", "NW", "NE", "SW", "N", "S", "SE" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "frequency" : "some",
+      "problemType" : "new_snow",
+      "snowpackStability" : "very_poor",
+      "validTimePeriod" : "all_day"
+    }, {
+      "aspects" : [ "W", "E", "NW", "NE", "SW", "N", "S", "SE" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "frequency" : "some",
+      "problemType" : "wind_slab",
+      "snowpackStability" : "very_poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "c06490d8-29e3-49fd-ac23-b88cc6f3f340",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    }, {
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "mainValue" : "considerable",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2026-03-31T05:55:11Z",
+    "regions" : [ {
+      "name" : "Vysoké Tatry - východ",
+      "regionID" : "SK-01"
+    }, {
+      "name" : "Vysoké Tatry - západ",
+      "regionID" : "SK-02"
+    }, {
+      "name" : "Západné Tatry",
+      "regionID" : "SK-03"
+    }, {
+      "name" : "Nízke Tatry - východ",
+      "regionID" : "SK-04"
+    }, {
+      "name" : "Nízke Tatry - západ",
+      "regionID" : "SK-05"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "Snow cover was wet on most slopes throughout the profile due to temperatures above freezing except at the highest elevations and northern shaded orientations. This will change as it cools slightly. The new snow will be dry. More than 30 cm of new snow will be added in places. Continuous snow cover will be found at elevations above 1200-1500 m above sea level depending on orientation."
+    },
+    "tendency" : {
+      "highlights" : "Rising",
+      "tendencyType" : "increasing"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2026-03-31T22:00:00Z",
+      "startTime" : "2026-03-30T22:00:00Z"
+    },
+    "wxSynopsis" : { }
+  }, {
+    "avalancheActivity" : {
+      "comment" : "Avalanche release is only possible at the highest altitudes of the Fatra Mountains on very steep slopes with higher additional loads. Occasionally, smaller spontaneous avalanches from new wet snow are possible.",
+      "highlights" : "Watch out for new snow!"
+    },
+    "avalancheProblems" : [ {
+      "aspects" : [ "W", "E", "NW", "NE", "SW", "N", "S", "SE" ],
+      "avalancheSize" : 2,
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "frequency" : "few",
+      "problemType" : "new_snow",
+      "snowpackStability" : "poor",
+      "validTimePeriod" : "all_day"
+    } ],
+    "bulletinID" : "9fda5311-f5d7-4493-a576-431c2947ae3c",
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "dangerRatings" : [ {
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    }, {
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "publicationTime" : "2026-03-31T05:55:11Z",
+    "regions" : [ {
+      "name" : "Krivánska Malá Fatra",
+      "regionID" : "SK-07"
+    }, {
+      "name" : "Lúčianska Malá Fatra",
+      "regionID" : "SK-08"
+    }, {
+      "name" : "Veľká Fatra",
+      "regionID" : "SK-06"
+    } ],
+    "snowpackStructure" : {
+      "comment" : "About 20 cm of new snow will be added"
+    },
+    "tendency" : {
+      "highlights" : "increasing.\n\npk",
+      "tendencyType" : "increasing"
+    },
+    "travelAdvisory" : { },
+    "validTime" : {
+      "endTime" : "2026-03-31T22:00:00Z",
+      "startTime" : "2026-03-30T22:00:00Z"
+    },
+    "wxSynopsis" : { }
+  } ]
+}
