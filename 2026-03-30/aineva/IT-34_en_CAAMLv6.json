@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-30T18:03:11Z",
+    "validTime" : {
+      "startTime" : "2026-03-30T22:00:00Z",
+      "endTime" : "2026-03-31T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wind slabs represent the main danger. Weakly bonded old snow is to be evaluated with care and prudence.",
+      "comment" : "The wind slabs can be released even by a single winter sport participant above the tree line, caution is to be exercised in particular at the base of rock walls and behind abrupt changes in the terrain, as well as adjacent to ridgelines and in gullies and bowls. Mostly avalanches are medium-sized. <br/> <br/> Additionally in isolated cases avalanches can penetrate near-ground layers of the snowpack and reach large size in isolated cases, especially on west, north and east facing slopes above approximately 2200 m. <br/> <br/> Whumpfing sounds and the formation of shooting cracks when stepping on the snowpack can indicate the danger."
+    },
+    "snowpackStructure" : {
+      "comment" : "In some cases the various wind slabs have bonded still only poorly together. <br/> <br/> The old snowpack will be weakly bonded in some places, especially on west, north and east facing slopes above approximately 2200 m, and on south facing slopes at elevated altitudes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wind slabs and weakly bonded old snow are to be assessed with care and prudence.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-31T22:00:00Z",
+        "endTime" : "2026-04-01T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "S", "NW", "SE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "N", "NW", "W", "E" ]
+    } ],
+    "bulletinID" : "a0ba9e04-acb4-4d3a-a6ec-0c5a13b0277a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
