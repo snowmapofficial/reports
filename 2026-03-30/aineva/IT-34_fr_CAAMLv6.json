@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-30T18:03:11Z",
+    "validTime" : {
+      "startTime" : "2026-03-30T22:00:00Z",
+      "endTime" : "2026-03-31T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neige soufflée constituant le danger principal. Neige ancienne fragile à évaluer avec précaution.",
+      "comment" : "Les accumulations de neige soufflée peuvent déjà être déclenchées par un seul amateur de sports d'hiver au-dessus de la limite de la forêt, prudence surtout au pied des parois rocheuses et derrière les ruptures de terrain comme à proximité des crêtes, dans les combes et couloirs. Des avalanches sont généralement de taille moyenne. <br/> <br/> Des avalanches peuvent aussi de manière isolée se déclencher dans les couches du manteau neigeux proches du sol et atteindre une grande taille de manière isolée, notamment sur les pentes exposées à l'ouest, au nord et à l'est au-dessus d'environ 2200 m. <br/> <br/> Des bruits sourds et des fissures lors du passage sur le manteau neigeux peuvent attirer l'attention sur le danger."
+    },
+    "snowpackStructure" : {
+      "comment" : "Les différentes accumulations de neige soufflée sont parfois encore mal liées entre elles. <br/> <br/> Par endroits le manteau neigeux ancien est faible, notamment sur les pentes exposées à l'ouest, au nord et à l'est au-dessus d'environ 2200 m et sur les pentes exposées au sud en altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Neige soufflée et neige ancienne fragile à évaluer avec précaution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-03-31T22:00:00Z",
+        "endTime" : "2026-04-01T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-03-31"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "NE", "N", "S", "NW", "SE", "W", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "N", "NW", "W", "E" ]
+    } ],
+    "bulletinID" : "a0ba9e04-acb4-4d3a-a6ec-0c5a13b0277a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
