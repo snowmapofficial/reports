@@ -1,0 +1,364 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is rated as \"considerable\" above 1500 metres. New fallen snow and persistent wind lead to extensive snowdrift accumulations, some of which are prone to triggering. Avalanche prone locations are mainly in gullies, bowls and behind terrain edges and sometimes extend down into forest aisles. Aspects from east to south to west are particularly affected. In some places, the accumulation of drifting snow can be triggered by slight additional load as a mostly medium-sized slab avalanche.",
+        "highlights": "Fresh wind slab, considerable avalanche danger!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "E",
+            "W",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "5c80e2a3-b6bb-4b33-bb9e-946b342097cd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-31T15:11:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-02",
+          "name": "Totes Gebirge South"
+        },
+        {
+          "regionID": "AT-06-01",
+          "name": "Dachsteingebiet"
+        },
+        {
+          "regionID": "AT-06-11",
+          "name": "M\u00fcrzsteger Alpen"
+        },
+        {
+          "regionID": "AT-06-10",
+          "name": "Hochschwabgebiet"
+        },
+        {
+          "regionID": "AT-06-09",
+          "name": "Eisenerzer Alpen"
+        },
+        {
+          "regionID": "AT-06-08-01",
+          "name": "Triebener Tauern"
+        },
+        {
+          "regionID": "AT-06-06",
+          "name": "Rottenmanner Tauern"
+        },
+        {
+          "regionID": "AT-06-04-01",
+          "name": "Schladminger Tauern North"
+        },
+        {
+          "regionID": "AT-06-05",
+          "name": "W\u00f6lzer Tauern North"
+        },
+        {
+          "regionID": "AT-06-03",
+          "name": "Ennstaler Alpen"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Since Monday, up to 35 cm of new fallen snow has fallen in strong northerly winds. The resulting snowdrift accumulations, some of which are thick, are deposited on a largely stable old snowpack. There are weak layers in the wind-driven snow and occasionally, in shady high altitudes, also in the snow base, fundament (persistent weak layer problem)."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Clouds will continue to accumulate from the north on Thursday, with short snow showers still possible. Strong north-westerly winds are blowing, especially on the eastern edge of the Alps. The wind slab problem is slowly easing.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2026-04-01T15:00:00+00:00",
+            "endTime": "2026-04-02T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-31T15:00:00+00:00",
+        "endTime": "2026-04-01T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The snowfall will subside almost completely during the night to Wednesday. Nevertheless, the Northern Alps and the northern main Alpine ridge will be covered in cloud for most of the day on Wednesday and visibility will be limited.\nThe temperature at 2000 metres above sea level will be between -5 and -7 degrees and the wind will blow briskly in the east and moderately from the north to north-east in the west."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger above the tree line is rated as \"moderate\". Above the tree line, fresh snowdrift accumulations can sometimes still be triggered as slab avalanches by low additional loads. Medium-sized avalanches are typically expected. The avalanche prone locations are on lee slopes behind terrain edges and in steep gullies and bowls.",
+        "highlights": "Still wind slab problem in the high altitudes!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "E",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "e49bfc2d-281f-4370-a79b-5502a2070c75",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-31T15:11:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-08-02",
+          "name": "Gaaler Alpen"
+        },
+        {
+          "regionID": "AT-06-07",
+          "name": "W\u00f6lzer Tauern South"
+        },
+        {
+          "regionID": "AT-06-04-02",
+          "name": "Schladminger Tauern South"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Strong northerly winds are still forming fresh snowdrift accumulations. These are located on a mostly stable old snowpack. There are weak layers in the drift snow and occasionally, in shady high altitudes, also in the snow base, fundament (persistent weak layer problem)."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Thursday, clouds will continue to accumulate from the north and a brisk north-westerly wind will blow. The avalanche risk will hardly change.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-01T15:00:00+00:00",
+            "endTime": "2026-04-02T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-31T15:00:00+00:00",
+        "endTime": "2026-04-01T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Wednesday will be variably cloudy and windy south of the main Alpine ridge. Directly on the main Alpine ridge, there will be recurring visual obstructions. The temperature at 2000 metres above sea level will be between -5 and -6 degrees. The wind will be brisk at first, decreasing during the daytime changes, from the north-east."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is assessed as \"low\". Nevertheless, isolated pillows of wind drifted snow can be triggered as small slab avalanches.",
+        "highlights": "Low avalanche danger, but avoid fresh pillows of wind drifted snow!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "W",
+            "SE",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "e25420fb-f555-48b3-a53c-8318a0b3fe57",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-01"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-03-31T15:11:17+00:00",
+      "regions": [
+        {
+          "regionID": "AT-06-13",
+          "name": "Fischbach Alps East, Wechselgebiet"
+        },
+        {
+          "regionID": "AT-06-12",
+          "name": "M\u00fcrztaler Alpen"
+        },
+        {
+          "regionID": "AT-06-18",
+          "name": "Murberge, Gurktaler Alpen"
+        },
+        {
+          "regionID": "AT-06-17",
+          "name": "Seetaler Alpen"
+        },
+        {
+          "regionID": "AT-06-16",
+          "name": "Koralpe East"
+        },
+        {
+          "regionID": "AT-06-15",
+          "name": "Stub- und Gleinalpe"
+        },
+        {
+          "regionID": "AT-06-14",
+          "name": "Fischbach Alps West, Grazer Bergland"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Persistent winds still lead to the formation of small pillows of wind drifted snow, which are deposited on a hard old snowpack and are usually sufficiently bonded to it. There is generally little snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Steiermark",
+          "website": "https://www.lawine-steiermark.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Thursday will be mostly cloudy with a persistent northerly wind. The avalanche risk remains low.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-01T15:00:00+00:00",
+            "endTime": "2026-04-02T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-03-31T15:00:00+00:00",
+        "endTime": "2026-04-01T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Wednesday will be variably cloudy and windy south of the main Alpine ridge. Visibility will be partially obstructed at summit level. The temperature at 2000 metres above sea level will be between -4 and -6 degrees. The wind will be strong in the east and brisk from the north-east in the west."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Still fresh wind slab and still considerable avalanche danger!"
+    }
+  }
+}
