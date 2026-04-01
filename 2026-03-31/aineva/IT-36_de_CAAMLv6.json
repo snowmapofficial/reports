@@ -1,0 +1,93 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-31T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-03-31T22:00:00Z",
+      "endTime" : "2026-04-01T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Mäßige Lawinengefahr. In der Höhe sind die Gefahrenstellen häufiger.",
+      "comment" : "Die frischen und älteren Triebschneeansammlungen bleiben teilweise störanfällig. Die Gefahrenstellen liegen vor allem an Felswandfüßen, sowie in Kammlagen, Rinnen und Mulden. Die Triebschneeansammlungen können noch ausgelöst werden. Dies vor allem mit großer Belastung. Die Mitreiß- und Absturzgefahr sollte beachtet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack is generally characterised by alternating areas of erosion interspersed with areas of accumulation; in many areas there are hard surface crusts some of which are hidden. Near the ridges, the wind over the past few days has led to the formation of snow overhanging mass. In der Schneedecke sind vor allem an Schattenhängen Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Es ist teils bewölkt. Der Wind bläst mäßig.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-01T22:00:00Z",
+        "endTime" : "2026-04-02T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "S", "E", "SE", "SW", "NW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "E", "NW", "W" ]
+    } ],
+    "bulletinID" : "43d555d8-eac6-47ad-abf1-0eebf627ad9a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
