@@ -1,0 +1,111 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-03-31T21:00:54Z",
+    "validTime" : {
+      "startTime" : "2026-03-31T15:00:00Z",
+      "endTime" : "2026-04-01T15:00:00Z"
+    },
+    "unscheduled" : true,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Visibility on the mountains will often be limited by dense clouds on Wednesday and it will snow a little at times. The wind from the north will be weak to moderately strong. The temperature will be -4 degrees at 1500 metres and -7 degrees at 2000 metres.\nThere will be lots of clouds on Thursday, with sunshine at most from time to time. A little snowfall is possible above around 800 metres. The wind will be weak to moderate. At 1500 m -1 degrees, at 2000 m -4 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Significant avalanche danger - avoid fresh wind slab!",
+      "comment" : "The avalanche risk is considerable from the tree line upwards. Strong winds and new fallen snow, including gale-force winds at high altitudes, have caused fresh and extensive prone-to-triggering snowdrift accumulations to form. There are avalanche prone locations in all aspects, especially adjacent to ridgelines, but also distant from ridgelines. Medium slab avalanches can be triggered by even small additional loads. If layers in the persistent weak layer are triggered by high loads, they can rarely become large. Naturally triggered avalanches are possible in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "Depending on the altitude and region, there was up to around 20 - 40 cm of new fallen snow with strong, even stormy winds in exposed areas. The fresh wind slab can contain weak layers and does not bind sufficiently. Only rarely can weak layers still occur in the older wind slab at high altitudes and the foundation is weakened at very high altitudes and on shady slopes."
+    },
+    "tendency" : [ {
+      "highlights" : "The wind slab problem must be taken into account, but is slowly receding.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-04-01T15:00:00Z",
+        "endTime" : "2026-04-02T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-01"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "S", "N", "W", "SE", "NE", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "53a66f27-b2c5-494b-9dcd-057616043e85",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Above the tree line, pay attention to fresh wind slab that is prone to triggering!"
+    }
+  }
+}
