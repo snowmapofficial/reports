@@ -1,0 +1,178 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-01T15:00:00Z",
+      "endTime" : "2026-04-02T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Thursday, the mountains will mostly be covered in thick clouds and it may snow a little. At 1500 metres the temperature will be around -2 degrees, at 2000 metres around -5 degrees.\nOn Friday, the weather will be windy and changeable. The clouds will soften and let the sun shine, but isolated rain and snow showers are possible. A brisk north-westerly wind will blow at high altitudes. At 1500 metres the temperature will be around 0 degrees, at 2000 metres around -5 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Significant avalanche danger - avoid wind slab!",
+      "comment" : "The avalanche risk is still considerable above the tree line. Prone to triggering are snowdrift accumulations caused by strong and, in the higher altitudes, stormy winds in recent days, some of which are more extensive. In almost all aspects, medium slab avalanches can still be triggered in steep slopes, in filled steep bowls and gullies by low additional loads. If layers in persistent weak layers are exposed, some of the slab avalanches can also become large. Naturally triggered avalanches are only possible in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The recently fallen new snow has been transported by strong and, in exposed locations, stormy winds and is not binding sufficiently. The thinly covered wind slab can still contain weak layers and is therefore prone to triggering. In very high north-facing or on shady slopes, the snow base, fundament (persistent weak layer problem) is partially weakened."
+    },
+    "tendency" : [ {
+      "highlights" : "The drifting snow problem is slowly receding.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-04-02T15:00:00Z",
+        "endTime" : "2026-04-03T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SW", "S", "E", "W", "SE", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "25e40858-1dbc-402f-bac4-ef532f7fba1b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-01T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-01T15:00:00Z",
+      "endTime" : "2026-04-02T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Thursday, the mountains will mostly be covered in thick clouds and it may snow a little. At 1500 metres the temperature will be around -2 degrees, at 2000 metres around -5 degrees.\nOn Friday, the weather will be windy and changeable. The clouds will soften and let the sun shine, but isolated rain and snow showers are possible. A brisk north-westerly wind will blow at high altitudes. At 1500 metres the temperature will be around 0 degrees, at 2000 metres around -5 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Avoid wind slab!",
+      "comment" : "The avalanche risk is predominantly moderate above the tree line. However, snowdrift accumulations caused by the strong, sometimes stormy winds of the last few days should be noted. In almost all aspects, medium slab avalanches can still be triggered in some places on steep slopes, in filled steep bowls and gullies by low additional loads. Naturally triggered avalanches are only possible in isolated cases."
+    },
+    "snowpackStructure" : {
+      "comment" : "The recently fallen new snow has been transported by strong and, in exposed locations, stormy winds and is not binding sufficiently. The freshly covered wind slab can also contain weak layers and is therefore prone to triggering."
+    },
+    "tendency" : [ {
+      "highlights" : "The drifting snow problem is slowly receding.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-04-02T15:00:00Z",
+        "endTime" : "2026-04-03T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-02"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SW", "S", "W", "SE", "E", "NE" ]
+    } ],
+    "bulletinID" : "70e83720-4ce6-4a63-a01c-7639d315cf30",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Watch out for wind slab from the tree line!"
+    }
+  }
+}
