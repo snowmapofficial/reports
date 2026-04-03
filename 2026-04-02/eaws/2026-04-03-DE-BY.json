@@ -1,0 +1,270 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is considerable above 2000 metres and moderate below that. The main problem is wind slab avalanches. Slab avalanches can be triggered in some places by small additional loads and can occasionally become large. The avalanche prone locations are mainly in steep terrain adjacent to ridgelines, below terrain edges and in gullies and bowls. They increase in number and size with altitude.\n\nOn very steep slopes with smooth ground, such as on meadows and in sparse mountain forests, medium-sized gliding avalanches can detach themselves.\n\nWhen exposed to sunlight, small loose snow avalanches detach from extremely steep areas.",
+        "highlights": "Potential avalanche prone locations are covered in snow and difficult to recognise."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "E",
+            "N",
+            "NE",
+            "S",
+            "SE",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "E",
+            "N",
+            "NE",
+            "S",
+            "SE",
+            "SW",
+            "NW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "W",
+            "E",
+            "S",
+            "SE",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "119abc3a-2f2a-499b-9967-049e314b1750",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "considerable",
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-02T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Extensive snowdrift accumulations from the last few days lie on soft layers and graupel. In an altitude band from approx. 1500 m to 2000 m, there is a melt-freeze crust underneath last week's fresh snow pack on the shady slopes, under which faceted crystals have formed. Some of these are still prone to triggering. Deep-lying layers of faceted crystals at the base of the snowpack can hardly be disturbed. At ground level, the snow is often wet at medium altitudes. The surface snow becomes wet in the sun."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The wet snow problem comes to the fore over the Easter weekend.",
+          "validTime": {
+            "startTime": "2026-04-03T15:00:00+00:00",
+            "endTime": "2026-04-04T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-02T15:00:00+00:00",
+        "endTime": "2026-04-03T15:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate above the tree line and low below it. The main problem is wind slab. Small to medium slab avalanches can still be triggered in a few places with little additional load. The avalanche prone locations are mainly above the tree line in steep terrain adjacent to ridgelines, below terrain edges and in gullies and bowls. They are difficult to recognise.\n\nOn very steep slopes with smooth ground, such as meadows, smaller gliding avalanches can release themselves.\n\nIn sunlight, small loose snow avalanches can detach themselves from extremely steep areas.",
+        "highlights": "Wind slab is covered by soft snow and prone to triggering."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "S",
+            "N",
+            "W",
+            "SE",
+            "NE",
+            "SW",
+            "NW",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "S",
+            "W",
+            "SE",
+            "SW",
+            "E"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "9f3f1f84-9e34-4b08-b774-3b30cac5e386",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-02T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Wind slab lies on soft layers and graupel in all aspects. In an altitude band from approx. 1500 m to 2000 m, there is a melt-freeze crust underneath last week's fresh snow pack on the shady slopes, under which faceted crystals have formed. Some of these are still prone to triggering. The snowpack base is compact and largely stable. Deep-lying layers of faceted crystals at the base of the snowpack at higher elevations can hardly be disturbed. The snow on the ground is often wet. The surface snow becomes wet in the sun."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The wet snow problem comes to the fore over the Easter weekend.",
+          "validTime": {
+            "startTime": "2026-04-03T15:00:00+00:00",
+            "endTime": "2026-04-04T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-02T15:00:00+00:00",
+        "endTime": "2026-04-03T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Wind slabs are prone to triggering."
+    }
+  }
+}
