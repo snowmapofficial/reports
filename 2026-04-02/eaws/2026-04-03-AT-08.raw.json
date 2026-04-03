@@ -1,0 +1,185 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-02T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-02T15:00:00Z",
+      "endTime" : "2026-04-03T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Quite sunny in the mountains. Initially some residual clouds, otherwise visibility generally good. Milder temperatures will continue at all altitudes. Temperature at 2000m: from -5 to -2 degrees; at 3000m: -9 to -6 degrees. Moderate northerly winds at high altitude."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Predominantly good backcountry touring conditions",
+      "comment" : "Slab avalanches can be triggered by large additional loading and grow to medium size. Danger zones occur in steep ridgeline terrain, behind sharp drops in the landscape, in wind-loaded gullies and bowls. In very steep terrain, loose-snow avalanches are possible due to solar radiation and daytime warming. On steep grass-covered slopes, gliding snow activity is gradually increasing."
+    },
+    "snowpackStructure" : {
+      "comment" : "The fresh snow and drifts from recent days have been able to settle somewhat and increasingly consolidate. Also the latest snowdrift accumulations are stabilized. The old snowpack is generally well consolidated and compact."
+    },
+    "tendency" : [ {
+      "highlights" : "On Easter Weekend, danger of wet-snow avalanches will increase through significant daytime rise in temperatures.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-03T15:00:00Z",
+        "endTime" : "2026-04-04T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "S", "N", "W", "SE", "NE", "SW", "NW", "E" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "S", "W", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "60b91cad-d8b4-40d0-9408-89d9d5869fa4",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    }, {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-02T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-02T15:00:00Z",
+      "endTime" : "2026-04-03T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Quite sunny in the mountains. Initially some residual clouds, otherwise visibility generally good. Milder temperatures will continue at all altitudes. Temperature at 2000m: from -5 to -2 degrees; at 3000m: -9 to -6 degrees. Moderate northerly winds at high altitude."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Generally good backcountry touring conditions",
+      "comment" : "Slab avalanches can be triggered by large additional loading and grow to medium size. Danger zones occur in steep ridgeline terrain, behind sharp drops in the landscape, in wind-loaded gullies and bowls. Particularly on high-altitude west, north and east-facing slopes, avaalnches can fracture in the weak layers in the uppermost part of the snowpack and grow to medium size. In very steep terrain, loose-snow avalanches are possible due to solar radiation and daytime warming. On steep grass-covered slopes, gliding snow activity is gradually increasing."
+    },
+    "snowpackStructure" : {
+      "comment" : "The fresh snow and drifts from recent days have been able to settle somewhat and increasingly consolidate. Particularly in high altitude ridgeline and pass areas, small fresh and older snowdrift accumulations are still prone to triggering. The mid-part of the snowpack consists widespread of well consolidated, compact layers which on shady high-altitude slopes blanket a poorly structured old snow fundament."
+    },
+    "tendency" : [ {
+      "highlights" : "On Easter Weekend, danger of wet-snow avalanches will increase through significant daytime rise in temperatures.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-03T15:00:00Z",
+        "endTime" : "2026-04-04T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-03"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "E", "N", "NE", "S", "SE", "SW", "NW" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "W", "E", "S", "SE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "eef42e16-8873-4c51-8827-901f335437bb",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Silvretta West",
+      "regionID" : "AT-08-06"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Allgäu Alps West",
+      "regionID" : "AT-08-02"
+    }, {
+      "name" : "Lechtal Alps Vorarlberg",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Verwall West",
+      "regionID" : "AT-08-04"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Favorable touring conditions provided good terrain and route selection"
+    }
+  }
+}
