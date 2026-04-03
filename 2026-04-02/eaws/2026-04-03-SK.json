@@ -1,0 +1,213 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In the High, Low and West Mountains there is an CONSIDERABLE avalanche danger, level 3. The main avalanche problem is new snow, which has fallen more than 30 cm, most of it on the northern side of the Tatras. The situation has been complicated by the wind, which has created dangerous snow slabs and pillows. Avalanche release is possible on steep slopes with only a small additional load. When it gets warmer and clearer, spontaneous avalanches from wet snow can appear on sunny slopes.",
+        "highlights": "Watch out for slabs of new snow and wet avalanches on sunny slopes!"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "E",
+            "NW",
+            "NE",
+            "SW",
+            "N",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "some",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SW",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 3,
+          "elevation": {
+            "lowerBound": "1300",
+            "upperBound": "2000"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "1f55f530-cbaa-44e4-970f-921b6007324b",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-02T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "More than 30 cm of new snow has been added. This has different hardnesses depending on whether it fell during windless or windy conditions. The wind played an important role, creating slabs of different hardness on the surface of the snow. The critical layer is just the interface between the wind-beaten snow and the older felted snow, or the hard base of the old hard snow. Below the new snow there are also layers of unstable angular snow in places in the profile. The snow on sunny slopes will become slightly warmer and therefore wetter. Continuous snow cover is found at altitudes above 1200-1500 m above sea level, depending on orientation."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "no change",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-02T22:00:00+00:00",
+        "endTime": "2026-04-03T22:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "In the Fatras, a moderate avalanche danger (2nd degree) is declared above the forest zone. Up to 20 cm of new snow has fallen, which will get wet due to warming. Avalanche release is possible in the highest altitudes of the Fatras only on very steep slopes with higher additional loads. Occasionally, smaller spontaneous wet avalanches are possible.",
+        "highlights": "Watch out for wet snow on sunny slopes!"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SW",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "E",
+            "NW",
+            "NE",
+            "SW",
+            "N",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "c9fc1325-ba8c-413a-85bb-7bec89904f79",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-02T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "About 20 cm of new snow was added. In places on older firn snow, in places on grassy ground. Overall, the snow cover is below average."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "no change.\n\npk",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-02T22:00:00+00:00",
+        "endTime": "2026-04-03T22:00:00+00:00"
+      }
+    }
+  ]
+}
