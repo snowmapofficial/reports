@@ -1,0 +1,142 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is mostly moderate above the tree line. However, some of the snowdrift accumulations that have formed in the past few days must be taken into account. In many aspects, medium slab avalanches can still be triggered on steep slopes, in filled steep bowls and gullies, sometimes with a small additional load. If layers in persistent weak layers (transition from little to more snow) are addressed, slab avalanches can occasionally become large. In sunny steep terrain, individual naturally triggered avalanches are possible.",
+        "highlights": "Moderate avalanche danger!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SW",
+            "S",
+            "E",
+            "W",
+            "SE",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "298d4a20-4579-4ced-9453-b02348248e5b",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-03"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-02T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengebirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge North"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack has slowly settled and the wind slab is binding better with the old snowpack, but may still contain weak layers. There are a few more centimetres of new fallen snow, covering the older wind slab that is prone to triggering. In the very high north-facing and on shady slopes, the snow base, fundament (persistent weak layer problem) is partly weakened."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-03T15:00:00+00:00",
+            "endTime": "2026-04-04T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-02T15:00:00+00:00",
+        "endTime": "2026-04-03T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The weather will be windy and changeable on Friday. The clouds will soften and let the sun shine, but from midday onwards, the cumulus clouds will increase and impair visibility. A brisk north-westerly wind will blow at high altitudes, otherwise the wind will be moderately strong. At 1500 metres the temperature will be around 0 degrees, at 2000 metres around -5 degrees.\nOn Saturday, visibility will be limited by mostly dense clouds, with occasional rain showers and a few snow showers above around 1500 metres. At 1500 metres the temperature will be around 3 degrees, at 2000 metres around 0 degrees. In the open high areas, the west to north-westerly wind will reach a peak of 40 km/h."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Older wind slab is covered and must be observed!"
+    }
+  }
+}
