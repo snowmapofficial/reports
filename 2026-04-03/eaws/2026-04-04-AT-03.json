@@ -1,0 +1,273 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger above 1500 m is assessed as moderate (level 2). Slab avalanches can be triggered in steep terrain on shady slopes by slight additional loads. These are usually small, but medium-sized avalanches are also possible in a few places. The avalanche prone locations are mainly in gullies, bowls and behind terrain edges at higher altitudes.\nRain and rising temperatures during the daytime changes increase the likelihood of wet loose snow avalanches and gliding avalanches.",
+        "highlights": "Moderate avalanche danger at higher altitudes. Wet and gliding sluffs are possible."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "a6727487-f5ae-4091-82d6-750946a13640",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1500"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-03-06",
+          "name": "Gippel - G\u00f6llergebiet"
+        },
+        {
+          "regionID": "AT-03-04",
+          "name": "Rax - Schneeberggebiet"
+        },
+        {
+          "regionID": "AT-03-01",
+          "name": "Ybbstaler Alpen"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The windslab snow has already settled well, there are still weak layers in shady high areas between the windslab snow and the old snowpack. Faceted crystals in the snow base, fundament are currently hardly prone to triggering.\nDue to the rise in temperature, the moisture of the snowpack is increasing, especially at medium altitudes. The rain on Holy Saturday will lead to additional moistening of the snowpack. There is usually only a little snow below 900 metres."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Nieder\u00f6sterreich",
+          "website": "https://www.lawinenwarndienst-niederoesterreich.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Easter Sunday will be characterised by excellent mountain weather with plenty of sunshine, little wind and very mild temperatures.\nThe risk of avalanches increases on Sunday. The danger of wet and gliding sluffs increases with the rising temperatures and the seasonal strong sunshine.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-04-04T15:00:00+00:00",
+            "endTime": "2026-04-05T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-03T15:00:00+00:00",
+        "endTime": "2026-04-04T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The evening and night will be free of precipitation, but towards the morning increasingly dense clouds from a warm front will move in from the north-west. On Holy Saturday, clouds will predominate in the Lower Austrian mountains and some rain or snowfall is to be expected at times. The snowfall level will be between 1500 and 1800 metres. It will hardly soften up, the higher peaks will be repeatedly covered in fog and visibility will be limited. The temperature at 2000 metres will rise to around 0 degrees, and up to +4 degrees at 1500 metres. Strong to gale-force winds with gusts of between 50 and 90 km/h in exposed areas."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche danger is assessed as low. Due to the rain and rising temperatures during the day, the likelihood of wet loose snow avalanches and gliding avalanches increases.",
+        "highlights": "Low avalanche danger, wet and gliding sluffs are possible."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "417f06b2-d464-4299-b540-589140c36660",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-03-02",
+          "name": "T\u00fcrnitzer Alpen"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Due to the snowfall of the last week, there is 60 to 80 cm of snow in places in wind-protected and shady locations above around 800 metres. Exposed areas, on the other hand, are often heavily blown off. The wind slab is already well stabilised and mostly moist. There is less snow at low altitudes and in some places the snowpack is already largely bare. Due to the rise in temperature, the moisture of the snowpack is increasing at all altitudes. The rain on Holy Saturday will lead to additional moistening."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Nieder\u00f6sterreich",
+          "website": "https://www.lawinenwarndienst-niederoesterreich.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Easter Sunday will be characterised by excellent mountain weather with plenty of sunshine, little wind and very mild temperatures.\nThe risk of avalanches increases on Sunday. The danger of wet and gliding sluffs increases with the rising temperatures and the seasonal strong sunshine.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-04-04T15:00:00+00:00",
+            "endTime": "2026-04-05T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-03T15:00:00+00:00",
+        "endTime": "2026-04-04T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The evening and night will be free of precipitation, but towards the morning increasingly dense clouds from a warm front will move in from the north-west. On Holy Saturday, clouds will predominate in the Lower Austrian mountains and some rain is to be expected at times. The snowfall level will mostly be above summit level. It will hardly soften up, the higher peaks will repeatedly be covered in fog and visibility will be limited. The temperature at an altitude of 1500 metres will rise to +4 degrees. Strong to gale-force winds with gusts of between 50 and 80 km/h in exposed areas."
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is assessed as low. Due to the rising temperatures during the daytime changes, small wet and gliding sluffs cannot be ruled out in steep gullies and on embankments.",
+        "highlights": "Low avalanche danger."
+      },
+      "bulletinID": "dac1363f-d638-4b6b-8a69-425cead77633",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-03-05",
+          "name": "Semmering - Wechselgebiet"
+        },
+        {
+          "regionID": "AT-03-03",
+          "name": "Gutensteiner Alpen"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The wind slab is already well stabilised. As the temperature rises, the moisture in the snowpack increases. In the Bucklige Welt and on the Hochwechsel there is only a little snow below 1200 metres. In the Gutenstein Alps, the hills up to 1000 metres are already mostly bare."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Nieder\u00f6sterreich",
+          "website": "https://www.lawinenwarndienst-niederoesterreich.at"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Easter Sunday will be mild mountain weather with plenty of sunshine and little wind. The avalanche risk remains low.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-04T15:00:00+00:00",
+            "endTime": "2026-04-05T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-03T15:00:00+00:00",
+        "endTime": "2026-04-04T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "The evening and night will be free of precipitation. Towards the morning, however, increasingly dense clouds from a warm front will move in from the north-west. On Holy Saturday, many clouds and occasional rain are to be expected in the Lower Austrian mountains. In the eastern mountain ranges, however, it will remain mostly free of precipitation. It will hardly soften up, the higher peaks will repeatedly be covered in fog and visibility will be limited. The temperature at an altitude of 1500 metres will rise to +3 degrees. Strong to gale-force winds with gusts of between 50 and 80 km/h in exposed areas."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Rain moistens the snowpack: Wet and gliding sluffs increase!"
+    }
+  }
+}
