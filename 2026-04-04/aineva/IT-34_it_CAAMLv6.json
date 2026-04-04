@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-04T06:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-03T22:00:00Z",
+      "endTime" : "2026-04-04T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il tempo sarà molto mite. Con il rialzo termico e l'irradiazione solare diurni, la probabilità di distacco di valanghe bagnate aumenterà a tutte le esposizioni al di sopra del limite del bosco. La neve ventata richiede attenzione. A tutte le esposizioni, sono possibili valanghe di neve a lastroni.",
+      "comment" : "I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve sono possibili segnali di pericolo. <br/> Gli accumuli di neve ventata possono subire un distacco già in seguito al passaggio di un singolo appassionato di sport invernali al di sopra del limite del bosco, attenzione soprattutto ai piedi di pareti rocciose e dietro ai cambi di pendenza, come pure nelle zone in prossimità delle creste, nelle conche e nei canaloni. Inoltre, isolate valanghe possono distaccarsi coinvolgendo gli strati basali del manto e raggiungere grandi dimensioni a livello isolato, soprattutto sui pendii esposti a ovest, nord ed est al di sopra dei 2000 m circa. <br/> Il pericolo di valanghe umide e bagnate aumenterà già durante la mattinata. Con il rialzo termico e l'irradiazione solare diurni, a partire da mezzogiorno il numero dei punti pericolosi aumenterà. Soprattutto sui pendii molto ripidi esposti al sole, alle quote medie e alte: <br/> Sulla crosta ghiacciata sussiste un pericolo di caduta nelle zone ripide. <br/> <br/> <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Nel corso della giornata queste condizioni meteo primaverili causeranno al di sotto dei 2500 m circa un inumidimento del manto nevoso. <br/> Con vento proveniente dai quadranti settentrionali negli ultimi giorni specialmente nelle conche, nei canaloni e dietro ai cambi di pendenza si sono formati accumuli di neve ventata instabili, soprattutto a tutte le esposizioni al di sopra dei 2000 m circa in quota. <br/> Il manto di neve vecchia è debole in alcuni punti. Il legame reciproco de(-) i vari accumuli di neve ventata è in parte ancora sfavorevole. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "La neve ventata e la neve vecchia a debole coesione devono essere valutate con attenzione.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-04T22:00:00Z",
+        "endTime" : "2026-04-05T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "E", "SE", "S", "NE", "SW", "W", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "SE", "S", "NE", "SW", "W", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "E", "SE", "S", "NE", "SW", "W" ]
+    } ],
+    "bulletinID" : "4a569498-f9d0-414c-aabd-0d1f949da9f3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
