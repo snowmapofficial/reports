@@ -1,0 +1,139 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate. Above the tree line, wind slabs are the main problem. Slab avalanches can be triggered by low additional loads and reach medium size. The avalanche prone locations are mainly in the steep terrain adjacent to ridgelines in the north-west, north to east aspects, below terrain edges and in gullies and bowls.\n\nBelow 2000 m, wet and gliding snow are also problematic. On very steep slopes with smooth ground, such as on meadows and in sparse mountain forests, gliding avalanches can detach themselves. Loose snow avalanches detach themselves from extremely steep areas. Wet avalanches reach medium size in snowy regions.",
+        "highlights": "Snowdrift accumulations at altitude are prone to triggering and sometimes difficult to recognise."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "68095fc4-aeb6-4173-ac04-41d61cf38a2f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Older and fresh snowdrift accumulations lie on soft layers and graupel at higher altitudes. In an altitude band from approx. 1500 m to 2000 m, there is a melt-freeze crust underneath last week's fresh snow pack on the shady slopes, under which faceted crystals have formed. Some of these are still prone to triggering. Deep-lying layers of faceted crystals at the base of the snowpack can hardly be disturbed. At medium altitudes, the snow on the ground is often wet. With warm temperatures, cloud cover and rain, the snowpack becomes increasingly soaked."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The wet snow problem is coming to the fore, but spring conditions with a daily increase in avalanche danger and firn will only develop in the coming week.",
+          "validTime": {
+            "startTime": "2026-04-04T15:00:00+00:00",
+            "endTime": "2026-04-05T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-03T15:00:00+00:00",
+        "endTime": "2026-04-04T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Slab danger at the top, wet and gliding snow at the bottom."
+    }
+  }
+}
