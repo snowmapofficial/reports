@@ -1,0 +1,163 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-04T06:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-03T22:00:00Z",
+      "endTime" : "2026-04-04T22:00:00Z"
+    },
+    "unscheduled" : true,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.",
+      "comment" : "Die spontane Aktivität von kleinen und mittleren feuchten und nassen Lawinen nimmt mit der Erwärmung und der Sonneneinstrahlung allmählich zu, v.a. an sehr steilen Sonnenhängen. Dies auch an Felswandfüßen. <br/> <br/> Triebschneeansammlungen können teilweise von einzelnen Wintersportlern ausgelöst werden, dies auch kammfern, Vorsicht an sehr steilen Hängen an Übergängen von wenig zu viel Schnee wie z.B. bei der Einfahrt in Rinnen und Mulden. <br/> Dort, wo der Wind weniger stark war, haben sich weiche, aber kaum sichtbare Schneebänke gebildet. Risse beim Betreten der Schneedecke können auf die Gefahr hinweisen. <br/> Die trockenen Lawinen können vereinzelt in tiefen Schichten anreißen und mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Am Dienstag fielen lokal oberhalb von rund 2000 m 5 bis 20 cm Schnee. <br/> Der Wind blies stark bis stürmisch. <br/> In höheren Lagen nimmt die Schneedecke ab und wird ungleichmäßig; in mittleren Höhenlagen, die weniger vom Wind betroffen sind, ist sie besser. <br/> Die Schneedecke an der Oberfläche verändert sich je nach Lage und Hangneigung rasch: Es wechseln sich Krusten unterschiedlicher Art und Dicke ab. Auf der harten Kruste besteht im Steilgelände Absturzgefahr, besonders in Kamm- und Passlagen. <br/> In der Schneedecke sind v.a. an steilen Schattenhängen Schwachschichten vorhanden. <br/> Die Sonneneinstrahlung führt zu einer zunehmenden Verfestigung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die Gefahr von feuchten und nassen Lawinen steigt an. <br/> Die Wetterbedingungen erlauben eine Verfestigung der Triebschneeansammlungen.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-04T22:00:00Z",
+        "endTime" : "2026-04-05T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-04"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "SE", "S", "NE", "SW", "W", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "SE", "S", "NE", "SW", "W", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "S", "SW", "W" ]
+    } ],
+    "bulletinID" : "821021f0-c5ca-40b5-9235-494c069c4702",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
