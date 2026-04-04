@@ -1,0 +1,186 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "Moderate avalanche danger is declared in the High, Low and West Mountains, level 2. The main avalanche problem is wind blown snow from the last snowfall. More than 30 cm of it has fallen, mainly on the northern side of the Tatras. The situation has been complicated by the wind, which has created dangerous snow slabs and pillows. Avalanche release is possible on steep slopes, especially with high additional loads. In warmer weather also watch out for avalanches from wet snow. Warming during the day and subsequent cooling at night will stabilise the snow.",
+        "highlights": "Beware of wind-blown snow slabs and wet avalanches at altitudes up to 1800 m a.s.l. !"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "W",
+            "E",
+            "NW",
+            "NE",
+            "N"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "NW",
+            "SW",
+            "NE",
+            "N",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "1300",
+            "upperBound": "1800"
+          },
+          "frequency": "some",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "5fd7963f-79c2-434f-b5ee-b8149d11a0fd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "More than 30 cm of new snow has been added in the last snowfall period. This has different hardnesses depending on whether it has fallen during windless or windy conditions. The critical layer is precisely the interface between the wind-beaten snow and the older felted snow or the hard base of the old hard snow. Layers of unstable square-grained snow are also present in places in the profile beneath the new snow. On sunny slopes the snow has become wet and then hardened at night, which stabilises the situation.  A continuous snow cover is found at altitudes above 1200-1500 m above sea level, depending on orientation."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "no change",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-03T22:00:00+00:00",
+        "endTime": "2026-04-04T22:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "In the Fatra Mountains, a low avalanche danger (level 1) is declared above the forest zone. Up to 20 cm of new snow has fallen during the last snowfall period, which has become wet due to warming. In several places it has already melted completely. Avalanche release is only possible at the highest altitudes of the Fatra Mountains on very steep slopes with higher additional loads. Occasionally, smaller spontaneous wet avalanches are possible.",
+        "highlights": "Watch out for wet snow!"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "NW",
+            "NE",
+            "SW",
+            "N",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1300"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "b3a199c6-4950-4874-88b9-fc34c6f6919d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-04"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-03T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-08",
+          "name": "L\u00fa\u010dianska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "About 20 cm of new snow was added. In places on older firn snow, in places on grassy ground. Overall, the snow cover is below average."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "no change.\n\npk",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-03T22:00:00+00:00",
+        "endTime": "2026-04-04T22:00:00+00:00"
+      }
+    }
+  ]
+}
