@@ -1,0 +1,283 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate in the morning and increases to considerable during the daytime changes. The main problems are wet and gliding snow. Medium gliding avalanches can come loose at any time and in all aspects from very steep terrain with smooth ground such as forest or meadow soil. With sunlight, wet loose snow and slab avalanches release themselves, especially in extremely steep terrain. They reach medium size. Avalanche run-out areas must be recognised and avoided.\n\nAbove the tree line, wind slab avalanches must also be avoided on steep slopes exposed to the north and east. Fresh and older snowdrift accumulations can occasionally be triggered as slab avalanches by a small additional load and reach medium size.",
+        "highlights": "Dry slab avalanches are possible on shady slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "W",
+            "E",
+            "SE"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "e891862a-61d6-4ef1-8078-868faf321fa1",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "considerable",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-04T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface, which is often crusted can form in the morning, softens quickly in the sun. Warm temperatures and sunshine lead to a soaking of the snowpack. At higher altitudes (above 1500 m), the new and drift snow packs of the past two weeks are still prone to triggering, especially on shady slopes, on soft layers, graupel or faceted crystals in the crust area. The snowpack base at high altitudes often consists of faceted crystals, further down it is usually wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Rain up to high altitudes on Monday night, then transition to spring conditions.",
+          "validTime": {
+            "startTime": "2026-04-05T15:00:00+00:00",
+            "endTime": "2026-04-06T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-04T15:00:00+00:00",
+        "endTime": "2026-04-05T15:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low in the morning. It increases to moderate during the daytime changes. Wet snow becomes the main problem. Smaller gliding avalanches are possible at any time on slopes with a smooth surface. With sunlight, wet loose snow and slab avalanches release themselves, especially on extremely steep terrain. They usually remain small. Avalanche run-out areas must be recognised and avoided.\n\nAbove the tree line, you should also watch out for wind slabs on steep slopes exposed to the north and east. Fresh and older snowdrift accumulations can occasionally be triggered there by low additional loads and reach medium size.",
+        "highlights": "Dry slab avalanches are possible on shady slopes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "N",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "S",
+            "SW",
+            "W",
+            "E",
+            "SE"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "treeline"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "3fd135ca-ec1e-40ee-8966-70c5fc38f87f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-05"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-04T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface, which is often crusted can form in the morning, softens quickly in the sun. Warm temperatures and sunshine lead to a soaking of the snowpack. At higher altitudes (above 1500 m), the new and drift snow packs of the past two weeks are still prone to triggering, especially on shady slopes, on soft layers, graupel or faceted crystals in the area of crusts. The snowpack base consists of faceted crystals at high altitudes on the shady slopes and is mostly wet further down."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Rain up to high altitudes on Monday night, then transition to spring conditions.",
+          "validTime": {
+            "startTime": "2026-04-05T15:00:00+00:00",
+            "endTime": "2026-04-06T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-04T15:00:00+00:00",
+        "endTime": "2026-04-05T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Increased self-triggering of wet snow avalanches with the sun's rays"
+    }
+  }
+}
