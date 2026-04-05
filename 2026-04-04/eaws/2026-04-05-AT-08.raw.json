@@ -1,0 +1,222 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-04T15:00:00Z",
+      "endTime" : "2026-04-05T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "After a night of partially cloudy skies, sunny mountain weather with only a few cloudbanks in high altitudes, and convective cloud build-up during the afternoon. It is expected to be even milder than on previous days. Temperature at 2000m: from 2 to 8 degrees; at 3000m: -1 to -1 degree. Brisk westerly winds at high altitude."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Rapid daytime rise in avalanche danger",
+      "comment" : "In early morning, danger is moderate. Isolated danger zones for slab releases occur in steep ridgeline terrain, behind sharp drops in the landscape, in wind-loaded gullies and bowls. Avalanche danger swiftly and steeply rises due to solar radiation and mild temperatures. In very steep terrain in all aspects, wet-snow slides and avalanches are possible due to solar radiation and daytime warming. On steep grass-covered slopes, gliding snow activity is gradually increasing. Caution below glide cracks in the surface of the snowpack."
+    },
+    "snowpackStructure" : {
+      "comment" : "The old snowpack is generally well consolidated and compact during the morning hours. At lower altitudes, however, the mild temperatures and solar radiation is making the snowpack thoroughly wet, rapidly leading to a loss of firmness. At higher altitudes, older snowdrift accumulations are frequently still prone to triggering."
+    },
+    "tendency" : [ {
+      "highlights" : "The danger of wet-snow avalanches increases during the course of each day.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-05T15:00:00Z",
+        "endTime" : "2026-04-06T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "SE", "W", "N", "NE", "E" ]
+    } ],
+    "bulletinID" : "b699669b-4f0d-4f3a-9933-c2083bda4d29",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    }, {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-04T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-04T15:00:00Z",
+      "endTime" : "2026-04-05T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Andreas Pecl"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "After a night of partially cloudy skies, sunny mountain weather with only a few cloudbanks in high altitudes, and convective cloud build-up during the afternoon. It is expected to be even milder than on previous days. Temperature at 2000m: from 2 to 8 degrees; at 3000m: -1 to -1 degree. Brisk westerly winds at high altitude."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Rapid daytime rise in avalanche danger and wet-snow avalanches",
+      "comment" : "Slab avalanches can be triggered by large additional loading and grow to medium size. Danger zones occur in steep ridgeline terrain, behind sharp drops in the landscape, in wind-loaded gullies and bowls. Particularly in the northern half of high altitude zones, isolated avalanches can fracture in the weak layers in the uppermost metre of the snowpack. In very steep terrain, wet-snow slides and avalanches are possible due to solar radiation and daytime warming. On steep grass-covered slopes, gliding snow activity is gradually increasing."
+    },
+    "snowpackStructure" : {
+      "comment" : "On shady slopes and in terrain with flat solar radiation, the uppermost layers are often still soft. Particularly in high altitude ridgeline and pass areas, small fresh and older snowdrift accumulations are still prone to triggering. The mid-part of the snowpack consists widespread of well consolidated, compact layers which on shady high-altitude slopes blanket a poorly structured old snow fundament. At lower altitudes, mild temperatures, rain impact and solar radiation will make the snowpack thoroughly wet to an ever-increasing degree."
+    },
+    "tendency" : [ {
+      "highlights" : "Starting on Easter Weekend, danger of wet-snow avalanches will increase during the course of the day through ongoing rise in temperatures.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-05T15:00:00Z",
+        "endTime" : "2026-04-06T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-05"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "E", "SE", "S", "SW", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    } ],
+    "bulletinID" : "e816d285-75c9-4db3-b64b-2040156fb830",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Silvretta West",
+      "regionID" : "AT-08-06"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Allgäu Alps West",
+      "regionID" : "AT-08-02"
+    }, {
+      "name" : "Lechtal Alps Vorarlberg",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Verwall West",
+      "regionID" : "AT-08-04"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Rapid daytime rise in avalanche danger"
+    }
+  }
+}
