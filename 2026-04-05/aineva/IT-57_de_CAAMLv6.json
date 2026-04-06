@@ -1,0 +1,130 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-05T22:00:00Z",
+      "endTime" : "2026-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Nass- und Gleitschnee.",
+      "comment" : "An allen Expositionen sind mit der Erwärmung mittlere und große feuchte und nasse Lawinen möglich. Die Lawinen können an Triebschneehängen bis in tiefe Schichten durchreißen und recht groß werden. Die Gefahrenstellen liegen v.a. an steilen Sonnenhängen oberhalb von rund 1700 m. Vorsicht vor allem an Felswandfüßen und in den Gebieten mit viel Neuschnee. Zudem sind die frischen Triebschneeansammlungen in Rinnen, Mulden und hinter Geländekanten stellenweise auslösbar. In mittleren Lagen ist die Gefahr etwas tiefer. Große Vorsicht und Zurückhaltung sind empfohlen. Touren sollten früh gestartet und beendet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Es fiel verbreitet viel Schnee. Zudem entstanden v.a. in Kammlagen, Rinnen und Mulden und allgemein im Hochgebirge teils große Triebschneeansammlungen. Neu- und Triebschnee liegen meist auf einer feuchten Altschneedecke. Die frühlingshaften Wetterbedingungen führen an steilen Sonnenhängen zu einer raschen Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-06T22:00:00Z",
+        "endTime" : "2026-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "SW", "NW", "NE", "SE", "N", "S", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "NW", "NE", "SE", "N", "S", "W" ]
+    } ],
+    "bulletinID" : "4c961f01-98ff-450d-949b-44142d594451",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1700"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-05T22:00:00Z",
+      "endTime" : "2026-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Nass- und Gleitschnee.",
+      "comment" : "An allen Expositionen sind mit der Erwärmung meist kleine feuchte und nasse Lawinen möglich. Die Gefahrenstellen liegen v.a. an steilen Sonnenhängen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die frühlingshaften Wetterbedingungen führen an steilen Sonnenhängen zu einer raschen Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-06T22:00:00Z",
+        "endTime" : "2026-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "SW", "NW", "NE", "SE", "N", "S", "W" ]
+    } ],
+    "bulletinID" : "f68430cd-ac8b-4a48-a5f6-3f50210f9b78",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "IT-57-MC-02",
+      "regionID" : "IT-57-MC-02"
+    }, {
+      "name" : "Appennino Pesarese",
+      "regionID" : "IT-57-PU-01"
+    } ]
+  } ]
+}
