@@ -1,0 +1,245 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-05T22:00:00Z",
+      "endTime" : "2026-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schwachen Altschnee beachten. Im Tagesverlauf steigt die Auslösebereitschaft von nassen Lawinen an.",
+      "comment" : "Trockene Lawinen können teilweise im Altschnee ausgelöst werden, dies vereinzelt schon durch einzelne Wintersportler. Sie können bis auf den Boden durchreißen und mittlere Größe erreichen. Vorsicht vor allem an sehr steilen West-, Nord- und Osthängen oberhalb von rund 2200 m und an Südhängen im Hochgebirge. Ungünstig sind besonders Übergänge von wenig zu viel Schnee. <br/> Gefahrenstellen liegen vor allem in Rinnen, Mulden und hinter Geländekanten. <br/> <br/> Im Tagesverlauf steigt die Auslösebereitschaft von nassen Lawinen besonders an extrem steilen Ost- und Westhängen an. Nasse Lawinen können vor allem aus noch nicht vollständig entladenen Einzugsgebieten abgehen. Diese sind teilweise mittelgroß und auch von einzelnen Wintersportlern leicht auslösbar. Touren sollten rechtzeitig beendet werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Harte Triebschneeansammlungen überlagern vor allem an West-, Nord- und Osthängen oberhalb von rund 2200 m eine schwache Altschneedecke. Die Schneedecke ist kleinräumig sehr unterschiedlich. <br/> <br/> Die nächtliche Abstrahlung ist zeitweise recht gut. Die Schneeoberfläche gefriert tragfähig. Auf der harten Schneeoberfläche besteht im Steilgelände Absturzgefahr. An extrem steilen Sonnenhängen weicht die Schneedecke rasch auf. Sonne und Wärme führen im Tagesverlauf zu einer zunehmenden Durchnässung der Schneedecke. <br/> <br/> An steilen Sonnenhängen in tiefen und mittleren Lagen liegt kaum Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Einige Einzugsgebiete sind entladen, vor allem an Sonnenhängen.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-06T22:00:00Z",
+        "endTime" : "2026-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP7", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "NE", "N", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "NE", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "SW", "SE", "S", "W" ]
+    } ],
+    "bulletinID" : "20f64f1c-6fa0-49c4-8a21-4cf8e503ad6b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Südlicher Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Nördliche Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Folgaria - Lavarone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Südliche Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Südliche Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Nördliche Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Pine' - Fersental",
+      "regionID" : "IT-32-TN-21"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Vallarse",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Fassatal",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Sole, Pejo und Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-05T22:00:00Z",
+      "endTime" : "2026-04-06T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Geringe Gefahr.",
+      "comment" : "Lawinen können sehr vereinzelt in bodennahe Schichten der Schneedecke durchreißen und vereinzelt mittlere Größe erreichen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Auf der harten Schneeoberfläche besteht im Steilgelände Absturzgefahr. Die Schneedecke ist kleinräumig sehr unterschiedlich. Vor allem an steilen Sonnenhängen in tiefen und mittleren Lagen liegt kaum Schnee. Die Wetterbedingungen führen zu einer Anfeuchtung der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Geringe Gefahr.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-04-06T22:00:00Z",
+        "endTime" : "2026-04-07T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "7d37b049-9c44-4918-9ef7-2e29a16f5ec8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Prealpi",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Cimberntal",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Bondone und Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Westliche Nonsberger Alpen",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Ledrotal",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
