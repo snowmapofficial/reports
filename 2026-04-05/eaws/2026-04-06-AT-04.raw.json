@@ -1,0 +1,125 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-05T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-05T15:00:00Z",
+      "endTime" : "2026-04-06T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "On Monday, compact low clouds will persist into the late afternoon, which may restrict visibility. Light showers may fall, especially in the morning. However, more and more sunshine will appear during the daytime changes. The wind will blow partly briskly from westerly directions. Temperatures will be 3 degrees at 1500 metres and 0 degrees at 2000 metres.\nOn Tuesday, the sun will mostly shine, but in the area of the Alps, a few low cumulus clouds will appear from time to time, which may at least temporarily restrict visibility at high altitudes. The wind will be partly brisk from the north. Temperatures will be 5 degrees at 1500 metres and 2 degrees at 2000 metres."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Watch out for spontaneous wet snow avalanches!",
+      "comment" : "The avalanche risk is moderate across the board. Depending on the amount of snow present, small to medium spontaneous wet snow avalanches are to be expected on steep terrain (more so when it rains in the morning or when the sun shines in the afternoon) and individual gliding avalanches are possible on steep, smooth ground. Older snowdrift accumulations can still be triggered in isolated cases at higher elevations under additional load. Steep slopes, filled-in steep bowls and gullies must be observed in this regard."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack is settled, can consolidate on the surface overnight due to significantly falling temperatures at higher altitudes, but is damp to wet on the inside depending on altitude and aspect. Light rain in the morning and sunshine in the afternoon lead to further moisture input and decreasing firmness of the snowpack. Only at higher altitudes and in isolated cases are there localised weak layers and in very high northern areas the snow base, fundament (persistent weak layer problem) is occasionally weakened."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in the avalanche risk.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-06T15:00:00Z",
+        "endTime" : "2026-04-07T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-06"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "N" ]
+    } ],
+    "bulletinID" : "315f617d-67c2-4a0a-a4a4-ed0c0f6809a6",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Unstable weather - moderate avalanche danger!"
+    }
+  }
+}
