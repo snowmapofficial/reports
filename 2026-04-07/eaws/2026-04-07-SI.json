@@ -1,0 +1,198 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "New fallen snow and blowing snow are the main dangers. The snowpack stability is reduced, especially on slopes and in ravines, where the snow thickness is greater due to snow accumulations.\n\nIn addition to new fallen snow, weak layers in the snowpack deeper in the snowpack can be a local problem. These weak layers are more common in the axis above the forest. In particular, a medium-sized avalanche can be triggered by a large load exceeding the load-bearing capacity of these layers.",
+        "highlights": "Blown snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "SE",
+            "S",
+            "N",
+            "E",
+            "SW",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "102db02f-5c12-4381-8d26-a09dbcbc2a3b",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-07"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-07T07:27:16+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The last snowfall was accompanied by a strong northerly wind, which blew the snow down to the old base in many places and created snowdrift accumulations in the leeward slopes. In some places, these are on top of a layer of Graupel, which is a potentially dangerous Weak layer. Locally, the layers of Graupel are 5-10 cm thick, possibly more.\n\nIn the old snow cover, the snow layers are mostly well interconnected. Deep below the surface, several weak layers of faceted snow crystals and sheared grains occur, which are more frequent on axial slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche danger will remain similar, with a few more spontaneously triggered wet snow avalanches expected during the mid-day and afternoon on Tuesday.\nIt will cool down on Wednesday. There will be some clouds at first, clearing during the day. It will be windy, especially in the high alpine regions.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-07T15:00:00+00:00",
+            "endTime": "2026-04-08T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": true,
+      "validTime": {
+        "startTime": "2026-04-06T15:00:00+00:00",
+        "endTime": "2026-04-07T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Tuesday, there will be some low clouds here and there. Sunny during the day, with shallow cumulus cloud. There will be light to moderate westerly to north-westerly winds. It will remain warm. Mid-day temperatures will be around 11 \u00b0C at 1500 m and 3 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
