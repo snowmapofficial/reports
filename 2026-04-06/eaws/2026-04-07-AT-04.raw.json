@@ -1,0 +1,115 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-06T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-06T15:00:00Z",
+      "endTime" : "2026-04-07T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Upper Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Good touring conditions will prevail on Tuesday. The sun will often shine unclouded, a few spring clouds may appear over the Alpine peaks. Visibility will remain good everywhere. The wind will blow briskly from the north in places. Up to 6 degrees at 1500 metres and 4 degrees at 2000 metres.\nWednesday will be bright and sunny, mostly completely cloudless. The wind will be mainly weak, only moderate in places. At 1500 m 3 degrees, at 2000 m 0 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Watch out for naturally triggered avalanches during the day!",
+      "comment" : "The avalanche risk is generally low at first. During the daytime changes, it soon increases to moderate, depending on altitude and aspect. Attention should then be paid to spontaneous small to medium wet loose snow or slab avalanches from undischarged steep terrain. Weak layers in the old snowpack can still be addressed, in particular in shady, extreme terrain at high altitudes, especially due to large additional loads. Individual small gliding avalanches cannot be ruled out."
+    },
+    "snowpackStructure" : {
+      "comment" : "Overnight, the surface of the settled snowpack can firmness and is then initially of varying hardness and crust can form. Depending on the altitude and aspect, it then softens with incoming radiation. The snowpack is moist to wet on the inside. However, weak layers may still be present in the old snowpack, which is not yet moist, especially on shady slopes and at high altitudes. In places, the snowpack on the ground may start to glide."
+    },
+    "tendency" : [ {
+      "highlights" : "No significant change in the avalanche risk.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-07T15:00:00Z",
+        "endTime" : "2026-04-08T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "E", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "N" ]
+    } ],
+    "bulletinID" : "f422a75d-e218-465a-ab68-e393a47bb96f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Kasbergblock",
+      "regionID" : "AT-04-07"
+    }, {
+      "name" : "Sengsengebirge",
+      "regionID" : "AT-04-08"
+    }, {
+      "name" : "Zimnitzmassiv, Höllengebirge",
+      "regionID" : "AT-04-05"
+    }, {
+      "name" : "Traunstein, Eibenberg",
+      "regionID" : "AT-04-06"
+    }, {
+      "name" : "Totes Gebirge North",
+      "regionID" : "AT-04-03"
+    }, {
+      "name" : "Phyrgas, Haller Mauern",
+      "regionID" : "AT-04-04"
+    }, {
+      "name" : "Dachstein, Gosaukamm",
+      "regionID" : "AT-04-01"
+    }, {
+      "name" : "Kalmberg, Katergebirge",
+      "regionID" : "AT-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Spring conditions with daytime changes in avalanche danger!"
+    }
+  }
+}
