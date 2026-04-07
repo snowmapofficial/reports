@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-06T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-06T22:00:00Z",
+      "endTime" : "2026-04-07T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers in the old snowpack necessitate caution and restraint. Moist and wet avalanches are possible during the day.",
+      "comment" : "Distinct weak layers in the old snowpack can be released especially by large additional loads on very steep northwest, north and northeast facing slopes. Isolated whumpfing sounds are a clear indication. In very isolated cases avalanches can also penetrate deep layers and reach quite a large size. In particular transitions from a shallow to a deep snowpack where hard layers are lying on a weakly bonded old snowpack are especially precarious. <br/> The weather will be mild over a wide area. A clear night will be followed in the early morning by quite favourable conditions generally, but the danger of wet avalanches will increase later. As the day progresses as a consequence of warming during the day there will be a gradual increase in the danger of moist and wet avalanches. Medium-sized natural avalanches are possible in particular on very steep slopes. The avalanche prone locations for wet avalanches are to be found in particular on very steep sunny slopes in all altitude zones and in steep rocky terrain."
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist in the snowpack on northwest, north and northeast facing slopes. <br/> Outgoing longwave radiation during the night will be good. The surface of the snowpack will freeze to form a strong crust only at high altitudes and will soften during the day. These conditions will cause a very rapid weakening of the snowpack. This applies in particular on steep sunny slopes above the tree line. Sunshine and high temperatures will give rise as the day progresses to a loss of strength within the snowpack over a wide area in particular on very steep sunny slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-07T22:00:00Z",
+        "endTime" : "2026-04-08T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "NE", "E", "NW", "S", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "2e475de4-5f5b-4f41-86f7-10240824c4d8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
