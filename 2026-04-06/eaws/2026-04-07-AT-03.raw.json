@@ -1,0 +1,89 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-06T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-06T15:00:00Z",
+      "endTime" : "2026-04-07T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Lower Austria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Most of the clouds will clear during the night and it will remain dry. The sun will shine all day in the Lower Austrian mountains. The wind will blow moderately to strongly from the north-west on the peaks and ridgelines. At 1500 metres above sea level, afternoon temperatures will be around 6 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Spontaneous wet snow avalanches are still possible from midday!",
+      "comment" : "The avalanche risk is subject to daytime changes. The snowpack is compact in the morning. However, this quickly loses firmness.  Wet slab avalanches and loose snow avalanches can then release spontaneously. Wet slab avalanches in gullies and bowls caused by an alpinist cannot be ruled out."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to the cooling and outgoing longwave radiation, the firmness of the snowpack at higher altitudes increases again somewhat. At medium altitudes the snowpack remains moist, at low altitudes it is wet. In the Rax- Schneeberg area, there is little snow below 1400 metres."
+    },
+    "tendency" : [ {
+      "highlights" : "Wednesday will be very sunny. It will be a few degrees cooler. The avalanche danger remains the same.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-07T15:00:00Z",
+        "endTime" : "2026-04-08T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-07"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "c6fa0f2e-5f72-493e-9b4f-25f5d2ca1633",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gippel - Göllergebiet",
+      "regionID" : "AT-03-06"
+    }, {
+      "name" : "Rax - Schneeberggebiet",
+      "regionID" : "AT-03-04"
+    }, {
+      "name" : "Türnitzer Alpen",
+      "regionID" : "AT-03-02"
+    }, {
+      "name" : "Ybbstaler Alpen",
+      "regionID" : "AT-03-01"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Note the daytime changes in avalanche danger!"
+    }
+  }
+}
