@@ -1,0 +1,136 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T22:00:00Z",
+      "endTime" : "2026-04-08T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il pericolo di valanghe umide e bagnate aumenterà già durante la mattinata.",
+      "comment" : "Rialzo dello zero termico sino a 3400 m. <br/> <br/> Al mattino condizioni favorevoli, poi il pericolo di valanghe bagnate e per scivolamento di neve aumenterà. <br/> Con il rialzo termico e l'irradiazione solare diurni, a partire dalla mattinata i punti pericolosi aumenteranno. Queste condizioni causeranno un veloce indebolimento del manto nevoso soprattutto sui pendii soleggiati ripidi. Qui sono possibili valanghe spontanee di medie dimensioni. Specialmente sui pendii ripidi rocciosi, aumento del pericolo di colate umide e bagnate. <br/> <br/> Le escursioni e le discese fuori pista dovrebbero iniziare e terminare molto presto. <br/> <br/> Principalmente sui pendii molto ripidi esposti a nord ovest, nord e nord est le valanghe possono subire un distacco nella neve vecchia debole. Ciò soprattutto in seguito a un forte sovraccarico."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso riuscirà a rigelarsi e a essere portante solo ad alta quota e si ammorbidirà più rapidamente del giorno precedente. <br/> <br/> Principalmente sui pendii ripidi ombreggiati ad alta quota: Nella parte centrale del manto nevoso si trovano isolati strati fragili. <br/> <br/> In quota l'innevamento è estremamente variabile a seconda dell'azione del vento. <br/> Generalmente in molte regioni l'innevamento è ancora buono e in linea o superiore alla media del periodo, tuttavia A bassa quota e sui pendii esposti al sole il manto nevoso si scioglierà velocemente."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Giovedì il tempo sarà caldo.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T22:00:00Z",
+        "endTime" : "2026-04-09T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "NW", "N", "NE", "W", "SE", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "NE", "W", "SE", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "N", "NE", "W", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "6d89877f-1f09-4774-963a-b751fa1524f2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
