@@ -1,0 +1,226 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Weak layers become reactive with moisture penetration.",
+      "comment" : "The avalanche risk above 1800 m increases from moderate to considerable during the daytime changes. Below that, it is low in the morning and moderate later on. With sunshine, wet snow in combination with persistent weak layers becomes a problem. Particularly in extremely steep terrain, wet loose snow and slab avalanches release by themselves or with little additional load. Wet soft and slab avalanches reach medium size.\n\nOn steep slopes with smooth ground that have not yet been discharged, wet, medium-sized gliding avalanches can also occur at any time in all aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snow surface usually freezes through overnight and softens again with the sunlight. At high altitudes, there are potential weak layers, especially on shady slopes, in the area of crusts in the upper metres of the snowpack. In mild temperatures, the snowpack at higher altitudes in the northern aspects also becomes increasingly moist from above. The snowpack base is still dry at high altitudes and often consists of faceted crystals, while at medium altitudes it is usually wet. On the south side, the ground pales again at low altitudes."
+    },
+    "tendency" : [ {
+      "highlights" : "The avalanche danger is decreasing slightly.",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "NE", "N" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "W", "SW", "SE", "S", "E", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "W", "SW", "SE", "S", "E", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "E", "NE" ]
+    } ],
+    "bulletinID" : "f832fa07-17cd-403e-9aa9-93d321293b02",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "Take care on hiking trails below steep slopes with lots of snow.",
+      "comment" : "The avalanche risk is low in the morning and increases to moderate during the daytime changes. Gliding avalanches can occur at any time of day in all aspects on steep slopes with smooth ground that have not yet been discharged. Glide cracks indicate the danger. With sunlight, wet snow becomes the main problem during the day changes. Especially in extremely steep terrain, wet loose snow avalanches release themselves. Avalanches can reach medium size and hit exposed hiking trails."
+    },
+    "snowpackStructure" : {
+      "comment" : "Overnight, the snow surface freezes solid. It softens again quickly during the daytime changes. The snowpack is completely soaked up to high altitudes. At lower altitudes, the south-facing slopes are thawing out again."
+    },
+    "tendency" : [ {
+      "highlights" : "The activity of wet avalanches is decreasing somewhat.",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "gliding_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "glide"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "8ed2b84a-98e0-4a5a-8333-72cfcac82afd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Chiemgau Alps East",
+      "regionID" : "DE-BY-52"
+    }, {
+      "name" : "Bavarian Prealps West",
+      "regionID" : "DE-BY-41"
+    }, {
+      "name" : "Chiemgau Alps West",
+      "regionID" : "DE-BY-51"
+    }, {
+      "name" : "Allgäu  Prealps",
+      "regionID" : "DE-BY-11"
+    }, {
+      "name" : "Bavarian Prealps East",
+      "regionID" : "DE-BY-43"
+    }, {
+      "name" : "Bavarian Prealps Central",
+      "regionID" : "DE-BY-42"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Wet avalanches have long flow paths and can hit exposed hiking trails."
+    }
+  }
+}
