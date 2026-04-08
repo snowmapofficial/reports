@@ -1,0 +1,136 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T22:00:00Z",
+      "endTime" : "2026-04-08T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The danger of moist and wet avalanches will already increase in the late morning.",
+      "comment" : "Rise of the zero-degree level up to 3400 m. <br/> <br/> The early morning will see favourable conditions, but the danger of wet and gliding avalanches will increase later. <br/> As a consequence of warming during the day and solar radiation the avalanche prone locations will become more prevalent from the late morning. These conditions will cause a rapid weakening of the snowpack in particular on steep sunny slopes. Medium-sized natural avalanches are possible here. Increase in danger of moist and wet snow slides in particular in steep rocky terrain. <br/> <br/> Backcountry tours and off-piste skiing should be started and concluded very early. <br/> <br/> Especially on very steep northwest, north and northeast facing slopes avalanches can be triggered in the weakly bonded old snow. This applies in particular in case of a large load."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will freeze to form a strong crust only at high altitudes and will soften earlier than the day before. <br/> <br/> Especially steep shady slopes high altitudes: Individual weak layers exist in the centre of the snowpack. <br/> <br/> At elevated altitudes snow depths vary greatly, depending on the infuence of the wind. <br/> In general, snow conditions in many regions are still good and are in line with or above the seasonal average. At low altitude and on sunny slopes the snowpack will soften quickly."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "On Thursday it will be warm.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T22:00:00Z",
+        "endTime" : "2026-04-09T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "S", "NW", "N", "NE", "W", "SE", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "NE", "W", "SE", "SW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "N", "NE", "W", "SE", "SW", "E" ]
+    } ],
+    "bulletinID" : "6d89877f-1f09-4774-963a-b751fa1524f2",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
