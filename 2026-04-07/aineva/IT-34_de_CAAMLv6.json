@@ -1,0 +1,117 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T22:00:00Z",
+      "endTime" : "2026-04-08T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Schwachschichten im Altschnee erfordern Vorsicht und Zurückhaltung. Feuchte und nasse Lawinen sind tagsüber möglich.",
+      "comment" : "Ausgeprägte Schwachschichten im Altschnee können an sehr steilen Nordwest-, Nord- und Nordosthängen besonders mit großer Zusatzbelastung ausgelöst werden. Einzelne Wummgeräusche sind Zeichen dafür. Sehr vereinzelt können Lawinen auch in tiefe Schichten durchreißen und recht groß werden. Besonders heikel sind v.a. Übergänge von wenig zu viel Schnee, wo harte Schichten auf schwach verfestigtem Altschnee liegen. <br/> Es ist verbreitet mild. Nach klarer Nacht herrschen am Morgen allgemein recht günstige Verhältnisse, dann steigt die Gefahr von nassen Lawinen an. Mit der tageszeitlichen Erwärmung steigt die Gefahr von feuchten und nassen Lawinen im Tagesverlauf allmählich an. Vor allem an sehr steilen Hängen sind mittlere spontane Lawinen möglich. Die Gefahrenstellen für nasse Lawinen liegen vor allem an sehr steilen Sonnenhängen in allen Höhenlagen sowie im felsdurchsetzten Steilgelände."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Schneedecke sind an Nordwest-, Nord- und Nordosthängen heikle Schwachschichten vorhanden. <br/> Die nächtliche Abstrahlung ist gut. Die Schneeoberfläche gefriert nur in hohen Lagen tragfähig und weicht im Tagesverlauf auf. Diese Bedingungen verursachen eine sehr schnelle Schwächung der Schneedecke. Dies vor allem an steilen Sonnenhängen oberhalb der Waldgrenze. Sonne und Wärme führen im Tagesverlauf v.a. an sehr steilen Sonnenhängen verbreitet zu einem Festigkeitsverlust innerhalb der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T22:00:00Z",
+        "endTime" : "2026-04-09T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NW", "NE", "W", "SE", "SW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "9fd5da1a-990e-4873-adda-0ec4d2e2d8cd",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
