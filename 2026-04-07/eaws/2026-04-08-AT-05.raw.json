@@ -1,0 +1,386 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is starry. On Wednesday, the sun will mostly shine unclouded and there will be excellent visibility. During the daytime changes, there will be at most a few harmless spring clouds. Moderate to brisk north-westerly winds with gusts of around 40 km/h at higher altitudes. Temperatures at 2000 metres between 0 and 4 degrees, at 3000 metres around -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "During the daytime changes, wet avalanches are more likely to be triggered.",
+      "comment" : "The avalanche danger increases considerably below 2500 m during the day changes.\nDamp and wet loose snow avalanches and snow slabs are to be expected during the day changes in all aspects below around 2500 metres. The avalanches can occur spontaneously or be triggered by winter sports enthusiasts. They usually remain medium-sized, but can also become large in a few places. Spontaneous sliding snow avalanche activity can also be expected on typical slopes.\nIn a few places above 2200 m, weak layers in the persistent weak layer can also be triggered, especially on west-, north- and east-facing slopes, as well as south-facing slopes in the high Alps. The avalanche prone locations are difficult to recognise. Snow slabs in the persistent weak layer can reach medium size, but in isolated cases avalanches can also tear through to the floating snow close to the ground and become large."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation is good at night. A stable melt-freeze crust forms overnight, which softens again during the day. Due to the low humidity, however, it lasts a little longer than the days before. Heat and moisture increasingly penetrate the snowpack, only in shady high and high alpine locations can you still find dry snow on the surface. At medium altitudes, the snow is already very wet down to the ground. On shady slopes from around 2200 m, there are angular forms and deep rime in the old snowpack, on the south side from around 2400 m. Fractures are most likely to occur on one of the uppermost crusts and only occasionally in the floating snow close to the ground. Some of the snow glides off the ground."
+    },
+    "tendency" : [ {
+      "highlights" : "Little change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    } ],
+    "bulletinID" : "e2338026-72ff-455a-a44e-711f3848c1a6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Venedigergruppe North",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe North",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Großvenedigergruppe Central",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Central",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Central",
+      "regionID" : "AT-05-05"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is starry. On Wednesday, the sun will mostly shine unclouded and there will be excellent visibility. During the daytime changes, there will be at most a few harmless spring clouds. Moderate to brisk north-westerly winds with gusts of around 40 km/h at higher altitudes. Temperatures at 2000 metres between 0 and 4 degrees, at 3000 metres around -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "During the daytime changes, wet avalanches are more likely to be triggered.",
+      "comment" : "There is a moderate avalanche risk from around 2200 m, rising from low to moderate during the day changes. Damp and wet loose snow avalanches and snow slabs are to be expected during the day in all aspects. The avalanches can occur spontaneously or be triggered by winter sports enthusiasts. They usually remain small to medium-sized. Sliding snow avalanche activity is also to be expected on typical slopes.\nIn a few places above 2200 m in the extended northern sector, weak layers in the persistent weak layer can also be addressed and the snow slabs can reach medium size."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation is good at night. A stable melt-freeze crust forms overnight, which softens again during the day. Due to the low humidity, however, it lasts a little longer than the days before. Heat and moisture are increasingly penetrating the snowpack; only in shady high altitudes is there still dry snow on the surface. At medium altitudes, the snow is already wet all the way down to the ground. On shady slopes from around 2200 metres upwards, the old snowpack contains angular shapes and deep rime. Fractures are most likely to occur in one of the uppermost crusts and only rarely in the floating snow near the ground. Some of the snow glides off the ground."
+    },
+    "tendency" : [ {
+      "highlights" : "Little change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "13b0e1a8-c5bd-4e77-a1c8-c70ea07a1f32",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Goldberggruppe North",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Niedere Tauern North",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Loferer and Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Kitzbühel Alps Oberpinzgau",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Kitzbühel Alps Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Weisseck, Muhr",
+      "regionID" : "AT-05-03"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    }, {
+      "name" : "Niedere Tauern South",
+      "regionID" : "AT-05-02"
+    }, {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Chiemgau Alps South",
+      "regionID" : "AT-05-21"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is starry. On Wednesday, the sun will mostly shine unclouded and there will be excellent visibility. During the daytime changes, there will be at most a few harmless spring clouds. At higher altitudes, moderate to brisk north-westerly winds with gusts of around 40 km/h will blow. Temperatures at 2000 metres will be between 2 and 4 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "During the daytime changes, the triggering of wet avalanches increases somewhat.",
+      "comment" : "The avalanche risk is low. During the daytime changes, the probability of triggering wet avalanches increases slightly in all aspects. The avalanches can occur spontaneously or be triggered by winter sports enthusiasts, they usually remain small.\nThe risk of being swept away and falling should be taken into account."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation is good at night. A stable melt-freeze crust forms overnight, which softens again during the day. Due to the low humidity, however, it lasts a little longer than the days before. Sun and warmth lead to increasing soaking of the snowpack.\nRather low-snow shady slopes above around 1900 metres: The lower part of the snowpack is faceted.\nThere is hardly any snow on steep sunny slopes at low and medium altitudes."
+    },
+    "tendency" : [ {
+      "highlights" : "Little change",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "E", "NE" ]
+    } ],
+    "bulletinID" : "6248d72d-d71d-4e08-baa4-fbff406ca00d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-07T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-07T15:00:00Z",
+      "endTime" : "2026-04-08T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "The night is starry. On Wednesday, the sun will mostly shine unclouded and there will be excellent visibility. Temperatures at 2000 metres will be around 1 degree."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Few small wet avalanches.",
+      "comment" : "The avalanche risk is low. During the daytime changes, small wet avalanches can occur spontaneously from undischarged avalanche paths or be triggered by a winter sports enthusiast. Gliding avalanches also occur occasionally."
+    },
+    "snowpackStructure" : {
+      "comment" : "A stable melt-freeze crust forms overnight and slowly softens during the day. However, due to the low humidity, it lasts longer than the days before. Underneath, the snowpack is moist to wet right down to the ground. The snow cover continues to thin out rapidly."
+    },
+    "tendency" : [ {
+      "highlights" : "Little change.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-08T15:00:00Z",
+        "endTime" : "2026-04-09T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-08"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "0141c93c-991f-4677-8e9e-2ec15664ef7c",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Spring conditions: Daily increase in avalanche danger"
+    }
+  }
+}
