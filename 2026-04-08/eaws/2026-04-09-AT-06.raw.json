@@ -1,0 +1,212 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-08T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-08T15:00:00Z",
+      "endTime" : "2026-04-09T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "highlights" : "Strong increase in avalanche danger already in the morning!",
+    "weatherForecast" : {
+      "comment" : "The calm, high-pressure weather with a northerly current will continue. Thursday night will be largely clear and free of disturbances. It will cool down considerably and it will be frosty in the valleys. On Thursday, the sky over the Styrian mountains will not be completely cloudless. In addition to high veil clouds, somewhat denser clouds may cloud the sunshine in the western regions as early as the morning. The north-westerly wind will remain moderate to brisk in exposed areas and strong towards the east. Temperatures will rise from the Hochschwab region to the Gurktal Alps, with highs of -2 or +5 degrees at 2000 metres and +3 or +9 degrees at 1500 metres."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daily increase in avalanche danger",
+      "comment" : "The avalanche risk increases from low to moderate during the day changes. After mostly favourable conditions in the morning, the danger of naturally triggered avalanches increases with radiation and warming. Small to medium-sized wet loose snow and slab avalanches are to be expected in all aspects, in particular on sunny slopes. Wet avalanches can also be triggered by winter sports enthusiasts. Spontaneous gliding avalanches from typical slopes cannot be ruled out.\n In extremely steep, shady areas above 2200 m, small to medium-sized slab avalanches can still be triggered by individuals (persistent weak layer problem)."
+    },
+    "snowpackStructure" : {
+      "comment" : "With outgoing longwave radiation, the snow surface can consolidate, but softens again in the morning. With increasing moisture penetration, the snowpack loses firmness and stability. In addition to loose snow avalanches, wet slab avalanches are also possible. In very steep areas with a damp layer on the ground, the snowpack can slide off.\n Only in very shady areas above 2200 m does the snowpack still have cold reserves and in some cases persistent weak layers in the old snow that are prone to triggering."
+    },
+    "tendency" : [ {
+      "highlights" : "On Friday, a disturbance will bring widespread clouds and some precipitation (snowfall level at around 1700 metres), especially in the northwest. At high altitudes, isolated areas of fresh drifting snow will develop. Decrease in the danger of wet avalanches.",
+      "tendencyType" : "decreasing",
+      "validTime" : {
+        "startTime" : "2026-04-09T15:00:00Z",
+        "endTime" : "2026-04-10T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "24064d20-b39d-485c-8c71-5a05d29248b1",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Wölzer Tauern South",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Wölzer Tauern North",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge South",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Mürzsteger Alpen",
+      "regionID" : "AT-06-11"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Alpen",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-08T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-08T15:00:00Z",
+      "endTime" : "2026-04-09T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "The calm, high-pressure weather with a northerly current will continue. Thursday night will be largely clear and free of disturbances. It will cool down considerably and it will be frosty in the valleys. On Thursday, the sky over the Styrian mountains will not be completely cloudless. In addition to high veil clouds, somewhat denser clouds may cloud the sunshine in the western regions as early as the morning. The north-westerly wind will remain moderate to brisk in exposed areas and strong towards the east. Temperatures will rise from the Hochschwab region to the Gurktal Alps, with highs of -2 or +5 degrees at 2000 metres and +3 or +9 degrees at 1500 metres."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger, but watch out for spontaneous wet snow slides!",
+      "comment" : "The avalanche risk is low. Nevertheless, during the daytime changes, the probability of triggering wet avalanches increases slightly. The mostly small avalanches can mainly come from multiple starting zones that are not yet fully discharged and can also be triggered by individual winter sports enthusiasts. The risk of being swept away and falling should be taken into account."
+    },
+    "snowpackStructure" : {
+      "comment" : "With outgoing longwave radiation, the snow surface can consolidate somewhat, but softens again with sunlight. The thin snowpack becomes damp or wet in all areas and loses firmness. Only in very shady areas above 2000 metres does the snowpack still have small cold reserves and occasional weak layers in the persistent weak layer.\n In general, there is very little snow and the depletion is progressing."
+    },
+    "tendency" : [ {
+      "highlights" : "On Friday, a disturbance will cause widespread clouds and unproductive precipitation. Decrease in the danger of wet avalanches.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-09T15:00:00Z",
+        "endTime" : "2026-04-10T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "SE", "W", "N", "E", "NE" ]
+    } ],
+    "bulletinID" : "854e4158-e769-46ec-939d-b2d04c7dc66d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Murberge, Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Koralpe East",
+      "regionID" : "AT-06-16"
+    }, {
+      "name" : "Stub- und Gleinalpe",
+      "regionID" : "AT-06-15"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Another diurnal increase in the danger of wet avalanches"
+    }
+  }
+}
