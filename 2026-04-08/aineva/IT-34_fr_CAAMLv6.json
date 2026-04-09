@@ -1,0 +1,117 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-08T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-08T22:00:00Z",
+      "endTime" : "2026-04-09T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Des couches fragiles dans la neige ancienne demandent prudence et retenue. Des avalanches humides et mouillées sont possibles en cours de journée.",
+      "comment" : "Des couches fragiles marquées dans la neige ancienne peuvent être déclenchées notamment avec une surcharge importante sur les pentes très raides exposées au nord-ouest, au nord et au nord-est. Des bruits sourds isolés sont des signes de ces conditions. En outre, des avalanches peuvent de manière très isolée entraîner avec elles les couches plus profondes du manteau neigeux et atteindre une taille assez importante. Ce sont surtout les transitions entre les endroits peu enneigés et les endroits très enneigés où des couches dures reposent sur une neige ancienne mal consolidée qui sont particulièrement délicates. <br/> Il fait doux en général. Après une nuit claire, il règne le matin généralement des conditions assez favorables, puis le danger d'avalanches mouillées augmente. Avec le réchauffement diurne le danger d'avalanches humides et mouillées augmente progressivement en cours de journée. Des avalanches spontanées de moyenne taille sont possibles surtout sur les pentes très raides. Les endroits dangereux pour les avalanches mouillées se situent surtout sur les pentes très raides au soleil à toutes les altitudes ainsi que dans les pentes raides rocheuses."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans le manteau neigeux des couches fragiles délicates sont présentes sur les pentes exposées au nord-ouest, au nord et au nord-est. <br/> Le rayonnement nocturne est assez bon. La surface de la neige ne regèle assez pour être porteuse qu'en haute altitude et se ramollit en cours de journée. Ces conditions provoquent une très rapide fragilisation du manteau neigeux. Ceci surtout sur les pentes raides ensoleillées au-dessus de la limite de la forêt. Le soleil et la chaleur entraînent en cours de journée surtout sur les pentes très raides au soleil généralement une perte de solidité au sein du manteau neigeux."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-09T22:00:00Z",
+        "endTime" : "2026-04-10T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-09"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "NE", "W", "E", "SE", "SW", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "N", "NW" ]
+    } ],
+    "bulletinID" : "c7a54695-deda-4b17-9f23-df2b3bdf4cc8",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
