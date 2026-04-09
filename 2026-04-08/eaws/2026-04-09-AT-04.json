@@ -1,0 +1,154 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is generally low at first. Depending on altitude and aspect, it increases rapidly to moderate during the day. Spontaneous small to medium, very rarely large, wet loose snow or slab avalanches from steep, undischarged terrain should be noted. In particular in shady, extreme terrain at high altitudes, weak layers in the old snowpack can still be triggered throughout the day due to large additional loads. Usually only small gliding avalanches cannot be completely ruled out.",
+        "highlights": "Naturally triggered avalanches are still possible from steep terrain that has not been unloaded!"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "E",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "53a3b80f-12d2-4265-959e-cfcbf9f33423",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-09"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-08T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "AT-04-07",
+          "name": "Kasbergblock"
+        },
+        {
+          "regionID": "AT-04-08",
+          "name": "Sengsengebirge"
+        },
+        {
+          "regionID": "AT-04-05",
+          "name": "Zimnitzmassiv, H\u00f6llengebirge"
+        },
+        {
+          "regionID": "AT-04-06",
+          "name": "Traunstein, Eibenberg"
+        },
+        {
+          "regionID": "AT-04-03",
+          "name": "Totes Gebirge North"
+        },
+        {
+          "regionID": "AT-04-04",
+          "name": "Phyrgas, Haller Mauern"
+        },
+        {
+          "regionID": "AT-04-01",
+          "name": "Dachstein, Gosaukamm"
+        },
+        {
+          "regionID": "AT-04-02",
+          "name": "Kalmberg, Katergebirge"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface can firmness overnight due to radiation and is hard, crust can form and is also load-bearing. Depending on the altitude and aspect, it then softens at different rates with the incoming radiation and mild temperatures. The snowpack is moist to wet on the inside. However, especially on shady slopes and at high altitudes, there may still be weak layers in the old snowpack, which is not yet moist. The snowpack can also start gliding snow on the ground."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Ober\u00f6sterreich",
+          "website": "https://oberoesterreich.avalanche-warnings.eu"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "On Friday, there may be some fresh wind slab at exposed high altitudes. The avalanche danger will decrease depending on the time of day.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-09T15:00:00+00:00",
+            "endTime": "2026-04-10T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-08T15:00:00+00:00",
+        "endTime": "2026-04-09T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Thursday will occasionally bring a little more high cloud, but sunshine will often predominate. Visibility is usually very good. At higher altitudes, a brisk north-westerly to northerly wind will blow in places, especially on the Dachstein and in the Totes Gebirge. At 1500 m 4 degrees, at 2000 m 0 degrees.\nMost of Friday will be very cloudy with a few rain showers and snow showers from 1000 to 1600 metres above sea level throughout the day. The wind will be moderate to strong at times, from west to north-west. At an altitude of 1500 metres it will be around 1 degree, at 2000 metres around -2 degrees."
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Once again, please note the daytime changes in avalanche risk!"
+    }
+  }
+}
