@@ -1,0 +1,208 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is moderate. Wet snow is the main problem. Wet loose snow or slab avalanches release themselves, especially on extremely steep terrain. Occasional wet gliding avalanches can also occur on steep slopes with a smooth surface. Sliding snow cracks indicate the danger. Wet avalanches reach medium size.\n\nAbove 2000 m, wind slab avalanches can be a problem. Dry slab avalanches can be triggered by low additional loads on a few steep slopes with aspects from north-east to east to south as well as in gullies and bowls. If avalanches near the surface break through to deeper layers, they can reach medium size.",
+        "highlights": "Depending on the amount of new snow, the snowdrift accumulations can be somewhat larger."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "SW",
+            "S",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "E",
+            "SE",
+            "S",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2000"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "f1eb94c9-f588-4881-8294-10ebb294ede8",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-09T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Night-time outgoing longwave radiation is severely limited and only a thin melt-freeze crust can form. It is snowing at high altitudes. The new fallen snow is accompanied by winds from the west. Fresh snowdrift accumulations are forming, in which weak intermediate layers may be embedded. In places, individual layers deeper in the snowpack are still prone to triggering. In general, the snowpack is moist up to higher elevations. Only on the northern sides of the highest elevations is it still dry. Its base there often consists of faceted crystals. The base of the snowpack at middle elevations is wet."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The avalanche danger hardly changes.",
+          "validTime": {
+            "startTime": "2026-04-10T15:00:00+00:00",
+            "endTime": "2026-04-11T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-09T15:00:00+00:00",
+        "endTime": "2026-04-10T15:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. Wet snow is the problem. In extremely steep terrain, wet loose snow avalanches and on steep slopes with smooth ground, wet gliding avalanches can release themselves. Wet avalanches usually remain small.",
+        "highlights": "Rain continues to melt the snowpack."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "S",
+            "SW",
+            "N",
+            "SE",
+            "W",
+            "NE",
+            "E"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "946d7882-f983-4dd5-93f1-1c4f149ff68f",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-09T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The outgoing longwave radiation at night is severely limited and a stable melt-freeze crust can hardly form. The precipitation falls widely as rain and ensures additional soaking of the partly wet snowpack."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "No change in avalanche danger",
+          "validTime": {
+            "startTime": "2026-04-10T15:00:00+00:00",
+            "endTime": "2026-04-11T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-09T15:00:00+00:00",
+        "endTime": "2026-04-10T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "It is snowing at high altitudes, but the snow is disappearing at medium altitudes."
+    }
+  }
+}
