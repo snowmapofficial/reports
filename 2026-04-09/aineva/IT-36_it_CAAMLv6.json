@@ -1,0 +1,103 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-09T22:00:00Z",
+      "endTime" : "2026-04-10T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il tempo sarà mite. Il numero e le dimensioni dei punti pericolosi aumenteranno nel corso della giornata.",
+      "comment" : "Con il rialzo termico e l'irradiazione solare, l'attività di valanghe spontanee aumenterà progressivamente. Le valanghe possono coinvolgere gli strati più profondi del manto nevoso. Inoltre sono possibili valanghe per scivolamento di neve. I punti pericolosi si trovano soprattutto nelle basi di pareti rocciose, come pure nelle zone in prossimità delle creste, nei canaloni e nelle conche. Attenzione nelle zone di passaggio da poca a molta neve. Gli accumuli di neve ventata rimangono in parte instabili soprattutto sui pendii ripidi ombreggiati e per lo più in quota."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le condizioni meteo causeranno un rapido impregnamento del manto nevoso. La copertura nevosa e lo spessore del manto sono variabili a seconda delle esposizioni e della quota. Soprattutto sui pendii ombreggiati, all'interno del manto nevoso si trovano strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tempo sarà nuvoloso.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-10T22:00:00Z",
+        "endTime" : "2026-04-11T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "NW", "SW", "NE", "N", "S", "SE" ]
+    }, {
+      "problemType" : "gliding_snow",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "NW", "SW", "NE", "N", "S", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "51d7a608-5063-473c-8140-af567b2d7d48",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  } ]
+}
