@@ -1,0 +1,194 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-09T15:00:00Z",
+      "endTime" : "2026-04-10T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Friday night will be clear at first, then clouds will gather from the west. However, it will remain free of precipitation. In the morning, it will start to snow in the Dachstein region and rain will fall below around 1800 metres. This will spread to the west and south during the daytime changes. The snowfall level in the Hochschab area will initially still be at low altitude but will quickly rise to 1800 metres. In the north-west it may rain up to 2200 metres in the afternoon. At higher altitudes, 5 to 10 cm will accumulate. In congested areas, around 20 cm of new fallen snow may fall locally. Much less precipitation will fall south of the Niedere Tauern. The temperature at 2000 metres will be between -1 and +1 degree, at 1500 metres between 2 and 5 degrees. There will be strong to gale-force winds in the west with gusts of between 40 and 70 km/h."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Fresh wind slabs at higher elevations, some spontaneous wet snow avalanches below!",
+      "comment" : "The avalanche risk is moderate. Wet loose snow and slab avalanches are possible in all aspects on slopes below around 1800 metres that have not yet been discharged with the arrival of rain. The avalanches can occur spontaneously or be triggered by individuals and reach medium size. At higher altitudes (usually above 1800 m), fresh snowdrift accumulations prone to triggering form, the number and size of which increase with altitude. Slab avalanches in fresh wind slab usually remain small. In extremely steep, shady areas above 2200 m, small to medium-sized slab avalanches can occasionally be triggered by individuals (persistent weak layer problem)."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation at night is limited; a thin crust of melted snow can only form on the snow surface at the summit level. With the onset of rain, the snowpack becomes increasingly soaked. In the west, the snowfall level is sometimes above 1800 metres, in the east often below. Small-scale snowdrift accumulations form at higher altitudes. There are weak layers within the wind slab and in the transition to the old snowpack. In very shady areas above 2200 m, the snowpack still has cold reserves and some weak layers in the persistent weak layer that are prone to triggering."
+    },
+    "tendency" : [ {
+      "highlights" : "On Saturday, sunny weather will return during the daytime changes and it will become milder again. The wind slab problem will decrease, but wet snow avalanches are still to be expected.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-10T15:00:00Z",
+        "endTime" : "2026-04-11T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "SE", "S", "N", "E", "W", "NE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "SE", "S", "E", "NE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "4f6d4f71-0666-4b7d-be1d-50ba0f353b67",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Wölzer Tauern South",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Wölzer Tauern North",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Totes Gebirge South",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Mürzsteger Alpen",
+      "regionID" : "AT-06-11"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Gaaler Alpen",
+      "regionID" : "AT-06-08-02"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-09T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-09T15:00:00Z",
+      "endTime" : "2026-04-10T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Friday night will be mostly clear. In the early hours of the morning, cloud cover will increase from the west. During the day, the sun will only appear intermittently and isolated rain showers may spread from the north-west, especially in the afternoon. Above around 2000 metres there will be snow showers. The wind will blow moderately to briskly at times with gusts of between 30 and 50 km/h from the north-west. The temperature at 2000 m will be around +1 degree, at 1500 m between 2 and 5 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger, occasional small wet snow slides!",
+      "comment" : "The avalanche risk is low. Rainfall can occasionally lead to small wet snow slides, especially from multiple starting zones that have not yet been fully discharged. The risk of being swept away and falling should be taken into account."
+    },
+    "snowpackStructure" : {
+      "comment" : "Overnight outgoing longwave radiation can cause the snow surface to consolidate somewhat. The thin snowpack will become damp in all areas during the daytime changes, and with rainfall it will also become wet in places and lose firmness. Only in very shady areas above 2000 metres does the snowpack still have small cold reserves and occasional weak layers in the persistent weak layer.\nIn general, there is very little snow and the depletion is progressing."
+    },
+    "tendency" : [ {
+      "highlights" : "It will be milder again on Saturday. After clearing clouds and sunshine, the danger of wet slides will increase slightly again during the day changes.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-10T15:00:00Z",
+        "endTime" : "2026-04-11T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-10"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "SE", "W", "N", "E", "NE" ]
+    } ],
+    "bulletinID" : "38eb28af-8fb7-44dd-a348-80ceb80d52d9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Murberge, Gurktaler Alpen",
+      "regionID" : "AT-06-18"
+    }, {
+      "name" : "Seetaler Alpen",
+      "regionID" : "AT-06-17"
+    }, {
+      "name" : "Koralpe East",
+      "regionID" : "AT-06-16"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Fresh wind slab snow at higher altitudes in the northern thaw, wet snow problem at medium altitudes!"
+    }
+  }
+}
