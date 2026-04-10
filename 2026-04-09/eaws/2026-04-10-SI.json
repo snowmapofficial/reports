@@ -1,0 +1,141 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The main danger is posed by weak layers in old snow, which are deeper in the snowpack. These weak layers are more common in the axis above the forest. In particular, a medium-sized avalanche can be triggered if the load exceeds the load-bearing capacity of these layers.\n\nThe snowpack stability is also lower in sloping terrain and in ravines, where it is greater due to snow deposits.",
+        "highlights": "Weak layers in old snow"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "SE",
+            "S",
+            "SW"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "c763453e-5bef-4695-aa84-56b702540851",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-10"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-09T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "A colder air mass will cause the snowpack to freeze overnight. During the day, the snow on Sunny slopes will become slightly lighter, but not as heavy as in recent days. There is still some blowing snow from the last snowfall, which may be unstable in a few places. During the day, some avalanches of southern snow are possible.\n\nIn the old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of faceted snow crystals and sheared grains, which are more frequent on axial slopes."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "At the end of the week it will be warmer and sunnier again. Isolated avalanches of southern snow are possible in the mid-day and afternoon.",
+          "tendencyType": "increasing",
+          "validTime": {
+            "startTime": "2026-04-10T15:00:00+00:00",
+            "endTime": "2026-04-11T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-09T15:00:00+00:00",
+        "endTime": "2026-04-10T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Friday will be partly clear at first, with increasing cloudiness during the day. In the afternoon, some peaks will be cloudy and isolated snow showers are possible. Precipitation will be light. Winds will be mainly light in the mid-mountains, with a stronger north-westerly wind in the high alpine regions. Mid-day temperatures will be around 5 \u00b0C at 1500 m and -2 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
