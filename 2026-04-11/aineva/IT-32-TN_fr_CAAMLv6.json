@@ -1,0 +1,189 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Le danger d'avalanches humides et mouillées augmente rapidement le matin. Attention à la neige ancienne fragile.",
+      "comment" : "Avec le rayonnement solaire la probabilité de déclenchement d'avalanches humides et mouillées augmente rapidement surtout sur les pentes raides au soleil. Ceci à toutes les expositions à moyenne et haute altitude comme sur les pentes très raides exposées à l'est et au sud en haute montagne. En matinée également, des coulées humides sont possibles. Des avalanches mouillées peuvent se déclencher facilement ou spontanément. Celles-ci peuvent aussi entraîner le manteau jusqu'au sol et spécialement dans les régions bien enneigées atteindre une taille assez importante. <br/> <br/> Des endroits dangereux pour les avalanches sèches se situent sur les pentes très raides à l'ombre au-dessus d'environ 2400 m. Des avalanches peuvent entraîner avec elles les couches plus profondes du manteau neigeux et atteindre une taille moyenne. Ce sont spécialement les transitions entre les endroits peu enneigés et les endroits très enneigés qui sont défavorables."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le rayonnement nocturne est parfois bon. Le manteau neigeux est humide, avec une croûte de regel souvent porteuse à la surface. La surface de la neige se ramollit dès la matinée. Le soleil et la chaleur entraînent en cours de journée en dessous d'environ 2800 m partiellement une humidification croissante du manteau neigeux. Sur les pentes très raides ensoleillées et au pied des parois rocheuses le manteau neigeux se ramollit rapidement. <br/> <br/> Des anciennes accumulations de neige soufflée reposent sur une couche fragile de neige ancienne surtout sur les pentes exposées au nord au-dessus d'environ 2400 m. À moyenne et haute altitude le manteau neigeux est très variable à petite échelle. Sur les pentes ensoleillées à basse et moyenne altitude il y a très peu de neige. <br/> <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avec les températures douces et le ciel très nuageux le manteau neigeux ne peut pas se solidifier pendant la nuit. Lundi il tombera de la pluie jusqu'à haute altitude. Avec la pluie la probabilité de déclenchement d'avalanches mouillées augmente surtout sur les pentes raides à l'ombre en dessous d'environ 2200 m.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "SE", "S", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "SE", "S", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "95981d09-2bfb-42e5-b67a-cef3cb7f0d79",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Adamello du sud",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Brenta du nord - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Brenta du sud",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Vallée de Fassa",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Lagorai du sud",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Sole, Pejo et Rabbi",
+      "regionID" : "IT-32-TN-19"
+    }, {
+      "name" : "Lagorai du nord",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Pine' - Vallée de Mocheni",
+      "regionID" : "IT-32-TN-21"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Danger faible.",
+      "comment" : "Avec le réchauffement diurne et le rayonnement solaire la probabilité de déclenchement d'avalanches humides et mouillées augmente progressivement spécialement sur les pentes raides exposées au nord-est et au nord-ouest. Des avalanches peuvent de manière très isolée se déclencher dans les couches du manteau neigeux proches du sol et atteindre une taille moyenne."
+    },
+    "snowpackStructure" : {
+      "comment" : "Dans les derniers jours il faisait doux en général. Le soleil et la chaleur entraînent en cours de journée une humidification rapide du manteau neigeux. <br/> <br/> Le manteau neigeux est très variable à petite échelle. Surtout sur les pentes ensoleillées à basse et moyenne altitude il n'y a que peu de neige. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Avec l'arrivée des pluies l'activité des avalanches spontanées augmente.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "eb306337-cdd1-4167-be65-6362fa7509ba",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Préalpes",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Vallée de Cembra",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Alpes occidentales du Nonsberg",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Vallée de Ledro",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    } ]
+  } ]
+}
