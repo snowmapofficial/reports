@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Gli strati deboli presenti nella neve vecchia richiedono attenzione e prudenza. Nel corso della giornata saranno possibili valanghe umide e bagnate.",
+      "comment" : "Sui pendii molto ripidi esposti a nord ovest, nord e nord est, gli strati deboli molto pronunciati presenti nella neve vecchia possono distaccarsi soprattutto con un forte sovraccarico. Isolati rumori di \"whum\" sono i tipici indizi di una simile situazione. A livello molto isolato, le valanghe possono anche coinvolgere gli strati più profondi e raggiungere dimensioni piuttosto grandi. Particolarmente insidiosi sono specialmente i punti di passaggio da poca a molta neve, dove strati duri poggiano su un manto di neve vecchia debolmente consolidato. <br/> In molte regioni il tempo sarà mite. Dopo una notte serena, al mattino predominano generalmente condizioni piuttosto favorevoli, poi il pericolo di valanghe bagnate aumenterà. Con il rialzo termico diurno, nel corso della giornata il pericolo di valanghe umide e bagnate aumenterà progressivamente. Soprattutto sui pendii molto ripidi sono possibili valanghe spontanee di medie dimensioni. I punti pericolosi per valanghe bagnate si trovano soprattutto sui pendii soleggiati molto ripidi a tutte le altitudini come pure sui pendii ripidi rocciosi."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sui pendii esposti a nord ovest, nord e nord est, all'interno del manto nevoso si trovano insidiosi strati fragili. <br/> L'irraggiamento notturno sarà ridotto. La superficie del manto nevoso non riuscirà praticamente quasi a rigelarsi e si ammorbidirà nel corso della giornata. Queste condizioni causeranno un indebolimento molto veloce del manto nevoso. Ciò soprattutto sui pendii soleggiati ripidi al di sopra del limite del bosco. Il sole e il calore causeranno nel corso della giornata specialmente sui pendii soleggiati molto ripidi diffusamente una destabilizzazione all'interno del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "E", "W", "SE", "N", "S", "NE", "SW", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "W", "SE", "N", "S", "NE", "SW", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "2cf33fc5-dfd5-4062-9fc5-1ad5fab244d7",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
