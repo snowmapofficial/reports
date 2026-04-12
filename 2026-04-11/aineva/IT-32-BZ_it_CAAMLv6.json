@@ -1,0 +1,282 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il pericolo di valanghe di neve umida e bagnata sarà superiore già al mattino.",
+      "comment" : "Il pericolo di valanghe di neve umida e bagnata sarà superiore già al mattino. Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata il pericolo aumenterà ulteriormente. Ciò a tutte le esposizioni al di sotto dei 2400 m circa, come pure sui pendii soleggiati molto ripidi al di sotto dei 3000 m circa. Le valanghe possono coinvolgere gli strati più profondi e raggiungere grandi dimensioni. <br/> <br/> Isolati punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati molto ripidi al di sopra dei 2400 m circa. Tali punti pericolosi sono difficili da individuare. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--). <br/> <br/> Inoltre in alta montagna gli accumuli di neve ventata di più recente formazione sono in parte instabili, soprattutto nelle zone in prossimità delle creste sui pendii ombreggiati molto ripidi. Gli accumuli di neve ventata sono per lo più piccoli."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso non riuscirà a rigelarsi durante la notte coperta. Il sole e il calore causeranno nel corso della giornata un progressivo impregnamento del manto nevoso. Ciò a tutte le esposizioni al di sotto dei 2400 m circa, come pure sui pendii soleggiati in quota. <br/> <br/> Nella parte superiore del manto di neve vecchia si trovano, a livello isolato, strati fragili instabili. La parte basale del manto nevoso ha subito un metamorfismo costruttivo. Ciò soprattutto sui pendii esposti a ovest, nord ed est ad alta quota, come pure a tutte le esposizioni in alta montagna."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con le temperature miti e cielo molto nuvoloso, durante la notte il manto nevoso non riuscirà a consolidarsi. Soprattutto nelle aree meridionali, lunedì cadrà pioggia sino ad alta quota. Con la pioggia, la probabilità di distacco di valanghe di neve bagnata aumenterà soprattutto sui pendii ombreggiati ripidi al di sotto dei 2500 m circa.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "E", "SE", "S", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "add8a46c-ad48-4db3-a027-722cff43b947",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alta Valle Aurina",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Gruppo della Cima Dura",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Vallelunga",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Alpi della Zillertal meridionali",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Catena delle Vedrette di Ries",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpi dello Stubai meridionali",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Val di Vizze",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Cresta di Senales",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Gruppo Sesvenna meridionale",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Gruppo dell'Ortles",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Gruppo Sesvenna settentrionale",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Monti di Pianol",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Gruppo Saldura-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Alta Val Passiria",
+      "regionID" : "IT-32-BZ-07-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il pericolo di valanghe di neve umida e bagnata aumenterà rapidamente al mattino.",
+      "comment" : "Il pericolo di valanghe di neve umida e bagnata sarà superiore già al mattino. Con il rialzo termico e l'irradiazione solare diurni, durante la mattinata il pericolo aumenterà all'interno dello stesso grado. Le valanghe possono coinvolgere gli strati più profondi e raggiungere dimensioni medie. Ciò a tutte le esposizioni al di sotto dei 2400 m circa, come pure sui pendii soleggiati molto ripidi al di sotto dei 3000 m circa. <br/> <br/> Punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati molto ripidi al di sopra dei 2400 m circa. I punti pericolosi sono difficili da individuare. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--)."
+    },
+    "snowpackStructure" : {
+      "comment" : "L'irraggiamento notturno sarà ridotto. La superficie del manto nevoso non riuscirà praticamente quasi a rigelarsi e si ammorbidirà già al mattino. Il manto nevoso sarà progressivamente fradicio. Ciò a tutte le esposizioni al di sotto dei 2400 m circa, come pure sui pendii soleggiati ripidi ad alta quota. <br/> <br/> La parte basale del manto nevoso ha subito un metamorfismo costruttivo. Ciò soprattutto sui pendii esposti a ovest, nord ed est ad alta quota, come pure a tutte le esposizioni in alta montagna. Il manto nevoso è estremamente variabile a distanza di pochi metri. <br/> <br/> Sui pendii soleggiati ripidi alle quote di bassa e media montagna c'è solo poca neve."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con le temperature miti e cielo molto nuvoloso, durante la notte il manto nevoso non riuscirà a consolidarsi. Lunedì cadrà pioggia sino ad alta quota. Con la pioggia, la probabilità di distacco di valanghe di neve bagnata aumenterà soprattutto sui pendii ombreggiati ripidi al di sotto dei 2500 m circa.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "SE", "S", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "SE", "S", "N", "SW", "NE", "NW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "W", "E", "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "221fc6a0-96ab-4ce5-8057-aaafed219d18",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Dolomiti di Braies",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Gruppo della Punta Cervina",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Monti di Fundres occidentali",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Gruppo della Cima San Giacomo",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Gruppo Tessa",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Dolomiti di Gardena",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Costiera di Luson",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomiti di Sesto",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Monti di Fundres orientali",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Racines",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Alpi del Defereggen occidentali",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Val d'Ultimo",
+      "regionID" : "IT-32-BZ-15"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Debole pericolo di valanghe.",
+      "comment" : "Nel corso della giornata la probabilità di distacco di valanghe di neve bagnata aumenterà soprattutto sui pendii ombreggiati ripidi estremi. Le valanghe possono a livello molto isolato coinvolgere gli strati più profondi e raggiungere dimensioni medie a livello isolato."
+    },
+    "snowpackStructure" : {
+      "comment" : "Il manto nevoso è estremamente variabile a distanza di pochi metri. Soprattutto sui pendii soleggiati ripidi alle quote di bassa e media montagna c'è solo poca neve. Il sole e il calore causeranno un progressivo impregnamento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Debole pericolo di valanghe. Con le temperature miti cielo molto nuvoloso, durante la notte il manto nevoso non riuscirà a consolidarsi. In alcune aree, lunedì cadrà pioggia sino ad alta quota. Il pericolo di valanghe di neve umida e bagnata rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "1237e639-9b31-448a-ae4e-946d835ac808",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpi Sarentine meridionali",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Alpi della Val di Non orientali",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomiti di Fiemme settentrionali",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
