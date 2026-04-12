@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-11T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-11T22:00:00Z",
+      "endTime" : "2026-04-12T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow require caution. Large and, in isolated cases, very large wet slab avalanches are possible in some places.",
+      "comment" : "In all aspects medium-sized and large moist and wet avalanches are possible as a consequence of warming. On wind-loaded slopes the avalanches can penetrate even deep layers and reach quite a large size. The avalanche prone locations are to be found in particular on steep sunny slopes above approximately 1800 m. In the regions exposed to a lot of new snow caution is to be exercised in particular at the base of rock walls and. In addition the fresh wind slabs in gullies and bowls, and behind abrupt changes in the terrain are capable of being triggered in some locations. At intermediate altitudes the danger is a little lower. Great caution and restraint are recommended. Backcountry tours should be started and concluded early. Above approximately 1800 m the danger will increase for a short time to level 4 (high) as the day progresses."
+    },
+    "snowpackStructure" : {
+      "comment" : "A lot of snow has fallen over a wide area. In addition sometimes large wind slabs formed in particular adjacent to ridgelines and in gullies and bowls and generally in the high Alpine regions. Various wind slab layers are lying mostly on a moist old snowpack. The spring-like weather conditions will give rise to rapid and thorough wetting of the snowpack in particular on sunny slopes also at high altitude."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-12T22:00:00Z",
+        "endTime" : "2026-04-13T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-12"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "W", "SE", "S", "N", "NE", "SW", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "W", "SE", "S", "N", "NE", "SW", "NW" ]
+    } ],
+    "bulletinID" : "4e1bef08-0577-4c59-9d89-10f810dd246d",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
