@@ -1,0 +1,131 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The snowpack is mostly well connected and generally stable. During the day, wet snow avalanches are possible in places.\n\nWeak layers in old snow deeper in the snowpack also pose a minor danger. These weak layers are more prevalent in the axis above the forest. In particular, a small to medium avalanche can be triggered by a large load exceeding the load-bearing capacity of these layers.",
+        "highlights": "Some wet snow avalanche cannot be ruled out"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "SE",
+            "S",
+            "SW",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8f4cdb9e-6c40-4ba1-98ec-66353c5af0bc",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-12"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-11T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snowpack will mostly freeze overnight, but less than in recent days due to the warmer night. During the day, the snow will become heavier and may become unstable in places.\n\nIn an old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of slush and discontinuous grains, which are more frequent on slopes at low tide."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Monday will be temporarily cloudy. The danger of avalanches will remain relatively low.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-12T15:00:00+00:00",
+            "endTime": "2026-04-13T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-11T15:00:00+00:00",
+        "endTime": "2026-04-12T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "On Sunday, there will be some low clouds in the central mountains at first, clearing up during the day. Cloudy patches will form here and there. Only in the high alpine regions will moderate north-westerly winds continue at first, weakening during the day. Temperatures will be around 8 \u00b0C at 1500 m and 3 \u00b0C at 2500 m by mid-day."
+      }
+    }
+  ]
+}
