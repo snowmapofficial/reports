@@ -1,0 +1,344 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T15:00:00Z",
+      "endTime" : "2026-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Limited visibility right from the start, shower tendency in the afternoon, also thunderstorms are possible. Snowfall level in showers at about 2500m. Temperature at 2000m: 1 to 5 degrees; at 3000m: -2 degrees. Light to moderate southeasterly winds at high altitudes, in the vicinity of showers intensifying in gusts."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Limited visibility, heightened wet-snow danger",
+      "comment" : "Danger of wet-snow avalanches is heightened even as of early morning, particularly on very steep north-facing slopes at 1800-2400m, on sunny slopes where the snow has softened up to 2800m. Naturally triggered avalanches are possible, avalanches can also be triggered by persons and grow to large size, also sweep along great amounts of wet snow in their plummet path and then extend to very long runout zones. In high alpine regions, small ridgeline snowdrift accumulations are still prone to triggering. In addition, winter sports enthusiasts can in places on high-altitude shady slopes trigger near-surface weak layers. Such danger zones are impossible to recognize. Atop the hardened snowpack surface, there is danger of being forced to take a fall on steep slopes."
+    },
+    "snowpackStructure" : {
+      "comment" : "Following starkly reduced outgoing radiation and mild temperatures, the snowpack is hardly freezing at night. At altitudes of 1800-2400m the snowpack, even on north-facing slopes, is thoroughly wet and ground-level layers of rotten snow are prone to triggering already in early morning. In high-altitude, steep and shady terrain, there are unfavorable intermediate layers in the uppermost metre of the snowpack which in places are prone to triggering. A thick mid-section of compact layers blankets the deep hoar and faceted crystals at the base of the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "Cloudy and rainy, due to low-pressure front impact. The snowpack cannot firm up at night.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T15:00:00Z",
+        "endTime" : "2026-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "SW", "S", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    } ],
+    "bulletinID" : "cff2b59c-3993-4cea-8c3f-f64d399e6454",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Silvretta West",
+      "regionID" : "AT-08-06"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Allgäu Alps West",
+      "regionID" : "AT-08-02"
+    }, {
+      "name" : "Lechtal Alps Vorarlberg",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Verwall West",
+      "regionID" : "AT-08-04"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T15:00:00Z",
+      "endTime" : "2026-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "High and intermediate clouds will pass through during the night, thickening during daytime. Isolated showers possible. Temperature at 2000m: 3 to 7 degrees; at 3000m: 0 degrees. Moderate to brisk south-to-southeasterly winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet-snow danger all day long",
+      "comment" : "The snowpack can hardly freeze, softens up in morning. The danger of wet-snow avalanches (medium-sized) is heightened already in early morning and rises further due to daytime warming. On steep, smooth-ground slopes with lots of snow which have not yet discharged, glide-snow avalanches can trigger in all aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to reduced nocturnal longwave outgoing radiation and ongoing mild temperatures, the snowpack does not freeze at night. At all altitudes the snowpack is thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "Initially no change. Slopes becoming increasingly bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T15:00:00Z",
+        "endTime" : "2026-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "W", "N", "SE", "NE", "E" ]
+    } ],
+    "bulletinID" : "0f4f2431-2744-4c84-b974-a6fac9cdf93b_1",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T15:00:00Z",
+      "endTime" : "2026-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Limited visibility right from the start, shower tendency in the afternoon, also thunderstorms are possible. Snowfall level in showers at about 2500m. Temperature at 2000m: 1 to 5 degrees; at 3000m: -2 degrees. Light to moderate southeasterly winds at high altitudes, in the vicinity of showers intensifying in gusts."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet-snow danger in very steep terrain where there is still lots of snow",
+      "comment" : "Wet loose-snow avalanches can trigger naturally in extremely steep terrain as a result of the rain showers. Also persons can trigger wet-snow avalanches in very steep terrain. Danger zones generally occur only in summit zones of the Bregenzerwald mountains. Avalanches generally remain medium-sized. On steep, smooth-ground slopes with lots of snow which have not yet discharged, glide-snow avalanches can trigger in all aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to reduced nocturnal longwave outgoing radiation and ongoing mild temperatures, the snowpack does not freeze at night. At all altitudes the snowpack is thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "As a result of rainfall, rising danger of wet slides. Slopes are becoming increasingly bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T15:00:00Z",
+        "endTime" : "2026-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "W", "N", "SE", "NE", "E" ]
+    } ],
+    "bulletinID" : "0f4f2431-2744-4c84-b974-a6fac9cdf93b",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T15:00:00Z",
+      "endTime" : "2026-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "High and intermediate clouds will pass through during the night, thickening during daytime. Isolated showers possible. Temperature at 2000m: 3 to 7 degrees; at 3000m: 0 degrees. Moderate to brisk south-to-southeasterly winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Small wet-snow slides possible",
+      "comment" : "Wet loose-snow avalanches can trigger naturally, particularly on extremely steep slopes. Avalanches will be mostly small-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "South-facing slopes are frequently bare of snow. Where there’s a snowpack on the ground, it’s thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "The slopes will continue to become bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T15:00:00Z",
+        "endTime" : "2026-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "697e7ab6-eb05-450b-ac08-fcfeca94772a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T15:00:00Z",
+      "endTime" : "2026-04-13T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "High and intermediate clouds will pass through during the night, thickening during daytime. Isolated showers possible. Temperature at 2000m: 3 to 7 degrees; at 3000m: 0 degrees. Moderate to brisk south-to-southeasterly winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Small wet-snow slides possible",
+      "comment" : "Wet loose-snow avalanches can trigger naturally, particularly on extremely steep slopes. Avalanches will be mostly small-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "South-facing slopes are frequently bare of snow. Where there’s a snowpack on the ground, it’s thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "The slopes will continue to become bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T15:00:00Z",
+        "endTime" : "2026-04-14T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "697e7ab6-eb05-450b-ac08-fcfeca94772a_2",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Starkly reduced nocturnal outgoing radiation due to cloud cover and fog"
+    }
+  }
+}
