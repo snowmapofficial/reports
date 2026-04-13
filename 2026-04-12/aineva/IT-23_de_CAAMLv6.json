@@ -1,0 +1,265 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T22:00:00Z",
+      "endTime" : "2026-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Lawinengefahr steigt am Morgen rasch an. Viel Neuschnee oberhalb von rund 2000 m.",
+      "comment" : "Bereits am Morgen, Rasanter Anstieg der Lawinengefahr, insbesondere in den an das Piedmont angrenzenden Gebieten. Die spontane Aktivität von mittleren und großen trockenen und nassen Lawinen nimmt im Tagesverlauf rasch zu. An steilen Hängen und an Triebschneehängen ist die Auslösebereitschaft recht hoch. Für Touren und Variantenabfahrten sind die Verhältnisse gefährlich. <br/> <br/> Bis am Abend fallen oberhalb von rund 2200 m 60 bis 80 cm Schnee, lokal auch mehr. Diese Situation führt zu einem ungünstigen Aufbau der Schneedecke. In tiefen und mittleren Lagen und an sehr steilen Hängen sind mit dem Regen mittlere und vereinzelt große feuchte Rutsche und Lawinen möglich. <br/> Stellenweise können feuchte und nasse Lawinen in tiefen Schichten ausgelöst werden vor allem an sehr steilen Nordost-, Nord- und Nordwesthängen recht groß werden. <br/> Zudem entstehen vor allem oberhalb der Waldgrenze große Triebschneeansammlungen. <br/> In hohen Lagen sind mit Neuschnee und starkem Wind viele mittlere und mehrfach große Schneebrettlawinen zu erwarten. Dies vor allem aus sehr steilen Einzugsgebieten in hohen Lagen. Dort muss mit spontanen Lawinen gerechnet werden, die weit vorstoßen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist in tiefen und mittleren Lagen durchnässt. <br/> Die spontane Aktivität von mittleren Nass- und Gleitschneelawinen hat in den letzten Tagen allmählich zugenommen. <br/> Seit Dienstag sind mehrere mittlere bis große Grundlawinen abgegangen. Dies vor allem an sehr steilen Nordost-, Osthängen. <br/> In höheren Lagen nimmt die Schneedecke ab und wird ungleichmäßig; in mittleren Höhenlagen, die weniger vom Wind betroffen sind, ist sie besser. <br/> Die Schneedecke an der Oberfläche verändert sich je nach Lage und Hangneigung rasch: Es wechseln sich Krusten unterschiedlicher Art und Dicke ab. Auf der harten Kruste besteht im Steilgelände Absturzgefahr, besonders in Kamm- und Passlagen. <br/> In der Schneedecke sind v.a. an steilen Schattenhängen Schwachschichten vorhanden. <br/> Unterhalb von rund 1800 m liegt kaum Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Der viele Neuschnee und die Triebschneeansammlungen können spontan abgleiten. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind viele mittlere und vereinzelt große feuchte und nasse Lawinen möglich.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T22:00:00Z",
+        "endTime" : "2026-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "N", "E", "SW", "W", "NE", "S", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SE", "SW", "E", "W", "NE", "S", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "many",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "N", "E", "SW", "W", "NE", "S", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "N", "E", "SW", "W", "S", "NE", "NW" ]
+    } ],
+    "bulletinID" : "a8dd155d-2e8c-476a-be8b-230daa05b317",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T22:00:00Z",
+      "endTime" : "2026-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Die Lawinengefahr steigt schon am Morgen an. Etwas Neuschnee oberhalb von rund 2000 m.",
+      "comment" : "An sehr steilen Hängen und an Triebschneehängen ist die Auslösebereitschaft recht hoch. Für Touren und Variantenabfahrten sind die Verhältnisse heikel. <br/> <br/> Bis am Abend fallen oberhalb von rund 2200 m 30 bis 60 cm Schnee. Diese Situation führt zu einem Festigkeitsverlust innerhalb der Schneedecke. In tiefen Lagen und an sehr steilen Hängen sind mit dem Regen mittlere feuchte Rutsche und Lawinen möglich. <br/> Stellenweise können feuchte und nasse Lawinen in tiefen Schichten ausgelöst werden vor allem an sehr steilen Nordost-, Nord- und Nordwesthängen recht groß werden. <br/> Zudem entstehen vor allem oberhalb der Waldgrenze teils dicke Triebschneeansammlungen. <br/> In hohen Lagen und in Kamm- und Passlagen sind mit Neuschnee und Wind kleine und mittlere Schneebrettlawinen zu erwarten."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneedecke ist in tiefen und mittleren Lagen durchnässt. <br/> Die spontane Aktivität von mittleren Nass- und Gleitschneelawinen hat in den letzten Tagen allmählich zugenommen. <br/> Seit Dienstag sind mehrere mittlere bis große Grundlawinen abgegangen. Dies vor allem an sehr steilen Nordost-, Osthängen. <br/> In höheren Lagen nimmt die Schneedecke ab und wird ungleichmäßig; in mittleren Höhenlagen, die weniger vom Wind betroffen sind, ist sie besser. <br/> Die Schneedecke an der Oberfläche verändert sich je nach Lage und Hangneigung rasch: Es wechseln sich Krusten unterschiedlicher Art und Dicke ab. Auf der harten Kruste besteht im Steilgelände Absturzgefahr, besonders in Kamm- und Passlagen. <br/> In der Schneedecke sind v.a. an steilen Schattenhängen Schwachschichten vorhanden. <br/> Unterhalb von rund 1800 m liegt kaum Schnee."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Der Neuschnee und die in mittleren und hohen Lagen entstehenden Triebschneeansammlungen verbinden sich schlecht mit dem Altschnee. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung sind feuchte und nasse Lawinen möglich.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T22:00:00Z",
+        "endTime" : "2026-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "E", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SW", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "SW", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "N", "E", "SW", "W", "S", "NE", "NW" ]
+    } ],
+    "bulletinID" : "26aaa2b7-27d3-4d50-bdb7-803b948659f6",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2300"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2300"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  } ]
+}
