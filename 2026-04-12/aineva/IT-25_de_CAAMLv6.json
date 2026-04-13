@@ -1,0 +1,150 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T22:00:00Z",
+      "endTime" : "2026-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Neu- und Triebschnee vom Montag verbinden sich an allen Expositionen recht gut mit dem Altschnee.",
+      "comment" : "Mit Schneefall oberhalb von rund 1800 m und mäßigem bis starkem Wind entstehen frische Triebschneeansammlungen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Der Neuschnee verbindet sich an allen Expositionen oberhalb von rund 2000 m recht gut mit dem Altschnee. In der Altschneedecke sind besonders an Schattenhängen einzelne Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T22:00:00Z",
+        "endTime" : "2026-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "N", "E", "SW", "W", "S", "NE", "NW" ]
+    } ],
+    "bulletinID" : "efed0cee-5bd7-4292-b420-9736a428f127",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "IT-25-SO-04",
+      "regionID" : "IT-25-SO-04"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T22:00:00Z",
+      "endTime" : "2026-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Es fällt verbreitet Regen bis in hohe Lagen.",
+      "comment" : "Die Schneeoberfläche ist nicht gefroren und ist schon am Morgen aufgeweicht."
+    },
+    "snowpackStructure" : {
+      "comment" : "Mit starkem Regen bis in hohe Lagen und teils starkem Wind entsteht eine ungünstige Lawinensituation."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T22:00:00Z",
+        "endTime" : "2026-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "9656b3e2-b6ef-415b-b07a-39185a5e167e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "IT-25-CO-01",
+      "regionID" : "IT-25-CO-01"
+    }, {
+      "name" : "PREALPI BRESCIANE",
+      "regionID" : "IT-25-BS-02"
+    }, {
+      "name" : "PREALPI BERGAMASCHE",
+      "regionID" : "IT-25-BG-02"
+    } ]
+  } ]
+}
