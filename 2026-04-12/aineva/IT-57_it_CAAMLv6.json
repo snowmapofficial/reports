@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-12T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-12T22:00:00Z",
+      "endTime" : "2026-04-13T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve bagnata e a quella slittante. In alcuni punti sono possibili valanghe di neve bagnata a lastroni di grandi dimensioni e, a livello isolato, di dimensioni molto grandi.",
+      "comment" : "Con il rialzo termico, a tutte le esposizioni sono possibili valanghe umide e bagnate di medie e di grandi dimensioni. Sui pendii carichi di neve ventata le valanghe possono coinvolgere gli strati più profondi e raggiungere dimensioni piuttosto grandi. I punti pericolosi si trovano specialmente sui pendii soleggiati ripidi al di sopra dei 1800 m circa. Attenzione soprattutto alle basi di pareti rocciose e nelle regioni dove gli apporti di neve fresca sono stati considerevoli. Inoltre nelle conche, nei canaloni e dietro ai cambi di pendenza gli accumuli di neve ventata di più recente formazione possono localmente subire un distacco. Alle quote di media montagna il pericolo è leggermente inferiore. Sono raccomandate una grande attenzione e la massima prudenza. Le escursioni dovrebbero iniziare e terminare presto. Al di sopra dei 1800 m circa nel corso della giornata il pericolo aumenterà provvisoriamente al grado 4 \"forte\"."
+    },
+    "snowpackStructure" : {
+      "comment" : "In molte regioni, è caduta molta neve. Inoltre specialmente nelle zone in prossimità delle creste, nelle conche e nei canaloni e generalmente in alta montagna si sono formati accumuli di neve ventata in parte di grandi dimensioni. Diversi strati di neve ventata poggiano per lo più su un manto di neve vecchia umida. Le condizioni meteo primaverili causeranno specialmente sui pendii soleggiati anche ad alta quota un rapido impregnamento del manto nevoso. Con la pioggia, durante il pomeriggio il numero e le dimensioni di questi punti pericolosi aumenteranno."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-13T22:00:00Z",
+        "endTime" : "2026-04-14T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-13"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "N", "SW", "E", "W", "NE", "S", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "N", "SW", "E", "W", "NE", "S", "NW" ]
+    } ],
+    "bulletinID" : "99f3af10-185b-4f2d-a72f-878aca155b05",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
