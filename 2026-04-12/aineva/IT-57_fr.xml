@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-04-12T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="99f3af10-185b-4f2d-a72f-878aca155b05" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-04-12T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-04-12T22:00:00Z</beginPosition>
+          <endPosition>2026-04-13T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-57-AP-01"/>
+      <locRef xlink:href="IT-57-MC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+              <mainValue>3</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1800Hi"/>
+            </AvProblem>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validElevation xlink:href="ElevationRange_1800Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-04-13T22:00:00Z</beginPosition>
+                <endPosition>2026-04-14T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Attention à la neige mouillée et glissante. Des avalanches de plaque de neige mouillée de grande et rarement très grande taille sont possibles par endroits.</avActivityHighlights>
+          <avActivityComment>Avec le réchauffement des avalanches humides et mouillées de moyenne et grande taille sont possibles à toutes les expositions. Les avalanches peuvent se rompre jusque dans les couches profondes sur les versants où s'est accumulée la neige soufflée et atteindre une taille assez importante. Les endroits dangereux se situent surtout sur les pentes raides au soleil au-dessus d'environ 1800 m. Prudence surtout au pied des parois rocheuses et dans les régions ayant reçu beaucoup de neige fraîche. En outre les accumulations de neige soufflée fraîches sont par endroits déclenchables dans les combes, couloirs et derrière les ruptures de terrain. À moyenne altitude le danger d'avalanches est un peu plus bas. Une grande prudence et retenue sont recommandées. Les randonnées devraient être commencées et terminées tôt. Au-dessus d'environ 1800 m le danger augmente temporairement en cours de journée jusqu'au degré 4, "fort".</avActivityComment>
+          <snowpackStructureComment>Il est tombé en général beaucoup de neige. En outre des accumulations de neige soufflée en partie grandes se sont formées surtout à proximité des crêtes, dans les combes et couloirs et en général en haute montagne. Différentes couches de neige soufflée reposent généralement sur un manteau neigeux humide. Les conditions météorologiques printanières entraînent surtout sur les pentes au soleil aussi à haute altitude une saturation d'eau rapide du manteau neigeux. Avec la pluie le nombre et l'étendue de ces endroits dangereux augmentent l'après-midi.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
