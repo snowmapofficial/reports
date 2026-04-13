@@ -1,0 +1,183 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "In the High Tatras a moderate avalanche danger is declared, 2nd degree, above 2200 m a.s.l. The avalanche problem is wind blown snow from the last snowfall, mainly on the northern side of the Tatras. The situation has been complicated by the wind, which has created dangerous snow slabs and pillows. Avalanche release is possible on steep slopes, especially with high additional load. On the southern slopes the situation is stable after the warm weather and the subsequent cooling. The snow is hard in the morning and softens during the day on sunlit slopes.",
+        "highlights": "Watch out for snow slabs on northern slopes"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "NE",
+            "N"
+          ],
+          "avalancheSize": 2,
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SW",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "fair",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "2794527a-44b9-46c9-8b3d-84f7d7a4a5f6",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-12T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On sunny slopes the snow got wet and then froze, which stabilized the situation. Dry snow can only be found at high altitudes on shady and northern slopes. Continuous snow cover can be found at altitudes above 1300-1500 m above sea level, depending on orientation."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Rising during the day on sunlit slopes.",
+          "tendencyType": "increasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-12T22:00:00+00:00",
+        "endTime": "2026-04-13T22:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "In the Fatras and in the Low and Western Tatras a low avalanche danger (1st degree) is declared above the forest zone. Snow has become wet due to warming and gradually froze with cooling. In several places the new snow has already melted completely. Avalanche release is only possible at the highest altitudes on very steep slopes with high additional loads. Occasionally, only small spontaneous wet avalanches are possible.",
+        "highlights": "Watch out for wet snow!"
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "wet_snow",
+          "aspects": [
+            "W",
+            "E",
+            "SW",
+            "S",
+            "SE"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "bb9fa847-7430-43c4-babd-9896c4a5f34e",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-12T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SK-07",
+          "name": "Kriv\u00e1nska Mal\u00e1 Fatra"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        },
+        {
+          "regionID": "SK-04",
+          "name": "N\u00edzke Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-05",
+          "name": "N\u00edzke Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-06",
+          "name": "Ve\u013ek\u00e1 Fatra"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "Continuous snow cover is found only on the northern slopes of the mountains or in the high Tatra Mountains. The warm weather has caused the new snow to melt almost completely and then to freeze as it cooled. During the day it softens on sunlit slopes. Overall, the snow cover is below average."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Rising during the day on sunlit slopes.",
+          "tendencyType": "decreasing"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-04-12T22:00:00+00:00",
+        "endTime": "2026-04-13T22:00:00+00:00"
+      }
+    }
+  ]
+}
