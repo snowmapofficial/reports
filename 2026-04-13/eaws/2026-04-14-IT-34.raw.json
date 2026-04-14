@@ -1,0 +1,115 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-13T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-13T22:00:00Z",
+      "endTime" : "2026-04-14T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow represent the main danger. New snow and wind slabs above approximately 2200 m.",
+      "comment" : "Up to 30 cm of snow, and even more in some localities, will fall until Tuesday above approximately 2500 m. Up to 2000 m rain will fall. <br/> The avalanche prone locations are widespread and are barely recognisable because of the poor visibility. The avalanche prone locations for wet avalanches are to be found in particular on cut slopes below approximately 2300 m. In regions exposed to heavier precipitation these avalanche prone locations are more widespread. From starting zones that have retained some snow in particular the wet avalanches can reach fairly large size. <br/> The new snow can be released naturally in all aspects above approximately 2500 m. In particular on very steep slopes and at the base of rock walls and behind abrupt changes in the terrain small and, in isolated cases, medium-sized avalanches are possible. Bases of rock walls are especially dangerous. <br/> As a consequence of new snow and a strong southeasterly wind, avalanche prone wind slabs will form especially above approximately 2500 m. The fresh wind slabs can in many places be released, even by a single winter sport participant and reach medium size. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls in northwest to north to northeast facing aspects above approximately 2500 m. <br/> Weak layers in the old snowpack can be released by winter sport participants on shady slopes. Transitions from a shallow to a deep snowpack where weaknesses exist in the old snowpack are especially dangerous. Avalanches can be triggered in the old snowpack and reach medium size. <br/>"
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist in the snowpack on northwest, north and northeast facing slopes. <br/> The sleet will give rise to a loss of strength within the snowpack over a wide area in particular on steep slopes below approximately 2200 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-14T22:00:00Z",
+        "endTime" : "2026-04-15T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-14"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "E", "NW", "S", "N", "W", "NE", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "E", "NW", "S", "N", "W", "NE", "SW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "many",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "E", "NW", "S", "N", "W", "NE", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "cbfcf5a5-febe-4b54-a8be-abbe6ce10149",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
