@@ -1,0 +1,149 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The old snow cover is mostly well connected and generally stable.\nRainfall below 2200 m will cause a decrease in the snowpack stability. Where rainwater reaches the cut layers, natural wet snow avalanches may be triggered.\nAbove 2200 m, fresh snowdrift accumulations will be possible to trigger small slab avalanches of bonded snow at low loads.",
+        "highlights": "Rain thaw below 2200 m, small unstable snowdrift accumulations of new fallen snow above 2200 m."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "SE",
+            "S",
+            "N",
+            "E",
+            "W",
+            "NE",
+            "SW"
+          ],
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wind_slab",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "8cf49e02-e37a-4a1e-982c-5ff16f64d375",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-14"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-13T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In an old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of shreds and discontinuous grains, which are more frequent on slopes at the axis.\nOn a cloudy night, the surface of the snowpack will not freeze.\nOn Tuesday, rain will soften the upper layers of the snowpack below an altitude of about 2200 m. Where the rain reaches the thinned layers, slightly deeper and larger wet snow avalanches may be triggered. Above 2200 m, snow will fall with moderate E-W winds, with small snowdrift accumulations forming in leeward positions, only slowly merging with the old base."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Wednesday will be cloudy and dry. Winds and air temperature will be similar to Tuesday. Thursday may see more sunshine. The danger of avalanches will decrease slightly on Wednesday.",
+          "tendencyType": "decreasing",
+          "validTime": {
+            "startTime": "2026-04-14T15:00:00+00:00",
+            "endTime": "2026-04-15T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-13T15:00:00+00:00",
+        "endTime": "2026-04-14T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Tuesday will be cloudy with some showers, with a little more in the west. Snow will fall above 2200 m, with dry snow falling above about 2500 m. Snowfall will be 10-20 cm, possibly 10 cm more in parts of the west. Moderate winds from the east-east. Mid-day temperatures will be around 5 \u00b0C at 1500 m and 0 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
