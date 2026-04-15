@@ -1,0 +1,342 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-14T15:00:00Z",
+      "endTime" : "2026-04-15T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "highlights" : "Naturally triggered avalanches expected during course of day",
+    "weatherForecast" : {
+      "comment" : "Heavily clouded skies during the night, followed by dispersal in early morning and solar radiation. In afternoon, rain showers from place to place from the residual and convective clouds. Rising temperatures at all altitudes. Temperature at 2000m: 0 - +4 degrees; at 3000m: -5 to +2 degrees. Light winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Dangerous avalanche situation widespread during daytime. Main danger: wet snow.",
+      "comment" : "Due to starkly reduced nocturnal outgoing radiation in many places, the snowpack is hardly freezing except in high alpine regions. Below about 2500m the snowpack is softened already in early morning and persons can trigger wet-snow slab avalanches. As a result of daytime warming and solar radiation, frequency of avalanche prone locations rapidly increases so that during afternoon, numerous naturally triggered wet-snow avalanches can be expected in all aspects below about 2600m, above that altitude on sunny slopes. Caution urged above all on steep shady slopes at 2200-2600m, where wet-snow avalanches can fracture in the weak old snow and grow to large size, in isolated cases also in freeriding terrain which has been heavily tracked and skied. Avalanches can plummet into steep gullies down to forested areas. Backcountry tours and ascents to refuges need to be launched early in the day and brought to a close early. In addition, winter sports enthusiasts can in isolated cases trigger avalanches in near-surface weak layers on high-altitude shady slopes. Such danger zones are impossible to recognize."
+    },
+    "snowpackStructure" : {
+      "comment" : "Following starkly reduced outgoing radiation, the snowpack is hardly freezing at night. At altitudes of 1800-2500m the ground level layer of rotten snow is thoroughly wet, even on north-facing slopes, and is prone to triggering. On high-altitude shady slopes there are unfavorable intermediate layers in the uppermost layer of the snowpack which in places can be triggered. A thick mid-section of compact layers blankets the deep hoar and faceted crystals at the base of the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "On Wednesday night, reduced outgoing longwave radiation is again anticipated. Gradually, high-pressure front conditions with mild temperatures will prevail. The snowpack surface barely freezes and rapidly softens in the morning. Due to daytime warming and solar radiation, danger of wet-snow avalanches increases during daytime hours.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-15T15:00:00Z",
+        "endTime" : "2026-04-16T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "SW", "S", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "SW", "S", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "W", "NE", "N" ]
+    } ],
+    "bulletinID" : "3f2528d8-8c20-4e13-90ed-4fceda2a51e6",
+    "dangerRatings" : [ {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "high",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Rätikon East",
+      "regionID" : "AT-08-05-01"
+    }, {
+      "name" : "Rätikon West",
+      "regionID" : "AT-08-05-02"
+    }, {
+      "name" : "Silvretta West",
+      "regionID" : "AT-08-06"
+    }, {
+      "name" : "Lechquellen Mountains",
+      "regionID" : "AT-08-03-02"
+    }, {
+      "name" : "Lechtal Alps Vorarlberg",
+      "regionID" : "AT-08-03-01"
+    }, {
+      "name" : "Verwall West",
+      "regionID" : "AT-08-04"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-14T15:00:00Z",
+      "endTime" : "2026-04-15T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Heavily clouded skies during the night, followed by dispersal in early morning and solar radiation. In afternoon, rain showers from place to place from the residual and convective clouds. Rising temperatures at all altitudes. Temperature at 2000m: 0 - +4 degrees; at 3000m: -5 to +2 degrees. Light winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Unfavorable avalanche situation. Main danger: wet snow.",
+      "comment" : "Due to starkly reduced nocturnal outgoing radiation in many places, the snowpack is hardly freezing except in high alpine regions. Below about 2500m the snowpack is softened already in early morning and persons can trigger wet-snow slab avalanches. As a result of daytime warming and solar radiation, frequency of avalanche prone locations rapidly increases so that during afternoon, numerous naturally triggered wet-snow avalanches can be expected in all aspects below about 2600m, above that altitude on sunny slopes. Caution urged above all on steep shady slopes above 2200m, where wet-snow avalanches can fracture in the weak old snow and grow to large size, in isolated cases also in freeriding terrain which has been heavily tracked and skied. Avalanches can plummet into steep gullies down to forested areas. Backcountry tours and ascents to refuges need to be launched early in the day and brought to a close early."
+    },
+    "snowpackStructure" : {
+      "comment" : "Following starkly reduced outgoing radiation, the snowpack is hardly freezing at night, even in high alpine regions. At altitudes of 1800-2500m the ground level layer of rotten snow is thoroughly wet, even on north-facing slopes, and is prone to triggering. On high-altitude shady slopes there are unfavorable intermediate layers in the uppermost layer of the snowpack which in places can be triggered. A thick mid-section of compact layers blankets the deep hoar and faceted crystals at the base of the snowpack."
+    },
+    "tendency" : [ {
+      "highlights" : "On Wednesday night, reduced outgoing longwave radiation is again anticipated. Gradually, high-pressure front conditions with mild temperatures will prevail. The snowpack surface barely freezes and rapidly softens in the morning. Due to daytime warming and solar radiation, danger of wet-snow avalanches increases during daytime hours.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-15T15:00:00Z",
+        "endTime" : "2026-04-16T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "SE", "S", "N", "E", "SW", "W", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "SE", "S", "N", "E", "SW", "W", "NE" ]
+    } ],
+    "bulletinID" : "0c4234fb-ba78-4d08-93da-c342c5ea31fe",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Allgäu Alps West",
+      "regionID" : "AT-08-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-14T15:00:00Z",
+      "endTime" : "2026-04-15T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Heavily clouded skies during the night, followed by dispersal in early morning and solar radiation. In afternoon, rain showers from place to place from the residual and convective clouds. Rising temperatures at all altitudes. Temperature at 2000m: 0 - +4 degrees; at 3000m: -5 to +2 degrees. Light winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Wet-snow danger in very steep terrain where there is still lots of snow",
+      "comment" : "Persons can trigger wet-snow avalanches in very steep terrain. Danger zones generally occur only in summit zones of the Bregenzerwald mountains. Avalanches generally remain medium-sized. On steep, smooth-ground slopes with lots of snow which have not yet discharged, glide-snow avalanches can trigger in all aspects."
+    },
+    "snowpackStructure" : {
+      "comment" : "Due to reduced nocturnal longwave outgoing radiation and ongoing mild temperatures, the snowpack does not freeze at night. At all altitudes the snowpack is thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "On Wednesday night, reduced outgoing longwave radiation is again anticipated. Gradually, high-pressure front conditions with mild temperatures will prevail. The slopes are continually becoming bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-15T15:00:00Z",
+        "endTime" : "2026-04-16T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "W", "N", "SE", "NE", "E" ]
+    } ],
+    "bulletinID" : "6e30b2a4-b077-4480-959a-027118e828ec",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Bregenzerwald Mountains",
+      "regionID" : "AT-08-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-14T15:00:00Z",
+      "endTime" : "2026-04-15T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Florian Herla"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Heavily clouded skies during the night, followed by dispersal in early morning and solar radiation. In afternoon, rain showers from place to place from the residual and convective clouds. Rising temperatures at all altitudes. Temperature at 2000m: 0 - +4 degrees; at 3000m: -5 to +2 degrees. Light winds at high altitudes."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Small wet-snow slides possible",
+      "comment" : "Persons can trigger wet loose-snow avalanches in steep terrain where there is sufficient snow on the ground.  Avalanches will be mostly small-sized."
+    },
+    "snowpackStructure" : {
+      "comment" : "South-facing slopes are frequently bare of snow. Where there’s a snowpack on the ground, it’s thoroughly wet."
+    },
+    "tendency" : [ {
+      "highlights" : "Gradually, high-pressure front conditions with mild temperatures will prevail. The slopes are continually becoming bare of snow.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-15T15:00:00Z",
+        "endTime" : "2026-04-16T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "S", "SW", "N", "SE", "W", "NE", "E" ]
+    } ],
+    "bulletinID" : "2110a5d8-62a8-4606-b588-f03fa22dbfbb",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Pre Alps",
+      "regionID" : "AT-08-07"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Starkly reduced nocturnal outgoing radiation due to cloud cover and fog"
+    }
+  }
+}
