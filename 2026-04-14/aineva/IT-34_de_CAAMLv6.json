@@ -1,0 +1,115 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-14T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-14T22:00:00Z",
+      "endTime" : "2026-04-15T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nass- und Gleitschnee sind die Hauptgefahr.",
+      "comment" : "Es fielen lokal oberhalb von rund 2600 m bis zu 20 cm Schnee, lokal auch weniger. Es fiel lokal Regen bis auf 2300 m. <br/> Die Gefahrenstellen sind häufig und bei der schlechten Sicht kaum zu erkennen. Die Gefahrenstellen für nasse Lawinen liegen v.a. an Böschungen unterhalb von rund 2500 m. Die nassen Lawinen können vor allem aus noch nicht vollständig entladenen Einzugsgebieten groß werden. Der Neuschnee sollte an allen Expositionen oberhalb von rund 2500 m vorsichtig beurteilt werden. Vor allem an sehr steilen Hängen und an Felswandfüßen und hinter Geländekanten sind kleine und vereinzelt mittlere Lawinen möglich. Besonders gefährlich sind Felswandfüße. <br/> Mit Neuschnee und starkem Südostwind entstanden besonders oberhalb von rund 2500 m flächige Triebschneeansammlungen. Die Gefahrenstellen liegen vor allem in Kammlagen, Rinnen und Mulden der Expositionen Nordwest über Nord bis Nordost oberhalb von rund 2500 m. Besonders gefährlich sind Übergänge von wenig zu viel Schnee, wo Schwachstellen im Altschnee vorhanden sind. Lawinen können im Altschnee anbrechen und mittlere Größe erreichen. <br/> Gebietsweiser Anstieg der Gefahr von feuchten und nassen Lawinen."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Schneedecke sind an Nordwest-, Nord- und Nordosthängen heikle Schwachschichten vorhanden. <br/> Der Schneeregen führte vor allem an steilen Hängen unterhalb von rund 2200 m verbreitet zu einem Festigkeitsverlust innerhalb der Schneedecke."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-15T22:00:00Z",
+        "endTime" : "2026-04-16T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-15"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "NW", "W", "NE", "E", "N", "S", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "W", "NE", "N", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "NW", "W", "NE", "N", "E", "S", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "5058a5c8-5f8c-400f-a9cf-449116a39b86",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
