@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-15T22:00:00Z",
+      "endTime" : "2026-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve bagnata. Con il rialzo termico e l'irradiazione solare, la situazione valanghiva è a livello locale parzialmente insidiosa.",
+      "comment" : "A livello locale sono caduti sino a 20 cm di neve al di sopra dei 2600 m circa, localmente anche meno. A livello locale, è caduta pioggia sino ai 2300 m. <br/> I punti pericolosi sono frequenti e nella nebbia appena individuabili. I punti pericolosi per valanghe bagnate si trovano specialmente sulle scarpate al di sotto dei 2500 m circa. Soprattutto dai bacini di alimentazione non ancora completamente scaricati le valanghe bagnate possono raggiungere dimensioni grandi. La neve fresca dovrebbe essere valutata con attenzione a tutte le esposizioni al di sopra dei 2500 m circa. Soprattutto sui pendii molto ripidi e ai piedi di pareti rocciose e dietro ai cambi di pendenza sono possibili valanghe di piccole e, a livello isolato, di medie dimensioni. Particolarmente pericolosi sono i punti alla base di pareti rocciose, (--). <br/> Con neve fresca e vento principalmente al di sopra dei 2500 m circa si sono formati accumuli di neve ventata in parte instabili. I punti pericolosi si trovano soprattutto nei punti in prossimità delle creste, nelle conche e nei canaloni esposti da nord ovest a nord sino a nord est al di sopra dei 2500 m circa. Particolarmente pericolosi sono i punti di passaggio da poca a molta neve, dove nel manto di neve vecchia sono presenti strati deboli. <br/> Locale aumento del pericolo di valanghe umide e bagnate."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sui pendii esposti a nord ovest, nord e nord est, all'interno del manto nevoso si trovano insidiosi strati fragili. <br/> La pioggia mista a neve ha causato soprattutto sui pendii ripidi al di sotto dei 2200 m circa diffusamente una destabilizzazione all'interno del manto nevoso. La neve fresca è soffice al di sopra dei 2700 m circa. Gli accumuli di neve ventata non si sono ben legati con la neve vecchia al di sopra dei 2700 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-16T22:00:00Z",
+        "endTime" : "2026-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "W", "E", "SE", "SW", "S", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "W", "E", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "W", "E", "SE", "SW", "S", "N" ]
+    } ],
+    "bulletinID" : "d16d3f8b-c039-40ad-8fed-b966f1c6cad3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
