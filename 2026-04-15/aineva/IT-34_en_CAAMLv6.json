@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-15T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-15T22:00:00Z",
+      "endTime" : "2026-04-16T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution. As a consequence of warming and solar radiation a sometimes treacherous avalanche situation will be encountered in some localities.",
+      "comment" : "In some localities up to 20 cm of snow, but less in some localities, has fallen above approximately 2600 m. Up to 2300 m rain has fallen in some localities. <br/> The avalanche prone locations are prevalent and are barely recognisable in the fog. The avalanche prone locations for wet avalanches are to be found in particular on cut slopes below approximately 2500 m. From starting zones that have retained some snow in particular the wet avalanches can reach large size. The new snow is to be evaluated with care and prudence in all aspects above approximately 2500 m. In particular on very steep slopes and at the base of rock walls and behind abrupt changes in the terrain small and, in isolated cases, medium-sized avalanches are possible. Bases of rock walls are especially dangerous. <br/> As a consequence of new snow and wind, sometimes avalanche prone wind slabs formed especially above approximately 2500 m. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls in northwest to north to northeast facing aspects above approximately 2500 m. Transitions from a shallow to a deep snowpack where weaknesses exist in the old snowpack are especially dangerous. <br/> In some localities increase in danger of moist and wet avalanches."
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist in the snowpack on northwest, north and northeast facing slopes. <br/> The sleet gave rise to a loss of strength within the snowpack over a wide area in particular on steep slopes below approximately 2200 m. The new snow is loosely bonded above approximately 2700 m. The wind slabs are poorly bonded with the old snowpack above approximately 2700 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-16T22:00:00Z",
+        "endTime" : "2026-04-17T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-16"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "W", "E", "SE", "SW", "S", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "NW", "W", "E", "N" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "W", "E", "SE", "SW", "S", "N" ]
+    } ],
+    "bulletinID" : "d16d3f8b-c039-40ad-8fed-b966f1c6cad3",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
