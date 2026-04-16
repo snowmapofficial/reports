@@ -1,0 +1,150 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The old snow cover is mostly well connected and generally stable.\nRainfall below 2200 reduces snowpack stability. Where rainwater reaches the thinned layers, natural wet snow avalanches may be triggered.\n\nGliding avalanches may be triggered.",
+        "highlights": "Rain thaw below 2200 m, possibility of triggering gliding avalanches."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "7feff945-8337-4513-961e-3022c4c67e9c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-16"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-15T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In an old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of faceted snow crystals and discontinuous grains, which are more frequent on slopes at the axis.\nOn a cloudy night, the surface of the snowpack will not freeze.\nThere will be some light precipitation on Tuesday evening, with rain softening the upper layers of the snowpack below an altitude of about 2200 m. Where the rain reaches the thinned layers, slightly deeper and larger wet snow avalanches may be triggered. A few centimetres of New fallen snow will fall above 2200 m."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Friday will be even sunnier and drier. It will continue to be warm.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-16T15:00:00+00:00",
+            "endTime": "2026-04-17T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-15T15:00:00+00:00",
+        "endTime": "2026-04-16T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Thursday will be partly cloudy, occasionally sunny. Local showers possible in the afternoon. Mid-day temperatures will be around 7 \u00b0C at 1500 m and 1 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
