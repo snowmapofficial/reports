@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Mit Erwärmung und Sonneneinstrahlung lokal teils heimtückische Lawinensituation. Vorsicht vor Nassschnee.",
+      "comment" : "Die Gefahrenstellen für nasse Lawinen liegen v.a. an Böschungen unterhalb von rund 2500 m. Die nassen Lawinen können an sehr steilen Schattenhängen aus noch nicht vollständig entladenen Einzugsgebieten groß werden. Der Neuschnee vom Dienstag sollte an allen Expositionen oberhalb von rund 2500 m vorsichtig beurteilt werden. Vor allem an sehr steilen Hängen und an Felswandfüßen und hinter Geländekanten sind einzelne kleine und vereinzelt mittlere Lawinen möglich. Besonders gefährlich sind Felswandfüße. Mit Wind entstanden besonders oberhalb von rund 2500 m teils störanfällige Triebschneeansammlungen. Die Gefahrenstellen liegen vor allem in Kammlagen, Rinnen und Mulden der Expositionen Nordwest über Nord bis Nordost oberhalb von rund 2500 m. Besonders gefährlich sind Übergänge von wenig zu viel Schnee, wo Schwachstellen im Altschnee vorhanden sind. <br/> Lokaler Anstieg der Gefahr von feuchten und nassen Lawinen."
+    },
+    "snowpackStructure" : {
+      "comment" : "In der Schneedecke sind an Nordwest-, Nord- und Nordosthängen heikle Schwachschichten vorhanden. <br/> Sonne und Wärme führen im Tagesverlauf vor allem an steilen Hängen unterhalb von rund 2700 m verbreitet zu einem Festigkeitsverlust innerhalb der Schneedecke. Der Neuschnee vom Dienstag ist oberhalb von rund 2800 m locker. Die Triebschneeansammlungen sind oberhalb von rund 2700 m schlecht mit dem Altschnee verbunden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    } ],
+    "bulletinID" : "8e432955-778f-4c98-a80b-9a7407a44b2e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
