@@ -1,0 +1,147 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The Old snow cover is mostly well connected and stable, with the exception of some shady areas above 1800 m.\nGliding avalanches are possible.",
+        "highlights": "Spring diurnal cycles, possibility of triggering gliding avalanches."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "fe314a80-3ba2-4c8d-95c3-9d958489ae53",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-17"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-16T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On a clear night, the surface of the snowpack will thinly freeze. It will soon dry out in the morning and remain soft into the night.\nSunny slopes are already quite dry even in the high alpine regions.\n\nIn the old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of faceted snow crystals and discontinuous grains, which are more frequent on the axial slopes above 1800 m."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Saturday will be sunny and dry. It will continue to be warm. On Sunday, it will become cloudy in the middle of the day.\nThe danger of avalanches will remain the same.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-17T15:00:00+00:00",
+            "endTime": "2026-04-18T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-16T15:00:00+00:00",
+        "endTime": "2026-04-17T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Friday night and Friday morning will be clear. Then clouds will form, obscuring the peaks. Temperatures will be around 9 \u00b0C at 1500 m and 1 \u00b0C at 2500 m in the middle of the day."
+      }
+    }
+  ]
+}
