@@ -1,0 +1,404 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen im Tagesverlauf.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf deutlich an. Nasse Lawinen können stellenweise von einzelnen Wintersportlern ausgelöst werden. Dies an sehr steilen Schattenhängen unterhalb von rund 2500 m sowie an sehr steilen Sonnenhängen in der Höhe. Am Nachmittag sind spontane Lawinen möglich. Lawinen können im schwachen Altschnee anreißen und vereinzelt groß werden. <br/> <br/> Zudem können trockene Lawinen vereinzelt schon mit geringer Belastung ausgelöst werden, besonders an sehr steilen West-, Nord- und Osthängen oberhalb von rund 2500 m. Ungünstig sind besonders Übergänge von wenig zu viel Schnee. Die Gefahrenstellen sind schwer zu erkennen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert tragfähig und weicht im Tagesverlauf auf. Sonne und Wärme führen unterhalb von rund 3000 m zu einer zunehmenden Durchnässung der Schneedecke. <br/> Steile West-, Nord- und Osthänge: Im unteren Teil der Altschneedecke sind in der Höhe kantig aufgebaute Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die nächtliche Abstrahlung ist gut. Die Tourenverhältnisse sind am Morgen in der Höhe mehrheitlich günstig. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf an.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    } ],
+    "bulletinID" : "e623f6b0-19e1-48ef-9fc3-1f621ce237e0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Grödner Dolomiten",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Sextner Dolomiten",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Hinteres Ahrntal",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Durreckgruppe",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Südliche Zillertaler Alpen",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Südliche Stubaier Alpen",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserfernergruppe",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Schnalser Kamm",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Südliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Nördliche Sesvenna Gruppe",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Planeilerberge",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Pragser Dolomiten",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Hinteres Passeiertal",
+      "regionID" : "IT-32-BZ-07-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen im Tagesverlauf.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf deutlich an. Nasse Lawinen können stellenweise von einzelnen Wintersportlern ausgelöst werden. Dies an sehr steilen Schattenhängen unterhalb von rund 2500 m sowie an sehr steilen Sonnenhängen in der Höhe. Am Nachmittag sind spontane Lawinen möglich. Lawinen können im schwachen Altschnee anreißen und vereinzelt groß werden. <br/> <br/> Zudem können trockene Lawinen vereinzelt schon mit geringer Belastung ausgelöst werden, besonders an sehr steilen West-, Nord- und Osthängen oberhalb von rund 2500 m. Ungünstig sind besonders Übergänge von wenig zu viel Schnee. Die Gefahrenstellen sind schwer zu erkennen. <br/> Die nicht mehr ganz frischen Triebschneeansammlungen können vor allem an sehr steilen Schattenhängen im Hochgebirge vereinzelt von einzelnen Wintersportlern ausgelöst werden."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert tragfähig und weicht im Tagesverlauf auf. Sonne und Wärme führen unterhalb von rund 3000 m zu einer zunehmenden Durchnässung der Schneedecke. <br/> Steile West-, Nord- und Osthänge: Im unteren Teil der Altschneedecke sind in der Höhe kantig aufgebaute Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die nächtliche Abstrahlung ist gut. Die Tourenverhältnisse sind am Morgen in der Höhe mehrheitlich günstig. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf an.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "W", "NW", "E" ]
+    } ],
+    "bulletinID" : "beba4508-a4aa-47ca-9aa9-bc04788a36cc",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Ortlergruppe",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ultental",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Saldurn-Mastaun Kamm",
+      "regionID" : "IT-32-BZ-06"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Anstieg der Gefahr von nassen Lawinen im Tagesverlauf.",
+      "comment" : "Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf an. Nasse Lawinen können stellenweise von einzelnen Wintersportlern ausgelöst werden. Dies an sehr steilen Schattenhängen unterhalb von rund 2500 m sowie an sehr steilen Sonnenhängen in der Höhe. <br/> <br/> Einzelne Gefahrenstellen für trockene Lawinen liegen an sehr steilen Schattenhängen oberhalb von rund 2500 m. Ungünstig sind besonders Übergänge von wenig zu viel Schnee. Die Gefahrenstellen sind schwer zu erkennen."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche ist tragfähig gefroren und weicht im Tagesverlauf auf. Sonne und Wärme führen unterhalb von rund 3000 m zu einer allmählichen Aufweichung der Schneedecke. <br/> Steile West-, Nord- und Osthänge: Im unteren Teil der Altschneedecke sind in der Höhe kantig aufgebaute Schwachschichten vorhanden."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Die nächtliche Abstrahlung ist gut. Die Tourenverhältnisse sind am Morgen in der Höhe mehrheitlich günstig. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Gefahr von nassen Lawinen im Tagesverlauf an.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "W", "NW", "E" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "ab5969a1-1ba2-414b-b29f-73bdc11d9bc9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Hirzergruppe",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Westliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Jakobspitzegruppe",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Texelgruppe",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Lüsner Berge",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Östliche Pfunderer Berge",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Westliche Deferegger Alpen",
+      "regionID" : "IT-32-BZ-13"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nassschnee beachten.",
+      "comment" : "Es sind nur noch vereinzelt nasse Lawinen möglich. Vorsicht an extrem steilen Schattenhängen. Lawinen sind sehr vereinzelt mittelgroß."
+    },
+    "snowpackStructure" : {
+      "comment" : "Die Schneeoberfläche gefriert tragfähig und weicht im Tagesverlauf auf."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Geringe Lawinengefahr. Nassschnee beachten.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "none",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "9c1f1f6a-ddb9-44c1-9974-8a4c238f38b6",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Südliche Sarntaler Alpen",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Östliche Nonsberger Alpen",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Nördliche Fleimstaler Alpen",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
