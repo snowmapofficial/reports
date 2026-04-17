@@ -1,0 +1,285 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il pericolo di valanghe umide e bagnate aumenterà rapidamente nel corso della giornata.",
+      "comment" : "Per le escursioni sciistiche, le condizioni sono per lo più favorevoli. <br/> La superficie del manto nevoso riuscirà a rigelarsi e a essere portante e si ammorbidirà rapidamente. <br/> Durante la mattinata, l'attività di valanghe umide e bagnate spontanee aumenterà progressivamente. Dai bacini di alimentazione non ancora scaricati e sui pendii molto ripidi sono ancora possibili colate e valanghe umide di piccole e, a livello isolato, di medie dimensioni. <br/> Le escursioni e le salite ai rifugi dovrebbero terminare in tempo. <br/> Con neve fresca e vento in parte moderato proveniente da sud est nella giornata di lunedì si sono formati accumuli di neve ventata per lo più di piccole dimensioni. Essi si sono formati ad alta quota e in alta montagna."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso si è rigelata ed è portante. La neve fresca e quella ventata poggiano su un manto di neve vecchia bagnata. <br/> Salendo di quota l'innevamento si riduce e diventa disomogeneo, è migliore alle quote intermedie meno interessate dal vento. Al di sotto dei 1900 m circa c'è solo poca neve. <br/> Specialmente sui pendii ombreggiati ripidi, all'interno del manto nevoso si trovano strati fragili. <br/> Con, nei prossimi giorni gli accumuli di neve ventata si stabilizzeranno."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Con il rialzo termico e l'irradiazione solare diurni, sono ancora possibili valanghe umide e bagnate. Il sole e il calore causeranno un assestamento del manto nevoso.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200",
+        "upperBound" : "3200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "W", "NW" ]
+    } ],
+    "bulletinID" : "ae74d6c5-d0dc-47c4-b6d0-d5af4250435f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-16T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-16T22:00:00Z",
+      "endTime" : "2026-04-17T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Il pericolo di valanghe umide e bagnate sarà superiore già al mattino. Ciò in caso di notte coperta.",
+      "comment" : "Mattina: Per le escursioni sciistiche, le condizioni sono per lo più favorevoli. <br/> In caso di nuvolosità notturna associata all'aria calda; il pericolo valanghe sarà già 2-moderato al mattino perché La superficie del manto nevoso non riuscirà a rigelarsi bene. <br/> Durante la mattinata, l'attività di valanghe umide e bagnate spontanee aumenterà velocemente. Soprattutto dai bacini di alimentazione non ancora scaricati e sui pendii molto ripidi sono ancora previste valanghe bagnate spontanee di medie e, a livello isolato, di grandi dimensioni. <br/> Le escursioni e le salite ai rifugi dovrebbero terminare in tempo. <br/> Con neve fresca e vento in parte moderato proveniente da sud est nella giornata di lunedì si sono formati accumuli di neve ventata in parte instabili. Essi si sono formati ad alta quota e in alta montagna."
+    },
+    "snowpackStructure" : {
+      "comment" : "Lunedì sono caduti da 20 a 40 cm di neve al di sopra dei 2300 m circa, localmente anche di più. Le condizioni meteo hanno causato un rapido assestamento del manto nevoso. La neve fresca e quella ventata poggiano su un manto di neve vecchia bagnata. <br/> Salendo di quota l'innevamento si riduce e diventa disomogeneo, è migliore alle quote intermedie meno interessate dal vento. Al di sotto dei 1900 m circa c'è solo poca neve. <br/> Specialmente sui pendii ombreggiati ripidi, all'interno del manto nevoso si trovano strati fragili. <br/> Con, nei prossimi giorni gli accumuli di neve ventata si stabilizzeranno."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le condizioni meteo primaverili causeranno un assestamento del manto nevoso. Con l'umidificazione, sono ancora possibili valanghe umide e bagnate.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-17T22:00:00Z",
+        "endTime" : "2026-04-18T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-17"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200",
+        "upperBound" : "3200"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "SE", "SW", "S", "N", "NE", "NW", "W", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "W" ]
+    } ],
+    "bulletinID" : "51154b30-b8b1-4fff-9f39-388459f9d662",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
