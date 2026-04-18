@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-17T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-17T22:00:00Z",
+      "endTime" : "2026-04-18T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "As a consequence of warming and solar radiation a sometimes treacherous avalanche situation will be encountered in some localities.",
+      "comment" : "The avalanche prone locations for moist avalanches are to be found in particular on cut slopes below approximately 2800 m. Bases of rock walls are especially dangerous. From starting zones that have retained some snow on very steep shady slopes moist avalanches can in very isolated cases reach large size. As a consequence of wind, sometimes avalanche prone wind slabs formed especially above approximately 2600 m. The avalanche prone locations are to be found in particular adjacent to ridgelines and in gullies and bowls in northwest to north to northeast facing aspects above approximately 2500 m. Transitions from a shallow to a deep snowpack where weaknesses exist in the old snowpack are especially dangerous. <br/> Gradual increase in danger of moist and wet avalanches as a consequence of warming during the day and solar radiation."
+    },
+    "snowpackStructure" : {
+      "comment" : "Precarious weak layers exist in the snowpack on northwest, north and northeast facing slopes. <br/> Sunshine and high temperatures will give rise as the day progresses to a loss of strength within the snowpack over a wide area in particular on steep slopes below approximately 2700 m. The new snow of Tuesday is loosely bonded above approximately 2800 m. The wind slabs are poorly bonded with the old snowpack above approximately 2700 m."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-18T22:00:00Z",
+        "endTime" : "2026-04-19T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "NE", "SW", "N", "W", "S", "E", "SE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "NE", "N", "W", "E" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "SW", "N", "W", "S", "E", "SE" ]
+    } ],
+    "bulletinID" : "acfb7369-c9b3-4e6e-b990-9704e6f00c6f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
