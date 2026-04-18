@@ -1,0 +1,77 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-17T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-17T22:00:00Z",
+      "endTime" : "2026-04-18T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow require caution. From starting zones where no previous releases have taken place gliding avalanches can reach intermediate altitudes.",
+      "comment" : "In all aspects more medium-sized and, in isolated cases, large gliding avalanches and wet snow slides are possible especially in starting zones where no previous releases have taken place. Great caution and restraint are recommended."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of mild temperatures and rain up to high altitudes an unfavourable avalanche situation developed during the last two days. The snowpack is wet. Gliding avalanches can be released at any time of day or night."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-18T22:00:00Z",
+        "endTime" : "2026-04-19T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-18"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "NE", "SW", "W", "N", "S", "E", "SE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "NE", "SW", "W", "N", "S", "E", "SE" ]
+    } ],
+    "bulletinID" : "a900ab86-60ca-410a-8840-57196e609b9a",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
