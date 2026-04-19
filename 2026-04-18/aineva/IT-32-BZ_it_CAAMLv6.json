@@ -1,0 +1,314 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-18T22:00:00Z",
+      "endTime" : "2026-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nel corso della giornata aumento del pericolo di valanghe di neve bagnata.",
+      "comment" : "A partire dalla mattinata la probabilità di distacco di valanghe di neve bagnata aumenterà. Con il rialzo termico e l'irradiazione solare diurni, sono possibili valanghe di neve bagnata a debole coesione, soprattutto dai bacini di alimentazione molto ripidi non ancora completamente scaricati. <br/> <br/> Con l'umidificazione, nel corso della giornata sono possibili valanghe a lastroni di neve bagnata, soprattutto di medie dimensioni. Ciò specialmente dai bacini di alimentazione ombreggiati, ma a livello isolato anche dai bacini di alimentazione situati ad alta quota soleggiati non ancora scaricati. <br/> <br/> Isolati punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati molto ripidi al di sopra dei 2500 m circa. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--). I punti pericolosi sono difficili da individuare."
+    },
+    "snowpackStructure" : {
+      "comment" : "In alcune aree, a partire da mezzogiorno cadrà pioggia sino ai 2600 m. L'irraggiamento notturno sarà temporaneamente piuttosto buono. La superficie del manto nevoso si ammorbidirà rapidamente. Il sole e il calore causeranno al di sotto dei 3000 m circa un rapido impregnamento del manto nevoso. <br/> Sui pendii esposti a ovest, nord ed est al di sopra dei 2500 m circa: In quota, nella parte basale del manto di neve vecchia si trovano strati fragili a cristalli sfaccettati."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "In alcune aree cadranno sino a 10 cm di neve. Ciò soprattutto in quota nel Gruppo del Venediger e nel Gruppo del Glockner.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-19T22:00:00Z",
+        "endTime" : "2026-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "S", "N", "E", "SE", "NE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "S", "N", "E", "SE", "NE", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "290a16f5-cefe-4603-bc00-7f839d90a051",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "3000"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Gruppo della Cima Dura",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Vallelunga",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Alta Valle Aurina",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Catena delle Vedrette di Ries",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Alpi dello Stubai meridionali",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Alpi della Zillertal meridionali",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Val di Vizze",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Gruppo Sesvenna meridionale",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Gruppo dell'Ortles",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Cresta di Senales",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Val d'Ultimo",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Gruppo Sesvenna settentrionale",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Monti di Pianol",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Gruppo Saldura-Mastaun",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Alta Val Passiria",
+      "regionID" : "IT-32-BZ-07-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-18T22:00:00Z",
+      "endTime" : "2026-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nel corso della giornata aumento del pericolo di valanghe di neve bagnata.",
+      "comment" : "Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata il pericolo di valanghe di neve bagnata aumenterà. Laddove a livello locale cadrà molta pioggia, il pericolo di valanghe sarà superiore. Le valanghe bagnate possono in alcuni punti distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali. Ciò sui pendii ombreggiati molto ripidi al di sotto dei 2500 m circa, come pure sui pendii soleggiati molto ripidi in quota. Durante il pomeriggio sono possibili valanghe spontanee di piccole e medie dimensioni. <br/> <br/> Isolati punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati molto ripidi al di sopra dei 2500 m circa. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--). I punti pericolosi sono difficili da individuare."
+    },
+    "snowpackStructure" : {
+      "comment" : "In alcune aree, a partire da mezzogiorno cadrà pioggia sino ai 2600 m. L'irraggiamento notturno sarà temporaneamente piuttosto buono. La superficie del manto nevoso riuscirà a rigelarsi e a essere portante e si ammorbidirà nel corso della giornata. Le condizioni meteo primaverili causeranno alle quote medie e alte un rapido ammorbidimento del manto nevoso. <br/> Sui pendii ripidi: In quota, nella parte basale del manto di neve vecchia si trovano strati fragili a cristalli sfaccettati."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "A livello locale, cadrà un po' di pioggia. Il pericolo di valanghe di neve bagnata rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-19T22:00:00Z",
+        "endTime" : "2026-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3000"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "E", "NE", "W" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "541ec417-fc68-4ca0-8dc8-b30c4057e26f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Gruppo della Punta Cervina",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Dolomiti di Braies",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Monti di Fundres occidentali",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Gruppo della Cima San Giacomo",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Gruppo Tessa",
+      "regionID" : "IT-32-BZ-07-02"
+    }, {
+      "name" : "Dolomiti di Gardena",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Costiera di Luson",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Dolomiti di Sesto",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Monti di Fundres orientali",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Racines",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Alpi del Defereggen occidentali",
+      "regionID" : "IT-32-BZ-13"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-18T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-18T22:00:00Z",
+      "endTime" : "2026-04-19T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve bagnata richiede attenzione.",
+      "comment" : "Sono possibili al più isolate valanghe di neve bagnata. Attenzione sui pendii ombreggiati ripidi estremi. Le valanghe sono per lo più di dimensioni piuttosto piccole."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso riuscirà a rigelarsi e a essere portante e si ammorbidirà nel corso della giornata."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Debole pericolo di valanghe. La neve bagnata richiede attenzione.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-19T22:00:00Z",
+        "endTime" : "2026-04-20T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-19"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "none",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "3ffa8791-93f6-4576-9e74-da0c4676f82b",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpi Sarentine meridionali",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Alpi della Val di Non orientali",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Dolomiti di Fiemme settentrionali",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  } ]
+}
