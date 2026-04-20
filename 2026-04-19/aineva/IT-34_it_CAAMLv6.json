@@ -1,0 +1,105 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-19T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-19T22:00:00Z",
+      "endTime" : "2026-04-20T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "In alcune regioni cadranno sino a 5 cm di neve al di sopra dei 2700 m circa, localmente anche di più.",
+      "comment" : "I punti pericolosi per valanghe umide si trovano specialmente sulle scarpate al di sotto dei 2300 m circa. Particolarmente sfavorevoli sono i punti alla base di pareti rocciose, (--). Sui pendii ombreggiati molto ripidi, dai bacini di alimentazione non ancora completamente scaricati le valanghe umide possono a livello molto isolato raggiungere dimensioni grandi. Gli ultimi accumuli di neve ventata si trovano principalmente in prossimità delle cime. I punti pericolosi si trovano soprattutto nei punti in prossimità delle creste, nelle conche e nei canaloni esposti da nord ovest a nord sino a nord est al di sopra dei 2500 m circa. Particolarmente pericolosi sono i punti di passaggio da poca a molta neve, dove nel manto di neve vecchia sono presenti strati deboli. <br/> Con le precipitazioni, scarso aumento del pericolo di valanghe umide e bagnate."
+    },
+    "snowpackStructure" : {
+      "comment" : "Sui pendii esposti a nord ovest, nord e nord est, all'interno del manto nevoso si trovano insidiosi strati fragili. <br/> Nel corso della giornata le condizioni meteo causeranno soprattutto sui pendii ripidi al di sotto dei 2700 m circa in alcuni punti un progressivo inumidimento del manto nevoso. La neve fresca verrà depositata su un debole manto di neve vecchia al di sotto dei 2700 m circa."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-20T22:00:00Z",
+        "endTime" : "2026-04-21T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-20"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "SW", "E", "N", "SE", "W", "S", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 3,
+      "aspects" : [ "E", "N", "W", "NE", "NW" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "2700"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "E", "N", "SE", "W", "S", "NE", "NW" ]
+    } ],
+    "bulletinID" : "d09bc1e4-be55-446a-a287-ade326ab1995",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1900"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
