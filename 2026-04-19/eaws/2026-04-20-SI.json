@@ -1,0 +1,150 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The Old snow cover is mostly well connected and stable, with the exception of some shady areas above 1800 m.\nIn the event of a thaw with rain below 1800 m, there will be a slight increase in the probability of loose snow avalanches and gliding avalanches.",
+        "highlights": "Rain thaw, possibility of triggering gliding avalanches."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "W",
+            "SW",
+            "SE",
+            "S",
+            "E",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "persistent_weak_layers",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "609cc698-1163-42f5-af8c-0e2c904be368",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-20"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "moderate",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-19T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "On a cloudy night, the surface of the snowpack will not freeze. Rain will make the snow wet.\nSnow is already quite heavy in the high alpine regions.\n\nIn an old snow cover, the snow layers are mostly well connected. More or less deep below the surface, there are several weak layers of slush and discontinuous grains, which are more frequent on the axis slopes above 1800 m."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Tuesday will be mostly cloudy, with only occasional sunshine. Showers or thunderstorms may develop in the afternoon.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-20T15:00:00+00:00",
+            "endTime": "2026-04-21T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-19T15:00:00+00:00",
+        "endTime": "2026-04-20T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Monday will be cloudy with occasional showers. Snow will fall above 1800 m. It will be around 4 \u00b0C at 1500 m and 0 \u00b0C at 2000 m. There will be a light SW wind."
+      }
+    }
+  ]
+}
