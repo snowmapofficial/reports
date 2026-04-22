@@ -1,0 +1,144 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-21T22:00:00Z",
+      "endTime" : "2026-04-22T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La superficie del manto nevoso si è rigelata ed è portante solo ad alta quota e si ammorbidirà nel corso della giornata. Sui pendii ombreggiati ripidi, nella parte basale del manto nevoso si trovano strati fragili a cristalli angolari.",
+      "comment" : "I punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati ripidi al di sopra dei 2800 m circa. <br/> Con il rialzo termico e l'irradiazione solare diurni, la probabilità di distacco di valanghe bagnate aumenterà soprattutto sui pendii ombreggiati ripidi al di sotto dei 2800 m circa. <br/> Sono possibili valanghe di medie dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "La superficie del manto nevoso si ammorbidirà nel corso della giornata. <br/> Sui pendii ripidi ombreggiati al di sopra dei 2800 m circa: Nella parte basale del manto di neve vecchia si trovano strati fragili a cristalli angolari. <br/> Al di sotto dei 2100 m circa è generalmente presente troppo poca neve per la pratica degli sport invernali."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-22T22:00:00Z",
+        "endTime" : "2026-04-23T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "SE", "NE", "NW", "S", "E", "SW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "dc4463d6-1ebc-45bf-ae50-d9a0cd798bf0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "IT-25-SO-04",
+      "regionID" : "IT-25-SO-04"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-21T22:00:00Z",
+      "endTime" : "2026-04-22T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La superficie del manto nevoso si è rigelata ed è portante solo ad alta quota e si ammorbidirà già al mattino.",
+      "comment" : "La superficie del manto nevoso non riuscirà a rigelarsi bene e si ammorbidirà nel corso della giornata. <br/> Le valanghe sono a livello isolato di piccole dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Con le temperature miti, il manto nevoso si è consolidato. Con il rialzo termico diurno, il pericolo di valanghe umide e bagnate aumenterà."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-22T22:00:00Z",
+        "endTime" : "2026-04-23T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "7012d742-63ff-486e-8bf6-e39487bafcc0",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "IT-25-CO-01",
+      "regionID" : "IT-25-CO-01"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  } ]
+}
