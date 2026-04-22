@@ -1,0 +1,109 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-21T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-21T22:00:00Z",
+      "endTime" : "2026-04-22T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Nel corso della giornata leggero aumento del pericolo di valanghe bagnate.",
+      "comment" : "Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata il pericolo di valanghe bagnate aumenterà leggermente. Le valanghe bagnate possono a livello isolato distaccarsi in seguito al passaggio di un singolo appassionato di sport invernali. Ciò sui pendii ombreggiati molto ripidi al di sotto dei 2500 m circa, come pure sui pendii soleggiati molto ripidi in quota. <br/> <br/> Isolati punti pericolosi per valanghe asciutte si trovano sui pendii ombreggiati molto ripidi al di sopra dei 2500 m circa. Sfavorevoli sono principalmente i punti di passaggio da poca a molta neve, (--). I punti pericolosi sono difficili da individuare."
+    },
+    "snowpackStructure" : {
+      "comment" : "A livello locale, è caduta un po' di neve, specialmente alle quote medie e alte. L'irraggiamento notturno sarà temporaneamente ridotto. La superficie del manto nevoso non riuscirà a rigelarsi bene e si ammorbidirà già al mattino. <br/> <br/> Sui pendii ombreggiati al di sopra dei 2500 m circa: In quota, nella parte basale del manto di neve vecchia si trovano strati fragili a cristalli angolari. <br/> <br/> Sui pendii soleggiati ripidi così come al di sotto dei 2000 m circa c'è solo poca neve."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo di valanghe bagnate rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-22T22:00:00Z",
+        "endTime" : "2026-04-23T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-22"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "W", "SE", "NE", "NW", "S", "E", "SW" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NE", "NW" ]
+    } ],
+    "bulletinID" : "c4d4c8ec-fb68-4811-94e6-d6d9f8dcd8fc",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
