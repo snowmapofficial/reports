@@ -1,0 +1,72 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="79e7869a-19b6-4ff8-9adf-347bdd8f1f82" lang="de">
+    <publicationTime>2026-04-22T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-04-22T22:00:00Z</startTime>
+      <endTime>2026-04-23T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1800</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>SE</aspect>
+      <aspect>SW</aspect>
+      <aspect>NW</aspect>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>S</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Vorsicht vor Nass- und Gleitschnee.</highlights>
+      <comment>An allen Expositionen sind besonders aus noch nicht entladenen Einzugsgebieten weiterhin mittlere Gleitschneelawinen und nasse Rutsche möglich.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>Unterhalb von rund 1800 m liegt wenig Schnee. In Rinnen und Mulden in hohen Lagen liegt noch viel Schnee. Die frühlingshaften Wetterbedingungen führten zu einer zunehmenden Durchnässung der Schneedecke. Klare Nacht: Mit tiefen Temperaturen bildet sich eine Oberflächenkruste. Die Schneeoberfläche weicht schon am Vormittag auf.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2026-04-23T22:00:00Z</startTime>
+        <endTime>2026-04-24T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-04-23</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
