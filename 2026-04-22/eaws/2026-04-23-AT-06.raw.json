@@ -1,0 +1,110 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-22T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-22T15:00:00Z",
+      "endTime" : "2026-04-23T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Styria"
+      }
+    },
+    "weatherForecast" : {
+      "comment" : "Thursday night will be clear and starry. On Thursday, some clouds will move through from the north, which may obscure the sun, especially in the morning. The summits will remain mostly clear and no precipitation is expected. During the daytime changes, the sun will increasingly prevail from the north-west. The afternoon will be widely sunny with temperatures at 2000 metres around +1 degree. Due to the brisk, in areas adjacent to the ridgeline, strong to gale-force winds from the north-west with peak wind speeds of between 50 and 80 km/h, the temperature will feel significantly lower."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Increase in avalanche danger during the day changes",
+      "comment" : "The avalanche risk is low in the morning hours and increases to moderate during the daytime changes. There is a danger of wet loose snow and slab avalanches from undischarged terrain as incoming radiation and warming increase. These can release themselves or be triggered by a small additional load from people and are usually small to medium-sized. Avalanches can reach areas that are already snowed out."
+    },
+    "snowpackStructure" : {
+      "comment" : "The snowpack can consolidate on a clear night. A surface crust forms on the surface. However, it quickly softens again with sunlight and warming. In shady, higher areas, there are large crystals in the lower snow layering in some places, which act as a possible weak layer. The deglaciation is progressing rapidly."
+    },
+    "tendency" : [ {
+      "highlights" : "High pressure will lead to bright and sunny mountain weather on Friday and Saturday. Temperatures at an altitude of 2000 metres will rise from -1 degrees on Friday morning to +6 degrees on Saturday afternoon. With the increasing warming and sunshine, the activity of wet snow avalanches will increase again.",
+      "tendencyType" : "increasing",
+      "validTime" : {
+        "startTime" : "2026-04-23T15:00:00Z",
+        "endTime" : "2026-04-24T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "SE", "S", "N", "E", "SW", "W", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "SE", "S", "N", "E", "SW", "W", "NE" ]
+    } ],
+    "bulletinID" : "564023d5-dc6e-4645-af6a-0a1bcad53aff",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Totes Gebirge South",
+      "regionID" : "AT-06-02"
+    }, {
+      "name" : "Dachsteingebiet",
+      "regionID" : "AT-06-01"
+    }, {
+      "name" : "Hochschwabgebiet",
+      "regionID" : "AT-06-10"
+    }, {
+      "name" : "Eisenerzer Alpen",
+      "regionID" : "AT-06-09"
+    }, {
+      "name" : "Triebener Tauern",
+      "regionID" : "AT-06-08-01"
+    }, {
+      "name" : "Wölzer Tauern South",
+      "regionID" : "AT-06-07"
+    }, {
+      "name" : "Rottenmanner Tauern",
+      "regionID" : "AT-06-06"
+    }, {
+      "name" : "Schladminger Tauern North",
+      "regionID" : "AT-06-04-01"
+    }, {
+      "name" : "Wölzer Tauern North",
+      "regionID" : "AT-06-05"
+    }, {
+      "name" : "Ennstaler Alpen",
+      "regionID" : "AT-06-03"
+    }, {
+      "name" : "Schladminger Tauern South",
+      "regionID" : "AT-06-04-02"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Increase in avalanche danger during the day changes"
+    }
+  }
+}
