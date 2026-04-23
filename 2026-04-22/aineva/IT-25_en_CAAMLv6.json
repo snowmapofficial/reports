@@ -1,0 +1,144 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-22T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-22T22:00:00Z",
+      "endTime" : "2026-04-23T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The surface of the snowpack has frozen to form a strong crust only at high altitudes and will soften during the day. Faceted weak layers exist in the bottom section of the snowpack on steep shady slopes.",
+      "comment" : "The avalanche prone locations for dry avalanches are to be found on steep shady slopes above approximately 2800 m. <br/> As a consequence of warming during the day and the solar radiation, the likelihood of wet avalanches being released will increase in particular on steep shady slopes below approximately 2800 m. <br/> Medium-sized avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will soften during the day. <br/> Steep shady slopes above approximately 2800 m: Faceted weak layers exist in the bottom section of the old snowpack. <br/> Below approximately 2100 m from a snow sport perspective, in most cases insufficient snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-23T22:00:00Z",
+        "endTime" : "2026-04-24T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "NE", "NW", "S", "E", "N", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "0df21883-0892-424f-9413-3e01a132fe1f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "IT-25-SO-04",
+      "regionID" : "IT-25-SO-04"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-22T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-22T22:00:00Z",
+      "endTime" : "2026-04-23T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The surface of the snowpack has frozen to form a strong crust only at high altitudes and will already soften in the late morning.",
+      "comment" : "The surface of the snowpack will only just freeze and will soften during the day. <br/> In isolated cases the avalanches are small."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of mild temperatures the snowpack consolidated. As a consequence of warming during the day there will be an increase in the danger of moist and wet avalanches."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-23T22:00:00Z",
+        "endTime" : "2026-04-24T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "5e470f47-9b1e-4b7a-8556-9b73f1586287",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "IT-25-CO-01",
+      "regionID" : "IT-25-CO-01"
+    }, {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  } ]
+}
