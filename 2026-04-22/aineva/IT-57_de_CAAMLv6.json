@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-22T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-22T22:00:00Z",
+      "endTime" : "2026-04-23T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Vorsicht vor Nass- und Gleitschnee.",
+      "comment" : "An allen Expositionen sind besonders aus noch nicht entladenen Einzugsgebieten weiterhin mittlere Gleitschneelawinen und nasse Rutsche möglich."
+    },
+    "snowpackStructure" : {
+      "comment" : "Unterhalb von rund 1800 m liegt wenig Schnee. In Rinnen und Mulden in hohen Lagen liegt noch viel Schnee. Die frühlingshaften Wetterbedingungen führten zu einer zunehmenden Durchnässung der Schneedecke. Klare Nacht: Mit tiefen Temperaturen bildet sich eine Oberflächenkruste. Die Schneeoberfläche weicht schon am Vormittag auf."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-23T22:00:00Z",
+        "endTime" : "2026-04-24T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-23"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "SW", "NW", "NE", "E", "S", "N", "W" ]
+    } ],
+    "bulletinID" : "79e7869a-19b6-4ff8-9adf-347bdd8f1f82",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "de",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
