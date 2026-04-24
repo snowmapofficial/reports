@@ -1,0 +1,67 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-23T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-23T22:00:00Z",
+      "endTime" : "2026-04-24T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Attenzione alla neve bagnata e a quella slittante.",
+      "comment" : "Principalmente dai bacini di alimentazione non ancora scaricati, a tutte le esposizioni sono ancora possibili valanghe per scivolamento di neve e colate bagnate di medie dimensioni."
+    },
+    "snowpackStructure" : {
+      "comment" : "Al di sotto dei 1800 m circa è presente poca neve. Nelle conche e nei canaloni ad alta quota c'è tuttora molta neve. Le condizioni meteo primaverili hanno causato un progressivo impregnamento del manto nevoso."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-24T22:00:00Z",
+        "endTime" : "2026-04-25T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-24"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "E", "NW", "NE", "W", "SE", "SW", "S", "N" ]
+    } ],
+    "bulletinID" : "7f31a188-0400-4ed6-be24-36a016a2ed04",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  } ]
+}
