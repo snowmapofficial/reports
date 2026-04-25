@@ -1,0 +1,106 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-24T22:00:00Z",
+      "endTime" : "2026-04-25T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Le danger d'avalanches humides et mouillées augmente en cours de journée.",
+      "comment" : "La surface de la neige est gelée et porteuse et se ramollit en cours de journée. <br/> Avec le réchauffement diurne et le rayonnement solaire le danger d'avalanches augmente progressivement en cours de journée. Des avalanches et coulées mouillées sont possibles, également de taille moyenne. Ceci surtout sur les pentes très raides exposées au nord en dessous d'environ 2500 m et sur les pentes très raides exposées à l'est, au sud et à l'ouest en dessous d'environ 2900 m. <br/> En haute montagne le danger d'avalanches humides et mouillées augmente au sein du degré de danger. <br/> Les randonnées et montées en refuge devraient être commencées tôt et terminées à temps. <br/> Sur la surface de neige dure il existe en terrain raide un risque de chute."
+    },
+    "snowpackStructure" : {
+      "comment" : "Avec les fortes variations de température le manteau neigeux s'est solidifié. Ceci surtout sur les pentes raides ensoleillées à haute altitude et à toutes les expositions à moyenne altitude. Le manteau neigeux est assez homogène, avec une croûte de regel à la surface. Ceci surtout le matin. <br/> Le soleil et la chaleur entraînent en cours de journée une humidification croissante du manteau neigeux. <br/> En dessous d'environ 2200 m il n'y a que peu de neige sur les pentes exposées au sud."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-25T22:00:00Z",
+        "endTime" : "2026-04-26T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SW", "NE", "SE", "W", "E", "NW", "N" ]
+    } ],
+    "bulletinID" : "15dad802-09ec-4942-a2e1-1d57c6c13847",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2900"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  } ]
+}
