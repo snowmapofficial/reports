@@ -1,0 +1,109 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-24T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-24T22:00:00Z",
+      "endTime" : "2026-04-25T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Augmentation du danger d'avalanches mouillées en matinée.",
+      "comment" : "Avec le réchauffement diurne et le rayonnement solaire le danger d'avalanches mouillées augmente en cours de journée. Des avalanches mouillées peuvent de manière isolée être déclenchées par un seul amateur de sports d'hiver. Ceci sur les pentes très raides à l'ombre en dessous d'environ 2800 m comme sur les pentes très raides ensoleillées en altitude. <br/> <br/> Quelques endroits dangereux pour les avalanches sèches se situent sur les pentes très raides à l'ombre au-dessus d'environ 2500 m. Ce sont spécialement les transitions entre les endroits peu enneigés et les endroits très enneigés qui sont défavorables. Les endroits dangereux sont difficilement identifiables."
+    },
+    "snowpackStructure" : {
+      "comment" : "Le rayonnement nocturne est assez bon. La surface de la neige regèle et devient porteuse et se ramollit en cours de journée. Le soleil et la chaleur entraînent à moyenne et haute altitude une humidification progressive du manteau neigeux. <br/> <br/> Sur les pentes à l'ombre au-dessus d'environ 2500 m: Dans la partie inférieure du manteau neigeux ancien des couches fragiles ayant subi une métamorphose constructive à grains anguleux sont présentes en altitude. <br/> <br/> Surtout dans les Préalpes ainsi qu'en dessous d'environ 1800 m il y a très peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le rayonnement nocturne est assez bon. Le danger d'avalanches mouillées augmente un peu en cours de journée.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-25T22:00:00Z",
+        "endTime" : "2026-04-26T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-25"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "SW", "NE", "SE", "E", "W", "NW", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NE", "NW", "N" ]
+    } ],
+    "bulletinID" : "7e3c8834-654e-4092-82ca-5b058e845fdb",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
