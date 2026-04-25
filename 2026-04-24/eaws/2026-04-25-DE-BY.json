@@ -1,0 +1,234 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk rises to moderate during the day changes above 1800 m, otherwise it is low. Where there is still snow, wet snow is problematic. On very steep slopes with smooth ground, such as on meadow slopes or rock slabs, gliding avalanches can occur. If the crust is softened in the sun, wet loose snow avalanches can detach themselves in extremely steep terrain. At higher altitudes, avalanches occasionally reach medium size.",
+        "highlights": "Firn tours have to be finished early: In the sun, the snowpack is completely soaked by late morning."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "W",
+            "N",
+            "NE",
+            "E"
+          ],
+          "elevation": {
+            "lowerBound": "1400"
+          },
+          "validTimePeriod": "earlier"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "3eadad9b-0174-42ab-a7f5-1eb222f7f320",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-25"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-24T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface freezes through with the outgoing longwave radiation overnight. It then softens again during the daytime changes in the sun. Otherwise, the snowpack is soaked in many places up to the higher elevations and consists mainly of snowmelt. On north-facing slopes at higher altitudes, there are still layers of faceted crystals deep in the snowpack. Below 1500 metres, there is only a little snow, and the southern slopes are largely bare up to over 2000 metres."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "No change.",
+          "validTime": {
+            "startTime": "2026-04-25T15:00:00+00:00",
+            "endTime": "2026-04-26T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-24T15:00:00+00:00",
+        "endTime": "2026-04-25T15:00:00+00:00"
+      }
+    },
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk is low. Where there is still snow, wet snow is problematic. Occasionally, small gliding avalanches can detach themselves on very steep slopes with smooth ground. In extremely steep terrain, small, wet loose snow avalanches are possible during the day.",
+        "highlights": "The foothills of the Alps are largely free of snow."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "NW",
+            "N",
+            "NE"
+          ],
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "4d11e8f4-44ea-418f-8f7b-08df8ed984dd",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-25"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-24T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-41",
+          "name": "Bavarian Prealps West"
+        },
+        {
+          "regionID": "DE-BY-52",
+          "name": "Chiemgau Alps East"
+        },
+        {
+          "regionID": "DE-BY-51",
+          "name": "Chiemgau Alps West"
+        },
+        {
+          "regionID": "DE-BY-11",
+          "name": "Allg\u00e4u  Prealps"
+        },
+        {
+          "regionID": "DE-BY-43",
+          "name": "Bavarian Prealps East"
+        },
+        {
+          "regionID": "DE-BY-42",
+          "name": "Bavarian Prealps Central"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "At night, a stable melt-freeze crust forms, which softens again during the day in the sun. Where there is still a snowpack, it is patchy, soaked and consists mainly of snowmelt. The southern sides are free of snow."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "No change.",
+          "validTime": {
+            "startTime": "2026-04-25T15:00:00+00:00",
+            "endTime": "2026-04-26T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-24T15:00:00+00:00",
+        "endTime": "2026-04-25T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "In the shade, the snow remains hard and icy. Caution: risk of falling!"
+    }
+  }
+}
