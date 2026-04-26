@@ -1,0 +1,127 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche risk rises to moderate during the day changes above 1800 m, otherwise it is low. Where there is still snow, wet snow is problematic. On very steep slopes with a smooth surface, such as on meadow slopes or rock slabs, small gliding avalanches can occur. If the snow surface is softened in the sun, wet loose snow avalanches can detach themselves in extremely steep terrain, occasionally reaching medium size at higher altitudes.",
+        "highlights": "On the north side, the snow surface remains hard at higher altitudes."
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "E",
+            "W",
+            "NE",
+            "N"
+          ],
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "bulletinID": "aa1496c1-dfa8-4dbd-a6b2-fb90b847e214",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-26"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "earlier"
+        },
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "1800"
+          },
+          "validTimePeriod": "later"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "validTimePeriod": "later"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-25T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "DE-BY-30",
+          "name": "Werdenfels Alps"
+        },
+        {
+          "regionID": "DE-BY-60",
+          "name": "Berchtesgaden Alps"
+        },
+        {
+          "regionID": "DE-BY-12",
+          "name": "Allg\u00e4u  Alps Central"
+        },
+        {
+          "regionID": "DE-BY-20",
+          "name": "Ammergau Alps North"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The snow surface freezes through with the outgoing longwave radiation overnight. It then softens again during the daytime changes in the sun. Otherwise, the snowpack is soaked in many places up to the higher elevations and consists mainly of snowmelt. On north-facing slopes at higher altitudes, there are still layers of faceted crystals deep in the snowpack. Below 1500 metres, there is only a little snow, and the southern slopes are largely bare up to over 2000 metres."
+      },
+      "source": {
+        "provider": {
+          "name": "LWD Bayern",
+          "website": "https://lawinenwarndienst.bayern.de/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Little change. The preparation of daily avalanche bulletins will be discontinued from Monday.",
+          "validTime": {
+            "startTime": "2026-04-26T15:00:00+00:00",
+            "endTime": "2026-04-27T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-25T15:00:00+00:00",
+        "endTime": "2026-04-26T15:00:00+00:00"
+      }
+    }
+  ],
+  "customData": {
+    "ALBINA": {
+      "generalHeadline": "Spring conditions: set off early and be back early!"
+    }
+  }
+}
