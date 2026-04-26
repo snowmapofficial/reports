@@ -1,0 +1,82 @@
+<bulletins xmlns="http://caaml.org/Schemas/V6.0/Profiles/BulletinEAWS">
+  <bulletin bulletinID="04ff7799-fed0-4b3d-a340-27938775f526" lang="fr">
+    <publicationTime>2026-04-25T15:00:00Z</publicationTime>
+    <validTime>
+      <startTime>2026-04-25T22:00:00Z</startTime>
+      <endTime>2026-04-26T22:00:00Z</endTime>
+    </validTime>
+    <unscheduled>false</unscheduled>
+    <region regionID="IT-57-AP-01">
+      <name>Monti Sibillini Ovest</name>
+    </region>
+    <region regionID="IT-57-MC-01">
+      <name>Appennino Fabrianese</name>
+    </region>
+    <dangerRating>
+      <mainValue>low</mainValue>
+      <elevation uom="m">
+        <upperBound>1800</upperBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <dangerRating>
+      <mainValue>moderate</mainValue>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <validTimePeriod>all_day</validTimePeriod>
+    </dangerRating>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>NE</aspect>
+      <aspect>E</aspect>
+      <aspect>N</aspect>
+      <aspect>W</aspect>
+      <aspect>NW</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>2</avalancheSize>
+    </avalancheProblem>
+    <avalancheProblem>
+      <problemType>wet_snow</problemType>
+      <elevation uom="m">
+        <lowerBound>1800</lowerBound>
+      </elevation>
+      <aspect>SE</aspect>
+      <aspect>SW</aspect>
+      <aspect>S</aspect>
+      <validTimePeriod>all_day</validTimePeriod>
+      <snowpackStability>very_poor</snowpackStability>
+      <frequency>few</frequency>
+      <avalancheSize>1</avalancheSize>
+    </avalancheProblem>
+    <weatherForecast/>
+    <avalancheActivity>
+      <highlights>Attention à la neige mouillée et glissante.</highlights>
+      <comment>Spécialement à partir des zones de départ pas encore déchargées des avalanches de glissement et coulées mouillées de moyenne taille sont toujours possibles surtout sur les pentes exposées à l'est en passant par le nord à ouest.</comment>
+    </avalancheActivity>
+    <snowpackStructure>
+      <comment>En dessous d'environ 1800 m il n'y a que peu de neige. Dans les combes et couloirs à haute altitude on observe encore beaucoup de neige. Les conditions météorologiques printanières ont entraîné un tassement net du manteau neigeux. Les randonnées devraient être commencées et terminées tôt.</comment>
+    </snowpackStructure>
+    <travelAdvisory/>
+    <tendency>
+      <tendencyType>steady</tendencyType>
+      <validTime>
+        <startTime>2026-04-26T22:00:00Z</startTime>
+        <endTime>2026-04-27T22:00:00Z</endTime>
+      </validTime>
+    </tendency>
+    <customData>
+      <ALBINA>
+        <mainDate>2026-04-26</mainDate>
+      </ALBINA>
+      <LWD_Tyrol>
+        <dangerPatterns>DP10</dangerPatterns>
+      </LWD_Tyrol>
+    </customData>
+  </bulletin>
+</bulletins>
