@@ -1,0 +1,211 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-26T15:00:00Z",
+      "endTime" : "2026-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Clouds will pass through on Sunday evening, but it will be clear again by midnight at the latest.\nOn Monday, the sun will shine in the morning with good visibility. In the afternoon, clouds will pass through and a few cumulus clouds will form, which may affect the sunshine and visibility. It will remain largely dry. The wind will freshen during the day and blow moderately from the north. At 2000 m 3 to 8 degrees, at 3000 m around -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Daytime increase in the danger of wet avalanches.",
+      "comment" : "The avalanche danger increases from low to moderate during the daytime changes below 2800 metres.\nIn a few places in the terrain, wet avalanches can be triggered by winter sports. This is particularly the case in very steep terrain below around 2800 m, where there is still a lot of snow. In wet snow, avalanches can tear through to the ground, reach medium size and, if the terrain is unfavourable, advance into the green.\nAbove around 2400 m, there are isolated avalanche prone locations in the extended northern sector where slab avalanches can be triggered in persistent weak layers. Take care at the steep transitions from little to more snow."
+    },
+    "snowpackStructure" : {
+      "comment" : "The melt-freeze crust in the morning slowly softens during the day. The snowpack underneath consists of compact snow characterised by rain up to high altitudes. On shady slopes above around 2400 metres, there are still weak layers of angular forms and deep rime in the old snowpack close to the ground. Low altitudes and sunny slopes at medium altitudes are snowed out."
+    },
+    "tendency" : [ {
+      "highlights" : "More clouds in the following two nights - wet snow problem sets in earlier. Clear nights again towards the end of the week.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-27T15:00:00Z",
+        "endTime" : "2026-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "earlier",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "E", "SE", "S", "SW", "W", "NE", "N" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "NE", "N" ]
+    } ],
+    "bulletinID" : "b2e3421b-1c5e-4cf8-8515-1cf75a397045",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Venedigergruppe North",
+      "regionID" : "AT-05-11"
+    }, {
+      "name" : "Glocknergruppe North",
+      "regionID" : "AT-05-10"
+    }, {
+      "name" : "Großvenedigergruppe Central",
+      "regionID" : "AT-05-07"
+    }, {
+      "name" : "Glocknergruppe Central",
+      "regionID" : "AT-05-06"
+    }, {
+      "name" : "Goldberggruppe Central",
+      "regionID" : "AT-05-05"
+    }, {
+      "name" : "Weisseck, Muhr",
+      "regionID" : "AT-05-03"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-26T15:00:00Z",
+      "endTime" : "2026-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : {
+      "comment" : "Clouds will pass through on Sunday evening, but it will be clear again by midnight at the latest.\nOn Monday, the sun will shine in the morning with good visibility. In the afternoon, clouds will pass through and a few cumulus clouds will form, which may affect the sunshine and visibility. It will remain largely dry. The wind will freshen during the day and blow moderately from the north. At 2000 m 3 to 8 degrees, at 3000 m around -2 degrees."
+    },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger, watch out for wet snow.",
+      "comment" : "The avalanche risk is low and increases slightly as the day warms up. Wet avalanches can only occasionally be triggered by winter sports. This is in particular where there is still a lot of snow, i.e. mainly on very steep shady slopes at high altitudes and in some cases on eastern and western slopes. The avalanches usually remain small, but can tear through to the ground in wet snow, occasionally reach medium size and, if the terrain is unfavourable, advance into the green."
+    },
+    "snowpackStructure" : {
+      "comment" : "The morning melt-freeze crust slowly softens during the day. The snowpack underneath consists of compact snow characterised by rain. On shady slopes from around 2400 metres, there are weak layers of deep rime in the old snowpack close to the ground. The snowpack is moist to wet up to high altitudes. Low altitudes and sunny slopes at medium altitudes are covered in snow."
+    },
+    "tendency" : [ {
+      "highlights" : "More clouds in the following two nights - wet snow problem sets in earlier. Clear nights again towards the end of the week.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-27T15:00:00Z",
+        "endTime" : "2026-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "slab"
+        }
+      },
+      "aspects" : [ "NW", "W", "N", "NE", "E" ]
+    } ],
+    "bulletinID" : "c2caa25d-875e-4d05-90b2-5350aba99010",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Goldberggruppe North",
+      "regionID" : "AT-05-09"
+    }, {
+      "name" : "Niedere Tauern North",
+      "regionID" : "AT-05-08"
+    }, {
+      "name" : "Osterhorngruppe, Gamsfeldgruppe",
+      "regionID" : "AT-05-19"
+    }, {
+      "name" : "Loferer and Leoganger Steinberge",
+      "regionID" : "AT-05-18"
+    }, {
+      "name" : "Steinernes Meer, Hochkönig, Hagengebirge, Göllstock",
+      "regionID" : "AT-05-17"
+    }, {
+      "name" : "Tennengebirge, Gosaukamm",
+      "regionID" : "AT-05-16"
+    }, {
+      "name" : "Niedere Tauern Alpenhauptkamm",
+      "regionID" : "AT-05-04"
+    }, {
+      "name" : "Kitzbühel Alps Oberpinzgau",
+      "regionID" : "AT-05-15"
+    }, {
+      "name" : "Kitzbühel Alps Glemmtal",
+      "regionID" : "AT-05-14"
+    }, {
+      "name" : "Niedere Tauern South",
+      "regionID" : "AT-05-02"
+    }, {
+      "name" : "Dientner Grasberge",
+      "regionID" : "AT-05-13"
+    }, {
+      "name" : "Nockberge",
+      "regionID" : "AT-05-01"
+    }, {
+      "name" : "Pongauer Grasberge",
+      "regionID" : "AT-05-12"
+    }, {
+      "name" : "Chiemgau Alps South",
+      "regionID" : "AT-05-21"
+    }, {
+      "name" : "Untersbergstock",
+      "regionID" : "AT-05-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "Slight increase in the danger of wet avalanches during the day changes"
+    }
+  }
+}
