@@ -1,0 +1,74 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-26T15:00:00Z",
+      "endTime" : "2026-04-27T15:00:00Z"
+    },
+    "unscheduled" : false,
+    "source" : {
+      "person" : {
+        "name" : "Avalanche Service Bavaria"
+      }
+    },
+    "avalancheActivity" : {
+      "highlights" : "The snow surface remains hard in the shade: be aware of the risk of falling!",
+      "comment" : "The avalanche risk is low. It increases slightly during the daytime changes. Where there is still snow, wet snow can become problematic as the day warms up, especially in the sun. On steep slopes with a smooth surface, such as on meadow slopes or rock slabs, wet gliding avalanches can occasionally occur. In extremely steep terrain, wet loose snow avalanches can detach themselves. Avalanches usually remain small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Overnight outgoing longwave radiation causes the snow surface to freeze solid. During the day, it softens again quickly in the sun and remains hard in the shade at higher altitudes. Up to high altitudes, the snowpack consists mainly of snowmelt. On north-facing slopes at higher altitudes, there are still dry layers of faceted crystals deep in the snowpack in snow-rich areas. There is little snow below 1500 metres. The south-facing slopes are bare right up to the higher altitudes."
+    },
+    "tendency" : [ {
+      "highlights" : "Avalanche danger remains low.",
+      "validTime" : {
+        "startTime" : "2026-04-27T15:00:00Z",
+        "endTime" : "2026-04-28T15:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1500"
+      },
+      "validTimePeriod" : "all_day",
+      "customData" : {
+        "ALBINA" : {
+          "avalancheType" : "loose"
+        }
+      },
+      "aspects" : [ "NW", "W", "N", "NE", "E" ]
+    } ],
+    "bulletinID" : "1f032e9c-68f4-47dd-b1e3-0d5145e37159",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Werdenfels Alps",
+      "regionID" : "DE-BY-30"
+    }, {
+      "name" : "Berchtesgaden Alps",
+      "regionID" : "DE-BY-60"
+    }, {
+      "name" : "Allgäu  Alps Central",
+      "regionID" : "DE-BY-12"
+    }, {
+      "name" : "Ammergau Alps North",
+      "regionID" : "DE-BY-20"
+    } ]
+  } ],
+  "customData" : {
+    "ALBINA" : {
+      "generalHeadline" : "The last avalanche bulletin of the season:"
+    }
+  }
+}
