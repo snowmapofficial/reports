@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-26T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-26T22:00:00Z",
+      "endTime" : "2026-04-27T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Le danger d'avalanches mouillées est déjà élevé le matin.",
+      "comment" : "Avec le réchauffement diurne et le rayonnement solaire le danger d'avalanches mouillées augmente à partir du matin. Des avalanches mouillées peuvent de manière isolée être déclenchées par un seul amateur de sports d'hiver. Ceci sur les pentes très raides à l'ombre en dessous d'environ 2800 m comme sur les pentes très raides ensoleillées en altitude. <br/> <br/> Quelques endroits dangereux pour les avalanches sèches se situent sur les pentes très raides à l'ombre au-dessus d'environ 2500 m. Ce sont spécialement les transitions entre les endroits peu enneigés et les endroits très enneigés qui sont défavorables. Les endroits dangereux sont difficilement identifiables."
+    },
+    "snowpackStructure" : {
+      "comment" : "La surface de la neige ne regèle assez pour être porteuse qu'en haute altitude et se ramollit rapidement. Le soleil et la chaleur entraînent à moyenne et haute altitude une humidification rapide du manteau neigeux. <br/> <br/> Sur les pentes à l'ombre au-dessus d'environ 2500 m: Dans la partie inférieure du manteau neigeux ancien des couches fragiles ayant subi une métamorphose constructive à grains anguleux sont présentes en altitude. <br/> <br/> Surtout dans les Préalpes ainsi qu'en dessous d'environ 1800 m il y a très peu de neige. Il tombe localement peu de neige."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Le rayonnement nocturne est réduit. Le danger d'avalanches mouillées est déjà élevé le matin. Il tombe localement au-dessus d'environ 2500 m de 5 à 15 cm de neige.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-27T22:00:00Z",
+        "endTime" : "2026-04-28T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-27"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "S", "W", "NW", "SW", "N", "SE", "E", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "c516a8c3-a22d-40e6-a8c6-34d2348b308c",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "fr",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
