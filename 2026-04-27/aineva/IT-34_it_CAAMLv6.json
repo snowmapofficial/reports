@@ -1,0 +1,83 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "Il pericolo di valanghe bagnate e per scivolamento di neve aumenterà senza passare di grado. Anche durante la mattinata saranno previste isolate, poi con l'intensificarsi delle precipitazioni sempre più numerose valanghe bagnate."
+    },
+    "snowpackStructure" : {
+      "comment" : "Con il netto rialzo termico e la pioggia fino ad alta quota, si formerà una situazione valanghiva insidiosa. La pioggia causerà a tutte le esposizioni un progressivo impregnamento del manto nevoso. Queste condizioni causeranno un veloce indebolimento del manto nevoso. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "cc31e5e6-c33d-480f-ac9b-6f611352c363",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
