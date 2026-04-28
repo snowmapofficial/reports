@@ -1,0 +1,183 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of wet avalanches in the course of the day.",
+      "comment" : "As a consequence of new snow and wind, wind slabs will form in particular in high Alpine regions. On very steep slopes the moist avalanches can be released naturally and reach medium size in isolated cases. As a consequence of warming there will be an increase in the avalanche danger. <br/> Individual avalanche prone locations are to be found on very steep shady slopes above approximately 2500 m. Avalanches can be released, mostly by large loads and reach medium size. In very isolated cases these can penetrate down to the ground and reach large size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will only just freeze and will soften quickly. In some regions 5 to 15 cm of snow will fall above approximately 2400 m. The spring-like weather conditions will give rise to rapid moistening of the snowpack below approximately 2800 m. <br/> Steep west, north and east facing slopes above approximately 2500 m: Faceted weak layers exist in the bottom section of the old snowpack. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "During the day: The avalanche danger will increase but remain within the current danger level.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "S", "NE", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "N", "E", "NE" ]
+    } ],
+    "bulletinID" : "f2ba95f2-35e8-4d0b-a970-7b7d42027137",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Southern Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Northern Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Fassa Valley",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Southern Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Sole, Pejo and Rabbi",
+      "regionID" : "IT-32-TN-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger will prevail.",
+      "comment" : "From origins in starting zones where no previous releases have taken place only isolated wet avalanches are possible. Caution is to be exercised on extremely steep shady slopes. Mostly avalanches are rather small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Little snow will fall in some regions. Outgoing longwave radiation during the night will be reduced over a wide area. The surface of the snowpack has frozen to form a strong crust only at high altitudes and will soften quickly."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Low avalanche danger will prevail.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "none",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "S", "NE", "SE" ]
+    } ],
+    "bulletinID" : "1c47ff56-9c23-495e-a69c-6472dbaab26d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Southern Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Northern Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  } ]
+}
