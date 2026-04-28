@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-04-27T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="99f4811a-57f9-43b4-8069-8f0e4cc23a18" xml:lang="fr">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-04-27T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-04-27T22:00:00Z</beginPosition>
+          <endPosition>2026-04-28T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Hi"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2500Lw"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP3</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validElevation xlink:href="ElevationRange_2500Lw"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-04-28T22:00:00Z</beginPosition>
+                <endPosition>2026-04-29T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Des avalanches humides et mouillées sont le danger principal.</avActivityHighlights>
+          <avActivityComment>La surface de la neige est regelée sur une faible épaisseur et se ramollit rapidement. &lt;br/&gt; Des avalanches et coulées mouillées sont possibles, également de taille moyenne. Ceci surtout à toutes les expositions en dessous d'environ 2500 m. &lt;br/&gt; En haute montagne le danger d'avalanches humides et mouillées augmente au sein du degré de danger. &lt;br/&gt; A ces endroits il existe en terrain raide un risque de chute. &lt;br/&gt; À partir de midi il tombera de la pluie jusqu'à 2500 m.</avActivityComment>
+          <snowpackStructureComment>Avec les fortes variations de température le manteau neigeux s'est solidifié. Ceci surtout sur les pentes raides ensoleillées à haute altitude et à toutes les expositions à moyenne altitude. Le manteau neigeux est assez homogène, avec une croûte de regel à la surface. Ceci surtout le matin. &lt;br/&gt; Les conditions météorologiques entraînent en cours de journée une humidification rapide du manteau neigeux. &lt;br/&gt; En dessous d'environ 2400 m il n'y a que peu de neige sur les pentes exposées au sud.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
