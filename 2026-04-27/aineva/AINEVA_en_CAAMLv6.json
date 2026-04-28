@@ -1,0 +1,983 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches are the main danger.",
+      "comment" : "Tuesday: The weather will be cloudy. A mostly overcast night: Outgoing longwave radiation during the night will be severely restricted. The surface of the snowpack will only just freeze and will already be soft in the early morning. <br/> In the afternoon as a consequence of the precipitation there will be an increase in the avalanche danger within the current danger level. The sleet will give rise as the day progresses to significant moistening of the snowpack in all aspects. Wet snow slides and avalanches are possible, even quite large ones. <br/> This applies in particular on very steep north facing slopes below approximately 2600 m, and on very steep east, south and west facing slopes at elevated altitudes. <br/> In the regions exposed to heavier precipitation the likelihood of moist and wet avalanches will increase during the day."
+    },
+    "snowpackStructure" : {
+      "comment" : "Above approximately 2300 m snow will fall on Tuesday over a wide area. <br/> In the last few days the weather was mild. This situation gave rise to increasing moistening of the snowpack below approximately 2700 m. <br/> As a consequence of highly fluctuating temperatures the snowpack consolidated. This applies in particular on steep sunny slopes at high altitude, and in all aspects at intermediate altitudes. The snowpack is fairly homogeneous and its surface has a strong crust. <br/> Hardly any more avalanches were reported. <br/> The amount of snow is subject to significant local variations. <br/> Especially on sunny slopes below the tree line no snow is lying. On shady slopes below the tree line hardly any snow is lying. <br/> Especially on the colder slopes above the treeline, in the valley basins and headlands that have been less affected by stormy winds in recent weeks, there is excellent snow cover. <br/> Weak layers exist in the bottom section of the snowpack in particular at high altitudes and in high Alpine regions."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Wednesday: The weather will be cloudy. Outgoing longwave radiation during the night will be reduced. The surface of the snowpack will cool hardly at all during the overcast night.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "3200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "SW", "W", "E", "S", "SE" ]
+    } ],
+    "bulletinID" : "48d80424-caee-4750-a6dd-7da9cb7ecfb6",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "comment" : "The danger of wet and gliding avalanches will increase but remain within the current danger level. During the morning as well, individual, then as the precipitation becomes heavier more wet avalanches are to be expected."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of sharply rising temperatures and rain up to high altitudes a treacherous avalanche situation will develop. The rain will give rise to increasing and thorough wetting of the snowpack in all aspects. These conditions will cause a rapid weakening of the snowpack. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "cc31e5e6-c33d-480f-ac9b-6f611352c363",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Light precipitation: The weather conditions will give rise to thorough wetting of the snowpack.",
+      "comment" : "The avalanche prone locations are to be found in particular at the base of rock walls, and in gullies and bowls. Individual wet and gliding avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "Snow cover is absent or patchy in many areas, especially on southern slopes. Due to the temperatures, the snowpack is steadily decreasing. The weather conditions will give rise to thorough wetting of the snowpack. In very isolated cases weak layers exist in the snowpack on shady slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Light precipitation. Outgoing longwave radiation during the night will be severely restricted.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "SW", "N", "E", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "ac6e7074-dec3-4fc9-8bd2-e53e09c0136f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "PRALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-PN-02"
+    }, {
+      "name" : "PREALPI GIULIE",
+      "regionID" : "IT-36-UD-05"
+    }, {
+      "name" : "PREALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-PN-01"
+    }, {
+      "name" : "CANIN",
+      "regionID" : "IT-36-UD-04"
+    }, {
+      "name" : "ALPI GIULIE SENZA CANIN",
+      "regionID" : "IT-36-UD-03"
+    }, {
+      "name" : "ALPI CARNICHE ORIENTALI",
+      "regionID" : "IT-36-UD-02"
+    }, {
+      "name" : "ALPI CARNICHE OCCIDENTALI",
+      "regionID" : "IT-36-UD-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Increase in danger of wet avalanches in the course of the day.",
+      "comment" : "As a consequence of new snow and wind, wind slabs will form in particular in high Alpine regions. On very steep slopes the moist avalanches can be released naturally and reach medium size in isolated cases. As a consequence of warming there will be an increase in the avalanche danger. <br/> Individual avalanche prone locations are to be found on very steep shady slopes above approximately 2500 m. Avalanches can be released, mostly by large loads and reach medium size. In very isolated cases these can penetrate down to the ground and reach large size."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will only just freeze and will soften quickly. In some regions 5 to 15 cm of snow will fall above approximately 2400 m. The spring-like weather conditions will give rise to rapid moistening of the snowpack below approximately 2800 m. <br/> Steep west, north and east facing slopes above approximately 2500 m: Faceted weak layers exist in the bottom section of the old snowpack. <br/>"
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "During the day: The avalanche danger will increase but remain within the current danger level.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "S", "NE", "SE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "N", "E", "NE" ]
+    } ],
+    "bulletinID" : "f2ba95f2-35e8-4d0b-a970-7b7d42027137",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Primiero - Pale di S. Martino",
+      "regionID" : "IT-32-TN-13"
+    }, {
+      "name" : "Southern Adamello",
+      "regionID" : "IT-32-TN-02"
+    }, {
+      "name" : "Adamello - Presanella",
+      "regionID" : "IT-32-TN-01"
+    }, {
+      "name" : "Northern Brenta - Peller",
+      "regionID" : "IT-32-TN-04"
+    }, {
+      "name" : "Fassa Valley",
+      "regionID" : "IT-32-TN-16"
+    }, {
+      "name" : "Southern Brenta",
+      "regionID" : "IT-32-TN-05"
+    }, {
+      "name" : "Sole, Pejo and Rabbi",
+      "regionID" : "IT-32-TN-19"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution.",
+      "comment" : "Wet avalanches can in isolated cases be released by a single winter sport participant. This applies especially below approximately 2600 m. <br/> <br/> As a consequence of new snow and a moderate wind, clearly visible wind slabs will form in particular in high Alpine regions. These are small and can only be released in isolated cases. <br/> <br/> Weak layers in the old snowpack can be released in isolated cases and mostly by large additional loads in particular on very steep shady slopes, in particular above approximately 2500 m."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation during the night will be severely restricted at times. The surface of the snowpack will freeze very little and will soften quickly. Some rain will fall in the afternoon in some regions. <br/> <br/> Shady slopes above approximately 2500 m: Faceted weak layers exist in the bottom section of the old snowpack at elevated altitudes. <br/> <br/> On steep sunny slopes as well as below approximately 1800 m hardly any snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Up to 2600 m rain will fall in some regions. The danger of wet avalanches will already exist in the early morning.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "S", "NE", "SE" ]
+    } ],
+    "bulletinID" : "52b748f2-4292-46aa-ba57-628e38d5b663",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2600"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Gröden Dolomites",
+      "regionID" : "IT-32-BZ-18-02"
+    }, {
+      "name" : "Lüsner Mountains",
+      "regionID" : "IT-32-BZ-18-01"
+    }, {
+      "name" : "Sexten Dolomites",
+      "regionID" : "IT-32-BZ-20"
+    }, {
+      "name" : "Upper Ahr Valley",
+      "regionID" : "IT-32-BZ-05-03"
+    }, {
+      "name" : "Southern Zillertal Alps",
+      "regionID" : "IT-32-BZ-05-02"
+    }, {
+      "name" : "Pfitsch",
+      "regionID" : "IT-32-BZ-05-01"
+    }, {
+      "name" : "Southern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-02"
+    }, {
+      "name" : "Schnals Ridge",
+      "regionID" : "IT-32-BZ-03"
+    }, {
+      "name" : "Northern Sesvenna Group",
+      "regionID" : "IT-32-BZ-01-01"
+    }, {
+      "name" : "Saldurn-Mastaun Ridge",
+      "regionID" : "IT-32-BZ-06"
+    }, {
+      "name" : "Hirzer Range",
+      "regionID" : "IT-32-BZ-08-01"
+    }, {
+      "name" : "Western Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-09"
+    }, {
+      "name" : "Mount Saint Jakob Range",
+      "regionID" : "IT-32-BZ-08-02"
+    }, {
+      "name" : "Eastern Pfunderer Mountains",
+      "regionID" : "IT-32-BZ-10"
+    }, {
+      "name" : "Ratschings",
+      "regionID" : "IT-32-BZ-04-02"
+    }, {
+      "name" : "Durreck Range",
+      "regionID" : "IT-32-BZ-11"
+    }, {
+      "name" : "Langtaufers",
+      "regionID" : "IT-32-BZ-02-01"
+    }, {
+      "name" : "Southern Stubai Alps",
+      "regionID" : "IT-32-BZ-04-01"
+    }, {
+      "name" : "Rieserferner Mountains",
+      "regionID" : "IT-32-BZ-12"
+    }, {
+      "name" : "Western Deferegger Alps",
+      "regionID" : "IT-32-BZ-13"
+    }, {
+      "name" : "Ortler Range",
+      "regionID" : "IT-32-BZ-14"
+    }, {
+      "name" : "Ulten Valley",
+      "regionID" : "IT-32-BZ-15"
+    }, {
+      "name" : "Planeil Mountains",
+      "regionID" : "IT-32-BZ-02-02"
+    }, {
+      "name" : "Prags Dolomites",
+      "regionID" : "IT-32-BZ-19"
+    }, {
+      "name" : "Upper Passeier Valley",
+      "regionID" : "IT-32-BZ-07-01"
+    }, {
+      "name" : "Texel Mountains",
+      "regionID" : "IT-32-BZ-07-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Moist and wet avalanches are the main danger.",
+      "comment" : "The surface of the snowpack is frozen, but not to a significant depth and will soften quickly. <br/> Wet snow slides and avalanches are possible, even medium-sized ones. This applies in particular in all aspects below approximately 2500 m. <br/> In high Alpine regions there will be an increase in the danger of moist and wet avalanches within the current danger level. <br/> In steep terrain there is a danger of falling here. <br/> Up to 2500 m rain will fall from midday."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of highly fluctuating temperatures the snowpack consolidated. This applies in particular on steep sunny slopes at high altitude, and in all aspects at intermediate altitudes. The snowpack is fairly homogeneous and its surface has a melt-freeze crust. This applies in particular in the early morning. <br/> The weather conditions as the day progresses will give rise to rapid moistening of the snowpack. <br/> Below approximately 2400 m only a little snow is lying on south facing slopes."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "99f4811a-57f9-43b4-8069-8f0e4cc23a18",
+    "dangerRatings" : [ {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "upperBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpi Lepontine Sud",
+      "regionID" : "IT-21-VB-03"
+    }, {
+      "name" : "Alpi Cozie Sud di confine",
+      "regionID" : "IT-21-CN-01"
+    }, {
+      "name" : "Alpi Graie di confine",
+      "regionID" : "IT-21-TO-01"
+    }, {
+      "name" : "Alpi Marittime Orientali",
+      "regionID" : "IT-21-CN-04"
+    }, {
+      "name" : "Alpi Cozie",
+      "regionID" : "IT-21-TO-04"
+    }, {
+      "name" : "Alpi Liguri",
+      "regionID" : "IT-21-CN-05"
+    }, {
+      "name" : "IT-21-TO-05",
+      "regionID" : "IT-21-TO-05"
+    }, {
+      "name" : "Alpi Marittime Occidentali",
+      "regionID" : "IT-21-CN-02"
+    }, {
+      "name" : "Alpi Cozie Nord di confine",
+      "regionID" : "IT-21-TO-02"
+    }, {
+      "name" : "Alpi Cozie Sud",
+      "regionID" : "IT-21-CN-03"
+    }, {
+      "name" : "Alpi Graie",
+      "regionID" : "IT-21-TO-03"
+    }, {
+      "name" : "Alpi Pennine",
+      "regionID" : "IT-21-VC-01"
+    }, {
+      "name" : "Alpi Pennine di confine",
+      "regionID" : "IT-21-VB-01"
+    }, {
+      "name" : "Alpi Lepontine Nord",
+      "regionID" : "IT-21-VB-02"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The surface of the snowpack has frozen to form a strong crust only at high altitudes and will soften during the day. Faceted weak layers exist in the bottom section of the snowpack on steep shady slopes.",
+      "comment" : "The avalanche prone locations for dry avalanches are to be found on steep shady slopes above approximately 2800 m. <br/> As a consequence of warming during the day and the solar radiation, the likelihood of wet avalanches being released will increase in particular on steep shady slopes below approximately 2800 m. <br/> Medium-sized avalanches are possible."
+    },
+    "snowpackStructure" : {
+      "comment" : "The surface of the snowpack will soften during the day. <br/> Steep shady slopes above approximately 2800 m: Faceted weak layers exist in the bottom section of the old snowpack. <br/> Below approximately 2100 m from a snow sport perspective, in most cases insufficient snow is lying."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP1", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "E", "N", "NE", "S", "SE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2500"
+      },
+      "validTimePeriod" : "earlier",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "N", "NE" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2800"
+      },
+      "validTimePeriod" : "later",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "E", "N", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "77466c73-349a-465b-8fde-51dea8f6edb9",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "earlier"
+    }, {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2400"
+      },
+      "validTimePeriod" : "later"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2400"
+      },
+      "validTimePeriod" : "later"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "RETICHE ORIENTALI",
+      "regionID" : "IT-25-SO-03"
+    }, {
+      "name" : "IT-25-SO-04",
+      "regionID" : "IT-25-SO-04"
+    }, {
+      "name" : "RETICHE OCCIDENTALI",
+      "regionID" : "IT-25-SO-01"
+    }, {
+      "name" : "RETICHE CENTRALI",
+      "regionID" : "IT-25-SO-02"
+    }, {
+      "name" : "ADAMELLO",
+      "regionID" : "IT-25-BS-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet and gliding snow require caution.",
+      "comment" : "In particular in starting zones where no previous releases have taken place more small and, in isolated cases, medium-sized gliding avalanches and wet snow slides are possible especially at high altitude."
+    },
+    "snowpackStructure" : {
+      "comment" : "Below approximately 1800 m only a little snow is lying. In gullies and bowls at high altitude there is still a very large amount of snow. The spring-like weather conditions will give rise to increasing moistening of the snowpack."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "very_poor",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "NE", "S", "SE" ]
+    } ],
+    "bulletinID" : "be95193d-7d0b-4c65-8d32-960cef494148",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Monti Sibillini Ovest",
+      "regionID" : "IT-57-AP-01"
+    }, {
+      "name" : "Appennino Fabrianese",
+      "regionID" : "IT-57-MC-01"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Wet snow requires caution.",
+      "comment" : "Only isolated wet avalanches are possible. Caution is to be exercised on extremely steep shady slopes. Mostly avalanches are rather small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Outgoing longwave radiation during the night will be severely restricted. The surface of the snowpack will freeze very little and will soften quickly. Some rain will fall in the afternoon."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Low avalanche danger will prevail. Wet snow requires caution.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP3", "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ ],
+    "bulletinID" : "d46476ed-edf8-4cbf-9fb9-3dc0e0201056",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Southern Sarntal Alps",
+      "regionID" : "IT-32-BZ-08-03"
+    }, {
+      "name" : "Eastern Nonsberger Alps",
+      "regionID" : "IT-32-BZ-16"
+    }, {
+      "name" : "Northern Dolomites of Fiemme",
+      "regionID" : "IT-32-BZ-17"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Low avalanche danger will prevail.",
+      "comment" : "From origins in starting zones where no previous releases have taken place only isolated wet avalanches are possible. Caution is to be exercised on extremely steep shady slopes. Mostly avalanches are rather small."
+    },
+    "snowpackStructure" : {
+      "comment" : "Little snow will fall in some regions. Outgoing longwave radiation during the night will be reduced over a wide area. The surface of the snowpack has frozen to form a strong crust only at high altitudes and will soften quickly."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Low avalanche danger will prevail.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : { },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "none",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SW", "W", "N", "E", "S", "NE", "SE" ]
+    } ],
+    "bulletinID" : "1c47ff56-9c23-495e-a69c-6472dbaab26d",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Latemar",
+      "regionID" : "IT-32-TN-09"
+    }, {
+      "name" : "Prealps",
+      "regionID" : "IT-32-TN-12"
+    }, {
+      "name" : "Cembra Valley",
+      "regionID" : "IT-32-TN-15"
+    }, {
+      "name" : "Bondone and Stivo",
+      "regionID" : "IT-32-TN-03"
+    }, {
+      "name" : "Vallarsa",
+      "regionID" : "IT-32-TN-14"
+    }, {
+      "name" : "Western Nonsberg Alps",
+      "regionID" : "IT-32-TN-17"
+    }, {
+      "name" : "Folgaria - Laverone",
+      "regionID" : "IT-32-TN-06"
+    }, {
+      "name" : "Southern Lagorai",
+      "regionID" : "IT-32-TN-08"
+    }, {
+      "name" : "Ledro Valley",
+      "regionID" : "IT-32-TN-18"
+    }, {
+      "name" : "Northern Lagorai",
+      "regionID" : "IT-32-TN-07"
+    }, {
+      "name" : "Maddalene",
+      "regionID" : "IT-32-TN-20"
+    }, {
+      "name" : "Paganella",
+      "regionID" : "IT-32-TN-11"
+    }, {
+      "name" : "Marzola - Valsugana",
+      "regionID" : "IT-32-TN-10"
+    }, {
+      "name" : "Pine' - Mocheni Valley",
+      "regionID" : "IT-32-TN-21"
+    } ]
+  }, {
+    "publicationTime" : "2026-04-27T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-27T22:00:00Z",
+      "endTime" : "2026-04-28T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "The surface of the snowpack has frozen to form a strong crust only at high altitudes and will already soften in the late morning.",
+      "comment" : "The surface of the snowpack will only just freeze and will soften during the day. <br/> In isolated cases the avalanches are small."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of mild temperatures the snowpack consolidated. As a consequence of warming during the day there will be an increase in the danger of moist and wet avalanches."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-28T22:00:00Z",
+        "endTime" : "2026-04-29T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2000"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "fair",
+      "frequency" : "few",
+      "avalancheSize" : 1,
+      "aspects" : [ "NW", "N", "NE" ]
+    } ],
+    "bulletinID" : "7f4da655-eafd-499f-b47c-2f3a9678147f",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "OROBIE CENTRALI",
+      "regionID" : "IT-25-BG-01"
+    }, {
+      "name" : "OROBIE OCCIDENTALI",
+      "regionID" : "IT-25-LC-01"
+    } ]
+  } ]
+}
