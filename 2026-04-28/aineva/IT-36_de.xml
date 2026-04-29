@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-04-28T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="161401fb-6d70-4389-aef0-4a869550a8ed" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-04-28T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-04-28T22:00:00Z</beginPosition>
+          <endPosition>2026-04-29T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-36-PN-02"/>
+      <locRef xlink:href="IT-36-UD-05"/>
+      <locRef xlink:href="IT-36-PN-01"/>
+      <locRef xlink:href="IT-36-UD-04"/>
+      <locRef xlink:href="IT-36-UD-03"/>
+      <locRef xlink:href="IT-36-UD-02"/>
+      <locRef xlink:href="IT-36-UD-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2000Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_s"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_se"/>
+              <validAspect xlink:href="AspectRange_sw"/>
+              <validElevation xlink:href="ElevationRange_2000Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>decreasing</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-04-29T22:00:00Z</beginPosition>
+                <endPosition>2026-04-30T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Leichter Niederschlag: Die Wetterbedingungen führen zu einer Durchnässung der Schneedecke.</avActivityHighlights>
+          <avActivityComment>Die Gefahrenstellen liegen vor allem an Felswandfüßen, sowie in Rinnen und Mulden. Es sind einzelne Nass- und Gleitschneelawinen möglich.</avActivityComment>
+          <snowpackStructureComment>Snow cover is absent or patchy in many areas, especially on southern slopes. Due to the temperatures, the snowpack is steadily decreasing. Die Wetterbedingungen führen vor allem in tiefen und mittleren Lagen zu einer Durchnässung der Schneedecke. In der Schneedecke sind an Schattenhängen sehr vereinzelt Schwachschichten vorhanden.</snowpackStructureComment>
+          <tendencyComment>Es ist klar. Die nächtliche Abstrahlung ist recht gut. &lt;br/&gt; Rückgang der Lawinengefahr mit der Abkühlung.</tendencyComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
