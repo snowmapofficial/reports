@@ -1,0 +1,168 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The old snow cover is stable and well connected. In some places, weak layers may still be hidden on the axial sides above the tree line.\nSnow will fall during the night and into Wednesday, accompanied by light winds. The snowfall level will be around 2300 m in the first part of the night, decreasing later. Small to medium-sized avalanches of new fallen snow are possible in the high alpine regions. In the mid-mountains, rain will wet the ground and some small Wet snow avalanches or gliding avalanches may be triggered.",
+        "highlights": "New fallen snow in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "N",
+            "W",
+            "S",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "glide"
+            }
+          },
+          "problemType": "gliding_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "N",
+            "W",
+            "S",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "SW",
+            "SE",
+            "NW",
+            "N",
+            "W",
+            "S",
+            "E",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "1700"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "1ba4921c-a12e-4b4f-a714-3756b532353c",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-29"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP4"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2200"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-28T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "In the high alpine regions, around 20 cm of New fallen snow will fall above altitudes of around 2200 m. Below altitudes of about 1700 m, it will rain partly and snow partly. The old snow cover is well transformed, cohesive and stable."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "Thursday night will be clearer and cooler. The avalanche danger in the high alpine regions will remain similar.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-29T15:00:00+00:00",
+            "endTime": "2026-04-30T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-28T15:00:00+00:00",
+        "endTime": "2026-04-29T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Cloudy and foggy with frequent precipitation, with a snowfall level around 1700 meters above sea level during the day. Mostly light easterly winds. Mid-day temperatures will be around 3 \u00b0C at 1500 m and -2 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
