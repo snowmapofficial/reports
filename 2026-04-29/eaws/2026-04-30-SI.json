@@ -1,0 +1,146 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The old snow cover is stable and well connected. It snowed on Wednesday night and Wednesday, with light winds. The snowfall level was around 2400 m in the first part of the night, and dropped to around 1800 m during the day on Wednesday.\nIn high alpine regions, some small avalanches of New fallen snow are still possible on steeper slopes. During the day, a small avalanche or wet snow avalanche is possible on sunny slopes.",
+        "highlights": "Some new fallen snow in the high alpine regions"
+      },
+      "avalancheProblems": [
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "loose"
+            }
+          },
+          "problemType": "new_snow",
+          "aspects": [
+            "NW",
+            "SE",
+            "S",
+            "N",
+            "E",
+            "SW",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "customData": {
+            "ALBINA": {
+              "avalancheType": "slab"
+            }
+          },
+          "problemType": "wet_snow",
+          "aspects": [
+            "NW",
+            "SE",
+            "S",
+            "N",
+            "E",
+            "SW",
+            "W",
+            "NE"
+          ],
+          "elevation": {
+            "upperBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "e53300c7-c9de-4363-8e1d-25a2084d6fc2",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-04-30"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": [
+            "DP10"
+          ]
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "elevation": {
+            "upperBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        },
+        {
+          "mainValue": "moderate",
+          "elevation": {
+            "lowerBound": "2100"
+          },
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-04-29T15:00:00+00:00",
+      "regions": [
+        {
+          "regionID": "SI-10",
+          "name": "Southern Julian Alps"
+        },
+        {
+          "regionID": "SI-7",
+          "name": "Central Julian Alps"
+        },
+        {
+          "regionID": "SI-8",
+          "name": "Eastern Julian Alps"
+        },
+        {
+          "regionID": "SI-6",
+          "name": "Western Julian Alps"
+        },
+        {
+          "regionID": "SI-3",
+          "name": "Kamnik Alps"
+        },
+        {
+          "regionID": "SI-4",
+          "name": "Savinja Alps and Carinthia"
+        },
+        {
+          "regionID": "SI-1",
+          "name": "Western Karawanks"
+        },
+        {
+          "regionID": "SI-2",
+          "name": "Central Karawanks"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snow cover is well transformed, cohesive and stable. Snow is relatively scarce for this time of year. In high alpine regions, 10-15 cm of new fallen snow has fallen above altitudes of around 2100 m. Most of the snowfall has been quite wet and has somewhat adhered to the old base. Lower down it was partly raining partly snowing, at altitudes below about 1800 m it was mostly raining.\nIt will clear and cool overnight on Thursday, with a frosty snowpack in the high alpine regions in the morning. During the day, the snow will melt again."
+      },
+      "source": {
+        "provider": {
+          "name": "ARSO METEO",
+          "website": "https://meteo.arso.gov.si/met/en/weather/bulletin/mountain/avalanche/bulletin/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "The danger of avalanches in high alpine regions will remain similar. Conditions will be spring-like, with snow freezing in the morning and then thawing and melting overnight. It will gradually warm up.",
+          "tendencyType": "steady",
+          "validTime": {
+            "startTime": "2026-04-30T15:00:00+00:00",
+            "endTime": "2026-05-01T15:00:00+00:00"
+          }
+        }
+      ],
+      "unscheduled": false,
+      "validTime": {
+        "startTime": "2026-04-29T15:00:00+00:00",
+        "endTime": "2026-04-30T15:00:00+00:00"
+      },
+      "weatherForecast": {
+        "comment": "Sunny weather, mainly moderate north-easterly winds. Mid-day temperatures will be around 4 \u00b0C at 1500 m and -5 \u00b0C at 2500 m."
+      }
+    }
+  ]
+}
