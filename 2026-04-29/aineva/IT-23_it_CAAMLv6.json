@@ -1,0 +1,152 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-04-29T15:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-04-29T22:00:00Z",
+      "endTime" : "2026-04-30T22:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "A livello locale, è caduta neve al di sopra dei 2800 m circa. La principale fonte di pericolo è costituita da valanghe umide e bagnate.",
+      "comment" : "Attualmente il servizio di previsione valanghe dispone di informazioni limitate. Il pericolo di valanghe dovrebbe quindi essere valutato con particolare attenzione sul posto. <br/> La pioggia mista a neve ha causato a tutte le esposizioni al di sotto dei 2800 m circa un netto inumidimento del manto nevoso. <br/> La superficie del manto nevoso riuscirà a rigelarsi e a essere portante solo ad alta quota e si ammorbidirà nel corso della giornata. Il tempo sarà in parte nuvoloso. <br/> Il pericolo di valanghe umide e bagnate aumenterà leggermente nel corso della giornata. Con il rialzo termico e l'irradiazione solare diurni, nel corso della giornata sono ancora previste colate e valanghe bagnate, anche di medie dimensioni, attenzione soprattutto sui pendii ripidi estremi esposti a nord al di sotto dei 2900 m circa e sui pendii molto ripidi esposti a est, sud e ovest ad alta quota."
+    },
+    "snowpackStructure" : {
+      "comment" : "Notte: Sono caduti 5 cm di neve al di sopra dei 2800 m circa, localmente anche meno. È caduta pioggia sino ai 2800 m. L'alta umidità dell'aria causerà diffusamente un rapido assestamento del manto nevoso. <br/> Giovedì: Fino alla mattinata cadrà un po' di pioggia. Locali rovesci si alterneranno a zone con notte nuvolosa o più serena: il rigelo superficiale della neve potrà variare tanto da zona a zona. <br/> Negli ultimi giorni il tempo è stato mite. Ciò ha causato al di sotto dei 2900 m circa un progressivo inumidimento del manto nevoso. <br/> Con le forti oscillazioni di temperatura, il manto nevoso si è consolidato. Ciò soprattutto sui pendii soleggiati ripidi ad alta quota e a tutte le esposizioni alle quote di media montagna. <br/> Non sono praticamente più state segnalate valanghe. <br/> L'innevamento è estremamente variabile su piccola scala. <br/> Principalmente sui pendii soleggiati al di sotto dei 2600 m circa non c'è neve. Sui pendii ombreggiati al di sotto del limite del bosco c'è solo poca neve. <br/> Specialmente in alta montagna, nella parte basale del manto nevoso si trovano isolati strati fragili."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il tempo sarà per lo più soleggiato. La superficie del manto nevoso riuscirà a rigelarsi e a essere portante e si ammorbidirà rapidamente. Con il rialzo termico e l'irradiazione solare diurni, leggero aumento del pericolo di valanghe umide.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-04-30T22:00:00Z",
+        "endTime" : "2026-05-01T22:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-04-30"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP10" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2200",
+        "upperBound" : "2900"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "N", "NW", "E", "NE", "W" ]
+    }, {
+      "problemType" : "wet_snow",
+      "elevation" : {
+        "lowerBound" : "2500",
+        "upperBound" : "3300"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "few",
+      "avalancheSize" : 2,
+      "aspects" : [ "SE", "S", "SW" ]
+    } ],
+    "bulletinID" : "a02d0c93-e2b9-4e98-9f73-c7afcb97e095",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "C - VAL DI COGNE AYMAVILLES",
+      "regionID" : "IT-23-AO-12"
+    }, {
+      "name" : "C - VALSAVARENCHE",
+      "regionID" : "IT-23-AO-13"
+    }, {
+      "name" : "B - CHAMPDEPRAZ MONTE AVIC",
+      "regionID" : "IT-23-AO-10"
+    }, {
+      "name" : "B - VALLE DI CHAMPORCHER",
+      "regionID" : "IT-23-AO-11"
+    }, {
+      "name" : "D - VALGRISENCHE",
+      "regionID" : "IT-23-AO-16"
+    }, {
+      "name" : "D - LA SALLE MORGEX",
+      "regionID" : "IT-23-AO-17"
+    }, {
+      "name" : "D - VAL FERRET",
+      "regionID" : "IT-23-AO-14"
+    }, {
+      "name" : "D - VALLE DI LA THUILE",
+      "regionID" : "IT-23-AO-15"
+    }, {
+      "name" : "D - GRAN SAN BERNARDO OLLOMONT",
+      "regionID" : "IT-23-AO-18"
+    }, {
+      "name" : "D - BASSA E MEDIA VALPELLINE",
+      "regionID" : "IT-23-AO-19"
+    }, {
+      "name" : "D - CERVINIA E ALTA VALPELLINE",
+      "regionID" : "IT-23-AO-20"
+    }, {
+      "name" : "A - TESTATA SAINT-BARTHELEMY",
+      "regionID" : "IT-23-AO-23"
+    }, {
+      "name" : "A - SAINT-PIERRE SAINT-NICHOLAS",
+      "regionID" : "IT-23-AO-01"
+    }, {
+      "name" : "A - VALTOURNENCHE",
+      "regionID" : "IT-23-AO-24"
+    }, {
+      "name" : "A - INTROD ARVIER",
+      "regionID" : "IT-23-AO-02"
+    }, {
+      "name" : "C - VAL DI RHEMES",
+      "regionID" : "IT-23-AO-21"
+    }, {
+      "name" : "D - VAL VENY",
+      "regionID" : "IT-23-AO-22"
+    }, {
+      "name" : "A - BASSA VALTOURNENCHE CHATILLON",
+      "regionID" : "IT-23-AO-05"
+    }, {
+      "name" : "B - ALTA VALLE DI GRESSONEY",
+      "regionID" : "IT-23-AO-06"
+    }, {
+      "name" : "B - TESTATA VAL D'AYAS SAINT-JACQUES",
+      "regionID" : "IT-23-AO-25"
+    }, {
+      "name" : "A - QUART NUS",
+      "regionID" : "IT-23-AO-03"
+    }, {
+      "name" : "A - PONTEY",
+      "regionID" : "IT-23-AO-26"
+    }, {
+      "name" : "A - POLLEIN SAINT MARCEL",
+      "regionID" : "IT-23-AO-04"
+    }, {
+      "name" : "B - VALLI DI GRESSONEY, AYAS, CHAMPORCHER",
+      "regionID" : "IT-23-AO-09"
+    }, {
+      "name" : "B - MEDIA VAL D'AYAS BRUSSON",
+      "regionID" : "IT-23-AO-07"
+    }, {
+      "name" : "B - MEDIA VALLE DEL LYS",
+      "regionID" : "IT-23-AO-08"
+    } ]
+  } ]
+}
