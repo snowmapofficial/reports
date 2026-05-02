@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="de" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-05-01T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Lawinen.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="943164e2-4122-489a-b873-9644598563bf" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-01T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-01T22:00:00Z</beginPosition>
+          <endPosition>2026-05-02T10:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems/>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-02T22:00:00Z</beginPosition>
+                <endPosition>2026-05-03T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.</avActivityHighlights>
+          <avActivityComment>Der Lawinenwarndienst hat derzeit wenig Informationen, weshalb die Lawinengefahr vor Ort besonders gründlich überprüft werden sollte. &lt;br/&gt; &lt;br/&gt; Die Schneeoberfläche ist tragfähig gefroren weicht im Tagesverlauf auf. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Lawinengefahr im Tagesverlauf allmählich an. Es sind einzelne nasse Rutsche und Lawinen möglich. Dies vor allem an sehr steilen Sonnenhängen im Hochgebirge. &lt;br/&gt; &lt;br/&gt; Nebst der Verschüttungsgefahr sollte auch die Mitreiß- und Absturzgefahr beachtet werden. Touren sollten früh gestartet und beendet werden. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Oberhalb von rund 3300 m, Schattenhänge: Die Schneedecke ist trocken, mit einer aus lockerem Schnee bestehenden Oberfläche, die auf einer oft tragfähigen Kruste liegt. Dies vor allem am Morgen. Unterhalb von rund 2800 m: Die Schneedecke ist recht homogen, mit einer Schmelzharschkruste an der Oberfläche. Dies vor allem nach klarer Nacht. &lt;br/&gt; Sonne und Wärme führen im Tagesverlauf zu einer zunehmenden Anfeuchtung der Schneedecke. &lt;br/&gt; Vor allem an steilen Sonnenhängen unterhalb von rund 2500 m liegt nur wenig Schnee. &lt;br/&gt;</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="943164e2-4122-489a-b873-9644598563bf_PM" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-01T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-02T10:00:00Z</beginPosition>
+          <endPosition>2026-05-02T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-02T22:00:00Z</beginPosition>
+                <endPosition>2026-05-03T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die Gefahr von feuchten und nassen Lawinen steigt im Tagesverlauf an.</avActivityHighlights>
+          <avActivityComment>Der Lawinenwarndienst hat derzeit wenig Informationen, weshalb die Lawinengefahr vor Ort besonders gründlich überprüft werden sollte. &lt;br/&gt; &lt;br/&gt; Die Schneeoberfläche ist tragfähig gefroren weicht im Tagesverlauf auf. Mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung steigt die Lawinengefahr im Tagesverlauf allmählich an. Es sind einzelne nasse Rutsche und Lawinen möglich. Dies vor allem an sehr steilen Sonnenhängen im Hochgebirge. &lt;br/&gt; &lt;br/&gt; Nebst der Verschüttungsgefahr sollte auch die Mitreiß- und Absturzgefahr beachtet werden. Touren sollten früh gestartet und beendet werden. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Oberhalb von rund 3300 m, Schattenhänge: Die Schneedecke ist trocken, mit einer aus lockerem Schnee bestehenden Oberfläche, die auf einer oft tragfähigen Kruste liegt. Dies vor allem am Morgen. Unterhalb von rund 2800 m: Die Schneedecke ist recht homogen, mit einer Schmelzharschkruste an der Oberfläche. Dies vor allem nach klarer Nacht. &lt;br/&gt; Sonne und Wärme führen im Tagesverlauf zu einer zunehmenden Anfeuchtung der Schneedecke. &lt;br/&gt; Vor allem an steilen Sonnenhängen unterhalb von rund 2500 m liegt nur wenig Schnee. &lt;br/&gt;</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="550dc2c9-2cd6-4eea-918f-d243fdb90bc2" xml:lang="de">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-01T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Lawinen.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-01T22:00:00Z</beginPosition>
+          <endPosition>2026-05-02T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems/>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-02T22:00:00Z</beginPosition>
+                <endPosition>2026-05-03T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>Die Schneedecke ist allgemein stabil.</avActivityHighlights>
+          <avActivityComment>Der Lawinenwarndienst hat derzeit wenig Informationen, weshalb die Lawinengefahr vor Ort besonders gründlich überprüft werden sollte. &lt;br/&gt; &lt;br/&gt; Auch hohe Lagen und Hochgebirge: Mit starken Temperaturschwankungen verfestigte sich die Schneedecke. Leichter Anstieg der Gefahr von feuchten und nassen Rutschen mit der tageszeitlichen Erwärmung und der Sonneneinstrahlung. &lt;br/&gt; Touren sollten rechtzeitig beendet werden. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Die Schneedecke ist recht homogen, mit einer tragfähigen Schmelzharschkruste an der Oberfläche. Dies vor allem am Morgen bei klarer Nacht. &lt;br/&gt; Sonne und Wärme führen im Tagesverlauf vor allem in mittleren und hohen Lagen zu einer zunehmenden Anfeuchtung der Schneedecke. &lt;br/&gt; An steilen Sonnenhängen unterhalb von rund 2500 m liegt nur wenig Schnee.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
