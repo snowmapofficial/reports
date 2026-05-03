@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObsCollection xmlns="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS http://caaml.org/Schemas/V5.0/Profiles/BulletinEAWS/CAAMLv5_BulletinEAWS.xsd">
+  <metaDataProperty>
+    <MetaData>
+      <dateTimeReport>2026-05-02T15:00:00Z</dateTimeReport>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+    </MetaData>
+  </metaDataProperty>
+  <observations>
+    <Bulletin gml:id="abef6486-3fa2-49af-b0f8-b80087dd33b8" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-02T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-02T22:00:00Z</beginPosition>
+          <endPosition>2026-05-03T10:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems/>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-03T22:00:00Z</beginPosition>
+                <endPosition>2026-05-04T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>The danger of moist and wet avalanches will increase during the day.</avActivityHighlights>
+          <avActivityComment>The Avalanche Warning Service currently has only a small amount of information, so that the avalanche danger should be investigated especially thoroughly in the relevant locality. &lt;br/&gt; &lt;br/&gt; The surface of the snowpack has frozen to form a strong crust will soften during the day. As the day progresses as a consequence of warming during the day and solar radiation there will be a gradual increase in the avalanche danger. Only isolated wet snow slides and avalanches are possible. This applies in particular on very steep sunny slopes in high Alpine regions. &lt;br/&gt; &lt;br/&gt; Apart from the danger of being buried, restraint should be exercised as well in view of the danger of avalanches sweeping people along and giving rise to falls. Backcountry tours should be started and concluded early. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Above approximately 3500 m, shady slopes: The snowpack is dry and its surface consists of loosely bonded snow lying on a crust that is strong in many cases. This applies in particular in the early morning. Below approximately 2800 m: The snowpack is fairly homogeneous and its surface has a melt-freeze crust. After a clear night this applies in particular. &lt;br/&gt; The high temperatures as the day progresses will give rise to increasing moistening of the snowpack. &lt;br/&gt; In particular on steep sunny slopes below approximately 2500 m only a little snow is lying. &lt;br/&gt;</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="abef6486-3fa2-49af-b0f8-b80087dd33b8_PM" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-02T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-03T10:00:00Z</beginPosition>
+          <endPosition>2026-05-03T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-TO-05"/>
+      <locRef xlink:href="IT-21-TO-03"/>
+      <locRef xlink:href="IT-21-VB-01"/>
+      <locRef xlink:href="IT-21-VB-02"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+              <mainValue>2</mainValue>
+            </DangerRating>
+            <DangerRating>
+              <validElevation xlink:href="ElevationRange_2800Lw"/>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems>
+            <AvProblem>
+              <type>wet snow</type>
+              <validAspect xlink:href="AspectRange_nw"/>
+              <validAspect xlink:href="AspectRange_w"/>
+              <validAspect xlink:href="AspectRange_e"/>
+              <validAspect xlink:href="AspectRange_ne"/>
+              <validAspect xlink:href="AspectRange_n"/>
+              <validElevation xlink:href="ElevationRange_2800Hi"/>
+            </AvProblem>
+          </avProblems>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-03T22:00:00Z</beginPosition>
+                <endPosition>2026-05-04T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>The danger of moist and wet avalanches will increase during the day.</avActivityHighlights>
+          <avActivityComment>The Avalanche Warning Service currently has only a small amount of information, so that the avalanche danger should be investigated especially thoroughly in the relevant locality. &lt;br/&gt; &lt;br/&gt; The surface of the snowpack has frozen to form a strong crust will soften during the day. As the day progresses as a consequence of warming during the day and solar radiation there will be a gradual increase in the avalanche danger. Only isolated wet snow slides and avalanches are possible. This applies in particular on very steep sunny slopes in high Alpine regions. &lt;br/&gt; &lt;br/&gt; Apart from the danger of being buried, restraint should be exercised as well in view of the danger of avalanches sweeping people along and giving rise to falls. Backcountry tours should be started and concluded early. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>Above approximately 3500 m, shady slopes: The snowpack is dry and its surface consists of loosely bonded snow lying on a crust that is strong in many cases. This applies in particular in the early morning. Below approximately 2800 m: The snowpack is fairly homogeneous and its surface has a melt-freeze crust. After a clear night this applies in particular. &lt;br/&gt; The high temperatures as the day progresses will give rise to increasing moistening of the snowpack. &lt;br/&gt; In particular on steep sunny slopes below approximately 2500 m only a little snow is lying. &lt;br/&gt;</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+    <Bulletin gml:id="21ce1309-59fc-46db-b7f4-323c932a3fe8" xml:lang="en">
+      <metaDataProperty>
+        <MetaData>
+          <dateTimeReport>2026-05-02T15:00:00Z</dateTimeReport>
+          <srcRef>
+            <Operation>
+              <name>Avalanche.report</name>
+            </Operation>
+          </srcRef>
+        </MetaData>
+      </metaDataProperty>
+      <validTime>
+        <TimePeriod>
+          <beginPosition>2026-05-02T22:00:00Z</beginPosition>
+          <endPosition>2026-05-03T22:00:00Z</endPosition>
+        </TimePeriod>
+      </validTime>
+      <srcRef>
+        <Operation>
+          <name>Avalanche.report</name>
+        </Operation>
+      </srcRef>
+      <locRef xlink:href="IT-21-VB-03"/>
+      <locRef xlink:href="IT-21-CN-01"/>
+      <locRef xlink:href="IT-21-TO-01"/>
+      <locRef xlink:href="IT-21-CN-04"/>
+      <locRef xlink:href="IT-21-TO-04"/>
+      <locRef xlink:href="IT-21-CN-05"/>
+      <locRef xlink:href="IT-21-CN-02"/>
+      <locRef xlink:href="IT-21-TO-02"/>
+      <locRef xlink:href="IT-21-CN-03"/>
+      <locRef xlink:href="IT-21-VC-01"/>
+      <bulletinResultsOf>
+        <BulletinMeasurements>
+          <dangerRatings>
+            <DangerRating>
+              <mainValue>1</mainValue>
+            </DangerRating>
+          </dangerRatings>
+          <dangerPatterns>
+            <DangerPattern>
+              <type>DP10</type>
+            </DangerPattern>
+          </dangerPatterns>
+          <avProblems/>
+          <tendency>
+            <type>steady</type>
+            <validTime>
+              <TimePeriod>
+                <beginPosition>2026-05-03T22:00:00Z</beginPosition>
+                <endPosition>2026-05-04T22:00:00Z</endPosition>
+              </TimePeriod>
+            </validTime>
+          </tendency>
+          <avActivityHighlights>The snowpack will be generally stable.</avActivityHighlights>
+          <avActivityComment>The Avalanche Warning Service currently has only a small amount of information, so that the avalanche danger should be investigated especially thoroughly in the relevant locality. &lt;br/&gt; &lt;br/&gt; Also high altitudes and the high Alpine regions: As a consequence of highly fluctuating temperatures the snowpack consolidated. Slight increase in danger of moist and wet snow slides as a consequence of warming during the day and solar radiation. &lt;br/&gt; Backcountry tours should be concluded timely. &lt;br/&gt; &lt;br/&gt;</avActivityComment>
+          <snowpackStructureComment>The snowpack is fairly homogeneous and its surface has a strong melt-freeze crust. In the event of a clear night this applies in particular in the early morning. &lt;br/&gt; The high temperatures as the day progresses will give rise to increasing moistening of the snowpack in particular at intermediate and high altitudes. &lt;br/&gt; On steep sunny slopes below approximately 2500 m only a little snow is lying.</snowpackStructureComment>
+        </BulletinMeasurements>
+      </bulletinResultsOf>
+    </Bulletin>
+  </observations>
+</ObsCollection>
