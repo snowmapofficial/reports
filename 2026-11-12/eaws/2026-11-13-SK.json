@@ -1,0 +1,94 @@
+{
+  "bulletins": [
+    {
+      "avalancheActivity": {
+        "comment": "The avalanche conditions will change as a cold front passes through. Initially, rain will gradually turn to snow, and the snow line will drop to 600 meters above sea level. High-altitude areas will be particularly problematic, with about 15 cm of new snow expected; however, wind drift may increase this amount in some places. Areas with old snow will be especially dangerous. The interface between the old and new snowpack will be particularly critical. Given the expected amount of new snow, we anticipate the occurrence of mostly small avalanches or snow slides, especially on very steep slopes. However, even these can sweep a person away and cause a fall or mechanical injuries. In rocky and exposed terrain, they can therefore pose a serious danger. The situation may be complicated during the day by wind, which can cause snow to be blown around and form snow slabs and snow pillows.",
+        "highlights": "Watch out for avalanches caused by new snow at high elevations above 1,800 meters above sea level."
+      },
+      "avalancheProblems": [
+        {
+          "problemType": "new_snow",
+          "aspects": [
+            "NE",
+            "E",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "very_poor",
+          "validTimePeriod": "all_day"
+        },
+        {
+          "problemType": "wind_slab",
+          "aspects": [
+            "NE",
+            "E",
+            "SE",
+            "S"
+          ],
+          "avalancheSize": 1,
+          "elevation": {
+            "lowerBound": "1800"
+          },
+          "frequency": "few",
+          "snowpackStability": "poor",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "bulletinID": "3c3846d1-984b-4bea-8d7d-e26e90b5812d",
+      "customData": {
+        "ALBINA": {
+          "mainDate": "2026-11-13"
+        },
+        "LWD_Tyrol": {
+          "dangerPatterns": []
+        }
+      },
+      "dangerRatings": [
+        {
+          "mainValue": "low",
+          "validTimePeriod": "all_day"
+        }
+      ],
+      "lang": "en",
+      "publicationTime": "2026-11-12T18:23:23+00:00",
+      "regions": [
+        {
+          "regionID": "SK-01",
+          "name": "Vysok\u00e9 Tatry - v\u00fdchod"
+        },
+        {
+          "regionID": "SK-02",
+          "name": "Vysok\u00e9 Tatry - z\u00e1pad"
+        },
+        {
+          "regionID": "SK-03",
+          "name": "Z\u00e1padn\u00e9 Tatry"
+        }
+      ],
+      "snowpackStructure": {
+        "comment": "The old snowpack is found mainly at high elevations above 1,800 meters above sea level, in shaded areas, and on the northern side of the Tatra Mountains even at significantly lower elevations. The expected precipitation will bring about 15 cm of new snow. It will start as rain and then turn to wet snow. This pattern is favorable for stabilizing the snowpack, but strong winds may cause the formation of snow slabs and pillows, which will worsen the situation."
+      },
+      "source": {
+        "provider": {
+          "name": "SLP+HZS",
+          "website": "https://avalanches.sk/"
+        }
+      },
+      "tendency": [
+        {
+          "highlights": "stays the same",
+          "tendencyType": "steady"
+        }
+      ],
+      "validTime": {
+        "startTime": "2026-11-12T23:00:00+00:00",
+        "endTime": "2026-11-13T23:00:00+00:00"
+      }
+    }
+  ]
+}
