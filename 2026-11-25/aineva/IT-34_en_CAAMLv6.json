@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-11-25T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-11-25T23:00:00Z",
+      "endTime" : "2026-11-26T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "Over a wide area 50 cm of snow, and even more in some localities, will fall.",
+      "comment" : "In steep rocky terrain and on very steep slopes small and medium sized avalanches are to be expected as the day progresses. Individual gliding avalanches can also occur. <br/> <br/> The wind slabs can be released even by a single winter sport participant in all aspects above the tree line. They will be covered with new snow and therefore difficult to recognise. Adjacent to ridgelines and in gullies and bowls and at the base of rock walls the likelihood of avalanches is higher."
+    },
+    "snowpackStructure" : {
+      "comment" : "As a consequence of new snow and a moderate southerly wind, wind slabs will form adjacent to ridgelines and in gullies and bowls. <br/> Below approximately 2000 m only a little snow is lying. <br/> Towards its base, the snowpack is faceted and weak. <br/> The Avalanche Warning Service currently has only a small amount of information that has been collected in the field."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Northerly wind. The danger will persist.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-11-26T23:00:00Z",
+        "endTime" : "2026-11-27T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-11-26"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "new_snow",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "S", "NW", "SE", "N", "SW", "W" ]
+    }, {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 3,
+      "aspects" : [ "NE", "E", "S", "NW", "SE", "N", "SW", "W" ]
+    } ],
+    "bulletinID" : "2a789d72-e941-4086-9e1e-980b62094b41",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "considerable",
+      "elevation" : {
+        "lowerBound" : "treeline"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "en",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
