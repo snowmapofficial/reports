@@ -1,0 +1,96 @@
+{
+  "bulletins" : [ {
+    "publicationTime" : "2026-11-27T16:00:00Z",
+    "validTime" : {
+      "startTime" : "2026-11-27T23:00:00Z",
+      "endTime" : "2026-11-28T23:00:00Z"
+    },
+    "unscheduled" : false,
+    "weatherForecast" : { },
+    "avalancheActivity" : {
+      "highlights" : "La neve ventata è la principale fonte di pericolo.",
+      "comment" : "Gli accumuli di neve ventata possono subire un distacco già in seguito al passaggio di un singolo appassionato di sport invernali soprattutto sui pendii ripidi ombreggiati. Le valanghe possono raggiungere dimensioni medie. Nelle zone in prossimità delle creste, nelle conche e nei canaloni e nelle basi di pareti rocciose la probabilità di distacco è maggiore. I punti pericolosi e la probabilità di distacco aumenteranno con l'altitudine. <br/> <br/> Gli strati deboli presenti nella parte basale del manto nevoso possono distaccarsi in alcuni punti. Ciò sui pendii ombreggiati ripidi al di sopra dei 2400 m circa. <br/> <br/> Con l'irradiazione solare, soprattutto sui pendii soleggiati molto ripidi e sui pendii ripidi rocciosi sono possibili valanghe asciutte e umide di piccole dimensioni. <br/> Attualmente il servizio di previsione valanghe dispone di informazioni limitate dal territorio. Il pericolo di valanghe dovrebbe quindi essere valutato con particolare attenzione sul posto."
+    },
+    "snowpackStructure" : {
+      "comment" : "Da mercoledì sono caduti da 5 a 30 cm di neve al di sopra dei 1600 m circa. Con neve fresca e vento moderato proveniente da direzioni vartiabili nelle zone in prossimità delle creste, nelle conche e nei canaloni si sono formati accumuli di neve ventata. <br/> <br/> All'interno del manto di neve vecchia si trovano strati fragili instabili. I rumori di \"whum\" e la formazione di fessure quando si calpesta la coltre di neve così come nuove valanghe sono campanelli di allarme. <br/> <br/> Al di sotto dei 2000 m circa è presente solo poca neve."
+    },
+    "travelAdvisory" : { },
+    "tendency" : [ {
+      "highlights" : "Il pericolo rimarrà invariato.",
+      "tendencyType" : "steady",
+      "validTime" : {
+        "startTime" : "2026-11-28T23:00:00Z",
+        "endTime" : "2026-11-29T23:00:00Z"
+      }
+    } ],
+    "customData" : {
+      "ALBINA" : {
+        "mainDate" : "2026-11-28"
+      },
+      "LWD_Tyrol" : {
+        "dangerPatterns" : [ "DP6", "DP1" ]
+      }
+    },
+    "avalancheProblems" : [ {
+      "problemType" : "wind_slab",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "SE", "E", "W", "SW", "NE", "N", "S" ]
+    }, {
+      "problemType" : "persistent_weak_layers",
+      "elevation" : {
+        "lowerBound" : "2200"
+      },
+      "validTimePeriod" : "all_day",
+      "snowpackStability" : "poor",
+      "frequency" : "some",
+      "avalancheSize" : 2,
+      "aspects" : [ "NW", "W", "E", "NE", "N" ]
+    } ],
+    "bulletinID" : "62241362-262b-4ac5-9424-20ef59d7d66e",
+    "dangerRatings" : [ {
+      "mainValue" : "low",
+      "elevation" : {
+        "upperBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    }, {
+      "mainValue" : "moderate",
+      "elevation" : {
+        "lowerBound" : "1800"
+      },
+      "validTimePeriod" : "all_day"
+    } ],
+    "lang" : "it",
+    "regions" : [ {
+      "name" : "Alpago - Cansiglio",
+      "regionID" : "IT-34-BL-05"
+    }, {
+      "name" : "Vette Feltrine, Visentin, Grappa",
+      "regionID" : "IT-34-BL-06"
+    }, {
+      "name" : "Ansiei - Comelico",
+      "regionID" : "IT-34-BL-03"
+    }, {
+      "name" : "Cadore",
+      "regionID" : "IT-34-BL-04"
+    }, {
+      "name" : "Baldo, Lessini",
+      "regionID" : "IT-34-VR-01"
+    }, {
+      "name" : "Agordino, Zoldano",
+      "regionID" : "IT-34-BL-01"
+    }, {
+      "name" : "Ampezzo - Cadore",
+      "regionID" : "IT-34-BL-02"
+    }, {
+      "name" : "Altopiano, Pasubio, Carega",
+      "regionID" : "IT-34-VI-01"
+    } ]
+  } ]
+}
